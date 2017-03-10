@@ -1,12 +1,12 @@
 package org.citeplag;
 
 import io.swagger.annotations.ApiOperation;
+import org.citeplag.latexml.LaTeXMLConverter;
 import org.citeplag.match.Similarity;
 import org.citeplag.search.BruteSearch;
 import org.citeplag.search.Generator;
 import org.citeplag.search.MathNode;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.Collections;
 import java.util.List;
@@ -22,8 +22,11 @@ public class MathController {
 
     @PostMapping()
     @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML with pmml, cmml and tex semantics.")
-    public String convertLatexml(@RequestBody String latex) throws Exception {
-        return new LaTeXMLConverter().runLatexmlc(latex);
+    public String convertLatexmlInstallation(
+            @RequestParam(required = false, defaultValue = "false") Boolean service,
+            @RequestBody String latex) throws Exception {
+        LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter();
+        return service ? laTeXMLConverter.convertLatexmlService(latex) : laTeXMLConverter.runLatexmlc(latex);
     }
 
     @PostMapping(path = "similarity")
@@ -44,16 +47,6 @@ public class MathController {
             e.printStackTrace();
             return Collections.emptyList();
         }
-    }
-
-    //    @GetMapping()
-    public String test2() {
-        // http://gw125.iu.xsede.org:8888
-
-        RestTemplate restTemplate = new RestTemplate();
-        return restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", String.class);
-
-        //return "<html><body><h1>Hello World</h1></body></html>";
     }
 
 }

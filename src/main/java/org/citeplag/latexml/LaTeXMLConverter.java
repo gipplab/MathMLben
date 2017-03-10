@@ -1,6 +1,7 @@
-package org.citeplag;
+package org.citeplag.latexml;
 
 import org.citeplag.util.CommandExecutor;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * Main class for conversion from a latex formula to
@@ -19,7 +20,7 @@ public class LaTeXMLConverter {
      * @return MathML representation as String
      * @throws Exception Execution of latexmlc failed.
      */
-    String runLatexmlc(String latex) throws Exception {
+    public String runLatexmlc(String latex) throws Exception {
         CommandExecutor latexmlmath = new CommandExecutor("latexmlc",
                 "--includestyles",
                 "--format=xhtml",
@@ -44,6 +45,33 @@ public class LaTeXMLConverter {
                 "--preload", "texvc",
                 "literal:" + latex);
         return latexmlmath.exec(2000L);
+    }
+
+    public String convertLatexmlService(String latex) {
+        String payload = "format=xhtml" +
+                "&whatsin=math" +
+                "&whatsout=math" +
+                "&pmml" +
+                "&cmml" +
+                "&nodefaultresources" +
+                "&preload=LaTeX.pool" +
+                "&preload=article.cls" +
+                "&preload=amsmath.sty" +
+                "&preload=amsthm.sty" +
+                "&preload=amstext.sty" +
+                "&preload=amssymb.sty" +
+                "&preload=eucal.sty" +
+                "&preload=%5Bdvipsnames%5Dxcolor.sty" +
+                "&preload=url.sty" +
+                "&preload=hyperref.sty" +
+                "&preload=%5Bids%5Dlatexml.sty" +
+                "&preload=texvc" +
+                "&tex=literal:"
+                + latex;
+
+        RestTemplate restTemplate = new RestTemplate();
+        ServiceResponse serviceResponse = restTemplate.postForObject("http://gw125.iu.xsede.org:8888", payload, ServiceResponse.class);
+        return serviceResponse.getResult();
     }
 
     /**
