@@ -1,11 +1,10 @@
 package org.citeplag;
 
 import io.swagger.annotations.ApiOperation;
-import org.apache.log4j.Logger;
+import org.citeplag.match.Similarity;
 import org.citeplag.search.BruteSearch;
 import org.citeplag.search.Generator;
 import org.citeplag.search.MathNode;
-import org.citeplag.match.Similarity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -20,8 +19,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/math")
 public class MathController {
-
-    private static Logger logger = Logger.getLogger(MathController.class);
 
     @PostMapping()
     @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML with pmml, cmml and tex semantics.")
