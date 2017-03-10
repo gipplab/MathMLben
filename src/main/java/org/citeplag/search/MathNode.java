@@ -1,0 +1,92 @@
+package org.citeplag.search;
+
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * @author Vincent Stange
+ */
+public class MathNode {
+
+    private String name = null;
+
+    private String id = null;
+
+    public String value = "";
+
+    public Map<String, String> attributes = new HashMap<>();
+
+    public MathNode operator = null;
+
+    public ArrayList<MathNode> children = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return String.format("%s:%s", name, value) + (operator != null ? "-" + operator.toString() : "");
+    }
+
+    public void setAttributes(NamedNodeMap attributes) {
+        if (attributes == null)
+            return;
+        int numAttrs = attributes.getLength();
+        for (int i = 0; i < numAttrs; i++) {
+            Node attr = attributes.item(i);
+            String attrName = attr.getNodeName();
+            if ("id".equals(attrName))
+                setId(attr.getNodeValue());
+            this.attributes.put(attrName, attr.getNodeValue());
+        }
+    }
+
+    public String getAttribute(String key) {
+        return attributes.get(key);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        MathNode mathNode = (MathNode) o;
+
+        if (name != null ? !name.equals(mathNode.name) : mathNode.name != null) return false;
+        if (!value.equals(mathNode.value)) return false;
+        return operator != null ? operator.equals(mathNode.operator) : mathNode.operator == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + value.hashCode();
+        result = 31 * result + (operator != null ? operator.hashCode() : 0);
+        return result;
+    }
+
+    public void debug(String indent) {
+        System.out.println(indent + this.toString());
+        for (MathNode child: children) {
+            child.debug(indent + "  ");
+        }
+    }
+
+}

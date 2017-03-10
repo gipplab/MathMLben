@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Math Pipeline</title>
+</head>
+<body>
+<center>
+    <table>
+        <tr>
+            <td>
+                <input id="latex1" type="text" size=60 value="Latex 1"/><br/><br/>
+                <textarea id="mathml1" cols=60 rows=10 wrap=true>MathML 1</textarea><br/><br/>
+
+                <input id="latex2" type="text" size=60 value="Latex 2"/><br/><br/>
+                <textarea id="mathml2" cols=60 rows=10 wrap=true>MathML 2</textarea><br/><br/>
+
+                <textarea id="sim" cols=60 rows=10 wrap=true>Similarities</textarea><br/><br/>
+                <!-- Buttons -->
+                <input type="button" id="cvt" onclick="convertLatex()" value="Convert">&nbsp;
+                <input type="button" id="smr" onclick="getSimilarities()" value="Compare"><br><br>
+                <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">&nbsp;
+                <input type="button" id="rdrC" onclick="renderCompare()" value="Render Compare"><br><br>
+
+                <label for="port">Server Port</label>&nbsp;<input id="port" type="number" size=5 value="8080"/>
+            </td>
+            <td>
+                <div id="ast"  style="height:700px; width:700px"/>
+            </td>
+        </tr>
+    </table>
+</center>
+
+<!-- Scripts -->
+<script type="text/javascript" src="mini-backend.js"></script>
+</body>
+</html>
