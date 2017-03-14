@@ -18,11 +18,14 @@ public class MathNode {
 
     public String value = "";
 
-    public Map<String, String> attributes = new HashMap<>();
+    private Map<String, String> attributes = new HashMap<>();
 
-    public MathNode operator = null;
+    private MathNode operator = null;
 
-    public ArrayList<MathNode> children = new ArrayList<>();
+    // Is the order of children nodes
+    private boolean orderSensitive = true;
+
+    private ArrayList<MathNode> children = new ArrayList<>();
 
     @Override
     public String toString() {
@@ -62,6 +65,27 @@ public class MathNode {
         this.id = id;
     }
 
+    public MathNode getOperator() {
+        return operator;
+    }
+
+    public void setOperator(MathNode operator) {
+        this.operator = operator;
+        orderSensitive = !(operator.getName().equals("times") || operator.getName().equals("plus"));
+    }
+
+    public boolean isOrderSensitive() {
+        return orderSensitive;
+    }
+
+    public ArrayList<MathNode> getChildren() {
+        return children;
+    }
+
+    public void addChild(MathNode child) {
+        this.children.add(child);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -84,7 +108,7 @@ public class MathNode {
 
     public void debug(String indent) {
         System.out.println(indent + this.toString());
-        for (MathNode child: children) {
+        for (MathNode child : children) {
             child.debug(indent + "  ");
         }
     }

@@ -12,9 +12,9 @@ public class Similarity {
 
     public List<Match> matches = new ArrayList<>();
 
-    public Similarity(String id, String idMatch) {
+    public Similarity(String id, String idMatch, Match.Type type) {
         this.id = id;
-        matches.add(new Match(idMatch));
+        matches.add(new Match(idMatch, type));
     }
 
     public Match addMatch(Match match) {

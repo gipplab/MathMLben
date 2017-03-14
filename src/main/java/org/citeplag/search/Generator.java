@@ -49,9 +49,9 @@ public class Generator {
     /**
      * recursive method
      *
-     * @param node
-     * @return
-     * @throws TransformerException
+     * @param node current xml node in cmml
+     * @return converted MathNode we use in this application
+     * @throws TransformerException xml reading error
      */
     MathNode createMathNode(Node node) throws TransformerException {
         MathNode mathNode = new MathNode();
@@ -59,10 +59,9 @@ public class Generator {
 
         // TODO the current renderer always refers to the first child as the current display node
         // if it's an "apply" node - look at the first child
-        int cIndex = 0;
         if ("apply".equals(node.getNodeName())) {
             if (childNodes.size() > 0) {
-                mathNode.operator = createMathNode(childNodes.get(cIndex++));
+                mathNode.setOperator(createMathNode(childNodes.get(0)));
                 childNodes.remove(0);
             }
         }
@@ -73,7 +72,7 @@ public class Generator {
 
         if (childNodes.size() > 0) {
             for (Node childNode : childNodes) {
-                mathNode.children.add(createMathNode(childNode));
+                mathNode.addChild(createMathNode(childNode));
             }
         }
         return mathNode;
@@ -112,7 +111,7 @@ public class Generator {
         return sw.toString();
     }
 
-    Document parseDocument(String documentContent) throws IOException, ParserConfigurationException, SAXException {
+    private Document parseDocument(String documentContent) throws IOException, ParserConfigurationException, SAXException {
         try {
             InputSource inputStream = new InputSource(new StringReader(documentContent));
             return domFactory.newDocumentBuilder().parse(inputStream);

@@ -18,7 +18,7 @@ var HttpClient = function() {
 };
 
 function getServerAdr() {
-    return "http://localhost:" + document.getElementById("port").value;;
+    return "http://localhost:" + document.getElementById("port").value;
 };
 
 function convertLatex() {

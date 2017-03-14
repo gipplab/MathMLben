@@ -1,0 +1,3 @@
+server:
+#  servlet-path: /pipe   # custom servlet-path
+  port: 8080            # default server port, if not set otherwise
