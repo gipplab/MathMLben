@@ -1,3 +1,19 @@
 server:
 #  servlet-path: /pipe   # custom servlet-path
   port: 8080            # default server port, if not set otherwise
+
+# the use of the latexml online service (via url) is optional
+# if service is not found or configured properly fallback is the local latexml installation
+latexml:
+  url: http://gw125.iu.xsede.org:8888 # set a url if you want the option of the online service
+  params:                             # parameters for the online service
+    whatsin: math
+    whatsout: math
+    includestyles:
+    format: xhtml
+    pmml:
+    cmml:
+    nodefaultresources:
+    linelength: 90
+    quiet:
+    preload: "LaTeX.pool,article.cls,amsmath.sty,amsthm.sty,amstext.sty,amssymb.sty,eucal.sty,[dvipsnames]xcolor.sty,url.sty,hyperref.sty,[ids]latexml.sty,texvc"

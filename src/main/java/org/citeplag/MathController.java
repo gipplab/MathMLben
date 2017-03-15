@@ -1,11 +1,15 @@
 package org.citeplag;
 
 import io.swagger.annotations.ApiOperation;
+import org.apache.log4j.Logger;
 import org.citeplag.latexml.LaTeXMLConverter;
+import org.citeplag.latexml.LateXMLConfig;
 import org.citeplag.match.Similarity;
 import org.citeplag.search.BruteSearch;
 import org.citeplag.search.Generator;
 import org.citeplag.search.MathNode;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
@@ -20,13 +24,25 @@ import java.util.List;
 @RequestMapping("/math")
 public class MathController {
 
+    private static Logger logger = Logger.getLogger(MathController.class);
+
+    @Autowired
+    LateXMLConfig lateXMLConfig;
+
     @PostMapping()
-    @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML with pmml, cmml and tex semantics.")
+    @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
     public String convertLatexmlInstallation(
             @RequestParam(required = false, defaultValue = "false") Boolean service,
             @RequestBody String latex) throws Exception {
-        LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter();
-        return service ? laTeXMLConverter.convertLatexmlService(latex) : laTeXMLConverter.runLatexmlc(latex);
+        LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(lateXMLConfig);
+        try {
+            if (service && !StringUtils.isEmpty(lateXMLConfig.getUrl()))
+                return laTeXMLConverter.convertLatexmlService(latex);
+        } catch (Exception e) {
+            logger.error("latexml online service error", e);
+            // fallback, try to use the local installation
+        }
+        return laTeXMLConverter.runLatexmlc(latex);
     }
 
     @PostMapping(path = "similarity")
@@ -44,7 +60,7 @@ public class MathController {
             BruteSearch bruteSearch = new BruteSearch();
             return bruteSearch.getSimilarities(mathNodeA, mathNodeB);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("similarity error", e);
             return Collections.emptyList();
         }
     }

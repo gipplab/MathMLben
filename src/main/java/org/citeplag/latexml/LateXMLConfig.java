@@ -1,0 +1,49 @@
+package org.citeplag.latexml;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Configuration for the LaTeXML service.
+ *
+ * @author Vincent Stange
+ */
+@Component
+@ConfigurationProperties(prefix = "latexml")
+public class LateXMLConfig {
+
+    private List<String> services = new ArrayList<>();
+
+    private String url = "";
+
+    private Map<String, String> params = new LinkedHashMap<>();
+
+    public List<String> getServices() {
+        return services;
+    }
+
+    public void setServices(List<String> services) {
+        this.services = services;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public Map<String, String> getParams() {
+        return params;
+    }
+
+    public void setParams(Map<String, String> params) {
+        this.params = params;
+    }
+}
