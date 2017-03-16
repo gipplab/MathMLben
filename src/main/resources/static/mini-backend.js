@@ -36,13 +36,14 @@ function convertLatex() {
     });
 };
 
-function getSimilarities() {
+function getSimilarities(type) {
     var mathml1 = document.getElementById("mathml1").value;
     var mathml2 = document.getElementById("mathml2").value;
 
     var formData = new FormData();
     formData.append("mathml1", mathml1);
     formData.append("mathml2", mathml2);
+    formData.append("type", type);
 
     var client = new HttpClient();
     client.post(getServerAdr() + "/math/similarity", formData, function(similarity) {

@@ -1,9 +1,7 @@
 package org.citeplag.search;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.springframework.util.StringUtils;
+import org.w3c.dom.*;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
@@ -24,26 +22,46 @@ import java.io.StringWriter;
 import java.util.ArrayList;
 
 /**
+ * This class converts MathML into our own tree representation of a
+ * mathematical formula.
+ *
  * @author Vincent Stange
  */
-public class Generator {
+public class MathNodeGenerator {
 
     private DocumentBuilderFactory domFactory;
 
-    public Generator() {
+    public MathNodeGenerator() {
         // Initialize these objects only once per process instance
         this.domFactory = DocumentBuilderFactory.newInstance();
         this.domFactory.setNamespaceAware(false); // ignore all namespaces
     }
 
-    public MathNode generateMathNode(String mathml) throws Exception {
+    public MathNode generateMathNode(Node cmmlRoot) throws Exception {
+        return createMathNode(cmmlRoot);
+    }
+
+    public Node getCmmlRoot(String mathml) throws Exception {
+        // use only the Content MathML semantics
+        Document mathmlDocument = parseDocument(mathml);
+        XPath xPath = XPathFactory.newInstance().newXPath();
+        Node cmmlRoot = (Node) xPath.evaluate("//annotation-xml[@encoding='MathML-Content']/apply", mathmlDocument, XPathConstants.NODE);
+        return cmmlRoot;
+    }
+
+    public String generateAbstractCD(String mathml) throws Exception {
+        return nodeToString(generateAbstractCDNode(mathml), true);
+    }
+
+    public Node generateAbstractCDNode(String mathml) throws Exception {
         // use only the Content MathML semantics
         Document mathmlDocument = parseDocument(mathml);
         XPath xPath = XPathFactory.newInstance().newXPath();
         Node cmmlRoot = (Node) xPath.evaluate("//annotation-xml[@encoding='MathML-Content']/apply", mathmlDocument, XPathConstants.NODE);
 
-        //printNodeList(rootNode.getChildNodes());
-        return createMathNode(cmmlRoot);
+        //System.out.println(nodeToString(cmmlRoot, true));
+        abstractNodeCD(mathmlDocument, cmmlRoot);
+        return cmmlRoot;
     }
 
     /**
@@ -57,8 +75,8 @@ public class Generator {
         MathNode mathNode = new MathNode();
         ArrayList<Node> childNodes = getChildElements(node);
 
-        // TODO the current renderer always refers to the first child as the current display node
-        // if it's an "apply" node - look at the first child
+        /* Since the current renderer always refers to the first child
+         * as the current display node, I mash the apply and operation node together. */
         if ("apply".equals(node.getNodeName())) {
             if (childNodes.size() > 0) {
                 mathNode.setOperator(createMathNode(childNodes.get(0)));
@@ -68,7 +86,7 @@ public class Generator {
 
         mathNode.setName(node.getNodeName());
         mathNode.setAttributes(node.getAttributes());
-        mathNode.value = node.getFirstChild() != null ? node.getFirstChild().getTextContent().trim() : node.getTextContent().trim();
+        mathNode.setValue(node.getFirstChild() != null ? node.getFirstChild().getTextContent().trim() : node.getTextContent().trim());
 
         if (childNodes.size() > 0) {
             for (Node childNode : childNodes) {
@@ -79,10 +97,10 @@ public class Generator {
     }
 
     /**
-     * Only return child nodes that are elements.
+     * Only return child nodes that are elements, ignore text passages.
      *
-     * @param node
-     * @return
+     * @param node We will take the children from this node.
+     * @return New ordered list of child elements.
      */
     ArrayList<Node> getChildElements(Node node) {
         ArrayList<Node> childElements = new ArrayList<>();
@@ -92,6 +110,36 @@ public class Generator {
                 childElements.add(childNodes.item(i));
         }
         return childElements;
+    }
+
+    /**
+     * @param cmmlDoc
+     * @param node
+     */
+    void abstractNodeCD(Document cmmlDoc, Node node) {
+        ArrayList<Node> childElements = getChildElements(node);
+        if (childElements.size() > 0) {
+            for (Node childElement : childElements) {
+                abstractNodeCD(cmmlDoc, childElement);
+            }
+        } else {
+            node.setTextContent("");
+        }
+
+        String cd;
+        try {
+            cd = node.getAttributes().getNamedItem("cd").getNodeValue();
+        } catch (Exception e) {
+            cd = "";
+        }
+        if (!StringUtils.isEmpty(cd)) {
+            try {
+                cmmlDoc.renameNode(node, "http://formulasearchengine.com/ns/pseudo/gen/cd", cd);
+            } catch (final DOMException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 
     /**

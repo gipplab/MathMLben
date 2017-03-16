@@ -10,36 +10,56 @@ import java.util.stream.Collectors;
 /**
  * @author Vincent Stange
  */
-public class BruteSearch {
+public class BruteTreeSearch {
 
-    public List<Similarity> getSimilarities(MathNode aTree, MathNode bTree) {
+    final Match.Type type;
+
+    public BruteTreeSearch(String type) {
+        this.type = Match.Type.valueOf(type);
+    }
+
+    /**
+     * @param aTree         First MathNode Tree (reference source)
+     * @param bTree         Second MathNode Tree (comparison)
+     * @param onlyOperators find similarities only between operations, no single identifier (end leafs) are checked
+     * @return
+     */
+    public List<Similarity> getSimilarities(MathNode aTree, MathNode bTree, boolean onlyOperators) {
         List<Similarity> similarities = new ArrayList<>();
-        findSimilarities(aTree, bTree, similarities, false);
+        findSimilarities(aTree, bTree, similarities, false, onlyOperators);
         return similarities;
     }
 
     /**
      * Recursive method that goes along every node of the first tree.
      *
-     * @param aTree First MathNode Tree
-     * @param bTree Second MathNode Tree
-     * @param similarities List of similarities, will be filled during process.
-     * @param holdA
+     * @param aTree         First MathNode Tree
+     * @param bTree         Second MathNode Tree
+     * @param similarities  List of similarities, will be filled during process.
+     * @param holdA         extra flag
+     * @param onlyOperators find similarities only between operations, no single identifier (end leafs) are checked
      * @return
      */
-    boolean findSimilarities(MathNode aTree, MathNode bTree, List<Similarity> similarities, boolean holdA) {
+    boolean findSimilarities(MathNode aTree, MathNode bTree, List<Similarity> similarities, boolean holdA, boolean onlyOperators) {
         if (isIdenticalTree(aTree, bTree)) {
-            similarities.add(new Similarity(aTree.getId(), bTree.getId(), Match.Type.identical));
+            similarities.add(new Similarity(aTree.getId(), bTree.getId(), type));
             return true;
         }
+
         for (MathNode bTreeChild : bTree.getChildren()) {
-            if (findSimilarities(aTree, bTreeChild, similarities, true)) {
+            if (onlyOperators && !bTreeChild.isOperation())
+                continue;
+
+            if (findSimilarities(aTree, bTreeChild, similarities, true, onlyOperators)) {
                 return true;
             }
         }
         if (!holdA) {
             for (MathNode aTreeChild : aTree.getChildren()) {
-                findSimilarities(aTreeChild, bTree, similarities, false);
+                if (onlyOperators && !aTreeChild.isOperation())
+                    continue;
+
+                findSimilarities(aTreeChild, bTree, similarities, false, onlyOperators);
             }
         }
         return false;
@@ -75,6 +95,14 @@ public class BruteSearch {
         return false;
     }
 
+    /**
+     * Filter for similar nodes from a list. Only the node itself will be compared.
+     * We will not look at the children.
+     *
+     * @param searchNode node we want to find.
+     * @param list       list we want to search.
+     * @return new list with the same node we search for.
+     */
     List<MathNode> getSimilarChilds(MathNode searchNode, List<MathNode> list) {
         return list.stream().filter(searchNode::equals).collect(Collectors.toList());
     }

@@ -15,8 +15,9 @@
 
                 <textarea id="sim" cols=60 rows=10 wrap=true>Similarities</textarea><br/><br/>
                 <!-- Buttons -->
-                <input type="button" id="cvt" onclick="convertLatex()" value="Convert">&nbsp;
-                <input type="button" id="smr" onclick="getSimilarities()" value="Compare"><br><br>
+                <input type="button" id="cvt" onclick="convertLatex()" value="Convert"><br><br>
+                <input type="button" id="smr1" onclick="getSimilarities('similar')" value="Compare Similar">&nbsp;
+                <input type="button" id="smr2" onclick="getSimilarities('identical')" value="Compare Identical"><br><br>
                 <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">&nbsp;
                 <input type="button" id="rdrC" onclick="renderCompare()" value="Render Compare"><br><br>
 

@@ -5,12 +5,13 @@ import org.apache.log4j.Logger;
 import org.citeplag.latexml.LaTeXMLConverter;
 import org.citeplag.latexml.LateXMLConfig;
 import org.citeplag.match.Similarity;
-import org.citeplag.search.BruteSearch;
-import org.citeplag.search.Generator;
+import org.citeplag.search.BruteTreeSearch;
+import org.citeplag.search.MathNodeGenerator;
 import org.citeplag.search.MathNode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+import org.w3c.dom.Node;
 
 import java.util.Collections;
 import java.util.List;
@@ -49,16 +50,28 @@ public class MathController {
     @ApiOperation(value = "Get a list of similarities between two MathML semantics.")
     public List<Similarity> getSimilarities(
             @RequestParam(value = "mathml1") String mathmlA,
-            @RequestParam(value = "mathml2") String mathmlB) {
+            @RequestParam(value = "mathml2") String mathmlB,
+            @RequestParam(value = "type") String type,
+            @RequestParam(value = "onlyOperations", defaultValue = "false", required = false) Boolean onlyOperations) {
 
-        Generator generator = new Generator();
+        MathNodeGenerator generator = new MathNodeGenerator();
         try {
-            // Convert the MathML into our own internal representation of a Math Tree
-            MathNode mathNodeA = generator.generateMathNode(mathmlA);
-            MathNode mathNodeB = generator.generateMathNode(mathmlB);
+            Node cmmlA, cmmlB;
+            if (type.equals("similar")) {
+                cmmlA = generator.generateAbstractCDNode(mathmlA);
+                cmmlB = generator.generateAbstractCDNode(mathmlB);
+                onlyOperations = true;
+            } else {
+                cmmlA = generator.getCmmlRoot(mathmlA);
+                cmmlB = generator.getCmmlRoot(mathmlB);
+            }
 
-            BruteSearch bruteSearch = new BruteSearch();
-            return bruteSearch.getSimilarities(mathNodeA, mathNodeB);
+            // Convert the MathML into our own internal representation of a Math Tree
+            MathNode mathNodeA = generator.generateMathNode(cmmlA);
+            MathNode mathNodeB = generator.generateMathNode(cmmlB);
+
+            BruteTreeSearch bruteSearch = new BruteTreeSearch(type);
+            return bruteSearch.getSimilarities(mathNodeA, mathNodeB, onlyOperations);
         } catch (Exception e) {
             logger.error("similarity error", e);
             return Collections.emptyList();

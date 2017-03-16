@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * This node is our representation of a mathematic formula.
+ *
  * @author Vincent Stange
  */
 public class MathNode {
@@ -16,7 +18,7 @@ public class MathNode {
 
     private String id = null;
 
-    public String value = "";
+    private String value = "";
 
     private Map<String, String> attributes = new HashMap<>();
 
@@ -65,6 +67,14 @@ public class MathNode {
         this.id = id;
     }
 
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
     public MathNode getOperator() {
         return operator;
     }
@@ -72,6 +82,10 @@ public class MathNode {
     public void setOperator(MathNode operator) {
         this.operator = operator;
         orderSensitive = !(operator.getName().equals("times") || operator.getName().equals("plus"));
+    }
+
+    public boolean isOperation() {
+        return operator != null;
     }
 
     public boolean isOrderSensitive() {
@@ -106,10 +120,10 @@ public class MathNode {
         return result;
     }
 
-    public void debug(String indent) {
+    public void print(String indent) {
         System.out.println(indent + this.toString());
         for (MathNode child : children) {
-            child.debug(indent + "  ");
+            child.print(indent + "  ");
         }
     }
 
