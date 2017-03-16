@@ -13,7 +13,7 @@ be used as a standalone application.
 
 Task 3 is executed via an external JS widget written by students at the HTW Berlin.
 
-### Build ###
+## Build ##
 
 Check out this project and compile via Maven. In the `/target` directory you will 
 find the executable server instance `mathpipeline.jar`.
@@ -23,26 +23,51 @@ find the executable server instance `mathpipeline.jar`.
 Maven 3.2 or higher is required for the build plugin.
 This plugin will create an executable jar.
 
-### Installation ###
+## Requirements ##
 
-For the conversion LaTeXML is required (http://dlmf.nist.gov/LaTeXML/get.html).
+For the conversion LaTeXML is required. Via configuration you can choose
+to use an external service for the LaTeX &gt; MathML conversion or use a
+local installation of LaTeXML.
 
-### Usage ###
+You can find LaTeXML here: http://dlmf.nist.gov/LaTeXML/get.html.
+
+## Installation (Standalone) ##
+
+(Deployment mechanism is missing)
+Copy the Jar from the `target` folder to wherever you want. 
 
 Start the server by `java -jar mathpipeline.jar`.
    
 Now just call the server on `http://localhost:8080/index.html` and 
 you can start whatever you what to do.
 
-#### REST API ###
+## Installation (Service) ##
 
-You can view the API on default on `http://localhost:8080/swagger-ui.html`.
+Since this is a Spring Boot application it can easily be used as a 
+Service in a Linux Environment, see: 
+https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
 
+(Deployment mechanism is missing)
+Copy the Jar from the `target` folder to `/var/mathpipeline/`
 
-### Configuration ###
+1. Simply create a symlink
+
+    $ sudo ln -s /var/mathpipeline/mathpipeline.jar /etc/init.d/mathpipeline
+    
+2. Once installed, you can start and stop the service in the usual way.
+
+You can find an automatic log in `/var/log/mathpipeline.log`.
+
+## REST API ##
+
+We use Swagger for the API documentation.
+
+You can always view the API per default on `http://localhost:8080/swagger-ui.html`.
+
+## Configuration ##
 
 If you want to use a custom configuration place a file named `application.yaml` 
-in the execution folder. The content should be:
+in the execution / installation folder. The content should be:
 
     server:
     #  servlet-path: /pipe   # custom servlet-path
