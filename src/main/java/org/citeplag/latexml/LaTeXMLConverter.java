@@ -84,7 +84,7 @@ public class LaTeXMLConverter {
             for (String value : list) {
                 sb.append("&").append(k);
                 if (!"".equals(value)) {
-                    sb.append("=").append(v);
+                    sb.append("=").append(value);
                 }
             }
         });
