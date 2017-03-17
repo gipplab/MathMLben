@@ -1,5 +1,6 @@
 package org.citeplag.latexml;
 
+import org.apache.log4j.Logger;
 import org.citeplag.util.CommandExecutor;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,6 +13,8 @@ import java.util.Map;
  * @author Vincent Stange
  */
 public class LaTeXMLConverter {
+
+    private static Logger logger = Logger.getLogger(LaTeXMLConverter.class);
 
     private final LateXMLConfig lateXMLConfig;
 
@@ -62,8 +65,9 @@ public class LaTeXMLConverter {
                 + latex;
 
         RestTemplate restTemplate = new RestTemplate();
-        ServiceResponse serviceResponse = restTemplate.postForObject(lateXMLConfig.getUrl(), payload, ServiceResponse.class);
-        return serviceResponse.getResult();
+        ServiceResponse rep = restTemplate.postForObject(lateXMLConfig.getUrl(), payload, ServiceResponse.class);
+        logger.info(String.format("statusCode: %s\nstatus: %s\nlog: %s\nresult: %s", rep.getStatusCode(), rep.getStatus(), rep.getLog(), rep.getResult()));
+        return rep.getResult();
     }
 
     private String configToUrlString(Map<String, String> values) {

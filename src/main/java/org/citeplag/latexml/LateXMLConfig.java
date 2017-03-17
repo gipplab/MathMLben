@@ -17,19 +17,9 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "latexml")
 public class LateXMLConfig {
 
-    private List<String> services = new ArrayList<>();
-
     private String url = "";
 
     private Map<String, String> params = new LinkedHashMap<>();
-
-    public List<String> getServices() {
-        return services;
-    }
-
-    public void setServices(List<String> services) {
-        this.services = services;
-    }
 
     public String getUrl() {
         return url;
