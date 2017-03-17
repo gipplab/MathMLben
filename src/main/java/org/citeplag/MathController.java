@@ -6,13 +6,14 @@ import org.citeplag.latexml.LaTeXMLConverter;
 import org.citeplag.latexml.LateXMLConfig;
 import org.citeplag.match.Similarity;
 import org.citeplag.search.BruteTreeSearch;
-import org.citeplag.search.MathNodeGenerator;
 import org.citeplag.search.MathNode;
+import org.citeplag.search.MathNodeGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.w3c.dom.Node;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Collections;
 import java.util.List;
 
@@ -34,15 +35,19 @@ public class MathController {
     @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
     public String convertLatexmlInstallation(
             @RequestParam(required = false, defaultValue = "true") Boolean service,
-            @RequestBody String latex) throws Exception {
+            @RequestBody String latex,
+            HttpServletRequest request) throws Exception {
         LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(lateXMLConfig);
         try {
-            if (service && !StringUtils.isEmpty(lateXMLConfig.getUrl()))
+            if (service && !StringUtils.isEmpty(lateXMLConfig.getUrl())) {
+                logger.info("service latex conversion from: " + request.getRemoteAddr());
                 return laTeXMLConverter.convertLatexmlService(latex);
+            }
         } catch (Exception e) {
             logger.error("latexml online service error", e);
             // fallback, try to use the local installation
         }
+        logger.info("local latex conversion from: " + request.getRemoteAddr());
         return laTeXMLConverter.runLatexmlc(latex);
     }
 
@@ -52,8 +57,10 @@ public class MathController {
             @RequestParam(value = "mathml1") String mathmlA,
             @RequestParam(value = "mathml2") String mathmlB,
             @RequestParam(value = "type") String type,
-            @RequestParam(value = "onlyOperations", defaultValue = "false", required = false) Boolean onlyOperations) {
+            @RequestParam(value = "onlyOperations", defaultValue = "false", required = false) Boolean onlyOperations,
+            HttpServletRequest request) {
 
+        logger.info("similarity comparison from: " + request.getRemoteAddr());
         MathNodeGenerator generator = new MathNodeGenerator();
         try {
             Node cmmlA, cmmlB;
