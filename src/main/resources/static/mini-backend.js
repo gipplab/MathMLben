@@ -17,21 +17,17 @@ var HttpClient = function() {
     }
 };
 
-function getServerAdr() {
-    return "http://localhost:" + document.getElementById("port").value;
-};
-
 function convertLatex() {
     var client = new HttpClient();
     // put the first latex as request body and expect a positive reply with mathml
     var latex = document.getElementById("latex1").value;
-    client.post(getServerAdr() + "/math", latex, function(mathml) {
+    client.post("/math", latex, function(mathml) {
         document.getElementById("mathml1").value = mathml;
     });
 
     // put the second latex as request body and expect a positive reply with mathml
     latex = document.getElementById("latex2").value;
-    client.post(getServerAdr() + "/math", latex, function(mathml) {
+    client.post("/math", latex, function(mathml) {
         document.getElementById("mathml2").value = mathml;
     });
 };
@@ -46,7 +42,7 @@ function getSimilarities(type) {
     formData.append("type", type);
 
     var client = new HttpClient();
-    client.post(getServerAdr() + "/math/similarity", formData, function(similarity) {
+    client.post("/math/similarity", formData, function(similarity) {
         document.getElementById("sim").value = similarity;
     });
 };
