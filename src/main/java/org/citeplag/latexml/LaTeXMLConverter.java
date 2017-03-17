@@ -2,6 +2,7 @@ package org.citeplag.latexml;
 
 import org.apache.log4j.Logger;
 import org.citeplag.util.CommandExecutor;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
@@ -65,9 +66,14 @@ public class LaTeXMLConverter {
                 + latex;
 
         RestTemplate restTemplate = new RestTemplate();
-        ServiceResponse rep = restTemplate.postForObject(lateXMLConfig.getUrl(), payload, ServiceResponse.class);
-        logger.info(String.format("statusCode: %s\nstatus: %s\nlog: %s\nresult: %s", rep.getStatusCode(), rep.getStatus(), rep.getLog(), rep.getResult()));
-        return rep.getResult();
+        try {
+            ServiceResponse rep = restTemplate.postForObject(lateXMLConfig.getUrl(), payload, ServiceResponse.class);
+            logger.info(String.format("statusCode: %s\nstatus: %s\nlog: %s\nresult: %s", rep.getStatusCode(), rep.getStatus(), rep.getLog(), rep.getResult()));
+            return rep.getResult();
+        } catch (HttpClientErrorException e) {
+            logger.error(e.getResponseBodyAsString());
+            throw e;
+        }
     }
 
     private String configToUrlString(Map<String, String> values) {
