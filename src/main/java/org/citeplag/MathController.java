@@ -33,7 +33,7 @@ public class MathController {
     @PostMapping()
     @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
     public String convertLatexmlInstallation(
-            @RequestParam(required = false, defaultValue = "false") Boolean service,
+            @RequestParam(required = false, defaultValue = "true") Boolean service,
             @RequestBody String latex) throws Exception {
         LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(lateXMLConfig);
         try {
