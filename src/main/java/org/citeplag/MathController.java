@@ -1,16 +1,20 @@
 package org.citeplag;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
 import org.citeplag.latexml.LaTeXMLConverter;
 import org.citeplag.latexml.LateXMLConfig;
 import org.citeplag.match.Similarity;
-import org.citeplag.search.BruteTreeSearch;
 import org.citeplag.node.MathNode;
 import org.citeplag.node.MathNodeGenerator;
+import org.citeplag.search.BruteTreeSearch;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.w3c.dom.Node;
 
 import javax.servlet.http.HttpServletRequest;
@@ -35,11 +39,16 @@ public class MathController {
     @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
     public String convertLatexmlInstallation(
             @RequestParam(required = false, defaultValue = "true") Boolean service,
-            @RequestBody String latex,
+            @RequestParam(required = false) String config,
+            @RequestParam() String latex,
             HttpServletRequest request) throws Exception {
-        LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(lateXMLConfig);
+
+        // If local configuration is given, use it.
+        LateXMLConfig usedConfig = (config != null ? new ObjectMapper().readValue(config, LateXMLConfig.class) : lateXMLConfig);
+
+        LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(usedConfig);
         try {
-            if (service && !StringUtils.isEmpty(lateXMLConfig.getUrl())) {
+            if (service && !StringUtils.isEmpty(usedConfig.getUrl())) {
                 logger.info("service latex conversion from: " + request.getRemoteAddr());
                 return laTeXMLConverter.convertLatexmlService(latex);
             }

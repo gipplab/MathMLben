@@ -2,27 +2,54 @@
 <head>
     <title>Math Pipeline</title>
 </head>
-<body>
+<body onload="getConfig();">
 <center>
     <table>
         <tr>
             <td>
-                <input id="latex1" type="text" size=60 value="Latex 1"/><br/><br/>
+                <!--Latex (plus Config) and MathML 1 -->
+                <input id="latex1" type="text" size=50 value="Latex 1"/>&nbsp;
+                <input type="button" id="btnCfg1" onclick="showCfg('latexcfg1')" value="Config">
+                <br/>
+                <textarea id="latexcfg1" cols=60 rows=10 wrap=true style="display:none" ></textarea>
+                <br/>
                 <textarea id="mathml1" cols=60 rows=10 wrap=true>MathML 1</textarea><br/><br/>
 
-                <input id="latex2" type="text" size=60 value="Latex 2"/><br/><br/>
+                <!--Latex (plus Config) and MathML 2 -->
+                <input id="latex2" type="text" size=50 value="Latex 2"/>&nbsp;
+                <input type="button" id="btnCfg2" onclick="showCfg('latexcfg2')" value="Config">
+                <br/>
+                <textarea id="latexcfg2" cols=60 rows=10 wrap=true style="display:none" ></textarea>
+                <br/>
                 <textarea id="mathml2" cols=60 rows=10 wrap=true>MathML 2</textarea><br/><br/>
 
+                <!-- Similarity Box -->
                 <textarea id="sim" cols=60 rows=10 wrap=true>Similarities</textarea><br/><br/>
+
                 <!-- Buttons -->
-                <input type="button" id="cvt" onclick="convertLatex()" value="Convert"><br><br>
-                <input type="button" id="smr1" onclick="getSimilarities('similar')" value="Compare Similar">&nbsp;
-                <input type="button" id="smr2" onclick="getSimilarities('identical')" value="Compare Identical"><br><br>
-                <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">&nbsp;
-                <input type="button" id="rdrC" onclick="renderCompare()" value="Render Compare">
+                <table>
+                    <tr>
+                        <td>Step 1:</td>
+                        <td><input type="button" id="cvt" onclick="convertLatex()" value="Convert"></td>
+                    </tr>
+                    <tr>
+                        <td>Step 2:</td>
+                        <td>
+                            <input type="button" id="smr1" onclick="getSimilarities('similar')" value="Compare Similar">&nbsp;
+                            <input type="button" id="smr2" onclick="getSimilarities('identical')" value="Compare Identical">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Step 3:</td>
+                        <td>
+                            <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">&nbsp;
+                            <input type="button" id="rdrC" onclick="renderCompare()" value="Render Compare">
+                        </td>
+                    </tr>
+                </table>
             </td>
             <td>
-                <div id="ast"  style="height:700px; width:700px"/>
+                <div id="ast" style="height:700px; width:700px"/>
             </td>
         </tr>
     </table>

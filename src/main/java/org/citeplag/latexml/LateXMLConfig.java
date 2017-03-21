@@ -21,6 +21,10 @@ public class LateXMLConfig {
 
     private Map<String, String> params = new LinkedHashMap<>();
 
+    public LateXMLConfig() {
+        // empty constructor
+    }
+
     public String getUrl() {
         return url;
     }
