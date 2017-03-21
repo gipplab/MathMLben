@@ -59,6 +59,12 @@ public class LaTeXMLConverter {
         return latexmlmath.exec(2000L);
     }
 
+    /**
+     * TODO
+     *
+     * @param latex LaTeX formula
+     * @return MathML String
+     */
     public String convertLatexmlService(String latex) {
         String payload = "format=xhtml" +
                 configToUrlString(lateXMLConfig.getParams()) +
@@ -76,7 +82,12 @@ public class LaTeXMLConverter {
         }
     }
 
-    private String configToUrlString(Map<String, String> values) {
+    /**
+     * TODO
+     * @param values
+     * @return
+     */
+    String configToUrlString(Map<String, String> values) {
         StringBuilder sb = new StringBuilder();
         values.forEach((k, v) -> {
             // value splitting or create a array with a single or null string

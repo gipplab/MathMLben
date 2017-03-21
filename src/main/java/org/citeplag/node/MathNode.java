@@ -1,4 +1,4 @@
-package org.citeplag.search;
+package org.citeplag.node;
 
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;

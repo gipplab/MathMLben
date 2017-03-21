@@ -6,8 +6,8 @@ import org.citeplag.latexml.LaTeXMLConverter;
 import org.citeplag.latexml.LateXMLConfig;
 import org.citeplag.match.Similarity;
 import org.citeplag.search.BruteTreeSearch;
-import org.citeplag.search.MathNode;
-import org.citeplag.search.MathNodeGenerator;
+import org.citeplag.node.MathNode;
+import org.citeplag.node.MathNodeGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -60,15 +60,16 @@ public class MathController {
             @RequestParam(value = "onlyOperations", defaultValue = "false", required = false) Boolean onlyOperations,
             HttpServletRequest request) {
 
-        logger.info("similarity comparison from: " + request.getRemoteAddr());
         MathNodeGenerator generator = new MathNodeGenerator();
         try {
             Node cmmlA, cmmlB;
             if (type.equals("similar")) {
+                logger.info("similarity comparison from: " + request.getRemoteAddr());
                 cmmlA = generator.generateAbstractCDNode(mathmlA);
                 cmmlB = generator.generateAbstractCDNode(mathmlB);
                 onlyOperations = true;
             } else {
+                logger.info("identical comparison from: " + request.getRemoteAddr());
                 cmmlA = generator.getCmmlRoot(mathmlA);
                 cmmlB = generator.getCmmlRoot(mathmlB);
             }

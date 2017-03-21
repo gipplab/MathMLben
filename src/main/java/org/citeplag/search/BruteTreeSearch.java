@@ -2,6 +2,7 @@ package org.citeplag.search;
 
 import org.citeplag.match.Match;
 import org.citeplag.match.Similarity;
+import org.citeplag.node.MathNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +23,7 @@ public class BruteTreeSearch {
      * @param aTree         First MathNode Tree (reference source)
      * @param bTree         Second MathNode Tree (comparison)
      * @param onlyOperators find similarities only between operations, no single identifier (end leafs) are checked
-     * @return
+     * @return list of similarities, never null
      */
     public List<Similarity> getSimilarities(MathNode aTree, MathNode bTree, boolean onlyOperators) {
         List<Similarity> similarities = new ArrayList<>();
@@ -38,7 +39,7 @@ public class BruteTreeSearch {
      * @param similarities  List of similarities, will be filled during process.
      * @param holdA         extra flag
      * @param onlyOperators find similarities only between operations, no single identifier (end leafs) are checked
-     * @return
+     * @return if the current aTree ad bTree are identical subtrees
      */
     boolean findSimilarities(MathNode aTree, MathNode bTree, List<Similarity> similarities, boolean holdA, boolean onlyOperators) {
         if (isIdenticalTree(aTree, bTree)) {
@@ -65,6 +66,13 @@ public class BruteTreeSearch {
         return false;
     }
 
+    /**
+     * Are aTree and bTree identical subtrees?
+     *
+     * @param aTree First MathNode Tree
+     * @param bTree Second MathNode Tree
+     * @return if the current aTree ad bTree are identical subtrees
+     */
     boolean isIdenticalTree(MathNode aTree, MathNode bTree) {
         if (aTree.equals(bTree) && aTree.getChildren().size() == bTree.getChildren().size()) {
             if (aTree.isOrderSensitive()) {

@@ -1,12 +1,11 @@
-package org.citeplag.search;
+package org.citeplag.node;
 
+import org.citeplag.mml.CMMLInfo;
+import org.citeplag.mml.XMLHelper;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.*;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
@@ -15,9 +14,6 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathFactory;
-import java.io.IOException;
-import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.ArrayList;
 
@@ -42,11 +38,12 @@ public class MathNodeGenerator {
     }
 
     public Node getCmmlRoot(String mathml) throws Exception {
-        // use only the Content MathML semantics
-        Document mathmlDocument = parseDocument(mathml);
-        XPath xPath = XPathFactory.newInstance().newXPath();
-        Node cmmlRoot = (Node) xPath.evaluate("//annotation-xml[@encoding='MathML-Content']/apply", mathmlDocument, XPathConstants.NODE);
-        return cmmlRoot;
+        // Convert to normal document
+        Document mathmlDocument = XMLHelper.String2Doc(mathml, false);
+
+        // get the apply node of the ContentMathML root
+        XPath xpath = XMLHelper.namespaceAwareXpath("m", CMMLInfo.NS_MATHML);
+        return (Node) xpath.compile("*//m:annotation-xml[@encoding='MathML-Content']/m:apply").evaluate(mathmlDocument, XPathConstants.NODE);
     }
 
     public String generateAbstractCD(String mathml) throws Exception {
@@ -54,14 +51,19 @@ public class MathNodeGenerator {
     }
 
     public Node generateAbstractCDNode(String mathml) throws Exception {
-        // use only the Content MathML semantics
-        Document mathmlDocument = parseDocument(mathml);
-        XPath xPath = XPathFactory.newInstance().newXPath();
-        Node cmmlRoot = (Node) xPath.evaluate("//annotation-xml[@encoding='MathML-Content']/apply", mathmlDocument, XPathConstants.NODE);
+        // convert to mathosphere cmml document
+        CMMLInfo cmmlInfo = new CMMLInfo(mathml);
 
-        //System.out.println(nodeToString(cmmlRoot, true));
-        abstractNodeCD(mathmlDocument, cmmlRoot);
-        return cmmlRoot;
+        // transform ContentMathML to Strict ContentMathML
+        cmmlInfo = cmmlInfo.toStrictCmml();
+
+        // get the apply node of the ContentMathML root
+        XPath xpath = XMLHelper.namespaceAwareXpath("m", CMMLInfo.NS_MATHML);
+        Node strictCmmlRoot = (Node) xpath.compile("*//m:annotation-xml[@encoding='MathML-Content']/m:apply").evaluate(cmmlInfo, XPathConstants.NODE);
+
+        // our own abstract method for the strict CMML root
+        abstractNodeCD(cmmlInfo, strictCmmlRoot);
+        return strictCmmlRoot;
     }
 
     /**
@@ -139,7 +141,6 @@ public class MathNodeGenerator {
                 e.printStackTrace();
             }
         }
-
     }
 
     /**
@@ -157,15 +158,6 @@ public class MathNodeGenerator {
         t.setOutputProperty(OutputKeys.INDENT, indent ? "yes" : "no");
         t.transform(new DOMSource(node), new StreamResult(sw));
         return sw.toString();
-    }
-
-    private Document parseDocument(String documentContent) throws IOException, ParserConfigurationException, SAXException {
-        try {
-            InputSource inputStream = new InputSource(new StringReader(documentContent));
-            return domFactory.newDocumentBuilder().parse(inputStream);
-        } catch (IOException | SAXException | ParserConfigurationException e) {
-            throw e;
-        }
     }
 
 }
