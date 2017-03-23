@@ -217,12 +217,12 @@ public class OwnTransformator {
      *
      * @param roleKey the role will be seached for as first
      * @param typeKey the type will be searched for as second
-     * @return either a mapped value for the role or type, or if none is found will return rolekey.
+     * @return either a mapped value for the role or type, or if none is found will return typekey.
      */
     private String getSymbol(String roleKey, String typeKey) {
         String s = symbolMap.get(roleKey);
         if (s == null) {
-            return symbolMap.getOrDefault(typeKey, roleKey);
+            return symbolMap.getOrDefault(typeKey, typeKey);
         }
         return s;
     }
