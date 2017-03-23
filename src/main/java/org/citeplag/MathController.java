@@ -43,7 +43,7 @@ public class MathController {
     MathoidConfig mathoidConfig;
 
     @PostMapping()
-    @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
+    @ApiOperation(value = "Converts a Latex String via LaTeXML to MathML semantics.")
     public String convertLatexml(
             @RequestParam(required = false, defaultValue = "true") Boolean service,
             @RequestParam(required = false) String config,
@@ -68,7 +68,7 @@ public class MathController {
     }
 
     @PostMapping("/mathoid")
-    @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
+    @ApiOperation(value = "Converts a Latex String via Mathoid to MathML semantics.")
     public String convertMathoid(
             @RequestParam(required = false) String mathoidUrl,
             @RequestParam() String latex,
