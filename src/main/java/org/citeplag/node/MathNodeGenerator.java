@@ -67,7 +67,7 @@ public class MathNodeGenerator {
     }
 
     /**
-     * recursive method
+     * Main recursive method to create our math tree
      *
      * @param node current xml node in cmml
      * @return converted MathNode we use in this application
@@ -141,6 +141,10 @@ public class MathNodeGenerator {
                 e.printStackTrace();
             }
         }
+    }
+
+    String getNodeValue(Node node) {
+        return node.getFirstChild() != null ? node.getFirstChild().getTextContent().trim() : node.getTextContent().trim();
     }
 
     /**

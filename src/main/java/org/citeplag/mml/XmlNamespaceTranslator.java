@@ -5,22 +5,22 @@ import org.w3c.dom.*;
 import java.util.*;
 
 /**
- * Taken from mathosphere
+ * Taken from mathosphere, slightly altered.
  * <p>
  * from http://stackoverflow.com/questions/1492428/javadom-how-do-i-set-the-base-namespace-of-an-already-created-document
  */
 public class XmlNamespaceTranslator {
 
-    private Map<Key<String>, Value<String>> translations = new HashMap<Key<String>, Value<String>>();
+    private Map<String, String> translations = new HashMap<>();
     private Set<String> unwantedAttributes = new HashSet<>();
     private String defaultNamespace = null;
     private Boolean preserveWhiteSpace = false;
 
-    public Map<Key<String>, Value<String>> getTranslations() {
+    public Map<String, String> getTranslations() {
         return translations;
     }
 
-    public XmlNamespaceTranslator setTranslations(Map<Key<String>, Value<String>> translations) {
+    public XmlNamespaceTranslator setTranslations(Map<String, String> translations) {
         this.translations = translations;
         return this;
     }
@@ -35,21 +35,17 @@ public class XmlNamespaceTranslator {
     }
 
     public XmlNamespaceTranslator addTranslation(String fromNamespaceURI, String toNamespaceURI) {
-        Key<String> key = new Key<String>(fromNamespaceURI);
-        Value<String> value = new Value<String>(toNamespaceURI);
-
-        this.translations.put(key, value);
-
+        this.translations.put(fromNamespaceURI, toNamespaceURI);
         return this;
     }
 
-    public XmlNamespaceTranslator addUnwantedAttribute(String Name) {
-        unwantedAttributes.add(Name);
+    public XmlNamespaceTranslator addUnwantedAttribute(String name) {
+        unwantedAttributes.add(name);
         return this;
     }
 
     public void translateNamespaces(Document xmlDoc) {
-        Stack<Node> nodes = new Stack<Node>();
+        Stack<Node> nodes = new Stack<>();
         nodes.push(xmlDoc.getDocumentElement());
 
         while (!nodes.isEmpty()) {
@@ -62,13 +58,13 @@ public class XmlNamespaceTranslator {
                         // parentAttributes.getAttributes().removeNamedItem(node.getNodeName());
                     }
                 case Node.ELEMENT_NODE:
-                    Value<String> value = this.translations.get(new Key<String>(node.getNamespaceURI()));
+                    String value = this.translations.get(node.getNamespaceURI());
                     if (value != null) {
                         // the reassignment to node is very important. as per javadoc renameNode will
                         // try to modify node (first parameter) in place. If that is not possible it
                         // will replace that node for a new created one and return it to the caller.
                         // if we did not reassign node we will get no childs in the loop below.
-                        node = xmlDoc.renameNode(node, value.getValue(), node.getNodeName());
+                        node = xmlDoc.renameNode(node, value, node.getNodeName());
                     }
                     if (node.getPrefix() != null && node.getNamespaceURI().equals(defaultNamespace)) {
                         node.setPrefix("");

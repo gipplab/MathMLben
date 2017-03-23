@@ -2,7 +2,7 @@ package org.citeplag;
 
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
-import org.citeplag.latexml.LateXMLConfig;
+import org.citeplag.translate.latexml.LateXMLConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,6 +30,5 @@ public class ConfigController {
             HttpServletRequest request) throws Exception {
         return lateXMLConfig;
     }
-
 
 }

@@ -1,4 +1,4 @@
-package org.citeplag.latexml;
+package org.citeplag.translate.latexml;
 
 import org.apache.log4j.Logger;
 import org.citeplag.util.CommandExecutor;
@@ -84,6 +84,7 @@ public class LaTeXMLConverter {
 
     /**
      * TODO
+     *
      * @param values
      * @return
      */

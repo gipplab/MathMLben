@@ -3,18 +3,22 @@ package org.citeplag;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
-import org.citeplag.latexml.LaTeXMLConverter;
-import org.citeplag.latexml.LateXMLConfig;
 import org.citeplag.match.Similarity;
 import org.citeplag.node.MathNode;
 import org.citeplag.node.MathNodeGenerator;
 import org.citeplag.search.BruteTreeSearch;
+import org.citeplag.translate.latexml.LaTeXMLConverter;
+import org.citeplag.translate.latexml.LateXMLConfig;
+import org.citeplag.translate.speech.MathoidConfig;
+import org.citeplag.translate.speech.MathoidConverter;
+import org.citeplag.translate.speech.OwnTransformator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.ResourceAccessException;
 import org.w3c.dom.Node;
 
 import javax.servlet.http.HttpServletRequest;
@@ -35,9 +39,12 @@ public class MathController {
     @Autowired
     LateXMLConfig lateXMLConfig;
 
+    @Autowired
+    MathoidConfig mathoidConfig;
+
     @PostMapping()
     @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
-    public String convertLatexmlInstallation(
+    public String convertLatexml(
             @RequestParam(required = false, defaultValue = "true") Boolean service,
             @RequestParam(required = false) String config,
             @RequestParam() String latex,
@@ -58,6 +65,31 @@ public class MathController {
         }
         logger.info("local latex conversion from: " + request.getRemoteAddr());
         return laTeXMLConverter.runLatexmlc(latex);
+    }
+
+    @PostMapping("/mathoid")
+    @ApiOperation(value = "Converts a String from LaTeXMLConverter to MathML semantics.")
+    public String convertMathoid(
+            @RequestParam(required = false) String mathoidUrl,
+            @RequestParam() String latex,
+            HttpServletRequest request) throws Exception {
+
+        // If local configuration is given, use it.
+        mathoidUrl = (mathoidUrl != null ? mathoidUrl : mathoidConfig.getUrl());
+
+        MathoidConverter converter = new MathoidConverter(mathoidUrl);
+        try {
+            String enrichedMathml = converter.convertLatex(latex);
+
+            OwnTransformator transformator = new OwnTransformator(enrichedMathml);
+            logger.info("latex conversion via mathoid from: " + request.getRemoteAddr());
+            return transformator.getFullMathML();
+        } catch (ResourceAccessException e) {
+            return "mathoid not available under: " + mathoidUrl;
+        } catch (Exception e) {
+            logger.error("mathoid service error", e);
+            return e.getMessage();
+        }
     }
 
     @PostMapping(path = "similarity")

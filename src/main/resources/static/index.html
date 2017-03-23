@@ -1,10 +1,11 @@
 <html>
 <head>
     <title>Math Pipeline</title>
+    <!--<link rel="stylesheet" type="text/css" href="mini-backend.css">-->
 </head>
 <body onload="getConfig();">
 <center>
-    <table>
+    <table class="container">
         <tr>
             <td>
                 <!--Latex (plus Config) and MathML 1 -->
@@ -30,19 +31,25 @@
                 <table>
                     <tr>
                         <td>Step 1:</td>
-                        <td><input type="button" id="cvt" onclick="convertLatex()" value="Convert"></td>
+                        <td>
+                            <input type="button" id="cvt1" onclick="convertLatex()" value="Convert LaTeXML">
+                            &nbsp;or&nbsp;
+                            <input type="button" id="cvt2" onclick="convertLatexMathoid()" value="Convert Mathoid">
+                        </td>
                     </tr>
                     <tr>
                         <td>Step 2:</td>
                         <td>
-                            <input type="button" id="smr1" onclick="getSimilarities('similar')" value="Compare Similar">&nbsp;
+                            <input type="button" id="smr1" onclick="getSimilarities('similar')" value="Compare Similar">
+                            &nbsp;or&nbsp;
                             <input type="button" id="smr2" onclick="getSimilarities('identical')" value="Compare Identical">
                         </td>
                     </tr>
                     <tr>
                         <td>Step 3:</td>
                         <td>
-                            <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">&nbsp;
+                            <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">
+                            &nbsp;or&nbsp;
                             <input type="button" id="rdrC" onclick="renderCompare()" value="Render Compare">
                         </td>
                     </tr>

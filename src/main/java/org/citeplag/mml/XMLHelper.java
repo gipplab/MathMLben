@@ -4,6 +4,7 @@ import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import net.sf.saxon.Configuration;
 import net.sf.saxon.s9api.*;
+import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -587,6 +588,28 @@ public final class XMLHelper {
         };
         xpath.setNamespaceContext(ctx);
         return xpath;
+    }
+
+    public static void useFixNamespace(Document doc, String namespaceURI) {
+        Node math = new NonWhitespaceNodeList(doc.getElementsByTagNameNS("*", "math")).getFirstElement();
+        if (math == null) {
+            return;
+        }
+        try {
+            math.getAttributes().removeNamedItem("xmlns");
+        } catch (final DOMException e) {
+            //Remove if it exists, ignore any errors thrown if it does not exist
+        }
+        new XmlNamespaceTranslator()
+                .setDefaultNamespace(CMMLInfo.NS_MATHML)
+                .addTranslation("m", CMMLInfo.NS_MATHML)
+                .addTranslation(null, CMMLInfo.NS_MATHML)
+                .translateNamespaces(doc);
+        try {
+            math.getAttributes().removeNamedItem("xmlns:m");
+        } catch (final DOMException e) {
+            //Ignore any errors thrown if element does not exist
+        }
     }
 
 }

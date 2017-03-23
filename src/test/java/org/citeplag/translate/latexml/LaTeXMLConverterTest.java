@@ -1,6 +1,5 @@
-package org.citeplag.latexml;
+package org.citeplag.translate.latexml;
 
-import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
 import java.util.LinkedHashMap;

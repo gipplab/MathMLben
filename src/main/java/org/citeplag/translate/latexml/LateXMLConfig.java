@@ -1,11 +1,9 @@
-package org.citeplag.latexml;
+package org.citeplag.translate.latexml;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 /**

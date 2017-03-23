@@ -60,6 +60,24 @@ function convertLatex() {
     });
 };
 
+function convertLatexMathoid() {
+    var client = new HttpClient();
+
+    // put the first latex as request body and expect a positive reply with mathml
+    var formData1 = new FormData();
+    formData1.append("latex", document.getElementById("latex1").value);
+    client.post("/math/mathoid", formData1, function(mathml) {
+        document.getElementById("mathml1").value = mathml;
+    });
+
+    // put the second latex as request body and expect a positive reply with mathml
+    var formData2 = new FormData();
+    formData2.append("latex", document.getElementById("latex2").value);
+    client.post("/math/mathoid", formData2, function(mathml) {
+        document.getElementById("mathml2").value = mathml;
+    });
+};
+
 function getSimilarities(type) {
     var mathml1 = document.getElementById("mathml1").value;
     var mathml2 = document.getElementById("mathml2").value;
