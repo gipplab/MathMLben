@@ -71,19 +71,24 @@ public class OwnTransformator {
         convertIdField(semanticRoot);
 
         Element firstRow = (Element) xpath.compile("*//m:mrow").evaluate(readDocument, XPathConstants.NODE);
-        // create new annotation
+        // create empty start element for our new cmml annotation
         Element cmmlRoot = writeDocument.createElement("annotation-xml");
         cmmlRoot.setAttribute("encoding", "MathML-Content");
 
-        // create the cmml root-apply node
-        createCmml(firstRow, cmmlRoot);
+        try {
+            // create the cmml root-apply node
+            createCmml(firstRow, cmmlRoot);
 
-        // adopt the new cmml structure into the original enriched mathml
-        Node copy = readDocument.adoptNode(cmmlRoot.cloneNode(true));
-        semanticRoot.appendChild(copy);
+            // adopt the new cmml structure into the original enriched mathml
+            Node copy = readDocument.adoptNode(cmmlRoot.cloneNode(true));
+            semanticRoot.appendChild(copy);
 
-        // currently fix the whole ns to MathML standard, may be changed later on
-        XMLHelper.useFixNamespace(readDocument, CMMLInfo.NS_MATHML);
+            // currently fix the whole ns to MathML standard, may be changed later on
+            XMLHelper.useFixNamespace(readDocument, CMMLInfo.NS_MATHML);
+        } catch (Exception e) {
+            String oldEnrichedXml = nodeToString(readDocument.getFirstChild(), true);
+            return oldEnrichedXml + "\n" + e.getMessage();
+        }
 
         return nodeToString(readDocument.getFirstChild(), true);
     }
@@ -96,7 +101,7 @@ public class OwnTransformator {
     private void convertIdField(Element readNode) {
         String newId = readNode.getAttribute("data-semantic-id");
         if (!StringUtils.isEmpty(newId)) {
-            readNode.setAttribute("id", newId);
+            readNode.setAttribute("id", "p" + newId);
         }
         for (Element child : getChildElements(readNode)) {
             convertIdField(child);
@@ -124,15 +129,15 @@ public class OwnTransformator {
         } else if ("mrow".equals(readNode.getNodeName())) {
             // 1. Build apply node
             Element apply = writeDocument.createElement("apply");
-            String pmmlId = readNode.getAttribute("data-semantic-id");
-            if (Objects.equals(pmmlId, "")) {
+            String dataId = readNode.getAttribute("data-semantic-id");
+            if (Objects.equals(dataId, "")) {
                 // go one element deeper, since this is an encapsulate
                 return createCmml(getChildElements(readNode).get(0), writeNode);
             }
 
             // 1a. further build a normal apply node
-            apply.setAttribute("id", "c" + pmmlId);
-            apply.setAttribute("xref", pmmlId);
+            apply.setAttribute("id", "c" + dataId);
+            apply.setAttribute("xref", readNode.getAttribute("id"));
             writeNode.appendChild(apply);
 
             // 2. Take content identifiers
@@ -161,9 +166,8 @@ public class OwnTransformator {
             // 1. Build apply node
             // take the Ids from the current node for a new apply node
             Element apply = writeDocument.createElement("apply");
-            String tmpPmmlId = readNode.getAttribute("data-semantic-id");
-            apply.setAttribute("id", "c" + tmpPmmlId);
-            apply.setAttribute("xref", tmpPmmlId);
+            apply.setAttribute("id", "c" + readNode.getAttribute("data-semantic-id"));
+            apply.setAttribute("xref", readNode.getAttribute("id"));
             writeNode.appendChild(apply);
 
             // 2. take operator
@@ -206,7 +210,7 @@ public class OwnTransformator {
         } else {
             e.setAttribute("id", "u" + String.valueOf(uniqueIdCounter++));
         }
-        e.setAttribute("xref", pmmlId);
+        e.setAttribute("xref", readNode.getAttribute("id"));
         // set content
         e.setTextContent(getNodeValue(readNode));
         return e;
