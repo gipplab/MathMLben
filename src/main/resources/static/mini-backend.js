@@ -61,7 +61,6 @@ function convertLatex() {
     formData2.append("config", document.getElementById("latexcfg2").value);
     client.post("/math", formData2, function(serviceRep) {
         var json = JSON.parse(serviceRep);
-        alert(json);
         document.getElementById("mathml2").value = json.result;
 
     });
