@@ -29,10 +29,10 @@ public class LaTeXMLConverter {
      * Conversion is executed by "latexmlc".
      *
      * @param latex Latex Formula
-     * @return MathML representation as String
+     * @return MathML output in the result of ServiceResponse
      * @throws Exception Execution of latexmlc failed.
      */
-    public String runLatexmlc(String latex) throws Exception {
+    public ServiceResponse runLatexmlc(String latex) throws Exception {
         CommandExecutor latexmlmath = new CommandExecutor("latexmlc",
                 "--includestyles",
                 "--format=xhtml",
@@ -56,16 +56,16 @@ public class LaTeXMLConverter {
                 "--preload", "[ids]latexml.sty",
                 "--preload", "texvc",
                 "literal:" + latex);
-        return latexmlmath.exec(2000L);
+        return new ServiceResponse(latexmlmath.exec(2000L));
     }
 
     /**
-     * TODO
+     * Call a LaTeXML service.
      *
      * @param latex LaTeX formula
      * @return MathML String
      */
-    public String convertLatexmlService(String latex) {
+    public ServiceResponse convertLatexmlService(String latex) {
         String payload = "format=xhtml" +
                 configToUrlString(lateXMLConfig.getParams()) +
                 "&tex=literal:"
@@ -75,7 +75,7 @@ public class LaTeXMLConverter {
         try {
             ServiceResponse rep = restTemplate.postForObject(lateXMLConfig.getUrl(), payload, ServiceResponse.class);
             logger.info(String.format("ServiceResponse follows:\nstatusCode: %s\nstatus: %s\nlog: %s\nresult: %s", rep.getStatusCode(), rep.getStatus(), rep.getLog(), rep.getResult()));
-            return rep.getResult();
+            return rep;
         } catch (HttpClientErrorException e) {
             logger.error(e.getResponseBodyAsString());
             throw e;

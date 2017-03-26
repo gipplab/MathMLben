@@ -9,6 +9,7 @@ import org.citeplag.node.MathNodeGenerator;
 import org.citeplag.search.BruteTreeSearch;
 import org.citeplag.translate.latexml.LaTeXMLConverter;
 import org.citeplag.translate.latexml.LateXMLConfig;
+import org.citeplag.translate.latexml.ServiceResponse;
 import org.citeplag.translate.speech.MathoidConfig;
 import org.citeplag.translate.speech.MathoidConverter;
 import org.citeplag.translate.speech.OwnTransformator;
@@ -44,7 +45,7 @@ public class MathController {
 
     @PostMapping()
     @ApiOperation(value = "Converts a Latex String via LaTeXML to MathML semantics.")
-    public String convertLatexml(
+    public ServiceResponse convertLatexml(
             @RequestParam(required = false) String config,
             @RequestParam() String latex,
             HttpServletRequest request) throws Exception {

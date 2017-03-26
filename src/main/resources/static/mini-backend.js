@@ -9,6 +9,7 @@ var HttpClient = function() {
         httpRequest.onreadystatechange = function() {
             if (httpRequest.readyState == 4) {
                 if (httpRequest.status == 200) {
+                    console.info(httpRequest.responseText);
                     pCallback(httpRequest.responseText);
                 } else {
                     // log error
@@ -27,6 +28,7 @@ var HttpClient = function() {
             httpRequest.onreadystatechange = function() {
                 if (httpRequest.readyState == 4) {
                     if (httpRequest.status == 200) {
+                        console.info(httpRequest.responseText);
                         pCallback(httpRequest.responseText);
                     } else {
                         // log error
@@ -47,16 +49,21 @@ function convertLatex() {
     var formData1 = new FormData();
     formData1.append("latex", document.getElementById("latex1").value);
     formData1.append("config", document.getElementById("latexcfg1").value);
-    client.post("/math", formData1, function(mathml) {
-        document.getElementById("mathml1").value = mathml;
+    client.post("/math", formData1, function(serviceRep) {
+        var json = JSON.parse(serviceRep);
+        document.getElementById("mathml1").value = json.result;
+
     });
 
     // put the second latex as request body and expect a positive reply with mathml
     var formData2 = new FormData();
     formData2.append("latex", document.getElementById("latex2").value);
     formData2.append("config", document.getElementById("latexcfg2").value);
-    client.post("/math", formData2, function(mathml) {
-        document.getElementById("mathml2").value = mathml;
+    client.post("/math", formData2, function(serviceRep) {
+        var json = JSON.parse(serviceRep);
+        alert(json);
+        document.getElementById("mathml2").value = json.result;
+
     });
 };
 
