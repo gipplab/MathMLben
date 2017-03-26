@@ -73,10 +73,10 @@ in the execution / installation folder. The content should be:
     #  servlet-path: /pipe   # custom servlet-path
       port: 8080            # default server port, if not set otherwise
     
-    # the use of the latexml online service (via url) is optional
-    # if service is not found or configured properly fallback is the local latexml installation
+    # the use of the latexml online service (via url)
+    # if no url is given a local latexml installation will be called
     latexml:
-      url: http://gw125.iu.xsede.org:8888 # set a url if you want the option of the online service
+      url: http://gw125.iu.xsede.org:8888 # url for online service or emtpy ""
       params:                             # parameters for the online service
         whatsin: math
         whatsout: math
@@ -88,5 +88,8 @@ in the execution / installation folder. The content should be:
         linelength: 90
         quiet:
         preload: "LaTeX.pool,article.cls,amsmath.sty,amsthm.sty,amstext.sty,amssymb.sty,eucal.sty,[dvipsnames]xcolor.sty,url.sty,hyperref.sty,[ids]latexml.sty,texvc"
+
+    mathoid:
+      url: http://localhost:10044/mml
 
 This is the default configuration used by the application if no file is found.

@@ -74,7 +74,7 @@ public class LaTeXMLConverter {
         RestTemplate restTemplate = new RestTemplate();
         try {
             ServiceResponse rep = restTemplate.postForObject(lateXMLConfig.getUrl(), payload, ServiceResponse.class);
-            logger.info(String.format("statusCode: %s\nstatus: %s\nlog: %s\nresult: %s", rep.getStatusCode(), rep.getStatus(), rep.getLog(), rep.getResult()));
+            logger.info(String.format("ServiceResponse follows:\nstatusCode: %s\nstatus: %s\nlog: %s\nresult: %s", rep.getStatusCode(), rep.getStatus(), rep.getLog(), rep.getResult()));
             return rep.getResult();
         } catch (HttpClientErrorException e) {
             logger.error(e.getResponseBodyAsString());

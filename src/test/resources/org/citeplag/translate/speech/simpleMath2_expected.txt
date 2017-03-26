@@ -7,56 +7,56 @@
             data-semantic-id="6"
             data-semantic-role="multiplication"
             data-semantic-type="infixop"
-            id="6">
+            id="p6">
          <mi data-semantic-font="italic"
              data-semantic-id="0"
              data-semantic-parent="6"
              data-semantic-role="latinletter"
              data-semantic-type="identifier"
-             id="0">a</mi>
+             id="p0">a</mi>
          <mo data-semantic-id="1"
              data-semantic-operator="infixop,∗"
              data-semantic-parent="6"
              data-semantic-role="multiplication"
              data-semantic-type="operator"
-             id="1">∗<!-- ∗ --></mo>
+             id="p1">∗<!-- ∗ --></mo>
          <mrow data-semantic-children="2,3"
                data-semantic-content="4"
                data-semantic-id="5"
                data-semantic-parent="6"
                data-semantic-role="implicit"
                data-semantic-type="infixop"
-               id="5">
+               id="p5">
             <mi data-semantic-font="italic"
                 data-semantic-id="2"
                 data-semantic-parent="5"
                 data-semantic-role="latinletter"
                 data-semantic-type="identifier"
-                id="2">b</mi>
+                id="p2">b</mi>
             <mo data-semantic-added="true"
                 data-semantic-id="4"
                 data-semantic-operator="infixop,⁢"
                 data-semantic-parent="5"
                 data-semantic-role="multiplication"
                 data-semantic-type="operator"
-                id="4">⁢</mo>
+                id="p4">⁢</mo>
             <mi data-semantic-font="italic"
                 data-semantic-id="3"
                 data-semantic-parent="5"
                 data-semantic-role="latinletter"
                 data-semantic-type="identifier"
-                id="3">c</mi>
+                id="p3">c</mi>
          </mrow>
       </mrow>
       <annotation encoding="application/x-tex">a*bc</annotation>
       <annotation-xml encoding="MathML-Content">
-         <apply id="c6" xref="6">
-            <times cd="operator" id="c1" xref="1">∗</times>
-            <ci cd="identifier" id="c0" xref="0">a</ci>
-            <apply id="c5" xref="5">
-               <times cd="operator" id="c4" xref="4">⁢</times>
-               <ci cd="identifier" id="c2" xref="2">b</ci>
-               <ci cd="identifier" id="c3" xref="3">c</ci>
+         <apply id="c6" xref="p6">
+            <times cd="operator" id="c1" xref="p1">∗</times>
+            <ci cd="identifier" id="c0" xref="p0">a</ci>
+            <apply id="c5" xref="p5">
+               <times cd="operator" id="c4" xref="p4">⁢</times>
+               <ci cd="identifier" id="c2" xref="p2">b</ci>
+               <ci cd="identifier" id="c3" xref="p3">c</ci>
             </apply>
          </apply>
       </annotation-xml>

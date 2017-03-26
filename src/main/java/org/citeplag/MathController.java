@@ -45,26 +45,22 @@ public class MathController {
     @PostMapping()
     @ApiOperation(value = "Converts a Latex String via LaTeXML to MathML semantics.")
     public String convertLatexml(
-            @RequestParam(required = false, defaultValue = "true") Boolean service,
             @RequestParam(required = false) String config,
             @RequestParam() String latex,
             HttpServletRequest request) throws Exception {
 
-        // If local configuration is given, use it.
+        // if request configuration is given, use it.
         LateXMLConfig usedConfig = (config != null ? new ObjectMapper().readValue(config, LateXMLConfig.class) : lateXMLConfig);
 
         LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(usedConfig);
-        try {
-            if (service && !StringUtils.isEmpty(usedConfig.getUrl())) {
-                logger.info("service latex conversion from: " + request.getRemoteAddr());
-                return laTeXMLConverter.convertLatexmlService(latex);
-            }
-        } catch (Exception e) {
-            logger.error("latexml online service error", e);
-            // fallback, try to use the local installation
+        // no url = local installation / url = online service
+        if (StringUtils.isEmpty(usedConfig.getUrl())) {
+            logger.info("local latex conversion from: " + request.getRemoteAddr());
+            return laTeXMLConverter.runLatexmlc(latex);
+        } else {
+            logger.info("service latex conversion from: " + request.getRemoteAddr());
+            return laTeXMLConverter.convertLatexmlService(latex);
         }
-        logger.info("local latex conversion from: " + request.getRemoteAddr());
-        return laTeXMLConverter.runLatexmlc(latex);
     }
 
     @PostMapping("/mathoid")
