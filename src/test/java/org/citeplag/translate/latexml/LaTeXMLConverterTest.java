@@ -2,6 +2,7 @@ package org.citeplag.translate.latexml;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.IOUtils;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.LinkedHashMap;
@@ -55,6 +56,7 @@ public class LaTeXMLConverterTest {
      * Test works with http://gw125.iu.xsede.org:8888
      */
     @Test
+    @Ignore("service is currently not available, again")
     public void convertLatexmlService() throws Exception {
         // local configuration for the test in json (with DRMF stylesheet)
         String config = "{\n" +
