@@ -134,7 +134,7 @@ function renderCompare() {
     var mathml1 = document.getElementById("mathml1").value;
     var mathml2 = document.getElementById("mathml2").value;
     var sim = document.getElementById("sim").value;
-    var url = 'http://math.citeplag.org/widgets/formula-similarity-widget.js';
+    var url = mastUrl + '/widgets/formula-similarity-widget.js';
 
     // prepare widget data
     var scriptTag = document.createElement('script');
