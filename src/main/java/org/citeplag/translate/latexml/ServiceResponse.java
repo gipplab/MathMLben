@@ -13,18 +13,19 @@ public class ServiceResponse {
     int statusCode = 0;
 
     @JsonProperty("status")
-    String status;
+    String status = "";
 
-    String result;
+    String result = "";
 
-    String log;
+    String log = "";
 
     public ServiceResponse() {
         // emtpy constructor
     }
 
-    public ServiceResponse(String result) {
+    public ServiceResponse(String result, String log) {
         this.result = result;
+        this.log = log;
     }
 
     public int getStatusCode() {

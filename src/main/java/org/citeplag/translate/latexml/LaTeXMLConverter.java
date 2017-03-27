@@ -56,7 +56,7 @@ public class LaTeXMLConverter {
                 "--preload", "[ids]latexml.sty",
                 "--preload", "texvc",
                 "literal:" + latex);
-        return new ServiceResponse(latexmlmath.exec(2000L));
+        return new ServiceResponse(latexmlmath.exec(2000L), "Conversion via local installation of latexmlc");
     }
 
     /**
@@ -83,10 +83,10 @@ public class LaTeXMLConverter {
     }
 
     /**
-     * TODO
+     * Create a URL Path consisting of the mapped values.
      *
-     * @param values
-     * @return
+     * @param values map of properties converted into a URL path.
+     * @return String representation of the URL path.
      */
     String configToUrlString(Map<String, String> values) {
         StringBuilder sb = new StringBuilder();
