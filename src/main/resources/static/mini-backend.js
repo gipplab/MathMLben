@@ -1,4 +1,9 @@
-// simple asynchronoues http client
+/**
+ * JS backend for our demo. Handle all calls and logging to the API.
+ * @author Vincent
+ */
+
+/** simple asynchronoues http client */
 var HttpClient = function() {
     // url [String]: full URL to destination
     // body [String]:
@@ -9,11 +14,11 @@ var HttpClient = function() {
         httpRequest.onreadystatechange = function() {
             if (httpRequest.readyState == 4) {
                 if (httpRequest.status == 200) {
-                    console.info(httpRequest.responseText);
+                    log(httpRequest.responseText);
                     pCallback(httpRequest.responseText);
                 } else {
                     // log error
-                    console.error(httpRequest.responseText)
+                    log(httpRequest.responseText, true);
                 }
             }
         }
@@ -23,38 +28,40 @@ var HttpClient = function() {
     }
 
     this.get = function(url, pCallback) {
-            var httpRequest = new XMLHttpRequest();
-            // prepare callback
-            httpRequest.onreadystatechange = function() {
-                if (httpRequest.readyState == 4) {
-                    if (httpRequest.status == 200) {
-                        console.info(httpRequest.responseText);
-                        pCallback(httpRequest.responseText);
-                    } else {
-                        // log error
-                        console.error(httpRequest.responseText)
-                    }
+        var httpRequest = new XMLHttpRequest();
+        // prepare callback
+        httpRequest.onreadystatechange = function() {
+            if (httpRequest.readyState == 4) {
+                if (httpRequest.status == 200) {
+                    log(httpRequest.responseText);
+                    pCallback(httpRequest.responseText);
+                } else {
+                    // log error
+                    log(httpRequest.responseText);
                 }
             }
-            // http execute
-            httpRequest.open("GET", url, true);
-            httpRequest.send(null);
         }
+        // http execute
+        httpRequest.open("GET", url, true);
+        httpRequest.send(null);
+    }
 };
 
 function convertLatex() {
     var client = new HttpClient();
 
     // put the first latex as request body and expect a positive reply with mathml
+    log("convert latex field 1 via LaTeXML");
     var formData1 = new FormData();
     formData1.append("latex", document.getElementById("latex1").value);
     formData1.append("config", document.getElementById("latexcfg1").value);
     client.post("/math", formData1, function(serviceRep) {
         var json = JSON.parse(serviceRep);
         document.getElementById("mathml1").value = json.result;
-
+        log("conversion of latex field 1 finished");
     });
 
+    log("convert latex field 2 via LaTeXML");
     // put the second latex as request body and expect a positive reply with mathml
     var formData2 = new FormData();
     formData2.append("latex", document.getElementById("latex2").value);
@@ -62,7 +69,7 @@ function convertLatex() {
     client.post("/math", formData2, function(serviceRep) {
         var json = JSON.parse(serviceRep);
         document.getElementById("mathml2").value = json.result;
-
+        log("conversion of latex field 2 finished");
     });
 };
 
@@ -70,6 +77,7 @@ function convertLatexMathoid() {
     var client = new HttpClient();
 
     // put the first latex as request body and expect a positive reply with mathml
+    log("convert latex field 1 via Mathoid");
     var formData1 = new FormData();
     formData1.append("latex", document.getElementById("latex1").value);
     client.post("/math/mathoid", formData1, function(mathml) {
@@ -77,6 +85,7 @@ function convertLatexMathoid() {
     });
 
     // put the second latex as request body and expect a positive reply with mathml
+    log("convert latex field 2 via Mathoid");
     var formData2 = new FormData();
     formData2.append("latex", document.getElementById("latex2").value);
     client.post("/math/mathoid", formData2, function(mathml) {
@@ -93,9 +102,12 @@ function getSimilarities(type) {
     formData.append("mathml2", mathml2);
     formData.append("type", type);
 
+    log("compare similarities for type: " + type);
     var client = new HttpClient();
-    client.post("/math/similarity", formData, function(similarity) {
-        document.getElementById("sim").value = similarity;
+    client.post("/math/similarity", formData, function(similarityRep) {
+        var json = JSON.parse(similarityRep);
+        document.getElementById("sim").value = JSON.stringify(json.result, null, 2);
+        log("similarity comparison finished");
     });
 };
 
@@ -109,6 +121,7 @@ function renderAST() {
     scriptTag.setAttribute('mathml', mathml);
 
     // add script
+    log("start to render first AST")
     var container = document.getElementById("ast")
     container.innerHTML = "";
     container.appendChild(scriptTag);
@@ -128,11 +141,16 @@ function renderCompare() {
     scriptTag.setAttribute('similarities', sim);
 
     // add script
+    log("start to render comparison")
     var container = document.getElementById("ast")
     container.innerHTML = "";
     container.appendChild(scriptTag);
 };
 
+/**
+ * Request of the latexml configuration from the backend and put it
+ * into the configuration text areas.
+ */
 function getConfig() {
     var client = new HttpClient();
     client.get("/math/config", function(config) {
@@ -141,10 +159,35 @@ function getConfig() {
     });
 }
 
-function showCfg(btn) {
-    if(document.getElementById(btn).style.display == "block") {
-        document.getElementById(btn).style.display = "none";
+/**
+ * This method will change the visibility of a certain field.
+ * @param field field to change the visibility
+ */
+function showCfg(field) {
+    if(document.getElementById(field).style.display == "block") {
+        document.getElementById(field).style.display = "none";
     } else {
-        document.getElementById(btn).style.display = "block";
+        document.getElementById(field).style.display = "block";
     }
+}
+
+/**
+ *
+ */
+function log(text) {
+    log(text, false);
+}
+
+/**
+ *
+ */
+function log(text, error) {
+    if (error)
+        console.error(text);
+    else
+        console.info(text);
+    // log into the textfield
+    var logarea = document.getElementById('log');
+    document.getElementById('log').value = logarea.value + "\n" + text;
+    logarea.scrollTop = logarea.scrollHeight;
 }

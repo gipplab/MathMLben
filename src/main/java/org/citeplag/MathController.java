@@ -7,6 +7,7 @@ import org.citeplag.match.Similarity;
 import org.citeplag.node.MathNode;
 import org.citeplag.node.MathNodeGenerator;
 import org.citeplag.search.BruteTreeSearch;
+import org.citeplag.search.SimilarityResult;
 import org.citeplag.translate.latexml.LaTeXMLConverter;
 import org.citeplag.translate.latexml.LateXMLConfig;
 import org.citeplag.translate.latexml.ServiceResponse;
@@ -91,7 +92,7 @@ public class MathController {
 
     @PostMapping(path = "similarity")
     @ApiOperation(value = "Get a list of similarities between two MathML semantics.")
-    public List<Similarity> getSimilarities(
+    public SimilarityResult getSimilarities(
             @RequestParam(value = "mathml1") String mathmlA,
             @RequestParam(value = "mathml2") String mathmlB,
             @RequestParam(value = "type") String type,
@@ -116,11 +117,11 @@ public class MathController {
             MathNode mathNodeA = generator.generateMathNode(cmmlA);
             MathNode mathNodeB = generator.generateMathNode(cmmlB);
 
-            BruteTreeSearch bruteSearch = new BruteTreeSearch(type);
-            return bruteSearch.getSimilarities(mathNodeA, mathNodeB, onlyOperations);
+            List<Similarity> similarities = new BruteTreeSearch(type).getSimilarities(mathNodeA, mathNodeB, onlyOperations);
+            return new SimilarityResult("Okay", "", similarities);
         } catch (Exception e) {
             logger.error("similarity error", e);
-            return Collections.emptyList();
+            return new SimilarityResult("Error", e.getMessage(), Collections.emptyList());
         }
     }
 

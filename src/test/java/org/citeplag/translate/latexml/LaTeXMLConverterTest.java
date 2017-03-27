@@ -81,9 +81,9 @@ public class LaTeXMLConverterTest {
         ServiceResponse serviceResponse = new LaTeXMLConverter(lateXMLConfig).convertLatexmlService(latex);
 
         // validate
-        String expected = IOUtils.toString(this.getClass().getResourceAsStream("_expected.txt"), "UTF-8");
-        assertThat(serviceResponse.getStatus(), equalTo(0));
-        assertThat(serviceResponse.getResult(), equalTo(0));
+        String expected = IOUtils.toString(this.getClass().getResourceAsStream("latexml_service_expected.txt"), "UTF-8");
+        assertThat(serviceResponse.getStatusCode(), equalTo(0));
+        assertThat(serviceResponse.getResult(), equalTo(expected));
     }
 
     @Test

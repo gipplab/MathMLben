@@ -1,0 +1,185 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="{\displaystyle\RiemannZeta@{s}=\frac{1}{(1-2^{1-s})\EulerGamma@{s+1}}\Int{0}{%&#10;\infty}@{x}{\frac{e^{x}x^{s}}{(e^{x}+1)^{2}}}}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">
+      <mrow id="p1.1.m1.1.1.8.2" xref="p1.1.m1.1.1.1.cmml">
+        <mpadded width="-1.7pt" id="p1.1.m1.1.1.2" xref="p1.1.m1.1.1.1.cmml">
+          <mi id="p1.1.m1.1.1.2.1.2" xref="p1.1.m1.1.1.2.1.1.cmml">ζ</mi>
+        </mpadded>
+        <mo id="p1.1.m1.1.1.8.2a" xref="p1.1.m1.1.1.1.cmml">⁡</mo>
+        <mrow id="p1.1.m1.1.1.8.2.1" xref="p1.1.m1.1.1.1.cmml">
+          <mo id="p1.1.m1.1.1.5" xref="p1.1.m1.1.1.1.cmml">(</mo>
+          <mi id="p1.1.m1.1.1.6" xref="p1.1.m1.1.1.6.cmml">s</mi>
+          <mo id="p1.1.m1.1.1.7" xref="p1.1.m1.1.1.1.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">=</mo>
+      <mrow id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">
+        <mstyle displaystyle="true" id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">
+          <mfrac id="p1.1.m1.1.3a" xref="p1.1.m1.1.3.cmml">
+            <mn id="p1.1.m1.1.3.2" xref="p1.1.m1.1.3.2.cmml">1</mn>
+            <mrow id="p1.1.m1.1.3.3" xref="p1.1.m1.1.3.3.cmml">
+              <mrow id="p1.1.m1.1.3.3.9" xref="p1.1.m1.1.3.3.9.2.cmml">
+                <mo stretchy="false" id="p1.1.m1.1.3.3.1" xref="p1.1.m1.1.3.3.9.2.cmml">(</mo>
+                <mrow id="p1.1.m1.1.3.3.9.2" xref="p1.1.m1.1.3.3.9.2.cmml">
+                  <mn id="p1.1.m1.1.3.3.2" xref="p1.1.m1.1.3.3.2.cmml">1</mn>
+                  <mo id="p1.1.m1.1.3.3.3" xref="p1.1.m1.1.3.3.3.cmml">-</mo>
+                  <msup id="p1.1.m1.1.3.3.9.2.1" xref="p1.1.m1.1.3.3.9.2.1.cmml">
+                    <mn id="p1.1.m1.1.3.3.4" xref="p1.1.m1.1.3.3.4.cmml">2</mn>
+                    <mrow id="p1.1.m1.1.3.3.5.1" xref="p1.1.m1.1.3.3.5.1.cmml">
+                      <mn id="p1.1.m1.1.3.3.5.1.1" xref="p1.1.m1.1.3.3.5.1.1.cmml">1</mn>
+                      <mo id="p1.1.m1.1.3.3.5.1.2" xref="p1.1.m1.1.3.3.5.1.2.cmml">-</mo>
+                      <mi id="p1.1.m1.1.3.3.5.1.3" xref="p1.1.m1.1.3.3.5.1.3.cmml">s</mi>
+                    </mrow>
+                  </msup>
+                </mrow>
+                <mo stretchy="false" id="p1.1.m1.1.3.3.6" xref="p1.1.m1.1.3.3.9.2.cmml">)</mo>
+              </mrow>
+              <mo id="p1.1.m1.1.3.3.8" xref="p1.1.m1.1.3.3.8.cmml">⁢</mo>
+              <mrow id="p1.1.m1.1.3.3.7.8.2" xref="p1.1.m1.1.3.3.7.1.cmml">
+                <mpadded width="-1.7pt" id="p1.1.m1.1.3.3.7.2" xref="p1.1.m1.1.3.3.7.1.cmml">
+                  <mi mathvariant="normal" id="p1.1.m1.1.3.3.7.2.1.2" xref="p1.1.m1.1.3.3.7.2.1.1.cmml">Γ</mi>
+                </mpadded>
+                <mo id="p1.1.m1.1.3.3.7.8.2a" xref="p1.1.m1.1.3.3.7.1.cmml">⁡</mo>
+                <mrow id="p1.1.m1.1.3.3.7.8.2.1" xref="p1.1.m1.1.3.3.7.1.cmml">
+                  <mo id="p1.1.m1.1.3.3.7.5" xref="p1.1.m1.1.3.3.7.1.cmml">(</mo>
+                  <mrow id="p1.1.m1.1.3.3.7.6" xref="p1.1.m1.1.3.3.7.6.cmml">
+                    <mi id="p1.1.m1.1.3.3.7.6.1" xref="p1.1.m1.1.3.3.7.6.1.cmml">s</mi>
+                    <mo id="p1.1.m1.1.3.3.7.6.2" xref="p1.1.m1.1.3.3.7.6.2.cmml">+</mo>
+                    <mn id="p1.1.m1.1.3.3.7.6.3" xref="p1.1.m1.1.3.3.7.6.3.cmml">1</mn>
+                  </mrow>
+                  <mo id="p1.1.m1.1.3.3.7.7" xref="p1.1.m1.1.3.3.7.1.cmml">)</mo>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mstyle>
+        <mo id="p1.1.m1.1.5.1.1" xref="p1.1.m1.1.5.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.4.8" xref="p1.1.m1.1.4.1.cmml">
+          <mstyle displaystyle="true" id="p1.1.m1.1.4.2.1.6" xref="p1.1.m1.1.4.2.1.1.cmml">
+            <msubsup id="p1.1.m1.1.4.2.1.6a" xref="p1.1.m1.1.4.2.1.1.cmml">
+              <mo largeop="true" symmetric="true" id="p1.1.m1.1.4.2.1.2" xref="p1.1.m1.1.4.2.1.1.1.cmml">∫</mo>
+              <mn id="p1.1.m1.1.4.2.1.3.1" xref="p1.1.m1.1.4.2.1.3.1.cmml">0</mn>
+              <mi mathvariant="normal" id="p1.1.m1.1.4.2.1.4.1" xref="p1.1.m1.1.4.2.1.4.1.cmml">∞</mi>
+            </msubsup>
+          </mstyle>
+          <mo id="p1.1.m1.1.4.8a" xref="p1.1.m1.1.4.1.cmml">⁡</mo>
+          <mrow id="p1.1.m1.1.4.8.1" xref="p1.1.m1.1.4.1.cmml">
+            <mpadded width="+1.7pt" id="p1.1.m1.1.4.4" xref="p1.1.m1.1.4.4.cmml">
+              <mstyle displaystyle="true" id="p1.1.m1.1.4.4a" xref="p1.1.m1.1.4.4.cmml">
+                <mfrac id="p1.1.m1.1.4.4b" xref="p1.1.m1.1.4.4.cmml">
+                  <mrow id="p1.1.m1.1.4.4.1.2" xref="p1.1.m1.1.4.4.1.2.cmml">
+                    <msup id="p1.1.m1.1.4.4.1.2.6" xref="p1.1.m1.1.4.4.1.2.6.cmml">
+                      <mi id="p1.1.m1.1.4.4.1.2.1" xref="p1.1.m1.1.4.4.1.2.1.cmml">e</mi>
+                      <mi id="p1.1.m1.1.4.4.1.2.2.1" xref="p1.1.m1.1.4.4.1.2.2.1.cmml">x</mi>
+                    </msup>
+                    <mo id="p1.1.m1.1.4.4.1.2.5" xref="p1.1.m1.1.4.4.1.2.5.cmml">⁢</mo>
+                    <msup id="p1.1.m1.1.4.4.1.2.7" xref="p1.1.m1.1.4.4.1.2.7.cmml">
+                      <mi id="p1.1.m1.1.4.4.1.2.3" xref="p1.1.m1.1.4.4.1.2.3.cmml">x</mi>
+                      <mi id="p1.1.m1.1.4.4.1.2.4.1" xref="p1.1.m1.1.4.4.1.2.4.1.cmml">s</mi>
+                    </msup>
+                  </mrow>
+                  <msup id="p1.1.m1.1.4.4.1.3" xref="p1.1.m1.1.4.4.1.3.cmml">
+                    <mrow id="p1.1.m1.1.4.4.1.3.9" xref="p1.1.m1.1.4.4.1.3.9.2.cmml">
+                      <mo stretchy="false" id="p1.1.m1.1.4.4.1.3.1" xref="p1.1.m1.1.4.4.1.3.9.2.cmml">(</mo>
+                      <mrow id="p1.1.m1.1.4.4.1.3.9.2" xref="p1.1.m1.1.4.4.1.3.9.2.cmml">
+                        <msup id="p1.1.m1.1.4.4.1.3.9.2.1" xref="p1.1.m1.1.4.4.1.3.9.2.1.cmml">
+                          <mi id="p1.1.m1.1.4.4.1.3.2" xref="p1.1.m1.1.4.4.1.3.2.cmml">e</mi>
+                          <mi id="p1.1.m1.1.4.4.1.3.3.1" xref="p1.1.m1.1.4.4.1.3.3.1.cmml">x</mi>
+                        </msup>
+                        <mo id="p1.1.m1.1.4.4.1.3.4" xref="p1.1.m1.1.4.4.1.3.4.cmml">+</mo>
+                        <mn id="p1.1.m1.1.4.4.1.3.5" xref="p1.1.m1.1.4.4.1.3.5.cmml">1</mn>
+                      </mrow>
+                      <mo stretchy="false" id="p1.1.m1.1.4.4.1.3.6" xref="p1.1.m1.1.4.4.1.3.9.2.cmml">)</mo>
+                    </mrow>
+                    <mn id="p1.1.m1.1.4.4.1.3.7.1" xref="p1.1.m1.1.4.4.1.3.7.1.cmml">2</mn>
+                  </msup>
+                </mfrac>
+              </mstyle>
+            </mpadded>
+            <mo id="p1.1.m1.1.4.8.1.1" xref="p1.1.m1.1.4.1.cmml">⁢</mo>
+            <mi mathvariant="normal" id="p1.1.m1.1.4.6" xref="p1.1.m1.1.4.1.cmml">d</mi>
+            <mo id="p1.1.m1.1.4.8.1.1a" xref="p1.1.m1.1.4.1.cmml">⁢</mo>
+            <mi id="p1.1.m1.1.4.7" xref="p1.1.m1.1.4.7.cmml">x</mi>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">
+        <eq id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2"/>
+        <apply id="p1.1.m1.1.1.1.cmml" xref="p1.1.m1.1.1.8.2">
+          <csymbol cd="dlmf" id="p1.1.m1.1.1.2.1.1.cmml" xref="p1.1.m1.1.1.2.1.2">Riemann-zeta</csymbol>
+          <ci id="p1.1.m1.1.1.6.cmml" xref="p1.1.m1.1.1.6">𝑠</ci>
+        </apply>
+        <apply id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.1">
+          <times id="p1.1.m1.1.5.1.1.cmml" xref="p1.1.m1.1.5.1.1"/>
+          <apply id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">
+            <divide id="p1.1.m1.1.3.1.cmml" xref="p1.1.m1.1.3"/>
+            <cn type="integer" id="p1.1.m1.1.3.2.cmml" xref="p1.1.m1.1.3.2">1</cn>
+            <apply id="p1.1.m1.1.3.3.cmml" xref="p1.1.m1.1.3.3">
+              <times id="p1.1.m1.1.3.3.8.cmml" xref="p1.1.m1.1.3.3.8"/>
+              <apply id="p1.1.m1.1.3.3.9.2.cmml" xref="p1.1.m1.1.3.3.9">
+                <minus id="p1.1.m1.1.3.3.3.cmml" xref="p1.1.m1.1.3.3.3"/>
+                <cn type="integer" id="p1.1.m1.1.3.3.2.cmml" xref="p1.1.m1.1.3.3.2">1</cn>
+                <apply id="p1.1.m1.1.3.3.9.2.1.cmml" xref="p1.1.m1.1.3.3.9.2.1">
+                  <power xmlns:m="http://www.w3.org/1998/Math/MathML" xref="p1.1.m1.1.3.3.9.2.1"/>
+                  <cn type="integer" id="p1.1.m1.1.3.3.4.cmml" xref="p1.1.m1.1.3.3.4">2</cn>
+                  <apply id="p1.1.m1.1.3.3.5.1.cmml" xref="p1.1.m1.1.3.3.5.1">
+                    <minus id="p1.1.m1.1.3.3.5.1.2.cmml" xref="p1.1.m1.1.3.3.5.1.2"/>
+                    <cn type="integer" id="p1.1.m1.1.3.3.5.1.1.cmml" xref="p1.1.m1.1.3.3.5.1.1">1</cn>
+                    <ci id="p1.1.m1.1.3.3.5.1.3.cmml" xref="p1.1.m1.1.3.3.5.1.3">𝑠</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply id="p1.1.m1.1.3.3.7.1.cmml" xref="p1.1.m1.1.3.3.7.8.2">
+                <csymbol cd="dlmf" id="p1.1.m1.1.3.3.7.2.1.1.cmml" xref="p1.1.m1.1.3.3.7.2.1.2">Euler-Gamma</csymbol>
+                <apply id="p1.1.m1.1.3.3.7.6.cmml" xref="p1.1.m1.1.3.3.7.6">
+                  <plus id="p1.1.m1.1.3.3.7.6.2.cmml" xref="p1.1.m1.1.3.3.7.6.2"/>
+                  <ci id="p1.1.m1.1.3.3.7.6.1.cmml" xref="p1.1.m1.1.3.3.7.6.1">𝑠</ci>
+                  <cn type="integer" id="p1.1.m1.1.3.3.7.6.3.cmml" xref="p1.1.m1.1.3.3.7.6.3">1</cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+          <apply id="p1.1.m1.1.4.1.cmml" xref="p1.1.m1.1.4.8">
+            <apply id="p1.1.m1.1.4.2.1.1.cmml" xref="p1.1.m1.1.4.2.1.6">
+              <csymbol cd="dlmf" id="p1.1.m1.1.4.2.1.1.1.cmml" xref="p1.1.m1.1.4.2.1.2">semantic-definite-integral</csymbol>
+              <cn type="integer" id="p1.1.m1.1.4.2.1.3.1.cmml" xref="p1.1.m1.1.4.2.1.3.1">0</cn>
+              <infinity id="p1.1.m1.1.4.2.1.4.1.cmml" xref="p1.1.m1.1.4.2.1.4.1"/>
+            </apply>
+            <ci id="p1.1.m1.1.4.7.cmml" xref="p1.1.m1.1.4.7">𝑥</ci>
+            <apply id="p1.1.m1.1.4.4.cmml" xref="p1.1.m1.1.4.4">
+              <divide id="p1.1.m1.1.4.4.1.1.cmml" xref="p1.1.m1.1.4.4"/>
+              <apply id="p1.1.m1.1.4.4.1.2.cmml" xref="p1.1.m1.1.4.4.1.2">
+                <times id="p1.1.m1.1.4.4.1.2.5.cmml" xref="p1.1.m1.1.4.4.1.2.5"/>
+                <apply id="p1.1.m1.1.4.4.1.2.6.cmml" xref="p1.1.m1.1.4.4.1.2.6">
+                  <power xmlns:m="http://www.w3.org/1998/Math/MathML" xref="p1.1.m1.1.4.4.1.2.6"/>
+                  <ci id="p1.1.m1.1.4.4.1.2.1.cmml" xref="p1.1.m1.1.4.4.1.2.1">𝑒</ci>
+                  <ci id="p1.1.m1.1.4.4.1.2.2.1.cmml" xref="p1.1.m1.1.4.4.1.2.2.1">𝑥</ci>
+                </apply>
+                <apply id="p1.1.m1.1.4.4.1.2.7.cmml" xref="p1.1.m1.1.4.4.1.2.7">
+                  <power xmlns:m="http://www.w3.org/1998/Math/MathML" xref="p1.1.m1.1.4.4.1.2.7"/>
+                  <ci id="p1.1.m1.1.4.4.1.2.3.cmml" xref="p1.1.m1.1.4.4.1.2.3">𝑥</ci>
+                  <ci id="p1.1.m1.1.4.4.1.2.4.1.cmml" xref="p1.1.m1.1.4.4.1.2.4.1">𝑠</ci>
+                </apply>
+              </apply>
+              <apply id="p1.1.m1.1.4.4.1.3.cmml" xref="p1.1.m1.1.4.4.1.3">
+                <power xmlns:m="http://www.w3.org/1998/Math/MathML" xref="p1.1.m1.1.4.4.1.3"/>
+                <apply id="p1.1.m1.1.4.4.1.3.9.2.cmml" xref="p1.1.m1.1.4.4.1.3.9">
+                  <plus id="p1.1.m1.1.4.4.1.3.4.cmml" xref="p1.1.m1.1.4.4.1.3.4"/>
+                  <apply id="p1.1.m1.1.4.4.1.3.9.2.1.cmml" xref="p1.1.m1.1.4.4.1.3.9.2.1">
+                    <power xmlns:m="http://www.w3.org/1998/Math/MathML" xref="p1.1.m1.1.4.4.1.3.9.2.1"/>
+                    <ci id="p1.1.m1.1.4.4.1.3.2.cmml" xref="p1.1.m1.1.4.4.1.3.2">𝑒</ci>
+                    <ci id="p1.1.m1.1.4.4.1.3.3.1.cmml" xref="p1.1.m1.1.4.4.1.3.3.1">𝑥</ci>
+                  </apply>
+                  <cn type="integer" id="p1.1.m1.1.4.4.1.3.5.cmml" xref="p1.1.m1.1.4.4.1.3.5">1</cn>
+                </apply>
+                <cn type="integer" id="p1.1.m1.1.4.4.1.3.7.1.cmml" xref="p1.1.m1.1.4.4.1.3.7.1">2</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>
