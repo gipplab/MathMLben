@@ -54,7 +54,7 @@ Copy the Jar from the `target` folder to `/var/mathpipeline/`
 
     $ sudo ln -s /var/mathpipeline/mathpipeline.jar /etc/init.d/mathpipeline
     
-2. Once installed, you can start and stop the service in the usual way.
+2. Once installed, you can start and stop the service in the usual way. E.g `service mathpipeline start/stop`
 
 You can find an automatic log in `/var/log/mathpipeline.log`.
 
@@ -73,6 +73,9 @@ in the execution / installation folder. The content should be:
     #  servlet-path: /pipe   # custom servlet-path
       port: 8080            # default server port, if not set otherwise
     
+    # Math AST Renderer - Main URL
+    mast.url: http://math.citeplag.org
+    
     # the use of the latexml online service (via url)
     # if no url is given a local latexml installation will be called
     latexml:
@@ -89,6 +92,7 @@ in the execution / installation folder. The content should be:
         quiet:
         preload: "LaTeX.pool,article.cls,amsmath.sty,amsthm.sty,amstext.sty,amssymb.sty,eucal.sty,[dvipsnames]xcolor.sty,url.sty,hyperref.sty,[ids]latexml.sty,texvc"
 
+    # Mathoid - alternative Latex to MathML converter
     mathoid:
       url: http://localhost:10044/mml
 

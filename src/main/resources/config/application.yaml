@@ -2,6 +2,9 @@ server:
 #  servlet-path: /pipe   # custom servlet-path
   port: 8080            # default server port, if not set otherwise
 
+# Math AST Renderer - Main URL
+mast.url: http://math.citeplag.org
+
 # the use of the latexml online service (via url) is optional
 # if service is not found or configured properly fallback is the local latexml installation
 latexml:
@@ -19,6 +22,7 @@ latexml:
     preload: "LaTeX.pool,article.cls,amsmath.sty,amsthm.sty,amstext.sty,amssymb.sty,eucal.sty,DLMFmath.sty,[dvipsnames]xcolor.sty,url.sty,hyperref.sty,[ids]latexml.sty,texvc"
     stylesheet: "DRMF.xsl"
 
+# Mathoid - alternative Latex to MathML converter
 mathoid:
   url: http://localhost:10044/mml
 

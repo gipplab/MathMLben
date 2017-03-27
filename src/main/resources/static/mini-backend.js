@@ -3,6 +3,9 @@
  * @author Vincent
  */
 
+/** Math AST URL */
+var mastUrl = "http://math.citeplag.org";
+
 /** simple asynchronoues http client */
 var HttpClient = function() {
     // url [String]: full URL to destination
@@ -113,7 +116,7 @@ function getSimilarities(type) {
 
 function renderAST() {
     var mathml = document.getElementById("mathml1").value;
-    var url = 'http://math.citeplag.org/widgets/formula-ast-widget.js';
+    var url = mastUrl + '/widgets/formula-ast-widget.js';
 
     // prepare widget data
     var scriptTag = document.createElement('script');
@@ -148,14 +151,20 @@ function renderCompare() {
 };
 
 /**
- * Request of the latexml configuration from the backend and put it
- * into the configuration text areas.
+ * Request of the configuration from the backend.
  */
 function getConfig() {
     var client = new HttpClient();
-    client.get("/math/config", function(config) {
+    // get latex config
+    client.get("/config/latexml", function(config) {
         document.getElementById('latexcfg1').value = config;
         document.getElementById('latexcfg2').value = config;
+        log("latexml configuration loaded")
+    });
+    // get mast url
+    client.get("/config/mast", function(config) {
+        mastUrl = config;
+        log("mast configuration loaded")
     });
 }
 

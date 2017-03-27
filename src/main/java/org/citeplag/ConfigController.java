@@ -16,19 +16,28 @@ import javax.servlet.http.HttpServletRequest;
  * @author Vincent Stange
  */
 @RestController
-@RequestMapping("/math/config")
+@RequestMapping("config")
 public class ConfigController {
 
     private static Logger logger = Logger.getLogger(ConfigController.class);
 
     @Autowired
+    MathASTConfig mathASTConfig;
+
+    @Autowired
     LateXMLConfig lateXMLConfig;
 
-    @GetMapping()
+    @GetMapping("latexml")
     @ApiOperation(value = "Show the current default LaTeXML configuration")
-    public LateXMLConfig getConfig(
+    public LateXMLConfig getLatexConfig(
             HttpServletRequest request) throws Exception {
         return lateXMLConfig;
+    }
+
+    @GetMapping("mast")
+    @ApiOperation(value = "Get the Math AST ")
+    public String getMathUrl() throws Exception {
+        return mathASTConfig.getUrl();
     }
 
 }

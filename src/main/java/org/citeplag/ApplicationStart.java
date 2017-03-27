@@ -85,7 +85,8 @@ public class ApplicationStart {
      */
     private Predicate<String> getDocumentedApiPaths() {
         return or(
-                regex("/math.*")
+                regex("/math.*"),
+                regex("/config.*")
         );
     }
 
