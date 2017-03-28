@@ -127,27 +127,34 @@ public class OwnTransformator {
             writeNode.appendChild(newCmmlNode);
             return newCmmlNode;
         } else if ("mrow".equals(readNode.getNodeName())) {
-            // 1. Build apply node
-            Element apply = writeDocument.createElement("apply");
-            String dataId = readNode.getAttribute("data-semantic-id");
-            if (Objects.equals(dataId, "")) {
+            if (Objects.equals(readNode.getAttribute("data-semantic-id"), "")) {
                 // go one element deeper, since this is an encapsulate
                 return createCmml(getChildElements(readNode).get(0), writeNode);
             }
 
-            // 1a. further build a normal apply node
-            apply.setAttribute("id", "c" + dataId);
+            String type = readNode.getAttribute("data-semantic-type");
+            // if fenced, go to the first child
+            if (Objects.equals(type, "fenced")) {
+                Element firstContentChild = getChildById(getChildElements(readNode), readNode.getAttribute("data-semantic-children"));
+                return createCmml(firstContentChild, writeNode);
+            }
+
+            // 1. Build apply node
+            Element apply = writeDocument.createElement("apply");
+            apply.setAttribute("id", "c" + readNode.getAttribute("data-semantic-id"));
             apply.setAttribute("xref", readNode.getAttribute("id"));
             writeNode.appendChild(apply);
 
-            // 2. Take content identifiers
-            String rawContentIds = readNode.getAttribute("data-semantic-content");
-            String[] contentIds = rawContentIds.split(",");
-            if (!"".equals(contentIds[0])) {
-                // take first operator
-                Element contentChild = getChildById(getChildElements(readNode), contentIds[0]);
-                Element operator = createSingleCmmlNode(contentChild, true);
-                apply.appendChild(operator);
+            if (!Objects.equals(type, "appl")) {
+                // 2. Take content identifiers
+                String rawContentIds = readNode.getAttribute("data-semantic-content");
+                String[] contentIds = rawContentIds.split(",");
+                if (!"".equals(contentIds[0])) {
+                    // take first operator
+                    Element contentChild = getChildById(getChildElements(readNode), contentIds[0]);
+                    Element operator = createSingleCmmlNode(contentChild, true);
+                    apply.appendChild(operator);
+                }
             }
 
             // 3a. filter children
