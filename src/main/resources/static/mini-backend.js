@@ -154,6 +154,7 @@ function renderCompare() {
  * Request of the configuration from the backend.
  */
 function getConfig() {
+log("Load default configuration")
     var client = new HttpClient();
     // get latex config
     client.get("/config/latexml", function(config) {
@@ -165,6 +166,22 @@ function getConfig() {
     client.get("/config/mast", function(config) {
         mastUrl = config;
         log("mast configuration loaded")
+    });
+}
+
+function loadExample() {
+    log("Load default example")
+    var client = new HttpClient();
+    // get latex config
+    client.get("/math/example", function(example) {
+        var json = JSON.parse(example);
+        document.getElementById("latex1").value = json.latex1;
+        document.getElementById("latex2").value = json.latex2;
+        document.getElementById("mathml1").value = json.mathml1;
+        document.getElementById("mathml2").value = json.mathml2;
+        document.getElementById("sim").value = json.similarity;
+        log("Example loaded")
+        renderCompare();
     });
 }
 

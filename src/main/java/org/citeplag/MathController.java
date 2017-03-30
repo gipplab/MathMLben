@@ -14,16 +14,16 @@ import org.citeplag.translate.latexml.ServiceResponse;
 import org.citeplag.translate.speech.MathoidConfig;
 import org.citeplag.translate.speech.MathoidConverter;
 import org.citeplag.translate.speech.OwnTransformator;
+import org.citeplag.util.Example;
+import org.citeplag.util.ExampleLoader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.ResourceAccessException;
 import org.w3c.dom.Node;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
@@ -123,6 +123,12 @@ public class MathController {
             logger.error("similarity error", e);
             return new SimilarityResult("Error", e.getMessage(), Collections.emptyList());
         }
+    }
+
+    @GetMapping(path = "example")
+    @ApiOperation(value = "Get aan example a full example for the demo.")
+    public Example getExample() throws IOException {
+        return new ExampleLoader().load("example_1.txt");
     }
 
 }

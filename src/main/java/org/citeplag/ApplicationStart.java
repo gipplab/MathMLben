@@ -98,10 +98,10 @@ public class ApplicationStart {
      */
     private ApiInfo getApiInfo() {
         return new ApiInfoBuilder()
-                .title("MathML Pipeline")
+                .title("MathML Demo - A Visualization Tool for Mathematical Expression Trees")
                 .description("SciPlore Project")
                 .termsOfServiceUrl("http://springfox.io")
-                .contact(new Contact("Vincent Stange", null, null))
+                .contact(new Contact("Vincent Stange", null, "vinc.sohn at gmail.com"))
                 .license("Apache License Version 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")
                 .version("1.0")
