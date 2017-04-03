@@ -15,31 +15,28 @@ import java.io.IOException;
 public class EnrichedMathMLTransformerTest {
 
     @Test
-    public void test1() throws IOException, ParserConfigurationException, TransformerException {
-        String xml = "<mrow data-semantic-children=\"0,2\"\n" +
-                "            data-semantic-content=\"1\"\n" +
-                "            data-semantic-id=\"3\"\n" +
-                "            data-semantic-role=\"addition\"\n" +
-                "            data-semantic-type=\"infixop\"\n" +
-                "            id=\"p3\">\n" +
-                "         <mi data-semantic-font=\"italic\"\n" +
-                "             data-semantic-id=\"0\"\n" +
-                "             data-semantic-parent=\"3\"\n" +
-                "             data-semantic-role=\"latinletter\"\n" +
-                "             data-semantic-type=\"identifier\"\n" +
-                "             id=\"p0\">a</mi>\n" +
-                "         <mo data-semantic-id=\"1\"\n" +
-                "             data-semantic-operator=\"infixop,+\"\n" +
-                "             data-semantic-parent=\"3\"\n" +
-                "             data-semantic-role=\"addition\"\n" +
-                "             data-semantic-type=\"operator\"\n" +
-                "             id=\"p1\">+</mo>\n" +
-                "         <mi data-semantic-font=\"italic\"\n" +
-                "             data-semantic-id=\"2\"\n" +
-                "             data-semantic-parent=\"3\"\n" +
-                "             data-semantic-role=\"latinletter\"\n" +
-                "             data-semantic-type=\"identifier\"\n" +
-                "             id=\"p2\">b</mi>\n" +
+    public void manualTest() throws IOException, ParserConfigurationException, TransformerException {
+        String xml = "<mrow xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"MJX-TeXAtom-ORD\">\n" +
+                "         <mroot data-semantic-children=\"0,1\"\n" +
+                "                data-semantic-id=\"2\"\n" +
+                "                data-semantic-role=\"unknown\"\n" +
+                "                data-semantic-type=\"root\"\n" +
+                "                id=\"p2\">\n" +
+                "            <mn data-semantic-font=\"normal\"\n" +
+                "                data-semantic-id=\"1\"\n" +
+                "                data-semantic-parent=\"2\"\n" +
+                "                data-semantic-role=\"integer\"\n" +
+                "                data-semantic-type=\"number\"\n" +
+                "                id=\"p1\">8</mn>\n" +
+                "            <mrow class=\"MJX-TeXAtom-ORD\">\n" +
+                "               <mn data-semantic-font=\"normal\"\n" +
+                "                   data-semantic-id=\"0\"\n" +
+                "                   data-semantic-parent=\"2\"\n" +
+                "                   data-semantic-role=\"integer\"\n" +
+                "                   data-semantic-type=\"number\"\n" +
+                "                   id=\"p0\">3</mn>\n" +
+                "            </mrow>\n" +
+                "         </mroot>\n" +
                 "      </mrow>";
 
         EnrichedMathMLTransformer transformer = new EnrichedMathMLTransformer(xml);
@@ -48,8 +45,29 @@ public class EnrichedMathMLTransformerTest {
 
     @Test
     public void testSimpleEnrichedMath1() throws Exception {
-        // a*b
+        // (a+b)+c=d
         test("xsl_test_simple_1");
+    }
+
+    @Test
+    public void testComplexEnrichedMath1() throws Exception {
+        // \sqrt{3}+\frac{a+1}{b-2}
+        test("xsl_test_complex_1");
+    }
+
+    @Test
+    public void testComplexEnrichedMath1_Full() throws Exception {
+        // \sqrt{3}+\frac{a+1}{b-2}
+        // prepare test strings
+        String testString = IOUtils.toString(this.getClass().getResourceAsStream( "complexMath1" + "_test.txt"),"UTF-8");;
+        String expected = IOUtils.toString(this.getClass().getResourceAsStream("complexMath1" + "_expected.txt"),"UTF-8");
+
+        // test it
+        EnrichedMathMLTransformer transformator = new EnrichedMathMLTransformer(testString);
+        String output = transformator.getFullMathML();
+
+        System.out.println(output);
+        Assert.assertThat(output, CoreMatchers.equalTo(expected));
     }
 
     private void test(String basicFilename) throws Exception {

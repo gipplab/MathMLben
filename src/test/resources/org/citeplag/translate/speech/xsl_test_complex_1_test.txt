@@ -1,0 +1,89 @@
+<mrow xmlns="http://www.w3.org/1998/Math/MathML" data-semantic-children="1,11"
+            data-semantic-content="2"
+            data-semantic-id="12"
+            data-semantic-role="addition"
+            data-semantic-type="infixop"
+            id="p12">
+         <mrow class="MJX-TeXAtom-ORD">
+            <msqrt data-semantic-children="0"
+                   data-semantic-id="1"
+                   data-semantic-parent="12"
+                   data-semantic-role="unknown"
+                   data-semantic-type="sqrt"
+                   id="p1">
+               <mn data-semantic-font="normal"
+                   data-semantic-id="0"
+                   data-semantic-parent="1"
+                   data-semantic-role="integer"
+                   data-semantic-type="number"
+                   id="p0">3</mn>
+            </msqrt>
+         </mrow>
+         <mo data-semantic-id="2"
+             data-semantic-operator="infixop,+"
+             data-semantic-parent="12"
+             data-semantic-role="addition"
+             data-semantic-type="operator"
+             id="p2">+</mo>
+         <mrow class="MJX-TeXAtom-ORD">
+            <mfrac data-semantic-children="6,10"
+                   data-semantic-id="11"
+                   data-semantic-parent="12"
+                   data-semantic-role="division"
+                   data-semantic-type="fraction"
+                   id="p11">
+               <mrow data-semantic-children="3,5"
+                     data-semantic-content="4"
+                     data-semantic-id="6"
+                     data-semantic-parent="11"
+                     data-semantic-role="addition"
+                     data-semantic-type="infixop"
+                     id="p6">
+                  <mi data-semantic-font="italic"
+                      data-semantic-id="3"
+                      data-semantic-parent="6"
+                      data-semantic-role="latinletter"
+                      data-semantic-type="identifier"
+                      id="p3">a</mi>
+                  <mo data-semantic-id="4"
+                      data-semantic-operator="infixop,+"
+                      data-semantic-parent="6"
+                      data-semantic-role="addition"
+                      data-semantic-type="operator"
+                      id="p4">+</mo>
+                  <mn data-semantic-font="normal"
+                      data-semantic-id="5"
+                      data-semantic-parent="6"
+                      data-semantic-role="integer"
+                      data-semantic-type="number"
+                      id="p5">1</mn>
+               </mrow>
+               <mrow data-semantic-children="7,9"
+                     data-semantic-content="8"
+                     data-semantic-id="10"
+                     data-semantic-parent="11"
+                     data-semantic-role="subtraction"
+                     data-semantic-type="infixop"
+                     id="p10">
+                  <mi data-semantic-font="italic"
+                      data-semantic-id="7"
+                      data-semantic-parent="10"
+                      data-semantic-role="latinletter"
+                      data-semantic-type="identifier"
+                      id="p7">b</mi>
+                  <mo data-semantic-id="8"
+                      data-semantic-operator="infixop,−"
+                      data-semantic-parent="10"
+                      data-semantic-role="subtraction"
+                      data-semantic-type="operator"
+                      id="p8">−<!-- − --></mo>
+                  <mn data-semantic-font="normal"
+                      data-semantic-id="9"
+                      data-semantic-parent="10"
+                      data-semantic-role="integer"
+                      data-semantic-type="number"
+                      id="p9">2</mn>
+               </mrow>
+            </mfrac>
+         </mrow>
+      </mrow>

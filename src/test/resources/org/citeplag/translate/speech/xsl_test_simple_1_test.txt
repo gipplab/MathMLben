@@ -1,4 +1,4 @@
-<mrow data-semantic-children="11,8"
+<mrow xmlns="http://www.w3.org/1998/Math/MathML" data-semantic-children="11,8"
     data-semantic-content="7"
     data-semantic-id="12"
     data-semantic-role="equality"

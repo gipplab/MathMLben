@@ -3,8 +3,8 @@
 <!-- BLUB TODO -->
 <xsl:stylesheet version="2.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns="http://www.w3.org/1998/Math/MathML">
-
+                xmlns="http://www.w3.org/1998/Math/MathML"
+                xpath-default-namespace="http://www.w3.org/1998/Math/MathML">
     <xsl:output method="xml" indent="yes"/>
 
     <!-- outer row without Id is only for formatting, just go one element deeper -->
@@ -21,7 +21,7 @@
         </xsl:call-template>
     </xsl:template>
 
-    <!-- Operation: infixop (plus or minus) -->
+    <!-- Operation: infixop, relseq, multirel (plus or minus) -->
     <xsl:template match="mrow[@data-semantic-type='infixop' or @data-semantic-type='relseq' or @data-semantic-type='multirel']">
         <apply>
             <!-- set id attributes -->
@@ -42,17 +42,91 @@
         </apply>
     </xsl:template>
 
-    <xsl:template match="mfrac[@data-semantic-type='infixop']">
+    <!-- Operation: appl (simple function) -->
+    <xsl:template match="mrow[@data-semantic-type='appl']">
         <apply>
             <!-- set id attributes -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
             <xsl:attribute name="xref">
                 <xsl:value-of select="@id"/>
             </xsl:attribute>
-            <divide>
 
-            </divide>
+            <!-- iterate over all children -->
+            <xsl:call-template name="iterateList">
+                <xsl:with-param name="list" select="@data-semantic-children"/>
+                <xsl:with-param name="separator" select="','"/>
+            </xsl:call-template>
         </apply>
+    </xsl:template>
+
+    <!-- Operation: fraction -->
+    <xsl:template match="mfrac">
+        <xsl:element name="apply">
+            <!-- set id attributes -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <!-- inner element (oeprator): divide -->
+            <xsl:element name="divide">
+                <!-- set (unique) id attributes -->
+                <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:element>
+
+            <!-- iterate over the children -->
+            <xsl:call-template name="iterateList">
+                <xsl:with-param name="list" select="@data-semantic-children"/>
+                <xsl:with-param name="separator" select="','"/>
+            </xsl:call-template>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- Operation: square root -->
+    <xsl:template match="msqrt">
+        <xsl:element name="apply">
+            <!-- set id attributes -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <!-- inner element (operator): root -->
+            <xsl:element name="root">
+                <!-- set (unique) id attributes -->
+                <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:element>
+
+            <!-- iterate over the children -->
+            <xsl:call-template name="iterateList">
+                <xsl:with-param name="list" select="@data-semantic-children"/>
+                <xsl:with-param name="separator" select="','"/>
+            </xsl:call-template>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- Operation: square root -->
+    <xsl:template match="mroot">
+        <xsl:element name="apply">
+            <!-- set id attributes -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <!-- inner element (operator): root -->
+            <xsl:element name="root">
+                <!-- set (unique) id attributes -->
+                <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:element>
+
+            <!-- second child node is the degree -->
+            <xsl:variable name="temp1" select="tokenize(@data-semantic-children,',')[1]"/>
+            <xsl:element name="degree">
+                <xsl:apply-templates select="//*[@data-semantic-id=$temp1]"/>
+            </xsl:element>
+
+            <xsl:variable name="temp0" select="tokenize(@data-semantic-children,',')[2]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp0]"/>
+
+        </xsl:element>
     </xsl:template>
 
     <!-- Recursive method over a list of id nodes. (XSLT 1.0 conform) -->
@@ -82,6 +156,7 @@
 
     <!-- idenfitiers and constants (numbers) -->
     <xsl:template match="mi|mn">
+        <!--TODO cn-->
         <xsl:element name="ci">
             <!-- new unique id starting with the letter "c" -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
@@ -99,7 +174,7 @@
     <xsl:template match="mo[@data-semantic-type='operator']">
         <xsl:variable name="tagname" select="'plus'"/>
 
-        <xsl:element name="plus">
+        <xsl:element name="{$tagname}">
             <!-- new unique id starting with the letter "c" -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
             <xsl:attribute name="xref">
@@ -108,7 +183,7 @@
             <xsl:attribute name="cd">
                 <xsl:value-of select="@data-semantic-type"/>
             </xsl:attribute>
-            <xsl:value-of select="normalize-space(node())"/>
+            <xsl:value-of select="text()"/>
         </xsl:element>
     </xsl:template>
 
@@ -129,11 +204,11 @@
     </xsl:template>
 
     <!-- default node processing (just a copy) -->
-    <xsl:template match="*" mode="#all">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates mode="#current"/>
-        </xsl:copy>
-    </xsl:template>
+    <!--<xsl:template match="*" mode="#all">-->
+        <!--<xsl:copy>-->
+            <!--<xsl:copy-of select="@*"/>-->
+            <!--<xsl:apply-templates mode="#current"/>-->
+        <!--</xsl:copy>-->
+    <!--</xsl:template>-->
 
 </xsl:stylesheet>

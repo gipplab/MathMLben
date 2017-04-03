@@ -14,7 +14,8 @@ import java.io.StringWriter;
 import java.util.ArrayList;
 
 /**
- * TODO
+ * Utility class full with static methods to print or navigate through
+ * XML document nodes.
  *
  * @author Vincent Stange
  */
@@ -37,21 +38,21 @@ public class XMLUtils {
     }
 
     /**
-     * TODO
+     * Prints out a XML node as a String formatted with indent.
      *
-     * @param node
-     * @return
-     * @throws TransformerException
+     * @param node node to be printed
+     * @return String representation
+     * @throws TransformerException not xml conform
      */
     public static String nodeToString(Node node) throws TransformerException {
         return nodeToString(node, true);
     }
 
     /**
-     * Prints out a XML node as a String
+     * Prints out a XML node as a String.
      *
-     * @param node   node to be translated
-     * @param indent pretty print on?
+     * @param node   node to be printed
+     * @param indent pretty print via indent on?
      * @return String representation
      * @throws TransformerException mostly not xml conform
      */

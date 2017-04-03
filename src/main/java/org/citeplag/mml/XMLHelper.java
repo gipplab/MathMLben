@@ -39,7 +39,7 @@ import java.util.regex.Pattern;
 
 /**
  * Taken from mathosphere
- *
+ * <p>
  * The Class XMLHelper.
  */
 @SuppressWarnings("UnusedDeclaration")
@@ -183,21 +183,21 @@ public final class XMLHelper {
     /**
      * Helper program: Transforms a String to a XML Document.
      *
-     * @param InputXMLString     the input xml string
-     * @param NamespaceAwareness the namespace awareness
+     * @param inputXMLString     the input xml string
+     * @param namespaceAwareness the namespace awareness
      * @return parsed document
      * @throws ParserConfigurationException the parser configuration exception
      * @throws IOException                  Signals that an I/O exception has occurred.
      */
 
-    public static Document String2Doc(String InputXMLString, boolean NamespaceAwareness) {
+    public static Document String2Doc(String inputXMLString, boolean namespaceAwareness) {
         try {
-            DocumentBuilder builder = getDocumentBuilder(NamespaceAwareness);
-            InputSource is = new InputSource(new StringReader(InputXMLString));
+            DocumentBuilder builder = getDocumentBuilder(namespaceAwareness);
+            InputSource is = new InputSource(new StringReader(inputXMLString));
             is.setEncoding("UTF-8");
             return builder.parse(is);
         } catch (SAXException | ParserConfigurationException | IOException e) {
-            System.out.println("cannot parse following content\n\n" + InputXMLString);
+            System.err.println("cannot parse following content\n\n" + inputXMLString);
             e.printStackTrace();
             return null;
         }
@@ -214,20 +214,16 @@ public final class XMLHelper {
     }
 
     public static DocumentBuilder getDocumentBuilder(boolean NamespaceAwareness) throws ParserConfigurationException {
-        DocumentBuilderFactory domFactory = DocumentBuilderFactory
-                .newInstance();
+        DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
         domFactory.setNamespaceAware(NamespaceAwareness);
         // Unfortunately we can not ignore whitespaces without a schema.
         // So we use the NdLst workaround for now.
         //domFactory.setValidating(true);
         //domFactory.setIgnoringElementContentWhitespace( true );
-        domFactory.setAttribute(
-                "http://apache.org/xml/features/dom/include-ignorable-whitespace",
-                Boolean.FALSE);
+        domFactory.setAttribute("http://apache.org/xml/features/dom/include-ignorable-whitespace", Boolean.FALSE);
 
         DocumentBuilder documentBuilder = domFactory.newDocumentBuilder();
         documentBuilder.setEntityResolver(new PartialLocalEntityResolver());
-
         return documentBuilder;
     }
 
@@ -525,6 +521,7 @@ public final class XMLHelper {
         Transformer transformer = tFactory.newTransformer(new StreamSource(is));
         Document doc = getNewDocument();
         transformer.transform(new DOMSource(srcNode), new DOMResult(doc));
+
 
         return doc;
     }
