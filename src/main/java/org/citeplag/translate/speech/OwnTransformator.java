@@ -3,23 +3,17 @@ package org.citeplag.translate.speech;
 import org.apache.log4j.Logger;
 import org.citeplag.mml.CMMLInfo;
 import org.citeplag.mml.XMLHelper;
+import org.citeplag.util.XMLUtils;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import java.io.IOException;
-import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
@@ -86,11 +80,11 @@ public class OwnTransformator {
             // currently fix the whole ns to MathML standard, may be changed later on
             XMLHelper.useFixNamespace(readDocument, CMMLInfo.NS_MATHML);
         } catch (Exception e) {
-            String oldEnrichedXml = nodeToString(readDocument.getFirstChild(), true);
+            String oldEnrichedXml = XMLUtils.nodeToString(readDocument.getFirstChild(), true);
             return oldEnrichedXml + "\n" + e.getMessage();
         }
 
-        return nodeToString(readDocument.getFirstChild(), true);
+        return XMLUtils.nodeToString(readDocument.getFirstChild(), true);
     }
 
     /**
@@ -103,7 +97,7 @@ public class OwnTransformator {
         if (!StringUtils.isEmpty(newId)) {
             readNode.setAttribute("id", "p" + newId);
         }
-        for (Element child : getChildElements(readNode)) {
+        for (Element child : XMLUtils.getChildElements(readNode)) {
             convertIdField(child);
         }
     }
@@ -129,13 +123,13 @@ public class OwnTransformator {
         } else if ("mrow".equals(readNode.getNodeName())) {
             if (Objects.equals(readNode.getAttribute("data-semantic-id"), "")) {
                 // go one element deeper, since this is an encapsulate
-                return createCmml(getChildElements(readNode).get(0), writeNode);
+                return createCmml(XMLUtils.getChildElements(readNode).get(0), writeNode);
             }
 
             String type = readNode.getAttribute("data-semantic-type");
             // if fenced, go to the first child
             if (Objects.equals(type, "fenced")) {
-                Element firstContentChild = getChildById(getChildElements(readNode), readNode.getAttribute("data-semantic-children"));
+                Element firstContentChild = getChildById(XMLUtils.getChildElements(readNode), readNode.getAttribute("data-semantic-children"));
                 return createCmml(firstContentChild, writeNode);
             }
 
@@ -151,7 +145,7 @@ public class OwnTransformator {
                 String[] contentIds = rawContentIds.split(",");
                 if (!"".equals(contentIds[0])) {
                     // take first operator
-                    Element contentChild = getChildById(getChildElements(readNode), contentIds[0]);
+                    Element contentChild = getChildById(XMLUtils.getChildElements(readNode), contentIds[0]);
                     Element operator = createSingleCmmlNode(contentChild, true);
                     apply.appendChild(operator);
                 }
@@ -162,7 +156,7 @@ public class OwnTransformator {
             // 3. Take children
             String[] childrenIds = rawChildrenIds.split(",");
             for (String childId : childrenIds) {
-                Element readChild = getChildById(getChildElements(readNode), childId);
+                Element readChild = getChildById(XMLUtils.getChildElements(readNode), childId);
                 createCmml(readChild, apply);
             }
 
@@ -186,7 +180,7 @@ public class OwnTransformator {
             // 3. Take children
             String[] childrenIds = rawChildrenIds.split(",");
             for (String childId : childrenIds) {
-                Element readChild = getChildById(getChildElements(readNode), childId);
+                Element readChild = getChildById(XMLUtils.getChildElements(readNode), childId);
                 createCmml(readChild, apply);
             }
 
@@ -251,7 +245,7 @@ public class OwnTransformator {
                 return ele; // found
             }
             // now look for children
-            ArrayList<Element> moreChildren = getChildElements(ele);
+            ArrayList<Element> moreChildren = XMLUtils.getChildElements(ele);
             if (moreChildren.size() > 0) {
                 Element childById = getChildById(moreChildren, searchId);
                 if (childById != null)
@@ -261,41 +255,9 @@ public class OwnTransformator {
         return null;
     }
 
-    /**
-     * Only return child nodes that are elements, ignore text passages.
-     *
-     * @param node We will take the children from this node.
-     * @return New ordered list of child elements.
-     */
-    ArrayList<Element> getChildElements(Node node) {
-        ArrayList<Element> childElements = new ArrayList<>();
-        NodeList childNodes = node.getChildNodes();
-        for (int i = 0; i < childNodes.getLength(); i++) {
-            if (childNodes.item(i) instanceof Element)
-                childElements.add((Element) childNodes.item(i));
-        }
-        return childElements;
-    }
-
     String getNodeValue(Node node) {
         return node.getFirstChild() != null ? node.getFirstChild().getTextContent().trim() : node.getTextContent().trim();
     }
 
-    /**
-     * Prints out a XML node as a String
-     *
-     * @param node   node to be translated
-     * @param indent pretty print on?
-     * @return String representation
-     * @throws TransformerException mostly not xml conform
-     */
-    String nodeToString(Node node, boolean indent) throws TransformerException {
-        StringWriter sw = new StringWriter();
-        Transformer t = TransformerFactory.newInstance().newTransformer();
-        t.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
-        t.setOutputProperty(OutputKeys.INDENT, indent ? "yes" : "no");
-        t.transform(new DOMSource(node), new StreamResult(sw));
-        return sw.toString();
-    }
 
 }
