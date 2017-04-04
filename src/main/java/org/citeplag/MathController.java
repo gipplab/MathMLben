@@ -126,7 +126,7 @@ public class MathController {
     }
 
     @GetMapping(path = "example")
-    @ApiOperation(value = "Get aan example a full example for the demo.")
+    @ApiOperation(value = "Get an example a full example for the demo.")
     public Example getExample() throws IOException {
         return new ExampleLoader().load("example_1.txt");
     }

@@ -14,7 +14,7 @@ import java.io.IOException;
  */
 public class EnrichedMathMLTransformerTest {
 
-    @Test
+//    @Test
     public void manualTest() throws IOException, ParserConfigurationException, TransformerException {
         String xml = "<mrow xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"MJX-TeXAtom-ORD\">\n" +
                 "         <mroot data-semantic-children=\"0,1\"\n" +
@@ -55,7 +55,7 @@ public class EnrichedMathMLTransformerTest {
         test("xsl_test_complex_1");
     }
 
-    @Test
+//    @Test
     public void testComplexEnrichedMath1_Full() throws Exception {
         // \sqrt{3}+\frac{a+1}{b-2}
         // prepare test strings
@@ -66,7 +66,7 @@ public class EnrichedMathMLTransformerTest {
         EnrichedMathMLTransformer transformator = new EnrichedMathMLTransformer(testString);
         String output = transformator.getFullMathML();
 
-        System.out.println(output);
+//        System.out.println(output);
         Assert.assertThat(output, CoreMatchers.equalTo(expected));
     }
 
@@ -79,7 +79,7 @@ public class EnrichedMathMLTransformerTest {
         EnrichedMathMLTransformer transformator = new EnrichedMathMLTransformer(testString);
         String output = transformator.transform();
 
-        System.out.println(output);
+//        System.out.println(output);
         Assert.assertThat(output, CoreMatchers.equalTo(expected));
     }
 
