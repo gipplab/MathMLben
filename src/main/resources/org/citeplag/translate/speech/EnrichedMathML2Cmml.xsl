@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- BLUB TODO -->
+<!--
+ Attempt at a XSL transformation from enriched MathML to CMML.
+ @author Vincent Stange
+-->
 <xsl:stylesheet version="2.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns="http://www.w3.org/1998/Math/MathML"
@@ -22,7 +25,10 @@
     </xsl:template>
 
     <!-- Operation: infixop, relseq, multirel (plus or minus) -->
-    <xsl:template match="mrow[@data-semantic-type='infixop' or @data-semantic-type='relseq' or @data-semantic-type='multirel']">
+    <xsl:template match="mrow[@data-semantic-type='infixop'
+      or @data-semantic-type='relseq'
+      or @data-semantic-type='multirel'
+      or @data-semantic-type='prefixop']">
         <apply>
             <!-- set id attributes -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
@@ -59,37 +65,28 @@
         </apply>
     </xsl:template>
 
-    <!-- Operation: fraction -->
-    <xsl:template match="mfrac">
+    <!-- ================================================================ -->
+
+    <!-- Operation: fraction, square root, power -->
+    <xsl:template match="mfrac|msqrt|msup|msub">
+        <!-- recognize correct tag name, default is 'unknown' -->
+        <xsl:variable name="tagname">
+            <xsl:choose>
+                <xsl:when test="name() = 'mfrac'">divide</xsl:when>
+                <xsl:when test="name() = 'msqrt'">root</xsl:when>
+                <xsl:when test="name() = 'msup'">power</xsl:when>
+                <xsl:when test="name() = 'msub'">subscript</xsl:when>
+                <xsl:otherwise>unknown</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
         <xsl:element name="apply">
             <!-- set id attributes -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
             <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
 
-            <!-- inner element (oeprator): divide -->
-            <xsl:element name="divide">
-                <!-- set (unique) id attributes -->
-                <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-                <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
-            </xsl:element>
-
-            <!-- iterate over the children -->
-            <xsl:call-template name="iterateList">
-                <xsl:with-param name="list" select="@data-semantic-children"/>
-                <xsl:with-param name="separator" select="','"/>
-            </xsl:call-template>
-        </xsl:element>
-    </xsl:template>
-
-    <!-- Operation: square root -->
-    <xsl:template match="msqrt">
-        <xsl:element name="apply">
-            <!-- set id attributes -->
-            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
-
-            <!-- inner element (operator): root -->
-            <xsl:element name="root">
+            <!-- inner element (operator)-->
+            <xsl:element name="{$tagname}">
                 <!-- set (unique) id attributes -->
                 <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
                 <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
@@ -129,6 +126,75 @@
         </xsl:element>
     </xsl:template>
 
+    <!-- ================================================================ -->
+
+    <!-- idenfitiers and constants -->
+    <xsl:template match="mi|mn">
+        <!-- recognize correct tag name, default is ci -->
+        <xsl:variable name="tagname">
+            <xsl:choose>
+                <xsl:when test="name() = 'mi'">ci</xsl:when>
+                <xsl:when test="name() = 'mn'">cn</xsl:when>
+                <xsl:otherwise>ci</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
+        <!--build the new identifier or constant -->
+        <xsl:element name="{$tagname}">
+            <!-- new unique id starting with the letter "c" -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref">
+                <xsl:value-of select="@id"/>
+            </xsl:attribute>
+            <xsl:attribute name="cd">
+                <xsl:value-of select="@data-semantic-type"/>
+            </xsl:attribute>
+            <xsl:value-of select="normalize-space(node())"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- operators -->
+    <xsl:template match="mo[@data-semantic-type='operator']">
+        <!-- recognize correct tag name, default is 'unknown' -->
+        <xsl:variable name="tagname">
+            <xsl:choose>
+                <xsl:when test="@data-semantic-role = 'addition'">plus</xsl:when>
+                <xsl:when test="@data-semantic-role = 'subtraction'">minus</xsl:when>
+                <xsl:when test="@data-semantic-role = 'multiplication'">times</xsl:when>
+                <xsl:when test="@data-semantic-role = 'division'">divide</xsl:when>
+                <xsl:otherwise>unknown</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
+        <!-- create new operation element -->
+        <xsl:element name="{$tagname}">
+            <!-- new unique id starting with the letter "c" -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref">
+                <xsl:value-of select="@id"/>
+            </xsl:attribute>
+            <xsl:attribute name="cd">
+                <xsl:value-of select="@data-semantic-type"/>
+            </xsl:attribute>
+            <xsl:value-of select="text()"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- relation -->
+    <xsl:template match="mo[@data-semantic-type='relation']">
+        <xsl:element name="eq">
+            <!-- new unique id starting with the letter "c" -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref">
+                <xsl:value-of select="@id"/>
+            </xsl:attribute>
+            <xsl:attribute name="cd">
+                <xsl:value-of select="@data-semantic-type"/>
+            </xsl:attribute>
+            <xsl:value-of select="normalize-space(node())"/>
+        </xsl:element>
+    </xsl:template>
+
     <!-- Recursive method over a list of id nodes. (XSLT 1.0 conform) -->
     <xsl:template name="iterateList">
         <xsl:param name="list"/> <!-- e.g. '1,5,9,15' -->
@@ -152,55 +218,6 @@
                 </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
-
-    <!-- idenfitiers and constants (numbers) -->
-    <xsl:template match="mi|mn">
-        <!--TODO cn-->
-        <xsl:element name="ci">
-            <!-- new unique id starting with the letter "c" -->
-            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref">
-                <xsl:value-of select="@id"/>
-            </xsl:attribute>
-            <xsl:attribute name="cd">
-                <xsl:value-of select="@data-semantic-type"/>
-            </xsl:attribute>
-            <xsl:value-of select="normalize-space(node())"/>
-        </xsl:element>
-    </xsl:template>
-
-    <!-- operator TODO -->
-    <xsl:template match="mo[@data-semantic-type='operator']">
-        <xsl:variable name="tagname" select="'plus'"/>
-
-        <xsl:element name="{$tagname}">
-            <!-- new unique id starting with the letter "c" -->
-            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref">
-                <xsl:value-of select="@id"/>
-            </xsl:attribute>
-            <xsl:attribute name="cd">
-                <xsl:value-of select="@data-semantic-type"/>
-            </xsl:attribute>
-            <xsl:value-of select="text()"/>
-        </xsl:element>
-    </xsl:template>
-
-    <!-- relation -->
-    <xsl:template match="mo[@data-semantic-type='relation']">
-
-        <xsl:element name="eq">
-            <!-- new unique id starting with the letter "c" -->
-            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref">
-                <xsl:value-of select="@id"/>
-            </xsl:attribute>
-            <xsl:attribute name="cd">
-                <xsl:value-of select="@data-semantic-type"/>
-            </xsl:attribute>
-            <xsl:value-of select="normalize-space(node())"/>
-        </xsl:element>
     </xsl:template>
 
     <!-- default node processing (just a copy) -->

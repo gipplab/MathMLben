@@ -189,7 +189,7 @@ public class OwnTransformator {
     }
 
     /**
-     * TODO
+     * Simple node
      *
      * @param readNode
      * @param useId
@@ -233,11 +233,11 @@ public class OwnTransformator {
     }
 
     /**
-     * TODO
+     * Get a child node from a list by its respective Id.
      *
-     * @param childElements
-     * @param searchId
-     * @return
+     * @param childElements list of child nodes
+     * @param searchId Id
+     * @return found child node or null
      */
     private Element getChildById(ArrayList<Element> childElements, String searchId) {
         for (Element ele : childElements) {

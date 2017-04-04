@@ -41,19 +41,14 @@ public class EnrichedMathMLTransformer {
     public String getFullMathML() throws Exception {
         XPath xpath = XMLHelper.namespaceAwareXpath("m", CMMLInfo.NS_MATHML);
         Element semanticRoot = (Element) xpath.compile("*//m:semantics").evaluate(readDocument, XPathConstants.NODE);
-
-        // System.out.println(nodeToString(readDocument.getFirstChild(), true));
-
         // secure the id field
         convertIdField(semanticRoot);
-
-        Element firstRow = (Element) xpath.compile("*//m:mrow").evaluate(readDocument, XPathConstants.NODE);
+        // get the first element
+        Node firstElement = semanticRoot.getFirstChild();
 
         try {
             // create the cmml apply node
-            Document newDocument = XMLHelper.XslTransform(firstRow, XSL);
-
-//            System.out.println(XMLUtils.nodeToString(newDocument.getFirstChild()));
+            Document newDocument = XMLHelper.XslTransform(firstElement, XSL);
 
             // adopt the new cmml structure into the original enriched mathml
             Node copy = readDocument.adoptNode(newDocument.getFirstChild().cloneNode(true));

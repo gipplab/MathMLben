@@ -11,9 +11,9 @@ import org.citeplag.search.SimilarityResult;
 import org.citeplag.translate.latexml.LaTeXMLConverter;
 import org.citeplag.translate.latexml.LateXMLConfig;
 import org.citeplag.translate.latexml.ServiceResponse;
+import org.citeplag.translate.speech.EnrichedMathMLTransformer;
 import org.citeplag.translate.speech.MathoidConfig;
 import org.citeplag.translate.speech.MathoidConverter;
-import org.citeplag.translate.speech.OwnTransformator;
 import org.citeplag.util.Example;
 import org.citeplag.util.ExampleLoader;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -79,9 +79,9 @@ public class MathController {
         try {
             String enrichedMathml = converter.convertLatex(latex);
 
-            OwnTransformator transformator = new OwnTransformator(enrichedMathml);
+            EnrichedMathMLTransformer transformer = new EnrichedMathMLTransformer(enrichedMathml);
             logger.info("latex conversion via mathoid from: " + request.getRemoteAddr());
-            return transformator.getFullMathML();
+            return transformer.getFullMathML();
         } catch (ResourceAccessException e) {
             return "mathoid not available under: " + mathoidUrl;
         } catch (Exception e) {
