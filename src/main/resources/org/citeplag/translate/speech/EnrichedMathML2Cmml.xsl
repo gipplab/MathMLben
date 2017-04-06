@@ -10,9 +10,15 @@
                 xpath-default-namespace="http://www.w3.org/1998/Math/MathML">
     <xsl:output method="xml" indent="yes"/>
 
+    <!-- === mrow =============================================================== -->
+
     <!-- outer row without Id is only for formatting, just go one element deeper -->
     <xsl:template match="mrow[not(@data-semantic-id)]">
         <xsl:apply-templates />
+    </xsl:template>
+
+    <!-- emtpy row -->
+    <xsl:template match="mrow[@data-semantic-type='empty']">
     </xsl:template>
 
     <!-- fencing around the children, apply templates on the children only -->
@@ -28,7 +34,8 @@
     <xsl:template match="mrow[@data-semantic-type='infixop'
       or @data-semantic-type='relseq'
       or @data-semantic-type='multirel'
-      or @data-semantic-type='prefixop']">
+      or @data-semantic-type='prefixop'
+      or @data-semantic-type='postfixop']">
         <apply>
             <!-- set id attributes -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
@@ -53,9 +60,7 @@
         <apply>
             <!-- set id attributes -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref">
-                <xsl:value-of select="@id"/>
-            </xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
 
             <!-- iterate over all children -->
             <xsl:call-template name="iterateList">
@@ -65,7 +70,66 @@
         </apply>
     </xsl:template>
 
-    <!-- ================================================================ -->
+    <!-- Integral: https://www.w3.org/TR/MathML3/chapter4.html#contm.int -->
+    <xsl:template match="mrow[@data-semantic-type='integral']">
+        <xsl:element name="apply">
+            <!-- set id attributes -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <xsl:element name="int">
+                <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:element>
+
+            <!-- third child is the integration var -->
+            <xsl:element name="bvar">
+                <xsl:variable name="temp3" select="tokenize(@data-semantic-children,',')[3]"/>
+                <xsl:apply-templates select="//*[@data-semantic-id=$temp3]"/>
+            </xsl:element>
+
+            <!-- first child is the integral -->
+            <xsl:variable name="temp1" select="tokenize(@data-semantic-children,',')[1]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp1]"/>
+
+            <!-- second child is integrand, -->
+            <xsl:variable name="temp2" select="tokenize(@data-semantic-children,',')[2]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp2]"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- BigOp Sum / Product: https://www.w3.org/TR/MathML3/chapter4.html#contm.sum -->
+    <xsl:template match="mrow[@data-semantic-type='bigop']">
+        <xsl:element name="apply">
+            <!-- set id attributes -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+             <!-- operator for the apply node -->
+            <xsl:variable name="tagname">
+                <xsl:choose>
+                    <xsl:when test="@data-semantic-role = 'sum'">sum</xsl:when>
+                    <xsl:when test="@data-semantic-role = 'product'">product</xsl:when>
+                    <xsl:otherwise>unknown</xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+            <xsl:element name="{$tagname}">
+                <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:element>
+
+            <!-- first child is the operator -->
+            <xsl:variable name="temp1" select="tokenize(@data-semantic-children,',')[1]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp1]"/>
+
+            <!-- second child is the operant -->
+            <xsl:variable name="temp2" select="tokenize(@data-semantic-children,',')[2]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp2]"/>
+
+        </xsl:element>
+    </xsl:template>
+
+    <!-- === other roots ================================================================ -->
 
     <!-- Operation: fraction, square root, power -->
     <xsl:template match="mfrac|msqrt|msup|msub">
@@ -126,7 +190,29 @@
         </xsl:element>
     </xsl:template>
 
-    <!-- ================================================================ -->
+
+    <!-- msubsup or munderover: lower and upper limit -->
+    <xsl:template match="msubsup[@data-semantic-type='limboth']|munderover">
+        <xsl:element name="lowlimit">
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <!-- second child node is the lower limit -->
+            <xsl:variable name="temp2" select="tokenize(@data-semantic-children,',')[2]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp2]"/>
+        </xsl:element>
+
+        <xsl:element name="uplimit">
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <!-- third child node is the upper limit -->
+            <xsl:variable name="temp3" select="tokenize(@data-semantic-children,',')[3]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp3]"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- === elements ================================================================ -->
 
     <!-- idenfitiers and constants -->
     <xsl:template match="mi|mn">
@@ -194,6 +280,8 @@
             <xsl:value-of select="normalize-space(node())"/>
         </xsl:element>
     </xsl:template>
+
+    <!-- === misc =============================================================== -->
 
     <!-- Recursive method over a list of id nodes. (XSLT 1.0 conform) -->
     <xsl:template name="iterateList">
