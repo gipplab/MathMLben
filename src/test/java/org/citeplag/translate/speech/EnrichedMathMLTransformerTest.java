@@ -56,6 +56,13 @@ public class EnrichedMathMLTransformerTest {
         testSimpleTransformation("xsl_test_complex_1");
     }
 
+
+    @Test
+    public void testComplexEnrichedMath2() throws Exception {
+        // \sum_{n=1}^{\infty} 2^{-n} = 1
+        testSimpleTransformation("xsl_test_complex_2");
+    }
+
     @Test
     public void testIntegral1() throws Exception {
         // \sqrt{3}+\frac{a+1}{b-2}

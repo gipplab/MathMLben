@@ -241,7 +241,7 @@
             <xsl:attribute name="cd">
                 <xsl:value-of select="@data-semantic-type"/>
             </xsl:attribute>
-            <xsl:value-of select="normalize-space(node())"/>
+            <xsl:value-of select="normalize-space(text())"/>
         </xsl:element>
     </xsl:template>
 
@@ -274,7 +274,17 @@
 
     <!-- relation -->
     <xsl:template match="mo[@data-semantic-type='relation']">
-        <xsl:element name="eq">
+        <!-- recognize correct tag name, default is 'eq' -->
+        <xsl:variable name="tagname">
+            <xsl:choose>
+                <xsl:when test="@data-semantic-role = 'equality'">eq</xsl:when>
+                <xsl:when test="@data-semantic-role = 'inequality'">neq</xsl:when>
+                <xsl:when test="@data-semantic-role = 'arrow'">tendsto</xsl:when>
+                <xsl:otherwise>eq</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
+        <xsl:element name="{$tagname}">
             <!-- new unique id starting with the letter "c" -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
             <xsl:attribute name="xref">
@@ -283,7 +293,7 @@
             <xsl:attribute name="cd">
                 <xsl:value-of select="@data-semantic-type"/>
             </xsl:attribute>
-            <xsl:value-of select="normalize-space(node())"/>
+            <xsl:value-of select="normalize-space(text())"/>
         </xsl:element>
     </xsl:template>
 
