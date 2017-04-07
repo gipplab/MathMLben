@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  */
 public class BruteTreeSearch {
 
-    final Match.Type type;
+    private final Match.Type type;
 
     public BruteTreeSearch(String type) {
         this.type = Match.Type.valueOf(type);

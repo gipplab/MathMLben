@@ -1,0 +1,14 @@
+<apply xmlns="http://www.w3.org/1998/Math/MathML" id="c8" xref="p8">
+   <int id="c8" xref="p8"/>
+   <lowlimit id="c3" xref="p3">
+      <ci cd="identifier" id="c1" xref="p1">a</ci>
+   </lowlimit>
+   <uplimit id="c3" xref="p3">
+      <ci cd="identifier" id="c2" xref="p2">b</ci>
+   </uplimit>
+   <apply id="c6" xref="p6">
+      <power id="u6" xref="p6"/>
+      <ci cd="identifier" id="c4" xref="p4">x</ci>
+      <cn cd="number" id="c5" xref="p5">2</cn>
+   </apply>
+</apply>

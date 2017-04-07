@@ -3,6 +3,7 @@ package org.citeplag.translate.speech;
 import org.apache.commons.io.IOUtils;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -46,39 +47,49 @@ public class EnrichedMathMLTransformerTest {
     @Test
     public void testSimpleEnrichedMath1() throws Exception {
         // (a+b)+c=d
-        test("xsl_test_simple_1");
+        testSimpleTransformation("xsl_test_simple_1");
     }
 
     @Test
     public void testComplexEnrichedMath1() throws Exception {
         // \sqrt{3}+\frac{a+1}{b-2}
-        test("xsl_test_complex_1");
+        testSimpleTransformation("xsl_test_complex_1");
     }
 
-//    @Test
-    public void testComplexEnrichedMath1_Full() throws Exception {
+    @Test
+    public void testIntegral1() throws Exception {
         // \sqrt{3}+\frac{a+1}{b-2}
-        // prepare test strings
-        String testString = IOUtils.toString(this.getClass().getResourceAsStream( "complexMath1" + "_test.txt"),"UTF-8");;
-        String expected = IOUtils.toString(this.getClass().getResourceAsStream("complexMath1" + "_expected.txt"),"UTF-8");
+        testSimpleTransformation("xsl_test_integral_1");
+    }
 
-        // test it
-        EnrichedMathMLTransformer transformator = new EnrichedMathMLTransformer(testString);
-        String output = transformator.getFullMathML();
+    @Test
+    public void testIntegral2() throws Exception {
+        // \sqrt{3}+\frac{a+1}{b-2}
+        testSimpleTransformation("xsl_test_integral_2");
+    }
 
-//        System.out.println(output);
+    private void testSimpleTransformation(String basicFilename) throws Exception {
+        // prepare testSimpleTransformation strings
+        String testString = IOUtils.toString(this.getClass().getResourceAsStream( basicFilename + "_test.txt"),"UTF-8");;
+        String expected = IOUtils.toString(this.getClass().getResourceAsStream(basicFilename + "_expected.txt"),"UTF-8");
+        // testSimpleTransformation it
+        String output = new EnrichedMathMLTransformer(testString).transform();
+        System.out.println(output);
         Assert.assertThat(output, CoreMatchers.equalTo(expected));
     }
 
-    private void test(String basicFilename) throws Exception {
-        // prepare test strings
-        String testString = IOUtils.toString(this.getClass().getResourceAsStream( basicFilename + "_test.txt"),"UTF-8");;
-        String expected = IOUtils.toString(this.getClass().getResourceAsStream(basicFilename + "_expected.txt"),"UTF-8");
-
-        // test it
-        EnrichedMathMLTransformer transformator = new EnrichedMathMLTransformer(testString);
-        String output = transformator.transform();
-
+    /**
+     * \sqrt{3}+\frac{a+1}{b-2}
+     */
+    @Test
+    @Ignore
+    public void testComplexEnrichedMath1_Full() throws Exception {
+        //
+        // prepare testSimpleTransformation strings
+        String testString = IOUtils.toString(this.getClass().getResourceAsStream( "complexMath1" + "_test.txt"),"UTF-8");;
+        String expected = IOUtils.toString(this.getClass().getResourceAsStream("complexMath1" + "_expected.txt"),"UTF-8");
+        // testSimpleTransformation it
+        String output = new EnrichedMathMLTransformer(testString).getFullMathML();
 //        System.out.println(output);
         Assert.assertThat(output, CoreMatchers.equalTo(expected));
     }

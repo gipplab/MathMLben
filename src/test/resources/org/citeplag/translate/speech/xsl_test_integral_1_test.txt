@@ -1,0 +1,69 @@
+<mrow xmlns="http://www.w3.org/1998/Math/MathML" data-semantic-children="3,4,8"
+            data-semantic-content="0"
+            data-semantic-id="9"
+            data-semantic-role="integral"
+            data-semantic-type="integral"
+            id="p9">
+         <msubsup data-semantic-children="0,1,2"
+                  data-semantic-id="3"
+                  data-semantic-parent="9"
+                  data-semantic-role="integral"
+                  data-semantic-type="limboth"
+                  id="p3">
+            <mo data-semantic-id="0"
+                data-semantic-operator="integral"
+                data-semantic-parent="3"
+                data-semantic-role="integral"
+                data-semantic-type="largeop"
+                id="p0">∫<!-- ∫ --></mo>
+            <mrow class="MJX-TeXAtom-ORD">
+               <mi data-semantic-font="italic"
+                   data-semantic-id="1"
+                   data-semantic-parent="3"
+                   data-semantic-role="latinletter"
+                   data-semantic-type="identifier"
+                   id="p1">a</mi>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+               <mi data-semantic-font="italic"
+                   data-semantic-id="2"
+                   data-semantic-parent="3"
+                   data-semantic-role="latinletter"
+                   data-semantic-type="identifier"
+                   id="p2">b</mi>
+            </mrow>
+         </msubsup>
+         <mi data-semantic-font="italic"
+             data-semantic-id="4"
+             data-semantic-parent="9"
+             data-semantic-role="latinletter"
+             data-semantic-type="identifier"
+             id="p4">x</mi>
+         <mrow data-semantic-children="5,7,6"
+               data-semantic-content="7"
+               data-semantic-id="8"
+               data-semantic-parent="9"
+               data-semantic-role="integral"
+               data-semantic-type="punctuated"
+               id="p8">
+            <mi data-semantic-font="italic"
+                data-semantic-id="5"
+                data-semantic-parent="8"
+                data-semantic-role="latinletter"
+                data-semantic-type="identifier"
+                id="p5">d</mi>
+            <mo data-semantic-added="true"
+                data-semantic-id="7"
+                data-semantic-operator="punctuated"
+                data-semantic-parent="8"
+                data-semantic-role="comma"
+                data-semantic-type="punctuation"
+                id="p7">⁣</mo>
+            <mi data-semantic-font="italic"
+                data-semantic-id="6"
+                data-semantic-parent="8"
+                data-semantic-role="latinletter"
+                data-semantic-type="identifier"
+                id="p6">x</mi>
+         </mrow>
+      </mrow>

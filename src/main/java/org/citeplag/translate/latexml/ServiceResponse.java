@@ -10,14 +10,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class ServiceResponse {
 
     @JsonProperty("status_code")
-    int statusCode = 0;
+    private int statusCode = 0;
 
     @JsonProperty("status")
-    String status = "";
+    private String status = "";
 
-    String result = "";
+    private String result = "";
 
-    String log = "";
+    private String log = "";
 
     public ServiceResponse() {
         // emtpy constructor

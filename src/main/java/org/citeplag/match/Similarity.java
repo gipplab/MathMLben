@@ -14,6 +14,7 @@ public class Similarity {
 
     public Similarity(String id, String idMatch, Match.Type type) {
         this.id = id;
+        // initialize with the first match
         matches.add(new Match(idMatch, type));
     }
 

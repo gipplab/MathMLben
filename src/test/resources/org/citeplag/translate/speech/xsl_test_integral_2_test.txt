@@ -1,0 +1,62 @@
+<mrow xmlns="http://www.w3.org/1998/Math/MathML" data-semantic-children="3,6,7"
+           data-semantic-content="0"
+           data-semantic-id="8"
+           data-semantic-role="integral"
+           data-semantic-type="integral"
+           id="p8">
+        <msubsup data-semantic-children="0,1,2"
+                 data-semantic-id="3"
+                 data-semantic-parent="8"
+                 data-semantic-role="integral"
+                 data-semantic-type="limboth"
+                 id="p3">
+           <mo data-semantic-id="0"
+               data-semantic-operator="integral"
+               data-semantic-parent="3"
+               data-semantic-role="integral"
+               data-semantic-type="largeop"
+               id="p0">∫<!-- ∫ --></mo>
+           <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-font="italic"
+                  data-semantic-id="1"
+                  data-semantic-parent="3"
+                  data-semantic-role="latinletter"
+                  data-semantic-type="identifier"
+                  id="p1">a</mi>
+           </mrow>
+           <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-font="italic"
+                  data-semantic-id="2"
+                  data-semantic-parent="3"
+                  data-semantic-role="latinletter"
+                  data-semantic-type="identifier"
+                  id="p2">b</mi>
+           </mrow>
+        </msubsup>
+        <msup data-semantic-children="4,5"
+              data-semantic-id="6"
+              data-semantic-parent="8"
+              data-semantic-role="latinletter"
+              data-semantic-type="superscript"
+              id="p6">
+           <mi data-semantic-font="italic"
+               data-semantic-id="4"
+               data-semantic-parent="6"
+               data-semantic-role="latinletter"
+               data-semantic-type="identifier"
+               id="p4">x</mi>
+           <mrow class="MJX-TeXAtom-ORD">
+              <mn data-semantic-font="normal"
+                  data-semantic-id="5"
+                  data-semantic-parent="6"
+                  data-semantic-role="integer"
+                  data-semantic-type="number"
+                  id="p5">2</mn>
+           </mrow>
+        </msup>
+        <mrow data-semantic-id="7"
+              data-semantic-parent="8"
+              data-semantic-role="unknown"
+              data-semantic-type="empty"
+              id="p7"/>
+     </mrow>
