@@ -14,7 +14,7 @@
 
     <!-- outer row without Id is only for formatting, just go one element deeper -->
     <xsl:template match="mrow[not(@data-semantic-id)]">
-        <xsl:apply-templates />
+        <xsl:apply-templates/>
     </xsl:template>
 
     <!-- emtpy row -->
@@ -39,9 +39,7 @@
         <apply>
             <!-- set id attributes -->
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref">
-                <xsl:value-of select="@id"/>
-            </xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
 
             <!-- take only the first content node, in case the expression is a+b+c -->
             <xsl:variable name="temp" select="tokenize(@data-semantic-content,',')[1]"/>
@@ -83,10 +81,15 @@
             </xsl:element>
 
             <!-- third child is the integration var -->
-            <xsl:element name="bvar">
-                <xsl:variable name="temp3" select="tokenize(@data-semantic-children,',')[3]"/>
-                <xsl:apply-templates select="//*[@data-semantic-id=$temp3]"/>
-            </xsl:element>
+            <xsl:variable name="temp3" select="tokenize(@data-semantic-children,',')[3]"/>
+            <xsl:if test="//*[@data-semantic-id=$temp3 and not(@data-semantic-type='empty')]">
+                <xsl:element name="bvar">
+                    <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                    <xsl:attribute name="xref">p<xsl:value-of select="$temp3"/></xsl:attribute>
+
+                    <xsl:apply-templates select="//*[@data-semantic-id=$temp3]"/>
+                </xsl:element>
+            </xsl:if>
 
             <!-- first child is the integral -->
             <xsl:variable name="temp1" select="tokenize(@data-semantic-children,',')[1]"/>
@@ -102,10 +105,13 @@
     <xsl:template match="mrow[@data-semantic-type='bigop']">
         <xsl:element name="apply">
             <!-- set id attributes -->
-            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/>
+            </xsl:attribute>
+            <xsl:attribute name="xref">
+                <xsl:value-of select="@id"/>
+            </xsl:attribute>
 
-             <!-- operator for the apply node -->
+            <!-- operator for the apply node -->
             <xsl:variable name="tagname">
                 <xsl:choose>
                     <xsl:when test="@data-semantic-role = 'sum'">sum</xsl:when>
