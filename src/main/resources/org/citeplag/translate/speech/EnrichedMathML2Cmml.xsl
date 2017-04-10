@@ -60,6 +60,14 @@
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
             <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
 
+            <!-- operator for limit function (should be expanded for other variants) -->
+            <xsl:if test="@data-semantic-role='limit function'">
+                <xsl:element name="limit">
+                    <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+                    <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+                </xsl:element>
+            </xsl:if>
+
             <!-- iterate over all children -->
             <xsl:call-template name="iterateList">
                 <xsl:with-param name="list" select="@data-semantic-children"/>
@@ -215,6 +223,28 @@
             <!-- third child node is the upper limit -->
             <xsl:variable name="temp3" select="tokenize(@data-semantic-children,',')[3]"/>
             <xsl:apply-templates select="//*[@data-semantic-id=$temp3]"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- munder and mover -->
+    <xsl:template match="munder[@data-semantic-role='limit function']|mover[@data-semantic-role='limit function']">
+        <!-- recognize correct tag name, default is unknown -->
+        <xsl:variable name="tagname">
+            <xsl:choose>
+                <xsl:when test="name() = 'munder'">lowlimit</xsl:when>
+                <xsl:when test="name() = 'mover'">uplimit</xsl:when>
+                <xsl:otherwise>unknown</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
+        <!--build the limit tag -->
+        <xsl:element name="{$tagname}">
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+
+            <!-- second child node is the lower limit -->
+            <xsl:variable name="temp2" select="tokenize(@data-semantic-children,',')[2]"/>
+            <xsl:apply-templates select="//*[@data-semantic-id=$temp2]"/>
         </xsl:element>
     </xsl:template>
 
