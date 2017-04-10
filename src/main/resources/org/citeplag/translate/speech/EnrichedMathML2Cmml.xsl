@@ -60,14 +60,6 @@
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
             <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
 
-            <!-- operator for limit function (should be expanded for other variants) -->
-            <xsl:if test="@data-semantic-role='limit function'">
-                <xsl:element name="limit">
-                    <xsl:attribute name="id">u<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
-                    <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
-                </xsl:element>
-            </xsl:if>
-
             <!-- iterate over all children -->
             <xsl:call-template name="iterateList">
                 <xsl:with-param name="list" select="@data-semantic-children"/>
@@ -237,6 +229,10 @@
             </xsl:choose>
         </xsl:variable>
 
+        <!-- print out the first child -->
+        <xsl:variable name="temp1" select="tokenize(@data-semantic-children,',')[1]"/>
+        <xsl:apply-templates select="//*[@data-semantic-id=$temp1]"/>
+
         <!--build the limit tag -->
         <xsl:element name="{$tagname}">
             <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
@@ -324,6 +320,16 @@
                 <xsl:value-of select="@data-semantic-type"/>
             </xsl:attribute>
             <xsl:value-of select="normalize-space(text())"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- limit symbol -->
+    <xsl:template match="mo[@data-semantic-role='limit function']">
+        <xsl:element name="limit">
+            <!-- new unique id starting with the letter "c" -->
+            <xsl:attribute name="id">c<xsl:value-of select="@data-semantic-id"/></xsl:attribute>
+            <xsl:attribute name="xref"><xsl:value-of select="@id"/></xsl:attribute>
+            <xsl:attribute name="cd"><xsl:value-of select="@data-semantic-type"/></xsl:attribute>
         </xsl:element>
     </xsl:template>
 
