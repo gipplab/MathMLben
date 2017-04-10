@@ -264,7 +264,9 @@ k. ??? set|list w/condition
 <!-- Case 2a: rewrite derivatives etc. -->
 <xsl:template match="apply[diff][bvar]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="apply">
+        <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
       <xsl:choose>
 	<xsl:when test="bvar[degree]">  <!-- nth diff-->
 	  <xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>nthdiff</xsl:element>
@@ -295,7 +297,9 @@ k. ??? set|list w/condition
 
 <xsl:template match="apply[partialdiff][bvar]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="apply">
+        <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
       <xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>partialdiffdegree</xsl:element>
       <xsl:element name="apply"><!-- list of degrees -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">list1</xsl:attribute>list</xsl:element>
@@ -344,8 +348,10 @@ k. ??? set|list w/condition
   <xsl:choose>
     <xsl:when test="lowlimit and uplimit"><!-- apply int bvar lowlimit uplimit expr -->
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>defint</xsl:element>
 	<xsl:element name="apply">
+        <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	  <xsl:element name="csymbol"><xsl:attribute name="cd">interval1</xsl:attribute>oriented_interval</xsl:element>
 	  <xsl:apply-templates select="lowlimit/node()" mode="#current"/>
 	  <xsl:apply-templates select="uplimit/node()" mode="#current"/>
@@ -362,6 +368,7 @@ k. ??? set|list w/condition
     </xsl:when>
     <xsl:when test="condition"><!-- apply int bvar condition expr -->
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>defint</xsl:element>
 	<xsl:element name="apply"><!-- set constructed by condition-->
 	  <xsl:element name="csymbol"><xsl:attribute name="cd">set1</xsl:attribute>suchthat</xsl:element>
@@ -397,7 +404,9 @@ k. ??? set|list w/condition
     </xsl:when>
     <xsl:otherwise><!-- apply int expr -->
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="apply">
+        <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	  <xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>int</xsl:element>
 	  <xsl:element name="bind"><!-- lambda function to be integrated -->
 	    <xsl:element name="csymbol"><xsl:attribute name="cd">fns1</xsl:attribute>lambda</xsl:element>
@@ -418,6 +427,7 @@ k. ??? set|list w/condition
 <!-- Case 2c: rewrite limits -->
 <xsl:template match="apply[limit]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="csymbol"><xsl:attribute name="cd">limit1</xsl:attribute>limit</xsl:element>
     <xsl:choose><!-- limiting value -->
       <xsl:when test="condition/apply/tendsto">
@@ -455,6 +465,7 @@ k. ??? set|list w/condition
 <!-- idiomatic <tendsto/> -->
 <xsl:template match="apply[tendsto]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:for-each select="./*">
       <xsl:choose>
 	<xsl:when test="name()='tendsto'">
@@ -476,6 +487,7 @@ k. ??? set|list w/condition
 <!-- Case 2d: rewrite sums, products. -->
 <xsl:template match="apply[sum|product][bvar][lowlimit][uplimit]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:choose><!-- head term -->
       <xsl:when test="sum">
 	<xsl:element name="csymbol"><xsl:attribute name="cd">arith1</xsl:attribute>sum</xsl:element>
@@ -485,6 +497,7 @@ k. ??? set|list w/condition
       </xsl:when>
     </xsl:choose>
     <xsl:element name="apply"><!-- integer interval -->
+        <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
       <xsl:element name="csymbol"><xsl:attribute name="cd">interval1</xsl:attribute>integer_interval</xsl:element>
       <xsl:apply-templates select="lowlimit/*" mode="#current"/>
       <xsl:apply-templates select="uplimit/*" mode="#current"/>
@@ -500,6 +513,7 @@ k. ??? set|list w/condition
 <!-- Case 2e: rewrite roots -->
 <xsl:template match="apply[root]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="csymbol"><xsl:attribute name="cd">arith1</xsl:attribute>root</xsl:element>
     <xsl:apply-templates select="(degree|root)[position()=last()]/following-sibling::*" mode="#current"/>
     <xsl:choose>
@@ -516,6 +530,7 @@ k. ??? set|list w/condition
 <!-- Case 2f: rewrite logs -->
 <xsl:template match="apply[log]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="csymbol"><xsl:attribute name="cd">transc1</xsl:attribute>log</xsl:element>
     <xsl:choose>
       <xsl:when test="logbase">
@@ -533,6 +548,7 @@ k. ??? set|list w/condition
 <!-- Case 2g: rewrite moments -->
 <xsl:template match="apply[moment]" mode="pass2">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="csymbol"><xsl:attribute name="cd">s_dist1</xsl:attribute>moment</xsl:element>
     <xsl:choose><!-- degree -->
       <xsl:when test="degree">
@@ -562,9 +578,11 @@ k. ??? set|list w/condition
 <!-- Case 3a: rewrite interval qualifiers -->
 <xsl:template match="apply[bvar][lowlimit][uplimit]" mode="pass3">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:apply-templates select="child::*[position()=1]" mode="#current"/>
     <xsl:element name="domainofapplication">
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">interval1</xsl:attribute>interval</xsl:element>
 	<xsl:apply-templates select="lowlimit/*" mode="#current"/>
 	<xsl:apply-templates select="uplimit/*" mode="#current"/>
@@ -577,9 +595,11 @@ k. ??? set|list w/condition
 <!-- interval qualifiers for int, sum, product, as per Rewrite: interval qualifier -->
 <xsl:template match="apply[int|sum|product][interval]" mode="pass3">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:apply-templates select="interval/preceding-sibling::*" mode="#current"/>
     <xsl:element name="domainofapplication">
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">interval1</xsl:attribute>interval</xsl:element>
 	<xsl:apply-templates select="interval/*[1]" mode="#current"/>
 	<xsl:apply-templates select="interval/*[2]" mode="#current"/>
@@ -703,6 +723,7 @@ d. Rewrite piecewise functions as described in Section 4.4.1.9 Piecewise declara
 <!-- Rewrite intervals, vectors, matrices -->
 <xsl:template match="interval" mode="pass4">
   <xsl:element name="apply">
+      <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
     <xsl:element name="csymbol"><xsl:attribute name="cd">interval1</xsl:attribute>
       <xsl:choose>
 	<xsl:when test="@closure='open'">interval_oo</xsl:when>
@@ -930,6 +951,7 @@ d. Rewrite sum | product used with d-o-a (with or without a bvar)
   <xsl:choose>
     <xsl:when test="bvar">
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>defint</xsl:element>
 	<xsl:apply-templates select="domainofapplication/node()" mode="#current"/>
 	<xsl:element name="bind"><!-- lambda function to be integrated -->
@@ -944,6 +966,7 @@ d. Rewrite sum | product used with d-o-a (with or without a bvar)
     </xsl:when>
     <xsl:otherwise>
       <xsl:element name="apply">
+          <xsl:copy-of select="@*"/> <!-- copy of attributes to keep the ids -->
 	<xsl:element name="csymbol"><xsl:attribute name="cd">calculus1</xsl:attribute>defint</xsl:element>
 	<xsl:apply-templates select="domainofapplication/node()" mode="#current"/>
 	<xsl:apply-templates select="(bvar|domainofapplication)[position()=last()]/following-sibling::*"
