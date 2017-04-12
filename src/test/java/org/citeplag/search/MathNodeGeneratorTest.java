@@ -4,7 +4,10 @@ import org.citeplag.node.MathNodeGenerator;
 import org.junit.Test;
 
 /**
- * Created by vincent on 15.03.17.
+ * Test class for our MathNode Generator {@see MathNodeGenerator}.
+ * TODO the conversion should be tested!
+ *
+ * @author Vincent Stange
  */
 public class MathNodeGeneratorTest {
 

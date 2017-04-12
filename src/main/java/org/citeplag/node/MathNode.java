@@ -8,7 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This node is our representation of a mathematic formula.
+ * This Object represents node of a mathematic expression tree (MAT).
+ * If you start with this object, it is usually the root of a MAT.
+ * Each child a branch.
  *
  * @author Vincent Stange
  */

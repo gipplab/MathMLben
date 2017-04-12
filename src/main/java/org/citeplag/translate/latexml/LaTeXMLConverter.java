@@ -8,8 +8,8 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Map;
 
 /**
- * Main class for conversion from a latex formula to
- * a MathML representation.
+ * Main approach for conversion from a latex formula to
+ * a MathML representation via LaTeXML.
  *
  * @author Vincent Stange
  */

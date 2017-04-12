@@ -19,8 +19,6 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("config")
 public class ConfigController {
 
-    private static Logger logger = Logger.getLogger(ConfigController.class);
-
     @Autowired
     MathASTConfig mathASTConfig;
 

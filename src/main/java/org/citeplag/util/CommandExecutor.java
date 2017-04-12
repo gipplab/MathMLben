@@ -33,32 +33,11 @@ public class CommandExecutor {
     }
 
     /**
-     * Instantiates a new command executor with a custom ProcessBuilder.
-     *
-     * @param pb Custom ProcessBuilder
-     */
-    public CommandExecutor(ProcessBuilder pb) {
-        this.pb = pb;
-    }
-
-
-    /**
-     * Executes the command in the runtime environment.
-     * 500 ms read interval
-     *
-     * @return Output as a result of the command execution.
-     * @throws Exception
-     */
-    public String exec() throws Exception {
-        return exec(500L);
-    }
-
-    /**
      * Executes the command in the runtime environment.
      *
      * @param timeoutMs Read timeout interval in ms
      * @return Output as a result of the command execution.
-     * @throws Exception
+     * @throws Exception most likely the process failed
      */
     public String exec(long timeoutMs) throws Exception {
         StringBuilder output = new StringBuilder();

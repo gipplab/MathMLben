@@ -37,7 +37,7 @@ public class MathNodeGenerator {
         return createMathNode(cmmlRoot);
     }
 
-    public Node getCmmlRoot(String mathml) throws Exception {
+    public Node getCmml(String mathml) throws Exception {
         // Convert to normal document
         Document mathmlDocument = XMLHelper.String2Doc(mathml, false);
 
@@ -47,10 +47,10 @@ public class MathNodeGenerator {
     }
 
     public String generateAbstractCD(String mathml) throws Exception {
-        return nodeToString(generateAbstractCDNode(mathml), true);
+        return nodeToString(getStrictCmml(mathml));
     }
 
-    public Node generateAbstractCDNode(String mathml) throws Exception {
+    public Node getStrictCmml(String mathml) throws Exception {
         // convert to mathosphere cmml document
         CMMLInfo cmmlInfo = new CMMLInfo(mathml);
 
@@ -115,8 +115,11 @@ public class MathNodeGenerator {
     }
 
     /**
-     * @param cmmlDoc
-     * @param node
+     * Converts a CMML node to strict CMML via its
+     * 'cd' attribute field.
+     *
+     * @param cmmlDoc CMML document
+     * @param node current node to be converted
      */
     void abstractNodeCD(Document cmmlDoc, Node node) {
         ArrayList<Node> childElements = getChildElements(node);
@@ -143,23 +146,18 @@ public class MathNodeGenerator {
         }
     }
 
-    String getNodeValue(Node node) {
-        return node.getFirstChild() != null ? node.getFirstChild().getTextContent().trim() : node.getTextContent().trim();
-    }
-
     /**
      * Prints out a XML node as a String
      *
      * @param node   node to be translated
-     * @param indent pretty print on?
      * @return String representation
      * @throws TransformerException mostly not xml conform
      */
-    String nodeToString(Node node, boolean indent) throws TransformerException {
+    String nodeToString(Node node) throws TransformerException {
         StringWriter sw = new StringWriter();
         Transformer t = TransformerFactory.newInstance().newTransformer();
         t.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
-        t.setOutputProperty(OutputKeys.INDENT, indent ? "yes" : "no");
+        t.setOutputProperty(OutputKeys.INDENT, "yes");
         t.transform(new DOMSource(node), new StreamResult(sw));
         return sw.toString();
     }

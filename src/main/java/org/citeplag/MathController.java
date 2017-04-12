@@ -29,6 +29,11 @@ import java.util.List;
 
 /**
  * REST Controller for our little MathML Pipeline.
+ * Here we have in total:
+ *
+ * 1. two POST methods for our latex to mathml conversion via latexml and mathoid
+ * 2. one POST method for the similarity comparison
+ * 3. one GET method to load a predefined example
  *
  * @author Vincent Stange
  */
@@ -55,7 +60,8 @@ public class MathController {
         LateXMLConfig usedConfig = (config != null ? new ObjectMapper().readValue(config, LateXMLConfig.class) : lateXMLConfig);
 
         LaTeXMLConverter laTeXMLConverter = new LaTeXMLConverter(usedConfig);
-        // no url = local installation / url = online service
+
+        // no url = use the local installation of latexml, otherwise use: url = online service
         if (StringUtils.isEmpty(usedConfig.getUrl())) {
             logger.info("local latex conversion from: " + request.getRemoteAddr());
             return laTeXMLConverter.runLatexmlc(latex);
@@ -104,19 +110,21 @@ public class MathController {
             Node cmmlA, cmmlB;
             if (type.equals("similar")) {
                 logger.info("similarity comparison from: " + request.getRemoteAddr());
-                cmmlA = generator.generateAbstractCDNode(mathmlA);
-                cmmlB = generator.generateAbstractCDNode(mathmlB);
+                // for similarity comparison we want the Content Dictionary or also called: strict CMML
+                cmmlA = generator.getStrictCmml(mathmlA);
+                cmmlB = generator.getStrictCmml(mathmlB);
                 onlyOperations = true;
             } else {
                 logger.info("identical comparison from: " + request.getRemoteAddr());
-                cmmlA = generator.getCmmlRoot(mathmlA);
-                cmmlB = generator.getCmmlRoot(mathmlB);
+                cmmlA = generator.getCmml(mathmlA);
+                cmmlB = generator.getCmml(mathmlB);
             }
 
             // Convert the MathML into our own internal representation of a Math Tree
             MathNode mathNodeA = generator.generateMathNode(cmmlA);
             MathNode mathNodeB = generator.generateMathNode(cmmlB);
 
+            // start the similarity comparison
             List<Similarity> similarities = new BruteTreeSearch(type).getSimilarities(mathNodeA, mathNodeB, onlyOperations);
             return new SimilarityResult("Okay", "", similarities);
         } catch (Exception e) {
@@ -126,8 +134,9 @@ public class MathController {
     }
 
     @GetMapping(path = "example")
-    @ApiOperation(value = "Get an example a full example for the demo.")
+    @ApiOperation(value = "Get a full example for the demo.")
     public Example getExample() throws IOException {
+        // this could easily be extended for more examples
         return new ExampleLoader().load("example_1.txt");
     }
 

@@ -21,6 +21,7 @@ public class LaTeXMLConverterTest {
      * one, just @Ignore this test.
      */
     @Test
+    @Ignore("installation is not always available")
     public void runLatexmlc() throws Exception {
         // local configuration for the test in json
         String config = "{\n" +
@@ -56,7 +57,7 @@ public class LaTeXMLConverterTest {
      * Test works with http://gw125.iu.xsede.org:8888
      */
     @Test
-    @Ignore("service is currently not available, again")
+    @Ignore("service is not always available")
     public void convertLatexmlService() throws Exception {
         // local configuration for the test in json (with DRMF stylesheet)
         String config = "{\n" +

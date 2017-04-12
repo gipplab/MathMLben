@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
+ * Brute Force approach to find similar subtrees between two math expression trees.
+ *
  * @author Vincent Stange
  */
 public class BruteTreeSearch {

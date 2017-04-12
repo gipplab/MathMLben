@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Configuration for the Mathoid service.
+ * Configuration container for the Mathoid service.
  *
  * @author Vincent Stange
  */

@@ -3,7 +3,9 @@ package org.citeplag.search;
 import org.junit.Test;
 
 /**
- * Created by vincent on 14.03.17.
+ * TODO this should be tested!
+ *
+ * @author Vincent Stange
  */
 public class BruteTreeSearchTest {
 

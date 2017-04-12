@@ -1,23 +1,23 @@
 package org.citeplag.util;
 
 /**
- * Just a wrapper for an example for the demo.
+ * Just a POJO for an example for the demo.
  *
  * @author Vincent Stange
  */
 public class Example {
 
-    String name = "";
+    private String name = "";
 
-    String latex1 = "";
+    private String latex1 = "";
 
-    String latex2 = "";
+    private String latex2 = "";
 
-    String mathml1 = "";
+    private String mathml1 = "";
 
-    String mathml2 = "";
+    private String mathml2 = "";
 
-    String similarity = "";
+    private String similarity = "";
 
     public String getName() {
         return name;

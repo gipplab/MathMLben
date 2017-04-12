@@ -1,23 +1,15 @@
 package org.citeplag.mml;
 
 
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multiset;
-import com.google.common.collect.Sets;
-import net.sf.saxon.s9api.SaxonApiException;
-import net.sf.saxon.s9api.XQueryExecutable;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.*;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Taken from mathosphere
@@ -60,13 +52,10 @@ public class CMMLInfo implements Document {
             "equivalent"
     );
     private Document cmmlDoc;
-    private XQueryExecutable xQueryExecutable;
-    private boolean isStrict;
 
     public CMMLInfo(Document cmml) {
         constructor(cmml, true, false);
     }
-
 
     public CMMLInfo(String s) throws IOException, ParserConfigurationException {
         Document cmml = XMLHelper.String2Doc(s, true);
@@ -104,7 +93,6 @@ public class CMMLInfo implements Document {
                 .setDefaultNamespace(NS_MATHML)
                 .addTranslation("m", NS_MATHML)
                 .addTranslation("mws", "http://search.mathweb.org/ns")
-                //TODO: make option to keep it
                 .addUnwantedAttribute("xml:id")
                 .translateNamespaces(cmmlDoc);
         try {
@@ -145,130 +133,8 @@ public class CMMLInfo implements Document {
         return new CMMLInfo(this);
     }
 
-    private void removeNonCD() {
-
-    }
-
-    public final CMMLInfo toStrictCmmlCont() {
-        try {
-            removeNonCD();
-            cmmlDoc = XMLHelper.XslTransform(cmmlDoc, ROBERT_MINER_XSL);
-            isStrict = true;
-        } catch (final TransformerException | ParserConfigurationException e) {
-            LOG.warn("Unable to convert to strict cmml :" + cmmlDoc.toString(), e);
-        }
-        return this;
-    }
-
     public final CMMLInfo toStrictCmml() throws TransformerException, ParserConfigurationException {
         cmmlDoc = XMLHelper.XslTransform(cmmlDoc, ROBERT_MINER_XSL);
-        return this;
-    }
-
-    public final Multiset<String> getElements() {
-        try {
-            Multiset<String> list = HashMultiset.create();
-            XPath xpath = XMLHelper.namespaceAwareXpath("m", NS_MATHML);
-            XPathExpression xEquation = xpath.compile("*//m:ci|*//m:co|*//m:cn");
-            NonWhitespaceNodeList identifiers = new NonWhitespaceNodeList((NodeList) xEquation.evaluate(cmmlDoc, XPathConstants.NODESET));
-            for (Node identifier : identifiers) {
-                list.add(identifier.getTextContent().trim());
-            }
-            return list;
-        } catch (final XPathExpressionException e) {
-            LOG.warn("Unable to parse elements: " + cmmlDoc.toString(), e);
-        }
-        return HashMultiset.create();
-    }
-
-    private void abstractNodeCD(Node node) {
-        final NonWhitespaceNodeList childNodes = new NonWhitespaceNodeList(node.getChildNodes());
-        if (childNodes.getLength() > 0) {
-            for (int i = 0; i < childNodes.getLength(); i++) {
-                abstractNodeCD(childNodes.item(i));
-            }
-        } else {
-            node.setTextContent("");
-            return;
-        }
-        String cd;
-        try {
-            cd = node.getAttributes().getNamedItem("cd").getNodeValue();
-        } catch (final DOMException | NullPointerException e) {
-            cd = "";
-        }
-        if (cd != null && cd.isEmpty()) {
-            return;
-        }
-        try {
-            cmmlDoc.renameNode(node, "http://formulasearchengine.com/ns/pseudo/gen/cd", cd);
-        } catch (final DOMException e) {
-            LOG.error("cannot rename" + node.getLocalName() + cmmlDoc.toString(), e);
-            return;
-        }
-        node.setTextContent("");
-    }
-
-    private void abstractNodeDT(Node node, Integer applies) {
-        Set<String> levelGenerators = Sets.newHashSet("apply", "bind");
-        Map<String, Integer> DTa = new HashMap<>();
-        Boolean rename = false;
-        DTa.put("cn", 0);
-        DTa.put("cs", 0);
-        DTa.put("bvar", 0);
-        DTa.put("ci", null);
-        DTa.put("csymbol", 1);
-        DTa.put("share", 5);
-
-        Integer level = applies;
-        final String name = node.getLocalName();
-        if (node.hasChildNodes()) {
-            if (name != null && levelGenerators.contains(name)) {
-                applies++;
-            } else {
-                applies = 0;
-            }
-            NodeList childNodes = node.getChildNodes();
-            for (int i = 0; i < childNodes.getLength(); i++) {
-                if (i == 0) {
-                    abstractNodeDT(childNodes.item(i), applies);
-                } else {
-                    abstractNodeDT(childNodes.item(i), 0);
-                }
-            }
-        } else {
-            node.setTextContent("");
-            return;
-        }
-
-        if (DTa.containsKey(name)) {
-            if (DTa.get(name) != null) {
-                level = DTa.get(name);
-            }
-            rename = true;
-        }
-        if (name != null && rename) {
-            try {
-                cmmlDoc.renameNode(node, "http://formulasearchengine.com/ns/pseudo/gen/datatype", "l" + level);
-            } catch (final DOMException e) {
-                LOG.info("could not rename node" + name);
-                return;
-            }
-        }
-        if (node.getNodeType() == TEXT_NODE) {
-            node.setTextContent("");
-        }
-    }
-
-    public final CMMLInfo abstract2CDs() {
-        abstractNodeCD(cmmlDoc);
-        fixNamespaces();
-        return this;
-    }
-
-    public final Node abstract2DTs() {
-        abstractNodeDT(cmmlDoc, 0);
-        fixNamespaces();
         return this;
     }
 
@@ -278,66 +144,6 @@ public class CMMLInfo implements Document {
             return XMLHelper.printDocument(cmmlDoc);
         } catch (final TransformerException e) {
             return "cmml not printable";
-        }
-    }
-
-    public final Boolean isMatch(XQueryExecutable query) {
-        Document doc = null;
-        try {
-            doc = XMLHelper.runXQuery(query, toString());
-            final NodeList elementsB = doc.getElementsByTagName("p");
-            return elementsB.getLength() != 0;
-        } catch (final SaxonApiException | ParserConfigurationException e) {
-            LOG.warn("Unable to parse if query is a match. ", e);
-        }
-        return null;
-    }
-
-    public final Integer getDepth(XQueryExecutable query) {
-        Document doc = null;
-        try {
-            doc = XMLHelper.runXQuery(query, toString());
-        } catch (final SaxonApiException | ParserConfigurationException e) {
-            LOG.error("Problem during document preparation for depth processing", e);
-            return null;
-        }
-        final NodeList elementsB = doc.getElementsByTagName("p");
-        if (elementsB.getLength() == 0) {
-            return null;
-        }
-        Integer depth = Integer.MAX_VALUE;
-        //find the match with lowest depth
-        for (int i = 0; i < elementsB.getLength(); i++) {
-            final String path = elementsB.item(i).getTextContent();
-            final int currentDepth = path.split("/").length;
-            if (currentDepth < depth) {
-                depth = currentDepth;
-            }
-        }
-        return depth;
-    }
-
-    public final CMMLInfo toDataCmml() {
-        try {
-            cmmlDoc = XMLHelper.XslTransform(cmmlDoc, ROBERT_MINER_XSL);
-        } catch (TransformerException | ParserConfigurationException e) {
-            LOG.warn("Unable to convert to data cmml", e);
-        }
-        return this;
-    }
-
-    public final Double getCoverage(Multiset queryTokens) {
-        if (queryTokens.isEmpty()) {
-            return 1.0;
-        }
-        final Multiset<String> our = getElements();
-        if (our.contains(queryTokens)) {
-            return 1.0;
-        } else {
-            final HashMultiset<String> tmp = HashMultiset.create();
-            tmp.addAll(queryTokens);
-            tmp.removeAll(our);
-            return 1 - (double) tmp.size() / (double) queryTokens.size();
         }
     }
 

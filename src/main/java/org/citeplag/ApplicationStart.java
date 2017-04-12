@@ -42,6 +42,7 @@ public class ApplicationStart {
 
     /**
      * Pretty print for every json output
+     *
      * @return override the jackson builder
      */
     @Bean
@@ -98,7 +99,7 @@ public class ApplicationStart {
      */
     private ApiInfo getApiInfo() {
         return new ApiInfoBuilder()
-                .title("MathML Demo - A Visualization Tool for Mathematical Expression Trees")
+                .title("MathML Demo (VMEXT) - A Visualization Tool for Mathematical Expression Trees")
                 .description("SciPlore Project")
                 .termsOfServiceUrl("http://springfox.io")
                 .contact(new Contact("Vincent Stange", null, "vinc.sohn at gmail.com"))

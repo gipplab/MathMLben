@@ -4,6 +4,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
+ * Simple container for the MAST renderer.
+ * Currently only the URL is stored.
+ *
  * @author Vincent Stange
  */
 @Component

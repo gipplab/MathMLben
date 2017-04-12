@@ -20,7 +20,7 @@ public class ServiceResponse {
     private String log = "";
 
     public ServiceResponse() {
-        // emtpy constructor
+        // emtpy constructor need for spring
     }
 
     public ServiceResponse(String result, String log) {

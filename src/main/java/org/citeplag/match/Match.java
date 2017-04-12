@@ -1,6 +1,9 @@
 package org.citeplag.match;
 
 /**
+ * JSON wrapper for a single match between two math expression trees.
+ * The Id relates to the original MathML.
+ *
  * @author Vincent Stange
  */
 public class Match {
