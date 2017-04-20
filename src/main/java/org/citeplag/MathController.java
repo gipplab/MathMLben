@@ -4,9 +4,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
 import org.citeplag.match.Similarity;
+import org.citeplag.mml.CMMLHelper;
 import org.citeplag.node.MathNode;
 import org.citeplag.node.MathNodeGenerator;
-import org.citeplag.search.BruteTreeSearch;
+import org.citeplag.search.SubTreeComparison;
 import org.citeplag.search.SimilarityResult;
 import org.citeplag.translate.latexml.LaTeXMLConverter;
 import org.citeplag.translate.latexml.LateXMLConfig;
@@ -102,30 +103,32 @@ public class MathController {
             @RequestParam(value = "mathml1") String mathmlA,
             @RequestParam(value = "mathml2") String mathmlB,
             @RequestParam(value = "type") String type,
-            @RequestParam(value = "onlyOperations", defaultValue = "false", required = false) Boolean onlyOperations,
+            @RequestParam(value = "onlyOperations", defaultValue = "true", required = false) Boolean onlyOperations,
             HttpServletRequest request) {
 
-        MathNodeGenerator generator = new MathNodeGenerator();
         try {
+            CMMLHelper cmmlHelper = new CMMLHelper();
             Node cmmlA, cmmlB;
             if (type.equals("similar")) {
                 logger.info("similarity comparison from: " + request.getRemoteAddr());
                 // for similarity comparison we want the Content Dictionary or also called: strict CMML
-                cmmlA = generator.getStrictCmml(mathmlA);
-                cmmlB = generator.getStrictCmml(mathmlB);
+                cmmlA = cmmlHelper.getStrictCmml(mathmlA);
+                cmmlB = cmmlHelper.getStrictCmml(mathmlB);
                 onlyOperations = true;
             } else {
                 logger.info("identical comparison from: " + request.getRemoteAddr());
-                cmmlA = generator.getCmml(mathmlA);
-                cmmlB = generator.getCmml(mathmlB);
+                cmmlA = cmmlHelper.getCmml(mathmlA);
+                cmmlB = cmmlHelper.getCmml(mathmlB);
+                onlyOperations = true;
             }
 
             // Convert the MathML into our own internal representation of a Math Tree
+            MathNodeGenerator generator = new MathNodeGenerator();
             MathNode mathNodeA = generator.generateMathNode(cmmlA);
             MathNode mathNodeB = generator.generateMathNode(cmmlB);
 
             // start the similarity comparison
-            List<Similarity> similarities = new BruteTreeSearch(type).getSimilarities(mathNodeA, mathNodeB, onlyOperations);
+            List<Similarity> similarities = new SubTreeComparison(type).getSimilarities(mathNodeA, mathNodeB, onlyOperations);
             return new SimilarityResult("Okay", "", similarities);
         } catch (Exception e) {
             logger.error("similarity error", e);

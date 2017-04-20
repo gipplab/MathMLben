@@ -7,7 +7,7 @@ import org.junit.Test;
  *
  * @author Vincent Stange
  */
-public class BruteTreeSearchTest {
+public class SubTreeComparisonTest {
 
     @Test
     public void isIdenticalTree() throws Exception {

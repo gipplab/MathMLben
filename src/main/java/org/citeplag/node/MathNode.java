@@ -6,45 +6,63 @@ import org.w3c.dom.Node;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
- * This Object represents node of a mathematic expression tree (MAT).
- * If you start with this object, it is usually the root of a MAT.
- * Each child a branch.
+ * This Object represents the node of a mathematic expression tree (MET).
+ * <br/>
+ * If you start with this object, it is usually the root of a MET.
+ * <br/>
+ * This object should not be dependent on the former document and any
+ * namespace-dependent attributes should be ignored.
  *
  * @author Vincent Stange
  */
 public class MathNode {
 
+    /**
+     * tag-name of the node (element name, e.g. <apply> = "apply")
+     */
     private String name = null;
 
+    /**
+     * specific id attribute of the original node
+     */
     private String id = null;
 
+    /**
+     * text value of a node
+     */
     private String value = "";
 
+    /**
+     * all attributes of node
+     */
     private Map<String, String> attributes = new HashMap<>();
 
-    private MathNode operator = null;
-
-    // Is the order of children nodes
+    /**
+     * Are children nodes order sensitive?
+     */
     private boolean orderSensitive = true;
 
-    private ArrayList<MathNode> children = new ArrayList<>();
+    private boolean marked = false;
 
-    @Override
-    public String toString() {
-        return String.format("%s:%s", name, value) + (operator != null ? "-" + operator.toString() : "");
-    }
+    /**
+     * all children in order via an ArrayList
+     */
+    private ArrayList<MathNode> children = new ArrayList<>();
 
     public void setAttributes(NamedNodeMap attributes) {
         if (attributes == null)
             return;
+        // extract all attributes into a simple map
         int numAttrs = attributes.getLength();
         for (int i = 0; i < numAttrs; i++) {
             Node attr = attributes.item(i);
             String attrName = attr.getNodeName();
-            if ("id".equals(attrName))
+            if ("id".equals(attrName)) {
                 setId(attr.getNodeValue());
+            }
             this.attributes.put(attrName, attr.getNodeValue());
         }
     }
@@ -77,17 +95,13 @@ public class MathNode {
         this.value = value;
     }
 
-    public MathNode getOperator() {
-        return operator;
-    }
+//    public void setOperator(MathNode operator) {
+//        this.operator = operator;
+//        orderSensitive = !(operator.getName().equals("times") || operator.getName().equals("plus"));
+//    }
 
-    public void setOperator(MathNode operator) {
-        this.operator = operator;
-        orderSensitive = !(operator.getName().equals("times") || operator.getName().equals("plus"));
-    }
-
-    public boolean isOperation() {
-        return operator != null;
+    public boolean isLeaf() {
+        return children.isEmpty();
     }
 
     public boolean isOrderSensitive() {
@@ -110,23 +124,24 @@ public class MathNode {
         MathNode mathNode = (MathNode) o;
 
         if (name != null ? !name.equals(mathNode.name) : mathNode.name != null) return false;
-        if (!value.equals(mathNode.value)) return false;
-        return operator != null ? operator.equals(mathNode.operator) : mathNode.operator == null;
+        return value != null ? value.equals(mathNode.value) : mathNode.value == null;
     }
 
     @Override
     public int hashCode() {
-        int result = name != null ? name.hashCode() : 0;
-        result = 31 * result + value.hashCode();
-        result = 31 * result + (operator != null ? operator.hashCode() : 0);
-        return result;
+        return Objects.hash(name, value);
     }
 
-    public void print(String indent) {
-        System.out.println(indent + this.toString());
-        for (MathNode child : children) {
-            child.print(indent + "  ");
-        }
+    @Override
+    public String toString() {
+        return String.format("%s:%s", name, value);
     }
 
+    public boolean isMarked() {
+        return marked;
+    }
+
+    public void setMarked(boolean marked) {
+        this.marked = marked;
+    }
 }

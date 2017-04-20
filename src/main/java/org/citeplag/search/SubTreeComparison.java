@@ -9,15 +9,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Brute Force approach to find similar subtrees between two math expression trees.
+ * Simple approach to find similar subtrees between two math expression trees.
  *
  * @author Vincent Stange
  */
-public class BruteTreeSearch {
+public class SubTreeComparison {
 
     private final Match.Type type;
 
-    public BruteTreeSearch(String type) {
+    public SubTreeComparison(String type) {
         this.type = Match.Type.valueOf(type);
     }
 
@@ -34,69 +34,72 @@ public class BruteTreeSearch {
     }
 
     /**
-     * Recursive method that goes along every node of the first tree.
+     * Recursive method that goes along every node of the reference tree.
      *
-     * @param aTree         First MathNode Tree
-     * @param bTree         Second MathNode Tree
+     * @param refTree         Reference MathNode tree
+     * @param comTree         Comparison MathNode tree
      * @param similarities  List of similarities, will be filled during process.
      * @param holdA         extra flag
      * @param onlyOperators find similarities only between operations, no single identifier (end leafs) are checked
      * @return if the current aTree ad bTree are identical subtrees
      */
-    boolean findSimilarities(MathNode aTree, MathNode bTree, List<Similarity> similarities, boolean holdA, boolean onlyOperators) {
-        if (isIdenticalTree(aTree, bTree)) {
-            similarities.add(new Similarity(aTree.getId(), bTree.getId(), type));
+    boolean findSimilarities(MathNode refTree, MathNode comTree, List<Similarity> similarities, boolean holdA, boolean onlyOperators) {
+        if (isIdenticalTree(refTree, comTree)) {
+            comTree.setMarked(true);
+            similarities.add(new Similarity(refTree.getId(), comTree.getId(), type));
             return true;
         }
 
-        for (MathNode bTreeChild : bTree.getChildren()) {
-            if (onlyOperators && !bTreeChild.isOperation())
+        for (MathNode bTreeChild : comTree.getChildren()) {
+            if ((onlyOperators && bTreeChild.isLeaf())) {
                 continue;
-
-            if (findSimilarities(aTree, bTreeChild, similarities, true, onlyOperators)) {
+            }
+            if (findSimilarities(refTree, bTreeChild, similarities, true, onlyOperators)) {
                 return true;
             }
         }
         if (!holdA) {
-            for (MathNode aTreeChild : aTree.getChildren()) {
-                if (onlyOperators && !aTreeChild.isOperation())
+            for (MathNode aTreeChild : refTree.getChildren()) {
+                if (onlyOperators && aTreeChild.isLeaf())
                     continue;
 
-                findSimilarities(aTreeChild, bTree, similarities, false, onlyOperators);
+                findSimilarities(aTreeChild, comTree, similarities, false, onlyOperators);
             }
         }
         return false;
     }
 
     /**
-     * Are aTree and bTree identical subtrees?
+     * Are aTree and bTree identical subtrees? If the root node is equal,
+     * all subsequent children will be compared.
      *
-     * @param aTree First MathNode Tree
-     * @param bTree Second MathNode Tree
-     * @return if the current aTree ad bTree are identical subtrees
+     * @param aTree first MathNode tree
+     * @param bTree second MathNode tree
+     * @return true - if both trees are identical subtrees, false otherwise
      */
     boolean isIdenticalTree(MathNode aTree, MathNode bTree) {
+        // first check if they have the same number of children
         if (aTree.equals(bTree) && aTree.getChildren().size() == bTree.getChildren().size()) {
             if (aTree.isOrderSensitive()) {
-                // order sensitive
+                // all children order sensitive
                 for (int i = 0; i < aTree.getChildren().size(); i++) {
                     if (!isIdenticalTree(aTree.getChildren().get(i), bTree.getChildren().get(i))) {
                         return false;
                     }
                 }
             } else {
+                // order insensitive
                 List<MathNode> bChildren = new ArrayList<>(bTree.getChildren());
-
-                // no order
                 OUTER:
                 for (MathNode aChild : aTree.getChildren()) {
                     for (MathNode bChild : getSimilarChilds(aChild, bChildren)) {
                         if (isIdenticalTree(aChild, bChild)) {
+                            // found an identical child
                             bChildren.remove(bChild);
                             continue OUTER;
                         }
                     }
-                    // aChild wasnt in bChildren
+                    // aChild is missing in bChildren
                     return false;
                 }
             }
