@@ -95,11 +95,6 @@ public class MathNode {
         this.value = value;
     }
 
-//    public void setOperator(MathNode operator) {
-//        this.operator = operator;
-//        orderSensitive = !(operator.getName().equals("times") || operator.getName().equals("plus"));
-//    }
-
     public boolean isLeaf() {
         return children.isEmpty();
     }
