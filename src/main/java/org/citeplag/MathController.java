@@ -1,13 +1,15 @@
 package org.citeplag;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.formulasearchengine.mathmlsim.similarity.MathPlag;
+import com.formulasearchengine.mathmlsim.similarity.SubTreeComparison;
+import com.formulasearchengine.mathmlsim.similarity.node.MathNode;
+import com.formulasearchengine.mathmlsim.similarity.node.MathNodeGenerator;
+import com.formulasearchengine.mathmlsim.similarity.result.Match;
+import com.formulasearchengine.mathmlsim.similarity.util.CMMLHelper;
+import com.google.common.collect.Maps;
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
-import org.citeplag.match.Similarity;
-import org.citeplag.mml.CMMLHelper;
-import org.citeplag.node.MathNode;
-import org.citeplag.node.MathNodeGenerator;
-import org.citeplag.search.SubTreeComparison;
 import org.citeplag.search.SimilarityResult;
 import org.citeplag.translate.latexml.LaTeXMLConverter;
 import org.citeplag.translate.latexml.LateXMLConfig;
@@ -27,11 +29,12 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 /**
  * REST Controller for our little MathML Pipeline.
  * Here we have in total:
- *
+ * <p>
  * 1. two POST methods for our latex to mathml conversion via latexml and mathoid
  * 2. one POST method for the similarity comparison
  * 3. one GET method to load a predefined example
@@ -107,32 +110,37 @@ public class MathController {
             HttpServletRequest request) {
 
         try {
-            CMMLHelper cmmlHelper = new CMMLHelper();
             Node cmmlA, cmmlB;
             if (type.equals("similar")) {
                 logger.info("similarity comparison from: " + request.getRemoteAddr());
                 // for similarity comparison we want the Content Dictionary or also called: strict CMML
-                cmmlA = cmmlHelper.getStrictCmml(mathmlA);
-                cmmlB = cmmlHelper.getStrictCmml(mathmlB);
-                onlyOperations = true;
+                cmmlA = CMMLHelper.getStrictCmml(mathmlA);
+                cmmlB = CMMLHelper.getStrictCmml(mathmlB);
             } else {
                 logger.info("identical comparison from: " + request.getRemoteAddr());
-                cmmlA = cmmlHelper.getCmml(mathmlA);
-                cmmlB = cmmlHelper.getCmml(mathmlB);
-                onlyOperations = true;
+                cmmlA = CMMLHelper.getCmml(mathmlA);
+                cmmlB = CMMLHelper.getCmml(mathmlB);
             }
 
             // Convert the MathML into our own internal representation of a Math Tree
-            MathNodeGenerator generator = new MathNodeGenerator();
-            MathNode mathNodeA = generator.generateMathNode(cmmlA);
-            MathNode mathNodeB = generator.generateMathNode(cmmlB);
+            MathNode mathNodeA = MathNodeGenerator.generateMathNode(cmmlA);
+            MathNode mathNodeB = MathNodeGenerator.generateMathNode(cmmlB);
+            if (type.equals("similar")) {
+                // strict cmml should also be converted to the abstract variant
+                mathNodeA = MathNodeGenerator.toAbstract(mathNodeA);
+                mathNodeB = MathNodeGenerator.toAbstract(mathNodeB);
+            }
 
             // start the similarity comparison
-            List<Similarity> similarities = new SubTreeComparison(type).getSimilarities(mathNodeA, mathNodeB, onlyOperations);
-            return new SimilarityResult("Okay", "", similarities);
+            List<Match> similarities = new SubTreeComparison(type).getSimilarities(mathNodeA, mathNodeB, onlyOperations);
+
+            // get the old / original result and add it as an extra map
+            Map<String, Object> originals = MathPlag.compareOriginalFactors(mathmlA, mathmlB);
+
+            return new SimilarityResult("Okay", "", similarities, originals);
         } catch (Exception e) {
             logger.error("similarity error", e);
-            return new SimilarityResult("Error", e.getMessage(), Collections.emptyList());
+            return new SimilarityResult("Error", e.getMessage(), Collections.emptyList(), Maps.newTreeMap());
         }
     }
 

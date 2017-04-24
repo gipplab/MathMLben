@@ -1,9 +1,11 @@
 package org.citeplag.search;
 
-import org.citeplag.match.Similarity;
+import com.formulasearchengine.mathmlsim.similarity.result.Match;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Wrapper for the result of the similarity comparison.
@@ -16,16 +18,15 @@ public class SimilarityResult {
 
     private String log = "";
 
-    private List<Similarity> result = new ArrayList<>();
+    private List<Match> result = new ArrayList<>();
 
-    public SimilarityResult() {
-        // empty constructor
-    }
+    private Map<String, Object> original = new HashMap<>();
 
-    public SimilarityResult(String statusCode, String log, List<Similarity> result) {
+    public SimilarityResult(String statusCode, String log, List<Match> result, Map<String, Object> original) {
         this.statusCode = statusCode;
         this.result = result;
         this.log = log;
+        this.original = original;
     }
 
     public String getStatusCode() {
@@ -44,11 +45,19 @@ public class SimilarityResult {
         this.log = log;
     }
 
-    public List<Similarity> getResult() {
+    public List<Match> getResult() {
         return result;
     }
 
-    public void setResult(List<Similarity> result) {
+    public void setResult(List<Match> result) {
         this.result = result;
+    }
+
+    public Map<String, Object> getOriginal() {
+        return original;
+    }
+
+    public void setOriginal(Map<String, Object> original) {
+        this.original = original;
     }
 }

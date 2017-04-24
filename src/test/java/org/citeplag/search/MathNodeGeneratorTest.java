@@ -1,6 +1,5 @@
 package org.citeplag.search;
 
-import org.citeplag.node.MathNodeGenerator;
 import org.junit.Test;
 
 /**
@@ -75,7 +74,6 @@ public class MathNodeGeneratorTest {
 
     @Test
     public void generateAbstractCD() throws Exception {
-        MathNodeGenerator generator = new MathNodeGenerator();
 
         //System.out.println(generator.generateAbstractCD(rawTests[0]));
     }

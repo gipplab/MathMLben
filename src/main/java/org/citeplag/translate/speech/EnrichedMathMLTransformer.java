@@ -1,8 +1,8 @@
 package org.citeplag.translate.speech;
 
+import com.formulasearchengine.mathmltools.mml.CMMLInfo;
+import com.formulasearchengine.mathmltools.xmlhelper.XMLHelper;
 import org.apache.log4j.Logger;
-import org.citeplag.mml.CMMLInfo;
-import org.citeplag.mml.XMLHelper;
 import org.citeplag.util.XMLUtils;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
@@ -62,7 +62,7 @@ public class EnrichedMathMLTransformer {
             semanticRoot.appendChild(cmmlRoot);
 
             // currently fix the whole ns to MathML standard, may be changed later on
-            XMLHelper.useFixNamespace(readDocument, CMMLInfo.NS_MATHML);
+            //TODO XMLHelper.useFixNamespace(readDocument, CMMLInfo.NS_MATHML);
         } catch (Exception e) {
             String oldEnrichedXml = XMLUtils.nodeToString(readDocument.getFirstChild(), true);
             return oldEnrichedXml + "\n" + e.getMessage();
