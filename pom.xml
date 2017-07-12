@@ -20,8 +20,22 @@
         <swagger.version>2.6.1</swagger.version>
     </properties>
 
-    <dependencies>
 
+    <repositories>
+        <!-- Snapshot repository for mathml dependencies -->
+        <repository>
+            <id>snapshots-repo</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
         <!-- Webutilities (Tomcat, MVC AutoConfig ... -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
