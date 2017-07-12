@@ -2,8 +2,11 @@ language: java
 jdk:
   - oraclejdk8
 
+before_install:
+  - mvn clean -q
+
 install:
-  - mvn --settings .travis/settings.xml install -DskipTests=true -Dgpg.skip -Dmaven.javadoc.skip=true -B -V
+  - mvn install -DskipTests=true -q
 
 after_success:
   - mvn clean test jacoco:report coveralls:report
