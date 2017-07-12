@@ -1,8 +1,9 @@
 package org.citeplag;
 
 import io.swagger.annotations.ApiOperation;
-import org.apache.log4j.Logger;
-import org.citeplag.translate.latexml.LateXMLConfig;
+import org.citeplag.config.LateXMLConfig;
+import org.citeplag.config.MathASTConfig;
+import org.citeplag.config.MathoidConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * REST Controller for our little MathML Pipeline.
+ * REST Controller to load the current configuration.s
  *
  * @author Vincent Stange
  */
@@ -20,15 +21,23 @@ import javax.servlet.http.HttpServletRequest;
 public class ConfigController {
 
     @Autowired
-    MathASTConfig mathASTConfig;
+    private MathASTConfig mathASTConfig;
 
     @Autowired
-    LateXMLConfig lateXMLConfig;
+    private LateXMLConfig lateXMLConfig;
+
+    @Autowired
+    private MathoidConfig mathoidConfig;
+
+    @GetMapping("mathoid")
+    @ApiOperation(value = "Show the current default LaTeXML configuration")
+    public MathoidConfig getMathoidConfig(HttpServletRequest request) throws Exception {
+        return mathoidConfig;
+    }
 
     @GetMapping("latexml")
     @ApiOperation(value = "Show the current default LaTeXML configuration")
-    public LateXMLConfig getLatexConfig(
-            HttpServletRequest request) throws Exception {
+    public LateXMLConfig getLaTeXMLConfig(HttpServletRequest request) throws Exception {
         return lateXMLConfig;
     }
 
@@ -37,5 +46,4 @@ public class ConfigController {
     public String getMathUrl() throws Exception {
         return mathASTConfig.getUrl();
     }
-
 }

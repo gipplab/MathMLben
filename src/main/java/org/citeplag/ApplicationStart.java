@@ -10,9 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
-import org.springframework.web.context.request.async.DeferredResult;
 import springfox.documentation.builders.ApiInfoBuilder;
-import springfox.documentation.schema.WildcardType;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
@@ -21,9 +19,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import static com.google.common.base.Predicates.or;
 import static springfox.documentation.builders.PathSelectors.regex;
-import static springfox.documentation.schema.AlternateTypeRules.newRule;
 
 /**
+ * Main application start.
+ *
  * @author Vincent Stange
  */
 @ComponentScan
@@ -41,9 +40,9 @@ public class ApplicationStart {
     private TypeResolver typeResolver;
 
     /**
-     * Pretty print for every json output
+     * Pretty print for every json output.
      *
-     * @return override the jackson builder
+     * @return override the jackson builder.
      */
     @Bean
     public Jackson2ObjectMapperBuilder jacksonBuilder() {
@@ -53,9 +52,9 @@ public class ApplicationStart {
     }
 
     /**
-     * Springfox /Swagger configuration
+     * Springfox /Swagger configuration.
      *
-     * @return Docket Object from Springfox /Swagger
+     * @return Docket Object from Springfox /Swagger.
      */
     @Bean
     public Docket petApi() {
@@ -70,13 +69,8 @@ public class ApplicationStart {
                 // Convenience rule builder that substitutes a generic type with one type parameter
                 // with the type parameter. In this case ResponseEntity<T>
                 .genericModelSubstitutes(ResponseEntity.class)
-                .alternateTypeRules(
-                        newRule(typeResolver.resolve(DeferredResult.class,
-                                typeResolver.resolve(ResponseEntity.class, WildcardType.class)),
-                                typeResolver.resolve(WildcardType.class)))
                 // default response code should not be used
-                .useDefaultResponseMessages(false)
-                ;
+                .useDefaultResponseMessages(false);
     }
 
     /**
@@ -108,5 +102,4 @@ public class ApplicationStart {
                 .version("1.0")
                 .build();
     }
-
 }

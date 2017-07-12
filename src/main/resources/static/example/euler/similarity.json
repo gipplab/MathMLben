@@ -1,0 +1,16 @@
+[
+  {
+    "id": "p1.1.m1.1.4.cmml",
+    "depth": 0,
+    "coverage": 0.7142857142857143,
+    "matches": [
+      {
+        "id": "p1.1.m1.1.4.cmml",
+        "assessment": 1,
+        "depth": 0,
+        "coverage": 1,
+        "type": "similar"
+      }
+    ]
+  }
+]

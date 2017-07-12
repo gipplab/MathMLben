@@ -1,4 +1,4 @@
-package org.citeplag;
+package org.citeplag.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -26,5 +26,4 @@ public class MathASTConfig {
     public void setUrl(String url) {
         this.url = url;
     }
-
 }
