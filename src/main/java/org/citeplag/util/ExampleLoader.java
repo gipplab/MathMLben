@@ -32,5 +32,4 @@ public class ExampleLoader {
     private String getResourceFileAsString(String exampleName, String filename) throws IOException {
         return IOUtils.toString(getClass().getClassLoader().getResourceAsStream("static/example/" + exampleName + "/" + filename), "UTF-8");
     }
-
 }

@@ -10,11 +10,11 @@ import com.formulasearchengine.mathmlsim.similarity.result.Match;
 import com.google.common.collect.Maps;
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
-import org.citeplag.util.SimilarityResult;
 import org.citeplag.config.LateXMLConfig;
 import org.citeplag.config.MathoidConfig;
 import org.citeplag.util.Example;
 import org.citeplag.util.ExampleLoader;
+import org.citeplag.util.SimilarityResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -48,11 +48,20 @@ public class MathController {
     @Autowired
     private MathoidConfig mathoidConfig;
 
-    @PostMapping()
+    /**
+     * POST method for calling the LaTeXML service / installation.
+     *
+     * @param config  optional configuration, if null, system default will be used
+     * @param latex   latex to be converted
+     * @param request http request for logging
+     * @return service response
+     * @throws Exception anything that could go wrong
+     */
+    @PostMapping
     @ApiOperation(value = "Converts a Latex String via LaTeXML to MathML semantics.")
     public LaTeXMLServiceResponse convertLatexml(
             @RequestParam(required = false) String config,
-            @RequestParam() String latex,
+            @RequestParam String latex,
             HttpServletRequest request) throws Exception {
 
         // if request configuration is given, use it.
@@ -70,6 +79,15 @@ public class MathController {
         }
     }
 
+    /**
+     * POST method for calling the Mathoid service.
+     *
+     * @param mathoidUrl optional url configuration, if null, system default will be used
+     * @param latex      latex to be converted
+     * @param request    http request for logging
+     * @return mathml as string
+     * @throws Exception anything that could go wrong
+     */
     @PostMapping("/mathoid")
     @ApiOperation(value = "Converts a Latex String via Mathoid to MathML semantics.")
     public String convertMathoid(
@@ -122,6 +140,13 @@ public class MathController {
         }
     }
 
+    /**
+     * GET method to load an example and print the object out as a JSON.
+     * (JSON transformation is done by spring)
+     *
+     * @return current example
+     * @throws IOException requested example does not exist
+     */
     @GetMapping(path = "example")
     @ApiOperation(value = "Get a full example for the demo.")
     public Example getExample() throws IOException {
