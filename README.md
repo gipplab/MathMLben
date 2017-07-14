@@ -47,14 +47,30 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-instal
 
 Copy the Jar from the `target` folder to `/var/mathpipeline/`
 
-1. Simply create a symlink
+1. Simply create a symlink (_change the path towards your installation_)
 
-    $ sudo ln -s /var/mathpipeline/mathpipeline.jar /etc/init.d/mathpipeline
+    `$ sudo ln -s /var/mathpipeline/mathpipeline.jar /etc/init.d/mathpipeline`
     
 2. Once installed, you can start and stop the service in the usual way,
- e.g `service mathpipeline start/stop`
+ e.g. `service mathpipeline [start|stop|status|restart]`
 
 You can find an automatic log in `/var/log/mathpipeline.log`.
+
+### JVM Options ###
+
+It is recommended to limit your JVM and set VM options. Just place a file
+called `mathpipeline.conf` besides the `mathpipeline.jar` and add the following content:
+
+    export JAVA_OPTS="-Xmx512m -Xms256m"
+
+It should then look like this:
+
+    $ <your_installation_path>    
+    $ ls
+    mathpipeline.jar
+    mathpipeline.conf
+    $ cat mathpipeline.conf
+    export JAVA_OPTS="-Xmx512m -Xms256m"
 
 ## REST API ##
 
@@ -88,9 +104,23 @@ in the execution / installation folder. The content should be (_this is the defa
         nodefaultresources:
         linelength: 90
         quiet:
-        preload: "LaTeX.pool,article.cls,amsmath.sty,amsthm.sty,amstext.sty,amssymb.sty,eucal.sty,[dvipsnames]xcolor.sty,url.sty,hyperref.sty,[ids]latexml.sty,texvc"
+        preload:
+          - "LaTeX.pool"
+          - "article.cls"
+          - "amsmath.sty"
+          - "amsthm.sty"
+          - "amstext.sty"
+          - "amssymb.sty"
+          - "eucal.sty"
+          - "DLMFmath.sty"
+          - "[dvipsnames]xcolor.sty"
+          - "url.sty"
+          - "hyperref.sty"
+          - "[ids]latexml.sty"
+          - "texvc"
 
     # Mathoid - alternative Latex to MathML converter
     mathoid:
       active: true
       url: http://localhost:10044/mml
+      
