@@ -2,6 +2,8 @@ MathML Pipeline
 ================
 
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![Build Status](https://travis-ci.org/ag-gipp/vmext-demo.svg?branch=master)](https://travis-ci.org/ag-gipp/vmext-demo)
+
 
 This project is a Java application (Spring Boot) with an embedded Apache Server.
 It takes on the following tasks:
