@@ -142,6 +142,7 @@ function renderCompare() {
     scriptTag.setAttribute('reference_mathml', mathml1);
     scriptTag.setAttribute('comparison_mathml', mathml2);
     scriptTag.setAttribute('similarities', sim);
+    scriptTag.crossOrigin = 'anonymous';
 
     // add script
     log("start to render comparison")
