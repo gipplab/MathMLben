@@ -3,13 +3,13 @@ server:
   port: 8080            # default server port, if not set otherwise
 
 # Math AST Renderer - Main URL
-mast.url: http://math.citeplag.org
+mast.url: https://vmext.wmflabs.org
 
 # the use of the latexml online service (via url) is optional
 # if service is not found or configured properly fallback is the local latexml installation
 latexml:
   active: true
-  url: http://gw125.iu.xsede.org:8888 # set a url if you want the option of the online service
+  url: https://drmf-latexml.wmflabs.org/ # set a url if you want the option of the online service
   params:                             # parameters for the online service
     whatsin: math
     whatsout: math
@@ -39,4 +39,4 @@ latexml:
 # Mathoid - alternative Latex to MathML converter
 mathoid:
   active: true
-  url: http://drmf-mathoid.wmflabs.org
+  url: https://drmf-mathoid.wmflabs.org/mml

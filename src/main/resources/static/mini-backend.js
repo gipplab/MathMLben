@@ -4,7 +4,7 @@
  */
 
 /** Math AST URL */
-var mastUrl = "http://math.citeplag.org";
+var mastUrl = "https://vmext.wmflabs.org";
 
 /** simple asynchronoues http client */
 var HttpClient = function() {
@@ -61,6 +61,7 @@ function convertLatex() {
     client.post("/math", formData1, function(serviceRep) {
         var json = JSON.parse(serviceRep);
         document.getElementById("mathml1").value = json.result;
+        renderAST(json.result);
         log("conversion of latex field 1 finished");
     });
 
@@ -76,6 +77,7 @@ function convertLatexMathoid() {
     formData1.append("latex", document.getElementById("latex1").value);
     client.post("/math/mathoid", formData1, function(mathml) {
         document.getElementById("mathml1").value = mathml;
+        renderAST(mathml);
     });
 
 
@@ -83,8 +85,8 @@ function convertLatexMathoid() {
 
 
 
-function renderAST() {
-    var mathml = document.getElementById("mathml1").value;
+function renderAST(mathml) {
+    //var mathml = document.getElementById("mathml1").value;
     var url = mastUrl + '/widgets/formula-ast-widget.js';
 
     // prepare widget data
@@ -99,24 +101,6 @@ function renderAST() {
     container.appendChild(scriptTag);
 };
 
-function renderCompare() {
-    var mathml1 = document.getElementById("mathml1").value;
-    var sim = document.getElementById("sim").value;
-    var url = mastUrl + '/widgets/formula-similarity-widget.js';
-
-    // prepare widget data
-    var scriptTag = document.createElement('script');
-    scriptTag.setAttribute('src', url);
-    scriptTag.setAttribute('reference_mathml', mathml1);
-    scriptTag.setAttribute('similarities', sim);
-    scriptTag.crossOrigin = 'anonymous';
-
-    // add script
-    log("start to render comparison")
-    var container = document.getElementById("ast")
-    container.innerHTML = "";
-    container.appendChild(scriptTag);
-};
 
 /**
  * Request of the configuration from the backend.
@@ -145,7 +129,7 @@ function loadExample() {
         document.getElementById("latex1").value = json.latex1;
         document.getElementById("mathml1").value = json.mathml1;
         log("Example loaded");
-        renderAST();
+        renderAST(json.mathml1);
     });
 }
 
