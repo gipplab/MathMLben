@@ -22,9 +22,7 @@ public class ExampleLoader {
         Example example = new Example();
         example.setName(exampleName);
         example.setLatex1(getResourceFileAsString(exampleName, "latex_1.txt"));
-        example.setLatex2(getResourceFileAsString(exampleName, "latex_2.txt"));
         example.setMathml1(getResourceFileAsString(exampleName, "mathml_1.xml"));
-        example.setMathml2(getResourceFileAsString(exampleName, "mathml_2.xml"));
         example.setSimilarity(getResourceFileAsString(exampleName, "similarity.json"));
         return example;
     }

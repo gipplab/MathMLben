@@ -35,14 +35,6 @@ public class Example {
         this.latex1 = latex1;
     }
 
-    public String getLatex2() {
-        return latex2;
-    }
-
-    public void setLatex2(String latex2) {
-        this.latex2 = latex2;
-    }
-
     public String getMathml1() {
         return mathml1;
     }

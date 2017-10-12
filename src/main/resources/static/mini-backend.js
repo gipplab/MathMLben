@@ -64,16 +64,7 @@ function convertLatex() {
         log("conversion of latex field 1 finished");
     });
 
-    log("convert latex field 2 via LaTeXML");
-    // put the second latex as request body and expect a positive reply with mathml
-    var formData2 = new FormData();
-    formData2.append("latex", document.getElementById("latex2").value);
-    formData2.append("config", document.getElementById("latexcfg2").value);
-    client.post("/math", formData2, function(serviceRep) {
-        var json = JSON.parse(serviceRep);
-        document.getElementById("mathml2").value = json.result;
-        log("conversion of latex field 2 finished");
-    });
+
 };
 
 function convertLatexMathoid() {
@@ -87,32 +78,10 @@ function convertLatexMathoid() {
         document.getElementById("mathml1").value = mathml;
     });
 
-    // put the second latex as request body and expect a positive reply with mathml
-    log("convert latex field 2 via Mathoid");
-    var formData2 = new FormData();
-    formData2.append("latex", document.getElementById("latex2").value);
-    client.post("/math/mathoid", formData2, function(mathml) {
-        document.getElementById("mathml2").value = mathml;
-    });
+
 };
 
-function getSimilarities(type) {
-    var mathml1 = document.getElementById("mathml1").value;
-    var mathml2 = document.getElementById("mathml2").value;
 
-    var formData = new FormData();
-    formData.append("mathml1", mathml1);
-    formData.append("mathml2", mathml2);
-    formData.append("type", type);
-
-    log("compare similarities for type: " + type);
-    var client = new HttpClient();
-    client.post("/math/similarity", formData, function(similarityRep) {
-        var json = JSON.parse(similarityRep);
-        document.getElementById("sim").value = JSON.stringify(json.result, null, 2);
-        log("similarity comparison finished");
-    });
-};
 
 function renderAST() {
     var mathml = document.getElementById("mathml1").value;
@@ -132,7 +101,6 @@ function renderAST() {
 
 function renderCompare() {
     var mathml1 = document.getElementById("mathml1").value;
-    var mathml2 = document.getElementById("mathml2").value;
     var sim = document.getElementById("sim").value;
     var url = mastUrl + '/widgets/formula-similarity-widget.js';
 
@@ -140,7 +108,6 @@ function renderCompare() {
     var scriptTag = document.createElement('script');
     scriptTag.setAttribute('src', url);
     scriptTag.setAttribute('reference_mathml', mathml1);
-    scriptTag.setAttribute('comparison_mathml', mathml2);
     scriptTag.setAttribute('similarities', sim);
     scriptTag.crossOrigin = 'anonymous';
 
@@ -160,7 +127,6 @@ log("Load default configuration")
     // get latex config
     client.get("/config/latexml", function(config) {
         document.getElementById('latexcfg1').value = config;
-        document.getElementById('latexcfg2').value = config;
         log("latexml configuration loaded")
     });
     // get mast url
@@ -171,17 +137,15 @@ log("Load default configuration")
 }
 
 function loadExample() {
-    log("Load default example")
+    log("Load default example");
     var client = new HttpClient();
     // get latex config
     client.get("/math/example", function(example) {
         var json = JSON.parse(example);
         document.getElementById("latex1").value = json.latex1;
-        document.getElementById("latex2").value = json.latex2;
         document.getElementById("mathml1").value = json.mathml1;
-        document.getElementById("mathml2").value = json.mathml2;
         document.getElementById("sim").value = json.similarity;
-        log("Example loaded")
+        log("Example loaded");
         renderCompare();
     });
 }

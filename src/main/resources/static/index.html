@@ -17,17 +17,6 @@
                     <br/>
                     <textarea id="mathml1" cols=60 rows=10 wrap=true>MathML 1</textarea><br/><br/>
 
-                    <!--Latex (plus Config) and MathML 2 -->
-                    <input id="latex2" type="text" size=50 value="Latex 2"/>&nbsp;
-                    <input type="button" id="btnCfg2" onclick="showCfg('latexcfg2')" value="Config">
-                    <br/>
-                    <textarea id="latexcfg2" cols=60 rows=10 wrap=true style="display:none"></textarea>
-                    <br/>
-                    <textarea id="mathml2" cols=60 rows=10 wrap=true>MathML 2</textarea><br/><br/>
-
-                    <!-- Similarity Box -->
-                    <textarea id="sim" cols=60 rows=10 wrap=true>Similarities</textarea><br/><br/>
-
                     <!-- Buttons -->
                     <table>
                         <tr>
@@ -36,16 +25,6 @@
                                 <input type="button" id="cvt1" onclick="convertLatex()" value="Convert LaTeXML">
                                 &nbsp;or&nbsp;
                                 <input type="button" id="cvt2" onclick="convertLatexMathoid()" value="Convert Mathoid">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Step 2:</td>
-                            <td>
-                                <input type="button" id="smr1" onclick="getSimilarities('similar')"
-                                       value="Compare Similar">
-                                &nbsp;or&nbsp;
-                                <input type="button" id="smr2" onclick="getSimilarities('identical')"
-                                       value="Compare Identical">
                             </td>
                         </tr>
                         <tr>

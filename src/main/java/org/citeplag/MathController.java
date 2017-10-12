@@ -5,26 +5,23 @@ import com.formulasearchengine.mathmlconverters.latexml.LaTeXMLConverter;
 import com.formulasearchengine.mathmlconverters.latexml.LaTeXMLServiceResponse;
 import com.formulasearchengine.mathmlconverters.mathoid.EnrichedMathMLTransformer;
 import com.formulasearchengine.mathmlconverters.mathoid.MathoidConverter;
-import com.formulasearchengine.mathmlsim.similarity.MathPlag;
-import com.formulasearchengine.mathmlsim.similarity.result.Match;
-import com.google.common.collect.Maps;
 import io.swagger.annotations.ApiOperation;
 import org.apache.log4j.Logger;
 import org.citeplag.config.LateXMLConfig;
 import org.citeplag.config.MathoidConfig;
 import org.citeplag.util.Example;
 import org.citeplag.util.ExampleLoader;
-import org.citeplag.util.SimilarityResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.ResourceAccessException;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
 
 /**
  * REST Controller for our little MathML Pipeline.
@@ -112,33 +109,7 @@ public class MathController {
         }
     }
 
-    @PostMapping(path = "similarity")
-    @ApiOperation(value = "Get a list of similarities between two MathML semantics.")
-    public SimilarityResult getSimilarities(
-            @RequestParam(value = "mathml1") String mathmlA,
-            @RequestParam(value = "mathml2") String mathmlB,
-            @RequestParam(value = "type") String type,
-            HttpServletRequest request) {
 
-        try {
-            List<Match> similarities;
-            if (type.equals("similar")) {
-                logger.info("similarity comparison from: " + request.getRemoteAddr());
-                similarities = MathPlag.compareSimilarMathML(mathmlA, mathmlB);
-            } else {
-                logger.info("identical comparison from: " + request.getRemoteAddr());
-                similarities = MathPlag.compareIdenticalMathML(mathmlA, mathmlB);
-            }
-
-            // also compare the original similarity factors
-            Map<String, Object> originals = MathPlag.compareOriginalFactors(mathmlA, mathmlB);
-
-            return new SimilarityResult("Okay", "", similarities, originals);
-        } catch (Exception e) {
-            logger.error("similarity error", e);
-            return new SimilarityResult("Error", e.getMessage(), Collections.emptyList(), Maps.newTreeMap());
-        }
-    }
 
     /**
      * GET method to load an example and print the object out as a JSON.
