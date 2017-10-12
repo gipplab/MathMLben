@@ -39,4 +39,4 @@ latexml:
 # Mathoid - alternative Latex to MathML converter
 mathoid:
   active: true
-  url: http://localhost:10044/mml
+  url: http://drmf-mathoid.wmflabs.org
