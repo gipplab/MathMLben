@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="mini-backend.css">
 </head>
 <body onload="getConfig();loadExample();">
-<center>
+<div style="text-align: center;">
     <div>
         <table class="crude-border">
             <tr>
@@ -22,17 +22,9 @@
                         <tr>
                             <td>Step 1:</td>
                             <td>
-                                <input type="button" id="cvt1" onclick="convertLatex()" value="Convert LaTeXML">
+                                <input type="button" id="cvt1" onclick="convertLatex();renderAST();" value="Convert LaTeXML">
                                 &nbsp;or&nbsp;
-                                <input type="button" id="cvt2" onclick="convertLatexMathoid()" value="Convert Mathoid">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Step 3:</td>
-                            <td>
-                                <input type="button" id="rdrA" onclick="renderAST()" value="Render AST">
-                                &nbsp;or&nbsp;
-                                <input type="button" id="rdrC" onclick="renderCompare()" value="Render Compare">
+                                <input type="button" id="cvt2" onclick="convertLatexMathoid();renderAST()" value="Convert Mathoid">
                             </td>
                         </tr>
                     </table>
@@ -49,7 +41,7 @@
         <br/>
         <textarea id="log" cols=160 rows=20 wrap=true style="display:none"></textarea>
     </div>
-</center>
+</div>
 
 <!-- Scripts -->
 <script type="text/javascript" src="mini-backend.js"></script>
