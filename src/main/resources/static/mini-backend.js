@@ -144,9 +144,8 @@ function loadExample() {
         var json = JSON.parse(example);
         document.getElementById("latex1").value = json.latex1;
         document.getElementById("mathml1").value = json.mathml1;
-        document.getElementById("sim").value = json.similarity;
         log("Example loaded");
-        renderCompare();
+        renderAST();
     });
 }
 
