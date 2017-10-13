@@ -1,0 +1,26 @@
+{
+  "name": "gouldi",
+  "version": "1.0.0",
+  "description": "Visualization for goldstandard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ag-gipp/GoUldI.git"
+  },
+  "keywords": [
+    "goldstandard",
+    "MathML"
+  ],
+  "author": "Andre Greiner-Petter and Moritz Schubotz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ag-gipp/GoUldI/issues"
+  },
+  "homepage": "https://github.com/ag-gipp/GoUldI#readme",
+  "dependencies": {
+    "angular-schema-form": "^0.8.13"
+  }
+}
