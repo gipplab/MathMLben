@@ -2,16 +2,17 @@
   "name": "gouldi",
   "version": "1.0.0",
   "description": "Visualization for goldstandard",
-  "main": "index.js",
+  "main": "gouldi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ag-gipp/GoUldI.git"
   },
   "keywords": [
-    "goldstandard",
+    "GoldStandard",
+	"Standard",
     "MathML"
   ],
   "author": "Andre Greiner-Petter and Moritz Schubotz",
