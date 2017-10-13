@@ -12,7 +12,7 @@
   },
   "keywords": [
     "GoldStandard",
-	"Standard",
+    "Standard",
     "MathML"
   ],
   "author": "Andre Greiner-Petter and Moritz Schubotz",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
-    "angular-schema-form": "^0.8.13"
+    "angular-schema-form": "^0.8.13",
+    "express": "^4.16.2"
   }
 }
