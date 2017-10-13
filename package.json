@@ -4,6 +4,7 @@
   "description": "Visualization for goldstandard",
   "main": "gouldi.js",
   "scripts": {
+	"start": "node gouldi.js",
     "test": ""
   },
   "repository": {
