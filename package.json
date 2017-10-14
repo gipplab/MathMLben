@@ -4,7 +4,7 @@
   "description": "Visualization for goldstandard",
   "main": "gouldi.js",
   "scripts": {
-	"start": "node gouldi.js",
+    "start": "node gouldi.js",
     "test": ""
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
     "angular-schema-form": "^0.8.13",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "vmext": "^1.0.2"
   }
 }

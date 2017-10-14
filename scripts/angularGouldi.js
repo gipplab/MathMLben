@@ -11,7 +11,7 @@ angular
         loadFromJson('model');
 
         var scriptTag = document.createElement('script');
-        scriptTag.setAttribute('src', 'https://vmext.wmflabs.org/widgets/formula-ast-widget.js');
+        scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
         $http.get("scripts/sample-eulergamma.mml.xml").then(function (res) {
             scriptTag.setAttribute('mathml', res.data);
             var container = document.getElementById("ast");
