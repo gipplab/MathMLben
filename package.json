@@ -25,6 +25,7 @@
   "dependencies": {
     "angular-schema-form": "^0.8.13",
     "express": "^4.16.2",
+    "mathoid": "^0.7.0-alpha1",
     "vmext": "^1.0.2"
   }
 }
