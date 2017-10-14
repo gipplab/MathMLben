@@ -9,4 +9,14 @@ angular
         loadFromJson('schema');
         loadFromJson('form');
         loadFromJson('model');
+
+        var scriptTag = document.createElement('script');
+        scriptTag.setAttribute('src', 'https://vmext.wmflabs.org/widgets/formula-ast-widget.js');
+        $http.get("scripts/sample-eulergamma.mml.xml").then(function (res) {
+            scriptTag.setAttribute('mathml', res.data);
+            var container = document.getElementById("ast");
+            container.innerHTML = "";
+            container.appendChild(scriptTag);
+        });
+
     });
