@@ -1,23 +1,72 @@
+
+
 {
-  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
   "properties": {
-    "name": {
-      "type": "string",
-      "minLength": 2,
-      "title": "Name",
-      "description": "Name or alias"
-    },
-    "title": {
-      "type": "string",
-      "enum": [
-        "dr",
-        "jr",
-        "sir",
-        "mrs",
-        "mr",
-        "NaN",
-        "dj"
-      ]
+    "formula": {
+      "id": "/properties/formula",
+      "properties": {
+        "fid": {
+          "default": "3",
+          "description": "An explanation about the purpose of this instance.",
+          "examples": [
+            "3"
+          ],
+          "id": "/properties/formula/properties/fid",
+          "title": "The fid schema.",
+          "type": "string"
+        },
+        "math_inputtex": {
+          "default": "W(2, k) > 2^k/k^\\varepsilon",
+          "description": "An explanation about the purpose of this instance.",
+          "examples": [
+            "W(2, k) > 2^k/k^\\varepsilon"
+          ],
+          "id": "/properties/formula/properties/math_inputtex",
+          "title": "The math_inputtex schema.",
+          "type": "string"
+        },
+        "oldId": {
+          "default": "2459",
+          "description": "An explanation about the purpose of this instance.",
+          "examples": [
+            "2459"
+          ],
+          "id": "/properties/formula/properties/oldId",
+          "title": "The oldid schema.",
+          "type": "string"
+        },
+        "qID": {
+          "default": 1,
+          "description": "An explanation about the purpose of this instance.",
+          "examples": [
+            "1"
+          ],
+          "id": "/properties/formula/properties/qID",
+          "title": "The qid schema.",
+          "type": "integer"
+        },
+        "title": {
+          "default": "Van_der_Waerden's_theorem",
+          "description": "An explanation about the purpose of this instance.",
+          "examples": [
+            "Van_der_Waerden's_theorem"
+          ],
+          "id": "/properties/formula/properties/title",
+          "title": "The title schema.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "qID"
+      ],
+      "type": "object"
     }
-  }
+  },
+  "required": [
+    "formula"
+  ],
+  "type": "object"
 }
