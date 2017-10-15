@@ -1,6 +1,10 @@
 [
   "*",
   {
+    "key": "name",
+    "onChange": "updated(modelValue,form)"
+  },
+  {
     "type": "submit",
     "title": "Save"
   }

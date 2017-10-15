@@ -21,7 +21,7 @@ metrics:
   #type: log
   #host: localhost
   #port: 8125
-
+# don't change the order of the services
 services:
   - name: mathoid
     # a relative path or the name of an npm package, if different from name
@@ -93,3 +93,7 @@ services:
         query: '{{ default(request.query, {}) }}'
         headers: '{{request.headers}}'
         body: '{{request.body}}'
+  - name: gouldi
+    conf:
+      port: 8080
+      vmext-demo-domain: 'https://vmext-demo.wmflabs.org'

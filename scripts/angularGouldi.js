@@ -10,10 +10,13 @@ angular
         loadFromJson('form');
         loadFromJson('model');
 
+        $scope.updated = function(modelValue,form){
+
+
         var scriptTag = document.createElement('script');
         scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
         var payload = new FormData();
-        payload.append("latex", " E = mc^4");
+        payload.append("latex", modelValue);
         $http.post('https://vmext-demo.wmflabs.org/math/mathoid', payload,
             {
                 headers: {
@@ -27,6 +30,7 @@ angular
             container.innerHTML = "";
             container.appendChild(scriptTag);
         });
+        };
   //      $http.get("scripts/sample-eulergamma.mml.xml")
 
 
