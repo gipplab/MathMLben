@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "title": "Types",
+  "properties": {
+    "owner": {
+      "type": "string",
+      "default":"physikerwelt"
+    },
+    "repo": {
+      "type": "string",
+      "default":"tmptest"
+    },
+    "filename": {
+      "type":"string",
+      "default": "gold.json"
+    },
+    "itemid": {
+      "type":"integer",
+      "default": 0
+    }
+  },
+  "required": [
+    "owner","repo","filename","itemid"
+  ]
+}

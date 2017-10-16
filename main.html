@@ -11,7 +11,16 @@
 	</head>
 	<body>
 		<div data-ng-controller="FormController">
+		</div>
+		<div data-ng-controller="FormController">
 			<form data-sf-schema="schema" data-sf-form="form" data-sf-model="model"></form>
+			and here is the second div
+			<form name="repo"
+				  data-sf-schema="schemarepo"
+				  data-sf-form="formrepo"
+				  data-sf-model="modelrepo"
+				  data-ng-submit="onSubmit(repo)"></form>
+
 		</div>
 		<div id="ast" style="height:700px; width:700px"></div>
 	</body>

@@ -6,16 +6,11 @@ angular
                 $scope[name] = res.data;
             });
         };
+        loadFromJson('schemarepo');
+        loadFromJson('formrepo');
+        loadFromJson('modelrepo');
         loadFromJson('schema');
         loadFromJson('form');
-        $http.post('/get-model', {
-                    owner: 'physikerwelt',
-                    repo: 'tmptest',
-                    filename: 'empty.json'
-            }
-        ).then(function (res) {
-          $scope.model = res.data;
-        });
         $scope.updated = function (modelValue, form) {
             var scriptTag = document.createElement('script');
             scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
@@ -36,6 +31,16 @@ angular
             });
         };
         //      $http.get("scripts/sample-eulergamma.mml.xml")
+        $scope.onSubmit = function(form) {
+            // First we broadcast an event so all fields validate themselves
+            $scope.$broadcast('schemaFormValidate');
 
+            // Then we check if the form is valid
+            if (form.$valid) {
+                $http.post('/get-model', $scope.modelrepo).then(function (res) {
+                    $scope.model = res.data[$scope.modelrepo.itemid];
+                });
+            }
+        }
 
     });
