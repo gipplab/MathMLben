@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
     "angular-schema-form": "^0.8.13",
+    "angular-schema-form-bootstrap": "^0.2.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "github-base": "^0.5.4",
