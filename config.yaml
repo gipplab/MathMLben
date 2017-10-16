@@ -16,6 +16,10 @@ logging:
 #    host: logstash1003.eqiad.wmnet
 #    port: 12201
 
+
+gouldi:
+  port: 8080
+  vmext-demo-domain: 'https://vmext-demo.wmflabs.org'
 # Statsd metrics reporter
 metrics:
   #type: log
@@ -93,7 +97,3 @@ services:
         query: '{{ default(request.query, {}) }}'
         headers: '{{request.headers}}'
         body: '{{request.body}}'
-  - name: gouldi
-    conf:
-      port: 8080
-      vmext-demo-domain: 'https://vmext-demo.wmflabs.org'

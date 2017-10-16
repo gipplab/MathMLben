@@ -8,30 +8,34 @@ angular
         };
         loadFromJson('schema');
         loadFromJson('form');
-        loadFromJson('model');
-
-        $scope.updated = function(modelValue,form){
-
-
-        var scriptTag = document.createElement('script');
-        scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
-        var payload = new FormData();
-        payload.append("latex", modelValue);
-        $http.post('https://vmext-demo.wmflabs.org/math/mathoid', payload,
-            {
-                headers: {
-                    'Content-Type': undefined,
-                    'Accept': 'application/xml' //           transformResponse: []
-
-                }
-            }) .then(function (res) {
-            scriptTag.setAttribute('mathml', res.data);
-            var container = document.getElementById("ast");
-            container.innerHTML = "";
-            container.appendChild(scriptTag);
+        $http.post('/get-model', {
+                    owner: 'physikerwelt',
+                    repo: 'tmptest',
+                    filename: 'empty.json'
+            }
+        ).then(function (res) {
+          $scope.model = res.data;
         });
+        $scope.updated = function (modelValue, form) {
+            var scriptTag = document.createElement('script');
+            scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
+            var payload = new FormData();
+            payload.append("latex", modelValue);
+            $http.post('https://vmext-demo.wmflabs.org/math/mathoid', payload,
+                {
+                    headers: {
+                        'Content-Type': undefined,
+                        'Accept': 'application/xml' //           transformResponse: []
+
+                    }
+                }).then(function (res) {
+                scriptTag.setAttribute('mathml', res.data);
+                var container = document.getElementById("ast");
+                container.innerHTML = "";
+                container.appendChild(scriptTag);
+            });
         };
-  //      $http.get("scripts/sample-eulergamma.mml.xml")
+        //      $http.get("scripts/sample-eulergamma.mml.xml")
 
 
     });

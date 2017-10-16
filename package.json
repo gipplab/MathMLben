@@ -24,7 +24,10 @@
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
     "angular-schema-form": "^0.8.13",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "github-base": "^0.5.4",
+    "github-content": "^1.0.1",
     "mathoid": "^0.7.0-alpha1",
     "vmext": "^1.0.2"
   }
