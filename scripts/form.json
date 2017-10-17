@@ -1,19 +1,8 @@
 [
-  {
-    "type": "help",
-    "helpvalue": "<h4>Array Example</h4><p>Try adding a couple of forms, reorder by drag'n'drop.</p>"
-  },
-  {
-    "key": "formula",
-    "items":[
-      {"key": "formula.math_inputtex",
-      "onChange": "updated(modelValue,form)"},
-      "*"
-    ]
-  },
+"*",
   {
     "type": "submit",
     "style": "btn-info",
-    "title": "OK"
+    "title": "OK2"
   }
 ]

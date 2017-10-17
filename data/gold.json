@@ -17,13 +17,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": 1,
-      "oldId": "2459",
-      "fid": "3",
-      "math_inputtex": "W(2, k) > 2^k/k^\\varepsilon",
-      "title": "Van_der_Waerden's_theorem"
-    }
+    "oldId": "2459",
+    "fid": "3",
+    "math_inputtex": "W(2, k) > 2^k/k^\\varepsilon",
+    "title": "Van_der_Waerden's_theorem"
   },
   "2": {
     "definitions": {
@@ -38,13 +35,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": 2,
-      "oldId": "4050",
-      "fid": "189",
-      "math_inputtex": "(X,\\Sigma)",
-      "title": "Bounded_variation"
-    }
+    "oldId": "4050",
+    "fid": "189",
+    "math_inputtex": "(X,\\Sigma)",
+    "title": "Bounded_variation"
   },
   "3": {
     "definitions": {
@@ -59,13 +53,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": 3,
-      "oldId": "4189",
-      "fid": "50",
-      "math_inputtex": "(p-1)!^n",
-      "title": "Lindemann–Weierstrass_theorem"
-    }
+    "oldId": "4189",
+    "fid": "50",
+    "math_inputtex": "(p-1)!^n",
+    "title": "Lindemann–Weierstrass_theorem"
   },
   "4": {
     "definitions": {
@@ -88,13 +79,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": 4,
-      "oldId": "15332",
-      "fid": "68",
-      "math_inputtex": "f_c(z) = z^2 + c",
-      "title": "Orbit_portrait"
-    }
+    "oldId": "15332",
+    "fid": "68",
+    "math_inputtex": "f_c(z) = z^2 + c",
+    "title": "Orbit_portrait"
   },
   "5": {
     "definitions": {
@@ -120,13 +108,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "5",
-      "oldId": "391",
-      "fid": "114",
-      "math_inputtex": "\\forall x \\, \\forall y \\, P(x,y) \\Leftrightarrow \\forall y \\, \\forall x \\, P(x,y)",
-      "title": "First-order_logic"
-    }
+    "oldId": "391",
+    "fid": "114",
+    "math_inputtex": "\\forall x \\, \\forall y \\, P(x,y) \\Leftrightarrow \\forall y \\, \\forall x \\, P(x,y)",
+    "title": "First-order_logic"
   },
   "6": {
     "definitions": {
@@ -141,13 +126,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "6",
-      "oldId": "6937",
-      "fid": "5",
-      "math_inputtex": "\\alpha(x)",
-      "title": "Clenshaw_algorithm"
-    }
+    "oldId": "6937",
+    "fid": "5",
+    "math_inputtex": "\\alpha(x)",
+    "title": "Clenshaw_algorithm"
   },
   "7": {
     "definitions": {
@@ -163,13 +145,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "7",
-      "oldId": "25610",
-      "fid": "24",
-      "math_inputtex": "\\alpha(x)",
-      "title": "Isolation_lemma"
-    }
+    "oldId": "25610",
+    "fid": "24",
+    "math_inputtex": "\\alpha(x)",
+    "title": "Isolation_lemma"
   },
   "8": {
     "definitions": {
@@ -185,13 +164,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "8",
-      "oldId": "27419",
-      "fid": "4",
-      "math_inputtex": "\\alpha(x)",
-      "title": "Singularity_spectrum"
-    }
+    "oldId": "27419",
+    "fid": "4",
+    "math_inputtex": "\\alpha(x)",
+    "title": "Singularity_spectrum"
   },
   "9": {
     "definitions": {
@@ -240,13 +216,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "9",
-      "oldId": "14488",
-      "fid": "36",
-      "math_inputtex": "|{\\Psi}\\rangle=\\sum_{i_1,i_2,\\alpha_1,\\alpha_2}\\Gamma^{[1]i_1}_{\\alpha_1}\\lambda^{[1]}_{\\alpha_1}\\Gamma^{[2]i_2}_{\\alpha_1\\alpha_2}\\lambda^{[2]}_{{\\alpha}_2}|{i_1i_2}\\rangle|{\\Phi^{[3..N]}_{\\alpha_2}}\\rangle",
-      "title": "Time-evolving_block_decimation"
-    }
+    "oldId": "14488",
+    "fid": "36",
+    "math_inputtex": "|{\\Psi}\\rangle=\\sum_{i_1,i_2,\\alpha_1,\\alpha_2}\\Gamma^{[1]i_1}_{\\alpha_1}\\lambda^{[1]}_{\\alpha_1}\\Gamma^{[2]i_2}_{\\alpha_1\\alpha_2}\\lambda^{[2]}_{{\\alpha}_2}|{i_1i_2}\\rangle|{\\Phi^{[3..N]}_{\\alpha_2}}\\rangle",
+    "title": "Time-evolving_block_decimation"
   },
   "10": {
     "definitions": {
@@ -266,13 +239,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "10",
-      "oldId": "16784",
-      "fid": "38",
-      "math_inputtex": "z*x\\le y",
-      "title": "Monoidal_t-norm_logic"
-    }
+    "oldId": "16784",
+    "fid": "38",
+    "math_inputtex": "z*x\\le y",
+    "title": "Monoidal_t-norm_logic"
   },
   "11": {
     "definitions": {
@@ -287,13 +257,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "11",
-      "oldId": "16716",
-      "fid": "20",
-      "math_inputtex": " \\frac{d}{dx}\\left( \\log_c x\\right) = {1 \\over x \\ln c} , \\qquad c > 0, c \\ne 1",
-      "title": "Differentiation_rules"
-    }
+    "oldId": "16716",
+    "fid": "20",
+    "math_inputtex": " \\frac{d}{dx}\\left( \\log_c x\\right) = {1 \\over x \\ln c} , \\qquad c > 0, c \\ne 1",
+    "title": "Differentiation_rules"
   },
   "12": {
     "definitions": {
@@ -308,13 +275,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "12",
-      "oldId": "2875",
-      "fid": "2",
-      "math_inputtex": "\\theta = n \\times 137.508^\\circ,",
-      "title": "Fermat's_spiral"
-    }
+    "oldId": "2875",
+    "fid": "2",
+    "math_inputtex": "\\theta = n \\times 137.508^\\circ,",
+    "title": "Fermat's_spiral"
   },
   "13": {
     "definitions": {
@@ -327,13 +291,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "13",
-      "oldId": "9319",
-      "fid": "2",
-      "math_inputtex": "s_V(\\mathcal{R})",
-      "title": "Consistency_criterion"
-    }
+    "oldId": "9319",
+    "fid": "2",
+    "math_inputtex": "s_V(\\mathcal{R})",
+    "title": "Consistency_criterion"
   },
   "14": {
     "definitions": {
@@ -348,13 +309,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "14",
-      "oldId": "21982",
-      "fid": "43",
-      "math_inputtex": "\\ell(m)",
-      "title": "Basis_(universal_algebra)"
-    }
+    "oldId": "21982",
+    "fid": "43",
+    "math_inputtex": "\\ell(m)",
+    "title": "Basis_(universal_algebra)"
   },
   "15": {
     "definitions": {
@@ -369,13 +327,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "15",
-      "oldId": "26321",
-      "fid": "4",
-      "math_inputtex": "bx-x^2",
-      "title": "Adequality"
-    }
+    "oldId": "26321",
+    "fid": "4",
+    "math_inputtex": "bx-x^2",
+    "title": "Adequality"
   },
   "16": {
     "definitions": {
@@ -385,13 +340,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "16",
-      "oldId": "13492",
-      "fid": "85",
-      "math_inputtex": "\\omega_{k}",
-      "title": "Mason–Weaver_equation"
-    }
+    "oldId": "13492",
+    "fid": "85",
+    "math_inputtex": "\\omega_{k}",
+    "title": "Mason–Weaver_equation"
   },
   "17": {
     "definitions": {
@@ -402,13 +354,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "17",
-      "oldId": "27275",
-      "fid": "2",
-      "math_inputtex": "\\mathbf{m}_1",
-      "title": "Kernel_Fisher_discriminant_analysis"
-    }
+    "oldId": "27275",
+    "fid": "2",
+    "math_inputtex": "\\mathbf{m}_1",
+    "title": "Kernel_Fisher_discriminant_analysis"
   },
   "18": {
     "definitions": {
@@ -418,13 +367,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "18",
-      "oldId": "15283",
-      "fid": "17",
-      "math_inputtex": "r_{ij}",
-      "title": "Implicit_solvation"
-    }
+    "oldId": "15283",
+    "fid": "17",
+    "math_inputtex": "r_{ij}",
+    "title": "Implicit_solvation"
   },
   "19": {
     "definitions": {
@@ -457,13 +403,10 @@
         "energy level"
       ]
     },
-    "formula": {
-      "qID": "19",
-      "oldId": "3897",
-      "fid": "2",
-      "math_inputtex": " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
-      "title": "Partition_function_(statistical_mechanics)"
-    }
+    "oldId": "3897",
+    "fid": "2",
+    "math_inputtex": " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
+    "title": "Partition_function_(statistical_mechanics)"
   },
   "20": {
     "definitions": {
@@ -471,13 +414,10 @@
         "tristimulus values"
       ]
     },
-    "formula": {
-      "qID": "20",
-      "oldId": "8808",
-      "fid": "39",
-      "math_inputtex": "S'",
-      "title": "Color_balance"
-    }
+    "oldId": "8808",
+    "fid": "39",
+    "math_inputtex": "S'",
+    "title": "Color_balance"
   },
   "21": {
     "definitions": {
@@ -491,13 +431,10 @@
         "2-dimensional manifold"
       ]
     },
-    "formula": {
-      "qID": "21",
-      "oldId": "17336",
-      "fid": "30",
-      "math_inputtex": "S'",
-      "title": "Hilbert's_theorem_(differential_geometry)"
-    }
+    "oldId": "17336",
+    "fid": "30",
+    "math_inputtex": "S'",
+    "title": "Hilbert's_theorem_(differential_geometry)"
   },
   "22": {
     "definitions": {
@@ -522,13 +459,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "22",
-      "oldId": "4416",
-      "fid": "4",
-      "math_inputtex": "\\text{Ker} (k_* - l_*) \\cong \\text{Im} (i_*, j_*).",
-      "title": "Mayer–Vietoris_sequence"
-    }
+    "oldId": "4416",
+    "fid": "4",
+    "math_inputtex": "\\text{Ker} (k_* - l_*) \\cong \\text{Im} (i_*, j_*).",
+    "title": "Mayer–Vietoris_sequence"
   },
   "23": {
     "definitions": {
@@ -558,14 +492,11 @@
         }
       ]
     },
-    "formula": {
-      "qID": "23",
-      "oldId": "25343",
-      "fid": "3",
-      "math_inputtex": "D(G,H) = \\sum_{i=1}^{29} | F_i(G) - F_i(H) |",
-      "comments": "F_i is a substitution",
-      "title": "Graphlets"
-    }
+    "oldId": "25343",
+    "fid": "3",
+    "math_inputtex": "D(G,H) = \\sum_{i=1}^{29} | F_i(G) - F_i(H) |",
+    "comments": "F_i is a substitution",
+    "title": "Graphlets"
   },
   "24": {
     "definitions": {
@@ -586,13 +517,10 @@
         "translational kinetic energy"
       ]
     },
-    "formula": {
-      "qID": "24",
-      "oldId": "566",
-      "fid": "28",
-      "math_inputtex": " E_\\text{k} = E_t + E_\\text{r} \\, ",
-      "title": "Kinetic_energy"
-    }
+    "oldId": "566",
+    "fid": "28",
+    "math_inputtex": " E_\\text{k} = E_t + E_\\text{r} \\, ",
+    "title": "Kinetic_energy"
   },
   "25": {
     "definitions": {
@@ -620,13 +548,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "25",
-      "oldId": "22618",
-      "fid": "22",
-      "math_inputtex": "\\lambda(L(B)) \\leq d",
-      "title": "Lattice_problem"
-    }
+    "oldId": "22618",
+    "fid": "22",
+    "math_inputtex": "\\lambda(L(B)) \\leq d",
+    "title": "Lattice_problem"
   },
   "26": {
     "definitions": {
@@ -644,13 +569,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "26",
-      "oldId": "485",
-      "fid": "10",
-      "math_inputtex": "L\\left(C\\right) \\leq L\\left(T\\right)",
-      "title": "Huffman_coding"
-    }
+    "oldId": "485",
+    "fid": "10",
+    "math_inputtex": "L\\left(C\\right) \\leq L\\left(T\\right)",
+    "title": "Huffman_coding"
   },
   "27": {
     "definitions": {
@@ -670,13 +592,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "27",
-      "oldId": "2623",
-      "fid": "0",
-      "math_inputtex": "v = \\frac{c}{n}",
-      "title": "Dispersion_(optics)"
-    }
+    "oldId": "2623",
+    "fid": "0",
+    "math_inputtex": "v = \\frac{c}{n}",
+    "title": "Dispersion_(optics)"
   },
   "28": {
     "definitions": {
@@ -698,13 +617,10 @@
         "Power coefficient"
       ]
     },
-    "formula": {
-      "qID": "28",
-      "oldId": "1227",
-      "fid": "93",
-      "math_inputtex": "\\sigma_y^2(\\tau) = \\frac{2\\pi^2\\tau}{3}h_{-2}",
-      "title": "Allan_variance"
-    }
+    "oldId": "1227",
+    "fid": "93",
+    "math_inputtex": "\\sigma_y^2(\\tau) = \\frac{2\\pi^2\\tau}{3}h_{-2}",
+    "title": "Allan_variance"
   },
   "29": {
     "definitions": {
@@ -723,13 +639,10 @@
         "electrical conductivity"
       ]
     },
-    "formula": {
-      "qID": "29",
-      "oldId": "21692",
-      "fid": "5",
-      "math_inputtex": " R_{s\\ normal} = \\sqrt{ \\frac{\\omega \\mu_0} {2 \\sigma} }",
-      "title": "Superconducting_radio_frequency"
-    }
+    "oldId": "21692",
+    "fid": "5",
+    "math_inputtex": " R_{s\\ normal} = \\sqrt{ \\frac{\\omega \\mu_0} {2 \\sigma} }",
+    "title": "Superconducting_radio_frequency"
   },
   "30": {
     "definitions": {
@@ -737,13 +650,10 @@
         "phase-range"
       ]
     },
-    "formula": {
-      "qID": "30",
-      "oldId": "24277",
-      "fid": "5",
-      "math_inputtex": " \\phi_1 = -30^\\circ...+30^\\circ",
-      "title": "Vienna_rectifier"
-    }
+    "oldId": "24277",
+    "fid": "5",
+    "math_inputtex": " \\phi_1 = -30^\\circ...+30^\\circ",
+    "title": "Vienna_rectifier"
   },
   "31": {
     "definitions": {
@@ -753,13 +663,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "31",
-      "oldId": "3625",
-      "fid": "19",
-      "math_inputtex": "T_c",
-      "title": "Modigliani–Miller_theorem"
-    }
+    "oldId": "3625",
+    "fid": "19",
+    "math_inputtex": "T_c",
+    "title": "Modigliani–Miller_theorem"
   },
   "32": {
     "definitions": {
@@ -770,13 +677,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "32",
-      "oldId": "17517",
-      "fid": "2",
-      "math_inputtex": "T_c",
-      "title": "Proximity_effect_(superconductivity)"
-    }
+    "oldId": "17517",
+    "fid": "2",
+    "math_inputtex": "T_c",
+    "title": "Proximity_effect_(superconductivity)"
   },
   "33": {
     "definitions": {
@@ -787,13 +691,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "33",
-      "oldId": "22538",
-      "fid": "9",
-      "math_inputtex": "T_c",
-      "title": "Multicritical_point"
-    }
+    "oldId": "22538",
+    "fid": "9",
+    "math_inputtex": "T_c",
+    "title": "Multicritical_point"
   },
   "34": {
     "definitions": {
@@ -818,13 +719,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "34",
-      "oldId": "17497",
-      "fid": "55",
-      "math_inputtex": "P_1(X)=P(X)/(X-\\alpha_1)",
-      "title": "Jenkins–Traub_algorithm"
-    }
+    "oldId": "17497",
+    "fid": "55",
+    "math_inputtex": "P_1(X)=P(X)/(X-\\alpha_1)",
+    "title": "Jenkins–Traub_algorithm"
   },
   "35": {
     "definitions": {
@@ -839,13 +737,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "35",
-      "oldId": "5626",
-      "fid": "4",
-      "math_inputtex": "= \\frac{k}{n}.",
-      "title": "Doomsday_argument"
-    }
+    "oldId": "5626",
+    "fid": "4",
+    "math_inputtex": "= \\frac{k}{n}.",
+    "title": "Doomsday_argument"
   },
   "36": {
     "definitions": {
@@ -873,13 +768,10 @@
         "maximum power"
       ]
     },
-    "formula": {
-      "qID": "36",
-      "oldId": "4630",
-      "fid": "12",
-      "math_inputtex": "n = \\prod_{i=1}^r p_i^{a_i}",
-      "title": "Divisor_function"
-    }
+    "oldId": "4630",
+    "fid": "12",
+    "math_inputtex": "n = \\prod_{i=1}^r p_i^{a_i}",
+    "title": "Divisor_function"
   },
   "37": {
     "definitions": {
@@ -912,13 +804,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "37",
-      "oldId": "8338",
-      "fid": "87",
-      "math_inputtex": "H(j \\omega) = \\mathcal{F}\\{h(t)\\}",
-      "title": "LTI_system_theory"
-    }
+    "oldId": "8338",
+    "fid": "87",
+    "math_inputtex": "H(j \\omega) = \\mathcal{F}\\{h(t)\\}",
+    "title": "LTI_system_theory"
   },
   "38": {
     "definitions": {
@@ -928,13 +817,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "38",
-      "oldId": "1320",
-      "fid": "31",
-      "math_inputtex": "\\pi/4",
-      "title": "Phase-shift_keying"
-    }
+    "oldId": "1320",
+    "fid": "31",
+    "math_inputtex": "\\pi/4",
+    "title": "Phase-shift_keying"
   },
   "39": {
     "definitions": {
@@ -959,13 +845,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "39",
-      "oldId": "133",
-      "fid": "6",
-      "math_inputtex": "(x+y)^n = \\sum_{k=0}^n {n \\choose k}x^{n-k}y^k = \\sum_{k=0}^n {n \\choose k}x^{k}y^{n-k}.\n",
-      "title": "Binomial_theorem"
-    }
+    "oldId": "133",
+    "fid": "6",
+    "math_inputtex": "(x+y)^n = \\sum_{k=0}^n {n \\choose k}x^{n-k}y^k = \\sum_{k=0}^n {n \\choose k}x^{k}y^{n-k}.\n",
+    "title": "Binomial_theorem"
   },
   "40": {
     "definitions": {
@@ -983,13 +866,10 @@
         "reaction rate coefficient"
       ]
     },
-    "formula": {
-      "qID": "40",
-      "oldId": "9082",
-      "fid": "33",
-      "math_inputtex": "\\ [A]_t = -kt + [A]_0",
-      "title": "Rate_equation"
-    }
+    "oldId": "9082",
+    "fid": "33",
+    "math_inputtex": "\\ [A]_t = -kt + [A]_0",
+    "title": "Rate_equation"
   },
   "41": {
     "definitions": {
@@ -999,13 +879,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "41",
-      "oldId": "3545",
-      "fid": "1",
-      "math_inputtex": "q^{42}",
-      "title": "Martingale_(betting_system)"
-    }
+    "oldId": "3545",
+    "fid": "1",
+    "math_inputtex": "q^{42}",
+    "title": "Martingale_(betting_system)"
   },
   "42": {
     "definitions": {
@@ -1025,13 +902,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "42",
-      "oldId": "15433",
-      "fid": "5",
-      "math_inputtex": "\\alpha(d) \\le \\left(\\sqrt{3/2} + \\varepsilon\\right)^d",
-      "title": "Borsuk's_conjecture"
-    }
+    "oldId": "15433",
+    "fid": "5",
+    "math_inputtex": "\\alpha(d) \\le \\left(\\sqrt{3/2} + \\varepsilon\\right)^d",
+    "title": "Borsuk's_conjecture"
   },
   "43": {
     "definitions": {
@@ -1096,14 +970,11 @@
         "4-velocity"
       ]
     },
-    "formula": {
-      "qID": "43",
-      "oldId": "12471",
-      "fid": "96",
-      "math_inputtex": "   f^{\\mu} = - 8\\pi  { G \\over { 3 c^4   }   } \\left (  {A \\over 2} T_{\\alpha \\beta}  + {B \\over 2} T \\eta_{\\alpha \\beta} \\right ) \\left ( \\delta^{\\mu}_{\\nu} + u^{\\mu} u_{\\nu} \\right )  u^{\\alpha} x^{\\nu} u^{\\beta} ",
-      "comment": "einstein notation",
-      "title": "Theoretical_motivation_for_general_relativity"
-    }
+    "oldId": "12471",
+    "fid": "96",
+    "math_inputtex": "   f^{\\mu} = - 8\\pi  { G \\over { 3 c^4   }   } \\left (  {A \\over 2} T_{\\alpha \\beta}  + {B \\over 2} T \\eta_{\\alpha \\beta} \\right ) \\left ( \\delta^{\\mu}_{\\nu} + u^{\\mu} u_{\\nu} \\right )  u^{\\alpha} x^{\\nu} u^{\\beta} ",
+    "comment": "einstein notation",
+    "title": "Theoretical_motivation_for_general_relativity"
   },
   "44": {
     "definitions": {
@@ -1134,13 +1005,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "44",
-      "oldId": "27611",
-      "fid": "0",
-      "math_inputtex": " \\frac{D_g u_g}{Dt} - f_{0}v_a - \\beta y v_g = 0 ",
-      "title": "Q-Vectors"
-    }
+    "oldId": "27611",
+    "fid": "0",
+    "math_inputtex": " \\frac{D_g u_g}{Dt} - f_{0}v_a - \\beta y v_g = 0 ",
+    "title": "Q-Vectors"
   },
   "45": {
     "definitions": {
@@ -1148,13 +1016,10 @@
         "neighbors indices"
       ]
     },
-    "formula": {
-      "qID": "45",
-      "oldId": "22412",
-      "fid": "10",
-      "math_inputtex": "I_c",
-      "title": "Stencil_code"
-    }
+    "oldId": "22412",
+    "fid": "10",
+    "math_inputtex": "I_c",
+    "title": "Stencil_code"
   },
   "46": {
     "definitions": {
@@ -1173,13 +1038,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "46",
-      "oldId": "460",
-      "fid": "81",
-      "math_inputtex": "\\, A \\mapsto M\\alpha(A)M^{-1} ,",
-      "title": "Geometric_algebra"
-    }
+    "oldId": "460",
+    "fid": "81",
+    "math_inputtex": "\\, A \\mapsto M\\alpha(A)M^{-1} ,",
+    "title": "Geometric_algebra"
   },
   "47": {
     "definitions": {
@@ -1190,13 +1052,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "47",
-      "oldId": "16803",
-      "fid": "53",
-      "math_inputtex": "\\Gamma_{\\infty}",
-      "title": "Stochastic_game"
-    }
+    "oldId": "16803",
+    "fid": "53",
+    "math_inputtex": "\\Gamma_{\\infty}",
+    "title": "Stochastic_game"
   },
   "48": {
     "definitions": {
@@ -1222,13 +1081,10 @@
         "charge"
       ]
     },
-    "formula": {
-      "qID": "48",
-      "oldId": "15858",
-      "fid": "3",
-      "math_inputtex": "Y = \\beta T_8 + I X",
-      "title": "331_model"
-    }
+    "oldId": "15858",
+    "fid": "3",
+    "math_inputtex": "Y = \\beta T_8 + I X",
+    "title": "331_model"
   },
   "49": {
     "definitions": {
@@ -1239,13 +1095,10 @@
         "sets of real numbers"
       ]
     },
-    "formula": {
-      "qID": "49",
-      "oldId": "7473",
-      "fid": "12",
-      "math_inputtex": " \\mu (A)= \\begin{cases} 1 & \\mbox{ if } 0 \\in A \\\\ \n                               0 & \\mbox{ if } 0 \\notin A.\n\\end{cases}",
-      "title": "Sigma_additivity"
-    }
+    "oldId": "7473",
+    "fid": "12",
+    "math_inputtex": " \\mu (A)= \\begin{cases} 1 & \\mbox{ if } 0 \\in A \\\\ \n                               0 & \\mbox{ if } 0 \\notin A.\n\\end{cases}",
+    "title": "Sigma_additivity"
   },
   "50": {
     "definitions": {
@@ -1253,13 +1106,10 @@
         "inner sphere reorganisation energy"
       ]
     },
-    "formula": {
-      "qID": "50",
-      "oldId": "12130",
-      "fid": "56",
-      "math_inputtex": "\\lambda_{in}",
-      "title": "Marcus_theory"
-    }
+    "oldId": "12130",
+    "fid": "56",
+    "math_inputtex": "\\lambda_{in}",
+    "title": "Marcus_theory"
   },
   "51": {
     "definitions": {
@@ -1269,13 +1119,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "51",
-      "oldId": "16788",
-      "fid": "2",
-      "math_inputtex": "rpm_{motor}",
-      "title": "Centrifugal_fan"
-    }
+    "oldId": "16788",
+    "fid": "2",
+    "math_inputtex": "rpm_{motor}",
+    "title": "Centrifugal_fan"
   },
   "52": {
     "definitions": {
@@ -1333,13 +1180,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "52",
-      "oldId": "21960",
-      "fid": "157",
-      "math_inputtex": "\\underbrace{u_1(\\mathbf{x},z_1)=v_1+\\dot{u}_x}_{\\text{By definition of }v_1}=\\overbrace{-\\frac{\\partial V_x}{\\partial \\mathbf{x}}g_x(\\mathbf{x})-k_1(\\underbrace{z_1-u_x(\\mathbf{x})}_{e_1})}^{v_1} \\, + \\, \\overbrace{\\frac{\\partial u_x}{\\partial \\mathbf{x}}(\\underbrace{f_x(\\mathbf{x})+g_x(\\mathbf{x})z_1}_{\\dot{\\mathbf{x}} \\text{ (i.e., } \\frac{\\operatorname{d}\\mathbf{x}}{\\operatorname{d}t} \\text{)}})}^{\\dot{u}_x \\text{ (i.e., } \\frac{ \\operatorname{d}u_x }{\\operatorname{d}t} \\text{)}}",
-      "title": "Backstepping"
-    }
+    "oldId": "21960",
+    "fid": "157",
+    "math_inputtex": "\\underbrace{u_1(\\mathbf{x},z_1)=v_1+\\dot{u}_x}_{\\text{By definition of }v_1}=\\overbrace{-\\frac{\\partial V_x}{\\partial \\mathbf{x}}g_x(\\mathbf{x})-k_1(\\underbrace{z_1-u_x(\\mathbf{x})}_{e_1})}^{v_1} \\, + \\, \\overbrace{\\frac{\\partial u_x}{\\partial \\mathbf{x}}(\\underbrace{f_x(\\mathbf{x})+g_x(\\mathbf{x})z_1}_{\\dot{\\mathbf{x}} \\text{ (i.e., } \\frac{\\operatorname{d}\\mathbf{x}}{\\operatorname{d}t} \\text{)}})}^{\\dot{u}_x \\text{ (i.e., } \\frac{ \\operatorname{d}u_x }{\\operatorname{d}t} \\text{)}}",
+    "title": "Backstepping"
   },
   "53": {
     "definitions": {
@@ -1362,13 +1206,10 @@
         "constant volatility"
       ]
     },
-    "formula": {
-      "qID": "53",
-      "oldId": "14318",
-      "fid": "10",
-      "math_inputtex": "E \\left[ \\hat{\\sigma}^2\\right]= \\frac{n-1}{n} \\sigma^2",
-      "title": "Stochastic_volatility"
-    }
+    "oldId": "14318",
+    "fid": "10",
+    "math_inputtex": "E \\left[ \\hat{\\sigma}^2\\right]= \\frac{n-1}{n} \\sigma^2",
+    "title": "Stochastic_volatility"
   },
   "54": {
     "definitions": {
@@ -1376,13 +1217,10 @@
         "free variable set"
       ]
     },
-    "formula": {
-      "qID": "54",
-      "oldId": "13072",
-      "fid": "63",
-      "math_inputtex": "\\mathsf{fv}",
-      "title": "Separation_logic"
-    }
+    "oldId": "13072",
+    "fid": "63",
+    "math_inputtex": "\\mathsf{fv}",
+    "title": "Separation_logic"
   },
   "55": {
     "definitions": {
@@ -1396,13 +1234,10 @@
         "pixel intensities"
       ]
     },
-    "formula": {
-      "qID": "55",
-      "oldId": "10050",
-      "fid": "2",
-      "math_inputtex": "\\sum_x \\sum_y I(x,y) \\,\\!",
-      "title": "Image_moment"
-    }
+    "oldId": "10050",
+    "fid": "2",
+    "math_inputtex": "\\sum_x \\sum_y I(x,y) \\,\\!",
+    "title": "Image_moment"
   },
   "56": {
     "definitions": {
@@ -1412,13 +1247,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "56",
-      "oldId": "5363",
-      "fid": "5",
-      "math_inputtex": "\\boldsymbol{F}_r",
-      "title": "Geostrophic_wind"
-    }
+    "oldId": "5363",
+    "fid": "5",
+    "math_inputtex": "\\boldsymbol{F}_r",
+    "title": "Geostrophic_wind"
   },
   "57": {
     "definitions": {
@@ -1435,13 +1267,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "57",
-      "oldId": "6693",
-      "fid": "9",
-      "math_inputtex": "0\\rightarrow B\\rightarrow A\\oplus B\\rightarrow A\\rightarrow0.",
-      "title": "Ext_functor"
-    }
+    "oldId": "6693",
+    "fid": "9",
+    "math_inputtex": "0\\rightarrow B\\rightarrow A\\oplus B\\rightarrow A\\rightarrow0.",
+    "title": "Ext_functor"
   },
   "58": {
     "definitions": {
@@ -1470,13 +1299,10 @@
         "section"
       ]
     },
-    "formula": {
-      "qID": "58",
-      "oldId": "4787",
-      "fid": "50",
-      "math_inputtex": "(\\nabla_Y T)(\\alpha_1, \\alpha_2, \\ldots, X_1, X_2, \\ldots) =Y(T(\\alpha_1,\\alpha_2,\\ldots,X_1,X_2,\\ldots))",
-      "title": "Covariant_derivative"
-    }
+    "oldId": "4787",
+    "fid": "50",
+    "math_inputtex": "(\\nabla_Y T)(\\alpha_1, \\alpha_2, \\ldots, X_1, X_2, \\ldots) =Y(T(\\alpha_1,\\alpha_2,\\ldots,X_1,X_2,\\ldots))",
+    "title": "Covariant_derivative"
   },
   "59": {
     "definitions": {
@@ -1512,13 +1338,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "59",
-      "oldId": "10209",
-      "fid": "4",
-      "math_inputtex": " \\sum_{n \\in \\mathbb{Z}^d} |\\psi(t,n)|^2 |n| \\leq C ",
-      "title": "Anderson_localization"
-    }
+    "oldId": "10209",
+    "fid": "4",
+    "math_inputtex": " \\sum_{n \\in \\mathbb{Z}^d} |\\psi(t,n)|^2 |n| \\leq C ",
+    "title": "Anderson_localization"
   },
   "60": {
     "definitions": {
@@ -1540,14 +1363,11 @@
         "altitude"
       ]
     },
-    "formula": {
-      "qID": "60",
-      "oldId": "9833",
-      "fid": "26",
-      "math_inputtex": " p = {\\frac{-x\\pm\\sqrt{x^2-4(\\frac{-gx^2}{2v^2})(\\frac{-gx^2}{2v^2}-y)}}{2(\\frac{-gx^2}{2v^2}) }}",
-      "comment": "p is a substitution",
-      "title": "Trajectory_of_a_projectile"
-    }
+    "oldId": "9833",
+    "fid": "26",
+    "math_inputtex": " p = {\\frac{-x\\pm\\sqrt{x^2-4(\\frac{-gx^2}{2v^2})(\\frac{-gx^2}{2v^2}-y)}}{2(\\frac{-gx^2}{2v^2}) }}",
+    "comment": "p is a substitution",
+    "title": "Trajectory_of_a_projectile"
   },
   "61": {
     "definitions": {
@@ -1562,13 +1382,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "61",
-      "oldId": "8877",
-      "fid": "7",
-      "math_inputtex": "\\left\\{ z \\in H: \\left| z \\right| > 1,\\, \\left| \\,\\mbox{Re}(z) \\,\\right| < \\frac{1}{2} \\right\\}",
-      "title": "Cusp_neighborhood"
-    }
+    "oldId": "8877",
+    "fid": "7",
+    "math_inputtex": "\\left\\{ z \\in H: \\left| z \\right| > 1,\\, \\left| \\,\\mbox{Re}(z) \\,\\right| < \\frac{1}{2} \\right\\}",
+    "title": "Cusp_neighborhood"
   },
   "62": {
     "definitions": {
@@ -1589,13 +1406,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "62",
-      "oldId": "2951",
-      "fid": "17",
-      "math_inputtex": "T-\\lambda I",
-      "title": "Spectrum_(functional_analysis)"
-    }
+    "oldId": "2951",
+    "fid": "17",
+    "math_inputtex": "T-\\lambda I",
+    "title": "Spectrum_(functional_analysis)"
   },
   "63": {
     "definitions": {
@@ -1623,14 +1437,11 @@
         "y combonent of mean"
       ]
     },
-    "formula": {
-      "qID": "63",
-      "oldId": "1588",
-      "fid": "20",
-      "math_inputtex": "\n    y\\left( x \\right) = {\\mathop{\\rm sgn}} \\left( {{\\rho }} \\right)\\frac{{{\\sigma _y}}}{{{\\sigma _x}}}\\left( {x - {\\mu _x}} \\right) + {\\mu _y}.\n  ",
-      "comments": "sgn is an operator",
-      "title": "Multivariate_normal_distribution"
-    }
+    "oldId": "1588",
+    "fid": "20",
+    "math_inputtex": "\n    y\\left( x \\right) = {\\mathop{\\rm sgn}} \\left( {{\\rho }} \\right)\\frac{{{\\sigma _y}}}{{{\\sigma _x}}}\\left( {x - {\\mu _x}} \\right) + {\\mu _y}.\n  ",
+    "comments": "sgn is an operator",
+    "title": "Multivariate_normal_distribution"
   },
   "64": {
     "definitions": {
@@ -1641,13 +1452,10 @@
         "element of a group"
       ]
     },
-    "formula": {
-      "qID": "64",
-      "oldId": "15120",
-      "fid": "56",
-      "math_inputtex": "x=b \\ ",
-      "title": "Algebraically_closed_group"
-    }
+    "oldId": "15120",
+    "fid": "56",
+    "math_inputtex": "x=b \\ ",
+    "title": "Algebraically_closed_group"
   },
   "65": {
     "definitions": {
@@ -1660,13 +1468,10 @@
         "compact"
       ]
     },
-    "formula": {
-      "qID": "65",
-      "oldId": "6392",
-      "fid": "10",
-      "math_inputtex": "H^1(K)=\\sqrt{2}",
-      "title": "Analytic_capacity"
-    }
+    "oldId": "6392",
+    "fid": "10",
+    "math_inputtex": "H^1(K)=\\sqrt{2}",
+    "title": "Analytic_capacity"
   },
   "66": {
     "definitions": {
@@ -1686,13 +1491,10 @@
         "Chip text"
       ]
     },
-    "formula": {
-      "qID": "66",
-      "oldId": "2482",
-      "fid": "8",
-      "math_inputtex": "P_i = \\mbox{head}(E_K (S_{i-1}), x) \\oplus C_i",
-      "title": "Block_cipher_mode_of_operation"
-    }
+    "oldId": "2482",
+    "fid": "8",
+    "math_inputtex": "P_i = \\mbox{head}(E_K (S_{i-1}), x) \\oplus C_i",
+    "title": "Block_cipher_mode_of_operation"
   },
   "67": {
     "definitions": {
@@ -1707,14 +1509,11 @@
         }
       ]
     },
-    "formula": {
-      "qID": "67",
-      "oldId": "1666",
-      "fid": "30",
-      "math_inputtex": "\\frac{ \\partial f}{ \\partial x} = f_x = \\partial_x f.",
-      "comments": "in that context subscript is not a part of a variable but a notational element",
-      "title": "Partial_derivative"
-    }
+    "oldId": "1666",
+    "fid": "30",
+    "math_inputtex": "\\frac{ \\partial f}{ \\partial x} = f_x = \\partial_x f.",
+    "comments": "in that context subscript is not a part of a variable but a notational element",
+    "title": "Partial_derivative"
   },
   "68": {
     "definitions": {
@@ -1738,14 +1537,11 @@
         }
       ]
     },
-    "formula": {
-      "qID": "68",
-      "oldId": "27027",
-      "fid": "0",
-      "math_inputtex": " P_x = P - \\{ a\\mid a \\geq x\\} ",
-      "comment": "P_{x} is a substitution",
-      "title": "Poset_game"
-    }
+    "oldId": "27027",
+    "fid": "0",
+    "math_inputtex": " P_x = P - \\{ a\\mid a \\geq x\\} ",
+    "comment": "P_{x} is a substitution",
+    "title": "Poset_game"
   },
   "69": {
     "definitions": {
@@ -1765,13 +1561,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "69",
-      "oldId": "15167",
-      "fid": "0",
-      "math_inputtex": "\\eta = \\frac{ work\\ done } {heat\\ absorbed}  = \\frac{ Q1-Q2 }{ Q1}",
-      "title": "Engine_efficiency"
-    }
+    "oldId": "15167",
+    "fid": "0",
+    "math_inputtex": "\\eta = \\frac{ work\\ done } {heat\\ absorbed}  = \\frac{ Q1-Q2 }{ Q1}",
+    "title": "Engine_efficiency"
   },
   "70": {
     "definitions": {
@@ -1801,13 +1594,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "70",
-      "oldId": "4480",
-      "fid": "29",
-      "math_inputtex": "df = {\\partial f \\over \\partial x}dx + {\\partial f \\over \\partial y}dy = pdx + vdy",
-      "title": "Legendre_transformation"
-    }
+    "oldId": "4480",
+    "fid": "29",
+    "math_inputtex": "df = {\\partial f \\over \\partial x}dx + {\\partial f \\over \\partial y}dy = pdx + vdy",
+    "title": "Legendre_transformation"
   },
   "71": {
     "definitions": {
@@ -1815,13 +1605,10 @@
         "channel from the source to the relay node"
       ]
     },
-    "formula": {
-      "qID": "71",
-      "oldId": "17690",
-      "fid": "4",
-      "math_inputtex": "h_{r,s}",
-      "title": "Cooperative_diversity"
-    }
+    "oldId": "17690",
+    "fid": "4",
+    "math_inputtex": "h_{r,s}",
+    "title": "Cooperative_diversity"
   },
   "72": {
     "definitions": {
@@ -1849,13 +1636,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "72",
-      "oldId": "5763",
-      "fid": "20",
-      "math_inputtex": " K^M_*(k) := T^*(k^\\times)/(a\\otimes (1-a)) ",
-      "title": "Algebraic_K-theory"
-    }
+    "oldId": "5763",
+    "fid": "20",
+    "math_inputtex": " K^M_*(k) := T^*(k^\\times)/(a\\otimes (1-a)) ",
+    "title": "Algebraic_K-theory"
   },
   "73": {
     "definitions": {
@@ -1869,13 +1653,10 @@
         "canonical divisor"
       ]
     },
-    "formula": {
-      "qID": "73",
-      "oldId": "21482",
-      "fid": "45",
-      "math_inputtex": "\\{C : K_X \\cdot C = 0\\}",
-      "title": "Cone_of_curves"
-    }
+    "oldId": "21482",
+    "fid": "45",
+    "math_inputtex": "\\{C : K_X \\cdot C = 0\\}",
+    "title": "Cone_of_curves"
   },
   "74": {
     "definitions": {
@@ -1888,13 +1669,10 @@
         "number of thermodynamic degrees of freedom"
       ]
     },
-    "formula": {
-      "qID": "74",
-      "oldId": "28602",
-      "fid": "8",
-      "math_inputtex": "\\Theta \\wedge\n(d\\Theta)^n \\neq 0",
-      "title": "Geometrothermodynamics"
-    }
+    "oldId": "28602",
+    "fid": "8",
+    "math_inputtex": "\\Theta \\wedge\n(d\\Theta)^n \\neq 0",
+    "title": "Geometrothermodynamics"
   },
   "75": {
     "definitions": {
@@ -1912,13 +1690,10 @@
         "time"
       ]
     },
-    "formula": {
-      "qID": "75",
-      "oldId": "6724",
-      "fid": "5",
-      "math_inputtex": "D\\left(\\rho u_i\\right)/Dt\\approx0",
-      "title": "Darcy's_law"
-    }
+    "oldId": "6724",
+    "fid": "5",
+    "math_inputtex": "D\\left(\\rho u_i\\right)/Dt\\approx0",
+    "title": "Darcy's_law"
   },
   "76": {
     "definitions": {
@@ -1941,13 +1716,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "76",
-      "oldId": "10488",
-      "fid": "25",
-      "math_inputtex": " z_{t} = \\lambda_{1}z_{t-1} + \\varepsilon_{t} ",
-      "title": "Unit_root"
-    }
+    "oldId": "10488",
+    "fid": "25",
+    "math_inputtex": " z_{t} = \\lambda_{1}z_{t-1} + \\varepsilon_{t} ",
+    "title": "Unit_root"
   },
   "77": {
     "definitions": {
@@ -1957,13 +1729,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "77",
-      "oldId": "22206",
-      "fid": "83",
-      "math_inputtex": "b_3",
-      "title": "Drucker–Prager_yield_criterion"
-    }
+    "oldId": "22206",
+    "fid": "83",
+    "math_inputtex": "b_3",
+    "title": "Drucker–Prager_yield_criterion"
   },
   "78": {
     "definitions": {
@@ -1973,13 +1742,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "78",
-      "oldId": "23061",
-      "fid": "9",
-      "math_inputtex": "b_3",
-      "title": "Antiplane_shear"
-    }
+    "oldId": "23061",
+    "fid": "9",
+    "math_inputtex": "b_3",
+    "title": "Antiplane_shear"
   },
   "79": {
     "definitions": {
@@ -2009,13 +1775,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "79",
-      "oldId": "15872",
-      "fid": "32",
-      "math_inputtex": " \\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V \\,\\!",
-      "title": "Table_of_thermodynamic_equations"
-    }
+    "oldId": "15872",
+    "fid": "32",
+    "math_inputtex": " \\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V \\,\\!",
+    "title": "Table_of_thermodynamic_equations"
   },
   "80": {
     "definitions": {
@@ -2035,13 +1798,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "80",
-      "oldId": "13966",
-      "fid": "2",
-      "math_inputtex": "\\dim f(Z) > n",
-      "title": "Fulton–Hansen_connectedness_theorem"
-    }
+    "oldId": "13966",
+    "fid": "2",
+    "math_inputtex": "\\dim f(Z) > n",
+    "title": "Fulton–Hansen_connectedness_theorem"
   },
   "81": {
     "definitions": {
@@ -2056,13 +1816,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "81",
-      "oldId": "335",
-      "fid": "16",
-      "math_inputtex": "\\frac{d}{dt} \\log_e t = \\frac{1}{t}.",
-      "title": "E_(mathematical_constant)"
-    }
+    "oldId": "335",
+    "fid": "16",
+    "math_inputtex": "\\frac{d}{dt} \\log_e t = \\frac{1}{t}.",
+    "title": "E_(mathematical_constant)"
   },
   "82": {
     "definitions": {
@@ -2075,13 +1832,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "82",
-      "oldId": "17232",
-      "fid": "32",
-      "math_inputtex": "h_i : X \\to \\{-1,+1\\}",
-      "title": "BrownBoost"
-    }
+    "oldId": "17232",
+    "fid": "32",
+    "math_inputtex": "h_i : X \\to \\{-1,+1\\}",
+    "title": "BrownBoost"
   },
   "83": {
     "definitions": {
@@ -2092,13 +1846,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "83",
-      "oldId": "21545",
-      "fid": "2",
-      "math_inputtex": "2\\le seqs \\le6",
-      "title": "List_of_RNA_structure_prediction_software"
-    }
+    "oldId": "21545",
+    "fid": "2",
+    "math_inputtex": "2\\le seqs \\le6",
+    "title": "List_of_RNA_structure_prediction_software"
   },
   "84": {
     "definitions": {
@@ -2131,13 +1882,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "84",
-      "oldId": "28184",
-      "fid": "6",
-      "math_inputtex": " F = \\{ (x,y) : x \\in \\mathcal{R}^b,\\, y \\in \\mathcal{R}^n,\\; x=y \\}.",
-      "title": "Projections_onto_convex_sets"
-    }
+    "oldId": "28184",
+    "fid": "6",
+    "math_inputtex": " F = \\{ (x,y) : x \\in \\mathcal{R}^b,\\, y \\in \\mathcal{R}^n,\\; x=y \\}.",
+    "title": "Projections_onto_convex_sets"
   },
   "85": {
     "definitions": {
@@ -2157,13 +1905,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "85",
-      "oldId": "4212",
-      "fid": "21",
-      "math_inputtex": "X_i(\\omega)=\\omega_i",
-      "title": "Almost_surely"
-    }
+    "oldId": "4212",
+    "fid": "21",
+    "math_inputtex": "X_i(\\omega)=\\omega_i",
+    "title": "Almost_surely"
   },
   "86": {
     "definitions": {
@@ -2190,13 +1935,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "86",
-      "oldId": "24328",
-      "fid": "67",
-      "math_inputtex": "\n{\\partial{L}\\over \\partial q_i} = {\\mathrm{d} \\over \\mathrm{d}t}{\\partial{L}\\over \\partial{\\dot{q_i}}}.\n",
-      "title": "Lagrangian_mechanics"
-    }
+    "oldId": "24328",
+    "fid": "67",
+    "math_inputtex": "\n{\\partial{L}\\over \\partial q_i} = {\\mathrm{d} \\over \\mathrm{d}t}{\\partial{L}\\over \\partial{\\dot{q_i}}}.\n",
+    "title": "Lagrangian_mechanics"
   },
   "87": {
     "definitions": {
@@ -2206,13 +1948,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "87",
-      "oldId": "24263",
-      "fid": "100",
-      "math_inputtex": "x_7",
-      "title": "Near_sets"
-    }
+    "oldId": "24263",
+    "fid": "100",
+    "math_inputtex": "x_7",
+    "title": "Near_sets"
   },
   "88": {
     "definitions": {
@@ -2222,13 +1961,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "88",
-      "oldId": "2926",
-      "fid": "30",
-      "math_inputtex": "\\Pi_n",
-      "title": "Polynomial_interpolation"
-    }
+    "oldId": "2926",
+    "fid": "30",
+    "math_inputtex": "\\Pi_n",
+    "title": "Polynomial_interpolation"
   },
   "89": {
     "definitions": {
@@ -2251,13 +1987,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "89",
-      "oldId": "26177",
-      "fid": "10",
-      "math_inputtex": "\\sigma^2 = X^TVX,",
-      "title": "Mutual_fund_separation_theorem"
-    }
+    "oldId": "26177",
+    "fid": "10",
+    "math_inputtex": "\\sigma^2 = X^TVX,",
+    "title": "Mutual_fund_separation_theorem"
   },
   "90": {
     "definitions": {
@@ -2296,13 +2029,10 @@
         "surface"
       ]
     },
-    "formula": {
-      "qID": "90",
-      "oldId": "22382",
-      "fid": "3",
-      "math_inputtex": "\\int_{\\mathbb{R}^n}f\\,dx = \\int_0^\\infty\\left\\{\\int_{\\partial B(x_0;r)} f\\,dS\\right\\}\\,dr.",
-      "title": "Coarea_formula"
-    }
+    "oldId": "22382",
+    "fid": "3",
+    "math_inputtex": "\\int_{\\mathbb{R}^n}f\\,dx = \\int_0^\\infty\\left\\{\\int_{\\partial B(x_0;r)} f\\,dS\\right\\}\\,dr.",
+    "title": "Coarea_formula"
   },
   "91": {
     "definitions": {
@@ -2319,13 +2049,10 @@
         "y momentum"
       ]
     },
-    "formula": {
-      "qID": "91",
-      "oldId": "18056",
-      "fid": "74",
-      "math_inputtex": "\n\\{x, p_x\\}_{DB} = \\{y, p_y\\}_{DB} = \\frac{1}{2}\n",
-      "title": "Dirac_bracket"
-    }
+    "oldId": "18056",
+    "fid": "74",
+    "math_inputtex": "\n\\{x, p_x\\}_{DB} = \\{y, p_y\\}_{DB} = \\frac{1}{2}\n",
+    "title": "Dirac_bracket"
   },
   "92": {
     "definitions": {
@@ -2348,13 +2075,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "92",
-      "oldId": "26815",
-      "fid": "17",
-      "math_inputtex": "G_{k, \\sigma} (y)= 1-(1+ky/\\sigma)^{-1/k} ",
-      "title": "Pickands–Balkema–de_Haan_theorem"
-    }
+    "oldId": "26815",
+    "fid": "17",
+    "math_inputtex": "G_{k, \\sigma} (y)= 1-(1+ky/\\sigma)^{-1/k} ",
+    "title": "Pickands–Balkema–de_Haan_theorem"
   },
   "93": {
     "definitions": {
@@ -2374,13 +2098,10 @@
         "some set"
       ]
     },
-    "formula": {
-      "qID": "93",
-      "oldId": "7260",
-      "fid": "15",
-      "math_inputtex": "L(H_B) \\otimes C(X)",
-      "title": "Quantum_channel"
-    }
+    "oldId": "7260",
+    "fid": "15",
+    "math_inputtex": "L(H_B) \\otimes C(X)",
+    "title": "Quantum_channel"
   },
   "94": {
     "definitions": {
@@ -2394,13 +2115,10 @@
         "index"
       ]
     },
-    "formula": {
-      "qID": "94",
-      "oldId": "22755",
-      "fid": "2",
-      "math_inputtex": "\\pi_i = 2^{-N} \\tbinom Ni",
-      "title": "Ehrenfest_model"
-    }
+    "oldId": "22755",
+    "fid": "2",
+    "math_inputtex": "\\pi_i = 2^{-N} \\tbinom Ni",
+    "title": "Ehrenfest_model"
   },
   "95": {
     "definitions": {
@@ -2415,13 +2133,10 @@
         }
       ]
     },
-    "formula": {
-      "qID": "95",
-      "oldId": "14285",
-      "fid": "1",
-      "math_inputtex": "(\\sqrt{p_1}, \\cdots ,\\sqrt{p_n})",
-      "title": "Fidelity_of_quantum_states"
-    }
+    "oldId": "14285",
+    "fid": "1",
+    "math_inputtex": "(\\sqrt{p_1}, \\cdots ,\\sqrt{p_n})",
+    "title": "Fidelity_of_quantum_states"
   },
   "96": {
     "definitions": {
@@ -2429,13 +2144,10 @@
         "deviatoric part"
       ]
     },
-    "formula": {
-      "qID": "96",
-      "oldId": "15596",
-      "fid": "27",
-      "math_inputtex": "\\boldsymbol{s}",
-      "title": "Yield_surface"
-    }
+    "oldId": "15596",
+    "fid": "27",
+    "math_inputtex": "\\boldsymbol{s}",
+    "title": "Yield_surface"
   },
   "97": {
     "definitions": {
@@ -2456,13 +2168,10 @@
         "residuals"
       ]
     },
-    "formula": {
-      "qID": "97",
-      "oldId": "21658",
-      "fid": "67",
-      "math_inputtex": "\\mathbf{J^TW\\  \\Delta y}",
-      "title": "Non-linear_least_squares"
-    }
+    "oldId": "21658",
+    "fid": "67",
+    "math_inputtex": "\\mathbf{J^TW\\  \\Delta y}",
+    "title": "Non-linear_least_squares"
   },
   "98": {
     "definitions": {
@@ -2470,13 +2179,10 @@
         "smallest g"
       ]
     },
-    "formula": {
-      "qID": "98",
-      "oldId": "7629",
-      "fid": "87",
-      "math_inputtex": "\\bar V^*",
-      "title": "Markov_decision_process"
-    }
+    "oldId": "7629",
+    "fid": "87",
+    "math_inputtex": "\\bar V^*",
+    "title": "Markov_decision_process"
   },
   "99": {
     "definitions": {
@@ -2487,13 +2193,10 @@
         "integer"
       ]
     },
-    "formula": {
-      "qID": "99",
-      "oldId": "14812",
-      "fid": "9",
-      "math_inputtex": "\\;\\frac{(n+\\delta-1)(n+\\delta-2)\\cdots n}{(\\delta-1)!}\\;",
-      "title": "Hilbert_series_and_Hilbert_polynomial"
-    }
+    "oldId": "14812",
+    "fid": "9",
+    "math_inputtex": "\\;\\frac{(n+\\delta-1)(n+\\delta-2)\\cdots n}{(\\delta-1)!}\\;",
+    "title": "Hilbert_series_and_Hilbert_polynomial"
   },
   "100": {
     "definitions": {
@@ -2504,12 +2207,9 @@
         "integer"
       ]
     },
-    "formula": {
-      "qID": "100",
-      "oldId": "17319",
-      "fid": "15",
-      "math_inputtex": "y_k[n]",
-      "title": "Overlap–add_method"
-    }
+    "oldId": "17319",
+    "fid": "15",
+    "math_inputtex": "y_k[n]",
+    "title": "Overlap–add_method"
   }
 }
