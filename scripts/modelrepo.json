@@ -1,6 +1,7 @@
 {
-  "owner": "physikerwelt",
-  "repo": "tmptest",
-  "filename": "gold.json",
-  "itemid":1
+  "owner": "ag-gipp",
+  "repo": "gouldi",
+  "filename": "data/gold.json",
+  "itemid":1,
+  "token":""
 }

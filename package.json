@@ -28,6 +28,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "github-base": "^0.5.4",
+    "github-change-remote-file": "^4.2.0",
     "github-content": "^1.0.1",
     "mathoid": "^0.7.0-alpha1",
     "vmext": "^1.0.2"

@@ -11,9 +11,10 @@
 	</head>
 	<body>
 		<div data-ng-controller="FormController">
-		</div>
-		<div data-ng-controller="FormController">
-			<form data-sf-schema="schema" data-sf-form="form" data-sf-model="model"></form>
+			<form data-sf-schema="schema"
+				  data-sf-form="form"
+				  data-sf-model="model"
+				  data-ng-submit="onSave(repo)"></form>
 			and here is the second div
 			<form name="repo"
 				  data-sf-schema="schemarepo"

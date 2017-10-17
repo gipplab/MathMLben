@@ -38,7 +38,27 @@ angular
             // Then we check if the form is valid
             if (form.$valid) {
                 $http.post('/get-model', $scope.modelrepo).then(function (res) {
+                    $scope.gold= res.data;
                     $scope.model = res.data[$scope.modelrepo.itemid];
+                });
+            }
+        };
+
+        $scope.onSave = function(form) {
+            // First we broadcast an event so all fields validate themselves
+            $scope.$broadcast('schemaFormValidate');
+
+            // Then we check if the form is valid
+            if (form.$valid) {
+                $scope.gold[$scope.modelrepo.itemid]=$scope.model;
+                $http.post('/write-model', {
+                    user: $scope.modelrepo.owner,
+                    repo: $scope.modelrepo.repo,
+                    filename: $scope.modelrepo.filename,
+                    token: $scope.modelrepo.token,
+                    data:$scope.gold
+                }).then(function (res) {
+                    alert(JSON.stringify(res));
                 });
             }
         }

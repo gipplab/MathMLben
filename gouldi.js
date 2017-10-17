@@ -10,6 +10,8 @@ app.use(bodyParser.json());
 var GithubContent = require('github-content');
 require('mathoid/server.js');
 
+var githubChangeRemoteFile = require('github-change-remote-file');
+
 // Allow CORS
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -19,7 +21,6 @@ app.use(function (req, res, next) {
 
 app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
 app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
-app.use('/css', express.static(path.join(__dirname + '/css')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
@@ -38,6 +39,19 @@ app.post('/get-model', function (req, res) {
     });
 });
 
+app.post('/write-model', function (req, res) {
+    var body = req.body;
+    body.transform = function (x) {
+        return JSON.stringify(body.data,null,2);
+    };
+    githubChangeRemoteFile(body)
+        .then(function (res) {
+            console.log(res);
+        })
+        .catch(function (log) {
+            res.status(400).send('Can not save' + JSON.stringify(log));
+        });
+});
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
