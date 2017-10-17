@@ -17,10 +17,9 @@
         }
       ]
     },
-    "oldId": "2459",
-    "fid": "3",
     "math_inputtex": "W(2, k) > 2^k/k^\\varepsilon",
-    "title": "Van_der_Waerden's_theorem"
+    "title": "Van_der_Waerden's_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=2459#math2459.3"
   },
   "2": {
     "definitions": {
@@ -35,10 +34,9 @@
         }
       ]
     },
-    "oldId": "4050",
-    "fid": "189",
     "math_inputtex": "(X,\\Sigma)",
-    "title": "Bounded_variation"
+    "title": "Bounded_variation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4050#math4050.189"
   },
   "3": {
     "definitions": {
@@ -53,10 +51,9 @@
         }
       ]
     },
-    "oldId": "4189",
-    "fid": "50",
     "math_inputtex": "(p-1)!^n",
-    "title": "Lindemann–Weierstrass_theorem"
+    "title": "Lindemann–Weierstrass_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4189#math4189.50"
   },
   "4": {
     "definitions": {
@@ -79,10 +76,9 @@
         }
       ]
     },
-    "oldId": "15332",
-    "fid": "68",
     "math_inputtex": "f_c(z) = z^2 + c",
-    "title": "Orbit_portrait"
+    "title": "Orbit_portrait",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15332#math15332.68"
   },
   "5": {
     "definitions": {
@@ -108,10 +104,9 @@
         }
       ]
     },
-    "oldId": "391",
-    "fid": "114",
     "math_inputtex": "\\forall x \\, \\forall y \\, P(x,y) \\Leftrightarrow \\forall y \\, \\forall x \\, P(x,y)",
-    "title": "First-order_logic"
+    "title": "First-order_logic",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=391#math391.114"
   },
   "6": {
     "definitions": {
@@ -126,10 +121,9 @@
         }
       ]
     },
-    "oldId": "6937",
-    "fid": "5",
     "math_inputtex": "\\alpha(x)",
-    "title": "Clenshaw_algorithm"
+    "title": "Clenshaw_algorithm",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=6937#math6937.5"
   },
   "7": {
     "definitions": {
@@ -145,10 +139,9 @@
         }
       ]
     },
-    "oldId": "25610",
-    "fid": "24",
     "math_inputtex": "\\alpha(x)",
-    "title": "Isolation_lemma"
+    "title": "Isolation_lemma",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=25610#math25610.24"
   },
   "8": {
     "definitions": {
@@ -164,10 +157,9 @@
         }
       ]
     },
-    "oldId": "27419",
-    "fid": "4",
     "math_inputtex": "\\alpha(x)",
-    "title": "Singularity_spectrum"
+    "title": "Singularity_spectrum",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=27419#math27419.4"
   },
   "9": {
     "definitions": {
@@ -216,10 +208,9 @@
         }
       ]
     },
-    "oldId": "14488",
-    "fid": "36",
     "math_inputtex": "|{\\Psi}\\rangle=\\sum_{i_1,i_2,\\alpha_1,\\alpha_2}\\Gamma^{[1]i_1}_{\\alpha_1}\\lambda^{[1]}_{\\alpha_1}\\Gamma^{[2]i_2}_{\\alpha_1\\alpha_2}\\lambda^{[2]}_{{\\alpha}_2}|{i_1i_2}\\rangle|{\\Phi^{[3..N]}_{\\alpha_2}}\\rangle",
-    "title": "Time-evolving_block_decimation"
+    "title": "Time-evolving_block_decimation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=14488#math14488.36"
   },
   "10": {
     "definitions": {
@@ -239,10 +230,9 @@
         }
       ]
     },
-    "oldId": "16784",
-    "fid": "38",
     "math_inputtex": "z*x\\le y",
-    "title": "Monoidal_t-norm_logic"
+    "title": "Monoidal_t-norm_logic",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=16784#math16784.38"
   },
   "11": {
     "definitions": {
@@ -257,10 +247,9 @@
         }
       ]
     },
-    "oldId": "16716",
-    "fid": "20",
     "math_inputtex": " \\frac{d}{dx}\\left( \\log_c x\\right) = {1 \\over x \\ln c} , \\qquad c > 0, c \\ne 1",
-    "title": "Differentiation_rules"
+    "title": "Differentiation_rules",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=16716#math16716.20"
   },
   "12": {
     "definitions": {
@@ -275,10 +264,9 @@
         }
       ]
     },
-    "oldId": "2875",
-    "fid": "2",
     "math_inputtex": "\\theta = n \\times 137.508^\\circ,",
-    "title": "Fermat's_spiral"
+    "title": "Fermat's_spiral",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=2875#math2875.2"
   },
   "13": {
     "definitions": {
@@ -291,10 +279,9 @@
         }
       ]
     },
-    "oldId": "9319",
-    "fid": "2",
     "math_inputtex": "s_V(\\mathcal{R})",
-    "title": "Consistency_criterion"
+    "title": "Consistency_criterion",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=9319#math9319.2"
   },
   "14": {
     "definitions": {
@@ -309,10 +296,9 @@
         }
       ]
     },
-    "oldId": "21982",
-    "fid": "43",
     "math_inputtex": "\\ell(m)",
-    "title": "Basis_(universal_algebra)"
+    "title": "Basis_(universal_algebra)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21982#math21982.43"
   },
   "15": {
     "definitions": {
@@ -327,10 +313,9 @@
         }
       ]
     },
-    "oldId": "26321",
-    "fid": "4",
     "math_inputtex": "bx-x^2",
-    "title": "Adequality"
+    "title": "Adequality",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=26321#math26321.4"
   },
   "16": {
     "definitions": {
@@ -340,10 +325,9 @@
         }
       ]
     },
-    "oldId": "13492",
-    "fid": "85",
     "math_inputtex": "\\omega_{k}",
-    "title": "Mason–Weaver_equation"
+    "title": "Mason–Weaver_equation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=13492#math13492.85"
   },
   "17": {
     "definitions": {
@@ -354,10 +338,9 @@
         }
       ]
     },
-    "oldId": "27275",
-    "fid": "2",
     "math_inputtex": "\\mathbf{m}_1",
-    "title": "Kernel_Fisher_discriminant_analysis"
+    "title": "Kernel_Fisher_discriminant_analysis",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=27275#math27275.2"
   },
   "18": {
     "definitions": {
@@ -367,10 +350,9 @@
         }
       ]
     },
-    "oldId": "15283",
-    "fid": "17",
     "math_inputtex": "r_{ij}",
-    "title": "Implicit_solvation"
+    "title": "Implicit_solvation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15283#math15283.17"
   },
   "19": {
     "definitions": {
@@ -403,10 +385,9 @@
         "energy level"
       ]
     },
-    "oldId": "3897",
-    "fid": "2",
     "math_inputtex": " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
-    "title": "Partition_function_(statistical_mechanics)"
+    "title": "Partition_function_(statistical_mechanics)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=3897#math3897.2"
   },
   "20": {
     "definitions": {
@@ -414,10 +395,9 @@
         "tristimulus values"
       ]
     },
-    "oldId": "8808",
-    "fid": "39",
     "math_inputtex": "S'",
-    "title": "Color_balance"
+    "title": "Color_balance",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=8808#math8808.39"
   },
   "21": {
     "definitions": {
@@ -431,10 +411,9 @@
         "2-dimensional manifold"
       ]
     },
-    "oldId": "17336",
-    "fid": "30",
     "math_inputtex": "S'",
-    "title": "Hilbert's_theorem_(differential_geometry)"
+    "title": "Hilbert's_theorem_(differential_geometry)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17336#math17336.30"
   },
   "22": {
     "definitions": {
@@ -459,10 +438,9 @@
         }
       ]
     },
-    "oldId": "4416",
-    "fid": "4",
     "math_inputtex": "\\text{Ker} (k_* - l_*) \\cong \\text{Im} (i_*, j_*).",
-    "title": "Mayer–Vietoris_sequence"
+    "title": "Mayer–Vietoris_sequence",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4416#math4416.4"
   },
   "23": {
     "definitions": {
@@ -492,11 +470,10 @@
         }
       ]
     },
-    "oldId": "25343",
-    "fid": "3",
     "math_inputtex": "D(G,H) = \\sum_{i=1}^{29} | F_i(G) - F_i(H) |",
     "comments": "F_i is a substitution",
-    "title": "Graphlets"
+    "title": "Graphlets",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=25343#math25343.3"
   },
   "24": {
     "definitions": {
@@ -517,10 +494,9 @@
         "translational kinetic energy"
       ]
     },
-    "oldId": "566",
-    "fid": "28",
     "math_inputtex": " E_\\text{k} = E_t + E_\\text{r} \\, ",
-    "title": "Kinetic_energy"
+    "title": "Kinetic_energy",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=566#math566.28"
   },
   "25": {
     "definitions": {
@@ -548,10 +524,9 @@
         }
       ]
     },
-    "oldId": "22618",
-    "fid": "22",
     "math_inputtex": "\\lambda(L(B)) \\leq d",
-    "title": "Lattice_problem"
+    "title": "Lattice_problem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=22618#math22618.22"
   },
   "26": {
     "definitions": {
@@ -569,10 +544,9 @@
         }
       ]
     },
-    "oldId": "485",
-    "fid": "10",
     "math_inputtex": "L\\left(C\\right) \\leq L\\left(T\\right)",
-    "title": "Huffman_coding"
+    "title": "Huffman_coding",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=485#math485.10"
   },
   "27": {
     "definitions": {
@@ -592,10 +566,9 @@
         }
       ]
     },
-    "oldId": "2623",
-    "fid": "0",
     "math_inputtex": "v = \\frac{c}{n}",
-    "title": "Dispersion_(optics)"
+    "title": "Dispersion_(optics)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=2623#math2623.0"
   },
   "28": {
     "definitions": {
@@ -617,10 +590,9 @@
         "Power coefficient"
       ]
     },
-    "oldId": "1227",
-    "fid": "93",
     "math_inputtex": "\\sigma_y^2(\\tau) = \\frac{2\\pi^2\\tau}{3}h_{-2}",
-    "title": "Allan_variance"
+    "title": "Allan_variance",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1227#math1227.93"
   },
   "29": {
     "definitions": {
@@ -639,10 +611,9 @@
         "electrical conductivity"
       ]
     },
-    "oldId": "21692",
-    "fid": "5",
     "math_inputtex": " R_{s\\ normal} = \\sqrt{ \\frac{\\omega \\mu_0} {2 \\sigma} }",
-    "title": "Superconducting_radio_frequency"
+    "title": "Superconducting_radio_frequency",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21692#math21692.5"
   },
   "30": {
     "definitions": {
@@ -650,10 +621,9 @@
         "phase-range"
       ]
     },
-    "oldId": "24277",
-    "fid": "5",
     "math_inputtex": " \\phi_1 = -30^\\circ...+30^\\circ",
-    "title": "Vienna_rectifier"
+    "title": "Vienna_rectifier",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=24277#math24277.5"
   },
   "31": {
     "definitions": {
@@ -663,10 +633,9 @@
         }
       ]
     },
-    "oldId": "3625",
-    "fid": "19",
     "math_inputtex": "T_c",
-    "title": "Modigliani–Miller_theorem"
+    "title": "Modigliani–Miller_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=3625#math3625.19"
   },
   "32": {
     "definitions": {
@@ -677,10 +646,9 @@
         }
       ]
     },
-    "oldId": "17517",
-    "fid": "2",
     "math_inputtex": "T_c",
-    "title": "Proximity_effect_(superconductivity)"
+    "title": "Proximity_effect_(superconductivity)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17517#math17517.2"
   },
   "33": {
     "definitions": {
@@ -691,10 +659,9 @@
         }
       ]
     },
-    "oldId": "22538",
-    "fid": "9",
     "math_inputtex": "T_c",
-    "title": "Multicritical_point"
+    "title": "Multicritical_point",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=22538#math22538.9"
   },
   "34": {
     "definitions": {
@@ -719,10 +686,9 @@
         }
       ]
     },
-    "oldId": "17497",
-    "fid": "55",
     "math_inputtex": "P_1(X)=P(X)/(X-\\alpha_1)",
-    "title": "Jenkins–Traub_algorithm"
+    "title": "Jenkins–Traub_algorithm",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17497#math17497.55"
   },
   "35": {
     "definitions": {
@@ -737,10 +703,9 @@
         }
       ]
     },
-    "oldId": "5626",
-    "fid": "4",
     "math_inputtex": "= \\frac{k}{n}.",
-    "title": "Doomsday_argument"
+    "title": "Doomsday_argument",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=5626#math5626.4"
   },
   "36": {
     "definitions": {
@@ -768,10 +733,9 @@
         "maximum power"
       ]
     },
-    "oldId": "4630",
-    "fid": "12",
     "math_inputtex": "n = \\prod_{i=1}^r p_i^{a_i}",
-    "title": "Divisor_function"
+    "title": "Divisor_function",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4630#math4630.12"
   },
   "37": {
     "definitions": {
@@ -804,10 +768,9 @@
         }
       ]
     },
-    "oldId": "8338",
-    "fid": "87",
     "math_inputtex": "H(j \\omega) = \\mathcal{F}\\{h(t)\\}",
-    "title": "LTI_system_theory"
+    "title": "LTI_system_theory",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=8338#math8338.87"
   },
   "38": {
     "definitions": {
@@ -817,10 +780,9 @@
         }
       ]
     },
-    "oldId": "1320",
-    "fid": "31",
     "math_inputtex": "\\pi/4",
-    "title": "Phase-shift_keying"
+    "title": "Phase-shift_keying",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1320#math1320.31"
   },
   "39": {
     "definitions": {
@@ -845,10 +807,9 @@
         }
       ]
     },
-    "oldId": "133",
-    "fid": "6",
     "math_inputtex": "(x+y)^n = \\sum_{k=0}^n {n \\choose k}x^{n-k}y^k = \\sum_{k=0}^n {n \\choose k}x^{k}y^{n-k}.\n",
-    "title": "Binomial_theorem"
+    "title": "Binomial_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=133#math133.6"
   },
   "40": {
     "definitions": {
@@ -866,10 +827,9 @@
         "reaction rate coefficient"
       ]
     },
-    "oldId": "9082",
-    "fid": "33",
     "math_inputtex": "\\ [A]_t = -kt + [A]_0",
-    "title": "Rate_equation"
+    "title": "Rate_equation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=9082#math9082.33"
   },
   "41": {
     "definitions": {
@@ -879,10 +839,9 @@
         }
       ]
     },
-    "oldId": "3545",
-    "fid": "1",
     "math_inputtex": "q^{42}",
-    "title": "Martingale_(betting_system)"
+    "title": "Martingale_(betting_system)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=3545#math3545.1"
   },
   "42": {
     "definitions": {
@@ -902,10 +861,9 @@
         }
       ]
     },
-    "oldId": "15433",
-    "fid": "5",
     "math_inputtex": "\\alpha(d) \\le \\left(\\sqrt{3/2} + \\varepsilon\\right)^d",
-    "title": "Borsuk's_conjecture"
+    "title": "Borsuk's_conjecture",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15433#math15433.5"
   },
   "43": {
     "definitions": {
@@ -970,11 +928,10 @@
         "4-velocity"
       ]
     },
-    "oldId": "12471",
-    "fid": "96",
     "math_inputtex": "   f^{\\mu} = - 8\\pi  { G \\over { 3 c^4   }   } \\left (  {A \\over 2} T_{\\alpha \\beta}  + {B \\over 2} T \\eta_{\\alpha \\beta} \\right ) \\left ( \\delta^{\\mu}_{\\nu} + u^{\\mu} u_{\\nu} \\right )  u^{\\alpha} x^{\\nu} u^{\\beta} ",
     "comment": "einstein notation",
-    "title": "Theoretical_motivation_for_general_relativity"
+    "title": "Theoretical_motivation_for_general_relativity",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=12471#math12471.96"
   },
   "44": {
     "definitions": {
@@ -1005,10 +962,9 @@
         }
       ]
     },
-    "oldId": "27611",
-    "fid": "0",
     "math_inputtex": " \\frac{D_g u_g}{Dt} - f_{0}v_a - \\beta y v_g = 0 ",
-    "title": "Q-Vectors"
+    "title": "Q-Vectors",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=27611#math27611.0"
   },
   "45": {
     "definitions": {
@@ -1016,10 +972,9 @@
         "neighbors indices"
       ]
     },
-    "oldId": "22412",
-    "fid": "10",
     "math_inputtex": "I_c",
-    "title": "Stencil_code"
+    "title": "Stencil_code",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=22412#math22412.10"
   },
   "46": {
     "definitions": {
@@ -1038,10 +993,9 @@
         }
       ]
     },
-    "oldId": "460",
-    "fid": "81",
     "math_inputtex": "\\, A \\mapsto M\\alpha(A)M^{-1} ,",
-    "title": "Geometric_algebra"
+    "title": "Geometric_algebra",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=460#math460.81"
   },
   "47": {
     "definitions": {
@@ -1052,10 +1006,9 @@
         }
       ]
     },
-    "oldId": "16803",
-    "fid": "53",
     "math_inputtex": "\\Gamma_{\\infty}",
-    "title": "Stochastic_game"
+    "title": "Stochastic_game",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=16803#math16803.53"
   },
   "48": {
     "definitions": {
@@ -1081,10 +1034,9 @@
         "charge"
       ]
     },
-    "oldId": "15858",
-    "fid": "3",
     "math_inputtex": "Y = \\beta T_8 + I X",
-    "title": "331_model"
+    "title": "331_model",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15858#math15858.3"
   },
   "49": {
     "definitions": {
@@ -1095,10 +1047,9 @@
         "sets of real numbers"
       ]
     },
-    "oldId": "7473",
-    "fid": "12",
     "math_inputtex": " \\mu (A)= \\begin{cases} 1 & \\mbox{ if } 0 \\in A \\\\ \n                               0 & \\mbox{ if } 0 \\notin A.\n\\end{cases}",
-    "title": "Sigma_additivity"
+    "title": "Sigma_additivity",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=7473#math7473.12"
   },
   "50": {
     "definitions": {
@@ -1106,10 +1057,9 @@
         "inner sphere reorganisation energy"
       ]
     },
-    "oldId": "12130",
-    "fid": "56",
     "math_inputtex": "\\lambda_{in}",
-    "title": "Marcus_theory"
+    "title": "Marcus_theory",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=12130#math12130.56"
   },
   "51": {
     "definitions": {
@@ -1119,10 +1069,9 @@
         }
       ]
     },
-    "oldId": "16788",
-    "fid": "2",
     "math_inputtex": "rpm_{motor}",
-    "title": "Centrifugal_fan"
+    "title": "Centrifugal_fan",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=16788#math16788.2"
   },
   "52": {
     "definitions": {
@@ -1180,10 +1129,9 @@
         }
       ]
     },
-    "oldId": "21960",
-    "fid": "157",
     "math_inputtex": "\\underbrace{u_1(\\mathbf{x},z_1)=v_1+\\dot{u}_x}_{\\text{By definition of }v_1}=\\overbrace{-\\frac{\\partial V_x}{\\partial \\mathbf{x}}g_x(\\mathbf{x})-k_1(\\underbrace{z_1-u_x(\\mathbf{x})}_{e_1})}^{v_1} \\, + \\, \\overbrace{\\frac{\\partial u_x}{\\partial \\mathbf{x}}(\\underbrace{f_x(\\mathbf{x})+g_x(\\mathbf{x})z_1}_{\\dot{\\mathbf{x}} \\text{ (i.e., } \\frac{\\operatorname{d}\\mathbf{x}}{\\operatorname{d}t} \\text{)}})}^{\\dot{u}_x \\text{ (i.e., } \\frac{ \\operatorname{d}u_x }{\\operatorname{d}t} \\text{)}}",
-    "title": "Backstepping"
+    "title": "Backstepping",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21960#math21960.157"
   },
   "53": {
     "definitions": {
@@ -1206,10 +1154,9 @@
         "constant volatility"
       ]
     },
-    "oldId": "14318",
-    "fid": "10",
     "math_inputtex": "E \\left[ \\hat{\\sigma}^2\\right]= \\frac{n-1}{n} \\sigma^2",
-    "title": "Stochastic_volatility"
+    "title": "Stochastic_volatility",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=14318#math14318.10"
   },
   "54": {
     "definitions": {
@@ -1217,10 +1164,9 @@
         "free variable set"
       ]
     },
-    "oldId": "13072",
-    "fid": "63",
     "math_inputtex": "\\mathsf{fv}",
-    "title": "Separation_logic"
+    "title": "Separation_logic",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=13072#math13072.63"
   },
   "55": {
     "definitions": {
@@ -1234,10 +1180,9 @@
         "pixel intensities"
       ]
     },
-    "oldId": "10050",
-    "fid": "2",
     "math_inputtex": "\\sum_x \\sum_y I(x,y) \\,\\!",
-    "title": "Image_moment"
+    "title": "Image_moment",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=10050#math10050.2"
   },
   "56": {
     "definitions": {
@@ -1247,10 +1192,9 @@
         }
       ]
     },
-    "oldId": "5363",
-    "fid": "5",
     "math_inputtex": "\\boldsymbol{F}_r",
-    "title": "Geostrophic_wind"
+    "title": "Geostrophic_wind",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=5363#math5363.5"
   },
   "57": {
     "definitions": {
@@ -1267,10 +1211,9 @@
         }
       ]
     },
-    "oldId": "6693",
-    "fid": "9",
     "math_inputtex": "0\\rightarrow B\\rightarrow A\\oplus B\\rightarrow A\\rightarrow0.",
-    "title": "Ext_functor"
+    "title": "Ext_functor",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=6693#math6693.9"
   },
   "58": {
     "definitions": {
@@ -1299,10 +1242,9 @@
         "section"
       ]
     },
-    "oldId": "4787",
-    "fid": "50",
     "math_inputtex": "(\\nabla_Y T)(\\alpha_1, \\alpha_2, \\ldots, X_1, X_2, \\ldots) =Y(T(\\alpha_1,\\alpha_2,\\ldots,X_1,X_2,\\ldots))",
-    "title": "Covariant_derivative"
+    "title": "Covariant_derivative",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4787#math4787.50"
   },
   "59": {
     "definitions": {
@@ -1338,10 +1280,9 @@
         }
       ]
     },
-    "oldId": "10209",
-    "fid": "4",
     "math_inputtex": " \\sum_{n \\in \\mathbb{Z}^d} |\\psi(t,n)|^2 |n| \\leq C ",
-    "title": "Anderson_localization"
+    "title": "Anderson_localization",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=10209#math10209.4"
   },
   "60": {
     "definitions": {
@@ -1363,11 +1304,10 @@
         "altitude"
       ]
     },
-    "oldId": "9833",
-    "fid": "26",
     "math_inputtex": " p = {\\frac{-x\\pm\\sqrt{x^2-4(\\frac{-gx^2}{2v^2})(\\frac{-gx^2}{2v^2}-y)}}{2(\\frac{-gx^2}{2v^2}) }}",
     "comment": "p is a substitution",
-    "title": "Trajectory_of_a_projectile"
+    "title": "Trajectory_of_a_projectile",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=9833#math9833.26"
   },
   "61": {
     "definitions": {
@@ -1382,10 +1322,9 @@
         }
       ]
     },
-    "oldId": "8877",
-    "fid": "7",
     "math_inputtex": "\\left\\{ z \\in H: \\left| z \\right| > 1,\\, \\left| \\,\\mbox{Re}(z) \\,\\right| < \\frac{1}{2} \\right\\}",
-    "title": "Cusp_neighborhood"
+    "title": "Cusp_neighborhood",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=8877#math8877.7"
   },
   "62": {
     "definitions": {
@@ -1406,10 +1345,9 @@
         }
       ]
     },
-    "oldId": "2951",
-    "fid": "17",
     "math_inputtex": "T-\\lambda I",
-    "title": "Spectrum_(functional_analysis)"
+    "title": "Spectrum_(functional_analysis)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=2951#math2951.17"
   },
   "63": {
     "definitions": {
@@ -1437,11 +1375,10 @@
         "y combonent of mean"
       ]
     },
-    "oldId": "1588",
-    "fid": "20",
     "math_inputtex": "\n    y\\left( x \\right) = {\\mathop{\\rm sgn}} \\left( {{\\rho }} \\right)\\frac{{{\\sigma _y}}}{{{\\sigma _x}}}\\left( {x - {\\mu _x}} \\right) + {\\mu _y}.\n  ",
     "comments": "sgn is an operator",
-    "title": "Multivariate_normal_distribution"
+    "title": "Multivariate_normal_distribution",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1588#math1588.20"
   },
   "64": {
     "definitions": {
@@ -1452,10 +1389,9 @@
         "element of a group"
       ]
     },
-    "oldId": "15120",
-    "fid": "56",
     "math_inputtex": "x=b \\ ",
-    "title": "Algebraically_closed_group"
+    "title": "Algebraically_closed_group",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15120#math15120.56"
   },
   "65": {
     "definitions": {
@@ -1468,10 +1404,9 @@
         "compact"
       ]
     },
-    "oldId": "6392",
-    "fid": "10",
     "math_inputtex": "H^1(K)=\\sqrt{2}",
-    "title": "Analytic_capacity"
+    "title": "Analytic_capacity",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=6392#math6392.10"
   },
   "66": {
     "definitions": {
@@ -1491,10 +1426,9 @@
         "Chip text"
       ]
     },
-    "oldId": "2482",
-    "fid": "8",
     "math_inputtex": "P_i = \\mbox{head}(E_K (S_{i-1}), x) \\oplus C_i",
-    "title": "Block_cipher_mode_of_operation"
+    "title": "Block_cipher_mode_of_operation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=2482#math2482.8"
   },
   "67": {
     "definitions": {
@@ -1509,11 +1443,10 @@
         }
       ]
     },
-    "oldId": "1666",
-    "fid": "30",
     "math_inputtex": "\\frac{ \\partial f}{ \\partial x} = f_x = \\partial_x f.",
     "comments": "in that context subscript is not a part of a variable but a notational element",
-    "title": "Partial_derivative"
+    "title": "Partial_derivative",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1666#math1666.30"
   },
   "68": {
     "definitions": {
@@ -1537,11 +1470,10 @@
         }
       ]
     },
-    "oldId": "27027",
-    "fid": "0",
     "math_inputtex": " P_x = P - \\{ a\\mid a \\geq x\\} ",
     "comment": "P_{x} is a substitution",
-    "title": "Poset_game"
+    "title": "Poset_game",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=27027#math27027.0"
   },
   "69": {
     "definitions": {
@@ -1561,10 +1493,9 @@
         }
       ]
     },
-    "oldId": "15167",
-    "fid": "0",
     "math_inputtex": "\\eta = \\frac{ work\\ done } {heat\\ absorbed}  = \\frac{ Q1-Q2 }{ Q1}",
-    "title": "Engine_efficiency"
+    "title": "Engine_efficiency",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15167#math15167.0"
   },
   "70": {
     "definitions": {
@@ -1594,10 +1525,9 @@
         }
       ]
     },
-    "oldId": "4480",
-    "fid": "29",
     "math_inputtex": "df = {\\partial f \\over \\partial x}dx + {\\partial f \\over \\partial y}dy = pdx + vdy",
-    "title": "Legendre_transformation"
+    "title": "Legendre_transformation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4480#math4480.29"
   },
   "71": {
     "definitions": {
@@ -1605,10 +1535,9 @@
         "channel from the source to the relay node"
       ]
     },
-    "oldId": "17690",
-    "fid": "4",
     "math_inputtex": "h_{r,s}",
-    "title": "Cooperative_diversity"
+    "title": "Cooperative_diversity",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17690#math17690.4"
   },
   "72": {
     "definitions": {
@@ -1636,10 +1565,9 @@
         }
       ]
     },
-    "oldId": "5763",
-    "fid": "20",
     "math_inputtex": " K^M_*(k) := T^*(k^\\times)/(a\\otimes (1-a)) ",
-    "title": "Algebraic_K-theory"
+    "title": "Algebraic_K-theory",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=5763#math5763.20"
   },
   "73": {
     "definitions": {
@@ -1653,10 +1581,9 @@
         "canonical divisor"
       ]
     },
-    "oldId": "21482",
-    "fid": "45",
     "math_inputtex": "\\{C : K_X \\cdot C = 0\\}",
-    "title": "Cone_of_curves"
+    "title": "Cone_of_curves",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21482#math21482.45"
   },
   "74": {
     "definitions": {
@@ -1669,10 +1596,9 @@
         "number of thermodynamic degrees of freedom"
       ]
     },
-    "oldId": "28602",
-    "fid": "8",
     "math_inputtex": "\\Theta \\wedge\n(d\\Theta)^n \\neq 0",
-    "title": "Geometrothermodynamics"
+    "title": "Geometrothermodynamics",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=28602#math28602.8"
   },
   "75": {
     "definitions": {
@@ -1690,10 +1616,9 @@
         "time"
       ]
     },
-    "oldId": "6724",
-    "fid": "5",
     "math_inputtex": "D\\left(\\rho u_i\\right)/Dt\\approx0",
-    "title": "Darcy's_law"
+    "title": "Darcy's_law",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=6724#math6724.5"
   },
   "76": {
     "definitions": {
@@ -1716,10 +1641,9 @@
         }
       ]
     },
-    "oldId": "10488",
-    "fid": "25",
     "math_inputtex": " z_{t} = \\lambda_{1}z_{t-1} + \\varepsilon_{t} ",
-    "title": "Unit_root"
+    "title": "Unit_root",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=10488#math10488.25"
   },
   "77": {
     "definitions": {
@@ -1729,10 +1653,9 @@
         }
       ]
     },
-    "oldId": "22206",
-    "fid": "83",
     "math_inputtex": "b_3",
-    "title": "Drucker–Prager_yield_criterion"
+    "title": "Drucker–Prager_yield_criterion",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=22206#math22206.83"
   },
   "78": {
     "definitions": {
@@ -1742,10 +1665,9 @@
         }
       ]
     },
-    "oldId": "23061",
-    "fid": "9",
     "math_inputtex": "b_3",
-    "title": "Antiplane_shear"
+    "title": "Antiplane_shear",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=23061#math23061.9"
   },
   "79": {
     "definitions": {
@@ -1775,10 +1697,9 @@
         }
       ]
     },
-    "oldId": "15872",
-    "fid": "32",
     "math_inputtex": " \\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V \\,\\!",
-    "title": "Table_of_thermodynamic_equations"
+    "title": "Table_of_thermodynamic_equations",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15872#math15872.32"
   },
   "80": {
     "definitions": {
@@ -1798,10 +1719,9 @@
         }
       ]
     },
-    "oldId": "13966",
-    "fid": "2",
     "math_inputtex": "\\dim f(Z) > n",
-    "title": "Fulton–Hansen_connectedness_theorem"
+    "title": "Fulton–Hansen_connectedness_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=13966#math13966.2"
   },
   "81": {
     "definitions": {
@@ -1816,10 +1736,9 @@
         }
       ]
     },
-    "oldId": "335",
-    "fid": "16",
     "math_inputtex": "\\frac{d}{dt} \\log_e t = \\frac{1}{t}.",
-    "title": "E_(mathematical_constant)"
+    "title": "E_(mathematical_constant)",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=335#math335.16"
   },
   "82": {
     "definitions": {
@@ -1832,10 +1751,9 @@
         }
       ]
     },
-    "oldId": "17232",
-    "fid": "32",
     "math_inputtex": "h_i : X \\to \\{-1,+1\\}",
-    "title": "BrownBoost"
+    "title": "BrownBoost",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17232#math17232.32"
   },
   "83": {
     "definitions": {
@@ -1846,10 +1764,9 @@
         }
       ]
     },
-    "oldId": "21545",
-    "fid": "2",
     "math_inputtex": "2\\le seqs \\le6",
-    "title": "List_of_RNA_structure_prediction_software"
+    "title": "List_of_RNA_structure_prediction_software",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21545#math21545.2"
   },
   "84": {
     "definitions": {
@@ -1882,10 +1799,9 @@
         }
       ]
     },
-    "oldId": "28184",
-    "fid": "6",
     "math_inputtex": " F = \\{ (x,y) : x \\in \\mathcal{R}^b,\\, y \\in \\mathcal{R}^n,\\; x=y \\}.",
-    "title": "Projections_onto_convex_sets"
+    "title": "Projections_onto_convex_sets",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=28184#math28184.6"
   },
   "85": {
     "definitions": {
@@ -1905,10 +1821,9 @@
         }
       ]
     },
-    "oldId": "4212",
-    "fid": "21",
     "math_inputtex": "X_i(\\omega)=\\omega_i",
-    "title": "Almost_surely"
+    "title": "Almost_surely",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4212#math4212.21"
   },
   "86": {
     "definitions": {
@@ -1935,10 +1850,9 @@
         }
       ]
     },
-    "oldId": "24328",
-    "fid": "67",
     "math_inputtex": "\n{\\partial{L}\\over \\partial q_i} = {\\mathrm{d} \\over \\mathrm{d}t}{\\partial{L}\\over \\partial{\\dot{q_i}}}.\n",
-    "title": "Lagrangian_mechanics"
+    "title": "Lagrangian_mechanics",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=24328#math24328.67"
   },
   "87": {
     "definitions": {
@@ -1948,10 +1862,9 @@
         }
       ]
     },
-    "oldId": "24263",
-    "fid": "100",
     "math_inputtex": "x_7",
-    "title": "Near_sets"
+    "title": "Near_sets",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=24263#math24263.100"
   },
   "88": {
     "definitions": {
@@ -1961,10 +1874,9 @@
         }
       ]
     },
-    "oldId": "2926",
-    "fid": "30",
     "math_inputtex": "\\Pi_n",
-    "title": "Polynomial_interpolation"
+    "title": "Polynomial_interpolation",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=2926#math2926.30"
   },
   "89": {
     "definitions": {
@@ -1987,10 +1899,9 @@
         }
       ]
     },
-    "oldId": "26177",
-    "fid": "10",
     "math_inputtex": "\\sigma^2 = X^TVX,",
-    "title": "Mutual_fund_separation_theorem"
+    "title": "Mutual_fund_separation_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=26177#math26177.10"
   },
   "90": {
     "definitions": {
@@ -2029,10 +1940,9 @@
         "surface"
       ]
     },
-    "oldId": "22382",
-    "fid": "3",
     "math_inputtex": "\\int_{\\mathbb{R}^n}f\\,dx = \\int_0^\\infty\\left\\{\\int_{\\partial B(x_0;r)} f\\,dS\\right\\}\\,dr.",
-    "title": "Coarea_formula"
+    "title": "Coarea_formula",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=22382#math22382.3"
   },
   "91": {
     "definitions": {
@@ -2049,10 +1959,9 @@
         "y momentum"
       ]
     },
-    "oldId": "18056",
-    "fid": "74",
     "math_inputtex": "\n\\{x, p_x\\}_{DB} = \\{y, p_y\\}_{DB} = \\frac{1}{2}\n",
-    "title": "Dirac_bracket"
+    "title": "Dirac_bracket",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=18056#math18056.74"
   },
   "92": {
     "definitions": {
@@ -2075,10 +1984,9 @@
         }
       ]
     },
-    "oldId": "26815",
-    "fid": "17",
     "math_inputtex": "G_{k, \\sigma} (y)= 1-(1+ky/\\sigma)^{-1/k} ",
-    "title": "Pickands–Balkema–de_Haan_theorem"
+    "title": "Pickands–Balkema–de_Haan_theorem",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=26815#math26815.17"
   },
   "93": {
     "definitions": {
@@ -2098,10 +2006,9 @@
         "some set"
       ]
     },
-    "oldId": "7260",
-    "fid": "15",
     "math_inputtex": "L(H_B) \\otimes C(X)",
-    "title": "Quantum_channel"
+    "title": "Quantum_channel",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=7260#math7260.15"
   },
   "94": {
     "definitions": {
@@ -2115,10 +2022,9 @@
         "index"
       ]
     },
-    "oldId": "22755",
-    "fid": "2",
     "math_inputtex": "\\pi_i = 2^{-N} \\tbinom Ni",
-    "title": "Ehrenfest_model"
+    "title": "Ehrenfest_model",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=22755#math22755.2"
   },
   "95": {
     "definitions": {
@@ -2133,10 +2039,9 @@
         }
       ]
     },
-    "oldId": "14285",
-    "fid": "1",
     "math_inputtex": "(\\sqrt{p_1}, \\cdots ,\\sqrt{p_n})",
-    "title": "Fidelity_of_quantum_states"
+    "title": "Fidelity_of_quantum_states",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=14285#math14285.1"
   },
   "96": {
     "definitions": {
@@ -2144,10 +2049,9 @@
         "deviatoric part"
       ]
     },
-    "oldId": "15596",
-    "fid": "27",
     "math_inputtex": "\\boldsymbol{s}",
-    "title": "Yield_surface"
+    "title": "Yield_surface",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15596#math15596.27"
   },
   "97": {
     "definitions": {
@@ -2168,10 +2072,9 @@
         "residuals"
       ]
     },
-    "oldId": "21658",
-    "fid": "67",
     "math_inputtex": "\\mathbf{J^TW\\  \\Delta y}",
-    "title": "Non-linear_least_squares"
+    "title": "Non-linear_least_squares",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21658#math21658.67"
   },
   "98": {
     "definitions": {
@@ -2179,10 +2082,9 @@
         "smallest g"
       ]
     },
-    "oldId": "7629",
-    "fid": "87",
     "math_inputtex": "\\bar V^*",
-    "title": "Markov_decision_process"
+    "title": "Markov_decision_process",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=7629#math7629.87"
   },
   "99": {
     "definitions": {
@@ -2193,10 +2095,9 @@
         "integer"
       ]
     },
-    "oldId": "14812",
-    "fid": "9",
     "math_inputtex": "\\;\\frac{(n+\\delta-1)(n+\\delta-2)\\cdots n}{(\\delta-1)!}\\;",
-    "title": "Hilbert_series_and_Hilbert_polynomial"
+    "title": "Hilbert_series_and_Hilbert_polynomial",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=14812#math14812.9"
   },
   "100": {
     "definitions": {
@@ -2207,9 +2108,8 @@
         "integer"
       ]
     },
-    "oldId": "17319",
-    "fid": "15",
     "math_inputtex": "y_k[n]",
-    "title": "Overlap–add_method"
+    "title": "Overlap–add_method",
+    "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17319#math17319.15"
   }
 }

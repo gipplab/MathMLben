@@ -20,7 +20,9 @@ BB.reduce(process(gold), function (y, x) {
     Object.assign(newVal,x.value.formula);
     delete newVal.formula;
     delete newVal.qID;
-
+    newVal.uri = "https://en.formulasearchengine.com/w/index.php?oldid=" + newVal.oldId + "#math"+ newVal.oldId + "." +newVal.fid;
+    delete newVal.oldId;
+    delete newVal.fid;
     y[x.key] = newVal;
     return y;
 }, {})
