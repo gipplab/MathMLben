@@ -16,6 +16,7 @@ function process(stats) {
 
 
 BB.reduce(process(gold), function (y, x) {
+
     var newVal = x.value;
     Object.assign(newVal,x.value.formula);
     delete newVal.formula;
@@ -23,6 +24,7 @@ BB.reduce(process(gold), function (y, x) {
     newVal.uri = "https://en.formulasearchengine.com/w/index.php?oldid=" + newVal.oldId + "#math"+ newVal.oldId + "." +newVal.fid;
     delete newVal.oldId;
     delete newVal.fid;
+    newVal.correct_tex = newVal.math_inputtex;
     y[x.key] = newVal;
     return y;
 }, {})
