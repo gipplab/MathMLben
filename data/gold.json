@@ -63,7 +63,7 @@
       "qID": 3,
       "oldId": "4189",
       "fid": "50",
-      "math_inputtex": "(p - 1)!^n",
+      "math_inputtex": "(p-1)!^n",
       "title": "Lindemann–Weierstrass_theorem"
     }
   },
