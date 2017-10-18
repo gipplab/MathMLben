@@ -1,0 +1,3076 @@
+[
+  {
+    "definitions": {
+      "a": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "b": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "\\alpha": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "\\beta": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "\\epsilon": [
+        {
+          "Q1347710": "",
+          "Q3176558": "positive real number"
+        }
+      ],
+      "\\delta": [
+        {
+          "Q1347710": "",
+          "Q3176558": "positive real number"
+        }
+      ]
+    },
+    "constraints": [
+      "\\epsilon > 0",
+      "\\delta > 0",
+      "|\\alpha| < \\delta",
+      "|\\beta| < \\delta"
+    ],
+    "formula": {
+      "qID": "101",
+      "dlmfId": "1.5#E2",
+      "math_inputtex_semantic": "|f(a+\\alpha,b+\\beta) - f(a,b)| < \\epsilon",
+      "type": "relation"
+    }
+  },
+  {
+    "definitions": {
+      "j": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "k": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "\\ell": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "m": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index number"
+        }
+      ]
+    },
+    "constraints": [
+      "k > 0",
+      "j > 0",
+      "\\ell > 0",
+      "n >= 0",
+      "m >= 0"
+    ],
+    "substitutations": {},
+    "formula": {
+      "qID": "102",
+      "dlmfId": "1.6#E16",
+      "math_inputtex_semantic": "\\LeviCivita{j}{k}{\\ell} \\LeviCivita{\\ell}{m}{n} = \\Kronecker{j}{m} \\Kronecker{k}{n} - \\Kronecker{j}{n} \\Kronecker{k}{m}",
+      "type": "equation"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\theta": [
+        "argument",
+        "phase",
+        {
+          "Q11352": "angle",
+          "Q12916": "real number"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "r": [
+        {
+          "Q18729403": "non-negative real number",
+          "Q173817": "radius"
+        }
+      ]
+    },
+    "constraints": [
+      "\\theta >= \\-cpi",
+      "\\theta <= \\cpi",
+      "r >= 0"
+    ],
+    "substitutions": {
+      "z": [
+        "z = r\\expe^{\\iunit\\theta}"
+      ]
+    },
+    "formula": {
+      "qID": "103",
+      "dlmfId": "1.9#E7",
+      "math_inputtex_semantic": "\\ph@@{z} = \\theta + 2n\\cpi",
+      "type": "definition"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "x": [
+        "real part",
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "y": [
+        "imaginary part",
+        {
+          "Q12916": "real number"
+        }
+      ]
+    },
+    "constraints": [
+      "n > 0"
+    ],
+    "substitutions": {
+      "z": [
+        "z = x + \\iunit y"
+      ]
+    },
+    "formula": {
+      "qID": "104",
+      "dlmfId": "1.9#E21",
+      "math_inputtex_semantic": "z^n = \\left( x^n - \\binom{n}{2} x^{n-2} y^2 + \\binom{n}{4} x^{n-4} y^4 - \\cdots \\right) + \\iunit \\left( \\binom{n}{1} x^{n-1} y - \\binom{n}{3} x^{n-3} y^3 + \\cdots \\right)",
+      "type": "equation"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920044": "positive integer"
+        }
+      ]
+    },
+    "constraints": [
+      "|z| < 1",
+      "k > 0"
+    ],
+    "substitutions": {},
+    "formula": {
+      "qID": "105",
+      "dlmfId": "1.10#E3",
+      "math_inputtex_semantic": "\\ln@{1+z} = \\Sum{k}{1}{\\infty}@{\\opminus^{k-1} \\frac{z^k}{k}}",
+      "type": "equation",
+      "comment": "This equation originally not contains the infinity sum. It was written with \\cdots. Note that there exists a special macro to describe such infinity sums developed by Moritz Schubotz."
+    }
+  },
+  {
+    "definitions": {
+      "P(z)": [
+        {
+          "Q43260": "polynomial"
+        }
+      ],
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "n": [
+        "index of multiplication",
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index"
+        }
+      ],
+      "z_n": [
+        "member",
+        "element",
+        "term",
+        {
+          "Q133250": "sequence"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "106",
+      "dlmfId": "1.10#E22",
+      "math_inputtex_semantic": "P(z) = \\Prod{n}{1}{\\infty}@{\\left( 1 - \\frac{z}{z_n} \\right) \\expe^{\\ifrac{z}{z_n}}}",
+      "title": "Weierstrass_factorization_theorem"
+    }
+  },
+  {
+    "definitions": {
+      "A": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "q": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "D": [
+        {
+          "Q192487": "Discriminant",
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "107",
+      "dlmfId": "1.11#E13",
+      "math_inputtex_semantic": "A = \\sqrt[3]{-\\tfrac{27}{2}q+\\tfrac{3}{2}\\sqrt{-3D}}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index"
+        }
+      ],
+      "k": [
+        "index of multiplication",
+        {
+          "Q1738991": "index",
+          "Q28920044": "positive integer"
+        }
+      ],
+      "A_n": [
+        "n-th (canonical) numerator",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "B_n": [
+        "n-th (canonical) denominator",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "a_k": [
+        "k-th numerator in a continued fraction",
+        {
+          "Q2279584": "numerator",
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "108",
+      "dlmfId": "1.12#E7",
+      "math_inputtex_semantic": "A_n B_{n-1} - B_n A_{n-1} = \\opminus^{n-1} \\Prod{k}{1}{n}@{a_k}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "A": [
+        {
+          "Q188248": "constant",
+          "Q11567": "complex number"
+        }
+      ],
+      "B": [
+        {
+          "Q188248": "constant",
+          "Q11567": "complex number"
+        }
+      ],
+      "w_1": [
+        "solution of differential equation",
+        {
+          "Q11348": "function"
+        }
+      ],
+      "w_2": [
+        "solution of differential equation",
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "109",
+      "dlmfId": "1.13#E6",
+      "math_inputtex_semantic": "A w_1(z) + B w_2(z) = 0"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "f(x)": [
+        {
+          "Q11348": "function (mathematical binary relation, which is left-total and right-unique)"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index"
+        }
+      ],
+      "a_k": [
+        {
+          "Q50700": "coefficient (number just before a variable)"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "110",
+      "dlmfId": "1.15#E49",
+      "math_inputtex_semantic": "f(x) = \\Sum{k}{0}{\\infty}@{a_k x^k}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "I(x)": [
+        "convolution integral",
+        {
+          "Q11348": "function"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "s": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index"
+        }
+      ],
+      "a_s": [
+        {
+          "Q50700": "coefficient (number just before a variable)"
+        }
+      ],
+      "b_s": [
+        {
+          "Q50700": "coefficient (number just before a variable)"
+        }
+      ],
+      "\\epsilon": [
+        {
+          "Q1413083": "parameter",
+          "Q12916": "real number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "111",
+      "dlmfId": "2.5#E15",
+      "math_inputtex_semantic": "I(x) = -\\Sum{s}{0}{2n}@{(a_s \\ln@@{x} + b_s) x^{-s}} + \\BigO@{x^{-2n - 1 + \\epsilon}}"
+    }
+  },
+  {
+    "definitions": {
+      "t": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "h(t)": [
+        {
+          "Q1318586": "Locally integrable function"
+        }
+      ],
+      "\\asympexp": [
+        "Poincaré asymptotic expansion",
+        {
+          "Q752726": "asymptotic expansion"
+        }
+      ],
+      "\\kappa": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "p": [
+        {
+          "Q3176558": "positive real number"
+        }
+      ],
+      "s": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index"
+        }
+      ],
+      "b_s": [
+        "right endpoint",
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "\\beta_s": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "112",
+      "dlmfId": "2.5#E18",
+      "math_inputtex_semantic": "h(t) \\asympexp \\exp@{\\iunit \\kappa t^p} \\Sum{s}{0}{\\infty}@{b_s t^{-\\beta_s}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "j": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "\\lambda_j": [
+        "roots"
+      ],
+      "\\mu_j": [
+        "quantities"
+      ],
+      "a_{s,j}": [
+        {
+          "Q50700": "coefficient"
+        }
+      ],
+      "s": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "113",
+      "dlmfId": "2.7#E8",
+      "math_inputtex_semantic": "\\expe^{\\lambda_j z} z^{\\mu_j} \\Sum{s}{0}{\\infty}@{\\frac{a_{s,j}}{z^s}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "w": [
+        "solution of differential equation",
+        {
+          "Q11348": "function"
+        }
+      ],
+      "f_0": [
+        {
+          "Q50700": "coefficient"
+        }
+      ],
+      "W": []
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "114",
+      "dlmfId": "2.7#E19",
+      "math_inputtex_semantic": "w = \\expe^{-f_0 \\ifrac{z}{2}} W",
+      "title": "Fabry's transformation"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "115",
+      "dlmfId": "24.2#E7",
+      "math_inputtex_semantic": "\\EulerE{2n+1} = 0"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q1413083": "parameter",
+          "Q12503": "integer"
+        }
+      ],
+      "m": [
+        {
+          "Q12503": "integer"
+        }
+      ],
+      "x": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "116",
+      "dlmfId": "24.4#E18",
+      "math_inputtex_semantic": "\\BernoulliB{n}@{mx} = m^{n-1} \\Sum{k}{0}{m-1}@{\\BernoulliB{n}@{x+\\frac{k}{m}}}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "t": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\text{const.}": [
+        "constant number"
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "117",
+      "dlmfId": "24.13#E7",
+      "math_inputtex_semantic": "\\int \\EulerE{n}@{t} \\diff{t} = \\frac{\\EulerE{n+1}@{t}}{n+1} + \\text{const.},"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\asympexp": [
+        "Poincaré asymptotic expansion",
+        {
+          "Q752726": "asymptotic expansion"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {
+      "\\mu": [
+        "\\mu = 4\\nu^2"
+      ]
+    },
+    "formula": {
+      "qID": "118",
+      "dlmfId": "10.18#E17",
+      "math_inputtex_semantic": "\\BesselModulusM{\\nu}^2@{x} \\asympexp \\frac{2}{\\cpi x} \\left( 1 + \\frac{1}{2} \\frac{\\mu-1}{(2x)^2} + \\frac{1\\cdot3}{2\\cdot4} \\frac{(\\mu-1)(\\mu-9)}{(2x)^4} + \\frac{1\\cdot3\\cdot5}{2\\cdot4\\cdot6} \\frac{(\\mu-1)(\\mu-9)(\\mu-25)}{(2x)^6} + \\dotsb\\right)"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\mu": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\asympexp": [
+        "Poincaré asymptotic expansion",
+        {
+          "Q752726": "asymptotic expansion"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "119",
+      "dlmfId": "10.18#E19",
+      "math_inputtex_semantic": "\\BesselModulusN{\\nu}^2@{x} \\asympexp \\frac{2}{\\cpi x} \\left( 1 - \\frac{1}{2} \\frac{\\mu-3}{(2x)^2} - \\frac{1}{2\\cdot4} \\frac{(\\mu-1)(\\mu-45)}{(2x)^4} - \\dotsb\\right)"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\BesselJ{\\nu}'@{z}": [
+        "derivative of the Bessel function of the first kind"
+      ],
+      "k": [
+        "index of multiplication",
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "120",
+      "dlmfId": "10.21#E16",
+      "math_inputtex_semantic": "\\BesselJ{\\nu}'@{z} = \\frac{(\\tfrac{1}{2} z)^{\\nu-1}}{2\\EulerGamma@{\\nu}} \\Prod{k}{1}{\\infty}@{\\left( 1 - \\frac{z^2}{\\ZeroBesselJPrime{\\nu}{k}^{2}} \\right)}"
+    }
+  },
+  {
+    "definitions": {
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\BesselJ{\\nu}'@{\\ZeroBesselJ{\\nu}{m}}": [
+        "derivative of the Bessel function of the first kind"
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "m": [
+        {
+          "Q12503": "integer"
+        }
+      ],
+      "\\asympexp": [
+        "Poincaré asymptotic expansion",
+        {
+          "Q752726": "asymptotic expansion"
+        }
+      ],
+      "\\beta": [
+        {
+          "Q50700": "coefficient"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "121",
+      "dlmfId": "10.21#E34",
+      "math_inputtex_semantic": "\\BesselJ{\\nu}'@{\\ZeroBesselJ{\\nu}{m}} \\asympexp \\opminus^m\\frac{(\\ifrac{2}{\\nu})^{\\frac{2}{3}}}{\\cpi \\AiryModulusM@{\\ZeroAiryAi{m}}} \\Sum{k}{0}{\\infty}@{\\frac{\\beta_k}{\\nu^{\\ifrac{2k}{3}}}}"
+    }
+  },
+  {
+    "definitions": {
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "m": [
+        {
+          "Q12503": "integer"
+        }
+      ],
+      "\\ZeroBesselJ{\\nu}{m}'": [
+        "Zeros of the derivative Bessel function of the first kind"
+      ],
+      "\\zeta": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "h(\\zeta)": [
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "122",
+      "dlmfId": "10.21#E44",
+      "math_inputtex_semantic": "\\BesselJ{\\nu}@{\\ZeroBesselJ{\\nu}{m}'} = \\frac{h(\\zeta) \\AiryAi@{\\ZeroAiryAiPrime{m}}}{\\nu^{\\frac{1}{3}}} \\left( 1 + \\BigO@{\\frac{1}{\\nu^{\\frac{4}{3}}}} \\right)"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\lambda": [
+        {
+          "Q12916": "real number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "123",
+      "dlmfId": "10.21#E53",
+      "math_inputtex_semantic": "\\BesselJ{\\nu}'@{x} \\BesselY{\\nu}@{\\lambda x} - \\BesselY{\\nu}'@{x} \\BesselJ{\\nu}@{\\lambda x}"
+    }
+  },
+  {
+    "definitions": {
+      "t": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\mu": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "a": [
+        {
+          "Q3176558": "positive real number"
+        }
+      ],
+      "b": [
+        {
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "124",
+      "dlmfId": "10.22#E46",
+      "math_inputtex_semantic": "\\int_0^\\infty \\frac{t^{\\nu+1} \\BesselJ{\\nu}@{at}}{(t^2+b^2)^{\\mu+1}} \\diff{t} = \\frac{a^\\mu b^{\\nu-\\mu}}{2^\\mu \\EulerGamma@{\\mu+1}} \\BesselK{\\nu-\\mu}@{ab}"
+    }
+  },
+  {
+    "definitions": {
+      "u": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "v": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q12503": "integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "125",
+      "dlmfId": "10.23#E2",
+      "math_inputtex_semantic": "\\Cylinder{\\nu}@{u\\pm v} = \\Sum{k}{-\\infty}{\\infty}@{\\Cylinder{\\nu\\mp k}@{u} \\BesselJ{k}@{v}}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\gamma_\\nu": [
+        {
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "126",
+      "dlmfId": "10.24#E7",
+      "math_inputtex_semantic": "\\BesselJtilde{\\nu}@{x} =\\left(\\frac{2\\tanh@{\\frac{1}{2} \\cpi\\nu}}{\\cpi\\nu}\\right)^{\\frac{1}{2}}\\cos@{\\nu \\ln@{\\tfrac{1}{2} x} - \\gamma_\\nu} + \\BigO(x^2)"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\asympexp": [
+        "Poincaré asymptotic expansion",
+        {
+          "Q752726": "asymptotic expansion"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "a_k(\\nu)": [
+        "local expansion",
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "127",
+      "dlmfId": "10.40#E2",
+      "math_inputtex_semantic": "\\BesselK{\\nu}@{z} \\asympexp \\left( \\frac{\\cpi}{2z} \\right)^{\\frac{1}{2}} \\expe^{-z} \\Sum{k}{0}{\\infty}@{\\frac{a_k(\\nu)}{z^k}}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\nu": [
+        "order",
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "128",
+      "dlmfId": "10.68#E2",
+      "math_inputtex_semantic": "\\BesselModulusN{\\nu}@{x} \\expe^{\\iunit\\!\\BesselPhasePhi{\\nu}@{x}} = \\Kelvinker{\\nu}@@{x} +\\iunit \\Kelvinkei{\\nu}@@{x}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "a": [
+        "a-zeros of Kummer confluent hypergeometric function",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "b": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "n": [
+        {
+          "Q28920044": "positive integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "129",
+      "dlmfId": "13.9#E16",
+      "math_inputtex_semantic": "a = -n-\\frac{2}{\\cpi}\\sqrt{zn}-\\frac{2z}{\\cpi^2}+\\tfrac12 b+\\tfrac14 + \\frac{z^2\\left(\\frac13-4\\cpi^{-2}\\right)+z-(b-1)^2+\\frac14}{4\\cpi\\sqrt{zn}} +\\BigO@{\\frac{1}{n}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "\\kappa": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\mu": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": {},
+    "substitutions": {},
+    "formula": {
+      "qID": "130",
+      "dlmfId": "13.15#E20",
+      "math_inputtex_semantic": "\\left(z\\deriv{}{z}z\\right )^{n}\\left(\\expe^{-\\frac12 z}z^{\\kappa-1} \\WhitM{\\kappa}{\\mu}@{z}\\right)= \\pochhammer{\\tfrac{1}{2}+\\mu+\\kappa}{n} \\expe^{-\\frac12 z}z^{\\kappa+n-1} \\*\\WhitM{\\kappa+n}{\\mu}@{z}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "t": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "\\kappa": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\mu": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "131",
+      "dlmfId": "13.23#E7",
+      "math_inputtex_semantic": "\\frac{1}{2\\cpi\\iunit} \\int_{-\\infty}^{(0+)} \\expe^{zt+\\frac{1}{2}t^{-1}} t^{\\kappa} \\WhitW{\\kappa}{\\mu}@{t^{-1}} \\diff{t} = \\frac{2z^{-\\kappa-\\frac{1}{2}}} {\\EulerGamma@{\\frac{1}{2}+\\mu-\\kappa} \\EulerGamma@{\\frac{1}{2}-\\mu-\\kappa}} \\BesselK{2\\mu}@{2\\sqrt{z}}"
+    }
+  },
+  {
+    "definitions": {
+      "\\epsilon": [
+        {
+          "Q12916": "real number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\ell": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "r": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\tau": [
+        {
+          "Q1413083": "parameter"
+        }
+      ],
+      "A(\\epsilon,\\ell)": [
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "132",
+      "dlmfId": "33.16#E5",
+      "math_inputtex_semantic": "\\Coulombh@{\\epsilon}{\\ell}{r} = \\left( \\frac{2}{\\cpi \\tau} \\frac{A(\\epsilon,\\ell)}{1 - \\expe^{\\ifrac{-2\\cpi}{\\tau}}} \\right)^{\\ifrac{1}{2}} \\CoulombG{\\ell}@{\\ifrac{-1}{\\tau}}{\\tau r}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative number"
+        }
+      ],
+      "k": [
+        {
+          "Q28920052": "non-negative number"
+        }
+      ],
+      "N(n,k)": [
+        {
+          "Q6965520": "Narayana number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "133",
+      "dlmfId": "26.6#E3",
+      "math_inputtex_semantic": "N(n,k) = \\frac{1}{n}\\binom{n}{k} \\binom{n}{k-1}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative number"
+        }
+      ],
+      "k": [
+        {
+          "Q28920052": "non-negative number"
+        }
+      ],
+      "h": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "A_k(n)": [
+        {
+          "Q50700": "coefficient",
+          "Q11348": "function"
+        }
+      ],
+      "f(h,k)": [
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "134",
+      "dlmfId": "26.10#E18",
+      "math_inputtex_semantic": "A_k(n) = \\sum_{\\substack{1 < h \\leq k \\pgcd{h,k} = 1}}\\expe^{\\cpi \\iunit f(h,k)-(2\\cpi \\iunit n \\ifrac{h}{k})}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "m": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "m!": [
+        {
+          "Q120976": "factorial"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "135",
+      "dlmfId": "26.14#E12",
+      "math_inputtex_semantic": "\\StirlingSS@{n}{m} = \\frac{1}{m!} \\Sum{k}{0}{n-1}@{\\EulerianNumber{n}{k} \\binom{k}{n-m}}"
+    }
+  },
+  {
+    "definitions": {
+      "w": [
+        {
+          "Q11348": "function"
+        }
+      ],
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "a": [
+        {
+          "Q188248": "constant",
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "136",
+      "dlmfId": "4.7#E14",
+      "math_inputtex_semantic": "\\deriv[2]{w}{z} = a w"
+    }
+  },
+  {
+    "definitions": {
+      "u": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "v": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "137",
+      "dlmfId": "4.21#E15",
+      "math_inputtex_semantic": "2 \\sin@@{u} \\sin@@{v} = \\cos@{u - v} - \\cos@{u + v}"
+    }
+  },
+  {
+    "definitions": {
+      "u": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "v": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "138",
+      "dlmfId": "4.21#E19",
+      "math_inputtex_semantic": "\\cos^2@@{u} - \\cos^2@@{v} = - \\sin@{u + v} \\sin@{u - v}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "139",
+      "dlmfId": "4.23#E42",
+      "math_inputtex_semantic": "\\arcGudermannian@{x} = \\ln@@{\\tan@{\\tfrac{1}{2}x+\\tfrac{1}{4} \\cpi}} = \\ln@{\\sec@@{x}+\\tan@@{x}} = \\asinh@{\\tan@@{x}} = \\acsch@{\\cot@@{x}} = \\acosh@{\\sec@@{x}} = \\asech@{\\cos@@{x}} = \\atanh@{\\sin@@{x}} = \\acoth@{\\csc@@{x}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "w": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "k": [
+        {
+          "Q12503": "integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "140",
+      "dlmfId": "4.37#E29",
+      "math_inputtex_semantic": "w = \\Asinh@@{z} = \\opminus^k \\asinh@@{z} + k \\cpi \\iunit"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "141",
+      "dlmfId": "4.38#E2",
+      "math_inputtex_semantic": "\\asinh@@{z} = \\ln@{2z} + \\frac{1}{2} \\frac{1}{2 z^2} - \\frac{1 \\cdot 3}{2 \\cdot 4} \\frac{1}{4 z^4} + \\frac{1 \\cdot 3 \\cdot 5}{2 \\cdot 4 \\cdot 6} \\frac{1}{6 z^6} - \\cdots"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "y": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "m": [
+        {
+          "Q12503": "integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "142",
+      "dlmfId": "4.45#E2",
+      "math_inputtex_semantic": "\\ln@@{x} = 2^m \\ln@{1+y}"
+    }
+  },
+  {
+    "definitions": {
+      "k": [
+        "elliptic modulus",
+        "modulus",
+        {
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "143",
+      "dlmfId": "19.7#E2",
+      "math_inputtex_semantic": "\\CompEllIntE@{\\ifrac{\\sqrt{1-k^2}}{\\iunit k}} = (\\ifrac{1}{k}) \\CompEllIntE@{\\sqrt{1-k^2}}"
+    }
+  },
+  {
+    "definitions": {
+      "a": [
+        "degree",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\Vector{e}_j": [
+        "j-th unit vector",
+        {
+          "Q36255": "unit vector"
+        }
+      ],
+      "\\Vector{z}": [
+        {
+          "Q11567": "complex number",
+          "Q44528": "euclidean vector"
+        }
+      ],
+      "\\Vector{b}": [
+        {
+          "Q11567": "complex number",
+          "Q44528": "euclidean vector"
+        }
+      ],
+      "w_j": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\partial_j": [
+        "partial differential with respect to z_j",
+        {
+          "Q1934165": "change of variables"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "144",
+      "dlmfId": "19.18#E4",
+      "math_inputtex_semantic": "\\partial_j \\EllIntR{-a}@{\\Vector{b}}{\\Vector{z}} = -a w_j \\EllIntR{-a-1}@{\\Vector{b}+\\Vector{e}_j}{\\Vector{z}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "y": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "145",
+      "dlmfId": "19.20#E9",
+      "math_inputtex_semantic": "\\EllIntRJ@{0}{y}{z}{\\pm\\sqrt{yz}} = \\pm \\frac{3}{2 \\sqrt{yz}} \\EllIntRF@{0}{y}{z}"
+    }
+  },
+  {
+    "definitions": {
+      "a": [
+        "degree",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\Vector{z}": [
+        {
+          "Q11567": "complex number",
+          "Q44528": "euclidean vector"
+        }
+      ],
+      "\\Vector{b}": [
+        {
+          "Q11567": "complex number",
+          "Q44528": "euclidean vector"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "146",
+      "dlmfId": "19.24#E13",
+      "math_inputtex_semantic": "\\EllIntR{a}@{\\Vector{b}}{\\Vector{z}} \\EllIntR{-a}@{\\Vector{b}}{\\Vector{z}} > 1"
+    }
+  },
+  {
+    "definitions": {
+      "\\alpha": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "k": [
+        "elliptic modulus",
+        "modulus",
+        {
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "147",
+      "dlmfId": "19.25#E2",
+      "math_inputtex_semantic": "\\CompEllIntPi@{\\alpha^2}{k} - \\CompEllInt\\compellintKk@@{k}@{k} = \\tfrac{1}{3} \\alpha^2 \\EllIntRJ@{0}{(1-k^2)}{1}{1-\\alpha^2}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q3176558": "positive real number"
+        }
+      ],
+      "y": [
+        {
+          "Q3176558": "positive real number"
+        }
+      ],
+      "a": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "U": [
+        {
+          "Q12916": "real number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "148",
+      "dlmfId": "19.29#E33",
+      "math_inputtex_semantic": "(x - y)^2 U = \\left( \\sqrt{x^4+a^4} + \\sqrt{y^4+a^4} \\right)^2 - (x^2 - y^2)^2"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\zeta": [
+        {
+          "Q1934165": "change of variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "149",
+      "dlmfId": "7.5#E8",
+      "math_inputtex_semantic": "\\FresnelCos@{z} \\pm \\iunit \\FresnelSin@{z} = \\tfrac{1}{2} (1 \\pm \\iunit) \\erf@@{\\zeta}"
+    }
+  },
+  {
+    "definitions": {
+      "y": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "150",
+      "dlmfId": "5.4#E17",
+      "math_inputtex_semantic": "\\imagpart{\\digamma@{\\tfrac{1}{2} + \\iunit y}} = \\frac{\\cpi}{2} \\tanh@{\\cpi y},"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "151",
+      "dlmfId": "5.5#E3",
+      "math_inputtex_semantic": "\\EulerGamma@{z} \\EulerGamma@{1-z} = \\ifrac{\\cpi}{\\sin@{\\cpi z}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "152",
+      "dlmfId": "5.7#E4",
+      "math_inputtex_semantic": "\\digamma@{1+z} = -\\EulerConstant + \\Sum{k}{2}{\\infty}@{(-1)^k \\RiemannZeta@{k} z^{k-1}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "153",
+      "dlmfId": "5.7#E7",
+      "math_inputtex_semantic": "\\digamma@{\\frac{z+1}{2}} - \\digamma@{\\frac{z}{2}} = 2 \\Sum{k}{0}{\\infty}@{\\frac{\\opminus^k}{k+z}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "t": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "154",
+      "dlmfId": "5.9#E10",
+      "math_inputtex_semantic": "\\Ln@@{\\EulerGamma@{z}} = \\left( z - \\tfrac{1}{2} \\right) \\ln@@{z} - z + \\tfrac{1}{2} \\ln@{2\\cpi} + 2 \\int_0^\\infty \\frac{\\atan@{\\ifrac{t}{z}}}{\\expe^{2 \\cpi t} - 1} \\diff{t},"
+    }
+  },
+  {
+    "definitions": {
+      "a_0": [
+        {
+          "Q50700": "coefficient",
+          "Q2279584": "numerator",
+          "Q1244890": "rational number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "155",
+      "dlmfId": "5.10#E2",
+      "math_inputtex_semantic": "a_0 = \\tfrac{1}{12}"
+    }
+  },
+  {
+    "definitions": {
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "b": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "P": [
+        {
+          "Q44946": "point"
+        }
+      ],
+      "t": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "156",
+      "dlmfId": "5.12#E12",
+      "math_inputtex_semantic": "\\int_P^{(1+, 0+,1-, 0-)} t^{a-1} (1-t)^{b-1} \\diff{t} = -4 \\expe^{\\cpi \\iunit (a+b)} \\sin@{\\cpi a} \\sin@{\\cpi b} \\EulerBeta@{a}{b}"
+    }
+  },
+  {
+    "definitions": {
+      "\\ell": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "j": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "W": [
+        {
+          "Q155640": "potential energy"
+        }
+      ],
+      "\\theta_j": [
+        "angle of j-th point charge on unit circle",
+        {
+          "Q11352": "angle"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "157",
+      "dlmfId": "5.20#E4",
+      "math_inputtex_semantic": "W = - \\sum_{1 \\le \\ell < j \\le n} \\ln@@{|\\expe^{\\iunit \\theta_\\ell} - \\expe^{\\iunit \\theta_j}|}"
+    }
+  },
+  {
+    "definitions": {
+      "j": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "K_j": [
+        {
+          "Q50700": "coefficient"
+        }
+      ],
+      "L_j": [
+        {
+          "Q50700": "coefficient"
+        }
+      ],
+      "M_j": [
+        {
+          "Q50700": "coefficient"
+        }
+      ],
+      "c_j": [
+        {
+          "Q50700": "coefficient"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "158",
+      "dlmfId": "31.11#E5",
+      "math_inputtex_semantic": "K_j c_{j-1} + L_j c_j + M_j c_{j+1} = 0"
+    }
+  },
+  {
+    "definitions": {
+      "j": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "R_j": [
+        {
+          "Q50700": "coefficient"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "\\gamma": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\delta": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "159",
+      "dlmfId": "31.16#E7",
+      "math_inputtex_semantic": "R_j = \\frac{(n-j)(j+n+\\gamma+\\delta)(j+\\gamma)(j+\\delta)} {(\\gamma+\\delta+2j)(\\gamma+\\delta+2j+1)}."
+    }
+  },
+  {
+    "definitions": {
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "b": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "c": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "160",
+      "dlmfId": "15.4#E23",
+      "math_inputtex_semantic": "\\lim_{z \\hiderel{\\to} 1-} \\frac{\\HypergeoF@{a}{b}{c}{z}}{(1-z)^{c-a-b}} = \\frac{\\EulerGamma@{c} \\EulerGamma@{a+b-c}} {\\EulerGamma@{a} \\EulerGamma@{b}}"
+    }
+  },
+  {
+    "definitions": {
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "161",
+      "dlmfId": "15.4#E27",
+      "math_inputtex_semantic": "\\HypergeoF@{1}{a}{a+1}{-1} = \\tfrac{1}{2} a \\left( \\digamma@{\\tfrac{1}{2} a + \\tfrac{1}{2}} - \\digamma@{\\tfrac{1}{2} a} \\right)"
+    }
+  },
+  {
+    "definitions": {
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "c": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "162",
+      "dlmfId": "15.8#E20",
+      "math_inputtex_semantic": "\\HypergeoF@@{a}{1-a}{c}{z} = (1-z)^{c-1} \\HypergeoF@@{\\frac{1}{2} (c-a)} {\\frac{1}{2} (a+c-1)} {c} {4z(1-z)}"
+    }
+  },
+  {
+    "definitions": {
+      "\\Vector{x}": [
+        {
+          "Q44528": "vector",
+          "Q12916": "real nummber",
+          "Q50701": "variable"
+        }
+      ],
+      "s": [
+        {
+          "Q12916": "real nummber",
+          "Q50701": "variable"
+        }
+      ],
+      "t": [
+        {
+          "Q12916": "real nummber",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "163",
+      "dlmfId": "36.2#E5",
+      "math_inputtex_semantic": "\\CanonicIntU@{\\Vector{x}} = \\int_{-\\infty}^\\infty \\int_{-\\infty}^\\infty \\exp@{\\iunit \\UmbilicCatU@{s}{t}{\\Vector{x}}} \\diff{s}\\diff{t}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "y": [
+        {
+          "Q12916": "real number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "z": [
+        {
+          "Q12916": "real number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "164",
+      "dlmfId": "36.4#E13",
+      "math_inputtex_semantic": "x = y = -\\tfrac{1}{4} z^2"
+    }
+  },
+  {
+    "definitions": {
+      "c_0(0)": [
+        {
+          "Q50700": "coefficient",
+          "Q1244890": "rational number"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "165",
+      "dlmfId": "8.12#E17",
+      "math_inputtex_semantic": "c_0(0) = -\\tfrac{1}{3}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "p": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "j": [
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "t": [
+        {
+          "Q12916": "real nummber",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "166",
+      "dlmfId": "8.19#E15",
+      "math_inputtex_semantic": "\\pderiv[j]{\\ExpIntn{p}@{z}}{p} = \\opminus^j \\int_1^\\infty (\\ln@@{t})^j t^{-p} \\expe^{-zt} \\diff{t}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real nummber",
+          "Q50701": "variable"
+        }
+      ],
+      "k": [
+        "elliptic modulus",
+        "modulus",
+        {
+          "Q12916": "real nummber"
+        }
+      ],
+      "t": [
+        {
+          "Q12916": "real nummber",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "167",
+      "dlmfId": "22.16#E3",
+      "math_inputtex_semantic": "\\Jacobiam@{x}{k} = \\int_0^x \\Jacobidn@{t}{k} \\diff{t}"
+    }
+  },
+  {
+    "definitions": {
+      "\\theta": [
+        {
+          "Q3305038": "angular displacement",
+          "Q11352": "angle",
+          "Q11348": "function",
+          "Q12916": "real number"
+        }
+      ],
+      "t": [
+        {
+          "Q11471": "time",
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "168",
+      "dlmfId": "22.19#E1",
+      "math_inputtex_semantic": "\\deriv[2]{\\theta(t)}{t} = - \\sin@@{\\theta(t)}"
+    }
+  },
+  {
+    "definitions": {
+      "k": [
+        "elliptic modulus",
+        "modulus",
+        {
+          "Q12916": "real nummber"
+        }
+      ],
+      "M(1,k)": [
+        {
+          "Q476167": "arithmetic-geometric mean",
+          "Q177239": "limit"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "169",
+      "dlmfId": "22.20#E6",
+      "math_inputtex_semantic": "\\ccompellintKk@@{k} = \\frac{\\cpi}{2 M(1,k)}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "z'": [
+        {
+          "Q1934165": "change of variables"
+        }
+      ],
+      "h": [
+        {
+          "Q12916": "real nummber",
+          "Q1413083": "parameter"
+        }
+      ],
+      "h'": [
+        {
+          "Q1934165": "change of variables"
+        }
+      ],
+      "\\nu": [
+        {
+          "Q12916": "real nummber",
+          "Q1413083": "parameter"
+        }
+      ],
+      "k": [
+        "elliptic modulus",
+        "modulus",
+        {
+          "Q12916": "real nummber"
+        }
+      ],
+      "w": [
+        "solution of differential equation",
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "170",
+      "dlmfId": "29.10#E3",
+      "math_inputtex_semantic": "\\deriv[2]{w}{z'} + (h' - \\nu (\\nu+1) (1-k^2) \\Jacobisn^2@{z'}{{\\sqrt{1-k^2}}}) w = 0"
+    }
+  },
+  {
+    "definitions": {
+      "k": [
+        "elliptic modulus",
+        "modulus",
+        {
+          "Q12916": "real nummber"
+        }
+      ],
+      "m": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "\\nu": [
+        {
+          "Q12916": "real number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "H_m": [
+        {
+          "Q21406831": "eigenvalue"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "171",
+      "dlmfId": "29.15#E37",
+      "math_inputtex_semantic": "\\Lameb{2m+1}{\\nu}@{k^2} = \\tfrac{1}{2} (H_m + \\nu (\\nu+1) k^2)"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        "degree",
+        {
+          "Q28920052": "non-negative number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\theta": [
+        {
+          "Q11352": "angle",
+          "Q12916": "real nummber"
+        }
+      ],
+      "k": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "172",
+      "dlmfId": "14.13#E4",
+      "math_inputtex_semantic": "\\FerrersQ{n}@{\\cos@@{\\theta}} = \\frac{2^{2n+1} (n!)^2}{(2n+1)!} \\* \\Sum{k}{0}{\\infty}@{\\frac{1 \\cdot 3 \\cdots (2k-1)}{k!} \\* \\frac{(n+1) (n+2) \\cdots (n+k)}{(2n+3) (2n+5) \\cdots (2n+2k+1)} \\* \\cos@{(n+2k+1)\\theta}}"
+    }
+  },
+  {
+    "definitions": {
+      "m": [
+        {
+          "Q28920052": "non-negative number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\xi": [
+        {
+          "Q3176558": "positive real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "173",
+      "dlmfId": "14.19#E7",
+      "math_inputtex_semantic": "\\LegendreP[m]{n-\\frac{1}{2}}@{\\cosh@@{\\xi}} = \\frac{\\EulerGamma@{n+m+\\tfrac{1}{2}}} {\\EulerGamma@{n-m+\\tfrac{1}{2}}} \\* \\left( \\frac{2}{\\cpi \\sinh@@{\\xi}} \\right)^{\\ifrac{1}{2}} \\LegendreBlackQ[n]{m-\\frac{1}{2}}@{\\coth@@{\\xi}}"
+    }
+  },
+  {
+    "definitions": {
+      "\\alpha": [
+        {
+          "Q12916": "real number",
+          "Q1934165": "change of variables"
+        }
+      ],
+      "\\eta": [
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "174",
+      "dlmfId": "14.20#E21",
+      "math_inputtex_semantic": "{\\left( \\alpha^2 + \\eta \\right)^{\\ifrac{1}{2}} + \\tfrac{1}{2} \\alpha \\ln@@{\\eta} - \\alpha \\ln@{\\left( \\alpha^2 + \\eta \\right)^{\\ifrac{1}{2}} + \\alpha}} = {\\acos@{\\frac{x}{\\left( 1 + \\alpha^2 \\right)^{\\ifrac{1}{2}}}} + \\frac{\\alpha}{2} \\ln@{\\frac{1 + \\alpha^2 + \\left( \\alpha^2 - 1 \\right) x^2 - 2 \\alpha x \\left( 1 + \\alpha^2 - x^2 \\right)^{\\ifrac{1}{2}}} {\\left( 1 + \\alpha^2 \\right) \\left( 1 - x^2 \\right)}}}"
+    }
+  },
+  {
+    "definitions": {
+      "\\xi": [
+        {
+          "Q12916": "real number",
+          "Q1934165": "change of variables",
+          "Q50701": "variable"
+        }
+      ],
+      "m": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1413083": "parameter"
+        }
+      ],
+      "U_m": [
+        {
+          "Q11348": "function"
+        }
+      ],
+      "h": [
+        {
+          "Q12916": "real number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\asympexp": [
+        "Poincaré asymptotic expansion",
+        {
+          "Q752726": "asymptotic expansion"
+        }
+      ]
+    },
+    "constraints": [],
+    "substitutions": {},
+    "formula": {
+      "qID": "175",
+      "dlmfId": "28.8#E4",
+      "math_inputtex_semantic": "U_m(\\xi) \\asympexp \\WhitD{m}@{\\xi} - \\frac{1}{2^6 h} \\left( \\WhitD{m+4}@{\\xi} - 4! \\dbinom{m}{4} \\WhitD{m-4}@{\\xi} \\right) + \\frac{1}{2^{13} h^2} \\left( \\WhitD{m+8}@{\\xi} - 2^5 (m + 2) \\WhitD{m+4}@{\\xi} + 4!\\, 2^5 (m - 1) \\dbinom{m}{4} \\WhitD{m-4}@{\\xi} + 8! \\binom{m}{8} \\WhitD{m-8}@{\\xi} \\right) + \\cdots,"
+    }
+  },
+  {
+    "definitions": {
+      "m": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "p": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "\\xi": [
+        {
+          "Q12916": "real number",
+          "Q1934165": "change of variables",
+          "Q50701": "variable"
+        }
+      ],
+      "x": [
+        "fixed value",
+        {
+          "Q12916": "real number"
+        }
+      ],
+      "S_p^m(x,\\xi)": [
+        "Ince polynomials",
+        "Solution of Whittaker–Hill equation"
+      ],
+      "\\to": [
+        {
+          "Q179436": "asymptote"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "176",
+      "dlmfId": "28.31#E13",
+      "math_inputtex_semantic": "S_p^m(x,\\xi) \\to \\sin@{mx}"
+    }
+  },
+  {
+    "definitions": {
+      "\\Vector{\\eta}^k": [
+        {
+          "Q189112": "isomorphism",
+          "Q1657198": "set function",
+          "Q11348": "function",
+          "Q44528": "vector"
+        }
+      ],
+      "T_k": [
+        {
+          "Q177646": "subset",
+          "Q36161": "set"
+        }
+      ],
+      "\\cap": [
+        {
+          "Q185837": "intersection"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "177",
+      "dlmfId": "21.7#E16",
+      "math_inputtex_semantic": "4 ( \\Vector{\\eta}^1(T_1) \\cdot \\Vector{\\eta}^2(T_2) - \\Vector{\\eta}^2(T_1) \\cdot \\Vector{\\eta}^1(T_2) ) = |T_1 \\cap T_2| \\pmod{2}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q1667469": "prime power",
+          "Q28920044": "positive integer"
+        }
+      ],
+      "p": [
+        {
+          "Q49008": "prime number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "178",
+      "dlmfId": "27.2#E14",
+      "math_inputtex_semantic": "\\MangoldtLambda@{n} = \\ln@@{p}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        "index of summation",
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "f(n)": [
+        {
+          "Q5156533": "completely multiplicative function",
+          "Q1048447": "multiplicative function",
+          "Q11348": "function"
+        }
+      ],
+      "p": [
+        "index of multiplication",
+        {
+          "Q49008": "prime number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "179",
+      "dlmfId": "27.4#E2",
+      "math_inputtex_semantic": "\\Sum{n}{1}{\\infty}@{f(n)} = \\prod_p (1 - f(p))^{-1}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "k": [
+        {
+          "Q28920044": "positive integer",
+          "Q1738991": "index number"
+        }
+      ],
+      "x_k": [
+        {
+          "Q12916": "real number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "180",
+      "dlmfId": "27.13#E3",
+      "math_inputtex_semantic": "n = x_1^2 + x_2^2 + \\dots + x_k^2"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "181",
+      "dlmfId": "18.5#E15",
+      "math_inputtex_semantic": "\\ChebyU{4}@{x} = 16x^4 - 12x^2 + 1"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\lambda": [
+        {
+          "Q3176558": "positive real number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "182",
+      "dlmfId": "18.14#E7",
+      "math_inputtex_semantic": "{(n + \\lambda)^{1-\\lambda} (1 - x^2)^{\\frac{1}{2} \\lambda} |\\Ultraspherical{\\lambda}{n}@{x}| < \\frac{2^{1-\\lambda}}{\\EulerGamma@{\\lambda}}}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "y": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "n": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "183",
+      "dlmfId": "18.17#E21",
+      "math_inputtex_semantic": "\\int_0^1 \\LegendrePoly{n}@{1-2x^2} \\sin@{xy} \\diff{x} = \\tfrac{1}{2}\\cpi \\left( \\BesselJ{n+\\frac{1}{2}}@{\\tfrac{1}{2}y} \\right)^2"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative integer",
+          "Q1413083": "parameter"
+        }
+      ],
+      "\\ell": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer",
+          "Q1413083": "parameter"
+        }
+      ],
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "184",
+      "dlmfId": "18.18#E31",
+      "math_inputtex_semantic": "\\Sum{\\ell}{0}{n}@{\\ChebyT{\\ell}@{x} x^{n-\\ell}} = \\ChebyU{n}@{x}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        "degree",
+        {
+          "Q28920052": "non-negative integer",
+          "Q1413083": "parameter"
+        }
+      ],
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "p_n(x)": [
+        "polynomial of degree n",
+        {
+          "Q43260": "polynomial"
+        }
+      ],
+      "a_k": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "185",
+      "dlmfId": "18.25#E3",
+      "math_inputtex_semantic": "p_n(x) = \\WilsonW{n}@{x}{a_1}{a_2}{a_3}{a_4}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "t": [
+        {
+          "Q18729403": "non-negative real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "186",
+      "dlmfId": "12.5#E3",
+      "math_inputtex_semantic": "\\ParabolicU@{a}{z} = \\frac{\\expe^{-\\frac{1}{4}z^2}}{\\EulerGamma@{\\frac{3}{4}+\\frac{1}{2}a}} \\* \\int_0^\\infty t^{\\frac{1}{2}a - \\frac{1}{4}} \\expe^{-t} \\left( z^2 + 2t \\right)^{-\\frac{1}{2}a-\\frac{1}{4}} \\diff{t}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q1413083": "parameter"
+        }
+      ],
+      "w_1(a,x)": [
+        "even solution of differential equation"
+      ]
+    },
+    "formula": {
+      "qID": "187",
+      "dlmfId": "12.14#E15",
+      "math_inputtex_semantic": "w_1(a,x) = \\expe^{-\\frac{1}{4} \\iunit x^2} \\KummerM@{\\tfrac{1}{4} - \\tfrac{1}{2}\\iunit a}{\\tfrac{1}{2}}{\\tfrac{1}{2} \\iunit x^2} = \\expe^{\\frac{1}{4} \\iunit x^2} \\KummerM@{\\tfrac{1}{4} + \\tfrac{1}{2}\\iunit a}{\\tfrac{1}{2}}{-\\tfrac{1}{2} \\iunit x^2} ,"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\zeta": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\epsilon": [
+        {
+          "Q12916": "real number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "188",
+      "dlmfId": "32.2#E31",
+      "math_inputtex_semantic": "z = 2^{\\ifrac{-2}{3}} \\epsilon \\zeta - \\epsilon^{-3}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\zeta": [
+        {
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "189",
+      "dlmfId": "32.2#E33",
+      "math_inputtex_semantic": "z = \\zeta^2"
+    }
+  },
+  {
+    "definitions": {
+      "\\theta_{\\infty}": [
+        {
+          "Q188248": "constant"
+        }
+      ],
+      "z": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "v_k": [
+        {
+          "Q11348": "function"
+        }
+      ],
+      "v_k'": [
+        {
+          "Q29175": "derivative"
+        }
+      ],
+      "u_k": [
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "190",
+      "dlmfId": "32.4#E13",
+      "math_inputtex_semantic": "z v_1' = 2u_0 - 2u_1 v_1^2 - \\theta_{\\infty} v_1"
+    }
+  },
+  {
+    "definitions": {
+      "\\zeta": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\alpha_0": [
+        {
+          "Q188248": "constant",
+          "Q1934165": "change of variables"
+        }
+      ],
+      "\\beta_0": [
+        {
+          "Q188248": "constant",
+          "Q1934165": "change of variables"
+        }
+      ],
+      "\\gamma_0": [
+        {
+          "Q188248": "constant",
+          "Q1934165": "change of variables"
+        }
+      ],
+      "\\delta_0": [
+        {
+          "Q188248": "constant",
+          "Q1934165": "change of variables"
+        }
+      ],
+      "v": [
+        {
+          "Q11567": "complex number",
+          "Q1934165": "change of variables"
+        }
+      ],
+      "W(\\zeta;\\alpha_0,\\beta_0,\\gamma_0,\\delta_0)": [
+        "transformation"
+      ]
+    },
+    "formula": {
+      "qID": "191",
+      "dlmfId": "32.7#E31",
+      "math_inputtex_semantic": "W(\\zeta;\\alpha_0,\\beta_0,\\gamma_0,\\delta_0) = \\frac{v-1}{v+1}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "q": [
+        "complex base",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "a": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "b": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "c": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "192",
+      "dlmfId": "17.7#E4",
+      "math_inputtex_semantic": "\\qHyperrphis{3}{2}@@{a,b,q^{-n}}{c, \\ifrac{abq^{1-n}}{c}}{q}{q} = \\frac{\\qMultiPochhammer{\\ifrac{c}{a},\\ifrac{c}{b}}{q}{n}} {\\qMultiPochhammer{c,\\ifrac{c}{(ab)}}{q}{n}}",
+      "title": "q-Pfaff-Saalschütz_sum"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        "index of summation",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "q": [
+        "complex base",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "a": [
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "\\alpha_n": [
+        {
+          "Q4848398": "Bailey pair"
+        }
+      ],
+      "\\beta_n": [
+        {
+          "Q4848398": "Bailey pair"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "193",
+      "dlmfId": "17.12#E4",
+      "math_inputtex_semantic": "\\Sum{n}{0}{\\infty}@{q^{n^2} a^n \\beta_n} = \\frac{1}{\\qPochhammer{aq}{q}{\\infty}} \\Sum{n}{0}{\\infty}@{q^{n^2} a^n \\alpha_n}"
+    }
+  },
+  {
+    "definitions": {
+      "n": [
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "j": [
+        "index of multiplication",
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "k": [
+        "index of multiplication",
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "a_k": [
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "q": [
+        "complex base",
+        {
+          "Q11567": "complex number"
+        }
+      ],
+      "x_k": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "194",
+      "dlmfId": "17.14#E1",
+      "math_inputtex_semantic": "\\frac{\\qPochhammer{q}{q}{a_1+a_2+\\cdots+ a_n}} {\\qPochhammer{q}{q}{a_1} \\qPochhammer{q}{q}{a_2} \\cdots \\qPochhammer{q}{q}{a_n}} = \\mbox{ coeff. of } x_1^0 x_2^0 \\cdots x_n^0 \\mbox{ in } \\prod_{1 \\leq j < k \\leq n} \\qPochhammer{\\frac{x_j}{x_k}}{q}{a_j} \\qPochhammer{\\frac{qx_k}{x_j}}{q}{a_k}",
+      "title": "Zeilberger-Bressoud_theorem"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "\\tau": [
+        {
+          "Q625641": "lattice parameter"
+        }
+      ],
+      "j": [
+        "index of summation",
+        {
+          "Q28920044": "positive integer"
+        }
+      ],
+      "\\beta_{2j}(\\tau)": [
+        {
+          "Q50700": "coefficient",
+          "Q11348": "function"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "195",
+      "dlmfId": "20.6#E4",
+      "math_inputtex_semantic": "\\JacobiThetaTau{3}@{\\cpi z}{\\tau} = \\JacobiThetaTau{3}@{0}{\\tau} \\exp@{-\\Sum{j}{1}{\\infty}@{\\frac{1}{2j} \\beta_{2j}(\\tau) z^{2j}}}"
+    }
+  },
+  {
+    "definitions": {
+      "z": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ],
+      "q": [
+        "nome",
+        {
+          "Q11567": "complex number"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "196",
+      "dlmfId": "20.7#E10",
+      "math_inputtex_semantic": "\\JacobiTheta{1}@{2z}{q} = 2 \\frac{\\JacobiTheta{1}@{z}{q} \\JacobiTheta{2}@{z}{q} \\JacobiTheta{3}@{z}{q} \\JacobiTheta{4}@{z}{q}} {\\JacobiTheta{2}@{0}{q} \\JacobiTheta{3}@{0}{q} \\JacobiTheta{4}@{0}{q}}"
+    }
+  },
+  {
+    "definitions": {
+      "\\tau": [
+        {
+          "Q625641": "lattice parameter"
+        }
+      ],
+      "A": [
+        {
+          "Q11348": "function"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "197",
+      "dlmfId": "20.7#E15",
+      "math_inputtex_semantic": "A \\equiv A(\\tau) = \\ifrac{1}{\\JacobiThetaTau{4}@{0}{2\\tau}}"
+    }
+  },
+  {
+    "definitions": {
+      "j_k": [
+        "angular momentum",
+        "half-odd integer",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "m_k": [
+        "projective quantum numbers",
+        "half-odd integer",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "198",
+      "dlmfId": "34.3#E10",
+      "math_inputtex_semantic": "\\threej@{j_1}{j_2}{j_3}{m_1}{m_2}{m_3} = (-1)^{j_{1}+j_{2}+j_{3}} \\threej@{j_1}{j_2}{j_3}{-m_1}{-m_2}{-m_3}"
+    }
+  },
+  {
+    "definitions": {
+      "j_k": [
+        "angular momentum",
+        "half-odd integer",
+        {
+          "Q28920052": "non-negative integer"
+        }
+      ],
+      "J": [
+        "sum of angular momenta",
+        {
+          "Q218005": "sum"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "199",
+      "dlmfId": "34.5#E3",
+      "math_inputtex_semantic": "\\sixj@{ j_{1} }{ j_{2} }{ j_{3} }{ \\frac{1}{2} }{ j_{3}-\\frac{1}{2} }{ j_{2}-\\frac{1}{2} } =(-1)^{J} \\left(\\frac{(j_{2}+j_{3}-j_{1})(j_{1}+j_{2}+j_{3}+1)} {2j_{2}(2j_{2}+1)2j_{3}(2j_{3}+1)}\\right)^{\\frac{1}{2}}"
+    }
+  },
+  {
+    "definitions": {
+      "x": [
+        {
+          "Q12916": "real number",
+          "Q50701": "variable"
+        }
+      ],
+      "s": [
+        {
+          "Q11567": "complex number",
+          "Q50701": "variable"
+        }
+      ]
+    },
+    "formula": {
+      "qID": "200",
+      "dlmfId": "25.13#E2",
+      "math_inputtex_semantic": "\\PeriodicZeta@{x}{s} = \\frac{\\EulerGamma@{1-s}}{(2 \\cpi)^{1-s}} \\* \\left( \\expe^{\\cpi \\iunit \\ifrac{(1-s)}{2}} \\HurwitzZeta@{1-s}{x} + \\expe^{\\cpi \\iunit \\ifrac{(s-1)}{2}} \\HurwitzZeta@{1-s}{1-x} \\right)"
+    }
+  }
+]
