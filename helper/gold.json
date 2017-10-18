@@ -1,5 +1,5 @@
-{
-  "1": {
+[
+  {
     "definitions": {
       "W": [
         {
@@ -25,7 +25,7 @@
       "title": "Van_der_Waerden's_theorem"
     }
   },
-  "2": {
+  {
     "definitions": {
       "X": [
         {
@@ -46,7 +46,7 @@
       "title": "Bounded_variation"
     }
   },
-  "3": {
+  {
     "definitions": {
       "p": [
         {
@@ -67,7 +67,7 @@
       "title": "Lindemann–Weierstrass_theorem"
     }
   },
-  "4": {
+  {
     "definitions": {
       "f_{c}": [
         {
@@ -96,7 +96,7 @@
       "title": "Orbit_portrait"
     }
   },
-  "5": {
+  {
     "definitions": {
       "x": [
         {
@@ -128,7 +128,7 @@
       "title": "First-order_logic"
     }
   },
-  "6": {
+  {
     "definitions": {
       "\\alpha": [
         {
@@ -149,7 +149,7 @@
       "title": "Clenshaw_algorithm"
     }
   },
-  "7": {
+  {
     "definitions": {
       "\\alpha": [
         {
@@ -171,7 +171,7 @@
       "title": "Isolation_lemma"
     }
   },
-  "8": {
+  {
     "definitions": {
       "\\alpha": [
         "exponent (of the Hölder condition)",
@@ -193,7 +193,7 @@
       "title": "Singularity_spectrum"
     }
   },
-  "9": {
+  {
     "definitions": {
       "\\Psi": [
         {
@@ -248,7 +248,7 @@
       "title": "Time-evolving_block_decimation"
     }
   },
-  "10": {
+  {
     "definitions": {
       "z": [
         {
@@ -274,7 +274,7 @@
       "title": "Monoidal_t-norm_logic"
     }
   },
-  "11": {
+  {
     "definitions": {
       "x": [
         {
@@ -295,7 +295,7 @@
       "title": "Differentiation_rules"
     }
   },
-  "12": {
+  {
     "definitions": {
       "\\theta": [
         {
@@ -316,7 +316,7 @@
       "title": "Fermat's_spiral"
     }
   },
-  "13": {
+  {
     "definitions": {
       "s_{V}": [
         "Kemeny-Young score"
@@ -335,7 +335,7 @@
       "title": "Consistency_criterion"
     }
   },
-  "14": {
+  {
     "definitions": {
       "\\ell": [
         {
@@ -356,7 +356,7 @@
       "title": "Basis_(universal_algebra)"
     }
   },
-  "15": {
+  {
     "definitions": {
       "b": [
         {
@@ -377,7 +377,7 @@
       "title": "Adequality"
     }
   },
-  "16": {
+  {
     "definitions": {
       "\\omega_{k}": [
         {
@@ -393,7 +393,7 @@
       "title": "Mason–Weaver_equation"
     }
   },
-  "17": {
+  {
     "definitions": {
       "\\mathbf{m}_{1}": [
         "class mean",
@@ -410,7 +410,7 @@
       "title": "Kernel_Fisher_discriminant_analysis"
     }
   },
-  "18": {
+  {
     "definitions": {
       "r_{ij}": [
         {
@@ -426,7 +426,7 @@
       "title": "Implicit_solvation"
     }
   },
-  "19": {
+  {
     "definitions": {
       "Z": [
         "canonical partition function",
@@ -465,7 +465,7 @@
       "title": "Partition_function_(statistical_mechanics)"
     }
   },
-  "20": {
+  {
     "definitions": {
       "S'": [
         "tristimulus values"
@@ -479,7 +479,7 @@
       "title": "Color_balance"
     }
   },
-  "21": {
+  {
     "definitions": {
       "S'": [
         {
@@ -499,7 +499,7 @@
       "title": "Hilbert's_theorem_(differential_geometry)"
     }
   },
-  "22": {
+  {
     "definitions": {
       "k": [
         {
@@ -530,7 +530,7 @@
       "title": "Mayer–Vietoris_sequence"
     }
   },
-  "23": {
+  {
     "definitions": {
       "D": [
         "relative graphlet frequency distance"
@@ -567,7 +567,7 @@
       "title": "Graphlets"
     }
   },
-  "24": {
+  {
     "definitions": {
       "E_{\\mathrm{k}}": [
         "total kinetic energy",
@@ -594,7 +594,7 @@
       "title": "Kinetic_energy"
     }
   },
-  "25": {
+  {
     "definitions": {
       "\\lambda": [
         "length",
@@ -628,7 +628,7 @@
       "title": "Lattice_problem"
     }
   },
-  "26": {
+  {
     "definitions": {
       "L": [
         "weighted path length"
@@ -652,7 +652,7 @@
       "title": "Huffman_coding"
     }
   },
-  "27": {
+  {
     "definitions": {
       "v": [
         {
@@ -678,7 +678,7 @@
       "title": "Dispersion_(optics)"
     }
   },
-  "28": {
+  {
     "definitions": {
       "\\sigma_{y}": [
         "Allan deviation",
@@ -706,7 +706,7 @@
       "title": "Allan_variance"
     }
   },
-  "29": {
+  {
     "definitions": {
       "R_{\\text{s normal}}": [
         "surface resistance"
@@ -731,7 +731,7 @@
       "title": "Superconducting_radio_frequency"
     }
   },
-  "30": {
+  {
     "definitions": {
       "\\phi_{1}": [
         "phase-range"
@@ -745,7 +745,7 @@
       "title": "Vienna_rectifier"
     }
   },
-  "31": {
+  {
     "definitions": {
       "T_{c}": [
         {
@@ -761,7 +761,7 @@
       "title": "Modigliani–Miller_theorem"
     }
   },
-  "32": {
+  {
     "definitions": {
       "T_{c}": [
         "critical Temperature",
@@ -778,7 +778,7 @@
       "title": "Proximity_effect_(superconductivity)"
     }
   },
-  "33": {
+  {
     "definitions": {
       "T_{c}": [
         "critical surface",
@@ -795,7 +795,7 @@
       "title": "Multicritical_point"
     }
   },
-  "34": {
+  {
     "definitions": {
       "P_{1}": [
         {
@@ -826,7 +826,7 @@
       "title": "Jenkins–Traub_algorithm"
     }
   },
-  "35": {
+  {
     "definitions": {
       "k": [
         {
@@ -847,7 +847,7 @@
       "title": "Doomsday_argument"
     }
   },
-  "36": {
+  {
     "definitions": {
       "n": [
         {
@@ -881,7 +881,7 @@
       "title": "Divisor_function"
     }
   },
-  "37": {
+  {
     "definitions": {
       "H": [
         "system function",
@@ -920,7 +920,7 @@
       "title": "LTI_system_theory"
     }
   },
-  "38": {
+  {
     "definitions": {
       "\\pi": [
         {
@@ -936,7 +936,7 @@
       "title": "Phase-shift_keying"
     }
   },
-  "39": {
+  {
     "definitions": {
       "x": [
         {
@@ -967,7 +967,7 @@
       "title": "Binomial_theorem"
     }
   },
-  "40": {
+  {
     "definitions": {
       "A": [
         {
@@ -991,7 +991,7 @@
       "title": "Rate_equation"
     }
   },
-  "41": {
+  {
     "definitions": {
       "q": [
         {
@@ -1007,7 +1007,7 @@
       "title": "Martingale_(betting_system)"
     }
   },
-  "42": {
+  {
     "definitions": {
       "\\alpha": [
         {
@@ -1033,7 +1033,7 @@
       "title": "Borsuk's_conjecture"
     }
   },
-  "43": {
+  {
     "definitions": {
       "f^{\\mu}": [
         "4-acceleration"
@@ -1105,7 +1105,7 @@
       "title": "Theoretical_motivation_for_general_relativity"
     }
   },
-  "44": {
+  {
     "definitions": {
       "u_{g}": [
         "velocity field"
@@ -1142,7 +1142,7 @@
       "title": "Q-Vectors"
     }
   },
-  "45": {
+  {
     "definitions": {
       "I_{c}": [
         "neighbors indices"
@@ -1156,7 +1156,7 @@
       "title": "Stencil_code"
     }
   },
-  "46": {
+  {
     "definitions": {
       "A": [
         "general multivector"
@@ -1181,7 +1181,7 @@
       "title": "Geometric_algebra"
     }
   },
-  "47": {
+  {
     "definitions": {
       "\\Gamma_{\\infty}": [
         "undiscounted game",
@@ -1198,7 +1198,7 @@
       "title": "Stochastic_game"
     }
   },
-  "48": {
+  {
     "definitions": {
       "Y": [
         "hypercharge"
@@ -1230,7 +1230,7 @@
       "title": "331_model"
     }
   },
-  "49": {
+  {
     "definitions": {
       "\\mu": [
         "function"
@@ -1247,7 +1247,7 @@
       "title": "Sigma_additivity"
     }
   },
-  "50": {
+  {
     "definitions": {
       "\\lambda_{in}": [
         "inner sphere reorganisation energy"
@@ -1261,7 +1261,7 @@
       "title": "Marcus_theory"
     }
   },
-  "51": {
+  {
     "definitions": {
       "\\mathrm{rpm}_{\\text{motor}}": [
         {
@@ -1277,7 +1277,7 @@
       "title": "Centrifugal_fan"
     }
   },
-  "52": {
+  {
     "definitions": {
       "u_{1}": [
         "control"
@@ -1341,7 +1341,7 @@
       "title": "Backstepping"
     }
   },
-  "53": {
+  {
     "definitions": {
       "E": [
         {
@@ -1370,7 +1370,7 @@
       "title": "Stochastic_volatility"
     }
   },
-  "54": {
+  {
     "definitions": {
       "\\mathsf{fv}": [
         "free variable set"
@@ -1384,7 +1384,7 @@
       "title": "Separation_logic"
     }
   },
-  "55": {
+  {
     "definitions": {
       "x": [
         "x coordinate"
@@ -1404,7 +1404,7 @@
       "title": "Image_moment"
     }
   },
-  "56": {
+  {
     "definitions": {
       "\\boldsymbol{F}_{r}": [
         {
@@ -1420,7 +1420,7 @@
       "title": "Geostrophic_wind"
     }
   },
-  "57": {
+  {
     "definitions": {
       "B": [
         "R-module",
@@ -1443,7 +1443,7 @@
       "title": "Ext_functor"
     }
   },
-  "58": {
+  {
     "definitions": {
       "Y": [
         "direction"
@@ -1478,7 +1478,7 @@
       "title": "Covariant_derivative"
     }
   },
-  "59": {
+  {
     "definitions": {
       "n": [
         {
@@ -1520,7 +1520,7 @@
       "title": "Anderson_localization"
     }
   },
-  "60": {
+  {
     "definitions": {
       "x": [
         "distance",
@@ -1549,7 +1549,7 @@
       "title": "Trajectory_of_a_projectile"
     }
   },
-  "61": {
+  {
     "definitions": {
       "z": [
         {
@@ -1570,7 +1570,7 @@
       "title": "Cusp_neighborhood"
     }
   },
-  "62": {
+  {
     "definitions": {
       "T": [
         {
@@ -1597,7 +1597,7 @@
       "title": "Spectrum_(functional_analysis)"
     }
   },
-  "63": {
+  {
     "definitions": {
       "y": [
         "y dimension"
@@ -1632,7 +1632,7 @@
       "title": "Multivariate_normal_distribution"
     }
   },
-  "64": {
+  {
     "definitions": {
       "x": [
         "variable"
@@ -1649,7 +1649,7 @@
       "title": "Algebraically_closed_group"
     }
   },
-  "65": {
+  {
     "definitions": {
       "H": [
         {
@@ -1668,7 +1668,7 @@
       "title": "Analytic_capacity"
     }
   },
-  "66": {
+  {
     "definitions": {
       "P_{i}": [
         "Plain text"
@@ -1694,7 +1694,7 @@
       "title": "Block_cipher_mode_of_operation"
     }
   },
-  "67": {
+  {
     "definitions": {
       "f": [
         {
@@ -1716,7 +1716,7 @@
       "title": "Partial_derivative"
     }
   },
-  "68": {
+  {
     "definitions": {
       "P_{x}": [
         "poset"
@@ -1747,7 +1747,7 @@
       "title": "Poset_game"
     }
   },
-  "69": {
+  {
     "definitions": {
       "\\eta": [
         {
@@ -1773,7 +1773,7 @@
       "title": "Engine_efficiency"
     }
   },
-  "70": {
+  {
     "definitions": {
       "f": [
         {
@@ -1809,7 +1809,7 @@
       "title": "Legendre_transformation"
     }
   },
-  "71": {
+  {
     "definitions": {
       "h_{r,s}": [
         "channel from the source to the relay node"
@@ -1823,7 +1823,7 @@
       "title": "Cooperative_diversity"
     }
   },
-  "72": {
+  {
     "definitions": {
       "k": [
         {
@@ -1857,7 +1857,7 @@
       "title": "Algebraic_K-theory"
     }
   },
-  "73": {
+  {
     "definitions": {
       "C": [
         "1-cycles"
@@ -1877,7 +1877,7 @@
       "title": "Cone_of_curves"
     }
   },
-  "74": {
+  {
     "definitions": {
       "\\Theta": [
         {
@@ -1896,7 +1896,7 @@
       "title": "Geometrothermodynamics"
     }
   },
-  "75": {
+  {
     "definitions": {
       "\\rho": [
         {
@@ -1920,7 +1920,7 @@
       "title": "Darcy's_law"
     }
   },
-  "76": {
+  {
     "definitions": {
       "z_{t}": [
         {
@@ -1949,7 +1949,7 @@
       "title": "Unit_root"
     }
   },
-  "77": {
+  {
     "definitions": {
       "b_{3}": [
         {
@@ -1965,7 +1965,7 @@
       "title": "Drucker–Prager_yield_criterion"
     }
   },
-  "78": {
+  {
     "definitions": {
       "b_{3}": [
         {
@@ -1981,7 +1981,7 @@
       "title": "Antiplane_shear"
     }
   },
-  "79": {
+  {
     "definitions": {
       "W": [
         {
@@ -2017,7 +2017,7 @@
       "title": "Table_of_thermodynamic_equations"
     }
   },
-  "80": {
+  {
     "definitions": {
       "f": [
         {
@@ -2043,7 +2043,7 @@
       "title": "Fulton–Hansen_connectedness_theorem"
     }
   },
-  "81": {
+  {
     "definitions": {
       "t": [
         {
@@ -2064,7 +2064,7 @@
       "title": "E_(mathematical_constant)"
     }
   },
-  "82": {
+  {
     "definitions": {
       "h_{i}": [
         "classifier"
@@ -2083,7 +2083,7 @@
       "title": "BrownBoost"
     }
   },
-  "83": {
+  {
     "definitions": {
       "\\mathrm{seqs}": [
         "Number of sequences",
@@ -2100,7 +2100,7 @@
       "title": "List_of_RNA_structure_prediction_software"
     }
   },
-  "84": {
+  {
     "definitions": {
       "F": [
         "set"
@@ -2139,7 +2139,7 @@
       "title": "Projections_onto_convex_sets"
     }
   },
-  "85": {
+  {
     "definitions": {
       "X_{i}": [
         {
@@ -2165,7 +2165,7 @@
       "title": "Almost_surely"
     }
   },
-  "86": {
+  {
     "definitions": {
       "L": [
         {
@@ -2198,7 +2198,7 @@
       "title": "Lagrangian_mechanics"
     }
   },
-  "87": {
+  {
     "definitions": {
       "x_{7}": [
         {
@@ -2214,7 +2214,7 @@
       "title": "Near_sets"
     }
   },
-  "88": {
+  {
     "definitions": {
       "\\Pi_{n}": [
         {
@@ -2230,7 +2230,7 @@
       "title": "Polynomial_interpolation"
     }
   },
-  "89": {
+  {
     "definitions": {
       "\\sigma": [
         {
@@ -2259,7 +2259,7 @@
       "title": "Mutual_fund_separation_theorem"
     }
   },
-  "90": {
+  {
     "definitions": {
       "\\mathbb{R}": [
         {
@@ -2304,7 +2304,7 @@
       "title": "Coarea_formula"
     }
   },
-  "91": {
+  {
     "definitions": {
       "x": [
         "x coordinate"
@@ -2327,7 +2327,7 @@
       "title": "Dirac_bracket"
     }
   },
-  "92": {
+  {
     "definitions": {
       "G_{k,\\sigma}": [
         "substitution"
@@ -2356,7 +2356,7 @@
       "title": "Pickands–Balkema–de_Haan_theorem"
     }
   },
-  "93": {
+  {
     "definitions": {
       "L": [
         "spaces of operators"
@@ -2382,7 +2382,7 @@
       "title": "Quantum_channel"
     }
   },
-  "94": {
+  {
     "definitions": {
       "\\pi_{i}": [
         "equilibrium distribution"
@@ -2402,7 +2402,7 @@
       "title": "Ehrenfest_model"
     }
   },
-  "95": {
+  {
     "definitions": {
       "p_{1}": [
         {
@@ -2423,7 +2423,7 @@
       "title": "Fidelity_of_quantum_states"
     }
   },
-  "96": {
+  {
     "definitions": {
       "\\boldsymbol{s}": [
         "deviatoric part"
@@ -2437,7 +2437,7 @@
       "title": "Yield_surface"
     }
   },
-  "97": {
+  {
     "definitions": {
       "J": [
         {
@@ -2464,7 +2464,7 @@
       "title": "Non-linear_least_squares"
     }
   },
-  "98": {
+  {
     "definitions": {
       "\\bar{V}": [
         "smallest g"
@@ -2478,7 +2478,7 @@
       "title": "Markov_decision_process"
     }
   },
-  "99": {
+  {
     "definitions": {
       "n": [
         "integer"
@@ -2495,7 +2495,7 @@
       "title": "Hilbert_series_and_Hilbert_polynomial"
     }
   },
-  "100": {
+  {
     "definitions": {
       "y_{k}": [
         "convolution"
@@ -2512,4 +2512,4 @@
       "title": "Overlap–add_method"
     }
   }
-}
+]
