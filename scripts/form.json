@@ -1,8 +1,8 @@
 [
-"*",
+  "*",
   {
     "type": "submit",
     "style": "btn-info",
-    "title": "OK2"
+    "title": "Submit to GitHub!"
   }
 ]

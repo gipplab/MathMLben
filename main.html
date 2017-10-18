@@ -1,28 +1,35 @@
 <!doctype html>
 <html data-ng-app="gouldiApp">
-	<head>
-		<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
-		<script type="text/javascript" src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
-		<script type="text/javascript" src="node_modules/tv4/tv4.js"></script>
-		<script type="text/javascript" src="node_modules/objectpath/lib/ObjectPath.js"></script>
-		<script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
-		<script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
-		<script src="scripts/angularGouldi.js"></script>
-	</head>
-	<body>
-		<div data-ng-controller="FormController">
-			<form data-sf-schema="schema"
-				  data-sf-form="form"
-				  data-sf-model="model"
-				  data-ng-submit="onSave(repo)"></form>
-			and here is the second div
-			<form name="repo"
-				  data-sf-schema="schemarepo"
-				  data-sf-form="formrepo"
-				  data-sf-model="modelrepo"
-				  data-ng-submit="onSubmit(repo)"></form>
-
-		</div>
-		<div id="ast" style="height:700px; width:700px"></div>
-	</body>
+<head>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="node_modules/tv4/tv4.js"></script>
+    <script type="text/javascript" src="node_modules/objectpath/lib/ObjectPath.js"></script>
+    <script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
+    <script src="scripts/angularGouldi.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/basic.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="info-panel">
+        <div data-ng-controller="FormController">
+            <form name="gold-elements"
+                  data-sf-schema="schema"
+                  data-sf-form="form"
+                  data-sf-model="model"
+                  data-ng-submit="onSave(repo)"></form>
+            <form name="repo"
+                  data-sf-schema="schemarepo"
+                  data-sf-form="formrepo"
+                  data-sf-model="modelrepo"
+                  data-ng-submit="onSubmit(repo)"></form>
+        </div>
+    </div>
+    <div class="tree-panel">
+        <div id="ast" style="height:700px; width:700px"></div>
+    </div>
+</div>
+</body>
 </html>

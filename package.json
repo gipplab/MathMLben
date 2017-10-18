@@ -26,6 +26,7 @@
     "angular-schema-form": "^0.8.13",
     "angular-schema-form-bootstrap": "^0.2.0",
     "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-beta",
     "express": "^4.16.2",
     "github-base": "^0.5.4",
     "github-change-remote-file": "^4.2.0",

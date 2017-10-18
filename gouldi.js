@@ -21,6 +21,7 @@ app.use(function (req, res, next) {
 
 app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
 app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
+app.use('/styles', express.static(path.join(__dirname + '/styles')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));

@@ -1,0 +1,21 @@
+.wrapper{
+    position: relative;
+    margin: 10px;
+}
+
+.info-panel,.tree-panel{
+    width: 50%;
+    position: absolute;
+}
+
+.info-panel{
+    left: 0;
+}
+
+.tree-panel{
+    right: 0;
+}
+
+label {
+    margin-bottom: 0;
+}
