@@ -1,8 +1,31 @@
 [
-  "*",
+  "qID",
+  {
+    "type": "section",
+    "htmlClass": "row",
+    "items": [
+      {
+        "type": "section",
+        "htmlClass": "col",
+        "items": [
+          "formula-name"
+        ]
+      },
+      {
+        "type": "section",
+        "htmlClass": "col",
+        "items": [
+          "formula-type"
+        ]
+      }
+    ]
+  },
+  "correct-tex",
+  "uri",
+  "definitions",
   {
     "type": "submit",
     "style": "btn-info",
-    "title": "Submit to GitHub!"
+    "title": "Push to Gold Standard!"
   }
 ]

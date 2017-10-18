@@ -3,24 +3,31 @@
   "title": "Types",
   "properties": {
     "owner": {
+      "title": "Repository Owner",
       "type": "string",
       "default":"physikerwelt"
     },
     "repo": {
+      "title": "Repository Name",
       "type": "string",
       "default":"tmptest"
     },
     "filename": {
+      "title": "Filename in Repository",
       "type":"string",
       "default": "gold.json"
     },
     "token": {
+      "title": "Access Token for GitHub",
       "type":"string",
       "default": ""
     },
     "itemid": {
+      "title": "Gold Standard ID",
       "type":"integer",
-      "default": 0
+      "default": 1,
+      "minimum": 1,
+      "maximum": 200
     }
   },
   "required": [
