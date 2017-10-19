@@ -2,12 +2,12 @@
   "title": "The Gold Standard",
   "type": "object",
   "properties": {
-    "formula-name": {
+    "title": {
       "title": "Formula Name",
       "type": "string",
       "default": "unknown"
     },
-    "formula-type": {
+    "type": {
       "title": "Formula Type",
       "type": "string",
       "enum": [
@@ -17,7 +17,7 @@
         "general formula"
       ]
     },
-    "correct-tex": {
+    "correct_tex": {
       "title": "TeX Input",
       "type": "string",
       "default": ""

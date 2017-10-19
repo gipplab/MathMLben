@@ -7,19 +7,21 @@
         "type": "section",
         "htmlClass": "col-md-6",
         "items": [
-          "formula-name"
+          "title"
         ]
       },
       {
         "type": "section",
         "htmlClass": "col-md-6",
         "items": [
-          "formula-type"
+          "type"
         ]
       }
     ]
   },
-  "correct-tex",
+  {
+   "key": "correct_tex","onChange": "updated(modelValue,form)"
+  },
   "uri",
   {
     "type": "section",
