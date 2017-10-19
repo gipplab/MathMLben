@@ -35,6 +35,8 @@
     "librsvg": "^0.7.0",
     "mathoid": "^0.7.0-alpha1",
     "popper.js": "^1.12.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "vmext": "^1.0.2"
   }
 }
