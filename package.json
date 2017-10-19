@@ -26,12 +26,15 @@
     "angular-schema-form": "^0.8.13",
     "angular-schema-form-bootstrap": "^0.2.0",
     "body-parser": "^1.18.2",
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^3.3.7",
+    "bootstrap-arrow-buttons": "^1.0.4",
     "express": "^4.16.2",
     "github-base": "^0.5.4",
     "github-change-remote-file": "^4.2.0",
     "github-content": "^1.0.1",
+    "librsvg": "^0.7.0",
     "mathoid": "^0.7.0-alpha1",
+    "popper.js": "^1.12.5",
     "vmext": "^1.0.2"
   }
 }

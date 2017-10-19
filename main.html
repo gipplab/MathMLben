@@ -8,18 +8,23 @@
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
     <script src="scripts/angularGouldi.js"></script>
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
     <link rel="stylesheet" href="styles/basic.css">
 </head>
 <body>
 <div class="wrapper">
     <div class="info-panel">
         <div data-ng-controller="FormController">
+            <h1>Gold Standard</h1>
             <form name="gold-elements"
                   data-sf-schema="schema"
                   data-sf-form="form"
                   data-sf-model="model"
                   data-ng-submit="onSave(repo)"></form>
+            <hr>
+            <h1>Access Definitions</h1>
             <form name="repo"
                   data-sf-schema="schemarepo"
                   data-sf-form="formrepo"

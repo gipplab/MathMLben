@@ -26,10 +26,6 @@
       "title": "Hyperlink",
       "type": "string"
     },
-    "definitions": {
-      "title": "Identifier",
-      "type": "string"
-    },
     "qID": {
       "title": "GoldID",
       "type": "number",

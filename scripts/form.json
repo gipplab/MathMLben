@@ -1,19 +1,18 @@
 [
-  "qID",
   {
     "type": "section",
     "htmlClass": "row",
     "items": [
       {
         "type": "section",
-        "htmlClass": "col",
+        "htmlClass": "col-md-6",
         "items": [
           "formula-name"
         ]
       },
       {
         "type": "section",
-        "htmlClass": "col",
+        "htmlClass": "col-md-6",
         "items": [
           "formula-type"
         ]
@@ -22,10 +21,46 @@
   },
   "correct-tex",
   "uri",
-  "definitions",
   {
-    "type": "submit",
-    "style": "btn-info",
-    "title": "Push to Gold Standard!"
+    "type": "section",
+    "htmlClass": "row btn-row center",
+    "items": [
+      {
+        "type": "section",
+        "htmlClass": "col-md-4",
+        "items": [
+          {
+            "type": "button",
+            "style": "btn-primary btn-arrow-left",
+            "title": "Previous ID",
+            "onClick": "previousID()"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "htmlClass": "col-md-4",
+        "items": [
+          {
+            "key": "GithubPush",
+            "type": "submit",
+            "style": "btn-link",
+            "title": "Push"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "htmlClass": "col-md-4",
+        "items": [
+          {
+            "type": "button",
+            "style": "btn-primary btn-arrow-right",
+            "title": "Next ID",
+            "onClick": "nextID()"
+          }
+        ]
+      }
+    ]
   }
 ]
