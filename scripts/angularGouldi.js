@@ -9,6 +9,7 @@ angular
         loadFromJson('schemarepo');
         loadFromJson('formrepo');
         loadFromJson('modelrepo');
+        loadFromJson('model');
         loadFromJson('schema');
         loadFromJson('form');
         $scope.updated = function (modelValue, form) {
@@ -41,6 +42,7 @@ angular
                 container.appendChild(scriptTag);
             });
         };
+
         //      $http.get("scripts/sample-eulergamma.mml.xml")
         $scope.onSubmit = function(form) {
             // First we broadcast an event so all fields validate themselves
@@ -49,16 +51,53 @@ angular
             // Then we check if the form is valid
             if (form.$valid) {
                 $http.post('/get-model', $scope.modelrepo).then(function (res) {
-                    $scope.gold= res.data;
+                    $scope.gold = res.data;
                     $scope.model = res.data[$scope.modelrepo.itemid];
+                    $scope.model.qID = $scope.modelrepo.itemid;
                 });
             }
         };
 
-        $scope.onSave = function(form) {
+        $scope.previousID = function(model){
+            if ( model.qID <= 1 ) return;
+
+            model.qID = model.qID-1;
+            updateModules(model);
+        };
+
+        $scope.nextID = function(model){
+            if ( model.qID >= 200 ) return;
+
+            model.qID = model.qID+1;
+            updateModules(model);
+        };
+
+        var updateModules = function (model) {
+            $http.post('/get-model', $scope.modelrepo).then(function (res) {
+                $scope.gold = res.data;
+                $scope.model = res.data[model.qID];
+                $scope.model.qID = model.qID;
+                $scope.modelrepo.itemid = model.qID;
+            });
+        };
+
+        $scope.onSave = function(model) {
             // First we broadcast an event so all fields validate themselves
             $scope.$broadcast('schemaFormValidate');
 
+            alert( $scope.model.qID );
+
+            // Then we check if the form is valid
+            /*if (form.$valid) {
+                $http
+                    .post('/get-model', $scope.model)
+                    .then(function (res) {
+                            alert(JSON.stringify($scope.module, null, 2));
+                        }
+                );
+            }
+            */
+            /*
             // Then we check if the form is valid
             if (form.$valid) {
                 $scope.gold[$scope.modelrepo.itemid]=$scope.model;
@@ -67,11 +106,12 @@ angular
                     repo: $scope.modelrepo.repo,
                     filename: $scope.modelrepo.filename,
                     token: $scope.modelrepo.token,
-                    data:$scope.gold
+                    data: $scope.gold
                 }).then(function (res) {
                     alert(JSON.stringify(res));
                 });
             }
+            */
         }
 
     });

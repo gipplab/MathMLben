@@ -1,5 +1,33 @@
 [
-  "*",
+  {
+    "type": "section",
+    "htmlClass": "row btn-row center",
+    "items": [
+      {
+        "type": "section",
+        "htmlClass": "col-md-4 btn-center",
+        "items": [
+          "owner"
+        ]
+      },
+      {
+        "type": "section",
+        "htmlClass": "col-md-4 btn-center",
+        "items": [
+          "repo"
+        ]
+      },
+      {
+        "type": "section",
+        "htmlClass": "col-md-4 btn-center",
+        "items": [
+          "filename"
+        ]
+      }
+    ]
+  },
+  "token",
+  "itemid",
   {
     "type": "submit",
     "title": "Load from Gold Standard"

@@ -30,6 +30,7 @@
     "title": "MathML",
     "onChange": ""
   },
+  "qID",
   {
     "type": "section",
     "htmlClass": "row btn-row center",
@@ -42,7 +43,7 @@
             "type": "button",
             "style": "btn-info btn-arrow-left",
             "title": "-- ID",
-            "onClick": "previousID()"
+            "onClick": "previousID(model)"
           }
         ]
       },
@@ -53,8 +54,8 @@
           {
             "key": "QID-Info",
             "type": "submit",
-            "style": "btn-link",
-            "title": "Push"
+            "style": "btn-warning",
+            "title": "{{ qID }}"
           }
         ]
       },
@@ -66,7 +67,7 @@
             "type": "button",
             "style": "btn-info btn-arrow-right",
             "title": "ID ++",
-            "onClick": "nextID()"
+            "onClick": "nextID(model)"
           }
         ]
       }

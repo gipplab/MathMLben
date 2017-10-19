@@ -40,7 +40,6 @@ app.post('/get-model', function (req, res) {
         } catch (e) {
             res.status(400).send('Invalid JSON string');
         }
-
     });
 });
 
