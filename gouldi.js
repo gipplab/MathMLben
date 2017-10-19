@@ -2,6 +2,10 @@ require('app-module-path').addPath(__dirname);
 var express = require('express');
 var app = express();
 var path = require("path");
+var yaml = require('js-yaml');
+var BBPromise = require('bluebird');
+var fs = BBPromise.promisifyAll(require('fs'));
+var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
 require('app-module-path').addPath(path.join(__dirname + '/node_modules/vmext'));
 var bodyParser = require('body-parser');
@@ -57,6 +61,6 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
 
-app.listen(8080, function () {
-    console.log('Started GoUldI on 8080!');
+app.listen(mathoidcfg.gouldi.port, function () {
+    console.log('Started GoUldI on ' + mathoidcfg.gouldi.port);
 });
