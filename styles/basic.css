@@ -24,7 +24,12 @@ label {
 }
 
 .btn-row{
+    position: relative;
     margin: auto;
     width: 95%;
+}
 
+.btn-center{
+    position: relative;
+    text-align: center
 }

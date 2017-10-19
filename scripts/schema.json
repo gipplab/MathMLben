@@ -26,14 +26,20 @@
       "title": "Hyperlink",
       "type": "string"
     },
+    "correct_mml": {
+      "title": "MathML",
+      "type": "textarea"
+    },
     "qID": {
       "title": "GoldID",
       "type": "number",
       "minimum": 1,
-      "maximum": 200
+      "maximum": 200,
+      "copyValueTo": "QID-Info"
     }
   },
   "required": [
-    "qID"
+    "qID",
+    "correct_mml"
   ]
 }

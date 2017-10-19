@@ -20,31 +20,38 @@
     ]
   },
   {
-   "key": "correct_tex","onChange": "updated(modelValue,form)"
+    "key": "correct_tex",
+    "onChange": "updated(modelValue,form)"
   },
   "uri",
+  {
+    "key": "correct_mml",
+    "type": "textarea",
+    "title": "MathML",
+    "onChange": ""
+  },
   {
     "type": "section",
     "htmlClass": "row btn-row center",
     "items": [
       {
         "type": "section",
-        "htmlClass": "col-md-4",
+        "htmlClass": "col-md-4 btn-center",
         "items": [
           {
             "type": "button",
-            "style": "btn-primary btn-arrow-left",
-            "title": "Previous ID",
+            "style": "btn-info btn-arrow-left",
+            "title": "-- ID",
             "onClick": "previousID()"
           }
         ]
       },
       {
         "type": "section",
-        "htmlClass": "col-md-4",
+        "htmlClass": "col-md-4 btn-center",
         "items": [
           {
-            "key": "GithubPush",
+            "key": "QID-Info",
             "type": "submit",
             "style": "btn-link",
             "title": "Push"
@@ -53,12 +60,12 @@
       },
       {
         "type": "section",
-        "htmlClass": "col-md-4",
+        "htmlClass": "col-md-4 btn-center",
         "items": [
           {
             "type": "button",
-            "style": "btn-primary btn-arrow-right",
-            "title": "Next ID",
+            "style": "btn-info btn-arrow-right",
+            "title": "ID ++",
             "onClick": "nextID()"
           }
         ]
