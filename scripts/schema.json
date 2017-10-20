@@ -34,7 +34,7 @@
       "title": "GoldID",
       "type": "integer",
       "minimum": 1,
-      "maximum": 200
+      "maximum": 300
     }
   }
 }

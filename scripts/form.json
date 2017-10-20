@@ -27,7 +27,6 @@
     "title": "MathML",
     "onChange": ""
   },
-  "qID",
   {
     "type": "section",
     "htmlClass": "row btn-row center",
@@ -51,7 +50,7 @@
           {
             "type": "submit",
             "style": "btn-warning",
-            "title": "{{ qID }}"
+            "title": "Push"
           }
         ]
       },
@@ -68,5 +67,6 @@
         ]
       }
     ]
-  }
+  },
+  "qID"
 ]
