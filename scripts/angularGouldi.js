@@ -97,11 +97,9 @@ angular
             $scope.$broadcast('schemaFormValidate');
 
             var secureCopy = $scope.gold[$scope.model.qID];
-            alert("Until here its fine: " + form.$valid );
 
             // Then we check if the form is valid
             if ( form.$valid ) {
-                try {
                     $scope.gold[$scope.model.qID]=$scope.model;
 
                     $http.post('/write-model', {
@@ -112,13 +110,12 @@ angular
                         data: $scope.gold
                     }).then( function (res) {
                         alert( "Pushed successfully qID: " + $scope.modelrepo.itemid + "!");
-                    });
-                } catch (e) {
+                    }).catch(function(e) {
                     $scope.gold[$scope.model.qID] = secureCopy;
                     $scope.model = secureCopy;
                     $scope.model.qID = $scope.modelrepo.itemid;
-                    alert( "It was not possible to push changes! Revered everything!" )
-                }
+                    alert( "It was not possible to push changes! Revered everything!" + e.data );
+                });
             }
         }
     });

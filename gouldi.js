@@ -9,8 +9,9 @@ var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
 require('app-module-path').addPath(path.join(__dirname + '/node_modules/vmext'));
 var bodyParser = require('body-parser');
-app.use(bodyParser.json());
 
+app.use(bodyParser.json({limit: "50mb"}));
+app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
 var GithubContent = require('github-content');
 require('mathoid/server.js');
 
@@ -22,6 +23,7 @@ app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Headers', 'Content-Type');
     next();
 });
+
 
 app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
 app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
@@ -52,8 +54,8 @@ app.post('/write-model', function (req, res) {
         .then(function (res) {
             console.log(res);
         })
-        .catch(function (log) {
-            res.status(400).send('Can not save' + JSON.stringify(log));
+        .catch(function (err) {
+            res.status(400).send('Can not save' + err.message);
         });
 });
 app.get('/', function (req, res) {
