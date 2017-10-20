@@ -6,17 +6,28 @@ angular
                 $scope[name] = res.data;
             });
         };
+
         loadFromJson('schemarepo');
         loadFromJson('formrepo');
         loadFromJson('modelrepo');
         loadFromJson('model');
         loadFromJson('schema');
         loadFromJson('form');
-        $scope.updated = function (modelValue, form) {
+
+        $scope.updated = function () {
             var scriptTag = document.createElement('script');
             scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
+
+            /*
             var payload = new FormData();
             payload.append("latex", modelValue);
+            */
+
+            scriptTag.setAttribute('mathml', $scope.model.correct_mml);
+            var container = document.getElementById("ast");
+            container.innerHTML = "";
+            container.appendChild(scriptTag);
+
             // $http.post('https://vmext-demo.wmflabs.org/math/mathoid', payload,
             //     {
             //         headers: {
@@ -30,17 +41,18 @@ angular
             //     container.innerHTML = "";
             //     container.appendChild(scriptTag);
             // });
-            $http.post('https://vmext-demo.wmflabs.org/math', payload,
-                {
-                    headers: {
-                        'Content-Type': undefined
-                    }
-                }).then(function (res) {
-                scriptTag.setAttribute('mathml', res.data.result);
-                var container = document.getElementById("ast");
-                container.innerHTML = "";
-                container.appendChild(scriptTag);
-            });
+            //
+            // $http.post('https://vmext-demo.wmflabs.org/math', payload,
+            //     {
+            //         headers: {
+            //             'Content-Type': undefined
+            //         }
+            //     }).then(function (res) {
+            //     scriptTag.setAttribute('mathml', res.data.result);
+            //     var container = document.getElementById("ast");
+            //     container.innerHTML = "";
+            //     container.appendChild(scriptTag);
+            // });
         };
 
         //      $http.get("scripts/sample-eulergamma.mml.xml")
@@ -54,6 +66,7 @@ angular
                     $scope.gold = res.data;
                     $scope.model = res.data[$scope.modelrepo.itemid];
                     $scope.model.qID = $scope.modelrepo.itemid;
+                    $scope.updated();
                 });
             }
         };
@@ -73,12 +86,10 @@ angular
         };
 
         var updateModules = function (model) {
-            $http.post('/get-model', $scope.modelrepo).then(function (res) {
-                $scope.gold = res.data;
-                $scope.model = res.data[model.qID];
-                $scope.model.qID = model.qID;
-                $scope.modelrepo.itemid = model.qID;
-            });
+            $scope.modelrepo.itemid = model.qID;
+            $scope.model = $scope.gold[model.qID];
+            $scope.model.qID = $scope.modelrepo.itemid;
+            $scope.updated();
         };
 
         $scope.onSave = function(form) {

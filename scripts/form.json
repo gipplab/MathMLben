@@ -19,10 +19,7 @@
       }
     ]
   },
-  {
-    "key": "correct_tex",
-    "onChange": "updated(modelValue,form)"
-  },
+  "correct_tex",
   "uri",
   {
     "key": "correct_mml",
@@ -54,7 +51,7 @@
           {
             "type": "submit",
             "style": "btn-warning",
-            "title": "{{ model.qID }}"
+            "title": "{{ qID }}"
           }
         ]
       },
