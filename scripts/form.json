@@ -52,10 +52,9 @@
         "htmlClass": "col-md-4 btn-center",
         "items": [
           {
-            "key": "QID-Info",
             "type": "submit",
             "style": "btn-warning",
-            "title": "{{ qID }}"
+            "title": "{{ model.qID }}"
           }
         ]
       },

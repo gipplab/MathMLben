@@ -44,7 +44,7 @@ angular
         };
 
         //      $http.get("scripts/sample-eulergamma.mml.xml")
-        $scope.onSubmit = function(form) {
+        $scope.onRequest = function(form) {
             // First we broadcast an event so all fields validate themselves
             $scope.$broadcast('schemaFormValidate');
 
@@ -81,37 +81,33 @@ angular
             });
         };
 
-        $scope.onSave = function(model) {
+        $scope.onSave = function(form) {
             // First we broadcast an event so all fields validate themselves
             $scope.$broadcast('schemaFormValidate');
 
-            alert( $scope.model.qID );
+            var secureCopy = $scope.gold[$scope.model.qID];
+            alert("Until here its fine: " + form.$valid );
 
             // Then we check if the form is valid
-            /*if (form.$valid) {
-                $http
-                    .post('/get-model', $scope.model)
-                    .then(function (res) {
-                            alert(JSON.stringify($scope.module, null, 2));
-                        }
-                );
+            if ( form.$valid ) {
+                try {
+                    $scope.gold[$scope.model.qID]=$scope.model;
+
+                    $http.post('/write-model', {
+                        user: $scope.modelrepo.owner,
+                        repo: $scope.modelrepo.repo,
+                        filename: $scope.modelrepo.filename,
+                        token: $scope.modelrepo.token,
+                        data: $scope.gold
+                    }).then( function (res) {
+                        alert( "Pushed successfully qID: " + $scope.modelrepo.itemid + "!");
+                    });
+                } catch (e) {
+                    $scope.gold[$scope.model.qID] = secureCopy;
+                    $scope.model = secureCopy;
+                    $scope.model.qID = $scope.modelrepo.itemid;
+                    alert( "It was not possible to push changes! Revered everything!" )
+                }
             }
-            */
-            /*
-            // Then we check if the form is valid
-            if (form.$valid) {
-                $scope.gold[$scope.modelrepo.itemid]=$scope.model;
-                $http.post('/write-model', {
-                    user: $scope.modelrepo.owner,
-                    repo: $scope.modelrepo.repo,
-                    filename: $scope.modelrepo.filename,
-                    token: $scope.modelrepo.token,
-                    data: $scope.gold
-                }).then(function (res) {
-                    alert(JSON.stringify(res));
-                });
-            }
-            */
         }
-
     });
