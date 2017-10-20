@@ -1,24 +1,21 @@
-var gold = require('./gold.json');
 var BB = require('bluebird');
 var fs = BB.promisifyAll(require("fs"));
 var rp = require('request-promise');
-
-function process(stats) {
-    var statsArray = Object.keys(stats).map(function(key) {
-        return {
-            key: key, value: stats[key]
-        };
+var directory = '../data';
+var parseAsync = BB.method(JSON.parse);
+var xml2js = BB.promisifyAll(require('xml2js'));
+fs.readdirAsync(directory).map(function (filename) {
+    return fs.readFileAsync(directory + "/" + filename, "utf8").then(function (content) {
+        return parseAsync(content).then(function (json) {
+            if (json.math_inputtex_semantic) {
+                xml2js.parseStringAsync(json.correct_mml).then(function (result) {
+                    json.math_inputtex = result.math.$.alttext;
+                    return fs.writeFileAsync(directory + '/' + filename, JSON.stringify(json, null, 2));
+                }).catch(function (err) {
+                    console.log("Problem in file" + filename);
+                    console.dir(err);
+                });
+            }
+        });
     });
-    return BB.map(statsArray, function(item) {
-        return item;
-    });
-};
-
-
-
-BB.map(process(gold), function (x) {
-    return fs.writeFileAsync('../data/'+x.key+'.json', JSON.stringify(x.value, null, 2));
-})
-    .then(function () {
-        console.log("done")
-    });
+});
