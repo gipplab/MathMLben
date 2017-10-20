@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "\\Theta": [
+      {
+        "Q2608202": "One-form"
+      }
+    ],
+    "n": [
+      "number of thermodynamic degrees of freedom"
+    ]
+  },
+  "math_inputtex": "\\Theta \\wedge\n(d\\Theta)^n \\neq 0",
+  "title": "Geometrothermodynamics",
+  "correct_tex": "\\Theta \\wedge\n(d\\Theta)^n \\neq 0",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=28602#math28602.8",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\Theta\\wedge(d\\Theta)^{n}\\neq 0\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mrow id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">\n        <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">Θ</mi>\n        <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">∧</mo>\n        <msup id=\"p1.1.m1.1.10.1.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mrow id=\"p1.1.m1.1.10.1.1.2\" xref=\"p1.1.m1.1.10.1.1.2.2.cmml\">\n            <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.10.1.1.2.2.cmml\">(</mo>\n            <mrow id=\"p1.1.m1.1.10.1.1.2.2\" xref=\"p1.1.m1.1.10.1.1.2.2.cmml\">\n              <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">d</mi>\n              <mo id=\"p1.1.m1.1.10.1.1.2.2.1\" xref=\"p1.1.m1.1.10.1.1.2.2.1.cmml\">⁢</mo>\n              <mi mathvariant=\"normal\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">Θ</mi>\n            </mrow>\n            <mo stretchy=\"false\" id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.10.1.1.2.2.cmml\">)</mo>\n          </mrow>\n          <mi id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">n</mi>\n        </msup>\n      </mrow>\n      <mo id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">≠</mo>\n      <mn id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">0</mn>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <neq id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\"/>\n        <apply id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">\n          <and id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n          <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Θ</ci>\n          <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">\n            <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.10.1.1\"/>\n            <apply id=\"p1.1.m1.1.10.1.1.2.2.cmml\" xref=\"p1.1.m1.1.10.1.1.2\">\n              <times id=\"p1.1.m1.1.10.1.1.2.2.1.cmml\" xref=\"p1.1.m1.1.10.1.1.2.2.1\"/>\n              <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">𝑑</ci>\n              <ci id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">Θ</ci>\n            </apply>\n            <ci id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\">𝑛</ci>\n          </apply>\n        </apply>\n        <cn type=\"integer\" id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">0</cn>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

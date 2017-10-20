@@ -1,0 +1,12 @@
+{
+  "definitions": {
+    "\\mathsf{fv}": [
+      "free variable set"
+    ]
+  },
+  "math_inputtex": "\\mathsf{fv}",
+  "title": "Separation_logic",
+  "correct_tex": "\\mathsf{fv}",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=13072#math13072.63",
+  "correct_mml": null
+}

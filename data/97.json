@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "J": [
+      {
+        "Q506041": "Jacobian matrix and determinant"
+      }
+    ],
+    "T": [
+      {
+        "Q2858846": "Transpose of a linear map"
+      }
+    ],
+    "W": [
+      "diagonal weight matrix"
+    ],
+    "y": [
+      "residuals"
+    ]
+  },
+  "math_inputtex": "\\mathbf{J^TW\\  \\Delta y}",
+  "title": "Non-linear_least_squares",
+  "correct_tex": "\\mathbf{J^TW\\  \\Delta y}",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21658#math21658.67",
+  "correct_mml": null
+}

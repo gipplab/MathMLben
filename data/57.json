@@ -1,0 +1,21 @@
+{
+  "definitions": {
+    "B": [
+      "R-module",
+      {
+        "Q18848": "module"
+      }
+    ],
+    "A": [
+      "R-module",
+      {
+        "Q18848": "module"
+      }
+    ]
+  },
+  "math_inputtex": "0\\rightarrow B\\rightarrow A\\oplus B\\rightarrow A\\rightarrow0.",
+  "title": "Ext_functor",
+  "correct_tex": "0\\rightarrow B\\rightarrow A\\oplus B\\rightarrow A\\rightarrow0.",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=6693#math6693.9",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"0\\rightarrow B\\rightarrow A\\oplus B\\rightarrow A\\rightarrow 0.\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.13\" xref=\"p1.1.m1.1.13.2.cmml\">\n      <mrow id=\"p1.1.m1.1.13.2\" xref=\"p1.1.m1.1.13.2.cmml\">\n        <mn id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">0</mn>\n        <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">→</mo>\n        <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">B</mi>\n        <mo id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">→</mo>\n        <mrow id=\"p1.1.m1.1.13.2.2\" xref=\"p1.1.m1.1.13.2.2.cmml\">\n          <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">A</mi>\n          <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">⊕</mo>\n          <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">B</mi>\n        </mrow>\n        <mo id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">→</mo>\n        <mi id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">A</mi>\n        <mo id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">→</mo>\n        <mn id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">0</mn>\n      </mrow>\n      <mo id=\"p1.1.m1.1.12\" xref=\"p1.1.m1.1.13.2.cmml\">.</mo>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.13.2.cmml\" xref=\"p1.1.m1.1.13\">\n        <and id=\"p1.1.m1.1.13.2a.cmml\" xref=\"p1.1.m1.1.13\"/>\n        <apply id=\"p1.1.m1.1.13.2b.cmml\" xref=\"p1.1.m1.1.13\">\n          <ci id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">→</ci>\n          <cn type=\"integer\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">0</cn>\n          <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝐵</ci>\n        </apply>\n        <apply id=\"p1.1.m1.1.13.2c.cmml\" xref=\"p1.1.m1.1.13\">\n          <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">→</ci>\n          <share href=\"#p1.1.m1.1.3.cmml\" id=\"p1.1.m1.1.13.2d.cmml\" xref=\"p1.1.m1.1.13\"/>\n          <apply id=\"p1.1.m1.1.13.2.2.cmml\" xref=\"p1.1.m1.1.13.2.2\">\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">direct-sum</csymbol>\n            <ci id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">𝐴</ci>\n            <ci id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">𝐵</ci>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.13.2e.cmml\" xref=\"p1.1.m1.1.13\">\n          <ci id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">→</ci>\n          <share href=\"#p1.1.m1.1.13.2.2.cmml\" id=\"p1.1.m1.1.13.2f.cmml\" xref=\"p1.1.m1.1.13\"/>\n          <ci id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">𝐴</ci>\n        </apply>\n        <apply id=\"p1.1.m1.1.13.2g.cmml\" xref=\"p1.1.m1.1.13\">\n          <ci id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">→</ci>\n          <share href=\"#p1.1.m1.1.9.cmml\" id=\"p1.1.m1.1.13.2h.cmml\" xref=\"p1.1.m1.1.13\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">0</cn>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "z": [
+      {
+        "Q3913": "binary number (a system that represents numeric values using two symbols; 0 and 1)"
+      }
+    ],
+    "x": [
+      {
+        "Q3913": "binary number (a system that represents numeric values using two symbols; 0 and 1)"
+      }
+    ],
+    "y": [
+      {
+        "Q3913": "binary number (a system that represents numeric values using two symbols; 0 and 1)"
+      }
+    ]
+  },
+  "math_inputtex": "z*x\\le y",
+  "title": "Monoidal_t-norm_logic",
+  "correct_tex": "z*x\\le y",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=16784#math16784.38",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"z*x\\leq y\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">\n      <mrow id=\"p1.1.m1.1.6.1\" xref=\"p1.1.m1.1.6.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">z</mi>\n        <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">*</mo>\n        <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">x</mi>\n      </mrow>\n      <mo id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">≤</mo>\n      <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">y</mi>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">\n        <leq id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\"/>\n        <apply id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.1\">\n          <times id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n          <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑧</ci>\n          <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝑥</ci>\n        </apply>\n        <ci id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">𝑦</ci>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

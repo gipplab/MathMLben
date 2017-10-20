@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "L": [
+      "spaces of operators"
+    ],
+    "H_{B}": [
+      {
+        "Q190056": "Hilbert space"
+      },
+      "state spaces"
+    ],
+    "C": [
+      "space of continuous functions"
+    ],
+    "X": [
+      "some set"
+    ]
+  },
+  "math_inputtex": "L(H_B) \\otimes C(X)",
+  "title": "Quantum_channel",
+  "correct_tex": "L(H_B) \\otimes C(X)",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=7260#math7260.15",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"L(H_{B})\\otimes C(X)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">\n      <mrow id=\"p1.1.m1.1.11.2\" xref=\"p1.1.m1.1.11.2.cmml\">\n        <mrow id=\"p1.1.m1.1.11.2.1\" xref=\"p1.1.m1.1.11.2.1.cmml\">\n          <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">L</mi>\n          <mo id=\"p1.1.m1.1.11.2.1.1\" xref=\"p1.1.m1.1.11.2.1.1.cmml\">⁢</mo>\n          <mrow id=\"p1.1.m1.1.11.2.1.2\" xref=\"p1.1.m1.1.11.2.1.2.2.cmml\">\n            <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.11.2.1.2.2.cmml\">(</mo>\n            <msub id=\"p1.1.m1.1.11.2.1.2.2\" xref=\"p1.1.m1.1.11.2.1.2.2.cmml\">\n              <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">H</mi>\n              <mi id=\"p1.1.m1.1.4.1\" xref=\"p1.1.m1.1.4.1.cmml\">B</mi>\n            </msub>\n            <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.11.2.1.2.2.cmml\">)</mo>\n          </mrow>\n        </mrow>\n        <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">⊗</mo>\n        <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">C</mi>\n      </mrow>\n      <mo id=\"p1.1.m1.1.11.1\" xref=\"p1.1.m1.1.11.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.11.3\" xref=\"p1.1.m1.1.11.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.11.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">X</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.11.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">\n        <times id=\"p1.1.m1.1.11.1.cmml\" xref=\"p1.1.m1.1.11.1\"/>\n        <apply id=\"p1.1.m1.1.11.2.cmml\" xref=\"p1.1.m1.1.11.2\">\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">tensor-product</csymbol>\n          <apply id=\"p1.1.m1.1.11.2.1.cmml\" xref=\"p1.1.m1.1.11.2.1\">\n            <times id=\"p1.1.m1.1.11.2.1.1.cmml\" xref=\"p1.1.m1.1.11.2.1.1\"/>\n            <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝐿</ci>\n            <apply id=\"p1.1.m1.1.11.2.1.2.2.cmml\" xref=\"p1.1.m1.1.11.2.1.2\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.11.2.1.2.2.1.cmml\" xref=\"p1.1.m1.1.11.2.1.2\">subscript</csymbol>\n              <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝐻</ci>\n              <ci id=\"p1.1.m1.1.4.1.cmml\" xref=\"p1.1.m1.1.4.1\">𝐵</ci>\n            </apply>\n          </apply>\n          <ci id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">𝐶</ci>\n        </apply>\n        <ci id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">𝑋</ci>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

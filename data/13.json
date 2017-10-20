@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "s_{V}": [
+      "Kemeny-Young score"
+    ],
+    "\\mathcal{R}": [
+      {
+        "Q526719": "ranking (relationship between items in a set)"
+      }
+    ]
+  },
+  "math_inputtex": "s_V(\\mathcal{R})",
+  "title": "Consistency_criterion",
+  "correct_tex": "s_V(\\mathcal{R})",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=9319#math9319.2",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"s_{V}(\\mathcal{R})\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">\n      <msub id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.2.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">s</mi>\n        <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">V</mi>\n      </msub>\n      <mo id=\"p1.1.m1.1.6.1\" xref=\"p1.1.m1.1.6.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.6.3\" xref=\"p1.1.m1.1.6.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.6.cmml\">(</mo>\n        <mi class=\"ltx_font_mathcaligraphic\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">ℛ</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.6.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">\n        <times id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.1\"/>\n        <apply id=\"p1.1.m1.1.6.2.cmml\" xref=\"p1.1.m1.1.6.2\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.6.2.1.cmml\" xref=\"p1.1.m1.1.6.2\">subscript</csymbol>\n          <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑠</ci>\n          <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">𝑉</ci>\n        </apply>\n        <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">ℛ</ci>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

@@ -16,29 +16,9 @@ function process(stats) {
 
 
 
-BB.reduce(process(gold), function (y, x) {
-
-        var newVal = x.value;
-    var options = {
-        method: 'POST',
-        uri: 'https://vmext-demo.wmflabs.org/math',
-        form: {
-        // Like <input type="text" name="name">
-        latex: newVal.correct_tex
-    }
-    };
-
-    return  rp(options)
-        .then(function (body) {
-            newVal.correct_mml = JSON.parse(body).result;
-            y[x.key] = newVal;
-            return y;
-        })
-
-}, {})
-    .then(function (y) {
-        return fs.writeFileAsync('../data/gold.json', JSON.stringify(y, null, 2));
-    })
+BB.map(process(gold), function (x) {
+    return fs.writeFileAsync('../data/'+x.key+'.json', JSON.stringify(x.value, null, 2));
+})
     .then(function () {
         console.log("done")
     });

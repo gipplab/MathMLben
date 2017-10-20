@@ -1,0 +1,20 @@
+{
+  "definitions": {
+    "\\alpha": [
+      "exponent (of the Hölder condition)",
+      {
+        "Q33456": "exponentiation (mathematical operation)"
+      }
+    ],
+    "x": [
+      {
+        "Q44946": "point (fundamental object of Euclidean geometry)"
+      }
+    ]
+  },
+  "math_inputtex": "\\alpha(x)",
+  "title": "Singularity_spectrum",
+  "correct_tex": "\\alpha(x)",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=27419#math27419.4",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\alpha(x)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">α</mi>\n      <mo id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.5.2\" xref=\"p1.1.m1.1.5.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.5.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">x</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.5.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">\n        <times id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\"/>\n        <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝛼</ci>\n        <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝑥</ci>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

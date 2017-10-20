@@ -1,0 +1,22 @@
+{
+  "definitions": {
+    "L": [
+      "weighted path length"
+    ],
+    "C": [
+      {
+        "Q188889": "code (system of rules to convert information (codification))"
+      }
+    ],
+    "T": [
+      {
+        "Q188889": "code (system of rules to convert information (codification))"
+      }
+    ]
+  },
+  "math_inputtex": "L\\left(C\\right) \\leq L\\left(T\\right)",
+  "title": "Huffman_coding",
+  "correct_tex": "L\\left(C\\right) \\leq L\\left(T\\right)",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=485#math485.10",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"L\\left(C\\right)\\leq L\\left(T\\right)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mrow id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">L</mi>\n        <mo id=\"p1.1.m1.1.10.1.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">⁢</mo>\n        <mrow id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.cmml\">\n          <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.10.1.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">C</mi>\n          <mo id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.10.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">≤</mo>\n      <mrow id=\"p1.1.m1.1.10.2\" xref=\"p1.1.m1.1.10.2.cmml\">\n        <mi id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">L</mi>\n        <mo id=\"p1.1.m1.1.10.2.1\" xref=\"p1.1.m1.1.10.2.1.cmml\">⁢</mo>\n        <mrow id=\"p1.1.m1.1.10.2.2\" xref=\"p1.1.m1.1.10.2.cmml\">\n          <mo id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.10.2.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">T</mi>\n          <mo id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.10.2.cmml\">)</mo>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <leq id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\"/>\n        <apply id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">\n          <times id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\"/>\n          <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝐿</ci>\n          <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝐶</ci>\n        </apply>\n        <apply id=\"p1.1.m1.1.10.2.cmml\" xref=\"p1.1.m1.1.10.2\">\n          <times id=\"p1.1.m1.1.10.2.1.cmml\" xref=\"p1.1.m1.1.10.2.1\"/>\n          <ci id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">𝐿</ci>\n          <ci id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">𝑇</ci>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

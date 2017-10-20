@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "H": [
+      {
+        "Q1591095": "Hausdorff measure"
+      }
+    ],
+    "K": [
+      "compact"
+    ]
+  },
+  "math_inputtex": "H^1(K)=\\sqrt{2}",
+  "title": "Analytic_capacity",
+  "correct_tex": "H^1(K)=\\sqrt{2}",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=6392#math6392.10",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"H^{1}(K)=\\sqrt{2}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">\n      <mrow id=\"p1.1.m1.1.8.1\" xref=\"p1.1.m1.1.8.1.cmml\">\n        <msup id=\"p1.1.m1.1.8.1.2\" xref=\"p1.1.m1.1.8.1.2.cmml\">\n          <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">H</mi>\n          <mn id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">1</mn>\n        </msup>\n        <mo id=\"p1.1.m1.1.8.1.1\" xref=\"p1.1.m1.1.8.1.1.cmml\">⁢</mo>\n        <mrow id=\"p1.1.m1.1.8.1.3\" xref=\"p1.1.m1.1.8.1.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.8.1.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">K</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.8.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">=</mo>\n      <msqrt id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">\n        <mn id=\"p1.1.m1.1.7.2\" xref=\"p1.1.m1.1.7.2.cmml\">2</mn>\n      </msqrt>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">\n        <eq id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n        <apply id=\"p1.1.m1.1.8.1.cmml\" xref=\"p1.1.m1.1.8.1\">\n          <times id=\"p1.1.m1.1.8.1.1.cmml\" xref=\"p1.1.m1.1.8.1.1\"/>\n          <apply id=\"p1.1.m1.1.8.1.2.cmml\" xref=\"p1.1.m1.1.8.1.2\">\n            <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.8.1.2\"/>\n            <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝐻</ci>\n            <cn type=\"integer\" id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">1</cn>\n          </apply>\n          <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">𝐾</ci>\n        </apply>\n        <apply id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">\n          <root id=\"p1.1.m1.1.7a.cmml\" xref=\"p1.1.m1.1.7\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.7.2.cmml\" xref=\"p1.1.m1.1.7.2\">2</cn>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

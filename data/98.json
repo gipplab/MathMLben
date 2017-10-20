@@ -1,0 +1,12 @@
+{
+  "definitions": {
+    "\\bar{V}": [
+      "smallest g"
+    ]
+  },
+  "math_inputtex": "\\bar V^*",
+  "title": "Markov_decision_process",
+  "correct_tex": "\\bar V^*",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=7629#math7629.87",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\bar{V}^{*}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <msup id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n      <mover accent=\"true\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">\n        <mi id=\"p1.1.m1.1.1.2\" xref=\"p1.1.m1.1.1.2.cmml\">V</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.1.1\" xref=\"p1.1.m1.1.1.1.cmml\">¯</mo>\n      </mover>\n      <mo id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">*</mo>\n    </msup>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n        <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.3\"/>\n        <apply id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">\n          <ci id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.1\">¯</ci>\n          <ci id=\"p1.1.m1.1.1.2.cmml\" xref=\"p1.1.m1.1.1.2\">𝑉</ci>\n        </apply>\n        <times id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\"/>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

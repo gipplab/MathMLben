@@ -1,0 +1,27 @@
+{
+  "definitions": {
+    "z_{t}": [
+      {
+        "Q176737": "stochastic process (collection of random variables)"
+      }
+    ],
+    "\\lambda_{1}": [
+      "slope coefficient"
+    ],
+    "z_{t-1}": [
+      {
+        "Q176737": "stochastic process (collection of random variables)"
+      }
+    ],
+    "\\varepsilon_{t}": [
+      {
+        "Q176737": "stochastic process (collection of random variables)"
+      }
+    ]
+  },
+  "math_inputtex": " z_{t} = \\lambda_{1}z_{t-1} + \\varepsilon_{t} ",
+  "title": "Unit_root",
+  "correct_tex": " z_{t} = \\lambda_{1}z_{t-1} + \\varepsilon_{t} ",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=10488#math10488.25",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"z_{t}=\\lambda_{1}z_{t-1}+\\varepsilon_{t}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">\n      <msub id=\"p1.1.m1.1.11.1\" xref=\"p1.1.m1.1.11.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">z</mi>\n        <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">t</mi>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.11.2\" xref=\"p1.1.m1.1.11.2.cmml\">\n        <mrow id=\"p1.1.m1.1.11.2.1\" xref=\"p1.1.m1.1.11.2.1.cmml\">\n          <msub id=\"p1.1.m1.1.11.2.1.2\" xref=\"p1.1.m1.1.11.2.1.2.cmml\">\n            <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">λ</mi>\n            <mn id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">1</mn>\n          </msub>\n          <mo id=\"p1.1.m1.1.11.2.1.1\" xref=\"p1.1.m1.1.11.2.1.1.cmml\">⁢</mo>\n          <msub id=\"p1.1.m1.1.11.2.1.3\" xref=\"p1.1.m1.1.11.2.1.3.cmml\">\n            <mi id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">z</mi>\n            <mrow id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">\n              <mi id=\"p1.1.m1.1.7.1.1\" xref=\"p1.1.m1.1.7.1.1.cmml\">t</mi>\n              <mo id=\"p1.1.m1.1.7.1.2\" xref=\"p1.1.m1.1.7.1.2.cmml\">-</mo>\n              <mn id=\"p1.1.m1.1.7.1.3\" xref=\"p1.1.m1.1.7.1.3.cmml\">1</mn>\n            </mrow>\n          </msub>\n        </mrow>\n        <mo id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">+</mo>\n        <msub id=\"p1.1.m1.1.11.2.2\" xref=\"p1.1.m1.1.11.2.2.cmml\">\n          <mi id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">ε</mi>\n          <mi id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">t</mi>\n        </msub>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">\n        <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n        <apply id=\"p1.1.m1.1.11.1.cmml\" xref=\"p1.1.m1.1.11.1\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.11.1.1.cmml\" xref=\"p1.1.m1.1.11.1\">subscript</csymbol>\n          <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑧</ci>\n          <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">𝑡</ci>\n        </apply>\n        <apply id=\"p1.1.m1.1.11.2.cmml\" xref=\"p1.1.m1.1.11.2\">\n          <plus id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\"/>\n          <apply id=\"p1.1.m1.1.11.2.1.cmml\" xref=\"p1.1.m1.1.11.2.1\">\n            <times id=\"p1.1.m1.1.11.2.1.1.cmml\" xref=\"p1.1.m1.1.11.2.1.1\"/>\n            <apply id=\"p1.1.m1.1.11.2.1.2.cmml\" xref=\"p1.1.m1.1.11.2.1.2\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.11.2.1.2.1.cmml\" xref=\"p1.1.m1.1.11.2.1.2\">subscript</csymbol>\n              <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">𝜆</ci>\n              <cn type=\"integer\" id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">1</cn>\n            </apply>\n            <apply id=\"p1.1.m1.1.11.2.1.3.cmml\" xref=\"p1.1.m1.1.11.2.1.3\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.11.2.1.3.1.cmml\" xref=\"p1.1.m1.1.11.2.1.3\">subscript</csymbol>\n              <ci id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">𝑧</ci>\n              <apply id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\">\n                <minus id=\"p1.1.m1.1.7.1.2.cmml\" xref=\"p1.1.m1.1.7.1.2\"/>\n                <ci id=\"p1.1.m1.1.7.1.1.cmml\" xref=\"p1.1.m1.1.7.1.1\">𝑡</ci>\n                <cn type=\"integer\" id=\"p1.1.m1.1.7.1.3.cmml\" xref=\"p1.1.m1.1.7.1.3\">1</cn>\n              </apply>\n            </apply>\n          </apply>\n          <apply id=\"p1.1.m1.1.11.2.2.cmml\" xref=\"p1.1.m1.1.11.2.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.11.2.2.1.cmml\" xref=\"p1.1.m1.1.11.2.2\">subscript</csymbol>\n            <ci id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">𝜀</ci>\n            <ci id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">𝑡</ci>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>"
+}

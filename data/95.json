@@ -1,0 +1,19 @@
+{
+  "definitions": {
+    "p_{1}": [
+      {
+        "Q10290214": "event (in statistics, a set of outcomes to which a probability is assigned)"
+      }
+    ],
+    "p_{n}": [
+      {
+        "Q10290214": "event (in statistics, a set of outcomes to which a probability is assigned)"
+      }
+    ]
+  },
+  "math_inputtex": "(\\sqrt{p_1}, \\cdots ,\\sqrt{p_n})",
+  "title": "Fidelity_of_quantum_states",
+  "correct_tex": "(\\sqrt{p_1}, \\cdots ,\\sqrt{p_n})",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=14285#math14285.1",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"(\\sqrt{p_{1}},\\cdots,\\sqrt{p_{n}})\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.1.cmml\">\n      <mo stretchy=\"false\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.8.1.cmml\">(</mo>\n      <msqrt id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">\n        <msub id=\"p1.1.m1.1.2.2\" xref=\"p1.1.m1.1.2.2.cmml\">\n          <mi id=\"p1.1.m1.1.2.2.1\" xref=\"p1.1.m1.1.2.2.1.cmml\">p</mi>\n          <mn id=\"p1.1.m1.1.2.2.2.1\" xref=\"p1.1.m1.1.2.2.2.1.cmml\">1</mn>\n        </msub>\n      </msqrt>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.8.1.cmml\">,</mo>\n      <mi mathvariant=\"normal\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">⋯</mi>\n      <mo id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.8.1.cmml\">,</mo>\n      <msqrt id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">\n        <msub id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.2.cmml\">\n          <mi id=\"p1.1.m1.1.6.2.1\" xref=\"p1.1.m1.1.6.2.1.cmml\">p</mi>\n          <mi id=\"p1.1.m1.1.6.2.2.1\" xref=\"p1.1.m1.1.6.2.2.1.cmml\">n</mi>\n        </msub>\n      </msqrt>\n      <mo stretchy=\"false\" id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.8.1.cmml\">)</mo>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <vector id=\"p1.1.m1.1.8.1.cmml\" xref=\"p1.1.m1.1.8\">\n        <apply id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">\n          <root id=\"p1.1.m1.1.2a.cmml\" xref=\"p1.1.m1.1.2\"/>\n          <apply id=\"p1.1.m1.1.2.2.cmml\" xref=\"p1.1.m1.1.2.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.2.2.3.cmml\" xref=\"p1.1.m1.1.2.2\">subscript</csymbol>\n            <ci id=\"p1.1.m1.1.2.2.1.cmml\" xref=\"p1.1.m1.1.2.2.1\">𝑝</ci>\n            <cn type=\"integer\" id=\"p1.1.m1.1.2.2.2.1.cmml\" xref=\"p1.1.m1.1.2.2.2.1\">1</cn>\n          </apply>\n        </apply>\n        <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">⋯</ci>\n        <apply id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">\n          <root id=\"p1.1.m1.1.6a.cmml\" xref=\"p1.1.m1.1.6\"/>\n          <apply id=\"p1.1.m1.1.6.2.cmml\" xref=\"p1.1.m1.1.6.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.6.2.3.cmml\" xref=\"p1.1.m1.1.6.2\">subscript</csymbol>\n            <ci id=\"p1.1.m1.1.6.2.1.cmml\" xref=\"p1.1.m1.1.6.2.1\">𝑝</ci>\n            <ci id=\"p1.1.m1.1.6.2.2.1.cmml\" xref=\"p1.1.m1.1.6.2.2.1\">𝑛</ci>\n          </apply>\n        </apply>\n      </vector>\n    </annotation-xml>\n  </semantics>\n</math>"
+}
