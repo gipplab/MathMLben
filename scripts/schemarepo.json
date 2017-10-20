@@ -12,25 +12,18 @@
       "type": "string",
       "default":"tmptest"
     },
-    "filename": {
-      "title": "Filename in Repository",
+    "foldername": {
+      "title": "Folder Name",
       "type":"string",
-      "default": "gold.json"
+      "default": "data/"
     },
     "token": {
       "title": "Access Token for GitHub",
       "type":"string",
       "default": ""
-    },
-    "itemid": {
-      "title": "Gold Standard ID",
-      "type":"integer",
-      "default": 1,
-      "minimum": 1,
-      "maximum": 200
     }
   },
   "required": [
-    "owner","repo","filename","itemid"
+    "owner","repo","foldername"
   ]
 }

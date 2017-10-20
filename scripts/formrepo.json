@@ -21,7 +21,7 @@
         "type": "section",
         "htmlClass": "col-md-4 btn-center",
         "items": [
-          "filename"
+          "foldername"
         ]
       }
     ]
@@ -29,6 +29,6 @@
   "token",
   {
     "type": "submit",
-    "title": "Load from Gold Standard"
+    "title": "Initial load from GitHub!"
   }
 ]

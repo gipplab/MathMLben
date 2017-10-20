@@ -1,7 +1,6 @@
 {
   "owner": "ag-gipp",
   "repo": "gouldi",
-  "filename": "data/gold.json",
-  "itemid":1,
+  "foldername": "data",
   "token":""
 }

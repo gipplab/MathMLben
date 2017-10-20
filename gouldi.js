@@ -48,7 +48,8 @@ app.post('/get-model', function (req, res) {
 app.post('/write-model', function (req, res) {
     var body = req.body;
     body.transform = function (x) {
-        return JSON.stringify(body.data,null,2);
+        delete body.data.qID;
+        return JSON.stringify(body.data, null, 2);
     };
     githubChangeRemoteFile(body)
         .then(function (res) {
@@ -58,6 +59,7 @@ app.post('/write-model', function (req, res) {
             res.status(400).send('Can not save' + err.message);
         });
 });
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
