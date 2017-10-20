@@ -30,8 +30,12 @@
       "title": "MathML",
       "type": "textarea"
     },
+    "comment": {
+      "title": "Comment",
+      "type": "textarea"
+    },
     "qID": {
-      "title": "GoldID",
+      "title": "Gold ID",
       "type": "integer",
       "minimum": 1,
       "maximum": 300

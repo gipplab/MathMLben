@@ -25,7 +25,12 @@
     "key": "correct_mml",
     "type": "textarea",
     "title": "MathML",
-    "onChange": ""
+    "onChange": "updated()"
+  },
+  {
+    "key": "comment",
+    "type": "textarea",
+    "title": "Comment"
   },
   {
     "type": "section",
