@@ -40,3 +40,7 @@ label {
 .alert{
     white-space: pre-wrap;
 }
+
+.tab-content>.active {
+    margin: 10px 5px 5px 5px;
+}

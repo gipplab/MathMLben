@@ -31,6 +31,9 @@ angular
             var container = document.getElementById("ast");
             container.innerHTML = "";
             container.appendChild(scriptTag);
+
+            var texContainer = document.getElementById("tex-preview");
+            texContainer.innerHTML = "$$" + $scope.model.math_inputtex + "$$";
         };
 
         $scope.setID = function(){
@@ -64,8 +67,7 @@ angular
                     $scope.model.qID = id;
                     $scope.updated();
                 }).then( function(){
-                    var help = document.getElementsByClassName("alert alert-info").item(0);
-                    help.innerHTML = "Successfully loaded ID: " + id;
+                    $scope.logger("Loaded ID: " + id, 'alert-info');
             } );
         };
 
@@ -88,8 +90,8 @@ angular
                 );
                 // First we broadcast an event so all fields validate themselves
                 $scope.$broadcast('schemaFormValidate');
-
                 $scope.activeForm = 1;
+                $scope.logger("Missing Access Token", 'alert-warning');
                 return;
             } else {
                 $scope.$broadcast(
@@ -113,15 +115,18 @@ angular
                     token: $scope.modelrepo.token,
                     data: gold
                 }).then( function (res) {
-                    var help = document.getElementsByClassName("alert alert-info").item(0);
-                    help.innerHTML = "Successfully pushed changes for ID: " + id;
+                    $scope.logger("Pushed " + id + " successfully!", 'alert-success');
                 }).catch( function (jsonError) {
                     jsonError.config.data = " ... ";
                     $scope.readModel();
-                    var help = document.getElementsByClassName("alert alert-info").item(0);
-                    help.setAttribute( 'class', 'alert alert-danger' );
-                    help.innerHTML = "ERROR! " + JSON.stringify(jsonError,null,2);
+                    $scope.logger( jsonError, 'alert-danger' );
                 });
             }
         };
+
+        $scope.logger = function( msg, alert ){
+            var help = document.getElementsByClassName("alert").item(0);
+            help.setAttribute( 'class', "alert " + alert );
+            help.innerHTML = JSON.stringify(msg, null, 2);
+        }
     });

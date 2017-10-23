@@ -17,8 +17,13 @@
         "general formula"
       ]
     },
+    "math_inputtex": {
+      "title": "Original Input TeX",
+      "type": "string",
+      "default": ""
+    },
     "correct_tex": {
-      "title": "TeX Input",
+      "title": "Corrected TeX",
       "type": "string",
       "default": ""
     },

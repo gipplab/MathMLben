@@ -9,6 +9,13 @@
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
     <script src="scripts/angularGouldi.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+    <script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML-full"></script>
+
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
@@ -37,9 +44,13 @@
                 </uib-tab>
             </uib-tabset>
         </div>
+        <hr>
         <div class="alert alert-info"></div>
     </div>
     <div class="tree-panel">
+        <div class="mathjax-preview">
+            <math id="tex-preview"></math>
+        </div>
         <div id="ast" style="height:700px; width:700px"></div>
     </div>
 </div>
