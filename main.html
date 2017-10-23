@@ -7,31 +7,37 @@
     <script type="text/javascript" src="node_modules/objectpath/lib/ObjectPath.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
     <script src="scripts/angularGouldi.js"></script>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
+    <link rel="stylesheet" href="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
     <link rel="stylesheet" href="styles/basic.css">
 </head>
 <body>
 <div class="wrapper">
     <div class="info-panel">
         <div data-ng-controller="FormController">
-            <h1>Gold Standard</h1>
-            <form name="gold"
-                  data-sf-schema="schema"
-                  data-sf-form="form"
-                  data-sf-model="model"
-                  data-ng-submit="onSave(repo)">
-            </form>
-            <hr>
-            <h1>Access Definitions</h1>
-            <form name="repo"
-                  data-sf-schema="schemarepo"
-                  data-sf-form="formrepo"
-                  data-sf-model="modelrepo"
-                  data-ng-submit="onRequest(repo)"></form>
+            <uib-tabset active="activeForm">
+                <uib-tab ng-attr-active="tabs[0].active" heading="Gold Standard">
+                    <form name="gold"
+                          data-sf-schema="schema"
+                          data-sf-form="form"
+                          data-sf-model="model"
+                          data-ng-submit="onSave(repo)">
+                    </form>
+                </uib-tab>
+                <uib-tab ng-attr-active="tabs[1].active" heading="GitHub Access Definitions">
+                    <form name="repo"
+                          data-sf-schema="schemarepo"
+                          data-sf-form="formrepo"
+                          data-sf-model="modelrepo"
+                          data-ng-submit="onRequest(repo)"></form>
+                </uib-tab>
+            </uib-tabset>
         </div>
+        <div class="alert alert-info"></div>
     </div>
     <div class="tree-panel">
         <div id="ast" style="height:700px; width:700px"></div>

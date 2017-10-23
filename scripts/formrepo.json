@@ -32,10 +32,5 @@
     "validationMessages": {
       "necessaryToken": "An access token is necessary to push changes to GitHub!"
     }
-  },
-  {
-    "key": "info",
-    "type": "help",
-    "helpvalue": "<div class=\"alert alert-info\"></div>"
   }
 ]

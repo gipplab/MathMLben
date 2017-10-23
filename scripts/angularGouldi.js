@@ -1,6 +1,8 @@
 angular
-    .module('gouldiApp', ['schemaForm'])
+    .module('gouldiApp', ['schemaForm','ui.bootstrap'])
     .controller('FormController', function ($scope, $http) {
+        $scope.tabs = [{active: true}, {active: false}];
+
         var loadFromJson = function (name) {
             $http.get("scripts/" + name + ".json").then(function (res) {
                 $scope[name] = res.data;
@@ -88,6 +90,8 @@ angular
                 );
                 // First we broadcast an event so all fields validate themselves
                 $scope.$broadcast('schemaFormValidate');
+
+                $scope.activeForm = 1;
                 return;
             } else {
                 $scope.$broadcast(
