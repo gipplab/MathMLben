@@ -1,8 +1,6 @@
 angular
     .module('gouldiApp', ['schemaForm','ui.bootstrap'])
     .controller('FormController', function ($scope, $http) {
-        $scope.tabs = [{active: true}, {active: false}];
-
         var loadFromJson = function (name) {
             $http.get("scripts/" + name + ".json").then(function (res) {
                 $scope[name] = res.data;
