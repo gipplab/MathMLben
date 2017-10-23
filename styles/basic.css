@@ -17,6 +17,7 @@ body {
     width: 60%;
     position: absolute;
     right: 0;
+    padding-left: 10px;
 }
 
 label {
