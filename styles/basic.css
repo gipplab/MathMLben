@@ -36,3 +36,7 @@ label {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.alert{
+    white-space: pre-wrap;
+}

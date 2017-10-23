@@ -30,6 +30,7 @@ app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
 app.use('/styles', express.static(path.join(__dirname + '/styles')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
+app.use('/assets', express.static(path.join(__dirname + '/assets')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
 
 app.post('/get-model', function (req, res) {
@@ -56,7 +57,7 @@ app.post('/write-model', function (req, res) {
             console.log(res);
         })
         .catch(function (err) {
-            res.status(400).send('Can not save' + err.message);
+            throw err;
         });
 });
 

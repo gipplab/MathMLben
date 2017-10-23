@@ -63,12 +63,42 @@ angular
                     $scope.model = res.data;
                     $scope.model.qID = id;
                     $scope.updated();
-                });
+                }).then( function(){
+                    var help = document.getElementsByClassName("alert alert-info").item(0);
+                    help.innerHTML = "Successfully loaded ID: " + id;
+            } );
+        };
+
+        $scope.disableTokenError = function(){
+            $scope.$broadcast(
+                'schemaForm.error.token',
+                'necessaryToken',
+                true,
+                'repo'
+            );
         };
 
         $scope.onSave = function(form) {
-            // First we broadcast an event so all fields validate themselves
-            $scope.$broadcast('schemaFormValidate');
+            if ( $scope.modelrepo.token === "" ){
+                $scope.$broadcast(
+                    'schemaForm.error.token',
+                    'necessaryToken',
+                    'An access token is necessary to push changes to GitHub!',
+                    'repo'
+                );
+                // First we broadcast an event so all fields validate themselves
+                $scope.$broadcast('schemaFormValidate');
+                return;
+            } else {
+                $scope.$broadcast(
+                    'schemaForm.error.token',
+                    'necessaryToken',
+                    true,
+                    'repo'
+                );
+                // First we broadcast an event so all fields validate themselves
+                $scope.$broadcast('schemaFormValidate');
+            }
 
             var gold = $scope.model;
 
@@ -80,11 +110,15 @@ angular
                     filename: $scope.modelrepo.foldername + "/" + $scope.model.qID + ".json",
                     token: $scope.modelrepo.token,
                     data: gold
-                }).then(function (res) {
-                    alert("Pushed successfully qID: " + $scope.model.qID + "!");
-                }).catch(function (e) {
-                    readModel();
-                    alert("It was not possible to push changes! Revered everything!" + e.data);
+                }).then( function (res) {
+                    var help = document.getElementsByClassName("alert alert-info").item(0);
+                    help.innerHTML = "Successfully pushed changes for ID: " + id;
+                }).catch( function (jsonError) {
+                    jsonError.config.data = " ... ";
+                    $scope.readModel();
+                    var help = document.getElementsByClassName("alert alert-info").item(0);
+                    help.setAttribute( 'class', 'alert alert-danger' );
+                    help.innerHTML = "ERROR! " + JSON.stringify(jsonError,null,2);
                 });
             }
         };
