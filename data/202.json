@@ -1,1 +1,16 @@
-{}
+{
+  "definitions": {
+    "k": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ]
+  },
+  "correct_tex":"k",
+  "math_inputtex":"k",
+  "uri": "https://arxiv.org/abs/math0112281",
+  "formula":"1_8.6",
+  "ntcir12-type":"2",
+  "ntcir12-relevance":"3",
+  "correct_mml":"<xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S2.p1.2.m2.1.cmml\" alttext=\"k\" class=\"ltx_Math\" id=\"S2.p1.2.m2.1\" display=\"inline\"><semantics xref=\"S2.p1.2.m2.1.cmml\" id=\"S2.p1.2.m2.1a\"><mi xref=\"S2.p1.2.m2.1.1.cmml\" id=\"S2.p1.2.m2.1.1\">k</mi><annotation-xml xref=\"S2.p1.2.m2.1\" id=\"S2.p1.2.m2.1.cmml\" encoding=\"MathML-Content\"><ci xref=\"S2.p1.2.m2.1.1\" id=\"S2.p1.2.m2.1.1.cmml\">k</ci></annotation-xml><annotation xref=\"S2.p1.2.m2.1.cmml\" id=\"S2.p1.2.m2.1b\" encoding=\"application/x-tex\">k</annotation></semantics></math>"
+}

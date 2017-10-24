@@ -1,4 +1,16 @@
 {
-  "correct_tex": "dsf",
-  "title": "sdf"
+  "definitions": {
+    "k": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ]
+  },
+  "correct_tex":"\\left[\\!\\left[\\frac{M-a_{1}}{d}\\right]\\!\\right]+1",
+  "math_inputtex":"\\left[\\!\\left[\\frac{M-a_{1}}{d}\\right]\\!\\right]+1",
+  "uri": "https://arxiv.org/abs/0904.3855",
+  "formula":"1_220.107",
+  "ntcir12-type":"3",
+  "ntcir12-relevance":"4",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"I22.ix4.p1.1.m7.1.cmml\" alttext=\"\\left[\\!\\left[\frac{M-a_{1}}{d}\right]\\!\right]+1\" class=\"ltx_Math\" id=\"I22.ix4.p1.1.m7.1\" display=\"inline\"><semantics xref=\"I22.ix4.p1.1.m7.1.cmml\" id=\"I22.ix4.p1.1.m7.1a\"><mrow xref=\"I22.ix4.p1.1.m7.1.10.cmml\" id=\"I22.ix4.p1.1.m7.1.10\"><mpadded xref=\"I22.ix4.p1.1.m7.1.4.cmml\" width=\"-1.67pt\" id=\"I22.ix4.p1.1.m7.1.4\"><mrow xref=\"I22.ix4.p1.1.m7.1.4.cmml\" id=\"I22.ix4.p1.1.m7.1.4a\"><mo xref=\"I22.ix4.p1.1.m7.1.4.cmml\" id=\"I22.ix4.p1.1.m7.1.4b\" fence=\"true\">[[</mo><mfrac xref=\"I22.ix4.p1.1.m7.1.4.cmml\" id=\"I22.ix4.p1.1.m7.1.4c\"><mrow xref=\"I22.ix4.p1.1.m7.1.4.2.cmml\" id=\"I22.ix4.p1.1.m7.1.4.2\"><mi xref=\"I22.ix4.p1.1.m7.1.4.2.1.cmml\" id=\"I22.ix4.p1.1.m7.1.4.2.1\">M</mi><mo xref=\"I22.ix4.p1.1.m7.1.4.2.2.cmml\" id=\"I22.ix4.p1.1.m7.1.4.2.2\">-</mo><msub xref=\"I22.ix4.p1.1.m7.1.4.2.5.cmml\" id=\"I22.ix4.p1.1.m7.1.4.2.5\"><mi xref=\"I22.ix4.p1.1.m7.1.4.2.3.cmml\" id=\"I22.ix4.p1.1.m7.1.4.2.3\">a</mi><mn xref=\"I22.ix4.p1.1.m7.1.4.2.4.1.cmml\" id=\"I22.ix4.p1.1.m7.1.4.2.4.1\">1</mn></msub></mrow><mi xref=\"I22.ix4.p1.1.m7.1.4.3.cmml\" id=\"I22.ix4.p1.1.m7.1.4.3\">d</mi></mfrac><mo xref=\"I22.ix4.p1.1.m7.1.4.cmml\" id=\"I22.ix4.p1.1.m7.1.4d\" fence=\"true\">]]</mo></mrow></mpadded><mo xref=\"I22.ix4.p1.1.m7.1.8.cmml\" id=\"I22.ix4.p1.1.m7.1.8\">+</mo><mn xref=\"I22.ix4.p1.1.m7.1.9.cmml\" id=\"I22.ix4.p1.1.m7.1.9\">1</mn></mrow><annotation-xml xref=\"I22.ix4.p1.1.m7.1\" id=\"I22.ix4.p1.1.m7.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"I22.ix4.p1.1.m7.1.10\" id=\"I22.ix4.p1.1.m7.1.10.cmml\"><plus xref=\"I22.ix4.p1.1.m7.1.8\" id=\"I22.ix4.p1.1.m7.1.8.cmml\"></plus><apply xref=\"I22.ix4.p1.1.m7.1.4\" id=\"I22.ix4.p1.1.m7.1.4.cmml\"><divide id=\"I22.ix4.p1.1.m7.1.4.1.cmml\"></divide><apply xref=\"I22.ix4.p1.1.m7.1.4.2\" id=\"I22.ix4.p1.1.m7.1.4.2.cmml\"><minus xref=\"I22.ix4.p1.1.m7.1.4.2.2\" id=\"I22.ix4.p1.1.m7.1.4.2.2.cmml\"></minus><ci xref=\"I22.ix4.p1.1.m7.1.4.2.1\" id=\"I22.ix4.p1.1.m7.1.4.2.1.cmml\">M</ci><apply xref=\"I22.ix4.p1.1.m7.1.4.2.5\" id=\"I22.ix4.p1.1.m7.1.4.2.5.cmml\"><csymbol cd=\"ambiguous\" id=\"I22.ix4.p1.1.m7.1.4.2.5.1.cmml\">subscript</csymbol><ci xref=\"I22.ix4.p1.1.m7.1.4.2.3\" id=\"I22.ix4.p1.1.m7.1.4.2.3.cmml\">a</ci><cn xref=\"I22.ix4.p1.1.m7.1.4.2.4.1\" id=\"I22.ix4.p1.1.m7.1.4.2.4.1.cmml\" type=\"integer\">1</cn></apply></apply><ci xref=\"I22.ix4.p1.1.m7.1.4.3\" id=\"I22.ix4.p1.1.m7.1.4.3.cmml\">d</ci></apply><cn xref=\"I22.ix4.p1.1.m7.1.9\" id=\"I22.ix4.p1.1.m7.1.9.cmml\" type=\"integer\">1</cn></apply></annotation-xml><annotation xref=\"I22.ix4.p1.1.m7.1.cmml\" id=\"I22.ix4.p1.1.m7.1b\" encoding=\"application/x-tex\">\left[\!\left[\frac{M-a_{1}}{d}\right]\!\right]+1</annotation></semantics></math>"
 }
