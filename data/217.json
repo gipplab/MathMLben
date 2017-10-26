@@ -1,1 +1,21 @@
-{}
+{
+  "definitions": {
+    "d": [
+      {
+        "Q1244890": "rational number"
+      }
+    ],
+    "n_{d}": [
+      {
+        "Q1244890": "rational number"
+      }
+    ],
+  },
+  "math_inputtex":"\\begin{array}[]{|c|c|c|c|c|c|c|}\\hline d&amp;5&amp;6&amp;7&amp;8&amp;9&amp;10\\\\&#10;\\hline n_{d}&amp;2015&amp;70956&amp;684222&amp;3878736&amp;16137873&amp;54575640\\\\&#10;\\hline\\end{array}",
+  "correct_tex":"\\begin{array}[]{|c|c|c|c|c|c|c|}\\hline d&amp;5&amp;6&amp;7&amp;8&amp;9&amp;10\\\\&#10;\\hline n_{d}&amp;2015&amp;70956&amp;684222&amp;3878736&amp;16137873&amp;54575640\\\\&#10;\\hline\\end{array}",
+  "uri": "https://arxiv.org/abs/math0202002",
+  "formula":"1_88.2",
+  "ntcir12-type":"17",
+  "ntcir12-relevance":"2",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S3.Ex22.m1.1.cmml\" alttext=\"\\begin{array}[]{|c|c|c|c|c|c|c|}\\hline d&amp;5&amp;6&amp;7&amp;8&amp;9&amp;10\\\\&#10;\\hline n_{d}&amp;2015&amp;70956&amp;684222&amp;3878736&amp;16137873&amp;54575640\\\\&#10;\\hline\\end{array}\" class=\"ltx_Math\" id=\"S3.Ex22.m1.1\" display=\"block\"><semantics xref=\"S3.Ex22.m1.1.cmml\" id=\"S3.Ex22.m1.1a\"><mtable xref=\"S3.Ex22.m1.1.1.cmml\" id=\"S3.Ex22.m1.1.1\" rowspacing=\"0.2ex\" columnspacing=\"0.4em\"><mtr xref=\"S3.Ex22.m1.1.1.cmml\" id=\"S3.Ex22.m1.1.1a\"><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1b\" class=\"l r t\"><mi id=\"S3.Ex22.m1.1.1.1.1.1\">d</mi></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1c\" class=\"r t\"><mn id=\"S3.Ex22.m1.1.1.1.2.1\">5</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1d\" class=\"r t\"><mn id=\"S3.Ex22.m1.1.1.1.3.1\">6</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1e\" class=\"r t\"><mn id=\"S3.Ex22.m1.1.1.1.4.1\">7</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1f\" class=\"r t\"><mn id=\"S3.Ex22.m1.1.1.1.5.1\">8</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1g\" class=\"r t\"><mn id=\"S3.Ex22.m1.1.1.1.6.1\">9</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1h\" class=\"r t\"><mn id=\"S3.Ex22.m1.1.1.1.7.1\">10</mn></mtd></mtr><mtr xref=\"S3.Ex22.m1.1.1.cmml\" id=\"S3.Ex22.m1.1.1i\"><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1j\" class=\"b l r t\"><msub id=\"S3.Ex22.m1.1.1.2.1.1\"><mi id=\"S3.Ex22.m1.1.1.2.1.1.1\">n</mi><mi id=\"S3.Ex22.m1.1.1.2.1.1.2.1\">d</mi></msub></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1k\" class=\"b r t\"><mn id=\"S3.Ex22.m1.1.1.2.2.1\">2015</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1l\" class=\"b r t\"><mn id=\"S3.Ex22.m1.1.1.2.3.1\">70956</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1m\" class=\"b r t\"><mn id=\"S3.Ex22.m1.1.1.2.4.1\">684222</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1n\" class=\"b r t\"><mn id=\"S3.Ex22.m1.1.1.2.5.1\">3878736</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1o\" class=\"b r t\"><mn id=\"S3.Ex22.m1.1.1.2.6.1\">16137873</mn></mtd><mtd xref=\"S3.Ex22.m1.1.1.cmml\" columnalign=\"center\" id=\"S3.Ex22.m1.1.1p\" class=\"b r t\"><mn id=\"S3.Ex22.m1.1.1.2.7.1\">54575640</mn></mtd></mtr></mtable><annotation-xml xref=\"S3.Ex22.m1.1\" id=\"S3.Ex22.m1.1.cmml\" encoding=\"MathML-Content\"><mtext xref=\"S3.Ex22.m1.1.1\" id=\"S3.Ex22.m1.1.1.cmml\">d5678910nd20157095668422238787361613787354575640</mtext></annotation-xml><annotation xref=\"S3.Ex22.m1.1.cmml\" id=\"S3.Ex22.m1.1b\" encoding=\"application/x-tex\">\\begin{array}[]{|c|c|c|c|c|c|c|}\\hline d&amp;5&amp;6&amp;7&amp;8&amp;9&amp;10\\\\\\hline n_{d}&amp;2015&amp;70956&amp;684222&amp;3878736&amp;16137873&amp;54575640\\\\\\hline\\end{array}</annotation></semantics></math>"
+}

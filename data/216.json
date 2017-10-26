@@ -1,1 +1,31 @@
-{}
+{
+  "definitions": {
+    "F": [
+      {
+        "Q47577": "Fibonacci number"
+      }
+    ],
+    "n": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+    "k": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+    "m": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+  },
+  "math_inputtex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
+  "correct_tex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
+  "uri": "https://arxiv.org/abs/1001.3466",
+  "formula":"1_117.2",
+  "ntcir12-type":"16",
+  "ntcir12-relevance":"4",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S4.E27.m1.1.cmml\" alttext=\"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}\" class=\"ltx_Math\" id=\"S4.E27.m1.1\" display=\"block\"><semantics xref=\"S4.E27.m1.1.cmml\" id=\"S4.E27.m1.1a\"><mrow xref=\"S4.E27.m1.1.7.cmml\" id=\"S4.E27.m1.1.7\"><msub xref=\"S4.E27.m1.1.7.1.cmml\" id=\"S4.E27.m1.1.7.1\"><mi xref=\"S4.E27.m1.1.1.cmml\" id=\"S4.E27.m1.1.1\">F</mi><mrow xref=\"S4.E27.m1.1.2.1.cmml\" id=\"S4.E27.m1.1.2.1\"><mi xref=\"S4.E27.m1.1.2.1.1.cmml\" id=\"S4.E27.m1.1.2.1.1\">n</mi><mo xref=\"S4.E27.m1.1.2.1.2.cmml\" id=\"S4.E27.m1.1.2.1.2\">+</mo><mn xref=\"S4.E27.m1.1.2.1.3.cmml\" id=\"S4.E27.m1.1.2.1.3\">1</mn></mrow></msub><mo xref=\"S4.E27.m1.1.3.cmml\" id=\"S4.E27.m1.1.3\">=</mo><mrow xref=\"S4.E27.m1.1.7.2.cmml\" id=\"S4.E27.m1.1.7.2\"><munder xref=\"S4.E27.m1.1.7.2.1.cmml\" id=\"S4.E27.m1.1.7.2.1\"><mo xref=\"S4.E27.m1.1.4.cmml\" movablelimits=\"false\" id=\"S4.E27.m1.1.4\">\u2211</mo><mrow xref=\"S4.E27.m1.1.5.1.cmml\" id=\"S4.E27.m1.1.5.1\"><mi xref=\"S4.E27.m1.1.5.1.1.cmml\" id=\"S4.E27.m1.1.5.1.1\">n</mi><mo xref=\"S4.E27.m1.1.5.1.2.cmml\" id=\"S4.E27.m1.1.5.1.2\">=</mo><mrow xref=\"S4.E27.m1.1.5.1.6.cmml\" id=\"S4.E27.m1.1.5.1.6\"><mi xref=\"S4.E27.m1.1.5.1.3.cmml\" id=\"S4.E27.m1.1.5.1.3\">k</mi><mo xref=\"S4.E27.m1.1.5.1.4.cmml\" id=\"S4.E27.m1.1.5.1.4\">+</mo><mi xref=\"S4.E27.m1.1.5.1.5.cmml\" id=\"S4.E27.m1.1.5.1.5\">m</mi></mrow></mrow></munder><mrow xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6\"><mo xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6a\">(</mo><mtable xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6b\" rowspacing=\"0.2ex\" columnspacing=\"0.4em\"><mtr xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6c\"><mtd xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6d\"><mi xref=\"S4.E27.m1.1.6.2.cmml\" id=\"S4.E27.m1.1.6.2\">k</mi></mtd></mtr><mtr xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6e\"><mtd xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6f\"><mi xref=\"S4.E27.m1.1.6.3.cmml\" id=\"S4.E27.m1.1.6.3\">m</mi></mtd></mtr></mtable><mo xref=\"S4.E27.m1.1.6.cmml\" id=\"S4.E27.m1.1.6g\">)</mo></mrow></mrow></mrow><annotation-xml xref=\"S4.E27.m1.1\" id=\"S4.E27.m1.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S4.E27.m1.1.7\" id=\"S4.E27.m1.1.7.cmml\"><eq xref=\"S4.E27.m1.1.3\" id=\"S4.E27.m1.1.3.cmml\"></eq><apply xref=\"S4.E27.m1.1.7.1\" id=\"S4.E27.m1.1.7.1.cmml\"><csymbol cd=\"ambiguous\" id=\"S4.E27.m1.1.7.1.1.cmml\">subscript</csymbol><ci xref=\"S4.E27.m1.1.1\" id=\"S4.E27.m1.1.1.cmml\">F</ci><apply xref=\"S4.E27.m1.1.2.1\" id=\"S4.E27.m1.1.2.1.cmml\"><plus xref=\"S4.E27.m1.1.2.1.2\" id=\"S4.E27.m1.1.2.1.2.cmml\"></plus><ci xref=\"S4.E27.m1.1.2.1.1\" id=\"S4.E27.m1.1.2.1.1.cmml\">n</ci><cn xref=\"S4.E27.m1.1.2.1.3\" id=\"S4.E27.m1.1.2.1.3.cmml\" type=\"integer\">1</cn></apply></apply><apply xref=\"S4.E27.m1.1.7.2\" id=\"S4.E27.m1.1.7.2.cmml\"><apply xref=\"S4.E27.m1.1.7.2.1\" id=\"S4.E27.m1.1.7.2.1.cmml\"><csymbol cd=\"ambiguous\" id=\"S4.E27.m1.1.7.2.1.1.cmml\">subscript</csymbol><sum xref=\"S4.E27.m1.1.4\" id=\"S4.E27.m1.1.4.cmml\"></sum><apply xref=\"S4.E27.m1.1.5.1\" id=\"S4.E27.m1.1.5.1.cmml\"><eq xref=\"S4.E27.m1.1.5.1.2\" id=\"S4.E27.m1.1.5.1.2.cmml\"></eq><ci xref=\"S4.E27.m1.1.5.1.1\" id=\"S4.E27.m1.1.5.1.1.cmml\">n</ci><apply xref=\"S4.E27.m1.1.5.1.6\" id=\"S4.E27.m1.1.5.1.6.cmml\"><plus xref=\"S4.E27.m1.1.5.1.4\" id=\"S4.E27.m1.1.5.1.4.cmml\"></plus><ci xref=\"S4.E27.m1.1.5.1.3\" id=\"S4.E27.m1.1.5.1.3.cmml\">k</ci><ci xref=\"S4.E27.m1.1.5.1.5\" id=\"S4.E27.m1.1.5.1.5.cmml\">m</ci></apply></apply></apply><apply xref=\"S4.E27.m1.1.6\" id=\"S4.E27.m1.1.6.cmml\"><csymbol cd=\"latexml\" id=\"S4.E27.m1.1.6.1.cmml\">binomial</csymbol><ci xref=\"S4.E27.m1.1.6.2\" id=\"S4.E27.m1.1.6.2.cmml\">k</ci><ci xref=\"S4.E27.m1.1.6.3\" id=\"S4.E27.m1.1.6.3.cmml\">m</ci></apply></apply></apply></annotation-xml><annotation xref=\"S4.E27.m1.1.cmml\" id=\"S4.E27.m1.1b\" encoding=\"application/x-tex\">F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}</annotation></semantics></math>"
+}

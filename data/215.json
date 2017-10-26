@@ -1,1 +1,21 @@
-{}
+{
+  "definitions": {
+    "S": [
+      {
+        "Q382497": "Affine transformation"
+      }
+    ],
+    "x": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+  },
+  "math_inputtex":"S(x)=3x+1",
+  "correct_tex":"S(x)=3x+1",
+  "uri": "https://arxiv.org/abs/1311.4261",
+  "formula":"1_32.7",
+  "ntcir12-type":"15",
+  "ntcir12-relevance":"4",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S4.p1.1.m7.1.cmml\" alttext=\"S(x)=3x+1\" class=\"ltx_Math\" id=\"S4.p1.1.m7.1\" display=\"inline\"><semantics xref=\"S4.p1.1.m7.1.cmml\" id=\"S4.p1.1.m7.1a\"><mrow xref=\"S4.p1.1.m7.1.10.cmml\" id=\"S4.p1.1.m7.1.10\"><mrow xref=\"S4.p1.1.m7.1.10.1.cmml\" id=\"S4.p1.1.m7.1.10.1\"><mi xref=\"S4.p1.1.m7.1.1.cmml\" id=\"S4.p1.1.m7.1.1\">S</mi><mo xref=\"S4.p1.1.m7.1.10.1.1.cmml\" id=\"S4.p1.1.m7.1.10.1.1\">\u2062</mo><mrow xref=\"S4.p1.1.m7.1.3.cmml\" id=\"S4.p1.1.m7.1.3\"><mo xref=\"S4.p1.1.m7.1.3.cmml\" id=\"S4.p1.1.m7.1.3a\">(</mo><mi xref=\"S4.p1.1.m7.1.3.cmml\" id=\"S4.p1.1.m7.1.3b\">x</mi><mo xref=\"S4.p1.1.m7.1.3.cmml\" id=\"S4.p1.1.m7.1.3c\">)</mo></mrow></mrow><mo xref=\"S4.p1.1.m7.1.5.cmml\" id=\"S4.p1.1.m7.1.5\">=</mo><mrow xref=\"S4.p1.1.m7.1.10.2.cmml\" id=\"S4.p1.1.m7.1.10.2\"><mrow xref=\"S4.p1.1.m7.1.10.2.1.cmml\" id=\"S4.p1.1.m7.1.10.2.1\"><mn xref=\"S4.p1.1.m7.1.6.cmml\" id=\"S4.p1.1.m7.1.6\">3</mn><mo xref=\"S4.p1.1.m7.1.10.2.1.1.cmml\" id=\"S4.p1.1.m7.1.10.2.1.1\">\u2062</mo><mi xref=\"S4.p1.1.m7.1.7.cmml\" id=\"S4.p1.1.m7.1.7\">x</mi></mrow><mo xref=\"S4.p1.1.m7.1.8.cmml\" id=\"S4.p1.1.m7.1.8\">+</mo><mn xref=\"S4.p1.1.m7.1.9.cmml\" id=\"S4.p1.1.m7.1.9\">1</mn></mrow></mrow><annotation-xml xref=\"S4.p1.1.m7.1\" id=\"S4.p1.1.m7.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S4.p1.1.m7.1.10\" id=\"S4.p1.1.m7.1.10.cmml\"><eq xref=\"S4.p1.1.m7.1.5\" id=\"S4.p1.1.m7.1.5.cmml\"></eq><apply xref=\"S4.p1.1.m7.1.10.1\" id=\"S4.p1.1.m7.1.10.1.cmml\"><times xref=\"S4.p1.1.m7.1.10.1.1\" id=\"S4.p1.1.m7.1.10.1.1.cmml\"></times><ci xref=\"S4.p1.1.m7.1.1\" id=\"S4.p1.1.m7.1.1.cmml\">S</ci><ci xref=\"S4.p1.1.m7.1.3\" id=\"S4.p1.1.m7.1.3.cmml\">x</ci></apply><apply xref=\"S4.p1.1.m7.1.10.2\" id=\"S4.p1.1.m7.1.10.2.cmml\"><plus xref=\"S4.p1.1.m7.1.8\" id=\"S4.p1.1.m7.1.8.cmml\"></plus><apply xref=\"S4.p1.1.m7.1.10.2.1\" id=\"S4.p1.1.m7.1.10.2.1.cmml\"><times xref=\"S4.p1.1.m7.1.10.2.1.1\" id=\"S4.p1.1.m7.1.10.2.1.1.cmml\"></times><cn xref=\"S4.p1.1.m7.1.6\" id=\"S4.p1.1.m7.1.6.cmml\" type=\"integer\">3</cn><ci xref=\"S4.p1.1.m7.1.7\" id=\"S4.p1.1.m7.1.7.cmml\">x</ci></apply><cn xref=\"S4.p1.1.m7.1.9\" id=\"S4.p1.1.m7.1.9.cmml\" type=\"integer\">1</cn></apply></apply></annotation-xml><annotation xref=\"S4.p1.1.m7.1.cmml\" id=\"S4.p1.1.m7.1b\" encoding=\"application/x-tex\">S(x)=3x+1</annotation></semantics></math>",
+}
