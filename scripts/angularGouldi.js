@@ -31,9 +31,6 @@ angular
             var container = document.getElementById("ast");
             container.innerHTML = "";
             container.appendChild(scriptTag);
-
-            var texContainer = document.getElementById("tex-preview");
-            texContainer.innerHTML = "$$" + $scope.model.math_inputtex + "$$";
         };
 
         $scope.setID = function(){
