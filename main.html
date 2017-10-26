@@ -9,14 +9,6 @@
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
     <script src="scripts/angularGouldi.js"></script>
-    <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
-  });
-</script>
-    <script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML-full"></script>
-
-
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
     <link rel="stylesheet" href="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
@@ -34,6 +26,8 @@
                           data-sf-model="model"
                           data-ng-submit="onSave(repo)">
                     </form>
+                    <hr>
+                    <div class="alert alert-info" id="logger-info-helper"></div>
                 </uib-tab>
                 <uib-tab ng-attr-active="tabs[1].active" heading="GitHub Access Definitions">
                     <form name="repo"
@@ -42,15 +36,13 @@
                           data-sf-model="modelrepo"
                           data-ng-submit="onRequest(repo)"></form>
                 </uib-tab>
+                <uib-tab ng-attr-active="tabs[2].active" heading="Model">
+                    <div class="alert alert-info" id="model-info-helper"></div>
+                </uib-tab>
             </uib-tabset>
         </div>
-        <hr>
-        <div class="alert alert-info"></div>
     </div>
     <div class="tree-panel">
-        <div class="mathjax-preview">
-            <math id="tex-preview"></math>
-        </div>
         <div id="ast" style="height:700px; width:700px"></div>
     </div>
 </div>

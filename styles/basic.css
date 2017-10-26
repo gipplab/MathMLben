@@ -44,3 +44,24 @@ label {
 .tab-content>.active {
     margin: 10px 5px 5px 5px;
 }
+
+.schema-form-tabarray .col-xs-3 {
+    width: 100%;
+}
+
+.schema-form-tabarray .col-xs-9 {
+    width: 100%;
+}
+
+.small-tabs li>a {
+    padding: 3px 10px 3px 10px;
+}
+
+.small-tabs div.tab-pane div.form-group {
+    width: 70%;
+    position: absolute;
+}
+
+.small-tabs>div {
+    padding-left: 5px;
+}

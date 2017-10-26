@@ -68,7 +68,9 @@ angular
                     $scope.updated();
                 }).then( function(){
                     $scope.logger("Loaded ID: " + id, 'alert-info');
-            } );
+                }).catch( function(err) {
+                    $scope.logger("Hmm, da ging was schief!", 'alert-danger');
+            });
         };
 
         $scope.disableTokenError = function(){
@@ -125,8 +127,17 @@ angular
         };
 
         $scope.logger = function( msg, alert ){
-            var help = document.getElementsByClassName("alert").item(0);
-            help.setAttribute( 'class', "alert " + alert );
-            help.innerHTML = JSON.stringify(msg, null, 2);
-        }
+            var help = document.getElementById("logger-info-helper");
+            console.log("Hmm... " + help);
+            if ( help !== null ){
+                help.setAttribute( 'class', "alert " + alert );
+                help.innerHTML = JSON.stringify(msg, null, 2);
+            }
+        };
+
+        $scope.$watch('model', function(){
+            var model_help = document.getElementById("model-info-helper");
+            if ( model_help !== null )
+                model_help.innerHTML = JSON.stringify($scope.model, null, 2);
+        }, true);
     });

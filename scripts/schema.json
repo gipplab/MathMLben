@@ -44,6 +44,16 @@
       "type": "integer",
       "minimum": 1,
       "maximum": 300
+    },
+    "constraints": {
+      "title": "Constraints",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "required": [
+        "constraints[]"
+      ]
     }
   }
 }
