@@ -66,7 +66,7 @@ angular
                 }).then( function(){
                     $scope.logger("Loaded ID: " + id, 'alert-info');
                 }).catch( function(err) {
-                    $scope.logger("Hmm, da ging was schief!", 'alert-danger');
+                    $scope.logger(err, 'alert-danger');
             });
         };
 
