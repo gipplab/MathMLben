@@ -1,9 +1,11 @@
 require('app-module-path').addPath(__dirname);
+
 var express = require('express');
 var app = express();
 var path = require("path");
 var yaml = require('js-yaml');
 var BBPromise = require('bluebird');
+var preq = require('preq');
 var fs = BBPromise.promisifyAll(require('fs'));
 var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
@@ -30,6 +32,7 @@ app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
 app.use('/styles', express.static(path.join(__dirname + '/styles')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
+app.use('/', express.static(path.join(__dirname + '/node_modules/vmext/public/favicon.ico')));
 app.use('/assets', express.static(path.join(__dirname + '/assets')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
 
@@ -61,10 +64,24 @@ app.post('/write-model', function (req, res) {
         });
 });
 
+app.post('/render-math', function (req, res){
+    preq.post(
+        {
+            uri: 'http://localhost:10044/svg/',
+            encoding: null,
+            body: {q: req.body.input, nospeech: true}
+        }
+    ).then( function(inner_res) {
+        res.send( inner_res.body.toString() );
+    }).catch( function(e){
+        res.status(400).send('Error while render SVG: ' + e.message);
+    } );
+});
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
 
-app.listen(mathoidcfg.gouldi.port, function () {
+app.listen( mathoidcfg.gouldi.port, function () {
     console.log('Started GoUldI on ' + mathoidcfg.gouldi.port);
 });

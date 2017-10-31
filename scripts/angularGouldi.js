@@ -132,6 +132,23 @@ angular
             }
         };
 
+        $scope.$watch('model.math_inputtex', function(){
+            if ( !('model' in $scope) ){
+                console.log("Undefined model!");
+                return;
+            }
+
+            $http.post('render-math', {
+                input: $scope.model.math_inputtex
+            }).then( function(res){
+                var container = document.getElementById('svg-renderer-container');
+                container.innerHTML = "";
+                container.innerHTML = res.data;
+            }).catch( function(e){
+                console.log("ERROR: " + e.message);
+            })
+        }, true);
+
         $scope.$watch('model', function(){
             var model_help = document.getElementById("model-info-helper");
             if ( model_help !== null )
