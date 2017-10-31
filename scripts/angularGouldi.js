@@ -26,8 +26,8 @@ angular
         $scope.updated = function () {
             var scriptTag = document.createElement('script');
             scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
-
             scriptTag.setAttribute('mathml', $scope.model.correct_mml);
+
             var container = document.getElementById("ast");
             container.innerHTML = "";
             container.appendChild(scriptTag);
@@ -66,7 +66,7 @@ angular
                 }).then( function(){
                     $scope.logger("Loaded ID: " + id, 'alert-info');
                 }).catch( function(err) {
-                    $scope.logger("Hmm, da ging was schief!", 'alert-danger');
+                    $scope.logger(err, 'alert-danger');
             });
         };
 
@@ -131,6 +131,23 @@ angular
                 help.innerHTML = JSON.stringify(msg, null, 2);
             }
         };
+
+        $scope.$watch('model.math_inputtex', function(){
+            if ( !('model' in $scope) ){
+                console.log("Undefined model!");
+                return;
+            }
+
+            $http.post('render-math', {
+                input: $scope.model.math_inputtex
+            }).then( function(res){
+                var container = document.getElementById('svg-renderer-container');
+                container.innerHTML = "";
+                container.innerHTML = res.data;
+            }).catch( function(e){
+                console.log("ERROR: " + e.message);
+            });
+        }, true);
 
         $scope.$watch('model', function(){
             var model_help = document.getElementById("model-info-helper");
