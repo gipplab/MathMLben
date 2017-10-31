@@ -34,7 +34,6 @@
     "github-change-remote-file": "^4.2.0",
     "github-content": "^1.0.1",
     "mathoid": "git+https://github.com/AndreG-P/mathoid-server.git",
-    "npm-windows-upgrade": "^4.1.0",
     "popper.js": "^1.12.5",
     "preq": "^0.5.2",
     "request": "^2.83.0",
