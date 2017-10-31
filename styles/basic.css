@@ -78,3 +78,8 @@ label {
     height: 22pt;
     width: auto;
 }
+
+iframe{
+    border: 1px solid #eeeeef;
+    border-radius: 4px;
+}

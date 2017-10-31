@@ -26,8 +26,8 @@ angular
         $scope.updated = function () {
             var scriptTag = document.createElement('script');
             scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
-
             scriptTag.setAttribute('mathml', $scope.model.correct_mml);
+
             var container = document.getElementById("ast");
             container.innerHTML = "";
             container.appendChild(scriptTag);
@@ -146,7 +146,7 @@ angular
                 container.innerHTML = res.data;
             }).catch( function(e){
                 console.log("ERROR: " + e.message);
-            })
+            });
         }, true);
 
         $scope.$watch('model', function(){
