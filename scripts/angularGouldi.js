@@ -113,8 +113,8 @@ angular
                     filename: $scope.modelrepo.foldername + "/" + $scope.model.qID + ".json",
                     token: $scope.modelrepo.token,
                     data: gold
-                }).then( function (res) {
-                    $scope.logger("Pushed " + id + " successfully!", 'alert-success');
+                }).then( function ( res ) {
+                    $scope.logger( res, 'alert-success');
                 }).catch( function (jsonError) {
                     jsonError.config.data = " ... ";
                     $scope.readModel();

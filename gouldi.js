@@ -56,8 +56,8 @@ app.post('/write-model', function (req, res) {
         return JSON.stringify(body.data, null, 2);
     };
     githubChangeRemoteFile(body)
-        .then(function (res) {
-            console.log(res);
+        .then(function (inner_res) {
+            res.send( inner_res );
         })
         .catch(function (err) {
             throw err;
