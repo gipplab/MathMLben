@@ -9,7 +9,7 @@
       {
         "Q1244890": "rational number"
       }
-    ],
+    ]
   },
   "math_inputtex":"\\begin{array}[]{|c|c|c|c|c|c|c|}\\hline d&amp;5&amp;6&amp;7&amp;8&amp;9&amp;10\\\\&#10;\\hline n_{d}&amp;2015&amp;70956&amp;684222&amp;3878736&amp;16137873&amp;54575640\\\\&#10;\\hline\\end{array}",
   "correct_tex":"\\begin{array}[]{|c|c|c|c|c|c|c|}\\hline d&amp;5&amp;6&amp;7&amp;8&amp;9&amp;10\\\\&#10;\\hline n_{d}&amp;2015&amp;70956&amp;684222&amp;3878736&amp;16137873&amp;54575640\\\\&#10;\\hline\\end{array}",

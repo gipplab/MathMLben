@@ -19,7 +19,7 @@
       {
         "Q21199": "natural number (numbers used for counting and ordering)"
       }
-    ],
+    ]
   },
   "math_inputtex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "correct_tex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",

@@ -9,7 +9,7 @@
       {
         "Q628036": "Computational complexity class of decision problems solvable by a non-deterministic Turing machine in polynomial time."
       }
-    ],
+    ]
   },
   "math_inputtex":"P=NP",
   "correct_tex":"P=NP",

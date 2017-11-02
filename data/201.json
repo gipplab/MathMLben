@@ -14,7 +14,7 @@
       {
         "Q3176558": "positive real number (real number strictly greater than zero)"
       }
-    ],
+    ]
   },
   "correct_tex":"x+y&gt;2n",
   "math_inputtex":"x+y&gt;2n",

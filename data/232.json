@@ -4,7 +4,7 @@
       {
         "Q21199": "natural number"
       }
-    ],
+    ]
   },
   "math_inputtex":"1+2+\\ldots+(n-2)+(n-1)",
   "correct_tex":"1+2+\\ldots+(n-2)+(n-1)",
