@@ -1,11 +1,27 @@
 {
   "definitions": {
+    "m": [
+      "magnetization",
+    ],
+    "\\sigma": [
+      "configuration",
+    ],
+    "N": [
+      {
+        "Q28920044": "positive integer"
+      }
+    ],
+    "i": [
+      {
+        "Q28920044": "positive integer"
+      }
+    ]
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
-  "ntcir12-relevance":"4",
-  "correct_mml":""
+  "math_inputtex":"m(\\sigma)=\\frac{1}{N}\\sum_{i=1}^{N}\\sigma_{i}\\ ,",
+  "correct_tex":"m(\\sigma)=\\frac{1}{N}\\sum_{i=1}^{N}\\sigma_{i}\\ ,",
+  "uri": "https://arxiv.org/abs/0811.2071",
+  "formula":"1_6.22",
+  "ntcir12-type":"9",
+  "ntcir12-relevance":"3",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S2.E2.m1.1.cmml\" alttext=\"m(\\sigma)=\\frac{1}{N}\\sum_{i=1}^{N}\\sigma_{i}\\ ,\" class=\"ltx_Math\" id=\"S2.E2.m1.1\" display=\"block\"><semantics xref=\"S2.E2.m1.1.cmml\" id=\"S2.E2.m1.1a\"><mrow xref=\"S2.E2.m1.1.cmml\" id=\"S2.E2.m1.1b\"><mi id=\"S2.E2.m1.1.1\">m</mi><mrow xref=\"S2.E2.m1.1.cmml\" id=\"S2.E2.m1.1c\"><mo xref=\"S2.E2.m1.1.2.cmml\" id=\"S2.E2.m1.1.2\">(</mo><mi id=\"S2.E2.m1.1.3\">\u03c3</mi><mo xref=\"S2.E2.m1.1.4.cmml\" id=\"S2.E2.m1.1.4\">)</mo></mrow><mo xref=\"S2.E2.m1.1.5.cmml\" id=\"S2.E2.m1.1.5\">=</mo><mfrac xref=\"S2.E2.m1.1.6.cmml\" id=\"S2.E2.m1.1.6\"><mn xref=\"S2.E2.m1.1.6.2.cmml\" id=\"S2.E2.m1.1.6.2\">1</mn><mi xref=\"S2.E2.m1.1.6.3.cmml\" id=\"S2.E2.m1.1.6.3\">N</mi></mfrac><munderover xref=\"S2.E2.m1.1.14.cmml\" id=\"S2.E2.m1.1.14\"><mo xref=\"S2.E2.m1.1.7.cmml\" movablelimits=\"false\" id=\"S2.E2.m1.1.7\">\u2211</mo><mrow xref=\"S2.E2.m1.1.8.1.cmml\" id=\"S2.E2.m1.1.8.1\"><mi xref=\"S2.E2.m1.1.8.1.1.cmml\" id=\"S2.E2.m1.1.8.1.1\">i</mi><mo xref=\"S2.E2.m1.1.8.1.2.cmml\" id=\"S2.E2.m1.1.8.1.2\">=</mo><mn xref=\"S2.E2.m1.1.8.1.3.cmml\" id=\"S2.E2.m1.1.8.1.3\">1</mn></mrow><mi xref=\"S2.E2.m1.1.9.1.cmml\" id=\"S2.E2.m1.1.9.1\">N</mi></munderover><msub xref=\"S2.E2.m1.1.15.cmml\" id=\"S2.E2.m1.1.15\"><mi xref=\"S2.E2.m1.1.10.cmml\" id=\"S2.E2.m1.1.10\">\u03c3</mi><mi xref=\"S2.E2.m1.1.11.1.cmml\" id=\"S2.E2.m1.1.11.1\">i</mi></msub><mo xref=\"S2.E2.m1.1.12.cmml\" mathvariant=\"italic\" separator=\"true\" id=\"S2.E2.m1.1.12\">\u2003</mo><mo xref=\"S2.E2.m1.1.13.cmml\" id=\"S2.E2.m1.1.13\">,</mo></mrow><annotation-xml xref=\"S2.E2.m1.1\" id=\"S2.E2.m1.1.cmml\" encoding=\"MathML-Content\"><cerror xref=\"S2.E2.m1.1\" id=\"S2.E2.m1.1a.cmml\"><csymbol xref=\"S2.E2.m1.1\" cd=\"ambiguous\" id=\"S2.E2.m1.1b.cmml\">fragments</csymbol><csymbol xref=\"S2.E2.m1.1\" cd=\"unknown\" id=\"S2.E2.m1.1c.cmml\">m</csymbol><cerror xref=\"S2.E2.m1.1\" id=\"S2.E2.m1.1d.cmml\"><csymbol xref=\"S2.E2.m1.1\" cd=\"ambiguous\" id=\"S2.E2.m1.1e.cmml\">fragments</csymbol><ci xref=\"S2.E2.m1.1.2\" id=\"S2.E2.m1.1.2.cmml\">normal-(</ci><csymbol xref=\"S2.E2.m1.1\" cd=\"unknown\" id=\"S2.E2.m1.1f.cmml\">\u03c3</csymbol><ci xref=\"S2.E2.m1.1.4\" id=\"S2.E2.m1.1.4.cmml\">normal-)</ci></cerror><eq xref=\"S2.E2.m1.1.5\" id=\"S2.E2.m1.1.5.cmml\"></eq><apply xref=\"S2.E2.m1.1.6\" id=\"S2.E2.m1.1.6.cmml\"><divide id=\"S2.E2.m1.1.6.1.cmml\"></divide><cn xref=\"S2.E2.m1.1.6.2\" id=\"S2.E2.m1.1.6.2.cmml\" type=\"integer\">1</cn><ci xref=\"S2.E2.m1.1.6.3\" id=\"S2.E2.m1.1.6.3.cmml\">N</ci></apply><apply xref=\"S2.E2.m1.1.14\" id=\"S2.E2.m1.1.14.cmml\"><csymbol cd=\"ambiguous\" id=\"S2.E2.m1.1.14.1.cmml\">superscript</csymbol><apply id=\"S2.E2.m1.1.14.2.cmml\"><csymbol cd=\"ambiguous\" id=\"S2.E2.m1.1.14.2.1.cmml\">subscript</csymbol><sum xref=\"S2.E2.m1.1.7\" id=\"S2.E2.m1.1.7.cmml\"></sum><apply xref=\"S2.E2.m1.1.8.1\" id=\"S2.E2.m1.1.8.1.cmml\"><eq xref=\"S2.E2.m1.1.8.1.2\" id=\"S2.E2.m1.1.8.1.2.cmml\"></eq><ci xref=\"S2.E2.m1.1.8.1.1\" id=\"S2.E2.m1.1.8.1.1.cmml\">i</ci><cn xref=\"S2.E2.m1.1.8.1.3\" id=\"S2.E2.m1.1.8.1.3.cmml\" type=\"integer\">1</cn></apply></apply><ci xref=\"S2.E2.m1.1.9.1\" id=\"S2.E2.m1.1.9.1.cmml\">N</ci></apply><apply xref=\"S2.E2.m1.1.15\" id=\"S2.E2.m1.1.15.cmml\"><csymbol cd=\"ambiguous\" id=\"S2.E2.m1.1.15.1.cmml\">subscript</csymbol><ci xref=\"S2.E2.m1.1.10\" id=\"S2.E2.m1.1.10.cmml\">\u03c3</ci><ci xref=\"S2.E2.m1.1.11.1\" id=\"S2.E2.m1.1.11.1.cmml\">i</ci></apply><ci xref=\"S2.E2.m1.1.12\" id=\"S2.E2.m1.1.12.cmml\">\u2003</ci><ci xref=\"S2.E2.m1.1.13\" id=\"S2.E2.m1.1.13.cmml\">normal-,</ci></cerror></annotation-xml><annotation xref=\"S2.E2.m1.1.cmml\" id=\"S2.E2.m1.1d\" encoding=\"application/x-tex\">m(\\sigma)=\\frac{1}{N}\\sum_{i=1}^{N}\\sigma_{i}\\ ,</annotation></semantics></math>"
 }

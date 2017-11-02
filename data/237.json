@@ -1,10 +1,7 @@
 {
   "definitions": {
     "s": [
-      "dynamic variable",
-      {
-        "Q50701": "variable"
-      }
+      "activity",
     ],
     "i": [
       {
