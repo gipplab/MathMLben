@@ -83,3 +83,19 @@ iframe{
     border: 1px solid #eeeeef;
     border-radius: 4px;
 }
+
+.bottom-alignment{
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.bottom-element{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.filling-input{
+    margin-right: 80px;
+}

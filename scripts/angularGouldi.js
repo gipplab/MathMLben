@@ -79,6 +79,24 @@ angular
             );
         };
 
+        $scope.generateMathML = function(semantic_tex){
+            if ( semantic_tex === "" ) {
+                console.log("Empty semantic tex");
+                return;
+            }
+
+            $http.post('/latexml', {
+                latex: semantic_tex
+            }).then( function(res) {
+                console.log("Created MML!");
+                $scope.model.correct_mml = res.data;
+                $scope.updated();
+                $scope.logger("Successfully created MML!", "alert-success");
+            }).catch( function(e) {
+                $scope.logger(e.message, 'alert-danger');
+            });
+        };
+
         $scope.onSave = function(form) {
             if ( $scope.modelrepo.token === "" ){
                 $scope.$broadcast(
@@ -125,7 +143,7 @@ angular
 
         $scope.logger = function( msg, alert ){
             var help = document.getElementById("logger-info-helper");
-            console.log("Hmm... " + help);
+            //console.log("Hmm... " + help);
             if ( help !== null ){
                 help.setAttribute( 'class', "alert " + alert );
                 help.innerHTML = JSON.stringify(msg, null, 2);
@@ -138,7 +156,7 @@ angular
                 return;
             }
 
-            $http.post('render-math', {
+            $http.post('/render-math', {
                 input: $scope.model.math_inputtex
             }).then( function(res){
                 var container = document.getElementById('svg-renderer-container');

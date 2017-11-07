@@ -78,6 +78,21 @@ app.post('/render-math', function (req, res){
     } );
 });
 
+app.post('/latexml', function(req, res){
+    preq.post(
+        {
+            uri: 'http://vmext-demo.wmflabs.org/math/',
+            query: {
+                latex: req.body.latex
+            }
+        }
+    ).then( function(inner_res){
+        res.send( inner_res.body.result );
+    }).catch( function(e){
+        res.status(400).send('Error while request LaTeXML: ' + e.message);
+    })
+});
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
