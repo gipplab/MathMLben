@@ -22,6 +22,11 @@
       "type": "string",
       "default": ""
     },
+    "math_inputtex_semantic": {
+      "title": "Semantic Input TeX",
+      "type": "string",
+      "default": ""
+    },
     "correct_tex": {
       "title": "Corrected TeX",
       "type": "string",

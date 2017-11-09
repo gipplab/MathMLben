@@ -50,6 +50,35 @@
   },
   "uri",
   {
+    "type": "section",
+    "htmlClass": "row bottom-alignment",
+    "items": [
+      {
+        "type": "section",
+        "htmlClass": "filling-input",
+        "items": [
+          {
+            "key": "math_inputtex_semantic",
+            "type": "string",
+            "title": "Semantic LaTeX Input"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "htmlClass": "bottom-element",
+        "items": [
+          {
+            "type": "button",
+            "style": "btn-info",
+            "title": "MathML",
+            "onClick": "generateMathML(model.math_inputtex_semantic)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "key": "correct_mml",
     "type": "textarea",
     "title": "MathML",
