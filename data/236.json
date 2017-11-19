@@ -1,11 +1,11 @@
 {
   "definitions": {
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_2?",
+  "math_inputtex":"t\\in{\\bf R}_{+},",
+  "correct_tex":"t\\in{\\bf R}_{+},",
+  "uri": "https://arxiv.org/abs/0901.0372",
+  "formula":"1_1.3",
   "ntcir12-type":"7",
   "ntcir12-relevance":"2",
-  "correct_mml":""
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S1.p1.2.m2.1.cmml\" alttext=\"t\\in{\\bf R}_{+},\" class=\"ltx_Math\" id=\"S1.p1.2.m2.1\" display=\"inline\"><semantics xref=\"S1.p1.2.m2.1.cmml\" id=\"S1.p1.2.m2.1a\"><mrow xref=\"S1.p1.2.m2.1.6.cmml\" id=\"S1.p1.2.m2.1.6\"><mrow xref=\"S1.p1.2.m2.1.6.cmml\" id=\"S1.p1.2.m2.1.6a\"><mi xref=\"S1.p1.2.m2.1.1.cmml\" id=\"S1.p1.2.m2.1.1\">t</mi><mo xref=\"S1.p1.2.m2.1.2.cmml\" id=\"S1.p1.2.m2.1.2\">\u2208</mo><msub xref=\"S1.p1.2.m2.1.6.1.cmml\" id=\"S1.p1.2.m2.1.6.1\"><mi xref=\"S1.p1.2.m2.1.3.cmml\" id=\"S1.p1.2.m2.1.3\">\ud835\udc11</mi><mo xref=\"S1.p1.2.m2.1.4.1.cmml\" id=\"S1.p1.2.m2.1.4.1\">+</mo></msub></mrow><mo xref=\"S1.p1.2.m2.1.6.cmml\" id=\"S1.p1.2.m2.1.6b\">,</mo></mrow><annotation-xml xref=\"S1.p1.2.m2.1\" id=\"S1.p1.2.m2.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S1.p1.2.m2.1.6\" id=\"S1.p1.2.m2.1.6.cmml\"><in xref=\"S1.p1.2.m2.1.2\" id=\"S1.p1.2.m2.1.2.cmml\"></in><ci xref=\"S1.p1.2.m2.1.1\" id=\"S1.p1.2.m2.1.1.cmml\">t</ci><apply xref=\"S1.p1.2.m2.1.6.1\" id=\"S1.p1.2.m2.1.6.1.cmml\"><csymbol cd=\"ambiguous\" id=\"S1.p1.2.m2.1.6.1.1.cmml\">subscript</csymbol><ci xref=\"S1.p1.2.m2.1.3\" id=\"S1.p1.2.m2.1.3.cmml\">\ud835\udc11</ci><plus xref=\"S1.p1.2.m2.1.4.1\" id=\"S1.p1.2.m2.1.4.1.cmml\"></plus></apply></apply></annotation-xml><annotation xref=\"S1.p1.2.m2.1.cmml\" id=\"S1.p1.2.m2.1b\" encoding=\"application/x-tex\">t\\in{\\bf R}_{+},</annotation></semantics></math>"
 }
