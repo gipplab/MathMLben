@@ -4,10 +4,10 @@
       "activity",
     ],
     "hat{w}_{ij}": [
-      "synaptic weight",
+      "synaptic weight"
     ],
     "h_{i}": [
-      "field",
+      "field"
     ],
     "i": [
       {

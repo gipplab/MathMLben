@@ -1,11 +1,11 @@
 {
   "definitions": {
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
+  "math_inputtex":"(x\\!:\\!A)B",
+  "correct_tex":"(x\\!:\\!A)B",
+  "uri": "https://arxiv.org/abs/cs0610065",
+  "formula":"1_71_1",
+  "ntcir12-type":"11",
   "ntcir12-relevance":"4",
-  "correct_mml":""
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S3.SS1.p4.1.m1.1.cmml\" alttext=\"(x\\!:\\!A)B\" class=\"ltx_Math\" id=\"S3.SS1.p4.1.m1.1\" display=\"inline\"><semantics xref=\"S3.SS1.p4.1.m1.1.cmml\" id=\"S3.SS1.p4.1.m1.1a\"><mrow xref=\"S3.SS1.p4.1.m1.1.cmml\" id=\"S3.SS1.p4.1.m1.1b\"><mrow xref=\"S3.SS1.p4.1.m1.1.cmml\" id=\"S3.SS1.p4.1.m1.1c\"><mo xref=\"S3.SS1.p4.1.m1.1.1.cmml\" id=\"S3.SS1.p4.1.m1.1.1\">(</mo><mpadded width=\"-1.67pt\" id=\"S3.SS1.p4.1.m1.1.2\"><mi id=\"S3.SS1.p4.1.m1.1.2a\">x</mi></mpadded><mo xref=\"S3.SS1.p4.1.m1.1.4.cmml\" id=\"S3.SS1.p4.1.m1.1.4\" rpadding=\"-1.67pt\">:</mo><mi id=\"S3.SS1.p4.1.m1.1.6\">A</mi><mo xref=\"S3.SS1.p4.1.m1.1.7.cmml\" id=\"S3.SS1.p4.1.m1.1.7\">)</mo></mrow><mi id=\"S3.SS1.p4.1.m1.1.8\">B</mi></mrow><annotation-xml xref=\"S3.SS1.p4.1.m1.1\" id=\"S3.SS1.p4.1.m1.1.cmml\" encoding=\"MathML-Content\"><cerror xref=\"S3.SS1.p4.1.m1.1\" id=\"S3.SS1.p4.1.m1.1a.cmml\"><csymbol xref=\"S3.SS1.p4.1.m1.1\" cd=\"ambiguous\" id=\"S3.SS1.p4.1.m1.1b.cmml\">fragments</csymbol><cerror xref=\"S3.SS1.p4.1.m1.1\" id=\"S3.SS1.p4.1.m1.1c.cmml\"><csymbol xref=\"S3.SS1.p4.1.m1.1\" cd=\"ambiguous\" id=\"S3.SS1.p4.1.m1.1d.cmml\">fragments</csymbol><ci xref=\"S3.SS1.p4.1.m1.1.1\" id=\"S3.SS1.p4.1.m1.1.1.cmml\">normal-(</ci><csymbol xref=\"S3.SS1.p4.1.m1.1\" cd=\"unknown\" id=\"S3.SS1.p4.1.m1.1e.cmml\">x</csymbol><ci xref=\"S3.SS1.p4.1.m1.1.4\" id=\"S3.SS1.p4.1.m1.1.4.cmml\">normal-:</ci><csymbol xref=\"S3.SS1.p4.1.m1.1\" cd=\"unknown\" id=\"S3.SS1.p4.1.m1.1f.cmml\">A</csymbol><ci xref=\"S3.SS1.p4.1.m1.1.7\" id=\"S3.SS1.p4.1.m1.1.7.cmml\">normal-)</ci></cerror><csymbol xref=\"S3.SS1.p4.1.m1.1\" cd=\"unknown\" id=\"S3.SS1.p4.1.m1.1g.cmml\">B</csymbol></cerror></annotation-xml><annotation xref=\"S3.SS1.p4.1.m1.1.cmml\" id=\"S3.SS1.p4.1.m1.1d\" encoding=\"application/x-tex\">(x\\!:\\!A)B</annotation></semantics></math>"
 }
