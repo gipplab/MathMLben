@@ -1,11 +1,11 @@
 {
   "definitions": {
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
+  "math_inputtex":"\\theta=\\frac{1}{\\sigma}",
+  "correct_tex":"\\theta=\\frac{1}{\\sigma}",
+  "uri": "https://arxiv.org/abs/1301.4628",
+  "formula":"1_22.6",
+  "ntcir12-type":"21",
   "ntcir12-relevance":"4",
-  "correct_mml":""
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"Thmexample2.p1.1.1.m6.1.cmml\" alttext=\"\\theta=\\frac{1}{\\sigma}\" class=\"ltx_Math\" id=\"Thmexample2.p1.1.1.m6.1\" display=\"inline\"><semantics xref=\"Thmexample2.p1.1.1.m6.1.cmml\" id=\"Thmexample2.p1.1.1.m6.1a\"><mrow xref=\"Thmexample2.p1.1.1.m6.1.4.cmml\" id=\"Thmexample2.p1.1.1.m6.1.4\"><mi xref=\"Thmexample2.p1.1.1.m6.1.1.cmml\" id=\"Thmexample2.p1.1.1.m6.1.1\">\u03b8</mi><mo xref=\"Thmexample2.p1.1.1.m6.1.2.cmml\" mathvariant=\"normal\" id=\"Thmexample2.p1.1.1.m6.1.2\">=</mo><mfrac xref=\"Thmexample2.p1.1.1.m6.1.3.cmml\" id=\"Thmexample2.p1.1.1.m6.1.3\"><mn xref=\"Thmexample2.p1.1.1.m6.1.3.2.cmml\" mathvariant=\"normal\" id=\"Thmexample2.p1.1.1.m6.1.3.2\">1</mn><mi xref=\"Thmexample2.p1.1.1.m6.1.3.3.cmml\" id=\"Thmexample2.p1.1.1.m6.1.3.3\">\u03c3</mi></mfrac></mrow><annotation-xml xref=\"Thmexample2.p1.1.1.m6.1\" id=\"Thmexample2.p1.1.1.m6.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"Thmexample2.p1.1.1.m6.1.4\" id=\"Thmexample2.p1.1.1.m6.1.4.cmml\"><eq xref=\"Thmexample2.p1.1.1.m6.1.2\" id=\"Thmexample2.p1.1.1.m6.1.2.cmml\"></eq><ci xref=\"Thmexample2.p1.1.1.m6.1.1\" id=\"Thmexample2.p1.1.1.m6.1.1.cmml\">\u03b8</ci><apply xref=\"Thmexample2.p1.1.1.m6.1.3\" id=\"Thmexample2.p1.1.1.m6.1.3.cmml\"><divide id=\"Thmexample2.p1.1.1.m6.1.3.1.cmml\"></divide><cn xref=\"Thmexample2.p1.1.1.m6.1.3.2\" id=\"Thmexample2.p1.1.1.m6.1.3.2.cmml\" type=\"integer\">1</cn><ci xref=\"Thmexample2.p1.1.1.m6.1.3.3\" id=\"Thmexample2.p1.1.1.m6.1.3.3.cmml\">\u03c3</ci></apply></apply></annotation-xml><annotation xref=\"Thmexample2.p1.1.1.m6.1.cmml\" id=\"Thmexample2.p1.1.1.m6.1b\" encoding=\"application/x-tex\">\\theta=\\frac{1}{\\sigma}</annotation></semantics></math>"
 }

@@ -1,11 +1,11 @@
 {
   "definitions": {
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
+  "math_inputtex":"C(K)",
+  "correct_tex":"C(K)",
+  "uri": "https://arxiv.org/abs/1211.4830",
+  "formula":"1_41.3",
+  "ntcir12-type":"28",
   "ntcir12-relevance":"4",
-  "correct_mml":""
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S2.Thmteo7.p1.1.1.m3.1.cmml\" alttext=\"C(K)\" class=\"ltx_Math\" id=\"S2.Thmteo7.p1.1.1.m3.1\" display=\"inline\"><semantics xref=\"S2.Thmteo7.p1.1.1.m3.1.cmml\" id=\"S2.Thmteo7.p1.1.1.m3.1a\"><mrow xref=\"S2.Thmteo7.p1.1.1.m3.1.5.cmml\" id=\"S2.Thmteo7.p1.1.1.m3.1.5\"><mi xref=\"S2.Thmteo7.p1.1.1.m3.1.1.cmml\" id=\"S2.Thmteo7.p1.1.1.m3.1.1\">C</mi><mo xref=\"S2.Thmteo7.p1.1.1.m3.1.5.1.cmml\" mathvariant=\"italic\" id=\"S2.Thmteo7.p1.1.1.m3.1.5.1\">\u2062</mo><mrow xref=\"S2.Thmteo7.p1.1.1.m3.1.3.cmml\" id=\"S2.Thmteo7.p1.1.1.m3.1.3\"><mo xref=\"S2.Thmteo7.p1.1.1.m3.1.3.cmml\" mathvariant=\"italic\" id=\"S2.Thmteo7.p1.1.1.m3.1.3a\">(</mo><mi xref=\"S2.Thmteo7.p1.1.1.m3.1.3.cmml\" id=\"S2.Thmteo7.p1.1.1.m3.1.3b\">K</mi><mo xref=\"S2.Thmteo7.p1.1.1.m3.1.3.cmml\" mathvariant=\"italic\" id=\"S2.Thmteo7.p1.1.1.m3.1.3c\">)</mo></mrow></mrow><annotation-xml xref=\"S2.Thmteo7.p1.1.1.m3.1\" id=\"S2.Thmteo7.p1.1.1.m3.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S2.Thmteo7.p1.1.1.m3.1.5\" id=\"S2.Thmteo7.p1.1.1.m3.1.5.cmml\"><times xref=\"S2.Thmteo7.p1.1.1.m3.1.5.1\" id=\"S2.Thmteo7.p1.1.1.m3.1.5.1.cmml\"></times><ci xref=\"S2.Thmteo7.p1.1.1.m3.1.1\" id=\"S2.Thmteo7.p1.1.1.m3.1.1.cmml\">C</ci><ci xref=\"S2.Thmteo7.p1.1.1.m3.1.3\" id=\"S2.Thmteo7.p1.1.1.m3.1.3.cmml\">K</ci></apply></annotation-xml><annotation xref=\"S2.Thmteo7.p1.1.1.m3.1.cmml\" id=\"S2.Thmteo7.p1.1.1.m3.1b\" encoding=\"application/x-tex\">C(K)</annotation></semantics></math>"
 }

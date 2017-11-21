@@ -1,11 +1,11 @@
 {
   "definitions": {
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
-  "ntcir12-relevance":"4",
-  "correct_mml":""
+  "math_inputtex":"\\Delta t",
+  "correct_tex":"\\Delta t",
+  "uri": "https://arxiv.org/abs/0801.3402",
+  "formula":"1_17.3",
+  "ntcir12-type":"22",
+  "ntcir12-relevance":"3",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S2.p6.1.m3.1.cmml\" alttext=\"\\Delta t\" class=\"ltx_Math\" id=\"S2.p6.1.m3.1\" display=\"inline\"><semantics xref=\"S2.p6.1.m3.1.cmml\" id=\"S2.p6.1.m3.1a\"><mrow xref=\"S2.p6.1.m3.1.3.cmml\" id=\"S2.p6.1.m3.1.3\"><mi xref=\"S2.p6.1.m3.1.1.cmml\" mathvariant=\"normal\" id=\"S2.p6.1.m3.1.1\">\u0394</mi><mo xref=\"S2.p6.1.m3.1.3.1.cmml\" id=\"S2.p6.1.m3.1.3.1\">\u2062</mo><mi xref=\"S2.p6.1.m3.1.2.cmml\" id=\"S2.p6.1.m3.1.2\">t</mi></mrow><annotation-xml xref=\"S2.p6.1.m3.1\" id=\"S2.p6.1.m3.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S2.p6.1.m3.1.3\" id=\"S2.p6.1.m3.1.3.cmml\"><times xref=\"S2.p6.1.m3.1.3.1\" id=\"S2.p6.1.m3.1.3.1.cmml\"></times><ci xref=\"S2.p6.1.m3.1.1\" id=\"S2.p6.1.m3.1.1.cmml\">normal-\u0394</ci><ci xref=\"S2.p6.1.m3.1.2\" id=\"S2.p6.1.m3.1.2.cmml\">t</ci></apply></annotation-xml><annotation xref=\"S2.p6.1.m3.1.cmml\" id=\"S2.p6.1.m3.1b\" encoding=\"application/x-tex\">\\Delta t</annotation></semantics></math>"
 }

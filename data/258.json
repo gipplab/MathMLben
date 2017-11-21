@@ -1,11 +1,11 @@
 {
   "definitions": {
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
-  "ntcir12-relevance":"4",
-  "correct_mml":""
+  "math_inputtex":"Acl(A)",
+  "correct_tex":"Acl(A)",
+  "uri": "https://arxiv.org/abs/1006.5139",
+  "formula":"1_34.12",
+  "ntcir12-type":"29",
+  "ntcir12-relevance":"3",
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S1.p5.1.m8.1.cmml\" alttext=\"Acl(A)\" class=\"ltx_Math\" id=\"S1.p5.1.m8.1\" display=\"inline\"><semantics xref=\"S1.p5.1.m8.1.cmml\" id=\"S1.p5.1.m8.1a\"><mrow xref=\"S1.p5.1.m8.1.7.cmml\" id=\"S1.p5.1.m8.1.7\"><mi xref=\"S1.p5.1.m8.1.1.cmml\" id=\"S1.p5.1.m8.1.1\">A</mi><mo xref=\"S1.p5.1.m8.1.7.1.cmml\" id=\"S1.p5.1.m8.1.7.1\">\u2062</mo><mi xref=\"S1.p5.1.m8.1.2.cmml\" id=\"S1.p5.1.m8.1.2\">c</mi><mo xref=\"S1.p5.1.m8.1.7.1.cmml\" id=\"S1.p5.1.m8.1.7.1a\">\u2062</mo><mi xref=\"S1.p5.1.m8.1.3.cmml\" id=\"S1.p5.1.m8.1.3\">l</mi><mo xref=\"S1.p5.1.m8.1.7.1.cmml\" id=\"S1.p5.1.m8.1.7.1b\">\u2062</mo><mrow xref=\"S1.p5.1.m8.1.5.cmml\" id=\"S1.p5.1.m8.1.5\"><mo xref=\"S1.p5.1.m8.1.5.cmml\" id=\"S1.p5.1.m8.1.5a\">(</mo><mi xref=\"S1.p5.1.m8.1.5.cmml\" id=\"S1.p5.1.m8.1.5b\">A</mi><mo xref=\"S1.p5.1.m8.1.5.cmml\" id=\"S1.p5.1.m8.1.5c\">)</mo></mrow></mrow><annotation-xml xref=\"S1.p5.1.m8.1\" id=\"S1.p5.1.m8.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S1.p5.1.m8.1.7\" id=\"S1.p5.1.m8.1.7.cmml\"><times xref=\"S1.p5.1.m8.1.7.1\" id=\"S1.p5.1.m8.1.7.1.cmml\"></times><ci xref=\"S1.p5.1.m8.1.1\" id=\"S1.p5.1.m8.1.1.cmml\">A</ci><ci xref=\"S1.p5.1.m8.1.2\" id=\"S1.p5.1.m8.1.2.cmml\">c</ci><ci xref=\"S1.p5.1.m8.1.3\" id=\"S1.p5.1.m8.1.3.cmml\">l</ci><ci xref=\"S1.p5.1.m8.1.5\" id=\"S1.p5.1.m8.1.5.cmml\">A</ci></apply></annotation-xml><annotation xref=\"S1.p5.1.m8.1.cmml\" id=\"S1.p5.1.m8.1b\" encoding=\"application/x-tex\">Acl(A)</annotation></semantics></math>"
 }

@@ -1,11 +1,14 @@
 {
   "definitions": {
+    "k": [
+      "parity (reflection) operator"
+    ]
   },
-  "math_inputtex":"",
-  "correct_tex":"",
-  "uri": "",
-  "formula":"1_5",
-  "ntcir12-type":"8",
+  "math_inputtex":"\\mathcal{P}",
+  "correct_tex":"\\mathcal{P}",
+  "uri": "https://arxiv.org/abs/1107.1875",
+  "formula":"1_22.1",
+  "ntcir12-type":"24",
   "ntcir12-relevance":"4",
-  "correct_mml":""
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S4.SS1.p2.1.m1.1.cmml\" alttext=\"\\mathcal{P}\" class=\"ltx_Math\" id=\"S4.SS1.p2.1.m1.1\" display=\"inline\"><semantics xref=\"S4.SS1.p2.1.m1.1.cmml\" id=\"S4.SS1.p2.1.m1.1a\"><mi xref=\"S4.SS1.p2.1.m1.1.1.cmml\" id=\"S4.SS1.p2.1.m1.1.1\">\ud835\udcab</mi><annotation-xml xref=\"S4.SS1.p2.1.m1.1\" id=\"S4.SS1.p2.1.m1.1.cmml\" encoding=\"MathML-Content\"><ci xref=\"S4.SS1.p2.1.m1.1.1\" id=\"S4.SS1.p2.1.m1.1.1.cmml\">\ud835\udcab</ci></annotation-xml><annotation xref=\"S4.SS1.p2.1.m1.1.cmml\" id=\"S4.SS1.p2.1.m1.1b\" encoding=\"application/x-tex\">\\mathcal{P}</annotation></semantics></math>"
 }
