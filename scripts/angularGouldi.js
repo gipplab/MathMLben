@@ -62,6 +62,10 @@ angular
                 .then(function (res) {
                     $scope.model = res.data;
                     $scope.model.qID = id;
+
+                    if ( !('constraints' in $scope) )
+                        $scope.model.constraints = [];
+
                     $scope.updated();
                 }).then( function(){
                     $scope.logger("Loaded ID: " + id, 'alert-info');
