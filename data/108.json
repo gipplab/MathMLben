@@ -3,13 +3,13 @@
     "n": [
       {
         "Q28920052": "non-negative integer",
-        "Q1738991": "index"
+        "Q43387495": "index"
       }
     ],
     "k": [
       "index of multiplication",
       {
-        "Q1738991": "index",
+        "Q43387495": "index",
         "Q28920044": "positive integer"
       }
     ],

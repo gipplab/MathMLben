@@ -8,7 +8,7 @@
     "j": [
       {
         "Q28920044": "positive integer",
-        "Q1738991": "index number"
+        "Q43387495": "index number"
       }
     ],
     "\\lambda_j": [
@@ -26,7 +26,7 @@
       "index of summation",
       {
         "Q28920052": "non-negative integer",
-        "Q1738991": "index"
+        "Q43387495": "index"
       }
     ]
   },
