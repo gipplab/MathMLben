@@ -11,6 +11,9 @@
       }
     ]
   },
+  "constraints": [
+  ],
+  "comments": "",
   "correct_tex":"|[k]^{n}(1\\text{-}1)|=\\binom{k}{n}n!=(k)_{n},",
   "math_inputtex":"|[k]^{n}(1\\text{-}1)|=\\binom{k}{n}n!=(k)_{n},",
   "uri": "https://arxiv.org/abs/math0112281",

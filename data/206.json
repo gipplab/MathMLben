@@ -1,6 +1,31 @@
 {
   "definitions": {
+    "\\pi_{n}": [
+        "prospect"
+    ],
+    "p": [
+      {
+        "Q9492": "probability"
+      }
+    ],
+    "\\alpha": [
+      {
+        "Q36161": "set"
+      }
+    ],
+    "n": [
+      {
+        "Q43387495": "index"
+      }
+    ],
+    "e_{\\alpha}": [
+      "elementary prospect"
+    ]
   },
+  "constraints": [
+    "\\sum_{n,\\alpha}\\;p_{n}(e_{\\alpha}) = 1",
+  ],
+  "comments": "Do I need all constraints from page 15? Is alpha a set?",
   "correct_tex":"p(\\pi_{n})=\\sum_{\\alpha}\\;p_{n}(e_{\\alpha})+q(\\pi_{n})",
   "math_inputtex":"p(\\pi_{n})=\\sum_{\\alpha}\\;p_{n}(e_{\\alpha})+q(\\pi_{n})",
   "uri": "https://arxiv.org/abs/0808.0112",

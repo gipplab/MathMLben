@@ -16,6 +16,10 @@
       }
     ]
   },
+  "constraints": [
+    "x \\in \\mathbb{T}",
+  ],
+  "comments": "",
   "correct_tex":"x+y&gt;2n",
   "math_inputtex":"x+y&gt;2n",
   "uri": "https://arxiv.org/abs/math0611575",

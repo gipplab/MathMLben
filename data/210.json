@@ -1,6 +1,22 @@
 {
   "definitions": {
+    "a_{ij}": [
+      "matrix element"
+    ],
+    "i": [
+      {
+        "Q43387495": "index"
+      }
+    ],
+    "j": [
+      {
+        "Q43387495": "index"
+      }
+    ]
   },
+  "constraints": [
+  ],
+  "comments": "matrix element as wikidata page?",
   "math_inputtex":"a_{ij}=1",
   "correct_tex":"a_{ij}=1",
   "uri": "https://arxiv.org/abs/1201.3480",

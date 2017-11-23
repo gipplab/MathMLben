@@ -11,6 +11,10 @@
       }
     ]
   },
+  "constraints": [
+    "1\\leq k\\leq n-1,"
+  ],
+  "comments": "",
   "correct_tex":"(1+2+\\ldots+k+\\ldots+(n-1))",
   "math_inputtex":"(1+2+\\ldots+k+\\ldots+(n-1))",
   "uri": "https://arxiv.org/abs/0904.3855",

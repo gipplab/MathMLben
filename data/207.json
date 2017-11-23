@@ -1,6 +1,30 @@
 {
   "definitions": {
+    "f": [
+      {
+        "Q207522": "probability density"
+      }
+    ],
+    "t": [
+      {
+        "Q3517751": "time"
+      }
+    ],
+    "x": [
+      {
+        "Q192388": "position vector"
+      }
+    ],
+    "v": [
+      {
+        "Q11465": "velocity"
+      }
+    ]
   },
+  "constraints": [
+    "x \\in \\mathbb{T}",
+  ],
+  "comments": "Do I need to provide constraints for variables? I added 1, but then we also would have to define the T. This potentially has no end",
   "correct_tex":"f=f(t,x,v)",
   "math_inputtex":"f=f(t,x,v)",
   "uri": "https://arxiv.org/abs/math0607541",

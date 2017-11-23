@@ -1,6 +1,34 @@
 {
   "definitions": {
+    "\\xi^{\\mu}": [
+        "random pattern"
+    ],
+    "p": [
+      {
+        "Q28920044": "positive integer"
+      }
+    ],
+    "N": [
+      {
+        "Q28920044": "positive integer"
+      }
+    ],
+    "i": [
+      {
+        "Q43387495": "index"
+      }
+    ],
+    "\\mu": [
+      {
+        "Q43387495": "index"
+      }
+    ]
   },
+  "constraints": [
+    "\\mu = 1, /cdots, p",
+    "i = 1, /cdots, N",
+  ],
+  "comments": "should I also provide the constraints of p?",
   "math_inputtex":"\\xi_{i}^{\\mu}=\\pm 1",
   "correct_tex":"\\xi_{i}^{\\mu}=\\pm 1",
   "uri": "https://arxiv.org/abs/cond-mat0303425",

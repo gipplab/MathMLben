@@ -1,6 +1,15 @@
 {
   "definitions": {
+    "\\star": [
+      "impredicative universe of propositions"
+    ],
+    "app": [
+      "operation: append to list"
+    ],
   },
+  "constraints": [
+  ],
+  "comments": "I cant find what list(A) is exactly",
   "math_inputtex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "correct_tex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "uri": "https://arxiv.org/abs/cs0610065",
