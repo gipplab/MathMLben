@@ -1,6 +1,44 @@
 {
   "definitions": {
+    "N": [
+      {
+        "Q28920052": "Non-negative integer"
+      }
+    ],
+    "M": [
+      {
+        "Q28920052": "Non-negative integer"
+      }
+    ],
+    "a": [
+      {
+        "Q28920052": "Non-negative integer"
+      }
+    ],
+    "b": [
+      {
+        "Q28920052": "Non-negative integer"
+      }
+    ],
+    "j": [
+      {
+        "Q28920052": "Non-negative integer"
+      }
+    ],
+    "Q": [
+      {
+        "Q11348": "function"
+      }
+    ],
+    "q": [
+        "q as in q-analog"
+    ],
   },
+  "constraints": [
+    "2⁢a ≥ b ≥ 0",
+    "N ≥ |(a−b)j|"
+  ],
+  "comments": "constraints on page 14. this one is difficult",
   "math_inputtex":"Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q),",
   "correct_tex":"Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q),",
   "uri": "https://arxiv.org/abs/math0109141",

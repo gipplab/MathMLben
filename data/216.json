@@ -7,7 +7,12 @@
     ],
     "n": [
       {
-        "Q21199": "natural number (numbers used for counting and ordering)"
+        "Q43387495": "index"
+      }
+    ],
+    "n+1": [
+      {
+        "Q43387495": "index"
       }
     ],
     "k": [
@@ -21,6 +26,8 @@
       }
     ]
   },
+  "constraints": [
+  ],
   "math_inputtex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "correct_tex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "uri": "https://arxiv.org/abs/1001.3466",
