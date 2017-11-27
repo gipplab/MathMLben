@@ -14,6 +14,7 @@
   "constraints": [
   ],
   "comments": "",
+  "title": "P versus NP problem",
   "math_inputtex":"P=NP",
   "correct_tex":"P=NP",
   "uri": "https://arxiv.org/abs/math0007025",
