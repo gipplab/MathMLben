@@ -1,6 +1,18 @@
 {
   "definitions": {
+    "dcl": [
+      "definable closure",
+      {
+        "Q10564851": "closure operator"
+      }
+    ],
+    "A": [
+      {
+        "Q36161": "set"
+      }
+    ]
   },
+  "title": "Examples of Aleph Null-categorical simple theories",
   "math_inputtex":"dcl(A)",
   "correct_tex":"dcl(A)",
   "uri": "https://arxiv.org/abs/1006.5139",

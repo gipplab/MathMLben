@@ -1,6 +1,26 @@
 {
   "definitions": {
+    "Con": [
+      {
+        "Q1319773": "Consistency"
+      }
+    ],
+    "ZF": [
+        "Zermelo–Fraenkel set theory without choice"
+    ],
+    "AC": [
+      {
+        "Q179692": "Axiom of choice"
+      }
+    ],
+    "\\neg": [
+      {
+        "Q190558": "Negation"
+      }
+    ]
   },
+  "title": "Consistency proofs of ZFC extensions",
+  "comments": "create ZF as a facet of ZFC?",
   "math_inputtex":"Con(ZF+\\neg AC)",
   "correct_tex":"Con(ZF+\\neg AC)",
   "uri": "https://arxiv.org/abs/math9209209",

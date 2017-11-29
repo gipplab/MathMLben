@@ -6,6 +6,7 @@
       }
     ]
   },
+  "title": "Examples of Aleph Null-categorical simple theories",
   "math_inputtex":"\\aleph_{0}",
   "correct_tex":"\\aleph_{0}",
   "uri": "https://arxiv.org/abs/0910.1995",

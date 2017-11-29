@@ -1,6 +1,58 @@
 {
   "definitions": {
+    "p": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+    "S": [
+      "Polyakov-type action classically equivalent to the original DBI-action of the D⁢p-brane"
+    ],
+    "T": [
+      "D-brane tension"
+    ],
+    "\\zeta^{ab}": [
+      "auxiliary tensor variable",
+      {
+        "Q188524": "tensor",
+        "Q50701": "variable"
+      }
+    ],
+    "G_{ba}": [
+      "world volume metric"
+    ],
+    "\\mathcal{F}}_{ba}": [
+      {
+        "Q1758924": "tensor field"
+      }
+    ],
+    "e": [
+      {
+        "Q82435": "Euler's number"
+      }
+    ],
+    "U": [
+      {
+        "Q1193090": "Dilaton"
+      }
+    ],
+    "\\zeta": [
+      "Determinant of \\zeta_{ab}",
+      {
+        "Q178546": "Determinant"
+      }
+    ],
+    "\\beta": [
+      {
+      }
+    ],
+    "\\sigma": [
+      {
+      }
+    ],
   },
+  "title": "Brane Universe and Standard Cosmology",
+  "comments": "missing beta and sigma. does beta have to do with the beta-function? does sigma have to do with sigma-models? F might also be a 'world-volume gauge fieldstrength two form'.",
   "math_inputtex":"S=-T\\int d^{p+1}\\sigma\\,\\sqrt{-\\zeta}\\Bigl[e^{-\\beta U}\\frac{1}{2}\\zeta^{ab}%&#10;\\left(G_{ba}-{\\mathcal{F}}_{ba}\\right)-(p-1)\\Bigr]",
   "correct_tex":"S=-T\\int d^{p+1}\\sigma\\,\\sqrt{-\\zeta}\\Bigl[e^{-\\beta U}\\frac{1}{2}\\zeta^{ab}%&#10;\\left(G_{ba}-{\\mathcal{F}}_{ba}\\right)-(p-1)\\Bigr]",
   "uri": "https://arxiv.org/abs/hep-th0304269",
