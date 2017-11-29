@@ -1,10 +1,16 @@
 {
   "definitions": {
-    "\\pi": [
+    "\\mathchar 22\\mkern-9.0mu\\lambda": [
       {
-        "Q167": "pi"
+        "Q207387": "Planck length"
       }
-    ]
+    ],
+    "x_{1}": [
+      "\"postion operator\"",
+    ],
+    "x_{2}": [
+      "\"postion operator\"",
+    ],
   },
   "math_inputtex":"\\Delta x_{1}\\Delta x_{2}\\geq{\\mathchar 22\\mkern-9.0mu\\lambda}^{2}/(2\\pi)",
   "correct_tex":"\\Delta x_{1}\\Delta x_{2}\\geq{\\mathchar 22\\mkern-9.0mu\\lambda}^{2}/(2\\pi)",

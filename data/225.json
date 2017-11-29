@@ -1,6 +1,35 @@
 {
   "definitions": {
+    "S_{EH}": [
+      "Bekenstein-Hawking bound on entropy"
+    ],
+    "G_{3}": [
+      "Three-dimensional Newton's constant",
+      {
+        "Q18373": "Gravitational_constant"
+      }
+    ],
+    "R^{(3)}": [
+      {
+        "Q173817": "Radius"
+      }
+    ],
+    "g^{(3)}": [
+      {
+        "Q2045231": "Metric tensor"
+      }
+    ],
+    "{\\cal L}_{\\rm&#10;matter%&#10;}": [
+      "matter Lagrangian density"
+    ],
+    "x": [
+      {
+        "Q192388": "position vector"
+      }
+    ]
   },
+  "title": "Bekenstein-Hawking bound on entropy",
+  "comments": "",
   "math_inputtex":"S_{EH}=\\frac{1}{G_{3}}\\int d^{3}x\\,\\sqrt{-g^{(3)}}\\,(R^{(3)}+{\\cal L}_{\\rm&#10;matter%&#10;}).",
   "correct_tex":"S_{EH}=\\frac{1}{G_{3}}\\int d^{3}x\\,\\sqrt{-g^{(3)}}\\,(R^{(3)}+{\\cal L}_{\\rm&#10;matter%&#10;}).",
   "uri": "https://arxiv.org/abs/hep-th0302230",

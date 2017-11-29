@@ -1,6 +1,21 @@
 {
   "definitions": {
+    "\\mathbf{B}": [
+      {
+        "Q43144845": "complex matrix"
+      }
+    ],
+    "\\mathbf{B}^{*}": [
+        "complex conjugate of B"
+    ],
+    "\\sigma_{3}": [
+      {
+        "Q336233": "Pauli matrices"
+      }
+    ],
   },
+  "title": "Invariation of the point of interaction",
+  "comments": "IMPORTANT: pauli matrices is not correct, it is a particular pauli matrix. create facet?",
   "math_inputtex":"\\mathbf{B}^{*}\\mathbf{\\sigma_{3}}\\mathbf{B}=\\mathbf{\\sigma_{3}}.",
   "correct_tex":"\\mathbf{B}^{*}\\mathbf{\\sigma_{3}}\\mathbf{B}=\\mathbf{\\sigma_{3}}.",
   "uri": "https://arxiv.org/abs/1107.1875",

@@ -6,6 +6,7 @@
       }
     ]
   },
+  "title": "Speed of light",
   "math_inputtex_semantic": "c",
   "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"c\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">c</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑐</ci>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">c</annotation>\n  </semantics>\n</math>",
   "correct_tex": "c",

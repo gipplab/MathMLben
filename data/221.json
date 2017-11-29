@@ -1,6 +1,27 @@
 {
   "definitions": {
+    "L": [
+      {
+        "Q1036748": "loss function"
+      }
+    ],
+    "\\theta_{\\nu}": [
+      "eigenvector of $\\Sigma$ corresponding to the $\\nu$-th largest eigenvalue",
+      {
+        "Q3555174": "eigenvector"
+      }
+    ],
+    "\\nu": [
+      {
+        "Q43387495": "index"
+      }
+    ],
+    "\\widehat{\\theta}_{\\nu}": [
+        "estimator"
+    ],
   },
+  "title": "Loss function",
+  "comments": "",
   "math_inputtex":"L(\\widehat{\\theta}_{\\nu},\\theta_{\\nu})=\\parallel\\widehat{\\theta}_{\\nu}-\\mbox{%&#10;sign}\\langle\\widehat{\\theta}_{\\nu},\\theta_{\\nu}\\rangle\\theta_{\\nu}\\parallel^{2}",
   "correct_tex":"L(\\widehat{\\theta}_{\\nu},\\theta_{\\nu})=\\parallel\\widehat{\\theta}_{\\nu}-\\mbox{%&#10;sign}\\langle\\widehat{\\theta}_{\\nu},\\theta_{\\nu}\\rangle\\theta_{\\nu}\\parallel^{2}",
   "uri": "https://arxiv.org/abs/1203.0967",
