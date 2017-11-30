@@ -1,8 +1,68 @@
 {
   "definitions": {
+    "H^{*}": [
+      "product-of-the-hooks-length of the shifted diagram"
+    ],
+    "\\lambda": [
+      {
+        "Q1082910": "Partition"
+      }
+    ],
+    "\\tilde{\\lambda}": [
+      "double of the strict partition \\lambda",
+      {
+        "Q1082910": "Partition"
+      }
+    ],
+    "H_{\\tilde{\\lambda}}}": [
+      "product-of-the-hooks-length of diagram"
+    ],
+    "i": [
+      {
+        "Q43387495": "index"
+      }
+    ],
+    "j": [
+      {
+        "Q43387495": "index"
+      }
+    ],
+    "k": [
+      "length of the partition",
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+    "n_{i}": [
+      "part of partition",
+      {
+        "Q28920052": "non-negative integer"
+      }
+    ],
+    "n_{j}": [
+      "part of partition",
+      {
+        "Q28920052": "non-negative integer"
+      }
+    ],
+    "s_{\\tilde{\\lambda}}": [
+      {
+        "Q4298935": "Schur polynomial"
+      }
+    ],
+    "Q_{\\lambda}": [
+      "Projective Schur function"
+    ]
   },
+  "constraints": [
+    "n_{i} \\in \\lambda",
+    "n_{j} \\in \\lambda",
+    "2^{-\\frac k2}Q_{{\\lambda}}\\left(\\frac{{\\bf t} }{2}\\right)= \\sqrt{s_{{\\tilde \\lambda}}({\\bf t} )}",
+    "\\frac{{\\bf t}_\\infty}{2}=(\\frac 12,0,0,0,\\dots)"
+  ],
   "title": "Factorial Product: Context 2",
-  "comments": "",
+  "comments": "I have no idea what t infinity is, I only added it as constraint. Also, create facet for part of partition?",
+  "page": "4",
   "math_inputtex":"H^{*}_{\\lambda}=\\left(\\prod_{i=1}^{k}n_{i}!\\right)\\prod_{i&lt;j}\\frac{n_{i}+n_{j}%&#10;}{n_{i}-n_{j}}=2^{-\\frac{k}{2}}\\sqrt{H_{\\tilde{\\lambda}}},\\quad\\frac{1}{\\sqrt{%&#10;H_{\\tilde{\\lambda}}}}=\\sqrt{s_{\\tilde{\\lambda}}({\\bf t}_{\\infty})}=2^{-\\frac{k%&#10;}{2}}Q_{\\lambda}(\\frac{{\\bf t}_{\\infty}}{2}),",
   "correct_tex":"H^{*}_{\\lambda}=\\left(\\prod_{i=1}^{k}n_{i}!\\right)\\prod_{i&lt;j}\\frac{n_{i}+n_{j}%&#10;}{n_{i}-n_{j}}=2^{-\\frac{k}{2}}\\sqrt{H_{\\tilde{\\lambda}}},\\quad\\frac{1}{\\sqrt{%&#10;H_{\\tilde{\\lambda}}}}=\\sqrt{s_{\\tilde{\\lambda}}({\\bf t}_{\\infty})}=2^{-\\frac{k%&#10;}{2}}Q_{\\lambda}(\\frac{{\\bf t}_{\\infty}}{2}),",
   "uri": "https://arxiv.org/abs/math-ph0302011",
