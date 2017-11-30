@@ -11,6 +11,8 @@
       }
     ]
   },
+  "title": "Arithmetic mean: Context 1",
+  "comments": "",
   "math_inputtex":"(x+y)/2",
   "correct_tex":"(x+y)/2",
   "uri": "https://arxiv.org/abs/1201.5232",

@@ -16,6 +16,7 @@
   },
   "constraints": [
   ],
+  "title": "Music",
   "comments": "matrix element as wikidata page?",
   "math_inputtex":"a_{ij}=1",
   "correct_tex":"a_{ij}=1",

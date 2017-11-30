@@ -26,6 +26,7 @@
   "constraints": [
     "x \\in \\mathbb{T}",
   ],
+  "title": "Neural network",
   "comments": "Do I need to provide constraints for variables? I added 1, but then we also would have to define the T. This potentially has no end",
   "correct_tex":"f=f(t,x,v)",
   "math_inputtex":"f=f(t,x,v)",

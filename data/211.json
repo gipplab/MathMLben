@@ -9,6 +9,7 @@
   },
   "constraints": [
   ],
+  "title": "Lists",
   "comments": "I cant find what list(A) is exactly",
   "math_inputtex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "correct_tex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",

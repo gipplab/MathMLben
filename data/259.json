@@ -1,6 +1,29 @@
 {
   "definitions": {
+    "f_{0}": [
+      {
+        "Q370502": "mapping"
+      }
+    ],
+    "\\f_{1}": [
+      {
+        "Q370502": "mapping"
+      }
+    ],
+    "\\f_{2}": [
+      {
+        "Q370502": "mapping"
+      }
+    ]
   },
+  "constraints": [
+    "f_{0}=\\varphi(M_{0})",
+    "f_{0}=\\varphi(M_{1})",
+    "f_{0}=\\varphi(M_{2})",
+    "M_{1}*M_{2}=M_{0}*M_{0}"
+  ],
+  "title": "Arithmetic mean: Context 2",
+  "comments": "identifiers for M and varphi?",
   "correct_tex":"f_{1}+f_{2}=2f_{0}",
   "math_inputtex":"f_{1}+f_{2}=2f_{0}",
   "uri": "https://arxiv.org/abs/1002.4757",

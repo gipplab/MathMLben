@@ -12,7 +12,8 @@
       }
     ]
   },
-  "title": "Examples of Aleph Null-categorical simple theories",
+  "title": "A formulaic definition of the definable closure",
+  "comments": "there is a definition, but it is not formulaic",
   "math_inputtex":"dcl(A)",
   "correct_tex":"dcl(A)",
   "uri": "https://arxiv.org/abs/1006.5139",

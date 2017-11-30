@@ -28,6 +28,7 @@
   },
   "constraints": [
   ],
+  "title": "Binomial summation formula for Fibonacci",
   "math_inputtex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "correct_tex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "uri": "https://arxiv.org/abs/1001.3466",

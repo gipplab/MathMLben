@@ -44,12 +44,14 @@
     ],
     "\\beta": [
       {
+        ""
       }
     ],
     "\\sigma": [
       {
+        ""
       }
-    ],
+    ]
   },
   "title": "Brane Universe and Standard Cosmology",
   "comments": "missing beta and sigma. does beta have to do with the beta-function? does sigma have to do with sigma-models? F might also be a 'world-volume gauge fieldstrength two form'.",

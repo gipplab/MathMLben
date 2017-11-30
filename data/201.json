@@ -19,6 +19,7 @@
   "constraints": [
     "x \\in \\mathbb{T}",
   ],
+  "title": "Arithmetic mean",
   "comments": "",
   "correct_tex":"x+y&gt;2n",
   "math_inputtex":"x+y&gt;2n",

@@ -18,6 +18,7 @@
   },
   "constraints": [
   ],
+  "title": "Reversal",
   "comments": "how to express that the + with tilde is an operation from the second semiring? Does my solution make sense?",
   "math_inputtex":"\\psi(a+b)=\\psi(a)\\widetilde{+}\\psi(b)",
   "correct_tex":"\\psi(a+b)=\\psi(a)\\widetilde{+}\\psi(b)",

@@ -38,6 +38,7 @@
     "2⁢a ≥ b ≥ 0",
     "N ≥ |(a−b)j|"
   ],
+  "title": "Swap",
   "comments": "constraints on page 14. this one is difficult",
   "math_inputtex":"Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q),",
   "correct_tex":"Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q),",
