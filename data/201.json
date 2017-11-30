@@ -17,7 +17,7 @@
     ]
   },
   "constraints": [
-    "x \\in \\mathbb{T}",
+    "x \\in \\mathbb{T}"
   ],
   "title": "Arithmetic mean",
   "comments": "",

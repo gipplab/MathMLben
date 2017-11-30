@@ -24,7 +24,7 @@
     ]
   },
   "constraints": [
-    "x \\in \\mathbb{T}",
+    "x \\in \\mathbb{T}"
   ],
   "title": "Neural network",
   "comments": "Do I need to provide constraints for variables? I added 1, but then we also would have to define the T. This potentially has no end",

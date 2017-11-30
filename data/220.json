@@ -58,7 +58,7 @@
       }
     ],
     "Gamma_{G^{\\prime}}": [
-        "set of all triples of connected nodes on the expanded graph G′",
+        "set of all triples of connected nodes on the expanded graph G′"
     ]
   },
   "title": "Use of Lagrange multipliers",
