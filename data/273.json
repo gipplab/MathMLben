@@ -13,7 +13,7 @@
   },
   "math_inputtex":"f:{\\mathbb{N}_{1}}\\to{\\mathbb{N}_{1}}",
   "correct_tex":"f:{\\mathbb{N}_{1}}\\to{\\mathbb{N}_{1}}",
-  "uri": "https://arxiv.org/abs/math0410481",
+  "uri": "https://arxiv.org/abs/math/0410481",
   "formula":"1_12.1",
   "ntcir12-type":"15",
   "ntcir12-relevance":"4",

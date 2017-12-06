@@ -65,7 +65,7 @@
   "page": "4",
   "math_inputtex":"H^{*}_{\\lambda}=\\left(\\prod_{i=1}^{k}n_{i}!\\right)\\prod_{i&lt;j}\\frac{n_{i}+n_{j}%&#10;}{n_{i}-n_{j}}=2^{-\\frac{k}{2}}\\sqrt{H_{\\tilde{\\lambda}}},\\quad\\frac{1}{\\sqrt{%&#10;H_{\\tilde{\\lambda}}}}=\\sqrt{s_{\\tilde{\\lambda}}({\\bf t}_{\\infty})}=2^{-\\frac{k%&#10;}{2}}Q_{\\lambda}(\\frac{{\\bf t}_{\\infty}}{2}),",
   "correct_tex":"H^{*}_{\\lambda}=\\left(\\prod_{i=1}^{k}n_{i}!\\right)\\prod_{i&lt;j}\\frac{n_{i}+n_{j}%&#10;}{n_{i}-n_{j}}=2^{-\\frac{k}{2}}\\sqrt{H_{\\tilde{\\lambda}}},\\quad\\frac{1}{\\sqrt{%&#10;H_{\\tilde{\\lambda}}}}=\\sqrt{s_{\\tilde{\\lambda}}({\\bf t}_{\\infty})}=2^{-\\frac{k%&#10;}{2}}Q_{\\lambda}(\\frac{{\\bf t}_{\\infty}}{2}),",
-  "uri": "https://arxiv.org/abs/math-ph0302011",
+  "uri": "https://arxiv.org/abs/math-ph/0302011",
   "formula":"1_24.2",
   "ntcir12-type":"2",
   "ntcir12-relevance":"2",

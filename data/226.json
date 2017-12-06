@@ -53,7 +53,7 @@
   "comments": "missing beta and sigma. does beta have to do with the beta-function? does sigma have to do with sigma-models? F might also be a 'world-volume gauge fieldstrength two form'.",
   "math_inputtex":"S=-T\\int d^{p+1}\\sigma\\,\\sqrt{-\\zeta}\\Bigl[e^{-\\beta U}\\frac{1}{2}\\zeta^{ab}%&#10;\\left(G_{ba}-{\\mathcal{F}}_{ba}\\right)-(p-1)\\Bigr]",
   "correct_tex":"S=-T\\int d^{p+1}\\sigma\\,\\sqrt{-\\zeta}\\Bigl[e^{-\\beta U}\\frac{1}{2}\\zeta^{ab}%&#10;\\left(G_{ba}-{\\mathcal{F}}_{ba}\\right)-(p-1)\\Bigr]",
-  "uri": "https://arxiv.org/abs/hep-th0304269",
+  "uri": "https://arxiv.org/abs/hep-th/0304269",
   "formula":"1_31.7",
   "ntcir12-type":"26",
   "ntcir12-relevance":"4",

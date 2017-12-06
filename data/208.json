@@ -32,7 +32,7 @@
   "comments": "should I also provide the constraints of p?",
   "math_inputtex":"\\xi_{i}^{\\mu}=\\pm 1",
   "correct_tex":"\\xi_{i}^{\\mu}=\\pm 1",
-  "uri": "https://arxiv.org/abs/cond-mat0303425",
+  "uri": "https://arxiv.org/abs/cond-mat/0303425",
   "formula":"1_9.5",
   "ntcir12-type":"8",
   "ntcir12-relevance":"4",

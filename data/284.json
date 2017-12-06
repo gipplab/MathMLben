@@ -3,7 +3,7 @@
   },
   "math_inputtex":"\\displaystyle-\\left.2\\left(1-\\frac{g_{s}\\pi\\tan^{3}\\theta}{8(M_{s}L)(M_{s}y)^{%&#10;2}}\\right)\\right]\\,,",
   "correct_tex":"\\displaystyle-\\left.2\\left(1-\\frac{g_{s}\\pi\\tan^{3}\\theta}{8(M_{s}L)(M_{s}y)^{%&#10;2}}\\right)\\right]\\,,",
-  "uri": "https://arxiv.org/abs/hep-th0112147",
+  "uri": "https://arxiv.org/abs/hep-th/0112147",
   "formula":"1_22.7",
   "ntcir12-type":"26",
   "ntcir12-relevance":"4",

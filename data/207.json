@@ -30,7 +30,7 @@
   "comments": "Do I need to provide constraints for variables? I added 1, but then we also would have to define the T. This potentially has no end",
   "correct_tex":"f=f(t,x,v)",
   "math_inputtex":"f=f(t,x,v)",
-  "uri": "https://arxiv.org/abs/math0607541",
+  "uri": "https://arxiv.org/abs/math/0607541",
   "formula":"1_2.5",
   "ntcir12-type":"7",
   "ntcir12-relevance":"2",

@@ -23,7 +23,7 @@
   "comments": "create ZF as a facet of ZFC?",
   "math_inputtex":"Con(ZF+\\neg AC)",
   "correct_tex":"Con(ZF+\\neg AC)",
-  "uri": "https://arxiv.org/abs/math9209209",
+  "uri": "https://arxiv.org/abs/math/9209209",
   "formula":"1_64.5",
   "ntcir12-type":"27",
   "ntcir12-relevance":"4",

@@ -32,7 +32,7 @@
   "comments": "",
   "math_inputtex":"S_{EH}=\\frac{1}{G_{3}}\\int d^{3}x\\,\\sqrt{-g^{(3)}}\\,(R^{(3)}+{\\cal L}_{\\rm&#10;matter%&#10;}).",
   "correct_tex":"S_{EH}=\\frac{1}{G_{3}}\\int d^{3}x\\,\\sqrt{-g^{(3)}}\\,(R^{(3)}+{\\cal L}_{\\rm&#10;matter%&#10;}).",
-  "uri": "https://arxiv.org/abs/hep-th0302230",
+  "uri": "https://arxiv.org/abs/hep-th/0302230",
   "formula":"1_22.3",
   "ntcir12-type":"25",
   "ntcir12-relevance":"4",

@@ -3,7 +3,7 @@
   },
   "math_inputtex":"(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",
   "correct_tex":"(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",
-  "uri": "https://arxiv.org/abs/math0303079",
+  "uri": "https://arxiv.org/abs/math/0303079",
   "formula":"1_1.20",
   "ntcir12-type":"18",
   "ntcir12-relevance":"4",
