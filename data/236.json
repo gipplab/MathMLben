@@ -1,9 +1,24 @@
 {
   "definitions": {
+    "t": [
+      {
+        "Q11471": "time"
+      }
+    ],
+    "{\\bf R}_{+}": [
+      {
+        "Q36161": "set",
+        "Q3176558": "positive real number"
+      }
+    ],
   },
+  "constraints": "",
+  "title": "Neural Network Context 1",
+  "comments": "the positive real number QID links to the wiki article which is about the set of positive real numbers. Problem?",
   "math_inputtex":"t\\in{\\bf R}_{+},",
   "correct_tex":"t\\in{\\bf R}_{+},",
   "uri": "https://arxiv.org/abs/0901.0372",
+  "page": "1",
   "formula":"1_1.3",
   "ntcir12-type":"7",
   "ntcir12-relevance":"2",

@@ -26,9 +26,13 @@
       }
     ]
   },
+  "constraints": "",
+  "title": "Neural Network Context 2",
+  "comments": "",
   "math_inputtex":"(a,b,(c,d,e))",
   "correct_tex":"(a,b,(c,d,e))",
   "uri": "https://arxiv.org/abs/1008.2721",
+  "page": "4",
   "formula":"1_23.3",
   "ntcir12-type":"7",
   "ntcir12-relevance":"2",
