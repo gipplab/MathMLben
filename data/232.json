@@ -11,6 +11,8 @@
       }
     ]
   },
+  "title": "Arithmetic Progression Context 1",
+  "comments": "",
   "math_inputtex":"1\\leq k\\leq n-1",
   "correct_tex":"1\\leq k\\leq n-1",
   "uri": "https://arxiv.org/abs/0904.3855",

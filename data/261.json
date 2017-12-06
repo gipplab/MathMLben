@@ -1,9 +1,49 @@
 {
   "definitions": {
+    "k": [
+      "number of annual payments",
+      {
+        "Q28920044": "positive integer",
+        "Q43387495": "index number"
+      }
+    ],
+    "p": [
+      "payment",
+      {
+        "Q3176558": "positive real number"
+      }
+    ],
+    "q": [
+      "payment increase per period",
+      {
+        "Q12916": "real number"
+      }
+    ],
+    "({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}": [
+        "accumulated value of an annuity-due with payments varying in arithmetic progression",
+          {
+            "Q18729403": "non-negative real number"
+          }
+    ],
+    "C_{k}": [
+        "final value of an annuity-due with payments varying in arithmetic progression",
+          {
+            "Q18729403": "non-negative real number"
+          }
+    ],
+    "E": [
+          {
+            "Q200125": "expected value",
+            "Q11348": "function"
+          }
+    ]
   },
+  "title": "Arithmetic Progression Context 2",
+  "comments": "{\\mu}_{k} is a variable? important. constraints missing",
   "math_inputtex":"{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}.",
   "correct_tex":"{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}.",
-  "uri": "https://arxiv.org/abs/math0112298",
+  "uri": "https://arxiv.org/abs/math/0112298",
+  "page": "6",
   "formula":"1_36.8",
   "ntcir12-type":"3",
   "ntcir12-relevance":"4",

@@ -1,9 +1,23 @@
 {
   "definitions": {
+    "k": [
+      {
+        "Q3176558": "positive real number"
+      }
+    ],
+    "x": [
+      {
+        "Q12916": "real number"
+      }
+    ]
   },
+  "constraints": "",
+  "title": "Geometric Progression Context 2",
+  "comments": "",
   "math_inputtex":"1+x+x^{2}+\\ldots+x^{n-1}+x^{n}=\\frac{x^{n+1}-1}{x-1}\\ {\\rm\\left(\\right.}{\\rm&#10;assuming%&#10;}\\ x\\neq 1\\ {\\rm\\left.\\right)},",
   "correct_tex":"1+x+x^{2}+\\ldots+x^{n-1}+x^{n}=\\frac{x^{n+1}-1}{x-1}\\ {\\rm\\left(\\right.}{\\rm&#10;assuming%&#10;}\\ x\\neq 1\\ {\\rm\\left.\\right)},",
   "uri": "https://arxiv.org/abs/0904.3855",
+  "page":"21",
   "formula":"1_163.1",
   "ntcir12-type":"4",
   "ntcir12-relevance":"4",

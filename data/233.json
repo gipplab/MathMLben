@@ -1,9 +1,41 @@
 {
   "definitions": {
+    "X": [
+          {
+            "Q11348": "function"
+          }
+    ],
+    "y": [
+          {
+            "Q44528": "euclidean vector",
+            "Q12916": "real number"
+          }
+    ],
+    "j": [
+      {
+        "Q28920044": "positive integer",
+        "Q43387495": "index number"
+      }
+    ],
+    "\\tau": [
+      {
+        "Q20812438": "time point",
+        "Q12916": "real number"
+      }
+    ],
+    "\\alpha": [
+      {
+        "Q133250": "sequence",
+      }
+    ]
   },
+  "constraints": "||y|| = 1",
+  "title": "Geometric Progression Context 1",
+  "comments": "Used sequence here",
   "math_inputtex":"\\alpha_{1}=\\frac{X(\\tau_{1})y}{\\parallel X(\\tau_{1})\\parallel},\\dots,\\alpha_{j%&#10;+1}=\\frac{X(\\tau_{j+1})y}{\\parallel X(\\tau_{j+1})\\parallel},\\alpha_{j+2}=\\frac%&#10;{X(\\tau_{j+2})y}{\\parallel X(\\tau_{j+2})\\parallel},",
   "correct_tex":"\\alpha_{1}=\\frac{X(\\tau_{1})y}{\\parallel X(\\tau_{1})\\parallel},\\dots,\\alpha_{j%&#10;+1}=\\frac{X(\\au_{j+1})y}{\\parallel X(\\tau_{j+1})\\parallel},\\alpha_{j+2}=\\frac%&#10;{X(\\tau_{j+2})y}{\\parallel X(\\tau_{j+2})\\parallel},",
-  "uri": "https://arxiv.org/abs/funct-an9312001",
+  "uri": "https://arxiv.org/abs/funct-an/9312001",
+  "page": "6",
   "formula":"1_32.1",
   "ntcir12-type":"4",
   "ntcir12-relevance":"4",

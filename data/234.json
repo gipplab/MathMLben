@@ -11,9 +11,13 @@
       }
     ]
   },
+  "constraints": "",
+  "title": "Ratio Division Context 1",
+  "comments": "",
   "math_inputtex":"U(1)",
   "correct_tex":"U(1)",
-  "uri": "https://arxiv.org/abs/hep-ph9510444",
+  "uri": "https://arxiv.org/abs/hep-ph/9510444",
+  "page":"9",
   "formula":"1_19.7",
   "ntcir12-type":"5",
   "ntcir12-relevance":"4",

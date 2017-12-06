@@ -1,9 +1,32 @@
 {
   "definitions": {
+    "p": [
+        {
+          "Q49008": "prime number"
+        }
+      ],
+    "i": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+    "L": [
+      {
+        "Q603880": "finite field"
+      }
+    ],
+    "\\Gamma(L)": [
+      {
+        "Q16874656": "projective group"
+      }
+    ]
   },
+  "title": "Ratio Division Context 2",
+  "comments": "I think we should denote where ^ is for to the power, and where it is for contravariant index. Very unsure with \\Gamma(L)",
   "math_inputtex":"|\\Gamma(L)|=p^{i}(p^{2i}-1)",
   "correct_tex":"|\\Gamma(L)|=p^{i}(p^{2i}-1)",
   "uri": "https://arxiv.org/abs/1304.0221",
+  "page":"7",
   "formula":"1_48.14",
   "ntcir12-type":"5",
   "ntcir12-relevance":"4",
