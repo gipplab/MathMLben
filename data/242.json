@@ -1,9 +1,13 @@
 {
   "definitions": {
   },
+  "constraints": "",
+  "title": "Swap Context 1",
+  "comments": "",
   "math_inputtex":"\\displaystyle(P+a)A",
   "correct_tex":"\\displaystyle(P+a)A",
   "uri": "https://arxiv.org/abs/hep-th/0012244",
+  "page": "6",
   "formula":"1_12.22",
   "ntcir12-type":"13",
   "ntcir12-relevance":"1",

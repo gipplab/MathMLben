@@ -1,9 +1,29 @@
 {
   "definitions": {
+    "\\Phi^{(r)}": [
+      "Basis Element"
+    ],
+    "\\Phi^{(s)}": [
+      "Basis Element"
+    ],
+    "s": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ],
+    "r": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ]
   },
+  "constraints": "important: I do not know what Phi is. I do not understand this topic at all",
+  "title": "Reversal Context 2",
+  "comments": "",
   "math_inputtex":"\\Phi=\\Phi^{(r)}\\Phi^{(s)}",
   "correct_tex":"\\Phi=\\Phi^{(r)}\\Phi^{(s)}",
   "uri": "https://arxiv.org/abs/1308.2088",
+  "page": "15",
   "formula":"1_103.3",
   "ntcir12-type":"12",
   "ntcir12-relevance":"1",
