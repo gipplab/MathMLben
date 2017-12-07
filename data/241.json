@@ -23,7 +23,7 @@
       }
     ],
     "\\mathcal{O}": [
-      "space of smooth functions from \\mathcal{R}^n into the field \\mathcal{K} slowly increasing at infinity (with all their derivatives)"
+      "space of smooth functions from \\mathcal{R}^n into the field \\mathcal{K} slowly increasing at infinity (with all their derivatives)",
       {
         "Q934367": "Function space"
       }
