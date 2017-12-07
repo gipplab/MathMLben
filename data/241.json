@@ -1,9 +1,47 @@
 {
   "definitions": {
+    "\\Phi": [
+      {
+        "Q370502": "Map",
+        "Q1086961": "Bilinear map"
+      }
+    ],
+    "A": [
+      {
+        "Q1091024": "Continuous linear operator",
+        "Q131030": "operator (mapping from one vector space or module to another in mathematics)"
+      }
+    ],
+    "f": [
+      {
+        "Q11348": "function"
+      }
+    ],
+    "\\mathcal{S}_{n}": [
+      {
+        "Q1369621": "Schwartz space"
+      }
+    ],
+    "\\mathcal{O}": [
+      "space of smooth functions from \\mathcal{R}^n into the field \\mathcal{K} slowly increasing at infinity (with all their derivatives)"
+      {
+        "Q934367": "Function space"
+      }
+    ],
+    "\\mathcal{O}^{(m\\mathbb{)}}": [
+      "the \\mathcal{O} space limited to the functions which can generate a multiplication operator of the space \\mathcal{S}_{n} into the space \\mathcal{S}_{n} itself"
+    ],
+    "\\mathcal{L}": [
+      "Lagrangian density"
+    ]
   },
+  "constraints": "",
+  "title": "Reversal Context 1",
+  "comments": "important: dont know what n and m are for. I assume \\mathcal{L} is Lagrangian density, but I have no idea really",
   "math_inputtex":"\\Phi:\\mathcal{O}_{M}^{(m\\mathbb{)}}\\mathbb{\\times}\\mathcal{L}(\\mathcal{S}_{n},%&#10;\\mathcal{S}_{m})\\rightarrow\\mathcal{L}(\\mathcal{S}_{n},\\mathcal{S}_{m}):(f,A)%&#10;\\mapsto fA",
   "correct_tex":"\\Phi:\\mathcal{O}_{M}^{(m\\mathbb{)}}\\mathbb{\\times}\\mathcal{L}(\\mathcal{S}_{n},%&#10;\\mathcal{S}_{m})\\rightarrow\\mathcal{L}(\\mathcal{S}_{n},\\mathcal{S}_{m}):(f,A)%&#10;\\mapsto fA",
   "uri": "https://arxiv.org/abs/1104.3908",
+  "page": "5",
   "formula":"1_46.8",
   "ntcir12-type":"12",
   "ntcir12-relevance":"1",
