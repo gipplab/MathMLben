@@ -1,9 +1,22 @@
 {
   "definitions": {
+    "\\star": [
+      "impredicative universe of propositions"
+    ],
+    "tree": [
+      "type",
+      {
+        "Q223655": "tree data structure"
+      }
+    ]
   },
+  "constraints": "",
+  "title": "Lists Context 1",
+  "comments": "",
   "math_inputtex":"tree:\\star",
   "correct_tex":"tree:\\star",
   "uri": "https://arxiv.org/abs/cs/0610065",
+  "page": "4",
   "formula":"1_82.5",
   "ntcir12-type":"11",
   "ntcir12-relevance":"4",

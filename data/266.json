@@ -1,9 +1,31 @@
 {
   "definitions": {
+    "\\vec{\\xi}": [
+      "input",
+      {
+        "Q44528": "euclidean vector"
+      }
+    ],
+    "\\tau": [
+      "output",
+      {
+        "Q12503": "integer"
+      }
+    ],
+    "\\mu": [
+      {
+        "Q28920044": "positive integer",
+        "Q43387495": "index number"
+      }
+    ]
   },
+  "constraints": "\\tau \\in {-1, 1}",
+  "title": "Machine Learning Context 2",
+  "comments": "xi can be either a vector of real values or binary. What to do?",
   "math_inputtex":"\\{\\vec{\\xi}^{\\mu},\\tau^{\\mu}",
   "correct_tex":"\\{\\vec{\\xi}^{\\mu},\\tau^{\\mu}",
   "uri": "https://arxiv.org/abs/0906.0470",
+  "page": "2",
   "formula":"1_3.2",
   "ntcir12-type":"8",
   "ntcir12-relevance":"4",

@@ -14,10 +14,17 @@
     ],
     "N": [
       {
-        "Q28920044": "positive integer"
+        "Q28920044": "positive integer",
+        "Q1413083": "parameter"
+      }
+    ],
+    "H": [
+      {
+        "Q660488": "Hamiltonian"
       }
     ],
     "\\alpha": [
+      "connectivity",
       {
         "Q3176558": "positive real number"
       }
@@ -28,9 +35,13 @@
       }
     ]
   },
+  "constraints": "",
+  "title": "Physics Context 1",
+  "comments": "",
   "math_inputtex":"A_{N}(\\alpha,\\beta)=\\frac{1}{N}\\mathbb{E}\\ln\\sum_{\\sigma}\\exp(-\\beta H_{N}(%&#10;\\sigma))",
   "correct_tex":"A_{N}(\\alpha,\\beta)=\\frac{1}{N}\\mathbb{E}\\ln\\sum_{\\sigma}\\exp(-\\beta H_{N}(%&#10;\\sigma))",
   "uri": "https://arxiv.org/abs/0811.2071",
+  "page": "3",
   "formula":"1_6.13",
   "ntcir12-type":"9",
   "ntcir12-relevance":"3",

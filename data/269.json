@@ -6,9 +6,13 @@
       }
     ],
   },
+  "constraints": "",
+  "title": "Lists Context 2",
+  "comments": "",
   "math_inputtex":"\\mathtt{list}",
   "correct_tex":"\\mathtt{list}",
   "uri": "https://arxiv.org/abs/0909.3596",
+  "page": "108",
   "formula":"1_897.3",
   "ntcir12-type":"11",
   "ntcir12-relevance":"3",

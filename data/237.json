@@ -11,18 +11,24 @@
     ],
     "i": [
       {
-        "Q21199": "natural number (numbers used for counting and ordering)"
+        "Q21199": "natural number (numbers used for counting and ordering)",
+        "Q43387495": "index number"
       }
     ],
     "j": [
       {
-        "Q21199": "natural number (numbers used for counting and ordering)"
+        "Q21199": "natural number (numbers used for counting and ordering)",
+        "Q43387495": "index number"
       }
     ]
   },
+  "constraints": "",
+  "title": "Machine Learning Context 1",
+  "comments": "the positive real number QID links to the wiki article which is about the set of positive real numbers. Problem?",
   "math_inputtex":"h_{i}=\\sum_{j}\\hat{w}_{ij}s_{j}",
   "correct_tex":"h_{i}=\\sum_{j}\\hat{w}_{ij}s_{j}",
   "uri": "https://arxiv.org/abs/1012.1813",
+  "page": "2",
   "formula":"1_5.6",
   "ntcir12-type":"8",
   "ntcir12-relevance":"4",

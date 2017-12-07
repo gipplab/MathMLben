@@ -7,13 +7,18 @@
     ],
     "N\\times N": [
       {
+        "Q44337": "matrix",
         "Q339011": "symmetric matrix"
       }
     ]
   },
+  "constraints": "",
+  "title": "Music Context 2",
+  "comments": "",
   "math_inputtex":"N\\times N",
   "correct_tex":"N\\times N",
   "uri": "https://arxiv.org/abs/1401.4473",
+  "page": "4",
   "formula":"1_11.2",
   "ntcir12-type":"10",
   "ntcir12-relevance":"3",

@@ -2,12 +2,13 @@
   "definitions": {
     "N": [
       {
-        "Q21199": "natural number"
+        "Q28920044": "positive integer"
       }
     ],
     "i": [
+      "index of summation",
       {
-        "Q21199": "natural number"
+        "Q28920044": "positive integer"
       }
     ],
     "H": [
@@ -32,12 +33,19 @@
       "Hamiltonian of the i-th system in the bath"
     ],
     "V_{0}": [
-      "Interaction operator"
+      "Interaction operator",
+      {
+        "Q131030": "operator (mapping from one vector space or module to another in mathematics)"
+      }
     ]
   },
+  "constraints": "",
+  "title": "Physics Context 2",
+  "comments": "",
   "math_inputtex":"H=H_{S}+\\sum_{i=1}^{N}H_{i}+V_{0}\\otimes\\sum_{i=1}^{N}A_{i}",
   "correct_tex":"H=H_{S}+\\sum_{i=1}^{N}H_{i}+V_{0}\\otimes\\sum_{i=1}^{N}A_{i}",
   "uri": "https://arxiv.org/abs/cond-mat/0403678",
+  "page": "5",
   "formula":"1_17.1",
   "ntcir12-type":"9",
   "ntcir12-relevance":"3",
