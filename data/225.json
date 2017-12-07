@@ -20,7 +20,10 @@
       }
     ],
     "{\\cal L}_{\\rm&#10;matter%&#10;}": [
-      "matter Lagrangian density"
+      "matter Lagrangian density",
+      {
+        "Q505735": "Lagrangian"
+      }
     ],
     "x": [
       {

@@ -32,7 +32,10 @@
       "the \\mathcal{O} space limited to the functions which can generate a multiplication operator of the space \\mathcal{S}_{n} into the space \\mathcal{S}_{n} itself"
     ],
     "\\mathcal{L}": [
-      "Lagrangian density"
+      "Lagrangian density",
+      {
+        "Q505735": "Lagrangian"
+      }
     ]
   },
   "constraints": "",

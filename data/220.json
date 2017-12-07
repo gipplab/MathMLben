@@ -38,7 +38,10 @@
       }
     ],
     "L": [
-      "Lagrangian density"
+      "Lagrangian density",
+      {
+        "Q505735": "Lagrangian"
+      }
     ],
     "p": [
       {
