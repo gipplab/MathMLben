@@ -1,6 +1,32 @@
 {
   "definitions": {
+    "\\eta_{\\mu\\nu}": [
+      {
+        "Q757269": "metric tensor"
+      }
+    ],
+    "\\nu": [
+      {
+        "Q2303886": "index",
+        "Q28920052": "non-negative integer"
+      }
+    ],
+    "\\mu": [
+      {
+        "Q2303886": "index",
+        "Q28920052": "non-negative integer"
+      }
+    ],
+    "\\diag(-1,1,1,1)": [
+      {
+        "Q332791": "diagonal matrix",
+      }
+    ]
   },
+  "notation": "Einstein notation",
+  "constraints": "",
+  "title": "Relating the Maxwell system and the Dirac equations Context 2",
+  "comments": "",
   "math_inputtex":"(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",
   "correct_tex":"(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",
   "uri": "https://arxiv.org/abs/math/0303079",

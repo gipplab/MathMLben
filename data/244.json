@@ -12,7 +12,7 @@
     ]
   },
   "constraints": "",
-  "title": "Collatz Problem Context 1",
+  "title": "Collatz 3n+1 conjecture Context 1",
   "comments": "",
   "math_inputtex":"\\left\\{3k+4\\ \\right\\}\\subset\\mathfrak{C},",
   "correct_tex":"\\left\\{3k+4\\ \\right\\}\\subset\\mathfrak{C},",

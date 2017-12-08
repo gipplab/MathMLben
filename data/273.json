@@ -12,7 +12,7 @@
     ]
   },
   "constraints": "",
-  "title": "Collatz Problem Context 2",
+  "title": "Collatz 3n+1 conjecture Context 2",
   "comments": "",
   "math_inputtex":"f:{\\mathbb{N}_{1}}\\to{\\mathbb{N}_{1}}",
   "correct_tex":"f:{\\mathbb{N}_{1}}\\to{\\mathbb{N}_{1}}",

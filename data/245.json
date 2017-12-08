@@ -1,9 +1,34 @@
 {
   "definitions": {
+    "F": [
+      {
+        "Q47577": "Fibonacci number"
+      }
+    ],
+    "n": [
+      {
+        "Q2303886": "index",
+        "Q28920044": "positive integer"
+      }
+    ],
+    "n+1": [
+      {
+        "Q2303886": "index"
+      }
+    ],
+    "k": [
+      {
+        "Q21199": "natural number (numbers used for counting and ordering)"
+      }
+    ]
   },
+  "constraints": "",
+  "title": "Binomial summation formula for Fibonacci Context 1",
+  "comments": "Important: F for Fibonacci number might be wrong. Only with an index it is a particular number",
   "math_inputtex":"F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",
   "correct_tex":"F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",
   "uri": "https://arxiv.org/abs/math/0405591",
+  "page": "1",
   "formula":"1_3.2",
   "ntcir12-type":"16",
   "ntcir12-relevance":"4",

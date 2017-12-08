@@ -4,11 +4,15 @@
       {
         "Q1045966": "Central binomial coefficient"
       }
-    ],
+    ]
   },
+  "constraints": "",
+  "title": "Binomial summation formula for Fibonacci Context 2",
+  "comments": "",
   "math_inputtex":"b(k)",
   "correct_tex":"b(k)",
   "uri": "https://arxiv.org/abs/math/0602672",
+  "page": "20",
   "formula":"1_118.8",
   "ntcir12-type":"16",
   "ntcir12-relevance":"4",
