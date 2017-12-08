@@ -6,9 +6,13 @@
       }
     ]
   },
+  "constraints": "",
+  "title": "P-NP-Problem Context 2",
+  "comments": "",
   "math_inputtex":"NP",
   "correct_tex":"NP",
   "uri": "https://arxiv.org/abs/cs/0612134",
+  "page": "1",
   "formula":"1_1.2",
   "ntcir12-type":"14",
   "ntcir12-relevance":"4",

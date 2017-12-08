@@ -5,16 +5,22 @@
         "Q11471": "time"
       }
     ],
-    "{\\bf R}_{+}": [
+    "{\\bf R}": [
       {
         "Q36161": "set",
-        "Q3176558": "positive real number"
+        "Q26851380": "set of real numbers"
+      }
+    ],
+    "{\\bf R}_{+}": [
+      "set of positive real numbers",
+      {
+        "Q36161": "set"
       }
     ]
   },
   "constraints": "",
   "title": "Neural Network Context 1",
-  "comments": "the positive real number QID links to the wiki article which is about the set of positive real numbers. Problem?",
+  "comments": "there is no QID for set of positive real numbers",
   "math_inputtex":"t\\in{\\bf R}_{+},",
   "correct_tex":"t\\in{\\bf R}_{+},",
   "uri": "https://arxiv.org/abs/0901.0372",
