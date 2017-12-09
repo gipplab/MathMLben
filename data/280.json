@@ -34,7 +34,7 @@
   "notation": "Bra-ket Q59090",
   "constraints": "",
   "title": "Heisenberg uncertainty principle Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"\\Delta x\\Delta v\\geq\\frac{dm^{2}}{2}\\left\\langle E^{-3}\\right\\rangle.",
   "correct_tex":"\\Delta x\\Delta v\\geq\\frac{dm^{2}}{2}\\left\\langle E^{-3}\\right\\rangle.",
   "uri": "https://arxiv.org/abs/0907.5178",

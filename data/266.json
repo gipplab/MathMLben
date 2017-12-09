@@ -21,7 +21,7 @@
   },
   "constraints": "\\tau \\in {-1, 1}",
   "title": "Machine Learning Context 2",
-  "comments": "xi can be either a vector of real values or binary. What to do?",
+  "comment": "xi can be either a vector of real values or binary. What to do?",
   "math_inputtex":"\\{\\vec{\\xi}^{\\mu},\\tau^{\\mu}",
   "correct_tex":"\\{\\vec{\\xi}^{\\mu},\\tau^{\\mu}",
   "uri": "https://arxiv.org/abs/0906.0470",

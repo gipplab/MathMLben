@@ -8,7 +8,7 @@
   },
   "constraints": "",
   "title": "Music Context 1",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"GF(2)",
   "correct_tex":"GF(2)",
   "uri": "https://arxiv.org/abs/0903.4405",

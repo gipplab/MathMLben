@@ -27,7 +27,7 @@
     ]
   },
   "math_inputtex": "D(G,H) = \\sum_{i=1}^{29} | F_i(G) - F_i(H) |",
-  "comments": "F_i is a substitution",
+  "comment": "F_i is a substitution",
   "title": "Graphlets",
   "correct_tex": "D(G,H) = \\sum_{i=1}^{29} | F_i(G) - F_i(H) |",
   "uri": "https://en.formulasearchengine.com/w/index.php?oldid=25343#math25343.3",

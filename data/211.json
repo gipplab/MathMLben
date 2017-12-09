@@ -10,7 +10,7 @@
   "constraints": [
   ],
   "title": "Lists",
-  "comments": "important: I cant find what list(A) is exactly",
+  "comment": "important: I cant find what list(A) is exactly",
   "math_inputtex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "correct_tex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "uri": "https://arxiv.org/abs/cs/0610065",

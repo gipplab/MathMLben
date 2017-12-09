@@ -30,7 +30,7 @@
   },
   "constraints": "",
   "title": "Decision Making Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"q(\\pi_{n})\\equiv\\sum_{\\alpha\\neq\\beta}&lt;\\hat{P}(e_{\\alpha})\\hat{P}(\\pi_{n})\\hat%&#10;{P}(e_{\\beta})&gt;\\;,",
   "correct_tex":"q(\\pi_{n})\\equiv\\sum_{\\alpha\\neq\\beta}&lt;\\hat{P}(e_{\\alpha})\\hat{P}(\\pi_{n})\\hat%&#10;{P}(e_{\\beta})&gt;\\;,",
   "uri": "https://arxiv.org/abs/0903.5188",

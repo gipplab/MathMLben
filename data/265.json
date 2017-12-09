@@ -28,7 +28,7 @@
   },
   "constraints": "",
   "title": "Neural Network Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"(a,b,(c,d,e))",
   "correct_tex":"(a,b,(c,d,e))",
   "uri": "https://arxiv.org/abs/1008.2721",

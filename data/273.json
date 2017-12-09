@@ -13,7 +13,7 @@
   },
   "constraints": "",
   "title": "Collatz 3n+1 conjecture Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"f:{\\mathbb{N}_{1}}\\to{\\mathbb{N}_{1}}",
   "correct_tex":"f:{\\mathbb{N}_{1}}\\to{\\mathbb{N}_{1}}",
   "uri": "https://arxiv.org/abs/math/0410481",

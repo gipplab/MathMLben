@@ -29,7 +29,7 @@
     "i = 1, /cdots, N"
   ],
   "title": "Machine learning",
-  "comments": "should I also provide the constraints of p?",
+  "comment": "should I also provide the constraints of p?",
   "math_inputtex":"\\xi_{i}^{\\mu}=\\pm 1",
   "correct_tex":"\\xi_{i}^{\\mu}=\\pm 1",
   "uri": "https://arxiv.org/abs/cond-mat/0303425",

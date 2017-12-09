@@ -24,7 +24,7 @@
   "notation": "Bra-ket Q59090",
   "constraints": "[\\widehat{x},\\widehat{p}]:=i\\hbar",
   "title": "Heisenberg uncertainty principle Context 1",
-  "comments": "disregarded first random formula here because it was simply delta t. important: widehat isnt really an estimator by itself. used difference operator here. used position vector. or would it be better to use Q17334923 ?",
+  "comment": "disregarded first random formula here because it was simply delta t. important: widehat isnt really an estimator by itself. used difference operator here. used position vector. or would it be better to use Q17334923 ?",
   "math_inputtex":"\\Delta x\\Delta p\\geq|&lt;[\\widehat{x},\\widehat{p}]&gt;|",
   "correct_tex":"\\Delta x\\Delta p\\geq|&lt;[\\widehat{x},\\widehat{p}]&gt;|",
   "uri": "https://arxiv.org/abs/0801.3402",

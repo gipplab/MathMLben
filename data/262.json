@@ -13,7 +13,7 @@
   },
   "constraints": "",
   "title": "Geometric Progression Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"1+x+x^{2}+\\ldots+x^{n-1}+x^{n}=\\frac{x^{n+1}-1}{x-1}\\ {\\rm\\left(\\right.}{\\rm&#10;assuming%&#10;}\\ x\\neq 1\\ {\\rm\\left.\\right)},",
   "correct_tex":"1+x+x^{2}+\\ldots+x^{n-1}+x^{n}=\\frac{x^{n+1}-1}{x-1}\\ {\\rm\\left(\\right.}{\\rm&#10;assuming%&#10;}\\ x\\neq 1\\ {\\rm\\left.\\right)},",
   "uri": "https://arxiv.org/abs/0904.3855",

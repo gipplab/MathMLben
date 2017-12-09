@@ -20,7 +20,7 @@
     "x \\in \\mathbb{T}"
   ],
   "title": "Arithmetic mean",
-  "comments": "",
+  "comment": "",
   "correct_tex":"x+y&gt;2n",
   "math_inputtex":"x+y&gt;2n",
   "uri": "https://arxiv.org/abs/math/0611575",

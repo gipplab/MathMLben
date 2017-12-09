@@ -8,7 +8,7 @@
   },
   "constraints": "",
   "title": "Lists Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"\\mathtt{list}",
   "correct_tex":"\\mathtt{list}",
   "uri": "https://arxiv.org/abs/0909.3596",

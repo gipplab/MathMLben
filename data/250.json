@@ -15,7 +15,7 @@
   "notation": "",
   "constraints": "",
   "title": "Commonly used loss function Context 1",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"\\theta=\\frac{1}{\\sigma}",
   "correct_tex":"\\theta=\\frac{1}{\\sigma}",
   "uri": "https://arxiv.org/abs/1301.4628",

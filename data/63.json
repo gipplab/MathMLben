@@ -25,7 +25,7 @@
     ]
   },
   "math_inputtex": "\n    y\\left( x \\right) = {\\mathop{\\rm sgn}} \\left( {{\\rho }} \\right)\\frac{{{\\sigma _y}}}{{{\\sigma _x}}}\\left( {x - {\\mu _x}} \\right) + {\\mu _y}.\n  ",
-  "comments": "sgn is an operator",
+  "comment": "sgn is an operator",
   "title": "Multivariate_normal_distribution",
   "correct_tex": "\n    y\\left( x \\right) = {\\mathop{\\rm sgn}} \\left( {{\\rho }} \\right)\\frac{{{\\sigma _y}}}{{{\\sigma _x}}}\\left( {x - {\\mu _x}} \\right) + {\\mu _y}.\n  ",
   "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1588#math1588.20",

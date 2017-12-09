@@ -19,7 +19,7 @@
   "notation": "",
   "constraints": "",
   "title": "Use of Lagrange multipliers Context 1",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"p(\\lambda)",
   "correct_tex":"p(\\lambda)",
   "uri": "https://arxiv.org/abs/0706.0426",

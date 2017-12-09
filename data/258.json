@@ -4,7 +4,7 @@
       "implicational base"
     ],
   },
-  "comments": "Sigma is either a set or a family (but which kind of family?)",
+  "comment": "Sigma is either a set or a family (but which kind of family?)",
   "title": "A formulaic definition of the definable closure: Context 1",
   "math_inputtex":"\\Sigma",
   "correct_tex":"\\Sigma",

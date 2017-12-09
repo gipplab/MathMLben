@@ -24,7 +24,7 @@
   },
   "constraints": "",
   "title": "Machine Learning Context 1",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"h_{i}=\\sum_{j}\\hat{w}_{ij}s_{j}",
   "correct_tex":"h_{i}=\\sum_{j}\\hat{w}_{ij}s_{j}",
   "uri": "https://arxiv.org/abs/1012.1813",

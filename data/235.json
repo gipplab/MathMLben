@@ -15,7 +15,7 @@
   },
   "constraints": "",
   "title": "Decision Making Context 1",
-  "comments": "QID for lattice?",
+  "comment": "QID for lattice?",
   "math_inputtex":"{\\cal L}=\\{\\pi_{1},\\pi_{2}\\}",
   "correct_tex":"{\\cal L}=\\{\\pi_{1},\\pi_{2}\\}",
   "uri": "https://arxiv.org/abs/808.0112",

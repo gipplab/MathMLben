@@ -22,7 +22,7 @@
     ]
   },
   "title": "Ratio Division Context 2",
-  "comments": "I think we should denote where ^ is for to the power, and where it is for contravariant index. Very unsure with \\Gamma(L)",
+  "comment": "I think we should denote where ^ is for to the power, and where it is for contravariant index. Very unsure with \\Gamma(L)",
   "math_inputtex":"|\\Gamma(L)|=p^{i}(p^{2i}-1)",
   "correct_tex":"|\\Gamma(L)|=p^{i}(p^{2i}-1)",
   "uri": "https://arxiv.org/abs/1304.0221",

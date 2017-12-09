@@ -17,7 +17,7 @@
   },
   "constraints": "",
   "title": "Swap Context 2",
-  "comments": "not sure about constant/variable distinction",
+  "comment": "not sure about constant/variable distinction",
   "math_inputtex":"\\displaystyle 1-a\\,\\bar{\\partial}_{p}\\,,",
   "correct_tex":"\\displaystyle 1-a\\,\\bar{\\partial}_{p}\\,,",
   "uri": "https://arxiv.org/abs/hep-th/0409134",

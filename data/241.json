@@ -40,7 +40,7 @@
   },
   "constraints": "",
   "title": "Reversal Context 1",
-  "comments": "important: dont know what n and m are for. I assume \\mathcal{L} is Lagrangian density, but I have no idea really",
+  "comment": "important: dont know what n and m are for. I assume \\mathcal{L} is Lagrangian density, but I have no idea really",
   "math_inputtex":"\\Phi:\\mathcal{O}_{M}^{(m\\mathbb{)}}\\mathbb{\\times}\\mathcal{L}(\\mathcal{S}_{n},%&#10;\\mathcal{S}_{m})\\rightarrow\\mathcal{L}(\\mathcal{S}_{n},\\mathcal{S}_{m}):(f,A)%&#10;\\mapsto fA",
   "correct_tex":"\\Phi:\\mathcal{O}_{M}^{(m\\mathbb{)}}\\mathbb{\\times}\\mathcal{L}(\\mathcal{S}_{n},%&#10;\\mathcal{S}_{m})\\rightarrow\\mathcal{L}(\\mathcal{S}_{n},\\mathcal{S}_{m}):(f,A)%&#10;\\mapsto fA",
   "uri": "https://arxiv.org/abs/1104.3908",

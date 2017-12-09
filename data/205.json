@@ -11,7 +11,7 @@
       }
     ]
   },
-  "comments": "I labelled the star as Identifier. Or maybe better label it as label? Or not at all?",
+  "comment": "I labelled the star as Identifier. Or maybe better label it as label? Or not at all?",
   "title": "Ratio Division",
   "correct_tex":"x,\\;1/x,\\;1-x,\\;1/(1-x),\\;(x-1)/x,\\;x/(x-1)\\qquad\\hskip{0.0pt}(*)",
   "math_inputtex":"x,\\;1/x,\\;1-x,\\;1/(1-x),\\;(x-1)/x,\\;x/(x-1)\\qquad\\hskip{0.0pt}(*)",

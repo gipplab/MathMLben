@@ -41,7 +41,7 @@
   },
   "constraints": "",
   "title": "Physics Context 2",
-  "comments": "",
+  "comment": "",
   "math_inputtex":"H=H_{S}+\\sum_{i=1}^{N}H_{i}+V_{0}\\otimes\\sum_{i=1}^{N}A_{i}",
   "correct_tex":"H=H_{S}+\\sum_{i=1}^{N}H_{i}+V_{0}\\otimes\\sum_{i=1}^{N}A_{i}",
   "uri": "https://arxiv.org/abs/cond-mat/0403678",

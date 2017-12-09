@@ -12,7 +12,7 @@
     ]
   },
   "math_inputtex": "\\frac{ \\partial f}{ \\partial x} = f_x = \\partial_x f.",
-  "comments": "in that context subscript is not a part of a variable but a notational element",
+  "comment": "in that context subscript is not a part of a variable but a notational element",
   "title": "Partial_derivative",
   "correct_tex": "\\frac{ \\partial f}{ \\partial x} = f_x = \\partial_x f.",
   "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1666#math1666.30",

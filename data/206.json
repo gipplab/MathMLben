@@ -26,7 +26,7 @@
     "\\sum_{n,\\alpha}\\;p_{n}(e_{\\alpha}) = 1"
   ],
   "title": "Decision making",
-  "comments": "Do I need all constraints from page 15? Is alpha a set?",
+  "comment": "Do I need all constraints from page 15? Is alpha a set?",
   "correct_tex":"p(\\pi_{n})=\\sum_{\\alpha}\\;p_{n}(e_{\\alpha})+q(\\pi_{n})",
   "math_inputtex":"p(\\pi_{n})=\\sum_{\\alpha}\\;p_{n}(e_{\\alpha})+q(\\pi_{n})",
   "uri": "https://arxiv.org/abs/0808.0112",
