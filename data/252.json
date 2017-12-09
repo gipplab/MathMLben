@@ -1,9 +1,14 @@
 {
   "definitions": {
   },
+  "notation": "",
+  "constraints": "",
+  "title": "Alcubierre drive and friends Context 1",
+  "comments": "",
   "math_inputtex":"\\displaystyle H_{\\rm G}^{\\rm phen}[N]=\\frac{1}{16\\pi G}\\int_{\\Sigma}\\mathrm{d}%&#10;^{3}x\\bar{N}\\left[-6\\sqrt{\\bar{p}}\\left(\\frac{\\sin\\bar{\\mu}\\gamma\\bar{k}}{\\bar%&#10;{\\mu}\\gamma}\\right)^{2}-\\frac{1}{2\\bar{p}^{3/2}}\\left(\\frac{\\sin\\bar{\\mu}%&#10;\\gamma\\bar{k}}{\\bar{\\mu}\\gamma}\\right)^{2}(\\delta E^{c}_{j}\\delta E^{d}_{k}%&#10;\\delta_{c}^{k}\\delta_{d}^{j})\\right.",
   "correct_tex":"\\displaystyle H_{\\rm G}^{\\rm phen}[N]=\\frac{1}{16\\pi G}\\int_{\\Sigma}\\mathrm{d}%&#10;^{3}x\\bar{N}\\left[-6\\sqrt{\\bar{p}}\\left(\\frac{\\sin\\bar{\\mu}\\gamma\\bar{k}}{\\bar%&#10;{\\mu}\\gamma}\\right)^{2}-\\frac{1}{2\\bar{p}^{3/2}}\\left(\\frac{\\sin\\bar{\\mu}%&#10;\\gamma\\bar{k}}{\\bar{\\mu}\\gamma}\\right)^{2}(\\delta E^{c}_{j}\\delta E^{d}_{k}%&#10;\\delta_{c}^{k}\\delta_{d}^{j})\\right.",
   "uri": "https://arxiv.org/abs/0709.2365",
+  "page": "20",
   "formula":"1_5.1",
   "ntcir12-type":"23",
   "ntcir12-relevance":"4",
