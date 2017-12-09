@@ -22,7 +22,7 @@
   },
   "constraints": [],
   "title": "Swap Context 1",
-  "comment": "IMPORTANT: Cannot render. Whats the deal? Also, I compiled this myself, and it looks very different from the original",
+  "comment": "recompiled",
   "math_inputtex": "AP=(P+a)A",
   "correct_tex": "AP=(P+a)A",
   "uri": "https://arxiv.org/abs/hep-th/0012244",
