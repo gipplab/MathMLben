@@ -1,11 +1,36 @@
 {
   "definitions": {
+    "\\Delta": [
+      {
+        "Q25383044": "difference operator"
+      }
+    ],
+    "x": [
+      {
+        "Q192388": "position vector"
+      }
+    ],
+    "p": [
+      {
+        "Q837940": "impulse"
+      }
+    ],
+    "\\widehat": [
+      {
+        "Q1130160": "estimator"
+      }
+    ]
   },
-  "math_inputtex":"\\Delta t",
-  "correct_tex":"\\Delta t",
+  "notation": "Bra-ket Q59090",
+  "constraints": "[\\widehat{x},\\widehat{p}]:=i\\hbar",
+  "title": "Heisenberg uncertainty principle Context 1",
+  "comments": "disregarded first random formula here because it was simply delta t. important: widehat isnt really an estimator by itself. used difference operator here. used position vector. or would it be better to use Q17334923 ?",
+  "math_inputtex":"\\Delta x\\Delta p\\geq|&lt;[\\widehat{x},\\widehat{p}]&gt;|",
+  "correct_tex":"\\Delta x\\Delta p\\geq|&lt;[\\widehat{x},\\widehat{p}]&gt;|",
   "uri": "https://arxiv.org/abs/0801.3402",
-  "formula":"1_17.3",
+  "page": "8",
+  "formula":"1_17.7",
   "ntcir12-type":"22",
   "ntcir12-relevance":"3",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S2.p6.1.m3.1.cmml\" alttext=\"\\Delta t\" class=\"ltx_Math\" id=\"S2.p6.1.m3.1\" display=\"inline\"><semantics xref=\"S2.p6.1.m3.1.cmml\" id=\"S2.p6.1.m3.1a\"><mrow xref=\"S2.p6.1.m3.1.3.cmml\" id=\"S2.p6.1.m3.1.3\"><mi xref=\"S2.p6.1.m3.1.1.cmml\" mathvariant=\"normal\" id=\"S2.p6.1.m3.1.1\">\u0394</mi><mo xref=\"S2.p6.1.m3.1.3.1.cmml\" id=\"S2.p6.1.m3.1.3.1\">\u2062</mo><mi xref=\"S2.p6.1.m3.1.2.cmml\" id=\"S2.p6.1.m3.1.2\">t</mi></mrow><annotation-xml xref=\"S2.p6.1.m3.1\" id=\"S2.p6.1.m3.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S2.p6.1.m3.1.3\" id=\"S2.p6.1.m3.1.3.cmml\"><times xref=\"S2.p6.1.m3.1.3.1\" id=\"S2.p6.1.m3.1.3.1.cmml\"></times><ci xref=\"S2.p6.1.m3.1.1\" id=\"S2.p6.1.m3.1.1.cmml\">normal-\u0394</ci><ci xref=\"S2.p6.1.m3.1.2\" id=\"S2.p6.1.m3.1.2.cmml\">t</ci></apply></annotation-xml><annotation xref=\"S2.p6.1.m3.1.cmml\" id=\"S2.p6.1.m3.1b\" encoding=\"application/x-tex\">\\Delta t</annotation></semantics></math>"
+  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S2.p6.1.m7.1.cmml\" alttext=\"\\Delta x\\Delta p\\geq|&lt;[\\widehat{x},\\widehat{p}]&gt;|\" class=\"ltx_Math\" id=\"S2.p6.1.m7.1\" display=\"inline\"><semantics xref=\"S2.p6.1.m7.1.cmml\" id=\"S2.p6.1.m7.1a\"><mrow xref=\"S2.p6.1.m7.1.15.cmml\" id=\"S2.p6.1.m7.1.15\"><mrow xref=\"S2.p6.1.m7.1.15.1.cmml\" id=\"S2.p6.1.m7.1.15.1\"><mi xref=\"S2.p6.1.m7.1.1.cmml\" mathvariant=\"normal\" id=\"S2.p6.1.m7.1.1\">\u0394</mi><mo xref=\"S2.p6.1.m7.1.15.1.1.cmml\" id=\"S2.p6.1.m7.1.15.1.1\">\u2062</mo><mi xref=\"S2.p6.1.m7.1.2.cmml\" id=\"S2.p6.1.m7.1.2\">x</mi><mo xref=\"S2.p6.1.m7.1.15.1.1.cmml\" id=\"S2.p6.1.m7.1.15.1.1a\">\u2062</mo><mi xref=\"S2.p6.1.m7.1.3.cmml\" mathvariant=\"normal\" id=\"S2.p6.1.m7.1.3\">\u0394</mi><mo xref=\"S2.p6.1.m7.1.15.1.1.cmml\" id=\"S2.p6.1.m7.1.15.1.1b\">\u2062</mo><mi xref=\"S2.p6.1.m7.1.4.cmml\" id=\"S2.p6.1.m7.1.4\">p</mi></mrow><mo xref=\"S2.p6.1.m7.1.5.cmml\" id=\"S2.p6.1.m7.1.5\">\u2265</mo><mrow xref=\"S2.p6.1.m7.1.15.2.cmml\" id=\"S2.p6.1.m7.1.15.2\"><mo xref=\"S2.p6.1.m7.1.15.2.cmml\" id=\"S2.p6.1.m7.1.15.2a\" fence=\"true\">|</mo><mrow xref=\"S2.p6.1.m7.1.15.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2\"><mo xref=\"S2.p6.1.m7.1.15.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2a\">&lt;</mo><mrow xref=\"S2.p6.1.m7.1.15.2.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2.2\"><mo xref=\"S2.p6.1.m7.1.15.2.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2.2a\">[</mo><mrow xref=\"S2.p6.1.m7.1.15.2.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2.2b\"><mover xref=\"S2.p6.1.m7.1.9.cmml\" id=\"S2.p6.1.m7.1.9\" accent=\"true\"><mi xref=\"S2.p6.1.m7.1.9.2.cmml\" id=\"S2.p6.1.m7.1.9.2\">x</mi><mo xref=\"S2.p6.1.m7.1.9.1.cmml\" id=\"S2.p6.1.m7.1.9.1\">^</mo></mover><mo xref=\"S2.p6.1.m7.1.15.2.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2.2c\">,</mo><mover xref=\"S2.p6.1.m7.1.11.cmml\" id=\"S2.p6.1.m7.1.11\" accent=\"true\"><mi xref=\"S2.p6.1.m7.1.11.2.cmml\" id=\"S2.p6.1.m7.1.11.2\">p</mi><mo xref=\"S2.p6.1.m7.1.11.1.cmml\" id=\"S2.p6.1.m7.1.11.1\">^</mo></mover></mrow><mo xref=\"S2.p6.1.m7.1.15.2.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2.2d\">]</mo></mrow><mo xref=\"S2.p6.1.m7.1.15.2.2.cmml\" id=\"S2.p6.1.m7.1.15.2.2b\">&gt;</mo></mrow><mo xref=\"S2.p6.1.m7.1.15.2.cmml\" id=\"S2.p6.1.m7.1.15.2b\" fence=\"true\">|</mo></mrow></mrow><annotation-xml xref=\"S2.p6.1.m7.1\" id=\"S2.p6.1.m7.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S2.p6.1.m7.1.15\" id=\"S2.p6.1.m7.1.15.cmml\"><geq xref=\"S2.p6.1.m7.1.5\" id=\"S2.p6.1.m7.1.5.cmml\"></geq><apply xref=\"S2.p6.1.m7.1.15.1\" id=\"S2.p6.1.m7.1.15.1.cmml\"><times xref=\"S2.p6.1.m7.1.15.1.1\" id=\"S2.p6.1.m7.1.15.1.1.cmml\"></times><ci xref=\"S2.p6.1.m7.1.1\" id=\"S2.p6.1.m7.1.1.cmml\">normal-\u0394</ci><ci xref=\"S2.p6.1.m7.1.2\" id=\"S2.p6.1.m7.1.2.cmml\">x</ci><ci xref=\"S2.p6.1.m7.1.3\" id=\"S2.p6.1.m7.1.3.cmml\">normal-\u0394</ci><ci xref=\"S2.p6.1.m7.1.4\" id=\"S2.p6.1.m7.1.4.cmml\">p</ci></apply><apply xref=\"S2.p6.1.m7.1.15.2\" id=\"S2.p6.1.m7.1.15.2.cmml\"><abs id=\"S2.p6.1.m7.1.15.2.1.cmml\"></abs><apply xref=\"S2.p6.1.m7.1.15.2.2\" id=\"S2.p6.1.m7.1.15.2.2.cmml\"><csymbol cd=\"latexml\" id=\"S2.p6.1.m7.1.15.2.2.1.cmml\">expectation</csymbol><apply xref=\"S2.p6.1.m7.1.15.2.2.2\" id=\"S2.p6.1.m7.1.15.2.2.2.cmml\"><interval id=\"S2.p6.1.m7.1.15.2.2.2.1.cmml\" closure=\"closed\"></interval><apply xref=\"S2.p6.1.m7.1.9\" id=\"S2.p6.1.m7.1.9.cmml\"><ci xref=\"S2.p6.1.m7.1.9.1\" id=\"S2.p6.1.m7.1.9.1.cmml\">normal-^</ci><ci xref=\"S2.p6.1.m7.1.9.2\" id=\"S2.p6.1.m7.1.9.2.cmml\">x</ci></apply><apply xref=\"S2.p6.1.m7.1.11\" id=\"S2.p6.1.m7.1.11.cmml\"><ci xref=\"S2.p6.1.m7.1.11.1\" id=\"S2.p6.1.m7.1.11.1.cmml\">normal-^</ci><ci xref=\"S2.p6.1.m7.1.11.2\" id=\"S2.p6.1.m7.1.11.2.cmml\">p</ci></apply></apply></apply></apply></apply></annotation-xml><annotation xref=\"S2.p6.1.m7.1.cmml\" id=\"S2.p6.1.m7.1b\" encoding=\"application/x-tex\">\\Delta x\\Delta p\\geq|&lt;[\\widehat{x},\\widehat{p}]&gt;|</annotation></semantics></math>"
 }

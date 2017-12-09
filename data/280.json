@@ -1,9 +1,44 @@
 {
   "definitions": {
+    "\\Delta": [
+      {
+        "Q25383044": "difference operator"
+      }
+    ],
+    "x": [
+      {
+        "Q192388": "position vector"
+      }
+    ],
+    "v": [
+      {
+        "Q11465": "velocity"
+      }
+    ],
+    "m": [
+      {
+        "Q11423": "mass"
+      }
+    ],
+    "d": [
+      {
+        "Q929302": "dimension"
+      }
+    ],
+    "E": [
+      {
+        "Q11379": "energy"
+      }
+    ]
   },
+  "notation": "Bra-ket Q59090",
+  "constraints": "",
+  "title": "Heisenberg uncertainty principle Context 2",
+  "comments": "",
   "math_inputtex":"\\Delta x\\Delta v\\geq\\frac{dm^{2}}{2}\\left\\langle E^{-3}\\right\\rangle.",
   "correct_tex":"\\Delta x\\Delta v\\geq\\frac{dm^{2}}{2}\\left\\langle E^{-3}\\right\\rangle.",
   "uri": "https://arxiv.org/abs/0907.5178",
+  "page": "8",
   "formula":"1_12.10",
   "ntcir12-type":"22",
   "ntcir12-relevance":"3",

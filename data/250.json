@@ -1,9 +1,25 @@
 {
   "definitions": {
+    "\\sigma": [
+      {
+        "Q3176558": "positive real number"
+      }
+    ],
+    "\\theta": [
+      "natural parameter",
+      {
+        "Q3176558": "positive real number"
+      }
+    ]
   },
+  "notation": "",
+  "constraints": "",
+  "title": "Commonly used loss function Context 1",
+  "comments": "",
   "math_inputtex":"\\theta=\\frac{1}{\\sigma}",
   "correct_tex":"\\theta=\\frac{1}{\\sigma}",
   "uri": "https://arxiv.org/abs/1301.4628",
+  "page": "5",
   "formula":"1_22.6",
   "ntcir12-type":"21",
   "ntcir12-relevance":"4",

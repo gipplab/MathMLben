@@ -1,9 +1,25 @@
 {
   "definitions": {
+    "\\nu": [
+      "support measure",
+      {
+        "Q192276": "measure"
+      }
+    ],
+    "\\nu_{\\Psi}": [
+      {
+        "Q247204": "counting measure"
+      }
+    ]
   },
+  "notation": "",
+  "constraints": "",
+  "title": "Commonly used loss function Context 2",
+  "comments": "not sure about the measure",
   "math_inputtex":"\\nu_{\\Psi}",
   "correct_tex":"\\nu_{\\Psi}",
-  "uri": "https://arxiv.org/abs/1301.4628",
+  "uri": "https://arxiv.org/abs/1104.3258",
+  "page": "4",
   "formula":"1_15.4",
   "ntcir12-type":"21",
   "ntcir12-relevance":"4",
