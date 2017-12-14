@@ -1,9 +1,50 @@
 {
   "definitions": {
+    "g": [
+      {
+        "Q3855711": "Induced metric"
+      }
+    ],
+    "\\tilde{g}": [
+      " induced metric on the brane related to the extra dimensional metric G_{AB}"
+    ],
+    "x^{\\mu}": [
+      {
+        "Q192388": "Position vector"
+      }
+    ],
+    "X^{A}": [
+      "brane embedding",
+      {
+        "Q980509": "embedding"
+      }
+    ],
+    "\\mu": [
+      {
+        "Q2303886": "index number"
+      }
+    ],
+    "\\nu": [
+      {
+        "Q2303886": "index number"
+      }
+    ],
+    "A": [
+      {
+        "Q2303886": "index number"
+      }
+    ],
+    "B": [
+      {
+        "Q2303886": "index number"
+      }
+    ]
   },
+  "title": "Brane Universe and Standard Cosmology Context 1",
   "math_inputtex":"\\tilde{g}_{\\mu\\nu}=G_{AB}\\frac{\\partial X^{A}}{\\partial x^{\\mu}}\\frac{\\partial&#10;X%&#10;^{B}}{\\partial x^{\\nu}}",
   "correct_tex":"\\tilde{g}_{\\mu\\nu}=G_{AB}\\frac{\\partial X^{A}}{\\partial x^{\\mu}}\\frac{\\partial&#10;X%&#10;^{B}}{\\partial x^{\\nu}}",
   "uri": "https://arxiv.org/abs/1203.5687",
+  "page": "2",
   "formula":"1_6.5",
   "ntcir12-type":"26",
   "ntcir12-relevance":"4",
