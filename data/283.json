@@ -1,9 +1,26 @@
 {
   "definitions": {
+    "S": [
+      {
+        "Q815018": "Bekenstein bound"
+      }
+    ],
+    "A": [
+      {
+        "Q11500": "Area"
+      }
+    ],
+    "G": [
+      {
+        "Q18373": "Gravitational constant"
+      }
+    ]
   },
+  "title": "Bekenstein-Hawking bound on entropy Context 2",
   "math_inputtex":"\\displaystyle S\\leq\\frac{A}{4G},",
   "correct_tex":"\\displaystyle S\\leq\\frac{A}{4G},",
   "uri": "https://arxiv.org/abs/hep-th/0308165",
+  "page": "8",
   "formula":"1_15.2",
   "ntcir12-type":"25",
   "ntcir12-relevance":"4",

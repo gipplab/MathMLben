@@ -1,9 +1,48 @@
 {
   "definitions": {
+    "S_{\\rm BH}": [
+      {
+        "Q3055341": "Bekenstein-Hawking bound"
+      }
+    ],
+    "E_{\\rm BH}": [
+      {
+        "Q45404197": "Bekenstein-Hawking energy"
+      }
+    ],
+    "E": [
+      "total energy of matter filling in the universe"
+      {
+        "Q11379": "energy"
+      }
+    ],
+    "V": [
+      "volume of the universe"
+      {
+        "Q39297": "volume"
+      }
+    ],
+    "R": [
+      {
+        "Q173817": "Radius"
+      }
+    ],
+    "G_{n}": [
+      {
+        "Q18373": "Gravitational constant"
+      }
+    ],
+    "n": [
+      {
+        "Q929302": "dimension"
+      }
+    ]
   },
+  "title": "Bekenstein-Hawking bound on entropy Context 1",
   "math_inputtex":"S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n",
   "correct_tex":"S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n",
   "uri": "https://arxiv.org/abs/hep-th/0105070",
+  "page": "3",
   "formula":"1_3.2",
   "ntcir12-type":"25",
   "ntcir12-relevance":"4",

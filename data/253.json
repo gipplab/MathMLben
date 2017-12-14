@@ -4,9 +4,11 @@
       "parity (reflection) operator"
     ]
   },
+  "title": "Invariation of the point of interaction Context 1",
   "math_inputtex":"\\mathcal{P}",
   "correct_tex":"\\mathcal{P}",
   "uri": "https://arxiv.org/abs/1107.1875",
+  "page": "7",
   "formula":"1_22.1",
   "ntcir12-type":"24",
   "ntcir12-relevance":"4",

@@ -1,9 +1,29 @@
 {
   "definitions": {
+    "U_{\\pm}": [
+      {
+        "Q1972470": "unitary operator"
+      }
+    ],
+    "U_{\\pm}^{\\dagger}": [
+      "conjugate transponse of U_{+}"
+      {
+        "Q2051983": "conjugate transponse"
+      }
+    ],
+    "\\pm": [
+      {
+        "Q2303886": "index",
+        "Q260387": "plus minus Symbol"
+      }
+    ]
   },
+  "title": "Invariation of the point of interaction Context 1",
+  "comment": "IMPORTANT: \\pm as index, is that correct?",
   "math_inputtex":"U_{\\pm}^{\\dagger}=U_{\\pm}",
   "correct_tex":"U_{\\pm}^{\\dagger}=U_{\\pm}",
   "uri": "https://arxiv.org/abs/1004.5489",
+  "page": "8",
   "formula":"1_31.2",
   "ntcir12-type":"24",
   "ntcir12-relevance":"2",
