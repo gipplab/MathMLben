@@ -1,9 +1,41 @@
 {
   "definitions": {
+    "v_{p}": [
+      {
+        "Q13824": "phase velocity"
+      }
+    ],
+    "\\omega": [
+      {
+        "Q11652": "frequency"
+      }
+    ],
+    "r": [
+      {
+        "Q23008351": "relative Position",
+        "Q50701": "variable"
+      }
+    ],
+    "R": [
+      {
+        "Q23008351": "relative Position",
+        "Q188248": "constant",
+      }
+    ],
+    "\\partial_{r}": [
+      {
+        "Q21092339": "Symbol"
+      }
+    ],
   },
+  "notation": "",
+  "constraints": [""],
+  "title": "Alcubierre drive and friends Context 2",
+  "comment": "",
   "math_inputtex":"v_{p}=\\frac{1}{\\partial_{r}R}=1+\\frac{1}{r^{2}\\omega^{2}}",
   "correct_tex":"v_{p}=\\frac{1}{\\partial_{r}R}=1+\\frac{1}{r^{2}\\omega^{2}}",
   "uri": "https://arxiv.org/abs/1209.3779",
+  "page": "5",
   "formula":"1_3.1",
   "ntcir12-type":"23",
   "ntcir12-relevance":"4",

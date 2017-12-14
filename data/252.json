@@ -1,9 +1,119 @@
 {
-  "definitions": {},
-  "notation": "",
-  "constraints": [],
+  "definitions": {
+  "m": [
+    {
+      "Q1413083": "parameter"
+    }
+  ],
+  "H_{\\rm G}^{\\rm phen}[N]": [
+    {
+      "Q5645295": "Hamiltonian constraint"
+    }
+  ],
+  "K_c^j": [
+    "extrinsic curvature",
+    {
+      "Q214881": "curvature"
+    }
+  ],
+  "E_c^j": [
+    "densitized triad"
+  ],
+  "\\bar{\\mu}": [
+    "parameter related to the action of the fundamental Hamiltonian on a lattice state",
+    {
+      "Q1413083": "parameter"
+    }
+  ],
+  "\\gamma": [
+    {
+      "Q245956": "Immirzi parameter"
+    }
+  ],
+  "G": [
+    {
+      "Q18373": "Gravitational constant"
+    }
+  ],
+  "N": [
+    {
+      "Q45315798": "Lapse Function"
+    }
+  ],
+  "\\bar{N}": [
+    {
+      "Q45315914": "Conformal time"
+    }
+  ],
+  "\\bar{k}": [
+    "Background variable related to curvature"
+  ],
+  "a": [
+    {
+      "Q1332997": "Scale Factor"
+    }
+  ],
+  "x": [
+    {
+      "Q17334923": "Position"
+    }
+  ],
+  "c": [
+    {
+      "Q2303886": "index"
+    }
+  ],
+  "d": [
+    {
+      "Q2303886": "index"
+    }
+  ],
+  "e": [
+    {
+      "Q2303886": "index"
+    }
+  ],
+  "f": [
+    {
+      "Q2303886": "index"
+    }
+  ],
+  "j": [
+    {
+      "Q2303886": "index"
+    }
+  ],
+  "k": [
+    {
+      "Q2303886": "index"
+    },
+  ],
+  "\\bar{p}": [
+    "square of a"
+  ],
+  "\\Sigma": [
+    "?"
+  ],
+  "\\mathrm{d}^{3}": [
+    {
+      "Q21092339": "Symbol"
+    }
+  ],
+  "\\delta": [
+    {
+      "Q21092339": "Symbol"
+    }
+  ],
+  "\\delta_c^j": [
+    {
+      "Q192826": "Kronecker Delta"
+    }
+  ]
+},
+  "notation": "Ricci Calculus. Background variables denoted by bar",
+  "constraints": ["\\bar{p} = a^2"],
   "title": "Alcubierre drive and friends Context 1",
-  "comment": "",
+  "comment": "recompiled. IMPORTANT: A variable which is only in the constraints appears as identifier to define \\bar{p}. Imprtant: do not know sigma without indices",
   "math_inputtex": "H_{\\rm G}^{\\rm phen}[N]=\\frac{1}{16\\pi G}\\int_{\\Sigma}\\mathrm{d}^{3}x\\bar{N}%&#10;\\left[-6\\sqrt{\\bar{p}}\\left(\\frac{\\sin\\bar{\\mu}\\gamma\\bar{k}}{\\bar{\\mu}\\gamma}%&#10;\\right)^{2}-\\frac{1}{2\\bar{p}^{3/2}}\\left(\\frac{\\sin\\bar{\\mu}\\gamma\\bar{k}}{%&#10;\\bar{\\mu}\\gamma}\\right)^{2}(\\delta E^{c}_{j}\\delta E^{d}_{k}\\delta_{c}^{k}%&#10;\\delta_{d}^{j})+\\sqrt{\\bar{p}}(\\delta K_{c}^{j}\\delta K_{d}^{k}\\delta^{c}_{k}%&#10;\\delta^{d}_{j})-\\frac{2}{\\sqrt{\\bar{p}}}\\left(\\frac{\\sin m\\bar{\\mu}\\gamma\\bar{%&#10;k}}{m\\bar{\\mu}\\gamma}\\right)(\\delta E^{c}_{j}\\delta K_{c}^{j})+\\frac{1}{\\bar{p%&#10;}^{3/2}}(\\delta_{cd}\\delta^{jk}\\delta^{ef}\\partial_{e}E^{c}_{j}\\partial_{f}E^{%&#10;d}_{k})\\right]~{}.",
   "correct_tex": "H_{\\rm G}^{\\rm phen}[N]=\\frac{1}{16\\pi G}\\int_{\\Sigma}\\mathrm{d}^{3}x\\bar{N}%&#10;\\left[-6\\sqrt{\\bar{p}}\\left(\\frac{\\sin\\bar{\\mu}\\gamma\\bar{k}}{\\bar{\\mu}\\gamma}%&#10;\\right)^{2}-\\frac{1}{2\\bar{p}^{3/2}}\\left(\\frac{\\sin\\bar{\\mu}\\gamma\\bar{k}}{%&#10;\\bar{\\mu}\\gamma}\\right)^{2}(\\delta E^{c}_{j}\\delta E^{d}_{k}\\delta_{c}^{k}%&#10;\\delta_{d}^{j})+\\sqrt{\\bar{p}}(\\delta K_{c}^{j}\\delta K_{d}^{k}\\delta^{c}_{k}%&#10;\\delta^{d}_{j})-\\frac{2}{\\sqrt{\\bar{p}}}\\left(\\frac{\\sin m\\bar{\\mu}\\gamma\\bar{%&#10;k}}{m\\bar{\\mu}\\gamma}\\right)(\\delta E^{c}_{j}\\delta K_{c}^{j})+\\frac{1}{\\bar{p%&#10;}^{3/2}}(\\delta_{cd}\\delta^{jk}\\delta^{ef}\\partial_{e}E^{c}_{j}\\partial_{f}E^{%&#10;d}_{k})\\right]~{}.",
   "uri": "https://arxiv.org/abs/0709.2365",
