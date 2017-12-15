@@ -1,9 +1,26 @@
 {
   "definitions": {
+    "Con": [
+      {
+        "Q1319773": "Consistency"
+      }
+    ],
+    "ZFC": [
+      {
+        "Q191849": "Zermelo–Fraenkel set theory"
+      }
+    ],
+    "IFS_{W\\!Ab\\,L(V_{\\alpha})}": [
+      {
+        "Q792536": "Axiom schema"
+      }
+    ]
   },
+  "title": "Consistency proofs of ZFC extensions Context 2",
   "math_inputtex":"Con(ZFC+IFS_{W\\!Ab\\,L(V_{\\alpha})})",
   "correct_tex":"Con(ZFC+IFS_{W\\!Ab\\,L(V_{\\alpha})})",
   "uri": "https://arxiv.org/abs/math/9209209",
+  "page": "4",
   "formula":"1_22.4",
   "ntcir12-type":"27",
   "ntcir12-relevance":"3",

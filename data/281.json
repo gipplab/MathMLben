@@ -12,13 +12,13 @@
     ],
     "r": [
       {
-        "Q23008351": "relative Position",
+        "Q126017": "distance",
         "Q50701": "variable"
       }
     ],
     "R": [
       {
-        "Q23008351": "relative Position",
+        "Q126017": "distance",
         "Q188248": "constant",
       }
     ],
