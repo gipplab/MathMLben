@@ -19,14 +19,14 @@
     "R": [
       {
         "Q126017": "distance",
-        "Q188248": "constant",
+        "Q188248": "constant"
       }
     ],
     "\\partial_{r}": [
       {
         "Q21092339": "Symbol"
       }
-    ],
+    ]
   },
   "notation": "",
   "constraints": [""],
