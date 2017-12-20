@@ -33,7 +33,7 @@
     "github-base": "^0.5.4",
     "github-change-remote-file": "^4.2.0",
     "github-content": "^1.0.1",
-    "mathoid": "git+https://github.com/AndreG-P/mathoid-server.git",
+    "mathoid": "git+https://github.com/physikerwelt/mathoid-server.git",
     "popper.js": "^1.12.5",
     "preq": "^0.5.2",
     "request": "^2.83.0",
