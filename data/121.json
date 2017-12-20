@@ -11,8 +11,8 @@
       "derivative of the Bessel function of the first kind"
     ],
     "k": [
-      "index of summation",
       {
+        "Q44917388": "index of summation",
         "Q28920052": "non-negative integer"
       }
     ],
