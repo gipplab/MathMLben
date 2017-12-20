@@ -8,5 +8,7 @@
   "title": "Separation_logic",
   "correct_tex": "\\mathsf{fv}",
   "uri": "https://en.formulasearchengine.com/w/index.php?oldid=13072#math13072.63",
-  "correct_mml": null
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\mathsf{fv}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">𝖿𝗏</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <ci id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">𝖿𝗏</ci>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\mathsf{fv}</annotation>\n  </semantics>\n</math>",
+  "constraints": [],
+  "math_inputtex_semantic": "\\mathsf{fv}"
 }
