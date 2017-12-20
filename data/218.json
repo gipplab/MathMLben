@@ -35,7 +35,13 @@
       }
     ],
     "\\Phi": [
-      "I can only find it here https://en.wikipedia.org/wiki/Minkowski_space"
+      "?"
+    ],
+    "q": [
+      "?"
+    ],
+    "\\bar{\\Psi}": [
+      "?"
     ],
     "\\partial_{\\mu}": [
       "partial derivative on Minkowski space"
@@ -45,10 +51,11 @@
     "\\Psi = \\psi(~x)e^{−iEt}"
   ],
   "title": "Relating he Maxwell system and the Dirac equations",
-  "comment": "psi, for this formula, is an eigenstate according to page 3. Q1151645 is in plural (gamma matrices). Dont know what Phi, q and \\bar{\\Psi} are. ",
+  "comment": "psi, for this formula, is an eigenstate according to page 3. Q1151645 is in plural (gamma matrices). Dont know what Phi, q and \\bar{\\Psi} are. I can only find Phi here https://en.wikipedia.org/wiki/Minkowski_space ",
   "math_inputtex":"{\\it L}=i\\bar{\\Psi}{\\gamma}^{\\mu}{\\partial}_{\\mu}{\\Psi}-\\bar{\\Psi}{\\Psi}-q\\bar%&#10;{\\Psi}{\\gamma}^{0}{\\Psi}\\Phi+{1\\over 2}({\\partial}_{\\mu}\\Phi)({\\partial}^{\\mu}%&#10;\\Phi).",
   "correct_tex":"{\\it L}=i\\bar{\\Psi}{\\gamma}^{\\mu}{\\partial}_{\\mu}{\\Psi}-\\bar{\\Psi}{\\Psi}-q\\bar%&#10;{\\Psi}{\\gamma}^{0}{\\Psi}\\Phi+{1\\over 2}({\\partial}_{\\mu}\\Phi)({\\partial}^{\\mu}%&#10;\\Phi).",
   "uri": "https://arxiv.org/abs/hep-th/9410244",
+  "page": "4",
   "formula":"1_5.3",
   "ntcir12-type":"18",
   "ntcir12-relevance":"4",

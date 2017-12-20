@@ -14,6 +14,7 @@
     "k":
     [
         {
+          "Q1413083": "parameter",
           "Q2303886": "index",
           "Q21199": "natural number (numbers used for counting and ordering)"
         }
@@ -21,6 +22,7 @@
     "n":
     [
       {
+        "Q1413083": "parameter",
         "Q2303886": "index",
         "Q21199": "natural number (numbers used for counting and ordering)"
       }

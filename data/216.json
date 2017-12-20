@@ -32,6 +32,7 @@
   "math_inputtex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "correct_tex":"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
   "uri": "https://arxiv.org/abs/1001.3466",
+  "page": "24",
   "formula":"1_117.2",
   "ntcir12-type":"16",
   "ntcir12-relevance":"4",

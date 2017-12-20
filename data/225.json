@@ -29,12 +29,11 @@
     ],
     "x": [
       {
-        "Q192388": "position vector"
+        "Q126017": "distance"
       }
     ]
   },
   "title": "Bekenstein-Hawking bound on entropy",
-  "title": "Important: is x a vector?",
   "math_inputtex":"S_{EH}=\\frac{1}{G_{3}}\\int d^{3}x\\,\\sqrt{-g^{(3)}}\\,(R^{(3)}+{\\cal L}_{\\rm&#10;matter%&#10;}).",
   "correct_tex":"S_{EH}=\\frac{1}{G_{3}}\\int d^{3}x\\,\\sqrt{-g^{(3)}}\\,(R^{(3)}+{\\cal L}_{\\rm&#10;matter%&#10;}).",
   "uri": "https://arxiv.org/abs/hep-th/0302230",

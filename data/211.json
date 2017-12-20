@@ -5,6 +5,9 @@
     ],
     "app": [
       "operation: append to list"
+    ],
+    "list(A)": [
+      "?"
     ]
   },
   "constraints": [
@@ -14,6 +17,7 @@
   "math_inputtex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "correct_tex":"app:(A\\!:\\!\\star)list(A)\\rightarrow list(A)\\rightarrow list(A)",
   "uri": "https://arxiv.org/abs/cs/0610065",
+  "page": "3",
   "formula":"1_32.4",
   "ntcir12-type":"11",
   "ntcir12-relevance":"4",

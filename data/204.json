@@ -13,6 +13,7 @@
   "correct_tex":"1+\\frac{1}{p^{2}}+\\frac{1}{p^{4}}+\\frac{1}{p^{6}}+\\frac{1}{p^{8}}+\\cdots=\\frac%&#10;{1}{1-\\frac{1}{p^{2}}},",
   "math_inputtex":"1+\\frac{1}{p^{2}}+\\frac{1}{p^{4}}+\\frac{1}{p^{6}}+\\frac{1}{p^{8}}+\\cdots=\\frac%&#10;{1}{1-\\frac{1}{p^{2}}},",
   "uri": "https://arxiv.org/abs/0807.0872",
+  "page": "6",
   "formula":"1_19.1",
   "ntcir12-type":"4",
   "ntcir12-relevance":"4",

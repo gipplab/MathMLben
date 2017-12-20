@@ -7,15 +7,16 @@
     ],
     "*": [
       {
-        "Q853614": "Identifier"
+        "Q658349": "Label"
       }
     ]
   },
-  "comment": "I labelled the star as Identifier. Or maybe better label it as label? Or not at all?",
+  "comment": "",
   "title": "Ratio Division",
   "correct_tex":"x,\\;1/x,\\;1-x,\\;1/(1-x),\\;(x-1)/x,\\;x/(x-1)\\qquad\\hskip{0.0pt}(*)",
   "math_inputtex":"x,\\;1/x,\\;1-x,\\;1/(1-x),\\;(x-1)/x,\\;x/(x-1)\\qquad\\hskip{0.0pt}(*)",
   "uri": "https://arxiv.org/abs/1304.0221",
+  "page": "8",
   "formula":"1_58.8",
   "ntcir12-type":"5",
   "ntcir12-relevance":"4",

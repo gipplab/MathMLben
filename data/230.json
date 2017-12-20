@@ -16,6 +16,7 @@
   "math_inputtex":"(x+y)/2",
   "correct_tex":"(x+y)/2",
   "uri": "https://arxiv.org/abs/1201.5232",
+  "page": "5",
   "formula":"1_35.3",
   "ntcir12-type":"1",
   "ntcir12-relevance":"4",

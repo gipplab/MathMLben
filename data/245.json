@@ -1,6 +1,6 @@
 {
   "definitions": {
-    "F": [
+    "F_{n+1}": [
       {
         "Q47577": "Fibonacci number"
       }
@@ -24,7 +24,7 @@
   },
   "constraints": "",
   "title": "Binomial summation formula for Fibonacci Context 1",
-  "comment": "Important: F for Fibonacci number might be wrong. Only with an index it is a particular number",
+  "comment": "",
   "math_inputtex":"F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",
   "correct_tex":"F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",
   "uri": "https://arxiv.org/abs/math/0405591",

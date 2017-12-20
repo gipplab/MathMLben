@@ -30,6 +30,7 @@
   "correct_tex":"p(\\pi_{n})=\\sum_{\\alpha}\\;p_{n}(e_{\\alpha})+q(\\pi_{n})",
   "math_inputtex":"p(\\pi_{n})=\\sum_{\\alpha}\\;p_{n}(e_{\\alpha})+q(\\pi_{n})",
   "uri": "https://arxiv.org/abs/0808.0112",
+  "page": "16",
   "formula":"1_67.3",
   "ntcir12-type":"6",
   "ntcir12-relevance":"3",

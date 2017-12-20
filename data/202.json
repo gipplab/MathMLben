@@ -18,6 +18,7 @@
   "correct_tex":"|[k]^{n}(1\\text{-}1)|=\\binom{k}{n}n!=(k)_{n},",
   "math_inputtex":"|[k]^{n}(1\\text{-}1)|=\\binom{k}{n}n!=(k)_{n},",
   "uri": "https://arxiv.org/abs/math/0112281",
+  "page": "2",
   "formula":"1_8.4",
   "ntcir12-type":"2",
   "ntcir12-relevance":"3",

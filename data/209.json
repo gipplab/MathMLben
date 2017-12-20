@@ -26,6 +26,7 @@
   "math_inputtex":"\\overline{(\\Delta H)^{2}}=\\frac{1}{N}\\sum_{i=1}^{N}[\\langle\\psi_{i}|H_{i}^{2}|%&#10;\\psi_{i}\\rangle-\\langle\\psi_{i}|H_{i}|\\psi_{i}\\rangle^{2}]",
   "correct_tex":"\\overline{(\\Delta H)^{2}}=\\frac{1}{N}\\sum_{i=1}^{N}[\\langle\\psi_{i}|H_{i}^{2}|%&#10;\\psi_{i}\\rangle-\\langle\\psi_{i}|H_{i}|\\psi_{i}\\rangle^{2}]",
   "uri": "https://arxiv.org/abs/quant-ph/0212064",
+  "page": "3",
   "formula":"1_6.22",
   "ntcir12-type":"9",
   "ntcir12-relevance":"4",

@@ -39,7 +39,7 @@
     ]
   },
   "title": "Arithmetic Progression Context 2",
-  "comment": "disregarded first random formula here because it was simply i_k. {\\mu}_{k} is a variable? important. constraints missing",
+  "comment": "disregarded first random formula here because it was simply i_k. {\\mu}_{k} is a variable?",
   "math_inputtex":"{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}.",
   "correct_tex":"{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}.",
   "uri": "https://arxiv.org/abs/math/0112298",

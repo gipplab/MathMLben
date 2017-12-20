@@ -43,6 +43,7 @@
   "math_inputtex":"Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q),",
   "correct_tex":"Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q),",
   "uri": "https://arxiv.org/abs/math/0109141",
+  "page": "18",
   "formula":"1_136.2",
   "ntcir12-type":"13",
   "ntcir12-relevance":"1",
