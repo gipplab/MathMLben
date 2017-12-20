@@ -4,11 +4,13 @@
       {
         "Q486902": "mathematical model"
       }
-    ],
+    ]
   },
+  "title": "A formulaic definition of the definable closure: Context 2",
   "math_inputtex":"\\mathcal{M}",
   "correct_tex":"\\mathcal{M}",
   "uri": "https://arxiv.org/abs/1108.5641",
+  "page": "1",
   "formula":"1_1.7",
   "ntcir12-type":"29",
   "ntcir12-relevance":"3",

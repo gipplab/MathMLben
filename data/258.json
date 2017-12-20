@@ -2,13 +2,14 @@
   "definitions": {
     "\\Sigma": [
       "implicational base"
-    ],
+    ]
   },
   "comment": "Sigma is either a set or a family (but which kind of family?)",
   "title": "A formulaic definition of the definable closure: Context 1",
   "math_inputtex":"\\Sigma",
   "correct_tex":"\\Sigma",
   "uri": "https://arxiv.org/abs/1012.1769",
+  "page": "4",
   "formula":"1_28.4",
   "ntcir12-type":"29",
   "ntcir12-relevance":"3",

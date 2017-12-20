@@ -1,9 +1,17 @@
 {
   "definitions": {
+  "Q_{J}": [
+      "poset of J-positive subsets of X ordered by inclusion",
+      {
+        "Q474715": "poset"
+      }
+    ]
   },
+  "title": "Examples of Aleph Null-categorical simple theories Context 2",
   "math_inputtex":"Q_{J}",
   "correct_tex":"Q_{J}",
   "uri": "https://arxiv.org/abs/math/0407182",
+  "page": "14",
   "formula":"1_115.3",
   "ntcir12-type":"28",
   "ntcir12-relevance":"4",

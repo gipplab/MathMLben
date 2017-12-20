@@ -1,9 +1,22 @@
 {
   "definitions": {
+    "K": [
+      {
+        "Q381892": "compact space"
+      }
+    ],
+    "C(K)": [
+      {
+        "Q179899": "topological space"
+      }
+    ]
   },
+  "title": "Examples of Aleph Null-categorical simple theories Context 1",
+  "comment": "not sure if K is necessarily a compact space, but the notation seems to be something like that. Or, could it be a k-space? Anyway, C(K) seems to have a certain meaning, and C might have to do with complex numbers, see https://en.wikipedia.org/wiki/C*-algebra",
   "math_inputtex":"C(K)",
   "correct_tex":"C(K)",
   "uri": "https://arxiv.org/abs/1211.4830",
+  "page": "7",
   "formula":"1_41.3",
   "ntcir12-type":"28",
   "ntcir12-relevance":"4",
