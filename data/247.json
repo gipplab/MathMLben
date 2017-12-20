@@ -28,25 +28,25 @@
     "\\alpha":
     [
       {
-        "Q2303886": "index",
+        "Q2303886": "index"
       }
     ],
     "\\beta":
     [
       {
-        "Q2303886": "index",
+        "Q2303886": "index"
       }
     ],
     "\\gamma":
     [
       {
-        "Q2303886": "index",
+        "Q2303886": "index"
       }
     ],
     "m":
     [
       {
-        "Q11423": "mass",
+        "Q11423": "mass"
       }
     ],
     "e":
@@ -61,7 +61,7 @@
       {
         "Q131030": "operator (mapping from one vector space or module to another in mathematics)"
       }
-    ],
+    ]
   },
   "notation": "Important: D = 4 two-spinor notation; Van der Waerden notation",
   "title": "Relating the Maxwell system and the Dirac equations Context 1",

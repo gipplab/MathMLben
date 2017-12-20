@@ -1,7 +1,7 @@
 {
   "definitions": {
     "\\pi_{n}": [
-      "prospect",
+      "prospect"
     ],
     "\\alpha": [
       {
@@ -18,7 +18,7 @@
     "\\hat{P}": [
       "probability operator",
       {
-        "Q6500908": "self-adjoint operator",
+        "Q6500908": "self-adjoint operator"
       }
     ],
     "e": [

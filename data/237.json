@@ -1,7 +1,7 @@
 {
   "definitions": {
     "s_{j}": [
-      "activity",
+      "activity"
     ],
     "hat{w}_{ij}": [
       "synaptic weight"
