@@ -97,7 +97,7 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
 
-var port = process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
+var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
 app.listen( port, function () {
     console.log('Started GoUldI on ' + port);
 });
