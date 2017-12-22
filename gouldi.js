@@ -97,6 +97,7 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/main.html'));
 });
 
-app.listen( mathoidcfg.gouldi.port, function () {
-    console.log('Started GoUldI on ' + mathoidcfg.gouldi.port);
+var port = process.env.got  | mathoidcfg.gouldi.port;
+app.listen( port, function () {
+    console.log('Started GoUldI on ' + port);
 });
