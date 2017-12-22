@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>q</mi>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>π</mi>
+         <mi>n</mi>
+      </msub>
+   </mfenced>
+   <mo>≡</mo>
+   <msub>
+      <mo>∑</mo>
+      <mrow>
+         <mi>α</mi>
+         <mo>≠</mo>
+         <mi>β</mi>
+      </mrow>
+   </msub>
+   <mi>l</mi>
+   <mi>t</mi>
+   <mo>;</mo>
+   <mover accent="true">
+      <mi>P</mi>
+      <mo>̂</mo>
+   </mover>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>e</mi>
+         <mi>α</mi>
+      </msub>
+   </mfenced>
+   <mover accent="true">
+      <mi>P</mi>
+      <mo>̂</mo>
+   </mover>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>π</mi>
+         <mi>n</mi>
+      </msub>
+   </mfenced>
+</math>

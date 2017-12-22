@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">Y</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="latex-command">\beta</term>
+    <term prime-tag="letter" secondary-tags="Latin">T</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">8</term>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">I</term>
+    <term prime-tag="letter" secondary-tags="Latin">X</term>
+  </expression>
+</math>

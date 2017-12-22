@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mspace width="0.278em"/>
+   <mfrac>
+      <mrow>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>-</mo>
+               <mn>1</mn>
+            </mrow>
+         </mfenced>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>-</mo>
+               <mn>2</mn>
+            </mrow>
+         </mfenced>
+         <mi>⋯</mi>
+         <mi>n</mi>
+      </mrow>
+      <mrow>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>δ</mi>
+               <mo>-</mo>
+               <mn>1</mn>
+            </mrow>
+         </mfenced>
+         <mo>!</mo>
+      </mrow>
+   </mfrac>
+   <mspace width="0.278em"/>
+</math>

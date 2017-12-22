@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mover accent="true">
+      <msup>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>Δ</mi>
+               <mi>H</mi>
+            </mrow>
+         </mfenced>
+         <mn>2</mn>
+      </msup>
+      <mo>¯</mo>
+   </mover>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <mi>N</mi>
+   </mfrac>
+   <msubsup>
+      <mo>∑</mo>
+      <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+      </mrow>
+      <mi>N</mi>
+   </msubsup>
+   <mrow>
+      <mo>[</mo>
+      <mrow>
+         <mo>⟨</mo>
+         <msub>
+            <mi>ψ</mi>
+            <mi>i</mi>
+         </msub>
+         <mo>|</mo>
+         <msubsup>
+            <mi>H</mi>
+            <mi>i</mi>
+            <mn>2</mn>
+         </msubsup>
+         <mo>|</mo>
+      </mrow>
+   </mrow>
+</math>

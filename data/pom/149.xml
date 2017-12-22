@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <term prime-tag="letter" secondary-tags="Latin">C</term>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <term prime-tag="letter" secondary-tags="Latin">z</term>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="operation">\pm</term>
+    <term prime-tag="alphanumeric">iS</term>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <term prime-tag="letter" secondary-tags="Latin">z</term>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+    <term prime-tag="operation">\pm</term>
+    <term prime-tag="letter" secondary-tags="Latin">i</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="latex-command">\operatorname</term>
+    <term prime-tag="function">erf</term>
+    <term prime-tag="latex-command">\zeta</term>
+    <term prime-tag="point">.</term>
+    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
+  </expression>
+</math>

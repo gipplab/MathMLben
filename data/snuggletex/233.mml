@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>α</mi>
+      <mn>1</mn>
+   </msub>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mi>X</mi>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>τ</mi>
+               <mn>1</mn>
+            </msub>
+         </mfenced>
+         <mi>y</mi>
+      </mrow>
+      <mrow>
+         <mo>∥</mo>
+         <mi>X</mi>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>τ</mi>
+               <mn>1</mn>
+            </msub>
+         </mfenced>
+         <mo>∥</mo>
+      </mrow>
+   </mfrac>
+   <mo>,</mo>
+   <mo>,</mo>
+   <msub>
+      <mi>α</mi>
+      <mi>j</mi>
+   </msub>
+</math>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">R</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">s</term>
+        <term prime-tag="controlled space">\ </term>
+        <term prime-tag="alphanumeric">normal</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="square root">
+      <expression prime-tag="fraction" secondary-tags="radicand">
+        <expression prime-tag="sequence" secondary-tags="numerator">
+          <term prime-tag="latex-command">\omega</term>
+          <term prime-tag="latex-command">\mu</term>
+          <expression prime-tag="underscore" secondary-tags="subscript_operation">
+            <term prime-tag="digit" secondary-tags="numeric">0</term>
+          </expression>
+        </expression>
+        <expression prime-tag="sequence" secondary-tags="denominator">
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+          <term prime-tag="latex-command">\sigma</term>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

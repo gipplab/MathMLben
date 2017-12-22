@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>A</mi>
+      <mi>N</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>α</mi>
+      <mi>β</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <mi>N</mi>
+   </mfrac>
+   <mi mathvariant="double-struck">E</mi>
+   <mi>ln</mi>
+   <msub>
+      <mo>∑</mo>
+      <mi>σ</mi>
+   </msub>
+   <mi>exp</mi>
+   <mrow>
+      <mo>(</mo>
+      <mo>-</mo>
+      <mi>β</mi>
+      <msub>
+         <mi>H</mi>
+         <mi>N</mi>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+      </mrow>
+   </mrow>
+</math>

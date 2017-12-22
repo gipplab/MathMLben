@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="latex-command">\phi</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="numeric">30</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="operation">\circ</term>
+    </expression>
+    <term prime-tag="ellipsis">...</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="numeric">30</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="operation">\circ</term>
+    </expression>
+  </expression>
+</math>

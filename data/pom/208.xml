@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="latex-command">\xi</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="latex-command">\mu</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="operation">\pm</term>
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+  </expression>
+</math>

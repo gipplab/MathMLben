@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>P</mi>
+      <mi>i</mi>
+   </msub>
+   <mo>=</mo>
+   <mrow>
+      <mtext>head</mtext>
+   </mrow>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msub>
+            <mi>E</mi>
+            <mi>K</mi>
+         </msub>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>S</mi>
+               <mrow>
+                  <mi>i</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msub>
+         </mfenced>
+      </mrow>
+      <mi>x</mi>
+   </mfenced>
+   <mo>⊕</mo>
+   <msub>
+      <mi>C</mi>
+      <mi>i</mi>
+   </msub>
+</math>

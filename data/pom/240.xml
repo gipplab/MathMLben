@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="alphanumeric">tree</term>
+    <term prime-tag="colon" secondary-tags="punctuation">:</term>
+    <term prime-tag="operation">\star</term>
+  </expression>
+</math>

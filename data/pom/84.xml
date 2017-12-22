@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">F</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="left-brace" secondary-tags="opening delimiter">\{</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="colon" secondary-tags="punctuation">:</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="relation">\in</term>
+    <term prime-tag="letter" secondary-tags="Latin">R</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">b</term>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="controlled space">\,</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="relation">\in</term>
+    <term prime-tag="letter" secondary-tags="Latin">R</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="controlled space">\;</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="right-brace" secondary-tags="closing delimiter">\}</term>
+    <term prime-tag="point">.</term>
+  </expression>
+</math>

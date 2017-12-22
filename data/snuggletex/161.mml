@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mi>F</mi>
+      <mfenced close=")" open="(">
+         <mn>1</mn>
+         <mrow>
+            <mi>a</mi>
+            <mo>;</mo>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+            <mo>;</mo>
+            <mo>-</mo>
+            <mn>1</mn>
+         </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>a</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mi>ψ</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mrow>
+                     <mn>1</mn>
+                  </mrow>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+                  <mi>a</mi>
+                  <mo>+</mo>
+                  <mrow>
+                     <mn>1</mn>
+                  </mrow>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </mrow>
+            </mfenced>
+            <mo>-</mo>
+            <mi>ψ</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mrow>
+                     <mn>1</mn>
+                  </mrow>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+                  <mi>a</mi>
+               </mrow>
+            </mfenced>
+         </mrow>
+      </mfenced>
+      <mi>.</mi>
+   </mrow>
+</math>

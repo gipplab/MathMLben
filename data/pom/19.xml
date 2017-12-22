@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">Z</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">j</term>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">g</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">j</term>
+    </expression>
+    <term prime-tag="operation">\cdot</term>
+    <term prime-tag="letter" secondary-tags="Latin">e</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="minus">-</term>
+        <term prime-tag="latex-command">\beta</term>
+        <term prime-tag="letter" secondary-tags="Latin">E</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">j</term>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

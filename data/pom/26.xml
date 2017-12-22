@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">L</term>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <term prime-tag="letter" secondary-tags="Latin">C</term>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="relation">\leq</term>
+    <term prime-tag="letter" secondary-tags="Latin">L</term>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <term prime-tag="letter" secondary-tags="Latin">T</term>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+  </expression>
+</math>

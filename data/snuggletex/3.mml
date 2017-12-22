@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>p</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+   </mfenced>
+   <msup>
+      <mo>!</mo>
+      <mi>n</mi>
+   </msup>
+</math>

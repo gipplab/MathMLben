@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">t</term>
+    <term prime-tag="relation">\in</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="latex-command">\bf</term>
+      <term prime-tag="letter" secondary-tags="Latin">R</term>
+    </expression>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="plus">+</term>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+  </expression>
+</math>

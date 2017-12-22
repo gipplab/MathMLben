@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mi>f</mi>
+      <mfenced close=")" open="(">
+         <mi>x</mi>
+      </mfenced>
+      <mo>=</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+         </mrow>
+         <mi>∞</mi>
+      </msubsup>
+      <msub>
+         <mi>a</mi>
+         <mi>k</mi>
+      </msub>
+      <msup>
+         <mi>x</mi>
+         <mi>k</mi>
+      </msup>
+      <mo>,</mo>
+   </mrow>
+</math>

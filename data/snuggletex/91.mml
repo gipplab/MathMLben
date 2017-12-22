@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mfenced close="}" open="{">
+         <mi>x</mi>
+         <msub>
+            <mi>p</mi>
+            <mi>x</mi>
+         </msub>
+      </mfenced>
+      <mrow>
+         <mi>D</mi>
+         <mi>B</mi>
+      </mrow>
+   </msub>
+   <mo>=</mo>
+   <msub>
+      <mfenced close="}" open="{">
+         <mi>y</mi>
+         <msub>
+            <mi>p</mi>
+            <mi>y</mi>
+         </msub>
+      </mfenced>
+      <mrow>
+         <mi>D</mi>
+         <mi>B</mi>
+      </mrow>
+   </msub>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+   </mfrac>
+</math>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="relation">\in</term>
+        <term prime-tag="letter" secondary-tags="Latin">Z</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">d</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="latex-command">\psi</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">t</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">n</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="fence">|</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="letter" secondary-tags="Latin">n</term>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="relation">\leq</term>
+    <term prime-tag="letter" secondary-tags="Latin">C</term>
+  </expression>
+</math>

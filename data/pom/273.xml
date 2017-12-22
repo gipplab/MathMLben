@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">f</term>
+    <term prime-tag="colon" secondary-tags="punctuation">:</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="letter" secondary-tags="Latin">N</term>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+    <term prime-tag="relation">\to</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="letter" secondary-tags="Latin">N</term>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+  </expression>
+</math>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>d</mi>
+   <mi>c</mi>
+   <mi>l</mi>
+   <mfenced close=")" open="(">
+      <mi>A</mi>
+   </mfenced>
+</math>

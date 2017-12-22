@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="opening delimiter">\lfloor</term>
+    <term prime-tag="ellipsis" secondary-tags="lower_horizontal_ellipsis">\ldots</term>
+    <term prime-tag="closing delimiter">\rfloor</term>
+  </expression>
+</math>

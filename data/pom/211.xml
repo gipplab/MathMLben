@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="alphanumeric">app</term>
+    <term prime-tag="colon" secondary-tags="punctuation">:</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="controlled space">\!</term>
+    <term prime-tag="colon" secondary-tags="punctuation">:</term>
+    <term prime-tag="controlled space">\!</term>
+    <term prime-tag="operation">\star</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="alphanumeric">list</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="relation">\rightarrow</term>
+    <term prime-tag="alphanumeric">list</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="relation">\rightarrow</term>
+    <term prime-tag="alphanumeric">list</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+  </expression>
+</math>

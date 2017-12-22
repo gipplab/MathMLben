@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mfrac>
+         <mrow>
+            <msup>
+               <mstyle mathvariant="normal">
+                  <mi>d</mi>
+               </mstyle>
+               <mn>2</mn>
+            </msup>
+            <mi>θ</mi>
+            <mfenced close=")" open="(">
+               <mi>t</mi>
+            </mfenced>
+         </mrow>
+         <msup>
+            <mrow>
+               <mstyle mathvariant="normal">
+                  <mi>d</mi>
+               </mstyle>
+               <mstyle mathvariant="normal">
+                  <mi>t</mi>
+               </mstyle>
+            </mrow>
+            <mn>2</mn>
+         </msup>
+      </mfrac>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>sin</mi>
+      <mi>θ</mi>
+      <mfenced close=")" open="(">
+         <mi>t</mi>
+      </mfenced>
+      <mo>,</mo>
+   </mrow>
+</math>

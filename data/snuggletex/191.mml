@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>W</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>ζ</mi>
+         <mo>;</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>0</mn>
+         </msub>
+      </mrow>
+      <msub>
+         <mi>β</mi>
+         <mn>0</mn>
+      </msub>
+      <msub>
+         <mi>γ</mi>
+         <mn>0</mn>
+      </msub>
+      <msub>
+         <mi>δ</mi>
+         <mn>0</mn>
+      </msub>
+   </mfenced>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mi>v</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mi>v</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+      </mrow>
+   </mfrac>
+   <mo>,</mo>
+</math>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mi>F</mi>
+      <mfenced close=")" open="(">
+         <mi>x</mi>
+         <mi>s</mi>
+      </mfenced>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mi>Γ</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mi>s</mi>
+               </mrow>
+            </mfenced>
+         </mrow>
+         <msup>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>2</mn>
+                  <mi>π</mi>
+               </mrow>
+            </mfenced>
+            <mrow>
+               <mn>1</mn>
+               <mo>-</mo>
+               <mi>s</mi>
+            </mrow>
+         </msup>
+      </mfrac>
+      <mfenced close=")" open="(">
+         <mrow>
+            <msup>
+               <mi>e</mi>
+               <mrow>
+                  <mi>π</mi>
+                  <mi>i</mi>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mi>s</mi>
+                     </mrow>
+                  </mfenced>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+            <mi>ζ</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mi>s</mi>
+               </mrow>
+               <mi>x</mi>
+            </mfenced>
+            <mo>+</mo>
+            <msup>
+               <mi>e</mi>
+               <mrow>
+                  <mi>π</mi>
+                  <mi>i</mi>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mi>s</mi>
+                        <mo>-</mo>
+                        <mn>1</mn>
+                     </mrow>
+                  </mfenced>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+            <mi>ζ</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mi>s</mi>
+               </mrow>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mi>x</mi>
+               </mrow>
+            </mfenced>
+         </mrow>
+      </mfenced>
+      <mo>,</mo>
+   </mrow>
+</math>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">n</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="operator">\prod</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <expression prime-tag="sequence" secondary-tags="subscript">
+          <term prime-tag="letter" secondary-tags="Latin">i</term>
+          <term prime-tag="equals">=</term>
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+        </expression>
+      </expression>
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">r</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <expression prime-tag="sequence" secondary-tags="superscript">
+          <term prime-tag="letter" secondary-tags="Latin">a</term>
+          <expression prime-tag="underscore" secondary-tags="subscript_operation">
+            <term prime-tag="letter" secondary-tags="Latin">i</term>
+          </expression>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

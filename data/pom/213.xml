@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">Q</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">N</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">M</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="alphanumeric">aj</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="alphanumeric">bj</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">q</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">Q</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">M</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">N</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="alphanumeric">bj</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="alphanumeric">aj</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">q</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+  </expression>
+</math>

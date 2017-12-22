@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <msub>
+         <mi>θ</mi>
+         <mn>1</mn>
+      </msub>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>2</mn>
+            <mi>z</mi>
+         </mrow>
+         <mi>q</mi>
+      </mfenced>
+      <mo>=</mo>
+      <mn>2</mn>
+      <mfrac>
+         <mrow>
+            <msub>
+               <mi>θ</mi>
+               <mn>1</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mi>z</mi>
+               <mi>q</mi>
+            </mfenced>
+            <msub>
+               <mi>θ</mi>
+               <mn>2</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mi>z</mi>
+               <mi>q</mi>
+            </mfenced>
+            <msub>
+               <mi>θ</mi>
+               <mn>3</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mi>z</mi>
+               <mi>q</mi>
+            </mfenced>
+            <msub>
+               <mi>θ</mi>
+               <mn>4</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mi>z</mi>
+               <mi>q</mi>
+            </mfenced>
+         </mrow>
+         <mrow>
+            <msub>
+               <mi>θ</mi>
+               <mn>2</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mn>0</mn>
+               <mi>q</mi>
+            </mfenced>
+            <msub>
+               <mi>θ</mi>
+               <mn>3</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mn>0</mn>
+               <mi>q</mi>
+            </mfenced>
+            <msub>
+               <mi>θ</mi>
+               <mn>4</mn>
+            </msub>
+            <mfenced close=")" open="(">
+               <mn>0</mn>
+               <mi>q</mi>
+            </mfenced>
+         </mrow>
+      </mfrac>
+      <mi>.</mi>
+   </mrow>
+</math>

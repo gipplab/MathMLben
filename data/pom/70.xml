@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="alphanumeric">df</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">f</term>
+      <term prime-tag="latex-command">\over</term>
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">x</term>
+    </expression>
+    <term prime-tag="alphanumeric">dx</term>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">f</term>
+      <term prime-tag="latex-command">\over</term>
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">y</term>
+    </expression>
+    <term prime-tag="alphanumeric">dy</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="alphanumeric">pdx</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="alphanumeric">vdy</term>
+  </expression>
+</math>

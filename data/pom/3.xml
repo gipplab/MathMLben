@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="exclamation point" secondary-tags="punctuation">!</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+    </expression>
+  </expression>
+</math>

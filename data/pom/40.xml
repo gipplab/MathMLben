@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="controlled space">\ </term>
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">t</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="alphanumeric">kt</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">0</term>
+    </expression>
+  </expression>
+</math>

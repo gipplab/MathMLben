@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>η</mi>
+         <mrow>
+            <mi>μ</mi>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+   </mfenced>
+   <mo>=</mo>
+   <mfenced close=")" open="(">
+      <mn>-1</mn>
+      <mn>1</mn>
+      <mn>1</mn>
+      <mn>1</mn>
+   </mfenced>
+</math>

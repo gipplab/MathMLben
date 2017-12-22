@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>L</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>x</mi>
+      </mrow>
+      <mrow>
+         <mi>y</mi>
+      </mrow>
+      <mrow>
+         <mi>p</mi>
+      </mrow>
+   </mfenced>
+   <mo>=</mo>
+   <msub>
+      <mo>∑</mo>
+      <mrow>
+         <mi>i</mi>
+         <mo>∈</mo>
+         <mi mathvariant="script">N</mi>
+      </mrow>
+   </msub>
+   <msub>
+      <mo>∑</mo>
+      <mrow>
+         <mi>v</mi>
+         <mi>l</mi>
+         <mi>t</mi>
+         <mo>;</mo>
+      </mrow>
+   </msub>
+</math>

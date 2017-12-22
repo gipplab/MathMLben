@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="latex-command">\eta</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="alphanumeric">work</term>
+        <term prime-tag="controlled space">\ </term>
+        <term prime-tag="alphanumeric">done</term>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="alphanumeric">heat</term>
+        <term prime-tag="controlled space">\ </term>
+        <term prime-tag="alphanumeric">absorbed</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="alphanumeric">Q1</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="alphanumeric">Q2</term>
+      </expression>
+      <term prime-tag="alphanumeric">Q1</term>
+    </expression>
+  </expression>
+</math>

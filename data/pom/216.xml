@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">F</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="equals">=</term>
+        <term prime-tag="letter" secondary-tags="Latin">k</term>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="letter" secondary-tags="Latin">m</term>
+      </expression>
+    </expression>
+    <expression prime-tag="binomial coefficient">
+      <term prime-tag="letter" secondary-tags="Latin">k</term>
+      <term prime-tag="letter" secondary-tags="Latin">m</term>
+    </expression>
+  </expression>
+</math>

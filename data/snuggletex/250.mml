@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>θ</mi>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <mi>σ</mi>
+   </mfrac>
+</math>

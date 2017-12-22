@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="logic and proof">\forall</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="controlled space">\,</term>
+    <term prime-tag="logic and proof">\forall</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="controlled space">\,</term>
+    <term prime-tag="letter" secondary-tags="Latin">P</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="relation">\Leftrightarrow</term>
+    <term prime-tag="logic and proof">\forall</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="controlled space">\,</term>
+    <term prime-tag="logic and proof">\forall</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="controlled space">\,</term>
+    <term prime-tag="letter" secondary-tags="Latin">P</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+  </expression>
+</math>

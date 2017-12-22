@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">S</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="letter" secondary-tags="Latin">T</term>
+    <term prime-tag="operator">\int</term>
+    <term prime-tag="letter" secondary-tags="Latin">d</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+    <term prime-tag="latex-command">\sigma</term>
+    <term prime-tag="controlled space">\,</term>
+    <expression prime-tag="square root">
+      <expression prime-tag="sequence" secondary-tags="radicand">
+        <term prime-tag="minus">-</term>
+        <term prime-tag="latex-command">\zeta</term>
+      </expression>
+    </expression>
+    <term prime-tag="latex-command">\Bigl</term>
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <term prime-tag="letter" secondary-tags="Latin">e</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="minus">-</term>
+        <term prime-tag="latex-command">\beta</term>
+        <term prime-tag="letter" secondary-tags="Latin">U</term>
+      </expression>
+    </expression>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="latex-command">\zeta</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="alphanumeric">ab</term>
+    </expression>
+  </expression>
+</math>

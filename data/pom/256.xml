@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="abbreviation">ZFC</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="alphanumeric">GCH</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+  </expression>
+</math>

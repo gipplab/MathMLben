@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>S</mi>
+      <mstyle mathvariant="normal">
+         <mi>p</mi>
+         <mi>r</mi>
+         <mi>o</mi>
+         <mi>b</mi>
+         <mi>e</mi>
+      </mstyle>
+   </msub>
+   <mo>=</mo>
+   <mo>-</mo>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msub>
+            <mi>T</mi>
+            <mn>4</mn>
+         </msub>
+         <mi>L</mi>
+      </mrow>
+   </mfenced>
+   <mo>∫</mo>
+   <msup>
+      <mi>d</mi>
+      <mn>4</mn>
+   </msup>
+   <mi>x</mi>
+   <mspace width="0.167em"/>
+   <msqrt>
+      <mrow>
+         <mo>-</mo>
+         <mi>g</mi>
+      </mrow>
+   </msqrt>
+</math>

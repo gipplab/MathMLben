@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>F</mi>
+   <mo>=</mo>
+   <mfenced close="}" open="{">
+      <mrow>
+         <mfenced close=")" open="(">
+            <mi>x</mi>
+            <mi>y</mi>
+         </mfenced>
+         <mo>:</mo>
+         <mi>x</mi>
+         <mo>∈</mo>
+         <msup>
+            <mi mathvariant="script">R</mi>
+            <mi>b</mi>
+         </msup>
+      </mrow>
+      <mrow>
+         <mspace width="0.167em"/>
+         <mi>y</mi>
+         <mo>∈</mo>
+         <msup>
+            <mi mathvariant="script">R</mi>
+            <mi>n</mi>
+         </msup>
+      </mrow>
+      <mrow>
+         <mspace width="0.278em"/>
+         <mi>x</mi>
+         <mo>=</mo>
+         <mi>y</mi>
+      </mrow>
+   </mfenced>
+   <mi>.</mi>
+</math>

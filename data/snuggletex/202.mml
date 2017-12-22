@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mo>|</mo>
+   <msup>
+      <mfenced close="]" open="[">
+         <mi>k</mi>
+      </mfenced>
+      <mi>n</mi>
+   </msup>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mn>1</mn>
+         <mrow>
+            <mo>-</mo>
+         </mrow>
+         <mn>1</mn>
+      </mrow>
+   </mfenced>
+   <mo>|</mo>
+   <mo>=</mo>
+   <mrow>
+      <mi>k</mi>
+   </mrow>
+   <mrow>
+      <mi>n</mi>
+   </mrow>
+   <mi>n</mi>
+   <mo>!</mo>
+   <mo>=</mo>
+   <msub>
+      <mfenced close=")" open="(">
+         <mi>k</mi>
+      </mfenced>
+      <mi>n</mi>
+   </msub>
+   <mo>,</mo>
+</math>

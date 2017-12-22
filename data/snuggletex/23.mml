@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>D</mi>
+   <mfenced close=")" open="(">
+      <mi>G</mi>
+      <mi>H</mi>
+   </mfenced>
+   <mo>=</mo>
+   <msubsup>
+      <mo>∑</mo>
+      <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+      </mrow>
+      <mn>29</mn>
+   </msubsup>
+   <mo>|</mo>
+   <msub>
+      <mi>F</mi>
+      <mi>i</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>G</mi>
+   </mfenced>
+   <mo>-</mo>
+   <msub>
+      <mi>F</mi>
+      <mi>i</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>H</mi>
+   </mfenced>
+   <mo>|</mo>
+</math>

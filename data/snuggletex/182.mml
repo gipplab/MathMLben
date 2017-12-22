@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mrow>
+         <msup>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mi>λ</mi>
+               </mrow>
+            </mfenced>
+            <mrow>
+               <mn>1</mn>
+               <mo>-</mo>
+               <mi>λ</mi>
+            </mrow>
+         </msup>
+         <msup>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <msup>
+                     <mi>x</mi>
+                     <mn>2</mn>
+                  </msup>
+               </mrow>
+            </mfenced>
+            <mrow>
+               <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+               <mi>λ</mi>
+            </mrow>
+         </msup>
+         <mo>|</mo>
+         <msubsup>
+            <mi>C</mi>
+            <mi>n</mi>
+            <mfenced close=")" open="(">
+               <mi>λ</mi>
+            </mfenced>
+         </msubsup>
+         <mfenced close=")" open="(">
+            <mi>x</mi>
+         </mfenced>
+         <mo>|</mo>
+         <mo>&lt;</mo>
+         <mfrac>
+            <msup>
+               <mn>2</mn>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mi>λ</mi>
+               </mrow>
+            </msup>
+            <mrow>
+               <mi>Γ</mi>
+               <mfenced close=")" open="(">
+                  <mi>λ</mi>
+               </mfenced>
+            </mrow>
+         </mfrac>
+      </mrow>
+      <mo>,</mo>
+   </mrow>
+</math>

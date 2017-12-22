@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">q</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="numeric">42</term>
+    </expression>
+  </expression>
+</math>

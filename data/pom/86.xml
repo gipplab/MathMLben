@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="sequence">
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">L</term>
+      <term prime-tag="latex-command">\over</term>
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">q</term>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="letter" secondary-tags="Latin">d</term>
+      <term prime-tag="latex-command">\over</term>
+      <term prime-tag="letter" secondary-tags="Latin">d</term>
+      <term prime-tag="letter" secondary-tags="Latin">t</term>
+    </expression>
+    <expression prime-tag="sequence">
+      <term prime-tag="operator">\partial</term>
+      <term prime-tag="letter" secondary-tags="Latin">L</term>
+      <term prime-tag="latex-command">\over</term>
+      <term prime-tag="operator">\partial</term>
+      <expression prime-tag="sequence" secondary-tags="accented">
+        <term prime-tag="letter" secondary-tags="Latin">q</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">i</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="point">.</term>
+  </expression>
+</math>

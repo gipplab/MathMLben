@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>Δ</mi>
+   <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+   </msub>
+   <mi>Δ</mi>
+   <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+   </msub>
+   <mo>≥</mo>
+   <msup>
+      <mrow>
+         <mn>22</mn>
+         <mo>-</mo>
+         <mn>9.0</mn>
+         <mi>m</mi>
+         <mi>u</mi>
+         <mi>λ</mi>
+      </mrow>
+      <mn>2</mn>
+   </msup>
+   <mo>/</mo>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mn>2</mn>
+         <mi>π</mi>
+      </mrow>
+   </mfenced>
+</math>

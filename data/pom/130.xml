@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <expression prime-tag="sequence">
+        <term prime-tag="letter" secondary-tags="Latin">z</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="letter" secondary-tags="Latin">d</term>
+          <expression prime-tag="sequence" secondary-tags="denominator">
+            <term prime-tag="letter" secondary-tags="Latin">d</term>
+            <term prime-tag="letter" secondary-tags="Latin">z</term>
+          </expression>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">z</term>
+      </expression>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+    </expression>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <expression prime-tag="sequence">
+        <term prime-tag="letter" secondary-tags="Latin">e</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <expression prime-tag="sequence" secondary-tags="superscript">
+            <term prime-tag="minus">-</term>
+            <expression prime-tag="fraction">
+              <term prime-tag="digit" secondary-tags="numeric">1</term>
+              <term prime-tag="digit" secondary-tags="numeric">2</term>
+            </expression>
+            <term prime-tag="letter" secondary-tags="Latin">z</term>
+          </expression>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">z</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <expression prime-tag="sequence" secondary-tags="superscript">
+            <term prime-tag="latex-command">\kappa</term>
+            <term prime-tag="minus">-</term>
+            <term prime-tag="digit" secondary-tags="numeric">1</term>
+          </expression>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">M</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <expression prime-tag="sequence" secondary-tags="subscript">
+            <term prime-tag="latex-command">\kappa</term>
+            <term prime-tag="comma" secondary-tags="punctuation">,</term>
+            <term prime-tag="latex-command">\mu</term>
+          </expression>
+        </expression>
+        <expression prime-tag="balanced-expression">
+          <term prime-tag="left-delimiter">\left(</term>
+          <term prime-tag="letter" secondary-tags="Latin">z</term>
+          <term prime-tag="right-delimiter">\right)</term>
+        </expression>
+      </expression>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="sequence">
+      <expression prime-tag="balanced-expression">
+        <term prime-tag="left-delimiter">\left(</term>
+        <expression prime-tag="sequence">
+          <expression prime-tag="fraction">
+            <term prime-tag="digit" secondary-tags="numeric">1</term>
+            <term prime-tag="digit" secondary-tags="numeric">2</term>
+          </expression>
+          <term prime-tag="plus">+</term>
+          <term prime-tag="latex-command">\mu</term>
+          <term prime-tag="plus">+</term>
+          <term prime-tag="latex-command">\kappa</term>
+        </expression>
+        <term prime-tag="right-delimiter">\right)</term>
+      </expression>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">e</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="minus">-</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">z</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">z</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="latex-command">\kappa</term>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+    <term prime-tag="escaped symbol" secondary-tags="ignored">\*</term>
+    <term prime-tag="letter" secondary-tags="Latin">M</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="latex-command">\kappa</term>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="comma" secondary-tags="punctuation">,</term>
+        <term prime-tag="latex-command">\mu</term>
+      </expression>
+    </expression>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <term prime-tag="letter" secondary-tags="Latin">z</term>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="point">.</term>
+    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
+  </expression>
+</math>

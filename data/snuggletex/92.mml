@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>G</mi>
+      <mrow>
+         <mi>k</mi>
+         <mo>,</mo>
+         <mi>σ</mi>
+      </mrow>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>y</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mn>1</mn>
+   <mo>-</mo>
+   <msup>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>k</mi>
+            <mi>y</mi>
+            <mo>/</mo>
+            <mi>σ</mi>
+         </mrow>
+      </mfenced>
+      <mrow>
+         <mn>-1</mn>
+         <mo>/</mo>
+         <mi>k</mi>
+      </mrow>
+   </msup>
+</math>

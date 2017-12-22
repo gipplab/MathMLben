@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">F</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="latex-command">\alpha</term>
+        <term prime-tag="latex-command">\beta</term>
+      </expression>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin, accented">F</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="latex-command" secondary-tags="accented">\alpha</term>
+        <term prime-tag="latex-command" secondary-tags="accented">\beta</term>
+      </expression>
+    </expression>
+  </expression>
+</math>

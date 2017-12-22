@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mover accent="true">
+         <mi>g</mi>
+         <mo>~</mo>
+      </mover>
+      <mrow>
+         <mi>μ</mi>
+         <mi>ν</mi>
+      </mrow>
+   </msub>
+   <mo>=</mo>
+   <msub>
+      <mi>G</mi>
+      <mrow>
+         <mi>A</mi>
+         <mi>B</mi>
+      </mrow>
+   </msub>
+   <mfrac>
+      <mrow>
+         <mi>∂</mi>
+         <msup>
+            <mi>X</mi>
+            <mi>A</mi>
+         </msup>
+      </mrow>
+      <mrow>
+         <mi>∂</mi>
+         <msup>
+            <mi>x</mi>
+            <mi>μ</mi>
+         </msup>
+      </mrow>
+   </mfrac>
+</math>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>L</mi>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>H</mi>
+         <mi>B</mi>
+      </msub>
+   </mfenced>
+   <mo>⊗</mo>
+   <mi>C</mi>
+   <mfenced close=")" open="(">
+      <mi>X</mi>
+   </mfenced>
+</math>

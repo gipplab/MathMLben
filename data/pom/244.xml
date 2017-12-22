@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left\{</term>
+      <expression prime-tag="sequence">
+        <term prime-tag="digit" secondary-tags="numeric">3</term>
+        <term prime-tag="letter" secondary-tags="Latin">k</term>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="digit" secondary-tags="numeric">4</term>
+        <term prime-tag="controlled space">\ </term>
+      </expression>
+      <term prime-tag="right-delimiter">\right\}</term>
+    </expression>
+    <term prime-tag="relation">\subset</term>
+    <term prime-tag="letter" secondary-tags="Latin">C</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+  </expression>
+</math>

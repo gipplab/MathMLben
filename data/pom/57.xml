@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="digit" secondary-tags="numeric">0</term>
+    <term prime-tag="relation">\rightarrow</term>
+    <term prime-tag="letter" secondary-tags="Latin">B</term>
+    <term prime-tag="relation">\rightarrow</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="operation">\oplus</term>
+    <term prime-tag="letter" secondary-tags="Latin">B</term>
+    <term prime-tag="relation">\rightarrow</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="relation">\rightarrow</term>
+    <term prime-tag="digit" secondary-tags="numeric">0</term>
+    <term prime-tag="point">.</term>
+  </expression>
+</math>

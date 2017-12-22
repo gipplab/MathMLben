@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin, accented">V</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="star">*</term>
+    </expression>
+  </expression>
+</math>

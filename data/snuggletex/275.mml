@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>S</mi>
+   <mo>≤</mo>
+   <mfrac>
+      <mi>A</mi>
+      <mrow>
+         <mn>4</mn>
+         <mi>G</mi>
+      </mrow>
+   </mfrac>
+   <mo>,</mo>
+</math>

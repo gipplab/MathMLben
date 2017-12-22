@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="sequence" secondary-tags="accented">
+      <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+      <term prime-tag="latex-command">\Delta</term>
+      <term prime-tag="letter" secondary-tags="Latin">H</term>
+      <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="digit" secondary-tags="numeric">2</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="letter" secondary-tags="Latin">N</term>
+    </expression>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <expression prime-tag="sequence" secondary-tags="subscript">
+          <term prime-tag="letter" secondary-tags="Latin">i</term>
+          <term prime-tag="equals">=</term>
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+        </expression>
+      </expression>
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">N</term>
+      </expression>
+    </expression>
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <term prime-tag="opening delimiter">\langle</term>
+    <term prime-tag="latex-command">\psi</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">i</term>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="letter" secondary-tags="Latin">H</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="digit" secondary-tags="numeric">2</term>
+      </expression>
+    </expression>
+    <term prime-tag="fence">|</term>
+  </expression>
+</math>

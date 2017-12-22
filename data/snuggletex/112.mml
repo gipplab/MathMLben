@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mi>h</mi>
+      <mfenced close=")" open="(">
+         <mi>t</mi>
+      </mfenced>
+      <mo>∼</mo>
+      <mi>exp</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mi>i</mi>
+            <mi>κ</mi>
+            <msup>
+               <mi>t</mi>
+               <mi>p</mi>
+            </msup>
+         </mrow>
+      </mfenced>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>s</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+         </mrow>
+         <mi>∞</mi>
+      </msubsup>
+      <msub>
+         <mi>b</mi>
+         <mi>s</mi>
+      </msub>
+      <msup>
+         <mi>t</mi>
+         <mrow>
+            <mo>-</mo>
+            <msub>
+               <mi>β</mi>
+               <mi>s</mi>
+            </msub>
+         </mrow>
+      </msup>
+      <mo>,</mo>
+   </mrow>
+</math>

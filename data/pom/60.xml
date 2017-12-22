@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="minus">-</term>
+        <term prime-tag="letter" secondary-tags="Latin">x</term>
+        <term prime-tag="operation">\pm</term>
+        <expression prime-tag="square root">
+          <expression prime-tag="sequence" secondary-tags="radicand">
+            <term prime-tag="letter" secondary-tags="Latin">x</term>
+            <expression prime-tag="caret" secondary-tags="superscript_operation">
+              <term prime-tag="digit" secondary-tags="numeric">2</term>
+            </expression>
+            <term prime-tag="minus">-</term>
+            <term prime-tag="digit" secondary-tags="numeric">4</term>
+            <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+            <expression prime-tag="fraction">
+              <expression prime-tag="sequence" secondary-tags="numerator">
+                <term prime-tag="minus">-</term>
+                <term prime-tag="alphanumeric">gx</term>
+                <expression prime-tag="caret" secondary-tags="superscript_operation">
+                  <term prime-tag="digit" secondary-tags="numeric">2</term>
+                </expression>
+              </expression>
+              <expression prime-tag="sequence" secondary-tags="denominator">
+                <term prime-tag="digit" secondary-tags="numeric">2</term>
+                <term prime-tag="letter" secondary-tags="Latin">v</term>
+                <expression prime-tag="caret" secondary-tags="superscript_operation">
+                  <term prime-tag="digit" secondary-tags="numeric">2</term>
+                </expression>
+              </expression>
+            </expression>
+            <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+            <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+            <expression prime-tag="fraction">
+              <expression prime-tag="sequence" secondary-tags="numerator">
+                <term prime-tag="minus">-</term>
+                <term prime-tag="alphanumeric">gx</term>
+                <expression prime-tag="caret" secondary-tags="superscript_operation">
+                  <term prime-tag="digit" secondary-tags="numeric">2</term>
+                </expression>
+              </expression>
+              <expression prime-tag="sequence" secondary-tags="denominator">
+                <term prime-tag="digit" secondary-tags="numeric">2</term>
+                <term prime-tag="letter" secondary-tags="Latin">v</term>
+                <expression prime-tag="caret" secondary-tags="superscript_operation">
+                  <term prime-tag="digit" secondary-tags="numeric">2</term>
+                </expression>
+              </expression>
+            </expression>
+            <term prime-tag="minus">-</term>
+            <term prime-tag="letter" secondary-tags="Latin">y</term>
+            <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+          </expression>
+        </expression>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="digit" secondary-tags="numeric">2</term>
+        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+        <expression prime-tag="fraction">
+          <expression prime-tag="sequence" secondary-tags="numerator">
+            <term prime-tag="minus">-</term>
+            <term prime-tag="alphanumeric">gx</term>
+            <expression prime-tag="caret" secondary-tags="superscript_operation">
+              <term prime-tag="digit" secondary-tags="numeric">2</term>
+            </expression>
+          </expression>
+          <expression prime-tag="sequence" secondary-tags="denominator">
+            <term prime-tag="digit" secondary-tags="numeric">2</term>
+            <term prime-tag="letter" secondary-tags="Latin">v</term>
+            <expression prime-tag="caret" secondary-tags="superscript_operation">
+              <term prime-tag="digit" secondary-tags="numeric">2</term>
+            </expression>
+          </expression>
+        </expression>
+        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+      </expression>
+    </expression>
+  </expression>
+</math>

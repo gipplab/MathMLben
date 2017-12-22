@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>Δ</mi>
+   <mi>x</mi>
+   <mi>Δ</mi>
+   <mi>v</mi>
+   <mo>≥</mo>
+   <mfrac>
+      <mrow>
+         <mi>d</mi>
+         <msup>
+            <mi>m</mi>
+            <mn>2</mn>
+         </msup>
+      </mrow>
+      <mn>2</mn>
+   </mfrac>
+   <mfenced close="⟩" open="⟨">
+      <msup>
+         <mi>E</mi>
+         <mn>-3</mn>
+      </msup>
+   </mfenced>
+   <mi>.</mi>
+</math>

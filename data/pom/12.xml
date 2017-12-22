@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="latex-command">\theta</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">n</term>
+    <term prime-tag="operation">\times</term>
+    <term prime-tag="numeric">137.508</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="operation">\circ</term>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+  </expression>
+</math>

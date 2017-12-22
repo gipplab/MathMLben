@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="alphanumeric">Con</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="abbreviation">ZF</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="logic and proof">\neg</term>
+    <term prime-tag="abbreviation">AC</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+  </expression>
+</math>

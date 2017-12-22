@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mrow>
+         <msubsup>
+            <mi>N</mi>
+            <mi>ν</mi>
+            <mn>2</mn>
+         </msubsup>
+      </mrow>
+      <mfenced close=")" open="(">
+         <mi>x</mi>
+      </mfenced>
+      <mo>∼</mo>
+      <mfrac>
+         <mn>2</mn>
+         <mrow>
+            <mi>π</mi>
+            <mi>x</mi>
+         </mrow>
+      </mfrac>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mfrac>
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <mfrac>
+               <mrow>
+                  <mi>μ</mi>
+                  <mo>-</mo>
+                  <mn>3</mn>
+               </mrow>
+               <msup>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mn>2</mn>
+                        <mi>x</mi>
+                     </mrow>
+                  </mfenced>
+                  <mn>2</mn>
+               </msup>
+            </mfrac>
+            <mo>-</mo>
+            <mfrac>
+               <mn>1</mn>
+               <mrow>
+                  <mn>2</mn>
+                  <mo>⋅</mo>
+                  <mn>4</mn>
+               </mrow>
+            </mfrac>
+            <mfrac>
+               <mrow>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mi>μ</mi>
+                        <mo>-</mo>
+                        <mn>1</mn>
+                     </mrow>
+                  </mfenced>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mi>μ</mi>
+                        <mo>-</mo>
+                        <mn>45</mn>
+                     </mrow>
+                  </mfenced>
+               </mrow>
+               <msup>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mn>2</mn>
+                        <mi>x</mi>
+                     </mrow>
+                  </mfenced>
+                  <mn>4</mn>
+               </msup>
+            </mfrac>
+            <mo>-</mo>
+            <mi>⋯</mi>
+         </mrow>
+      </mfenced>
+      <mo>,</mo>
+   </mrow>
+</math>

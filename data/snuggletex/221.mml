@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>L</mi>
+   <mfenced close=")" open="(">
+      <msub>
+         <mover accent="true">
+            <mi>θ</mi>
+            <mo>̂</mo>
+         </mover>
+         <mi>ν</mi>
+      </msub>
+      <msub>
+         <mi>θ</mi>
+         <mi>ν</mi>
+      </msub>
+   </mfenced>
+   <mo>=</mo>
+   <mo>∥</mo>
+   <msub>
+      <mover accent="true">
+         <mi>θ</mi>
+         <mo>̂</mo>
+      </mover>
+      <mi>ν</mi>
+   </msub>
+   <mo>-</mo>
+   <mrow/>
+</math>

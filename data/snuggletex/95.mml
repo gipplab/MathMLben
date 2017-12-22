@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mfenced close=")" open="(">
+      <msqrt>
+         <msub>
+            <mi>p</mi>
+            <mn>1</mn>
+         </msub>
+      </msqrt>
+      <mi>⋯</mi>
+      <msqrt>
+         <msub>
+            <mi>p</mi>
+            <mi>n</mi>
+         </msub>
+      </msqrt>
+   </mfenced>
+</math>

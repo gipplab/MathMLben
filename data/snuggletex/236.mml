@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>t</mi>
+   <mo>∈</mo>
+   <msub>
+      <mstyle mathvariant="bold">
+         <mi>R</mi>
+      </mstyle>
+      <mo>+</mo>
+   </msub>
+   <mo>,</mo>
+</math>

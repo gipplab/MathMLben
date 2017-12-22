@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">f</term>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">x</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">f</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">x</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="operator">\partial</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">x</term>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">f</term>
+    <term prime-tag="point">.</term>
+  </expression>
+</math>

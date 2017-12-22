@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>S</mi>
+      <mrow>
+         <mi>E</mi>
+         <mi>H</mi>
+      </mrow>
+   </msub>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <msub>
+         <mi>G</mi>
+         <mn>3</mn>
+      </msub>
+   </mfrac>
+   <mo>∫</mo>
+   <msup>
+      <mi>d</mi>
+      <mn>3</mn>
+   </msup>
+   <mi>x</mi>
+   <mspace width="0.167em"/>
+   <msqrt>
+      <mrow>
+         <mo>-</mo>
+         <msup>
+            <mi>g</mi>
+            <mfenced close=")" open="(">
+               <mn>3</mn>
+            </mfenced>
+         </msup>
+      </mrow>
+   </msqrt>
+   <mspace width="0.167em"/>
+   <mrow>
+      <mo>(</mo>
+      <msup>
+         <mi>R</mi>
+         <mfenced close=")" open="(">
+            <mn>3</mn>
+         </mfenced>
+      </msup>
+      <mo>+</mo>
+      <msub>
+         <mi>L</mi>
+         <mstyle mathvariant="normal">
+            <mn>10</mn>
+            <mo>;</mo>
+            <mi>m</mi>
+            <mi>a</mi>
+            <mi>t</mi>
+            <mi>t</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+         </mstyle>
+      </msub>
+   </mrow>
+</math>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">H</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">j</term>
+    <term prime-tag="latex-command">\omega</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">F</term>
+    <term prime-tag="left-brace" secondary-tags="opening delimiter">\{</term>
+    <term prime-tag="letter" secondary-tags="Latin">h</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">t</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="right-brace" secondary-tags="closing delimiter">\}</term>
+  </expression>
+</math>

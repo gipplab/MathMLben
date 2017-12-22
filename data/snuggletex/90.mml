@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mo>∫</mo>
+      <msup>
+         <mi mathvariant="double-struck">R</mi>
+         <mi>n</mi>
+      </msup>
+   </msub>
+   <mi>f</mi>
+   <mspace width="0.167em"/>
+   <mi>d</mi>
+   <mi>x</mi>
+   <mo>=</mo>
+   <msubsup>
+      <mo>∫</mo>
+      <mn>0</mn>
+      <mi>∞</mi>
+   </msubsup>
+   <mfenced close="}" open="{">
+      <mrow>
+         <msub>
+            <mo>∫</mo>
+            <mrow>
+               <mi>∂</mi>
+               <mi>B</mi>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <msub>
+                        <mi>x</mi>
+                        <mn>0</mn>
+                     </msub>
+                     <mo>;</mo>
+                     <mi>r</mi>
+                  </mrow>
+               </mfenced>
+            </mrow>
+         </msub>
+         <mi>f</mi>
+         <mspace width="0.167em"/>
+         <mi>d</mi>
+         <mi>S</mi>
+      </mrow>
+   </mfenced>
+   <mspace width="0.167em"/>
+   <mi>d</mi>
+   <mi>r</mi>
+   <mi>.</mi>
+</math>

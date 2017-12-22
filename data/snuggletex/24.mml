@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>E</mi>
+      <mrow/>
+   </msub>
+   <mrow>
+      <mi>k</mi>
+   </mrow>
+   <mo>=</mo>
+   <msub>
+      <mi>E</mi>
+      <mi>t</mi>
+   </msub>
+   <mo>+</mo>
+   <msub>
+      <mi>E</mi>
+      <mrow/>
+   </msub>
+   <mrow>
+      <mi>r</mi>
+   </mrow>
+   <mspace width="0.167em"/>
+</math>

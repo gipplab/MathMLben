@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">T</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="latex-command">\lambda</term>
+    <term prime-tag="letter" secondary-tags="Latin">I</term>
+  </expression>
+</math>

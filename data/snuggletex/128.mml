@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <msub>
+         <mi>N</mi>
+         <mi>ν</mi>
+      </msub>
+      <mfenced close=")" open="(">
+         <mi>x</mi>
+      </mfenced>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>i</mi>
+            <mspace width="-0.167em"/>
+            <msub>
+               <mi>φ</mi>
+               <mi>ν</mi>
+            </msub>
+            <mfenced close=")" open="(">
+               <mi>x</mi>
+            </mfenced>
+         </mrow>
+      </msup>
+      <mo>=</mo>
+      <msub>
+         <mrow>
+            <mi>k</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+         </mrow>
+         <mi>ν</mi>
+      </msub>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+         <mrow>
+            <mi>k</mi>
+            <mi>e</mi>
+            <mi>i</mi>
+         </mrow>
+         <mi>ν</mi>
+      </msub>
+      <mi>x</mi>
+      <mo>,</mo>
+   </mrow>
+</math>

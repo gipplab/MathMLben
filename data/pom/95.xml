@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <expression prime-tag="square root">
+      <expression prime-tag="sequence" secondary-tags="radicand">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="ellipsis" secondary-tags="centered_horizontal_ellipsis">\cdots</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <expression prime-tag="square root">
+      <expression prime-tag="sequence" secondary-tags="radicand">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">n</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+  </expression>
+</math>

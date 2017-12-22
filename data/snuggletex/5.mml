@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>∀</mi>
+   <mi>x</mi>
+   <mspace width="0.167em"/>
+   <mi>∀</mi>
+   <mi>y</mi>
+   <mspace width="0.167em"/>
+   <mi>P</mi>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+      <mi>y</mi>
+   </mfenced>
+   <mo>⇔</mo>
+   <mi>∀</mi>
+   <mi>y</mi>
+   <mspace width="0.167em"/>
+   <mi>∀</mi>
+   <mi>x</mi>
+   <mspace width="0.167em"/>
+   <mi>P</mi>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+      <mi>y</mi>
+   </mfenced>
+</math>

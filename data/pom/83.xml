@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="digit" secondary-tags="numeric">2</term>
+    <term prime-tag="relation">\le</term>
+    <term prime-tag="alphanumeric">seqs</term>
+    <term prime-tag="relation">\le</term>
+    <term prime-tag="digit" secondary-tags="numeric">6</term>
+  </expression>
+</math>

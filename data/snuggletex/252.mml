@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msubsup>
+      <mi>H</mi>
+      <mstyle mathvariant="normal">
+         <mi>G</mi>
+      </mstyle>
+      <mstyle mathvariant="normal">
+         <mi>p</mi>
+         <mi>h</mi>
+         <mi>e</mi>
+         <mi>n</mi>
+      </mstyle>
+   </msubsup>
+   <mfenced close="]" open="[">
+      <mi>N</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <mrow>
+         <mn>16</mn>
+         <mi>π</mi>
+         <mi>G</mi>
+      </mrow>
+   </mfrac>
+   <msub>
+      <mo>∫</mo>
+      <mi>Σ</mi>
+   </msub>
+   <mstyle mathvariant="normal">
+      <msup>
+         <mi>d</mi>
+         <mn>3</mn>
+      </msup>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>x</mi>
+      <mover accent="true">
+         <mi>N</mi>
+         <mo>̄</mo>
+      </mover>
+   </mstyle>
+</math>

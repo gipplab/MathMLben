@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mi>ψ</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>z</mi>
+         </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>γ</mi>
+      <mo>+</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>=</mo>
+            <mn>2</mn>
+         </mrow>
+         <mi>∞</mi>
+      </msubsup>
+      <msup>
+         <mfenced close=")" open="(">
+            <mn>-1</mn>
+         </mfenced>
+         <mi>k</mi>
+      </msup>
+      <mi>ζ</mi>
+      <mfenced close=")" open="(">
+         <mi>k</mi>
+      </mfenced>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <mi>k</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <mo>,</mo>
+   </mrow>
+</math>

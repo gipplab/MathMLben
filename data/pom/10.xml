@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">z</term>
+    <term prime-tag="star">*</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="relation">\le</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+  </expression>
+</math>

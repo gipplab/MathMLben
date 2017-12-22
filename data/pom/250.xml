@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="latex-command">\theta</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="latex-command">\sigma</term>
+    </expression>
+  </expression>
+</math>

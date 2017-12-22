@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mfenced close="}" open="{">
+      <mrow>
+         <mn>3</mn>
+         <mi>k</mi>
+         <mo>+</mo>
+         <mn>4</mn>
+         <mi> </mi>
+      </mrow>
+   </mfenced>
+   <mo>⊂</mo>
+   <mi mathvariant="fraktur">C</mi>
+   <mo>,</mo>
+</math>

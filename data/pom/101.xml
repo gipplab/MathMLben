@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="fence">|</term>
+    <term prime-tag="letter" secondary-tags="Latin">f</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="latex-command">\alpha</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">b</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="latex-command">\beta</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="letter" secondary-tags="Latin">f</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">b</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="less-than">&lt;</term>
+    <term prime-tag="latex-command">\epsilon</term>
+  </expression>
+</math>

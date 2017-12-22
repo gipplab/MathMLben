@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>[</mo>
+      <mi>h</mi>
+      <mfenced close=")" open="(">
+         <mi>ϵ</mi>
+         <mrow>
+            <mi>ℓ</mi>
+            <mo>;</mo>
+            <mi>r</mi>
+         </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <msup>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mfrac>
+                  <mn>2</mn>
+                  <mrow>
+                     <mi>π</mi>
+                     <mi>τ</mi>
+                  </mrow>
+               </mfrac>
+               <mfrac>
+                  <mrow>
+                     <mi>A</mi>
+                     <mfenced close=")" open="(">
+                        <mi>ϵ</mi>
+                        <mi>ℓ</mi>
+                     </mfenced>
+                  </mrow>
+                  <mrow>
+                     <mn>1</mn>
+                     <mo>-</mo>
+                     <msup>
+                        <mi>e</mi>
+                        <mrow>
+                           <mn>-2</mn>
+                           <mi>π</mi>
+                           <mo>/</mo>
+                           <mi>τ</mi>
+                        </mrow>
+                     </msup>
+                  </mrow>
+               </mfrac>
+            </mrow>
+         </mfenced>
+         <mrow>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </mrow>
+      </msup>
+      <msub>
+         <mi>G</mi>
+         <mi>ℓ</mi>
+      </msub>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>-1</mn>
+            <mo>/</mo>
+            <mi>τ</mi>
+         </mrow>
+         <mrow>
+            <mi>τ</mi>
+            <mi>r</mi>
+         </mrow>
+      </mfenced>
+      <mi>.</mi>
+   </mrow>
+</math>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="latex-command">\Delta</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="latex-command">\Delta</term>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="relation">\geq</term>
+    <term prime-tag="fence">|</term>
+  </expression>
+</math>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">p</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="operator">\partial</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">r</term>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">R</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">r</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+        <term prime-tag="latex-command">\omega</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

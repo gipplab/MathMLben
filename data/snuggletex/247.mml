@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msup>
+      <mi>∂</mi>
+      <mrow>
+         <mi>γ</mi>
+         <mover accent="true">
+            <mi>γ</mi>
+            <mo>̇</mo>
+         </mover>
+      </mrow>
+   </msup>
+   <msub>
+      <mi>∂</mi>
+      <mrow>
+         <mi>γ</mi>
+         <mover accent="true">
+            <mi>γ</mi>
+            <mo>̇</mo>
+         </mover>
+      </mrow>
+   </msub>
+   <mspace width="0.167em"/>
+   <msubsup>
+      <mi>φ</mi>
+      <mrow/>
+      <mfenced close=")" open="(">
+         <mi>k</mi>
+         <mi>n</mi>
+      </mfenced>
+   </msubsup>
+</math>

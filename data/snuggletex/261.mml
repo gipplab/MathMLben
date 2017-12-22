@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msub>
+      <mi>μ</mi>
+      <mi>k</mi>
+   </msub>
+   <mo>=</mo>
+   <mi>E</mi>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>C</mi>
+         <mi>k</mi>
+      </msub>
+   </mfenced>
+   <mo>=</mo>
+   <msubsup>
+      <mfenced close=")" open="(">
+         <msub>
+            <mover accent="true">
+               <mi>s</mi>
+               <mo>̈</mo>
+            </mover>
+            <mi>a</mi>
+         </msub>
+      </mfenced>
+      <mrow>
+         <mover accent="true">
+            <mi>k</mi>
+            <mo>¯</mo>
+         </mover>
+         <mo>|</mo>
+         <mi>j</mi>
+      </mrow>
+      <mfenced close=")" open="(">
+         <mi>p</mi>
+         <mi>q</mi>
+      </mfenced>
+   </msubsup>
+   <mi>.</mi>
+</math>

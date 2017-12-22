@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">B</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="star">*</term>
+    </expression>
+    <expression prime-tag="sequence">
+      <term prime-tag="latex-command">\sigma</term>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="digit" secondary-tags="numeric">3</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">B</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="latex-command">\sigma</term>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="digit" secondary-tags="numeric">3</term>
+      </expression>
+    </expression>
+    <term prime-tag="point">.</term>
+  </expression>
+</math>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mstyle mathvariant="italic">
+         <mi>L</mi>
+      </mstyle>
+   </mrow>
+   <mo>=</mo>
+   <mi>i</mi>
+   <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>̄</mo>
+   </mover>
+   <msup>
+      <mi>γ</mi>
+      <mi>μ</mi>
+   </msup>
+   <msub>
+      <mi>∂</mi>
+      <mi>μ</mi>
+   </msub>
+   <mrow>
+      <mi>Ψ</mi>
+   </mrow>
+   <mo>-</mo>
+   <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>̄</mo>
+   </mover>
+   <mrow>
+      <mi>Ψ</mi>
+   </mrow>
+   <mo>-</mo>
+   <mi>q</mi>
+</math>

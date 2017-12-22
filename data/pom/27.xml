@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="letter" secondary-tags="Latin">c</term>
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+    </expression>
+  </expression>
+</math>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="balanced-expression">
+    <term prime-tag="left-delimiter">\left\{</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="letter" secondary-tags="Latin">z</term>
+      <term prime-tag="relation">\in</term>
+      <term prime-tag="letter" secondary-tags="Latin">H</term>
+      <term prime-tag="colon" secondary-tags="punctuation">:</term>
+      <expression prime-tag="balanced-expression">
+        <term prime-tag="left-delimiter">\left|</term>
+        <term prime-tag="letter" secondary-tags="Latin">z</term>
+        <term prime-tag="right-delimiter">\right|</term>
+      </expression>
+      <term prime-tag="greater-than">&gt;</term>
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="comma" secondary-tags="punctuation">,</term>
+      <term prime-tag="controlled space">\,</term>
+      <expression prime-tag="balanced-expression">
+        <term prime-tag="left-delimiter">\left|</term>
+        <expression prime-tag="sequence">
+          <term prime-tag="controlled space">\,</term>
+          <term prime-tag="text">Re</term>
+          <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+          <term prime-tag="letter" secondary-tags="Latin">z</term>
+          <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+          <term prime-tag="controlled space">\,</term>
+        </expression>
+        <term prime-tag="right-delimiter">\right|</term>
+      </expression>
+      <term prime-tag="less-than">&lt;</term>
+      <expression prime-tag="fraction">
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+        <term prime-tag="digit" secondary-tags="numeric">2</term>
+      </expression>
+    </expression>
+    <term prime-tag="right-delimiter">\right\}</term>
+  </expression>
+</math>

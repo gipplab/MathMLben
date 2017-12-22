@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow>
+      <mo>{</mo>
+      <msup>
+         <mover accent="true">
+            <mi>ξ</mi>
+            <mo>→</mo>
+         </mover>
+         <mi>μ</mi>
+      </msup>
+      <mo>,</mo>
+      <msup>
+         <mi>τ</mi>
+         <mi>μ</mi>
+      </msup>
+   </mrow>
+</math>

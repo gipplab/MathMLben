@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>Q</mi>
+   <mfenced close=")" open="(">
+      <mi>N</mi>
+      <mi>M</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>j</mi>
+      </mrow>
+      <mrow>
+         <mi>b</mi>
+         <mi>j</mi>
+      </mrow>
+      <mi>q</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mi>Q</mi>
+   <mfenced close=")" open="(">
+      <mi>M</mi>
+      <mi>N</mi>
+      <mrow>
+         <mi>b</mi>
+         <mi>j</mi>
+      </mrow>
+      <mrow>
+         <mi>a</mi>
+         <mi>j</mi>
+      </mrow>
+      <mi>q</mi>
+   </mfenced>
+   <mo>,</mo>
+</math>

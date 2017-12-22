@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>Δ</mi>
+   <mi>W</mi>
+   <mo>=</mo>
+   <msubsup>
+      <mo>∫</mo>
+      <msub>
+         <mi>V</mi>
+         <mn>1</mn>
+      </msub>
+      <msub>
+         <mi>V</mi>
+         <mn>2</mn>
+      </msub>
+   </msubsup>
+   <mi>p</mi>
+   <mstyle mathvariant="normal">
+      <mi>d</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>V</mi>
+      <mspace width="0.167em"/>
+      <mspace width="-0.167em"/>
+   </mstyle>
+</math>
