@@ -26,6 +26,11 @@ app.use(function (req, res, next) {
     next();
 });
 
+// need to specify a view because of
+// --> app.use('/', require('./node_modules/vmext/routes/routes'));
+// therefore we need ejs and set the view to html --> switch main.html to view/index.html
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
 
 app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
 app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
