@@ -35,7 +35,7 @@ app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/pub
 app.use('/', express.static(path.join(__dirname + '/node_modules/vmext/public/favicon.ico')));
 app.use('/assets', express.static(path.join(__dirname + '/assets')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
-
+app.use('/', require('./node_modules/vmext/routes/routes'));
 app.post('/get-model', function (req, res) {
     var body = req.body;
     var gc = new GithubContent(body);
