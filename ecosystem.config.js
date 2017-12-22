@@ -25,7 +25,7 @@ module.exports = {
       host : 'localhost',
       ref  : 'origin/master',
       repo : 'https://github.com/ag-gipp/GoUldI',
-      path : '/srv/GoUldI'
+      path : '/srv/gouldi'
     }
   }
 };
