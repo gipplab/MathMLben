@@ -26,7 +26,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/ag-gipp/GoUldI',
       path : '/srv/gouldi',
-      "post-deploy" : "pm2 startOrRestart ecosystem.config.js --env production"
+      "post-deploy" : "npm i; pm2 startOrRestart ecosystem.config.js --env production"
     }
   }
 };
