@@ -11,7 +11,6 @@
 sudo useradd gouldi
 sudo mkdir /srv/gouli
 sudo chown gouldi /srv/gouldi
-sudo usermod -aG sudo gouldi
 sudo su gouldi
 mkdir "${HOME}/.npm-packages"
 echo "prefix=${HOME}/.npm-packages" > ~/.npmrc
