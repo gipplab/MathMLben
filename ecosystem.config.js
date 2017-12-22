@@ -8,7 +8,7 @@ module.exports = {
     // First application
     {
       name      : 'gouldi',
-      script    : 'gouldi.js',
+      script    : '/srv/gouldi/current/gouldi.js',
       env_production : {
         GOULDI_PORT: 34512
       }
