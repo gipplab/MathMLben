@@ -98,10 +98,6 @@ app.post('/latexml', function(req, res){
     })
 });
 
-app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + '/main.html'));
-});
-
 var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
 app.listen( port, function () {
     console.log('Started GoUldI on ' + port);

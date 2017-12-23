@@ -63,7 +63,7 @@ angular
                     $scope.model = res.data;
                     $scope.model.qID = id;
 
-                    if ( !('constraints' in $scope) )
+                    if ( !('constraints' in $scope.model) )
                         $scope.model.constraints = [];
 
                     $scope.updated();
