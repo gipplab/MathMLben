@@ -9,12 +9,13 @@
   "constraints": "",
   "title": "Binomial summation formula for Fibonacci Context 2",
   "comment": "",
-  "math_inputtex":"b(k)",
-  "correct_tex":"b(k)",
+  "math_inputtex": "b(k)",
+  "correct_tex": "b(k)",
   "uri": "https://arxiv.org/abs/math/0602672",
   "page": "20",
-  "formula":"1_118.8",
-  "ntcir12-type":"16",
-  "ntcir12-relevance":"4",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S4.SS2.p3.1.m8.1.cmml\" alttext=\"b(k)\" class=\"ltx_Math\" id=\"S4.SS2.p3.1.m8.1\" display=\"inline\"><semantics xref=\"S4.SS2.p3.1.m8.1.cmml\" id=\"S4.SS2.p3.1.m8.1a\"><mrow xref=\"S4.SS2.p3.1.m8.1.5.cmml\" id=\"S4.SS2.p3.1.m8.1.5\"><mi xref=\"S4.SS2.p3.1.m8.1.1.cmml\" id=\"S4.SS2.p3.1.m8.1.1\">b</mi><mo xref=\"S4.SS2.p3.1.m8.1.5.1.cmml\" id=\"S4.SS2.p3.1.m8.1.5.1\">\u2062</mo><mrow xref=\"S4.SS2.p3.1.m8.1.3.cmml\" id=\"S4.SS2.p3.1.m8.1.3\"><mo xref=\"S4.SS2.p3.1.m8.1.3.cmml\" id=\"S4.SS2.p3.1.m8.1.3a\">(</mo><mi xref=\"S4.SS2.p3.1.m8.1.3.cmml\" id=\"S4.SS2.p3.1.m8.1.3b\">k</mi><mo xref=\"S4.SS2.p3.1.m8.1.3.cmml\" id=\"S4.SS2.p3.1.m8.1.3c\">)</mo></mrow></mrow><annotation-xml xref=\"S4.SS2.p3.1.m8.1\" id=\"S4.SS2.p3.1.m8.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S4.SS2.p3.1.m8.1.5\" id=\"S4.SS2.p3.1.m8.1.5.cmml\"><times xref=\"S4.SS2.p3.1.m8.1.5.1\" id=\"S4.SS2.p3.1.m8.1.5.1.cmml\"></times><ci xref=\"S4.SS2.p3.1.m8.1.1\" id=\"S4.SS2.p3.1.m8.1.1.cmml\">b</ci><ci xref=\"S4.SS2.p3.1.m8.1.3\" id=\"S4.SS2.p3.1.m8.1.3.cmml\">k</ci></apply></annotation-xml><annotation xref=\"S4.SS2.p3.1.m8.1.cmml\" id=\"S4.SS2.p3.1.m8.1b\" encoding=\"application/x-tex\">b(k)</annotation></semantics></math>"
+  "formula": "1_118.8",
+  "ntcir12-type": "16",
+  "ntcir12-relevance": "4",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"b(k)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5.2\" xref=\"p1.1.m1.1.5.1.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">b</mi>\n      <mo id=\"p1.1.m1.1.5.2a\" xref=\"p1.1.m1.1.5.1.cmml\">⁡</mo>\n      <mrow id=\"p1.1.m1.1.5.2.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.5.1.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">k</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.5.1.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.2\">\n        <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑏</ci>\n        <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝑘</ci>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">b(k)</annotation>\n  </semantics>\n</math>",
+  "math_inputtex_semantic": "\\wf{}{b}(k)"
 }
