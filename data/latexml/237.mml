@@ -1,0 +1,72 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="h_{i}=\sum_{j}\hat{w}_{ij}s_{j}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">
+      <msub id="p1.1.m1.1.10.1" xref="p1.1.m1.1.10.1.cmml">
+        <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">h</mi>
+        <mi id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">i</mi>
+      </msub>
+      <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">=</mo>
+      <mrow id="p1.1.m1.1.10.2" xref="p1.1.m1.1.10.2.cmml">
+        <msub id="p1.1.m1.1.10.2.1" xref="p1.1.m1.1.10.2.1.cmml">
+          <mo largeop="true" symmetric="true" id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">∑</mo>
+          <mi id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">j</mi>
+        </msub>
+        <mrow id="p1.1.m1.1.10.2.2" xref="p1.1.m1.1.10.2.2.cmml">
+          <msub id="p1.1.m1.1.10.2.2.2" xref="p1.1.m1.1.10.2.2.2.cmml">
+            <mover accent="true" id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">
+              <mi id="p1.1.m1.1.6.2" xref="p1.1.m1.1.6.2.cmml">w</mi>
+              <mo stretchy="false" id="p1.1.m1.1.6.1" xref="p1.1.m1.1.6.1.cmml">^</mo>
+            </mover>
+            <mrow id="p1.1.m1.1.7.1" xref="p1.1.m1.1.7.1.cmml">
+              <mi id="p1.1.m1.1.7.1.1" xref="p1.1.m1.1.7.1.1.cmml">i</mi>
+              <mo id="p1.1.m1.1.7.1.3" xref="p1.1.m1.1.7.1.3.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.7.1.2" xref="p1.1.m1.1.7.1.2.cmml">j</mi>
+            </mrow>
+          </msub>
+          <mo id="p1.1.m1.1.10.2.2.1" xref="p1.1.m1.1.10.2.2.1.cmml">⁢</mo>
+          <msub id="p1.1.m1.1.10.2.2.3" xref="p1.1.m1.1.10.2.2.3.cmml">
+            <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">s</mi>
+            <mi id="p1.1.m1.1.9.1" xref="p1.1.m1.1.9.1.cmml">j</mi>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">
+        <eq id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3"/>
+        <apply id="p1.1.m1.1.10.1.cmml" xref="p1.1.m1.1.10.1">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.10.1.1.cmml" xref="p1.1.m1.1.10.1">subscript</csymbol>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">ℎ</ci>
+          <ci id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">𝑖</ci>
+        </apply>
+        <apply id="p1.1.m1.1.10.2.cmml" xref="p1.1.m1.1.10.2">
+          <apply id="p1.1.m1.1.10.2.1.cmml" xref="p1.1.m1.1.10.2.1">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.10.2.1.1.cmml" xref="p1.1.m1.1.10.2.1">subscript</csymbol>
+            <sum id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4"/>
+            <ci id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.1">𝑗</ci>
+          </apply>
+          <apply id="p1.1.m1.1.10.2.2.cmml" xref="p1.1.m1.1.10.2.2">
+            <times id="p1.1.m1.1.10.2.2.1.cmml" xref="p1.1.m1.1.10.2.2.1"/>
+            <apply id="p1.1.m1.1.10.2.2.2.cmml" xref="p1.1.m1.1.10.2.2.2">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.10.2.2.2.1.cmml" xref="p1.1.m1.1.10.2.2.2">subscript</csymbol>
+              <apply id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">
+                <ci id="p1.1.m1.1.6.1.cmml" xref="p1.1.m1.1.6.1">^</ci>
+                <ci id="p1.1.m1.1.6.2.cmml" xref="p1.1.m1.1.6.2">𝑤</ci>
+              </apply>
+              <apply id="p1.1.m1.1.7.1.cmml" xref="p1.1.m1.1.7.1">
+                <times id="p1.1.m1.1.7.1.3.cmml" xref="p1.1.m1.1.7.1.3"/>
+                <ci id="p1.1.m1.1.7.1.1.cmml" xref="p1.1.m1.1.7.1.1">𝑖</ci>
+                <ci id="p1.1.m1.1.7.1.2.cmml" xref="p1.1.m1.1.7.1.2">𝑗</ci>
+              </apply>
+            </apply>
+            <apply id="p1.1.m1.1.10.2.2.3.cmml" xref="p1.1.m1.1.10.2.2.3">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.10.2.2.3.1.cmml" xref="p1.1.m1.1.10.2.2.3">subscript</csymbol>
+              <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑠</ci>
+              <ci id="p1.1.m1.1.9.1.cmml" xref="p1.1.m1.1.9.1">𝑗</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

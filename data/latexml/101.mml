@@ -1,0 +1,81 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="|f(a+\alpha,b+\beta)-f(a,b)|&lt;\epsilon" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.22" xref="p1.1.m1.1.22.cmml">
+      <mrow id="p1.1.m1.1.22.1" xref="p1.1.m1.1.22.1.1.cmml">
+        <mo stretchy="false" id="p1.1.m1.1.1" xref="p1.1.m1.1.22.1.1.1.cmml">|</mo>
+        <mrow id="p1.1.m1.1.22.1.2" xref="p1.1.m1.1.22.1.2.cmml">
+          <mrow id="p1.1.m1.1.22.1.2.1" xref="p1.1.m1.1.22.1.2.1.cmml">
+            <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">f</mi>
+            <mo id="p1.1.m1.1.22.1.2.1.1" xref="p1.1.m1.1.22.1.2.1.1.cmml">⁢</mo>
+            <mrow id="p1.1.m1.1.22.1.2.1.2" xref="p1.1.m1.1.22.1.2.1.2.1.cmml">
+              <mo stretchy="false" id="p1.1.m1.1.3" xref="p1.1.m1.1.22.1.2.1.2.1.cmml">(</mo>
+              <mrow id="p1.1.m1.1.22.1.2.1.2.2" xref="p1.1.m1.1.22.1.2.1.2.2.cmml">
+                <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">a</mi>
+                <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">+</mo>
+                <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">α</mi>
+              </mrow>
+              <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.22.1.2.1.2.1.cmml">,</mo>
+              <mrow id="p1.1.m1.1.22.1.2.1.2.3" xref="p1.1.m1.1.22.1.2.1.2.3.cmml">
+                <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">b</mi>
+                <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">+</mo>
+                <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">β</mi>
+              </mrow>
+              <mo stretchy="false" id="p1.1.m1.1.11" xref="p1.1.m1.1.22.1.2.1.2.1.cmml">)</mo>
+            </mrow>
+          </mrow>
+          <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">-</mo>
+          <mrow id="p1.1.m1.1.22.1.2.2" xref="p1.1.m1.1.22.1.2.2.cmml">
+            <mi id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">f</mi>
+            <mo id="p1.1.m1.1.22.1.2.2.1" xref="p1.1.m1.1.22.1.2.2.1.cmml">⁢</mo>
+            <mrow id="p1.1.m1.1.22.1.2.2.2" xref="p1.1.m1.1.22.1.2.2.2.1.cmml">
+              <mo stretchy="false" id="p1.1.m1.1.14" xref="p1.1.m1.1.22.1.2.2.2.1.cmml">(</mo>
+              <mi id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">a</mi>
+              <mo id="p1.1.m1.1.16" xref="p1.1.m1.1.22.1.2.2.2.1.cmml">,</mo>
+              <mi id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">b</mi>
+              <mo stretchy="false" id="p1.1.m1.1.18" xref="p1.1.m1.1.22.1.2.2.2.1.cmml">)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo stretchy="false" id="p1.1.m1.1.19" xref="p1.1.m1.1.22.1.1.1.cmml">|</mo>
+      </mrow>
+      <mo id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">&lt;</mo>
+      <mi id="p1.1.m1.1.21" xref="p1.1.m1.1.21.cmml">ϵ</mi>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.22.cmml" xref="p1.1.m1.1.22">
+        <lt id="p1.1.m1.1.20.cmml" xref="p1.1.m1.1.20"/>
+        <apply id="p1.1.m1.1.22.1.1.cmml" xref="p1.1.m1.1.22.1">
+          <abs id="p1.1.m1.1.22.1.1.1.cmml" xref="p1.1.m1.1.1"/>
+          <apply id="p1.1.m1.1.22.1.2.cmml" xref="p1.1.m1.1.22.1.2">
+            <minus id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12"/>
+            <apply id="p1.1.m1.1.22.1.2.1.cmml" xref="p1.1.m1.1.22.1.2.1">
+              <times id="p1.1.m1.1.22.1.2.1.1.cmml" xref="p1.1.m1.1.22.1.2.1.1"/>
+              <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝑓</ci>
+              <interval closure="open" id="p1.1.m1.1.22.1.2.1.2.1.cmml" xref="p1.1.m1.1.22.1.2.1.2">
+                <apply id="p1.1.m1.1.22.1.2.1.2.2.cmml" xref="p1.1.m1.1.22.1.2.1.2.2">
+                  <plus id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5"/>
+                  <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝑎</ci>
+                  <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝛼</ci>
+                </apply>
+                <apply id="p1.1.m1.1.22.1.2.1.2.3.cmml" xref="p1.1.m1.1.22.1.2.1.2.3">
+                  <plus id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9"/>
+                  <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑏</ci>
+                  <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝛽</ci>
+                </apply>
+              </interval>
+            </apply>
+            <apply id="p1.1.m1.1.22.1.2.2.cmml" xref="p1.1.m1.1.22.1.2.2">
+              <times id="p1.1.m1.1.22.1.2.2.1.cmml" xref="p1.1.m1.1.22.1.2.2.1"/>
+              <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">𝑓</ci>
+              <interval closure="open" id="p1.1.m1.1.22.1.2.2.2.1.cmml" xref="p1.1.m1.1.22.1.2.2.2">
+                <ci id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">𝑎</ci>
+                <ci id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">𝑏</ci>
+              </interval>
+            </apply>
+          </apply>
+        </apply>
+        <ci id="p1.1.m1.1.21.cmml" xref="p1.1.m1.1.21">italic-ϵ</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,232 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\operatorname{Ln}\Gamma\left(z\right)=\left(z-\tfrac{1}{2}\right)\ln z-z+%%&#10;\tfrac{1}{2}\ln\left(2\pi\right)+2\int_{0}^{\infty}\frac{\operatorname{arctan}%&#10;%\left(t/z\right)}{e^{2\pi t}-1}\mathrm{d}t," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mrow>
+            <mi>Ln</mi>
+            <mo>⁡</mo>
+            <mi mathvariant="normal">Γ</mi>
+          </mrow>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mrow>
+            <mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>z</mi>
+                  <mo>-</mo>
+                  <mstyle displaystyle="false">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mn>2</mn>
+                    </mfrac>
+                  </mstyle>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>⁢</mo>
+              <mrow>
+                <mi>ln</mi>
+                <mo>⁡</mo>
+                <mi>z</mi>
+              </mrow>
+            </mrow>
+            <mo>-</mo>
+            <mi>z</mi>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <mi mathvariant="normal">%</mi>
+            <mo>⁢</mo>
+            <mstyle displaystyle="false">
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mstyle>
+            <mo>⁢</mo>
+            <mrow>
+              <mi>ln</mi>
+              <mo>⁡</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mn>2</mn>
+                  <mo>⁢</mo>
+                  <mi>π</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <mn>2</mn>
+            <mo>⁢</mo>
+            <mrow>
+              <msubsup>
+                <mo largeop="true" symmetric="true">∫</mo>
+                <mn>0</mn>
+                <mi mathvariant="normal">∞</mi>
+              </msubsup>
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mrow>
+                      <mi>arctan</mi>
+                      <mo>⁡</mo>
+                      <mi mathvariant="normal">%</mi>
+                    </mrow>
+                    <mo>⁢</mo>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mi>t</mi>
+                        <mo>/</mo>
+                        <mi>z</mi>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>e</mi>
+                      <mrow>
+                        <mn>2</mn>
+                        <mo>⁢</mo>
+                        <mi>π</mi>
+                        <mo>⁢</mo>
+                        <mi>t</mi>
+                      </mrow>
+                    </msup>
+                    <mo>-</mo>
+                    <mn>1</mn>
+                  </mrow>
+                </mfrac>
+                <mo>⁢</mo>
+                <mrow>
+                  <mo>d</mo>
+                  <mi>t</mi>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.34.2.cmml">
+        <eq id="S0.Ex1.m1.1.7.cmml"/>
+        <apply id="S0.Ex1.m1.1.34.2.1.cmml">
+          <times id="S0.Ex1.m1.1.34.2.1.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.34.2.1.2.cmml">
+            <ci id="S0.Ex1.m1.1.2.cmml">Ln</ci>
+            <ci id="S0.Ex1.m1.1.3.cmml">Γ</ci>
+          </apply>
+          <ci id="S0.Ex1.m1.1.5.cmml">𝑧</ci>
+        </apply>
+        <apply id="S0.Ex1.m1.1.34.2.2.cmml">
+          <plus id="S0.Ex1.m1.1.17.cmml"/>
+          <apply id="S0.Ex1.m1.1.34.2.2.1.cmml">
+            <minus id="S0.Ex1.m1.1.15.cmml"/>
+            <apply id="S0.Ex1.m1.1.34.2.2.1.1.cmml">
+              <times id="S0.Ex1.m1.1.34.2.2.1.1.1.cmml"/>
+              <apply id="S0.Ex1.m1.1.34.2.2.1.1.2.2.cmml">
+                <minus id="S0.Ex1.m1.1.10.cmml"/>
+                <ci id="S0.Ex1.m1.1.9.cmml">𝑧</ci>
+                <apply id="S0.Ex1.m1.1.11.cmml">
+                  <divide id="S0.Ex1.m1.1.11.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.11.2.cmml">1</cn>
+                  <cn type="integer" id="S0.Ex1.m1.1.11.3.cmml">2</cn>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.34.2.2.1.1.3.cmml">
+                <ln id="S0.Ex1.m1.1.13.cmml"/>
+                <ci id="S0.Ex1.m1.1.14.cmml">𝑧</ci>
+              </apply>
+            </apply>
+            <ci id="S0.Ex1.m1.1.16.cmml">𝑧</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.34.2.2.2.cmml">
+            <times id="S0.Ex1.m1.1.34.2.2.2.1.cmml"/>
+            <ci id="S0.Ex1.m1.1.18.cmml">%</ci>
+            <apply id="S0.Ex1.m1.1.19.cmml">
+              <divide id="S0.Ex1.m1.1.19.1.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.19.2.cmml">1</cn>
+              <cn type="integer" id="S0.Ex1.m1.1.19.3.cmml">2</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.34.2.2.2.2.1.cmml">
+              <ln id="S0.Ex1.m1.1.20.cmml"/>
+              <apply id="S0.Ex1.m1.1.34.2.2.2.2.2.1.cmml">
+                <times id="S0.Ex1.m1.1.34.2.2.2.2.2.1.1.cmml"/>
+                <cn type="integer" id="S0.Ex1.m1.1.22.cmml">2</cn>
+                <ci id="S0.Ex1.m1.1.23.cmml">𝜋</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.34.2.2.3.cmml">
+            <times id="S0.Ex1.m1.1.34.2.2.3.1.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.26.cmml">2</cn>
+            <apply id="S0.Ex1.m1.1.34.2.2.3.2.cmml">
+              <apply id="S0.Ex1.m1.1.34.2.2.3.2.1.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.34.2.2.3.2.1.1.cmml">superscript</csymbol>
+                <apply id="S0.Ex1.m1.1.34.2.2.3.2.1.2.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.34.2.2.3.2.1.2.1.cmml">subscript</csymbol>
+                  <int id="S0.Ex1.m1.1.27.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.28.1.cmml">0</cn>
+                </apply>
+                <infinity id="S0.Ex1.m1.1.29.1.cmml"/>
+              </apply>
+              <apply id="S0.Ex1.m1.1.34.2.2.3.2.2.cmml">
+                <times id="S0.Ex1.m1.1.34.2.2.3.2.2.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.30.cmml">
+                  <divide id="S0.Ex1.m1.1.30.1.cmml"/>
+                  <apply id="S0.Ex1.m1.1.30.2.cmml">
+                    <times id="S0.Ex1.m1.1.30.2.13.cmml"/>
+                    <apply id="S0.Ex1.m1.1.30.2.14.cmml">
+                      <ci id="S0.Ex1.m1.1.30.2.6.cmml">arctan</ci>
+                      <ci id="S0.Ex1.m1.1.30.2.7.cmml">%</ci>
+                    </apply>
+                    <apply id="S0.Ex1.m1.1.30.2.15.2.cmml">
+                      <divide id="S0.Ex1.m1.1.30.2.10.cmml"/>
+                      <ci id="S0.Ex1.m1.1.30.2.9.cmml">𝑡</ci>
+                      <ci id="S0.Ex1.m1.1.30.2.11.cmml">𝑧</ci>
+                    </apply>
+                  </apply>
+                  <apply id="S0.Ex1.m1.1.30.3.cmml">
+                    <minus id="S0.Ex1.m1.1.30.3.3.cmml"/>
+                    <apply id="S0.Ex1.m1.1.30.3.5.cmml">
+                      <csymbol cd="ambiguous" id="S0.Ex1.m1.1.30.3.5.1.cmml">superscript</csymbol>
+                      <ci id="S0.Ex1.m1.1.30.3.1.cmml">𝑒</ci>
+                      <apply id="S0.Ex1.m1.1.30.3.2.1.cmml">
+                        <times id="S0.Ex1.m1.1.30.3.2.1.4.cmml"/>
+                        <cn type="integer" id="S0.Ex1.m1.1.30.3.2.1.1.cmml">2</cn>
+                        <ci id="S0.Ex1.m1.1.30.3.2.1.2.cmml">𝜋</ci>
+                        <ci id="S0.Ex1.m1.1.30.3.2.1.3.cmml">𝑡</ci>
+                      </apply>
+                    </apply>
+                    <cn type="integer" id="S0.Ex1.m1.1.30.3.4.cmml">1</cn>
+                  </apply>
+                </apply>
+                <apply id="S0.Ex1.m1.1.34.2.2.3.2.2.2.cmml">
+                  <csymbol cd="latexml" id="S0.Ex1.m1.1.31.cmml">differential-d</csymbol>
+                  <ci id="S0.Ex1.m1.1.32.cmml">𝑡</ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

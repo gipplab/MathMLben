@@ -1,0 +1,176 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="J_{\nu}\left(j_{\nu,m}^{\prime}\right)=\frac{h(\zeta)\mathrm{Ai}\left(a^{%&#10;\prime}_{m}%\right)}{\nu^{\frac{1}{3}}}\left(1+O\left(\frac{1}{\nu^{\frac{4}{3%&#10;}}}\right)%\right)," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>J</mi>
+            <mi>ν</mi>
+          </msub>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <msubsup>
+              <mi>j</mi>
+              <mrow>
+                <mi>ν</mi>
+                <mo>,</mo>
+                <mi>m</mi>
+              </mrow>
+              <mo>′</mo>
+            </msubsup>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mfrac>
+            <mrow>
+              <mi>h</mi>
+              <mo>⁢</mo>
+              <mrow>
+                <mo stretchy="false">(</mo>
+                <mi>ζ</mi>
+                <mo stretchy="false">)</mo>
+              </mrow>
+              <mo>⁢</mo>
+              <mi>Ai</mi>
+              <mo>⁢</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <msubsup>
+                    <mi>a</mi>
+                    <mi>m</mi>
+                    <mo>′</mo>
+                  </msubsup>
+                  <mo>⁢</mo>
+                  <mi mathvariant="normal">%</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <msup>
+              <mi>ν</mi>
+              <mfrac>
+                <mn>1</mn>
+                <mn>3</mn>
+              </mfrac>
+            </msup>
+          </mfrac>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mn>1</mn>
+              <mo>+</mo>
+              <mrow>
+                <mi>O</mi>
+                <mo>⁢</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mn>1</mn>
+                    <msup>
+                      <mi>ν</mi>
+                      <mfrac>
+                        <mn>4</mn>
+                        <mn>3</mn>
+                      </mfrac>
+                    </msup>
+                  </mfrac>
+                  <mo>)</mo>
+                </mrow>
+                <mo>⁢</mo>
+                <mi mathvariant="normal">%</mi>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.20.2.cmml">
+        <eq id="S0.Ex1.m1.1.8.cmml"/>
+        <apply id="S0.Ex1.m1.1.20.2.1.cmml">
+          <times id="S0.Ex1.m1.1.20.2.1.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.20.2.1.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.20.2.1.2.1.cmml">subscript</csymbol>
+            <ci id="S0.Ex1.m1.1.1.cmml">𝐽</ci>
+            <ci id="S0.Ex1.m1.1.2.1.cmml">𝜈</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.20.2.1.3.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.20.2.1.3.2.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.20.2.1.3.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.20.2.1.3.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.4.cmml">𝑗</ci>
+              <list id="S0.Ex1.m1.1.5.1.4.cmml">
+                <ci id="S0.Ex1.m1.1.5.1.1.cmml">𝜈</ci>
+                <ci id="S0.Ex1.m1.1.5.1.3.cmml">𝑚</ci>
+              </list>
+            </apply>
+            <ci id="S0.Ex1.m1.1.6.1.cmml">′</ci>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.20.2.2.cmml">
+          <times id="S0.Ex1.m1.1.20.2.2.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.9.cmml">
+            <divide id="S0.Ex1.m1.1.9.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.9.2.cmml">
+              <times id="S0.Ex1.m1.1.9.2.13.cmml"/>
+              <ci id="S0.Ex1.m1.1.9.2.1.cmml">ℎ</ci>
+              <ci id="S0.Ex1.m1.1.9.2.3.cmml">𝜁</ci>
+              <ci id="S0.Ex1.m1.1.9.2.6.cmml">Ai</ci>
+              <apply id="S0.Ex1.m1.1.9.2.15.2.cmml">
+                <times id="S0.Ex1.m1.1.9.2.15.2.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.9.2.15.2.2.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.9.2.15.2.2.1.cmml">subscript</csymbol>
+                  <apply id="S0.Ex1.m1.1.9.2.15.2.2.2.cmml">
+                    <csymbol cd="ambiguous" id="S0.Ex1.m1.1.9.2.15.2.2.2.1.cmml">superscript</csymbol>
+                    <ci id="S0.Ex1.m1.1.9.2.8.cmml">𝑎</ci>
+                    <ci id="S0.Ex1.m1.1.9.2.9.1.cmml">′</ci>
+                  </apply>
+                  <ci id="S0.Ex1.m1.1.9.2.10.1.cmml">𝑚</ci>
+                </apply>
+                <ci id="S0.Ex1.m1.1.9.2.11.cmml">%</ci>
+              </apply>
+            </apply>
+            <apply id="S0.Ex1.m1.1.9.3.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.9.3.3.cmml">superscript</csymbol>
+              <ci id="S0.Ex1.m1.1.9.3.1.cmml">𝜈</ci>
+              <apply id="S0.Ex1.m1.1.9.3.2.1.cmml">
+                <divide id="S0.Ex1.m1.1.9.3.2.1.1.1.cmml"/>
+                <cn type="integer" id="S0.Ex1.m1.1.9.3.2.1.1.2.cmml">1</cn>
+                <cn type="integer" id="S0.Ex1.m1.1.9.3.2.1.1.3.cmml">3</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.20.2.2.2.2.cmml">
+            <plus id="S0.Ex1.m1.1.12.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.11.cmml">1</cn>
+            <apply id="S0.Ex1.m1.1.20.2.2.2.2.1.cmml">
+              <times id="S0.Ex1.m1.1.20.2.2.2.2.1.1.cmml"/>
+              <ci id="S0.Ex1.m1.1.13.cmml">𝑂</ci>
+              <apply id="S0.Ex1.m1.1.15.cmml">
+                <divide id="S0.Ex1.m1.1.15.1.cmml"/>
+                <cn type="integer" id="S0.Ex1.m1.1.15.2.cmml">1</cn>
+                <apply id="S0.Ex1.m1.1.15.3.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.15.3.3.cmml">superscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.15.3.1.cmml">𝜈</ci>
+                  <apply id="S0.Ex1.m1.1.15.3.2.1.cmml">
+                    <divide id="S0.Ex1.m1.1.15.3.2.1.1.1.cmml"/>
+                    <cn type="integer" id="S0.Ex1.m1.1.15.3.2.1.1.2.cmml">4</cn>
+                    <cn type="integer" id="S0.Ex1.m1.1.15.3.2.1.1.3.cmml">3</cn>
+                  </apply>
+                </apply>
+              </apply>
+              <ci id="S0.Ex1.m1.1.17.cmml">%</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,109 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="|[k]^{n}(1\text{-}1)|=\binom{k}{n}n!=(k)_{n}," display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.22" xref="p1.1.m1.1.22.2.cmml">
+      <mrow id="p1.1.m1.1.22.2" xref="p1.1.m1.1.22.2.cmml">
+        <mrow id="p1.1.m1.1.22.2.2" xref="p1.1.m1.1.22.2.2.1.cmml">
+          <mo stretchy="false" id="p1.1.m1.1.1" xref="p1.1.m1.1.22.2.2.1.1.cmml">|</mo>
+          <mrow id="p1.1.m1.1.22.2.2.2" xref="p1.1.m1.1.22.2.2.2.cmml">
+            <msup id="p1.1.m1.1.22.2.2.2.2" xref="p1.1.m1.1.22.2.2.2.2.cmml">
+              <mrow id="p1.1.m1.1.22.2.2.2.2.2" xref="p1.1.m1.1.22.2.2.2.2.2.1.cmml">
+                <mo stretchy="false" id="p1.1.m1.1.2" xref="p1.1.m1.1.22.2.2.2.2.2.1.1.cmml">[</mo>
+                <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">k</mi>
+                <mo stretchy="false" id="p1.1.m1.1.4" xref="p1.1.m1.1.22.2.2.2.2.2.1.1.cmml">]</mo>
+              </mrow>
+              <mi id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">n</mi>
+            </msup>
+            <mo id="p1.1.m1.1.22.2.2.2.1" xref="p1.1.m1.1.22.2.2.2.1.cmml">⁢</mo>
+            <mrow id="p1.1.m1.1.22.2.2.2.3" xref="p1.1.m1.1.22.2.2.2.3.2.cmml">
+              <mo stretchy="false" id="p1.1.m1.1.6" xref="p1.1.m1.1.22.2.2.2.3.2.cmml">(</mo>
+              <mrow id="p1.1.m1.1.22.2.2.2.3.2" xref="p1.1.m1.1.22.2.2.2.3.2.cmml">
+                <mn id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">1</mn>
+                <mo id="p1.1.m1.1.22.2.2.2.3.2.1" xref="p1.1.m1.1.22.2.2.2.3.2.1.cmml">⁢</mo>
+                <mtext id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">-</mtext>
+                <mo id="p1.1.m1.1.22.2.2.2.3.2.1a" xref="p1.1.m1.1.22.2.2.2.3.2.1.cmml">⁢</mo>
+                <mn id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">1</mn>
+              </mrow>
+              <mo stretchy="false" id="p1.1.m1.1.10" xref="p1.1.m1.1.22.2.2.2.3.2.cmml">)</mo>
+            </mrow>
+          </mrow>
+          <mo stretchy="false" id="p1.1.m1.1.11" xref="p1.1.m1.1.22.2.2.1.1.cmml">|</mo>
+        </mrow>
+        <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">=</mo>
+        <mrow id="p1.1.m1.1.22.2.3" xref="p1.1.m1.1.22.2.3.cmml">
+          <mrow id="p1.1.m1.1.13.5" xref="p1.1.m1.1.13.1.cmml">
+            <mo id="p1.1.m1.1.13.2" xref="p1.1.m1.1.13.1.1.cmml">(</mo>
+            <mfrac linethickness="0pt" id="p1.1.m1.1.13.3" xref="p1.1.m1.1.13.1.cmml">
+              <mi id="p1.1.m1.1.13.3.2" xref="p1.1.m1.1.13.3.2.cmml">k</mi>
+              <mi id="p1.1.m1.1.13.3.3" xref="p1.1.m1.1.13.3.3.cmml">n</mi>
+            </mfrac>
+            <mo id="p1.1.m1.1.13.4" xref="p1.1.m1.1.13.1.1.cmml">)</mo>
+          </mrow>
+          <mo id="p1.1.m1.1.22.2.3.1" xref="p1.1.m1.1.22.2.3.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.22.2.3.2" xref="p1.1.m1.1.22.2.3.2.cmml">
+            <mi id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">n</mi>
+            <mo lspace="0pt" rspace="3.5pt" id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">!</mo>
+          </mrow>
+        </mrow>
+        <mo id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">=</mo>
+        <msub id="p1.1.m1.1.22.2.4" xref="p1.1.m1.1.22.2.4.cmml">
+          <mrow id="p1.1.m1.1.22.2.4.2" xref="p1.1.m1.1.22.2.4.cmml">
+            <mo stretchy="false" id="p1.1.m1.1.17" xref="p1.1.m1.1.22.2.4.cmml">(</mo>
+            <mi id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">k</mi>
+            <mo stretchy="false" id="p1.1.m1.1.19" xref="p1.1.m1.1.22.2.4.cmml">)</mo>
+          </mrow>
+          <mi id="p1.1.m1.1.20.1" xref="p1.1.m1.1.20.1.cmml">n</mi>
+        </msub>
+      </mrow>
+      <mo id="p1.1.m1.1.21" xref="p1.1.m1.1.22.2.cmml">,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.22.2.cmml" xref="p1.1.m1.1.22">
+        <and id="p1.1.m1.1.22.2a.cmml" xref="p1.1.m1.1.22"/>
+        <apply id="p1.1.m1.1.22.2b.cmml" xref="p1.1.m1.1.22">
+          <eq id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12"/>
+          <apply id="p1.1.m1.1.22.2.2.1.cmml" xref="p1.1.m1.1.22.2.2">
+            <abs id="p1.1.m1.1.22.2.2.1.1.cmml" xref="p1.1.m1.1.1"/>
+            <apply id="p1.1.m1.1.22.2.2.2.cmml" xref="p1.1.m1.1.22.2.2.2">
+              <times id="p1.1.m1.1.22.2.2.2.1.cmml" xref="p1.1.m1.1.22.2.2.2.1"/>
+              <apply id="p1.1.m1.1.22.2.2.2.2.cmml" xref="p1.1.m1.1.22.2.2.2.2">
+                <csymbol cd="ambiguous" id="p1.1.m1.1.22.2.2.2.2.1.cmml" xref="p1.1.m1.1.22.2.2.2.2">superscript</csymbol>
+                <apply id="p1.1.m1.1.22.2.2.2.2.2.1.cmml" xref="p1.1.m1.1.22.2.2.2.2.2">
+                  <csymbol cd="latexml" id="p1.1.m1.1.22.2.2.2.2.2.1.1.cmml" xref="p1.1.m1.1.2">delimited-[]</csymbol>
+                  <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑘</ci>
+                </apply>
+                <ci id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.1">𝑛</ci>
+              </apply>
+              <apply id="p1.1.m1.1.22.2.2.2.3.2.cmml" xref="p1.1.m1.1.22.2.2.2.3">
+                <times id="p1.1.m1.1.22.2.2.2.3.2.1.cmml" xref="p1.1.m1.1.22.2.2.2.3.2.1"/>
+                <cn type="integer" id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">1</cn>
+                <mtext id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">-</mtext>
+                <cn type="integer" id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply id="p1.1.m1.1.22.2.3.cmml" xref="p1.1.m1.1.22.2.3">
+            <times id="p1.1.m1.1.22.2.3.1.cmml" xref="p1.1.m1.1.22.2.3.1"/>
+            <apply id="p1.1.m1.1.13.1.cmml" xref="p1.1.m1.1.13.5">
+              <csymbol cd="latexml" id="p1.1.m1.1.13.1.1.cmml" xref="p1.1.m1.1.13.2">binomial</csymbol>
+              <ci id="p1.1.m1.1.13.3.2.cmml" xref="p1.1.m1.1.13.3.2">𝑘</ci>
+              <ci id="p1.1.m1.1.13.3.3.cmml" xref="p1.1.m1.1.13.3.3">𝑛</ci>
+            </apply>
+            <apply id="p1.1.m1.1.22.2.3.2.cmml" xref="p1.1.m1.1.22.2.3.2">
+              <factorial id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15"/>
+              <ci id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">𝑛</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply id="p1.1.m1.1.22.2c.cmml" xref="p1.1.m1.1.22">
+          <eq id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16"/>
+          <share href="#p1.1.m1.1.22.2.3.cmml" id="p1.1.m1.1.22.2d.cmml" xref="p1.1.m1.1.22"/>
+          <apply id="p1.1.m1.1.22.2.4.cmml" xref="p1.1.m1.1.22.2.4">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.22.2.4.1.cmml" xref="p1.1.m1.1.22.2.4">subscript</csymbol>
+            <ci id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">𝑘</ci>
+            <ci id="p1.1.m1.1.20.1.cmml" xref="p1.1.m1.1.20.1">𝑛</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

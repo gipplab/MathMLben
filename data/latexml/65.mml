@@ -1,0 +1,40 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="H^{1}(K)=\sqrt{2}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">
+      <mrow id="p1.1.m1.1.8.1" xref="p1.1.m1.1.8.1.cmml">
+        <msup id="p1.1.m1.1.8.1.2" xref="p1.1.m1.1.8.1.2.cmml">
+          <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">H</mi>
+          <mn id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">1</mn>
+        </msup>
+        <mo id="p1.1.m1.1.8.1.1" xref="p1.1.m1.1.8.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.8.1.3" xref="p1.1.m1.1.8.1.cmml">
+          <mo stretchy="false" id="p1.1.m1.1.3" xref="p1.1.m1.1.8.1.cmml">(</mo>
+          <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">K</mi>
+          <mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.8.1.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">=</mo>
+      <msqrt id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">
+        <mn id="p1.1.m1.1.7.2" xref="p1.1.m1.1.7.2.cmml">2</mn>
+      </msqrt>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">
+        <eq id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
+        <apply id="p1.1.m1.1.8.1.cmml" xref="p1.1.m1.1.8.1">
+          <times id="p1.1.m1.1.8.1.1.cmml" xref="p1.1.m1.1.8.1.1"/>
+          <apply id="p1.1.m1.1.8.1.2.cmml" xref="p1.1.m1.1.8.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.8.1.2.1.cmml" xref="p1.1.m1.1.8.1.2">superscript</csymbol>
+            <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝐻</ci>
+            <cn type="integer" id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">1</cn>
+          </apply>
+          <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝐾</ci>
+        </apply>
+        <apply id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">
+          <root id="p1.1.m1.1.7a.cmml" xref="p1.1.m1.1.7"/>
+          <cn type="integer" id="p1.1.m1.1.7.2.cmml" xref="p1.1.m1.1.7.2">2</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

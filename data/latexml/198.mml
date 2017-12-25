@@ -1,0 +1,262 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\begin{pmatrix}j_{1}&amp;j_{2}&amp;j_{3}\\&#10;m_{1}&amp;m_{2}&amp;m_{3}\end{pmatrix}=(-1)^{j_{1}+j_{2}+j_{3}}\begin{pmatrix}j_{1}&amp;j_%&#10;{%}{2}&amp;j_{3}\\&#10;-m_{1}&amp;-m_{2}&amp;-m_{3}\end{pmatrix}," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mo>(</mo>
+          <mtable columnspacing="5pt" displaystyle="true" rowspacing="0pt">
+            <mtr>
+              <mtd columnalign="center">
+                <msub>
+                  <mi>j</mi>
+                  <mn>1</mn>
+                </msub>
+              </mtd>
+              <mtd columnalign="center">
+                <msub>
+                  <mi>j</mi>
+                  <mn>2</mn>
+                </msub>
+              </mtd>
+              <mtd columnalign="center">
+                <msub>
+                  <mi>j</mi>
+                  <mn>3</mn>
+                </msub>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd columnalign="center">
+                <msub>
+                  <mi>m</mi>
+                  <mn>1</mn>
+                </msub>
+              </mtd>
+              <mtd columnalign="center">
+                <msub>
+                  <mi>m</mi>
+                  <mn>2</mn>
+                </msub>
+              </mtd>
+              <mtd columnalign="center">
+                <msub>
+                  <mi>m</mi>
+                  <mn>3</mn>
+                </msub>
+              </mtd>
+            </mtr>
+          </mtable>
+          <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <msup>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mrow>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <msub>
+                <mi>j</mi>
+                <mn>1</mn>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+            </mrow>
+          </msup>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mtable columnspacing="5pt" displaystyle="true" rowspacing="0pt">
+              <mtr>
+                <mtd columnalign="center">
+                  <msub>
+                    <mi>j</mi>
+                    <mn>1</mn>
+                  </msub>
+                </mtd>
+                <mtd columnalign="center">
+                  <mrow>
+                    <msub>
+                      <mi>j</mi>
+                      <mi mathvariant="normal">%</mi>
+                    </msub>
+                    <mo>⁢</mo>
+                    <mn>2</mn>
+                  </mrow>
+                </mtd>
+                <mtd columnalign="center">
+                  <msub>
+                    <mi>j</mi>
+                    <mn>3</mn>
+                  </msub>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd columnalign="center">
+                  <mrow>
+                    <mo>-</mo>
+                    <msub>
+                      <mi>m</mi>
+                      <mn>1</mn>
+                    </msub>
+                  </mrow>
+                </mtd>
+                <mtd columnalign="center">
+                  <mrow>
+                    <mo>-</mo>
+                    <msub>
+                      <mi>m</mi>
+                      <mn>2</mn>
+                    </msub>
+                  </mrow>
+                </mtd>
+                <mtd columnalign="center">
+                  <mrow>
+                    <mo>-</mo>
+                    <msub>
+                      <mi>m</mi>
+                      <mn>3</mn>
+                    </msub>
+                  </mrow>
+                </mtd>
+              </mtr>
+            </mtable>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.10.2.cmml">
+        <eq id="S0.Ex1.m1.1.2.cmml"/>
+        <matrix id="S0.Ex1.m1.1.1.3.cmml">
+          <matrixrow id="S0.Ex1.m1.1.1.3a.cmml">
+            <apply id="S0.Ex1.m1.1.1.3.1.1.1.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.1.1.1.1.3.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.3.1.1.1.1.1.cmml">𝑗</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.1.1.1.1.2.1.cmml">1</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.1.3.1.1.2.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.1.1.2.1.3.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.3.1.1.2.1.1.cmml">𝑗</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.1.1.2.1.2.1.cmml">2</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.1.3.1.1.3.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.1.1.3.1.3.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.3.1.1.3.1.1.cmml">𝑗</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.1.1.3.1.2.1.cmml">3</cn>
+            </apply>
+          </matrixrow>
+          <matrixrow id="S0.Ex1.m1.1.1.3b.cmml">
+            <apply id="S0.Ex1.m1.1.1.3.1.2.1.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.1.2.1.1.3.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.3.1.2.1.1.1.cmml">𝑚</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.1.2.1.1.2.1.cmml">1</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.1.3.1.2.2.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.1.2.2.1.3.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.3.1.2.2.1.1.cmml">𝑚</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.1.2.2.1.2.1.cmml">2</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.1.3.1.2.3.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.1.2.3.1.3.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.3.1.2.3.1.1.cmml">𝑚</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.1.2.3.1.2.1.cmml">3</cn>
+            </apply>
+          </matrixrow>
+        </matrix>
+        <apply id="S0.Ex1.m1.1.10.2.1.cmml">
+          <times id="S0.Ex1.m1.1.10.2.1.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.10.2.1.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.10.2.1.2.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.10.2.1.2.2.2.cmml">
+              <minus id="S0.Ex1.m1.1.4.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.5.cmml">1</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.7.1.cmml">
+              <plus id="S0.Ex1.m1.1.7.1.3.cmml"/>
+              <apply id="S0.Ex1.m1.1.7.1.9.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.7.1.9.1.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.7.1.1.cmml">𝑗</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.7.1.2.1.cmml">1</cn>
+              </apply>
+              <apply id="S0.Ex1.m1.1.7.1.10.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.7.1.10.1.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.7.1.4.cmml">𝑗</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.7.1.5.1.cmml">2</cn>
+              </apply>
+              <apply id="S0.Ex1.m1.1.7.1.11.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.7.1.11.1.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.7.1.7.cmml">𝑗</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.7.1.8.1.cmml">3</cn>
+              </apply>
+            </apply>
+          </apply>
+          <matrix id="S0.Ex1.m1.1.8.3.cmml">
+            <matrixrow id="S0.Ex1.m1.1.8.3a.cmml">
+              <apply id="S0.Ex1.m1.1.8.3.1.1.1.1.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.1.1.1.1.3.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.8.3.1.1.1.1.1.cmml">𝑗</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.8.3.1.1.1.1.2.1.cmml">1</cn>
+              </apply>
+              <apply id="S0.Ex1.m1.1.8.3.1.1.2.1.cmml">
+                <times id="S0.Ex1.m1.1.8.3.1.1.2.1.4.cmml"/>
+                <apply id="S0.Ex1.m1.1.8.3.1.1.2.1.5.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.1.1.2.1.5.1.cmml">subscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.8.3.1.1.2.1.1.cmml">𝑗</ci>
+                  <ci id="S0.Ex1.m1.1.8.3.1.1.2.1.2.1.cmml">%</ci>
+                </apply>
+                <cn type="integer" id="S0.Ex1.m1.1.8.3.1.1.2.1.3.cmml">2</cn>
+              </apply>
+              <apply id="S0.Ex1.m1.1.8.3.1.1.3.1.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.1.1.3.1.3.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.8.3.1.1.3.1.1.cmml">𝑗</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.8.3.1.1.3.1.2.1.cmml">3</cn>
+              </apply>
+            </matrixrow>
+            <matrixrow id="S0.Ex1.m1.1.8.3b.cmml">
+              <apply id="S0.Ex1.m1.1.8.3.1.2.1.1.cmml">
+                <minus id="S0.Ex1.m1.1.8.3.1.2.1.1.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.8.3.1.2.1.1.4.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.1.2.1.1.4.1.cmml">subscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.8.3.1.2.1.1.2.cmml">𝑚</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.8.3.1.2.1.1.3.1.cmml">1</cn>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.8.3.1.2.2.1.cmml">
+                <minus id="S0.Ex1.m1.1.8.3.1.2.2.1.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.8.3.1.2.2.1.4.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.1.2.2.1.4.1.cmml">subscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.8.3.1.2.2.1.2.cmml">𝑚</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.8.3.1.2.2.1.3.1.cmml">2</cn>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.8.3.1.2.3.1.cmml">
+                <minus id="S0.Ex1.m1.1.8.3.1.2.3.1.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.8.3.1.2.3.1.4.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.1.2.3.1.4.1.cmml">subscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.8.3.1.2.3.1.2.cmml">𝑚</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.8.3.1.2.3.1.3.1.cmml">3</cn>
+                </apply>
+              </apply>
+            </matrixrow>
+          </matrix>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

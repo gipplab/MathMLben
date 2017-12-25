@@ -1,0 +1,69 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="n=x_{1}^{2}+x_{2}^{2}+\dots+x_{k}^{2}," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mi>n</mi>
+        <mo>=</mo>
+        <mrow>
+          <msubsup>
+            <mi>x</mi>
+            <mn>1</mn>
+            <mn>2</mn>
+          </msubsup>
+          <mo>+</mo>
+          <msubsup>
+            <mi>x</mi>
+            <mn>2</mn>
+            <mn>2</mn>
+          </msubsup>
+          <mo>+</mo>
+          <mi mathvariant="normal">…</mi>
+          <mo>+</mo>
+          <msubsup>
+            <mi>x</mi>
+            <mi>k</mi>
+            <mn>2</mn>
+          </msubsup>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.17.2.cmml">
+        <eq id="S0.Ex1.m1.1.2.cmml"/>
+        <ci id="S0.Ex1.m1.1.1.cmml">𝑛</ci>
+        <apply id="S0.Ex1.m1.1.17.2.1.cmml">
+          <plus id="S0.Ex1.m1.1.6.cmml"/>
+          <apply id="S0.Ex1.m1.1.17.2.1.1.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.1.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.17.2.1.1.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.1.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.3.cmml">𝑥</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.4.1.cmml">1</cn>
+            </apply>
+            <cn type="integer" id="S0.Ex1.m1.1.5.1.cmml">2</cn>
+          </apply>
+          <apply id="S0.Ex1.m1.1.17.2.1.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.2.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.17.2.1.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.7.cmml">𝑥</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.8.1.cmml">2</cn>
+            </apply>
+            <cn type="integer" id="S0.Ex1.m1.1.9.1.cmml">2</cn>
+          </apply>
+          <ci id="S0.Ex1.m1.1.11.cmml">…</ci>
+          <apply id="S0.Ex1.m1.1.17.2.1.3.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.3.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.17.2.1.3.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.3.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.13.cmml">𝑥</ci>
+              <ci id="S0.Ex1.m1.1.14.1.cmml">𝑘</ci>
+            </apply>
+            <cn type="integer" id="S0.Ex1.m1.1.15.1.cmml">2</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

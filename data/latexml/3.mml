@@ -1,0 +1,33 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="(p-1)!^{n}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <msup id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">
+      <mrow id="p1.1.m1.1.8.2" xref="p1.1.m1.1.8.2.cmml">
+        <mrow id="p1.1.m1.1.8.2.1" xref="p1.1.m1.1.8.2.1.2.cmml">
+          <mo stretchy="false" id="p1.1.m1.1.1" xref="p1.1.m1.1.8.2.1.2.cmml">(</mo>
+          <mrow id="p1.1.m1.1.8.2.1.2" xref="p1.1.m1.1.8.2.1.2.cmml">
+            <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">p</mi>
+            <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">-</mo>
+            <mn id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">1</mn>
+          </mrow>
+          <mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.8.2.1.2.cmml">)</mo>
+        </mrow>
+        <mo lspace="0pt" rspace="3.5pt" id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">!</mo>
+      </mrow>
+      <mi id="p1.1.m1.1.7.1" xref="p1.1.m1.1.7.1.cmml">n</mi>
+    </msup>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">
+        <csymbol cd="ambiguous" id="p1.1.m1.1.8.1.cmml" xref="p1.1.m1.1.8">superscript</csymbol>
+        <apply id="p1.1.m1.1.8.2.cmml" xref="p1.1.m1.1.8.2">
+          <factorial id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
+          <apply id="p1.1.m1.1.8.2.1.2.cmml" xref="p1.1.m1.1.8.2.1">
+            <minus id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3"/>
+            <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝑝</ci>
+            <cn type="integer" id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">1</cn>
+          </apply>
+        </apply>
+        <ci id="p1.1.m1.1.7.1.cmml" xref="p1.1.m1.1.7.1">𝑛</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

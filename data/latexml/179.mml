@@ -1,0 +1,107 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\sum_{n=1}^{\infty}f(n)=\prod_{p}(1-f(p))^{-1}." display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <munderover>
+            <mo largeop="true" movablelimits="false" symmetric="true">∑</mo>
+            <mrow>
+              <mi>n</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mi mathvariant="normal">∞</mi>
+          </munderover>
+          <mrow>
+            <mi>f</mi>
+            <mo>⁢</mo>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mi>n</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <munder>
+            <mo largeop="true" movablelimits="false" symmetric="true">∏</mo>
+            <mi>p</mi>
+          </munder>
+          <msup>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mrow>
+                <mn>1</mn>
+                <mo>-</mo>
+                <mrow>
+                  <mi>f</mi>
+                  <mo>⁢</mo>
+                  <mrow>
+                    <mo stretchy="false">(</mo>
+                    <mi>p</mi>
+                    <mo stretchy="false">)</mo>
+                  </mrow>
+                </mrow>
+              </mrow>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msup>
+        </mrow>
+      </mrow>
+      <mo>.</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.21.2.cmml">
+        <eq id="S0.Ex1.m1.1.8.cmml"/>
+        <apply id="S0.Ex1.m1.1.21.2.1.cmml">
+          <apply id="S0.Ex1.m1.1.21.2.1.1.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.21.2.1.1.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.21.2.1.1.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.21.2.1.1.2.1.cmml">subscript</csymbol>
+              <sum id="S0.Ex1.m1.1.1.cmml"/>
+              <apply id="S0.Ex1.m1.1.2.1.cmml">
+                <eq id="S0.Ex1.m1.1.2.1.2.cmml"/>
+                <ci id="S0.Ex1.m1.1.2.1.1.cmml">𝑛</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.2.1.3.cmml">1</cn>
+              </apply>
+            </apply>
+            <infinity id="S0.Ex1.m1.1.3.1.cmml"/>
+          </apply>
+          <apply id="S0.Ex1.m1.1.21.2.1.2.cmml">
+            <times id="S0.Ex1.m1.1.21.2.1.2.1.cmml"/>
+            <ci id="S0.Ex1.m1.1.4.cmml">𝑓</ci>
+            <ci id="S0.Ex1.m1.1.6.cmml">𝑛</ci>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.21.2.2.cmml">
+          <apply id="S0.Ex1.m1.1.21.2.2.1.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.21.2.2.1.1.cmml">subscript</csymbol>
+            <csymbol cd="latexml" id="S0.Ex1.m1.1.9.cmml">product</csymbol>
+            <ci id="S0.Ex1.m1.1.10.1.cmml">𝑝</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.21.2.2.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.21.2.2.2.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.21.2.2.2.2.2.cmml">
+              <minus id="S0.Ex1.m1.1.13.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.12.cmml">1</cn>
+              <apply id="S0.Ex1.m1.1.21.2.2.2.2.2.1.cmml">
+                <times id="S0.Ex1.m1.1.21.2.2.2.2.2.1.1.cmml"/>
+                <ci id="S0.Ex1.m1.1.14.cmml">𝑓</ci>
+                <ci id="S0.Ex1.m1.1.16.cmml">𝑝</ci>
+              </apply>
+            </apply>
+            <apply id="S0.Ex1.m1.1.19.1.cmml">
+              <minus id="S0.Ex1.m1.1.19.1.1.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.19.1.2.cmml">1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,76 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\Gamma\left(z\right)\Gamma\left(1-z\right)=\pi/\sin\left(\pi z\right)," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi mathvariant="normal">Γ</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+          </mrow>
+          <mo>⁢</mo>
+          <mi mathvariant="normal">Γ</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mn>1</mn>
+              <mo>-</mo>
+              <mi>z</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mi>π</mi>
+          <mo>/</mo>
+          <mrow>
+            <mi>sin</mi>
+            <mo>⁡</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mi>π</mi>
+                <mo>⁢</mo>
+                <mi>z</mi>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.20.2.cmml">
+        <eq id="S0.Ex1.m1.1.11.cmml"/>
+        <apply id="S0.Ex1.m1.1.20.2.1.cmml">
+          <times id="S0.Ex1.m1.1.20.2.1.1.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">Γ</ci>
+          <ci id="S0.Ex1.m1.1.3.cmml">𝑧</ci>
+          <ci id="S0.Ex1.m1.1.5.cmml">Γ</ci>
+          <apply id="S0.Ex1.m1.1.20.2.1.3.2.cmml">
+            <minus id="S0.Ex1.m1.1.8.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.7.cmml">1</cn>
+            <ci id="S0.Ex1.m1.1.9.cmml">𝑧</ci>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.20.2.2.cmml">
+          <divide id="S0.Ex1.m1.1.13.cmml"/>
+          <ci id="S0.Ex1.m1.1.12.cmml">𝜋</ci>
+          <apply id="S0.Ex1.m1.1.20.2.2.1.1.cmml">
+            <sin id="S0.Ex1.m1.1.14.cmml"/>
+            <apply id="S0.Ex1.m1.1.20.2.2.1.2.1.cmml">
+              <times id="S0.Ex1.m1.1.20.2.2.1.2.1.1.cmml"/>
+              <ci id="S0.Ex1.m1.1.16.cmml">𝜋</ci>
+              <ci id="S0.Ex1.m1.1.17.cmml">𝑧</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

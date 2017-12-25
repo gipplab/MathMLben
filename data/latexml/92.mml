@@ -1,0 +1,99 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="G_{k,\sigma}(y)=1-(1+ky/\sigma)^{-1/k}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">
+      <mrow id="p1.1.m1.1.18.1" xref="p1.1.m1.1.18.1.cmml">
+        <msub id="p1.1.m1.1.18.1.2" xref="p1.1.m1.1.18.1.2.cmml">
+          <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">G</mi>
+          <mrow id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.4.cmml">
+            <mi id="p1.1.m1.1.2.1.1" xref="p1.1.m1.1.2.1.1.cmml">k</mi>
+            <mo id="p1.1.m1.1.2.1.2" xref="p1.1.m1.1.2.1.4.cmml">,</mo>
+            <mi id="p1.1.m1.1.2.1.3" xref="p1.1.m1.1.2.1.3.cmml">σ</mi>
+          </mrow>
+        </msub>
+        <mo id="p1.1.m1.1.18.1.1" xref="p1.1.m1.1.18.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.18.1.3" xref="p1.1.m1.1.18.1.cmml">
+          <mo stretchy="false" id="p1.1.m1.1.3" xref="p1.1.m1.1.18.1.cmml">(</mo>
+          <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">y</mi>
+          <mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.18.1.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">=</mo>
+      <mrow id="p1.1.m1.1.18.2" xref="p1.1.m1.1.18.2.cmml">
+        <mn id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">1</mn>
+        <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">-</mo>
+        <msup id="p1.1.m1.1.18.2.1" xref="p1.1.m1.1.18.2.1.cmml">
+          <mrow id="p1.1.m1.1.18.2.1.2" xref="p1.1.m1.1.18.2.1.2.2.cmml">
+            <mo stretchy="false" id="p1.1.m1.1.9" xref="p1.1.m1.1.18.2.1.2.2.cmml">(</mo>
+            <mrow id="p1.1.m1.1.18.2.1.2.2" xref="p1.1.m1.1.18.2.1.2.2.cmml">
+              <mn id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">1</mn>
+              <mo id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">+</mo>
+              <mrow id="p1.1.m1.1.18.2.1.2.2.1" xref="p1.1.m1.1.18.2.1.2.2.1.cmml">
+                <mrow id="p1.1.m1.1.18.2.1.2.2.1.1" xref="p1.1.m1.1.18.2.1.2.2.1.1.cmml">
+                  <mi id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">k</mi>
+                  <mo id="p1.1.m1.1.18.2.1.2.2.1.1.1" xref="p1.1.m1.1.18.2.1.2.2.1.1.1.cmml">⁢</mo>
+                  <mi id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">y</mi>
+                </mrow>
+                <mo id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">/</mo>
+                <mi id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">σ</mi>
+              </mrow>
+            </mrow>
+            <mo stretchy="false" id="p1.1.m1.1.16" xref="p1.1.m1.1.18.2.1.2.2.cmml">)</mo>
+          </mrow>
+          <mrow id="p1.1.m1.1.17.1" xref="p1.1.m1.1.17.1.cmml">
+            <mo id="p1.1.m1.1.17.1.1" xref="p1.1.m1.1.17.1.1.cmml">-</mo>
+            <mrow id="p1.1.m1.1.17.1.5" xref="p1.1.m1.1.17.1.5.cmml">
+              <mn id="p1.1.m1.1.17.1.2" xref="p1.1.m1.1.17.1.2.cmml">1</mn>
+              <mo id="p1.1.m1.1.17.1.3" xref="p1.1.m1.1.17.1.3.cmml">/</mo>
+              <mi id="p1.1.m1.1.17.1.4" xref="p1.1.m1.1.17.1.4.cmml">k</mi>
+            </mrow>
+          </mrow>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">
+        <eq id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
+        <apply id="p1.1.m1.1.18.1.cmml" xref="p1.1.m1.1.18.1">
+          <times id="p1.1.m1.1.18.1.1.cmml" xref="p1.1.m1.1.18.1.1"/>
+          <apply id="p1.1.m1.1.18.1.2.cmml" xref="p1.1.m1.1.18.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.18.1.2.1.cmml" xref="p1.1.m1.1.18.1.2">subscript</csymbol>
+            <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝐺</ci>
+            <list id="p1.1.m1.1.2.1.4.cmml" xref="p1.1.m1.1.2.1">
+              <ci id="p1.1.m1.1.2.1.1.cmml" xref="p1.1.m1.1.2.1.1">𝑘</ci>
+              <ci id="p1.1.m1.1.2.1.3.cmml" xref="p1.1.m1.1.2.1.3">𝜎</ci>
+            </list>
+          </apply>
+          <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝑦</ci>
+        </apply>
+        <apply id="p1.1.m1.1.18.2.cmml" xref="p1.1.m1.1.18.2">
+          <minus id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8"/>
+          <cn type="integer" id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">1</cn>
+          <apply id="p1.1.m1.1.18.2.1.cmml" xref="p1.1.m1.1.18.2.1">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.18.2.1.1.cmml" xref="p1.1.m1.1.18.2.1">superscript</csymbol>
+            <apply id="p1.1.m1.1.18.2.1.2.2.cmml" xref="p1.1.m1.1.18.2.1.2">
+              <plus id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11"/>
+              <cn type="integer" id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">1</cn>
+              <apply id="p1.1.m1.1.18.2.1.2.2.1.cmml" xref="p1.1.m1.1.18.2.1.2.2.1">
+                <divide id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14"/>
+                <apply id="p1.1.m1.1.18.2.1.2.2.1.1.cmml" xref="p1.1.m1.1.18.2.1.2.2.1.1">
+                  <times id="p1.1.m1.1.18.2.1.2.2.1.1.1.cmml" xref="p1.1.m1.1.18.2.1.2.2.1.1.1"/>
+                  <ci id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">𝑘</ci>
+                  <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">𝑦</ci>
+                </apply>
+                <ci id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">𝜎</ci>
+              </apply>
+            </apply>
+            <apply id="p1.1.m1.1.17.1.cmml" xref="p1.1.m1.1.17.1">
+              <minus id="p1.1.m1.1.17.1.1.cmml" xref="p1.1.m1.1.17.1.1"/>
+              <apply id="p1.1.m1.1.17.1.5.cmml" xref="p1.1.m1.1.17.1.5">
+                <divide id="p1.1.m1.1.17.1.3.cmml" xref="p1.1.m1.1.17.1.3"/>
+                <cn type="integer" id="p1.1.m1.1.17.1.2.cmml" xref="p1.1.m1.1.17.1.2">1</cn>
+                <ci id="p1.1.m1.1.17.1.4.cmml" xref="p1.1.m1.1.17.1.4">𝑘</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

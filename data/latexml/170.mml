@@ -1,0 +1,160 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\frac{{\mathrm{d}}^{2}w}{{\mathrm{d}z^{\prime}}^{2}}+(h^{\prime}-\nu(\nu+1){k^%&#10;{%}{\prime}}^{2}{\operatorname{sn}^{2}}\left(z^{\prime},k^{\prime}\right))w=0." display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow id="S0.Ex1.m1.1b">
+      <mfrac>
+        <mrow>
+          <msup>
+            <mi mathvariant="normal">d</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>⁢</mo>
+          <mi>w</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">d</mi>
+          <mo>⁢</mo>
+          <mmultiscripts>
+            <mi>z</mi>
+            <none/>
+            <mo>′</mo>
+            <none/>
+            <mn>2</mn>
+          </mmultiscripts>
+        </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mrow>
+        <mo stretchy="false">(</mo>
+        <msup>
+          <mi>h</mi>
+          <mo>′</mo>
+        </msup>
+        <mo>-</mo>
+        <mi>ν</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>ν</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <msup>
+          <mi>k</mi>
+          <mi mathvariant="normal">%</mi>
+        </msup>
+        <msup>
+          <mo>′</mo>
+          <mn>2</mn>
+        </msup>
+        <msup>
+          <mi>sn</mi>
+          <mn>2</mn>
+        </msup>
+        <mrow>
+          <mo>(</mo>
+          <msup>
+            <mi>z</mi>
+            <mo>′</mo>
+          </msup>
+          <mo>,</mo>
+          <msup>
+            <mi>k</mi>
+            <mo>′</mo>
+          </msup>
+          <mo>)</mo>
+        </mrow>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mi>w</mi>
+      <mo>=</mo>
+      <mn>0</mn>
+      <mo>.</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1c">
+      <cerror id="S0.Ex1.m1.1d">
+        <csymbol cd="ambiguous" id="S0.Ex1.m1.1e">fragments</csymbol>
+        <apply id="S0.Ex1.m1.1.1.cmml">
+          <divide id="S0.Ex1.m1.1.1.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.1.2.cmml">
+            <times id="S0.Ex1.m1.1.1.2.4.cmml"/>
+            <apply id="S0.Ex1.m1.1.1.2.5.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.2.5.1.cmml">superscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.2.1.cmml">d</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.1.2.2.1.cmml">2</cn>
+            </apply>
+            <ci id="S0.Ex1.m1.1.1.2.3.cmml">𝑤</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.1.3.cmml">
+            <times id="S0.Ex1.m1.1.1.3.5.cmml"/>
+            <ci id="S0.Ex1.m1.1.1.3.1.cmml">d</ci>
+            <apply id="S0.Ex1.m1.1.1.3.6.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.6.1.cmml">superscript</csymbol>
+              <apply id="S0.Ex1.m1.1.1.3.6.2.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.3.6.2.1.cmml">superscript</csymbol>
+                <ci id="S0.Ex1.m1.1.1.3.2.cmml">𝑧</ci>
+                <ci id="S0.Ex1.m1.1.1.3.3.1.cmml">′</ci>
+              </apply>
+              <cn type="integer" id="S0.Ex1.m1.1.1.3.4.1.cmml">2</cn>
+            </apply>
+          </apply>
+        </apply>
+        <plus id="S0.Ex1.m1.1.2.cmml"/>
+        <cerror id="S0.Ex1.m1.1.16.cmml">
+          <csymbol cd="ambiguous" id="S0.Ex1.m1.1.16a.cmml">fragments</csymbol>
+          <ci id="S0.Ex1.m1.1.3.cmml">(</ci>
+          <apply id="S0.Ex1.m1.1.32.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.32.1.cmml">superscript</csymbol>
+            <ci id="S0.Ex1.m1.1.4.cmml">ℎ</ci>
+            <ci id="S0.Ex1.m1.1.5.1.cmml">′</ci>
+          </apply>
+          <minus id="S0.Ex1.m1.1.6.cmml"/>
+          <csymbol cd="unknown" id="S0.Ex1.m1.1.7.cmml">ν</csymbol>
+          <cerror id="S0.Ex1.m1.1.5.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.5a.cmml">fragments</csymbol>
+            <ci id="S0.Ex1.m1.1.8.cmml">(</ci>
+            <csymbol cd="unknown" id="S0.Ex1.m1.1.9.cmml">ν</csymbol>
+            <plus id="S0.Ex1.m1.1.10.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.11.cmml">1</cn>
+            <ci id="S0.Ex1.m1.1.12.cmml">)</ci>
+          </cerror>
+          <apply id="S0.Ex1.m1.1.33.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.33.1.cmml">superscript</csymbol>
+            <ci id="S0.Ex1.m1.1.13.cmml">𝑘</ci>
+            <ci id="S0.Ex1.m1.1.14.1.cmml">%</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.34.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.34.1.cmml">superscript</csymbol>
+            <ci id="S0.Ex1.m1.1.15.cmml">′</ci>
+            <cn type="integer" id="S0.Ex1.m1.1.16.1.cmml">2</cn>
+          </apply>
+          <apply id="S0.Ex1.m1.1.35.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.35.1.cmml">superscript</csymbol>
+            <ci id="S0.Ex1.m1.1.18.cmml">sn</ci>
+            <cn type="integer" id="S0.Ex1.m1.1.19.1.cmml">2</cn>
+          </apply>
+          <cerror id="S0.Ex1.m1.1.14.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.14a.cmml">fragments</csymbol>
+            <ci id="S0.Ex1.m1.1.20.cmml">(</ci>
+            <apply id="S0.Ex1.m1.1.36.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.36.1.cmml">superscript</csymbol>
+              <ci id="S0.Ex1.m1.1.21.cmml">𝑧</ci>
+              <ci id="S0.Ex1.m1.1.22.1.cmml">′</ci>
+            </apply>
+            <ci id="S0.Ex1.m1.1.23.cmml">,</ci>
+            <apply id="S0.Ex1.m1.1.37.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.37.1.cmml">superscript</csymbol>
+              <ci id="S0.Ex1.m1.1.24.cmml">𝑘</ci>
+              <ci id="S0.Ex1.m1.1.25.1.cmml">′</ci>
+            </apply>
+            <ci id="S0.Ex1.m1.1.26.cmml">)</ci>
+          </cerror>
+          <ci id="S0.Ex1.m1.1.27.cmml">)</ci>
+        </cerror>
+        <csymbol cd="unknown" id="S0.Ex1.m1.1.28.cmml">w</csymbol>
+        <eq id="S0.Ex1.m1.1.29.cmml"/>
+        <cn type="integer" id="S0.Ex1.m1.1.30.cmml">0</cn>
+        <ci id="S0.Ex1.m1.1.31.cmml">.</ci>
+      </cerror>
+    </annotation-xml>
+  </semantics>
+</math>

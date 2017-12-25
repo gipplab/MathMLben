@@ -1,0 +1,83 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\left\{z\in H:\left|z\right|&gt;1,\,\left|\,\mbox{Re}(z)\,\right|&lt;\frac{1}{2}\right\}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.24" xref="p1.1.m1.1.24.1.cmml">
+      <mo id="p1.1.m1.1.1" xref="p1.1.m1.1.24.1.1.cmml">{</mo>
+      <mrow id="p1.1.m1.1.24.2" xref="p1.1.m1.1.24.2.cmml">
+        <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">z</mi>
+        <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">∈</mo>
+        <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">H</mi>
+      </mrow>
+      <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.24.1.1.cmml">:</mo>
+      <mrow id="p1.1.m1.1.24.3" xref="p1.1.m1.1.24.3.1.cmml">
+        <mrow id="p1.1.m1.1.24.3.2" xref="p1.1.m1.1.24.3.2.cmml">
+          <mrow id="p1.1.m1.1.24.3.2.1" xref="p1.1.m1.1.24.3.2.1.1.cmml">
+            <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.24.3.2.1.1.1.cmml">|</mo>
+            <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">z</mi>
+            <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.24.3.2.1.1.1.cmml">|</mo>
+          </mrow>
+          <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">&gt;</mo>
+          <mn id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">1</mn>
+        </mrow>
+        <mo rspace="4.2pt" id="p1.1.m1.1.11" xref="p1.1.m1.1.24.3.1a.cmml">,</mo>
+        <mrow id="p1.1.m1.1.24.3.3" xref="p1.1.m1.1.24.3.3.cmml">
+          <mrow id="p1.1.m1.1.24.3.3.1" xref="p1.1.m1.1.24.3.3.1.1.cmml">
+            <mo rspace="4.2pt" id="p1.1.m1.1.13" xref="p1.1.m1.1.24.3.3.1.1.1.cmml">|</mo>
+            <mrow id="p1.1.m1.1.24.3.3.1.2" xref="p1.1.m1.1.24.3.3.1.2.cmml">
+              <mtext id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">Re</mtext>
+              <mo id="p1.1.m1.1.24.3.3.1.2.1" xref="p1.1.m1.1.24.3.3.1.2.1.cmml">⁢</mo>
+              <mrow id="p1.1.m1.1.24.3.3.1.2.2" xref="p1.1.m1.1.24.3.3.1.2.cmml">
+                <mo stretchy="false" id="p1.1.m1.1.16" xref="p1.1.m1.1.24.3.3.1.2.cmml">(</mo>
+                <mi id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">z</mi>
+                <mo rspace="4.2pt" stretchy="false" id="p1.1.m1.1.18" xref="p1.1.m1.1.24.3.3.1.2.cmml">)</mo>
+              </mrow>
+            </mrow>
+            <mo id="p1.1.m1.1.20" xref="p1.1.m1.1.24.3.3.1.1.1.cmml">|</mo>
+          </mrow>
+          <mo id="p1.1.m1.1.21" xref="p1.1.m1.1.21.cmml">&lt;</mo>
+          <mfrac id="p1.1.m1.1.22" xref="p1.1.m1.1.22.cmml">
+            <mn id="p1.1.m1.1.22.2" xref="p1.1.m1.1.22.2.cmml">1</mn>
+            <mn id="p1.1.m1.1.22.3" xref="p1.1.m1.1.22.3.cmml">2</mn>
+          </mfrac>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.23" xref="p1.1.m1.1.24.1.1.cmml">}</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.24.1.cmml" xref="p1.1.m1.1.24">
+        <csymbol cd="latexml" id="p1.1.m1.1.24.1.1.cmml" xref="p1.1.m1.1.1">conditional-set</csymbol>
+        <apply id="p1.1.m1.1.24.2.cmml" xref="p1.1.m1.1.24.2">
+          <in id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3"/>
+          <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝑧</ci>
+          <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝐻</ci>
+        </apply>
+        <apply id="p1.1.m1.1.24.3.1.cmml" xref="p1.1.m1.1.24.3">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.24.3.1a.cmml" xref="p1.1.m1.1.11">formulae-sequence</csymbol>
+          <apply id="p1.1.m1.1.24.3.2.cmml" xref="p1.1.m1.1.24.3.2">
+            <gt id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9"/>
+            <apply id="p1.1.m1.1.24.3.2.1.1.cmml" xref="p1.1.m1.1.24.3.2.1">
+              <abs id="p1.1.m1.1.24.3.2.1.1.1.cmml" xref="p1.1.m1.1.6"/>
+              <ci id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">𝑧</ci>
+            </apply>
+            <cn type="integer" id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">1</cn>
+          </apply>
+          <apply id="p1.1.m1.1.24.3.3.cmml" xref="p1.1.m1.1.24.3.3">
+            <lt id="p1.1.m1.1.21.cmml" xref="p1.1.m1.1.21"/>
+            <apply id="p1.1.m1.1.24.3.3.1.1.cmml" xref="p1.1.m1.1.24.3.3.1">
+              <abs id="p1.1.m1.1.24.3.3.1.1.1.cmml" xref="p1.1.m1.1.13"/>
+              <apply id="p1.1.m1.1.24.3.3.1.2.cmml" xref="p1.1.m1.1.24.3.3.1.2">
+                <times id="p1.1.m1.1.24.3.3.1.2.1.cmml" xref="p1.1.m1.1.24.3.3.1.2.1"/>
+                <mtext id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">Re</mtext>
+                <ci id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">𝑧</ci>
+              </apply>
+            </apply>
+            <apply id="p1.1.m1.1.22.cmml" xref="p1.1.m1.1.22">
+              <divide id="p1.1.m1.1.22.1.cmml" xref="p1.1.m1.1.22"/>
+              <cn type="integer" id="p1.1.m1.1.22.2.cmml" xref="p1.1.m1.1.22.2">1</cn>
+              <cn type="integer" id="p1.1.m1.1.22.3.cmml" xref="p1.1.m1.1.22.3">2</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

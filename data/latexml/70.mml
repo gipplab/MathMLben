@@ -1,0 +1,136 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="df={\partial f\over\partial x}dx+{\partial f\over\partial y}dy=pdx+vdy" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.19" xref="p1.1.m1.1.19.cmml">
+      <mrow id="p1.1.m1.1.19.2" xref="p1.1.m1.1.19.2.cmml">
+        <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">d</mi>
+        <mo id="p1.1.m1.1.19.2.1" xref="p1.1.m1.1.19.2.1.cmml">⁢</mo>
+        <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">f</mi>
+      </mrow>
+      <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">=</mo>
+      <mrow id="p1.1.m1.1.19.3" xref="p1.1.m1.1.19.3.cmml">
+        <mrow id="p1.1.m1.1.19.3.1" xref="p1.1.m1.1.19.3.1.cmml">
+          <mfrac id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">
+            <mrow id="p1.1.m1.1.4.2" xref="p1.1.m1.1.4.2.cmml">
+              <mo id="p1.1.m1.1.4.2.1" xref="p1.1.m1.1.4.2.1.cmml">∂</mo>
+              <mo id="p1.1.m1.1.4.2a" xref="p1.1.m1.1.4.2.cmml">⁡</mo>
+              <mi id="p1.1.m1.1.4.2.2" xref="p1.1.m1.1.4.2.2.cmml">f</mi>
+            </mrow>
+            <mrow id="p1.1.m1.1.4.3" xref="p1.1.m1.1.4.3.cmml">
+              <mo id="p1.1.m1.1.4.3.1" xref="p1.1.m1.1.4.3.1.cmml">∂</mo>
+              <mo id="p1.1.m1.1.4.3a" xref="p1.1.m1.1.4.3.cmml">⁡</mo>
+              <mi id="p1.1.m1.1.4.3.2" xref="p1.1.m1.1.4.3.2.cmml">x</mi>
+            </mrow>
+          </mfrac>
+          <mo id="p1.1.m1.1.19.3.1.1" xref="p1.1.m1.1.19.3.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">d</mi>
+          <mo id="p1.1.m1.1.19.3.1.1a" xref="p1.1.m1.1.19.3.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">x</mi>
+        </mrow>
+        <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">+</mo>
+        <mrow id="p1.1.m1.1.19.3.2" xref="p1.1.m1.1.19.3.2.cmml">
+          <mfrac id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">
+            <mrow id="p1.1.m1.1.8.2" xref="p1.1.m1.1.8.2.cmml">
+              <mo id="p1.1.m1.1.8.2.1" xref="p1.1.m1.1.8.2.1.cmml">∂</mo>
+              <mo id="p1.1.m1.1.8.2a" xref="p1.1.m1.1.8.2.cmml">⁡</mo>
+              <mi id="p1.1.m1.1.8.2.2" xref="p1.1.m1.1.8.2.2.cmml">f</mi>
+            </mrow>
+            <mrow id="p1.1.m1.1.8.3" xref="p1.1.m1.1.8.3.cmml">
+              <mo id="p1.1.m1.1.8.3.1" xref="p1.1.m1.1.8.3.1.cmml">∂</mo>
+              <mo id="p1.1.m1.1.8.3a" xref="p1.1.m1.1.8.3.cmml">⁡</mo>
+              <mi id="p1.1.m1.1.8.3.2" xref="p1.1.m1.1.8.3.2.cmml">y</mi>
+            </mrow>
+          </mfrac>
+          <mo id="p1.1.m1.1.19.3.2.1" xref="p1.1.m1.1.19.3.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">d</mi>
+          <mo id="p1.1.m1.1.19.3.2.1a" xref="p1.1.m1.1.19.3.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">y</mi>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">=</mo>
+      <mrow id="p1.1.m1.1.19.4" xref="p1.1.m1.1.19.4.cmml">
+        <mrow id="p1.1.m1.1.19.4.1" xref="p1.1.m1.1.19.4.1.cmml">
+          <mi id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">p</mi>
+          <mo id="p1.1.m1.1.19.4.1.1" xref="p1.1.m1.1.19.4.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">d</mi>
+          <mo id="p1.1.m1.1.19.4.1.1a" xref="p1.1.m1.1.19.4.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">x</mi>
+        </mrow>
+        <mo id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">+</mo>
+        <mrow id="p1.1.m1.1.19.4.2" xref="p1.1.m1.1.19.4.2.cmml">
+          <mi id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">v</mi>
+          <mo id="p1.1.m1.1.19.4.2.1" xref="p1.1.m1.1.19.4.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">d</mi>
+          <mo id="p1.1.m1.1.19.4.2.1a" xref="p1.1.m1.1.19.4.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">y</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.19.cmml" xref="p1.1.m1.1.19">
+        <and id="p1.1.m1.1.19a.cmml" xref="p1.1.m1.1.19"/>
+        <apply id="p1.1.m1.1.19b.cmml" xref="p1.1.m1.1.19">
+          <eq id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3"/>
+          <apply id="p1.1.m1.1.19.2.cmml" xref="p1.1.m1.1.19.2">
+            <times id="p1.1.m1.1.19.2.1.cmml" xref="p1.1.m1.1.19.2.1"/>
+            <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑑</ci>
+            <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝑓</ci>
+          </apply>
+          <apply id="p1.1.m1.1.19.3.cmml" xref="p1.1.m1.1.19.3">
+            <plus id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7"/>
+            <apply id="p1.1.m1.1.19.3.1.cmml" xref="p1.1.m1.1.19.3.1">
+              <times id="p1.1.m1.1.19.3.1.1.cmml" xref="p1.1.m1.1.19.3.1.1"/>
+              <apply id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">
+                <divide id="p1.1.m1.1.4.1.cmml" xref="p1.1.m1.1.4"/>
+                <apply id="p1.1.m1.1.4.2.cmml" xref="p1.1.m1.1.4.2">
+                  <partialdiff id="p1.1.m1.1.4.2.1.cmml" xref="p1.1.m1.1.4.2.1"/>
+                  <ci id="p1.1.m1.1.4.2.2.cmml" xref="p1.1.m1.1.4.2.2">𝑓</ci>
+                </apply>
+                <apply id="p1.1.m1.1.4.3.cmml" xref="p1.1.m1.1.4.3">
+                  <partialdiff id="p1.1.m1.1.4.3.1.cmml" xref="p1.1.m1.1.4.3.1"/>
+                  <ci id="p1.1.m1.1.4.3.2.cmml" xref="p1.1.m1.1.4.3.2">𝑥</ci>
+                </apply>
+              </apply>
+              <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">𝑑</ci>
+              <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝑥</ci>
+            </apply>
+            <apply id="p1.1.m1.1.19.3.2.cmml" xref="p1.1.m1.1.19.3.2">
+              <times id="p1.1.m1.1.19.3.2.1.cmml" xref="p1.1.m1.1.19.3.2.1"/>
+              <apply id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">
+                <divide id="p1.1.m1.1.8.1.cmml" xref="p1.1.m1.1.8"/>
+                <apply id="p1.1.m1.1.8.2.cmml" xref="p1.1.m1.1.8.2">
+                  <partialdiff id="p1.1.m1.1.8.2.1.cmml" xref="p1.1.m1.1.8.2.1"/>
+                  <ci id="p1.1.m1.1.8.2.2.cmml" xref="p1.1.m1.1.8.2.2">𝑓</ci>
+                </apply>
+                <apply id="p1.1.m1.1.8.3.cmml" xref="p1.1.m1.1.8.3">
+                  <partialdiff id="p1.1.m1.1.8.3.1.cmml" xref="p1.1.m1.1.8.3.1"/>
+                  <ci id="p1.1.m1.1.8.3.2.cmml" xref="p1.1.m1.1.8.3.2">𝑦</ci>
+                </apply>
+              </apply>
+              <ci id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">𝑑</ci>
+              <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝑦</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply id="p1.1.m1.1.19c.cmml" xref="p1.1.m1.1.19">
+          <eq id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11"/>
+          <share href="#p1.1.m1.1.19.3.cmml" id="p1.1.m1.1.19d.cmml" xref="p1.1.m1.1.19"/>
+          <apply id="p1.1.m1.1.19.4.cmml" xref="p1.1.m1.1.19.4">
+            <plus id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15"/>
+            <apply id="p1.1.m1.1.19.4.1.cmml" xref="p1.1.m1.1.19.4.1">
+              <times id="p1.1.m1.1.19.4.1.1.cmml" xref="p1.1.m1.1.19.4.1.1"/>
+              <ci id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">𝑝</ci>
+              <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">𝑑</ci>
+              <ci id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">𝑥</ci>
+            </apply>
+            <apply id="p1.1.m1.1.19.4.2.cmml" xref="p1.1.m1.1.19.4.2">
+              <times id="p1.1.m1.1.19.4.2.1.cmml" xref="p1.1.m1.1.19.4.2.1"/>
+              <ci id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">𝑣</ci>
+              <ci id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">𝑑</ci>
+              <ci id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">𝑦</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

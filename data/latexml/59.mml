@@ -1,0 +1,90 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\sum_{n\in\mathbb{Z}^{d}}|\psi(t,n)|^{2}|n|\leq C" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">
+      <mrow id="p1.1.m1.1.17.1" xref="p1.1.m1.1.17.1.cmml">
+        <msub id="p1.1.m1.1.17.1.1" xref="p1.1.m1.1.17.1.1.cmml">
+          <mo largeop="true" symmetric="true" id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">∑</mo>
+          <mrow id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">
+            <mi id="p1.1.m1.1.2.1.1" xref="p1.1.m1.1.2.1.1.cmml">n</mi>
+            <mo id="p1.1.m1.1.2.1.2" xref="p1.1.m1.1.2.1.2.cmml">∈</mo>
+            <msup id="p1.1.m1.1.2.1.5" xref="p1.1.m1.1.2.1.5.cmml">
+              <mi id="p1.1.m1.1.2.1.3" xref="p1.1.m1.1.2.1.3.cmml">ℤ</mi>
+              <mi id="p1.1.m1.1.2.1.4.1" xref="p1.1.m1.1.2.1.4.1.cmml">d</mi>
+            </msup>
+          </mrow>
+        </msub>
+        <mrow id="p1.1.m1.1.17.1.2" xref="p1.1.m1.1.17.1.2.cmml">
+          <msup id="p1.1.m1.1.17.1.2.2" xref="p1.1.m1.1.17.1.2.2.cmml">
+            <mrow id="p1.1.m1.1.17.1.2.2.2" xref="p1.1.m1.1.17.1.2.2.2.1.cmml">
+              <mo stretchy="false" id="p1.1.m1.1.3" xref="p1.1.m1.1.17.1.2.2.2.1.1.cmml">|</mo>
+              <mrow id="p1.1.m1.1.17.1.2.2.2.2" xref="p1.1.m1.1.17.1.2.2.2.2.cmml">
+                <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">ψ</mi>
+                <mo id="p1.1.m1.1.17.1.2.2.2.2.1" xref="p1.1.m1.1.17.1.2.2.2.2.1.cmml">⁢</mo>
+                <mrow id="p1.1.m1.1.17.1.2.2.2.2.2" xref="p1.1.m1.1.17.1.2.2.2.2.2.1.cmml">
+                  <mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.17.1.2.2.2.2.2.1.cmml">(</mo>
+                  <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">t</mi>
+                  <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.17.1.2.2.2.2.2.1.cmml">,</mo>
+                  <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">n</mi>
+                  <mo stretchy="false" id="p1.1.m1.1.9" xref="p1.1.m1.1.17.1.2.2.2.2.2.1.cmml">)</mo>
+                </mrow>
+              </mrow>
+              <mo stretchy="false" id="p1.1.m1.1.10" xref="p1.1.m1.1.17.1.2.2.2.1.1.cmml">|</mo>
+            </mrow>
+            <mn id="p1.1.m1.1.11.1" xref="p1.1.m1.1.11.1.cmml">2</mn>
+          </msup>
+          <mo id="p1.1.m1.1.17.1.2.1" xref="p1.1.m1.1.17.1.2.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.17.1.2.3" xref="p1.1.m1.1.17.1.2.3.1.cmml">
+            <mo stretchy="false" id="p1.1.m1.1.12" xref="p1.1.m1.1.17.1.2.3.1.1.cmml">|</mo>
+            <mi id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">n</mi>
+            <mo stretchy="false" id="p1.1.m1.1.14" xref="p1.1.m1.1.17.1.2.3.1.1.cmml">|</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">≤</mo>
+      <mi id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">C</mi>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">
+        <leq id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15"/>
+        <apply id="p1.1.m1.1.17.1.cmml" xref="p1.1.m1.1.17.1">
+          <apply id="p1.1.m1.1.17.1.1.cmml" xref="p1.1.m1.1.17.1.1">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.17.1.1.1.cmml" xref="p1.1.m1.1.17.1.1">subscript</csymbol>
+            <sum id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1"/>
+            <apply id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">
+              <in id="p1.1.m1.1.2.1.2.cmml" xref="p1.1.m1.1.2.1.2"/>
+              <ci id="p1.1.m1.1.2.1.1.cmml" xref="p1.1.m1.1.2.1.1">𝑛</ci>
+              <apply id="p1.1.m1.1.2.1.5.cmml" xref="p1.1.m1.1.2.1.5">
+                <csymbol cd="ambiguous" id="p1.1.m1.1.2.1.5.1.cmml" xref="p1.1.m1.1.2.1.5">superscript</csymbol>
+                <ci id="p1.1.m1.1.2.1.3.cmml" xref="p1.1.m1.1.2.1.3">ℤ</ci>
+                <ci id="p1.1.m1.1.2.1.4.1.cmml" xref="p1.1.m1.1.2.1.4.1">𝑑</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply id="p1.1.m1.1.17.1.2.cmml" xref="p1.1.m1.1.17.1.2">
+            <times id="p1.1.m1.1.17.1.2.1.cmml" xref="p1.1.m1.1.17.1.2.1"/>
+            <apply id="p1.1.m1.1.17.1.2.2.cmml" xref="p1.1.m1.1.17.1.2.2">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.17.1.2.2.1.cmml" xref="p1.1.m1.1.17.1.2.2">superscript</csymbol>
+              <apply id="p1.1.m1.1.17.1.2.2.2.1.cmml" xref="p1.1.m1.1.17.1.2.2.2">
+                <abs id="p1.1.m1.1.17.1.2.2.2.1.1.cmml" xref="p1.1.m1.1.3"/>
+                <apply id="p1.1.m1.1.17.1.2.2.2.2.cmml" xref="p1.1.m1.1.17.1.2.2.2.2">
+                  <times id="p1.1.m1.1.17.1.2.2.2.2.1.cmml" xref="p1.1.m1.1.17.1.2.2.2.2.1"/>
+                  <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝜓</ci>
+                  <interval closure="open" id="p1.1.m1.1.17.1.2.2.2.2.2.1.cmml" xref="p1.1.m1.1.17.1.2.2.2.2.2">
+                    <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝑡</ci>
+                    <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑛</ci>
+                  </interval>
+                </apply>
+              </apply>
+              <cn type="integer" id="p1.1.m1.1.11.1.cmml" xref="p1.1.m1.1.11.1">2</cn>
+            </apply>
+            <apply id="p1.1.m1.1.17.1.2.3.1.cmml" xref="p1.1.m1.1.17.1.2.3">
+              <abs id="p1.1.m1.1.17.1.2.3.1.1.cmml" xref="p1.1.m1.1.12"/>
+              <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">𝑛</ci>
+            </apply>
+          </apply>
+        </apply>
+        <ci id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">𝐶</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

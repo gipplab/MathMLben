@@ -1,0 +1,171 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="F\left(1,a;a+1;-1\right)=\tfrac{1}{2}a\left(\psi\left(\tfrac{1}{2}a+\tfrac{1}{%&#10;%2}\right)-\psi\left(\tfrac{1}{2}a\right)\right)." display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>F</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>,</mo>
+            <mi>a</mi>
+            <mo>;</mo>
+            <mrow>
+              <mi>a</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>;</mo>
+            <mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mo>⁢</mo>
+          <mi>a</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mrow>
+                <mi>ψ</mi>
+                <mo>⁢</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mstyle displaystyle="false">
+                        <mfrac>
+                          <mn>1</mn>
+                          <mn>2</mn>
+                        </mfrac>
+                      </mstyle>
+                      <mo>⁢</mo>
+                      <mi>a</mi>
+                    </mrow>
+                    <mo>+</mo>
+                    <mstyle displaystyle="false">
+                      <mfrac>
+                        <mn>1</mn>
+                        <mrow>
+                          <mi mathvariant="normal">%</mi>
+                          <mo>⁢</mo>
+                          <mn>2</mn>
+                        </mrow>
+                      </mfrac>
+                    </mstyle>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+              <mo>-</mo>
+              <mrow>
+                <mi>ψ</mi>
+                <mo>⁢</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mstyle displaystyle="false">
+                      <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                      </mfrac>
+                    </mstyle>
+                    <mo>⁢</mo>
+                    <mi>a</mi>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>.</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.33.2.cmml">
+        <eq id="S0.Ex1.m1.1.14.cmml"/>
+        <apply id="S0.Ex1.m1.1.33.2.1.cmml">
+          <times id="S0.Ex1.m1.1.33.2.1.1.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">𝐹</ci>
+          <vector id="S0.Ex1.m1.1.33.2.1.2.1.cmml">
+            <cn type="integer" id="S0.Ex1.m1.1.3.cmml">1</cn>
+            <ci id="S0.Ex1.m1.1.5.cmml">𝑎</ci>
+            <apply id="S0.Ex1.m1.1.33.2.1.2.2.cmml">
+              <plus id="S0.Ex1.m1.1.8.cmml"/>
+              <ci id="S0.Ex1.m1.1.7.cmml">𝑎</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.9.cmml">1</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.33.2.1.2.3.cmml">
+              <minus id="S0.Ex1.m1.1.11.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.12.cmml">1</cn>
+            </apply>
+          </vector>
+        </apply>
+        <apply id="S0.Ex1.m1.1.33.2.2.cmml">
+          <times id="S0.Ex1.m1.1.33.2.2.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.15.cmml">
+            <divide id="S0.Ex1.m1.1.15.1.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.15.2.cmml">1</cn>
+            <cn type="integer" id="S0.Ex1.m1.1.15.3.cmml">2</cn>
+          </apply>
+          <ci id="S0.Ex1.m1.1.16.cmml">𝑎</ci>
+          <apply id="S0.Ex1.m1.1.33.2.2.2.2.cmml">
+            <minus id="S0.Ex1.m1.1.25.cmml"/>
+            <apply id="S0.Ex1.m1.1.33.2.2.2.2.1.cmml">
+              <times id="S0.Ex1.m1.1.33.2.2.2.2.1.1.cmml"/>
+              <ci id="S0.Ex1.m1.1.18.cmml">𝜓</ci>
+              <apply id="S0.Ex1.m1.1.33.2.2.2.2.1.2.2.cmml">
+                <plus id="S0.Ex1.m1.1.22.cmml"/>
+                <apply id="S0.Ex1.m1.1.33.2.2.2.2.1.2.2.1.cmml">
+                  <times id="S0.Ex1.m1.1.33.2.2.2.2.1.2.2.1.1.cmml"/>
+                  <apply id="S0.Ex1.m1.1.20.cmml">
+                    <divide id="S0.Ex1.m1.1.20.1.cmml"/>
+                    <cn type="integer" id="S0.Ex1.m1.1.20.2.cmml">1</cn>
+                    <cn type="integer" id="S0.Ex1.m1.1.20.3.cmml">2</cn>
+                  </apply>
+                  <ci id="S0.Ex1.m1.1.21.cmml">𝑎</ci>
+                </apply>
+                <apply id="S0.Ex1.m1.1.23.cmml">
+                  <divide id="S0.Ex1.m1.1.23.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.23.2.cmml">1</cn>
+                  <apply id="S0.Ex1.m1.1.23.3.cmml">
+                    <times id="S0.Ex1.m1.1.23.3.3.cmml"/>
+                    <ci id="S0.Ex1.m1.1.23.3.1.cmml">%</ci>
+                    <cn type="integer" id="S0.Ex1.m1.1.23.3.2.cmml">2</cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply id="S0.Ex1.m1.1.33.2.2.2.2.2.cmml">
+              <times id="S0.Ex1.m1.1.33.2.2.2.2.2.1.cmml"/>
+              <ci id="S0.Ex1.m1.1.26.cmml">𝜓</ci>
+              <apply id="S0.Ex1.m1.1.33.2.2.2.2.2.2.2.cmml">
+                <times id="S0.Ex1.m1.1.33.2.2.2.2.2.2.2.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.28.cmml">
+                  <divide id="S0.Ex1.m1.1.28.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.28.2.cmml">1</cn>
+                  <cn type="integer" id="S0.Ex1.m1.1.28.3.cmml">2</cn>
+                </apply>
+                <ci id="S0.Ex1.m1.1.29.cmml">𝑎</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

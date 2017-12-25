@@ -1,0 +1,68 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\Delta x\Delta p\geq|&amp;lt;[\widehat{x},\widehat{p}]&amp;gt;|" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1b">
+      <mi mathvariant="normal" id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">Δ</mi>
+      <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">x</mi>
+      <mi mathvariant="normal" id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">Δ</mi>
+      <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">p</mi>
+      <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">≥</mo>
+      <mo stretchy="false" id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">|</mo>
+      <mi mathvariant="normal" id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">&amp;</mi>
+      <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">l</mi>
+      <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">t</mi>
+      <mo id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">;</mo>
+      <mrow id="p1.1.m1.1.21" xref="p1.1.m1.1.21.cmml">
+        <mo stretchy="false" id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">[</mo>
+        <mover accent="true" id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">
+          <mi id="p1.1.m1.1.12.2" xref="p1.1.m1.1.12.2.cmml">x</mi>
+          <mo id="p1.1.m1.1.12.1" xref="p1.1.m1.1.12.1.cmml">^</mo>
+        </mover>
+        <mo id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">,</mo>
+        <mover accent="true" id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">
+          <mi id="p1.1.m1.1.14.2" xref="p1.1.m1.1.14.2.cmml">p</mi>
+          <mo id="p1.1.m1.1.14.1" xref="p1.1.m1.1.14.1.cmml">^</mo>
+        </mover>
+        <mo stretchy="false" id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">]</mo>
+      </mrow>
+      <mi mathvariant="normal" id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">&amp;</mi>
+      <mi id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">g</mi>
+      <mi id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">t</mi>
+      <mo id="p1.1.m1.1.19" xref="p1.1.m1.1.19.cmml">;</mo>
+      <mo stretchy="false" id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">|</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1c">
+      <cerror id="p1.1.m1.1d">
+        <csymbol cd="ambiguous" id="p1.1.m1.1e">fragments</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">Δ</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">x</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">Δ</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">p</csymbol>
+        <geq id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5"/>
+        <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">|</ci>
+        <csymbol cd="unknown" id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">&amp;</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">l</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">t</csymbol>
+        <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">;</ci>
+        <cerror id="p1.1.m1.1.21.cmml" xref="p1.1.m1.1.21">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.21a.cmml" xref="p1.1.m1.1.21">fragments</csymbol>
+          <ci id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11">[</ci>
+          <apply id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">
+            <ci id="p1.1.m1.1.12.1.cmml" xref="p1.1.m1.1.12.1">^</ci>
+            <ci id="p1.1.m1.1.12.2.cmml" xref="p1.1.m1.1.12.2">𝑥</ci>
+          </apply>
+          <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">,</ci>
+          <apply id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">
+            <ci id="p1.1.m1.1.14.1.cmml" xref="p1.1.m1.1.14.1">^</ci>
+            <ci id="p1.1.m1.1.14.2.cmml" xref="p1.1.m1.1.14.2">𝑝</ci>
+          </apply>
+          <ci id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">]</ci>
+        </cerror>
+        <csymbol cd="unknown" id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">&amp;</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">g</csymbol>
+        <csymbol cd="unknown" id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">t</csymbol>
+        <ci id="p1.1.m1.1.19.cmml" xref="p1.1.m1.1.19">;</ci>
+        <ci id="p1.1.m1.1.20.cmml" xref="p1.1.m1.1.20">|</ci>
+      </cerror>
+    </annotation-xml>
+  </semantics>
+</math>

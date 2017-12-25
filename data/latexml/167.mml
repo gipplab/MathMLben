@@ -1,0 +1,87 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\operatorname{am}\left(x,k\right)=\int_{0}^{x}\operatorname{dn}\left(t,k\right%&#10;%)\mathrm{d}t." display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>am</mi>
+          <mo>⁡</mo>
+          <mrow>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>,</mo>
+            <mi>k</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <msubsup>
+            <mo largeop="true" symmetric="true">∫</mo>
+            <mn>0</mn>
+            <mi>x</mi>
+          </msubsup>
+          <mrow>
+            <mrow>
+              <mi>dn</mi>
+              <mo>⁡</mo>
+              <mrow>
+                <mo>(</mo>
+                <mi>t</mi>
+                <mo>,</mo>
+                <mrow>
+                  <mi>k</mi>
+                  <mo>⁢</mo>
+                  <mi mathvariant="normal">%</mi>
+                </mrow>
+                <mo stretchy="false">)</mo>
+              </mrow>
+            </mrow>
+            <mo>⁢</mo>
+            <mrow>
+              <mo>d</mo>
+              <mi>t</mi>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>.</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.23.2.cmml">
+        <eq id="S0.Ex1.m1.1.8.cmml"/>
+        <apply id="S0.Ex1.m1.1.23.2.1.1.cmml">
+          <ci id="S0.Ex1.m1.1.2.cmml">am</ci>
+          <ci id="S0.Ex1.m1.1.4.cmml">𝑥</ci>
+          <ci id="S0.Ex1.m1.1.6.cmml">𝑘</ci>
+        </apply>
+        <apply id="S0.Ex1.m1.1.23.2.2.cmml">
+          <apply id="S0.Ex1.m1.1.23.2.2.1.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.23.2.2.1.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.23.2.2.1.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.23.2.2.1.2.1.cmml">subscript</csymbol>
+              <int id="S0.Ex1.m1.1.9.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.10.1.cmml">0</cn>
+            </apply>
+            <ci id="S0.Ex1.m1.1.11.1.cmml">𝑥</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.23.2.2.2.cmml">
+            <times id="S0.Ex1.m1.1.23.2.2.2.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.23.2.2.2.2.1.cmml">
+              <ci id="S0.Ex1.m1.1.13.cmml">dn</ci>
+              <ci id="S0.Ex1.m1.1.15.cmml">𝑡</ci>
+              <apply id="S0.Ex1.m1.1.23.2.2.2.2.2.1.cmml">
+                <times id="S0.Ex1.m1.1.23.2.2.2.2.2.1.1.cmml"/>
+                <ci id="S0.Ex1.m1.1.17.cmml">𝑘</ci>
+                <ci id="S0.Ex1.m1.1.18.cmml">%</ci>
+              </apply>
+            </apply>
+            <apply id="S0.Ex1.m1.1.23.2.2.2.3.cmml">
+              <csymbol cd="latexml" id="S0.Ex1.m1.1.20.cmml">differential-d</csymbol>
+              <ci id="S0.Ex1.m1.1.21.cmml">𝑡</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

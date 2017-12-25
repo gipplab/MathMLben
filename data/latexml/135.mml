@@ -1,0 +1,132 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="S\left(n,m\right)=\frac{1}{m!}\sum_{k=0}^{n-1}\genfrac{&lt;}{&gt;}{0.0pt}{}{n}{k}%%&#10;\genfrac{(}{)}{0.0pt}{}{k}{n-m}," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>S</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mi>n</mi>
+            <mo>,</mo>
+            <mi>m</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mi>m</mi>
+              <mo lspace="0pt" rspace="3.5pt">!</mo>
+            </mrow>
+          </mfrac>
+          <mo>⁢</mo>
+          <mrow>
+            <munderover>
+              <mo largeop="true" movablelimits="false" symmetric="true">∑</mo>
+              <mrow>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+              <mrow>
+                <mi>n</mi>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+            </munderover>
+            <mrow>
+              <mrow>
+                <mo>⟨</mo>
+                <mfrac linethickness="0.0pt">
+                  <mi>n</mi>
+                  <mi>k</mi>
+                </mfrac>
+                <mo>⟩</mo>
+              </mrow>
+              <mo>⁢</mo>
+              <mi mathvariant="normal">%</mi>
+              <mo>⁢</mo>
+              <mrow>
+                <mo>(</mo>
+                <mfrac linethickness="0.0pt">
+                  <mi>k</mi>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>-</mo>
+                    <mi>m</mi>
+                  </mrow>
+                </mfrac>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.16.2.cmml">
+        <eq id="S0.Ex1.m1.1.7.cmml"/>
+        <apply id="S0.Ex1.m1.1.16.2.1.cmml">
+          <times id="S0.Ex1.m1.1.16.2.1.1.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">𝑆</ci>
+          <interval closure="open" id="S0.Ex1.m1.1.16.2.1.2.1.cmml">
+            <ci id="S0.Ex1.m1.1.3.cmml">𝑛</ci>
+            <ci id="S0.Ex1.m1.1.5.cmml">𝑚</ci>
+          </interval>
+        </apply>
+        <apply id="S0.Ex1.m1.1.16.2.2.cmml">
+          <times id="S0.Ex1.m1.1.16.2.2.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.8.cmml">
+            <divide id="S0.Ex1.m1.1.8.1.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.8.2.cmml">1</cn>
+            <apply id="S0.Ex1.m1.1.8.3.cmml">
+              <factorial id="S0.Ex1.m1.1.8.3.2.cmml"/>
+              <ci id="S0.Ex1.m1.1.8.3.1.cmml">𝑚</ci>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.16.2.2.2.cmml">
+            <apply id="S0.Ex1.m1.1.16.2.2.2.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.16.2.2.2.1.1.cmml">superscript</csymbol>
+              <apply id="S0.Ex1.m1.1.16.2.2.2.1.2.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.16.2.2.2.1.2.1.cmml">subscript</csymbol>
+                <sum id="S0.Ex1.m1.1.9.cmml"/>
+                <apply id="S0.Ex1.m1.1.10.1.cmml">
+                  <eq id="S0.Ex1.m1.1.10.1.2.cmml"/>
+                  <ci id="S0.Ex1.m1.1.10.1.1.cmml">𝑘</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.10.1.3.cmml">0</cn>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.11.1.cmml">
+                <minus id="S0.Ex1.m1.1.11.1.2.cmml"/>
+                <ci id="S0.Ex1.m1.1.11.1.1.cmml">𝑛</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.11.1.3.cmml">1</cn>
+              </apply>
+            </apply>
+            <apply id="S0.Ex1.m1.1.16.2.2.2.2.cmml">
+              <times id="S0.Ex1.m1.1.16.2.2.2.2.1.cmml"/>
+              <apply id="S0.Ex1.m1.1.12.1.cmml">
+                <ci id="S0.Ex1.m1.1.12.3.1.cmml">FRACOP</ci>
+                <ci id="S0.Ex1.m1.1.12.3.2.cmml">𝑛</ci>
+                <ci id="S0.Ex1.m1.1.12.3.3.cmml">𝑘</ci>
+              </apply>
+              <ci id="S0.Ex1.m1.1.13.cmml">%</ci>
+              <apply id="S0.Ex1.m1.1.14.1.cmml">
+                <ci id="S0.Ex1.m1.1.14.3.1.cmml">FRACOP</ci>
+                <ci id="S0.Ex1.m1.1.14.3.2.cmml">𝑘</ci>
+                <apply id="S0.Ex1.m1.1.14.3.3.cmml">
+                  <minus id="S0.Ex1.m1.1.14.3.3.2.cmml"/>
+                  <ci id="S0.Ex1.m1.1.14.3.3.1.cmml">𝑛</ci>
+                  <ci id="S0.Ex1.m1.1.14.3.3.3.cmml">𝑚</ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,153 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="A_{n}B_{n-1}-B_{n}A_{n-1}=(-1)^{n-1}\prod^{n}_{k=1}a_{k}," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mrow>
+            <msub>
+              <mi>A</mi>
+              <mi>n</mi>
+            </msub>
+            <mo>⁢</mo>
+            <msub>
+              <mi>B</mi>
+              <mrow>
+                <mi>n</mi>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+          <mo>-</mo>
+          <mrow>
+            <msub>
+              <mi>B</mi>
+              <mi>n</mi>
+            </msub>
+            <mo>⁢</mo>
+            <msub>
+              <mi>A</mi>
+              <mrow>
+                <mi>n</mi>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <msup>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mrow>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msup>
+          <mo>⁢</mo>
+          <mrow>
+            <munderover>
+              <mo largeop="true" movablelimits="false" symmetric="true">∏</mo>
+              <mrow>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+              <mi>n</mi>
+            </munderover>
+            <msub>
+              <mi>a</mi>
+              <mi>k</mi>
+            </msub>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.22.2.cmml">
+        <eq id="S0.Ex1.m1.1.10.cmml"/>
+        <apply id="S0.Ex1.m1.1.22.2.1.cmml">
+          <minus id="S0.Ex1.m1.1.5.cmml"/>
+          <apply id="S0.Ex1.m1.1.22.2.1.1.cmml">
+            <times id="S0.Ex1.m1.1.22.2.1.1.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.22.2.1.1.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.1.1.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.cmml">𝐴</ci>
+              <ci id="S0.Ex1.m1.1.2.1.cmml">𝑛</ci>
+            </apply>
+            <apply id="S0.Ex1.m1.1.22.2.1.1.3.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.1.1.3.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.3.cmml">𝐵</ci>
+              <apply id="S0.Ex1.m1.1.4.1.cmml">
+                <minus id="S0.Ex1.m1.1.4.1.2.cmml"/>
+                <ci id="S0.Ex1.m1.1.4.1.1.cmml">𝑛</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.4.1.3.cmml">1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.22.2.1.2.cmml">
+            <times id="S0.Ex1.m1.1.22.2.1.2.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.22.2.1.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.1.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.6.cmml">𝐵</ci>
+              <ci id="S0.Ex1.m1.1.7.1.cmml">𝑛</ci>
+            </apply>
+            <apply id="S0.Ex1.m1.1.22.2.1.2.3.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.1.2.3.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.8.cmml">𝐴</ci>
+              <apply id="S0.Ex1.m1.1.9.1.cmml">
+                <minus id="S0.Ex1.m1.1.9.1.2.cmml"/>
+                <ci id="S0.Ex1.m1.1.9.1.1.cmml">𝑛</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.9.1.3.cmml">1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.22.2.2.cmml">
+          <times id="S0.Ex1.m1.1.22.2.2.1.cmml"/>
+          <apply id="S0.Ex1.m1.1.22.2.2.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.2.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.22.2.2.2.2.2.cmml">
+              <minus id="S0.Ex1.m1.1.12.cmml"/>
+              <cn type="integer" id="S0.Ex1.m1.1.13.cmml">1</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.15.1.cmml">
+              <minus id="S0.Ex1.m1.1.15.1.2.cmml"/>
+              <ci id="S0.Ex1.m1.1.15.1.1.cmml">𝑛</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.15.1.3.cmml">1</cn>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.22.2.2.3.cmml">
+            <apply id="S0.Ex1.m1.1.22.2.2.3.1.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.3.1.1.cmml">subscript</csymbol>
+              <apply id="S0.Ex1.m1.1.22.2.2.3.1.2.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.3.1.2.1.cmml">superscript</csymbol>
+                <csymbol cd="latexml" id="S0.Ex1.m1.1.16.cmml">product</csymbol>
+                <ci id="S0.Ex1.m1.1.17.1.cmml">𝑛</ci>
+              </apply>
+              <apply id="S0.Ex1.m1.1.18.1.cmml">
+                <eq id="S0.Ex1.m1.1.18.1.2.cmml"/>
+                <ci id="S0.Ex1.m1.1.18.1.1.cmml">𝑘</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.18.1.3.cmml">1</cn>
+              </apply>
+            </apply>
+            <apply id="S0.Ex1.m1.1.22.2.2.3.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.3.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.19.cmml">𝑎</ci>
+              <ci id="S0.Ex1.m1.1.20.1.cmml">𝑘</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

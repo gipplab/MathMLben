@@ -1,0 +1,41 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="ZFC+GCH," display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.9" xref="p1.1.m1.1.9.2.cmml">
+      <mrow id="p1.1.m1.1.9.2" xref="p1.1.m1.1.9.2.cmml">
+        <mrow id="p1.1.m1.1.9.2.1" xref="p1.1.m1.1.9.2.1.cmml">
+          <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">Z</mi>
+          <mo id="p1.1.m1.1.9.2.1.1" xref="p1.1.m1.1.9.2.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">F</mi>
+          <mo id="p1.1.m1.1.9.2.1.1a" xref="p1.1.m1.1.9.2.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">C</mi>
+        </mrow>
+        <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">+</mo>
+        <mrow id="p1.1.m1.1.9.2.2" xref="p1.1.m1.1.9.2.2.cmml">
+          <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">G</mi>
+          <mo id="p1.1.m1.1.9.2.2.1" xref="p1.1.m1.1.9.2.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">C</mi>
+          <mo id="p1.1.m1.1.9.2.2.1a" xref="p1.1.m1.1.9.2.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">H</mi>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.9.2.cmml">,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.9.2.cmml" xref="p1.1.m1.1.9">
+        <plus id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4"/>
+        <apply id="p1.1.m1.1.9.2.1.cmml" xref="p1.1.m1.1.9.2.1">
+          <times id="p1.1.m1.1.9.2.1.1.cmml" xref="p1.1.m1.1.9.2.1.1"/>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑍</ci>
+          <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝐹</ci>
+          <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝐶</ci>
+        </apply>
+        <apply id="p1.1.m1.1.9.2.2.cmml" xref="p1.1.m1.1.9.2.2">
+          <times id="p1.1.m1.1.9.2.2.1.cmml" xref="p1.1.m1.1.9.2.2.1"/>
+          <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">𝐺</ci>
+          <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝐶</ci>
+          <ci id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">𝐻</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

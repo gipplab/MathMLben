@@ -1,0 +1,59 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="x=y=-\tfrac{1}{4}z^{2}." display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>y</mi>
+        <mo>=</mo>
+        <mrow>
+          <mo>-</mo>
+          <mrow>
+            <mstyle displaystyle="false">
+              <mfrac>
+                <mn>1</mn>
+                <mn>4</mn>
+              </mfrac>
+            </mstyle>
+            <mo>⁢</mo>
+            <msup>
+              <mi>z</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>.</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.10.2.cmml">
+        <and id="S0.Ex1.m1.1.10.2a.cmml"/>
+        <apply id="S0.Ex1.m1.1.10.2b.cmml">
+          <eq id="S0.Ex1.m1.1.2.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">𝑥</ci>
+          <ci id="S0.Ex1.m1.1.3.cmml">𝑦</ci>
+        </apply>
+        <apply id="S0.Ex1.m1.1.10.2c.cmml">
+          <eq id="S0.Ex1.m1.1.4.cmml"/>
+          <share href="#S0.Ex1.m1.1.3.cmml" id="S0.Ex1.m1.1.10.2d.cmml"/>
+          <apply id="S0.Ex1.m1.1.10.2.2.cmml">
+            <minus id="S0.Ex1.m1.1.5.cmml"/>
+            <apply id="S0.Ex1.m1.1.10.2.2.1.cmml">
+              <times id="S0.Ex1.m1.1.10.2.2.1.1.cmml"/>
+              <apply id="S0.Ex1.m1.1.6.cmml">
+                <divide id="S0.Ex1.m1.1.6.1.cmml"/>
+                <cn type="integer" id="S0.Ex1.m1.1.6.2.cmml">1</cn>
+                <cn type="integer" id="S0.Ex1.m1.1.6.3.cmml">4</cn>
+              </apply>
+              <apply id="S0.Ex1.m1.1.10.2.2.1.2.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.10.2.2.1.2.1.cmml">superscript</csymbol>
+                <ci id="S0.Ex1.m1.1.7.cmml">𝑧</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.8.1.cmml">2</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

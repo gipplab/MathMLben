@@ -1,0 +1,27 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="s_{V}(\mathcal{R})" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">
+      <msub id="p1.1.m1.1.6.2" xref="p1.1.m1.1.6.2.cmml">
+        <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">s</mi>
+        <mi id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">V</mi>
+      </msub>
+      <mo id="p1.1.m1.1.6.1" xref="p1.1.m1.1.6.1.cmml">⁢</mo>
+      <mrow id="p1.1.m1.1.6.3" xref="p1.1.m1.1.6.cmml">
+        <mo stretchy="false" id="p1.1.m1.1.3" xref="p1.1.m1.1.6.cmml">(</mo>
+        <mi class="ltx_font_mathcaligraphic" id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">ℛ</mi>
+        <mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.6.cmml">)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">
+        <times id="p1.1.m1.1.6.1.cmml" xref="p1.1.m1.1.6.1"/>
+        <apply id="p1.1.m1.1.6.2.cmml" xref="p1.1.m1.1.6.2">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.6.2.1.cmml" xref="p1.1.m1.1.6.2">subscript</csymbol>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑠</ci>
+          <ci id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">𝑉</ci>
+        </apply>
+        <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">ℛ</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

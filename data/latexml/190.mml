@@ -1,0 +1,117 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="zv_{1}^{\prime}=2u_{0}-2u_{1}v_{1}^{2}-\theta_{\infty}v_{1}." display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>z</mi>
+          <mo>⁢</mo>
+          <msubsup>
+            <mi>v</mi>
+            <mn>1</mn>
+            <mo>′</mo>
+          </msubsup>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mrow>
+            <mn>2</mn>
+            <mo>⁢</mo>
+            <msub>
+              <mi>u</mi>
+              <mn>0</mn>
+            </msub>
+          </mrow>
+          <mo>-</mo>
+          <mrow>
+            <mn>2</mn>
+            <mo>⁢</mo>
+            <msub>
+              <mi>u</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>⁢</mo>
+            <msubsup>
+              <mi>v</mi>
+              <mn>1</mn>
+              <mn>2</mn>
+            </msubsup>
+          </mrow>
+          <mo>-</mo>
+          <mrow>
+            <msub>
+              <mi>θ</mi>
+              <mi mathvariant="normal">∞</mi>
+            </msub>
+            <mo>⁢</mo>
+            <msub>
+              <mi>v</mi>
+              <mn>1</mn>
+            </msub>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>.</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.22.2.cmml">
+        <eq id="S0.Ex1.m1.1.5.cmml"/>
+        <apply id="S0.Ex1.m1.1.22.2.1.cmml">
+          <times id="S0.Ex1.m1.1.22.2.1.1.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">𝑧</ci>
+          <apply id="S0.Ex1.m1.1.22.2.1.2.cmml">
+            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.1.2.1.cmml">superscript</csymbol>
+            <apply id="S0.Ex1.m1.1.22.2.1.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.1.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.2.cmml">𝑣</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.3.1.cmml">1</cn>
+            </apply>
+            <ci id="S0.Ex1.m1.1.4.1.cmml">′</ci>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.22.2.2.cmml">
+          <minus id="S0.Ex1.m1.1.9.cmml"/>
+          <apply id="S0.Ex1.m1.1.22.2.2.1.cmml">
+            <times id="S0.Ex1.m1.1.22.2.2.1.1.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.6.cmml">2</cn>
+            <apply id="S0.Ex1.m1.1.22.2.2.1.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.1.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.7.cmml">𝑢</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.8.1.cmml">0</cn>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.22.2.2.2.cmml">
+            <times id="S0.Ex1.m1.1.22.2.2.2.1.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.10.cmml">2</cn>
+            <apply id="S0.Ex1.m1.1.22.2.2.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.11.cmml">𝑢</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.12.1.cmml">1</cn>
+            </apply>
+            <apply id="S0.Ex1.m1.1.22.2.2.2.3.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.2.3.1.cmml">superscript</csymbol>
+              <apply id="S0.Ex1.m1.1.22.2.2.2.3.2.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.2.3.2.1.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.13.cmml">𝑣</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.14.1.cmml">1</cn>
+              </apply>
+              <cn type="integer" id="S0.Ex1.m1.1.15.1.cmml">2</cn>
+            </apply>
+          </apply>
+          <apply id="S0.Ex1.m1.1.22.2.2.3.cmml">
+            <times id="S0.Ex1.m1.1.22.2.2.3.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.22.2.2.3.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.3.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.17.cmml">𝜃</ci>
+              <infinity id="S0.Ex1.m1.1.18.1.cmml"/>
+            </apply>
+            <apply id="S0.Ex1.m1.1.22.2.2.3.3.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.22.2.2.3.3.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.19.cmml">𝑣</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.20.1.cmml">1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

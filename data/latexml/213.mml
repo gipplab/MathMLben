@@ -1,0 +1,103 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q)," display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.31" xref="p1.1.m1.1.31.2.cmml">
+      <mrow id="p1.1.m1.1.31.2" xref="p1.1.m1.1.31.2.cmml">
+        <mrow id="p1.1.m1.1.31.2.1" xref="p1.1.m1.1.31.2.1.cmml">
+          <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">Q</mi>
+          <mo id="p1.1.m1.1.31.2.1.1" xref="p1.1.m1.1.31.2.1.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.31.2.1.2" xref="p1.1.m1.1.31.2.1.2.1.cmml">
+            <mo stretchy="false" id="p1.1.m1.1.2" xref="p1.1.m1.1.31.2.1.2.1.cmml">(</mo>
+            <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">N</mi>
+            <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.31.2.1.2.1.cmml">,</mo>
+            <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">M</mi>
+            <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.31.2.1.2.1.cmml">,</mo>
+            <mrow id="p1.1.m1.1.31.2.1.2.2" xref="p1.1.m1.1.31.2.1.2.2.cmml">
+              <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">a</mi>
+              <mo id="p1.1.m1.1.31.2.1.2.2.1" xref="p1.1.m1.1.31.2.1.2.2.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">j</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.31.2.1.2.1.cmml">,</mo>
+            <mrow id="p1.1.m1.1.31.2.1.2.3" xref="p1.1.m1.1.31.2.1.2.3.cmml">
+              <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">b</mi>
+              <mo id="p1.1.m1.1.31.2.1.2.3.1" xref="p1.1.m1.1.31.2.1.2.3.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">j</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.31.2.1.2.1.cmml">,</mo>
+            <mi id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">q</mi>
+            <mo stretchy="false" id="p1.1.m1.1.14" xref="p1.1.m1.1.31.2.1.2.1.cmml">)</mo>
+          </mrow>
+        </mrow>
+        <mo id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">=</mo>
+        <mrow id="p1.1.m1.1.31.2.2" xref="p1.1.m1.1.31.2.2.cmml">
+          <mi id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">Q</mi>
+          <mo id="p1.1.m1.1.31.2.2.1" xref="p1.1.m1.1.31.2.2.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.31.2.2.2" xref="p1.1.m1.1.31.2.2.2.1.cmml">
+            <mo stretchy="false" id="p1.1.m1.1.17" xref="p1.1.m1.1.31.2.2.2.1.cmml">(</mo>
+            <mi id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">M</mi>
+            <mo id="p1.1.m1.1.19" xref="p1.1.m1.1.31.2.2.2.1.cmml">,</mo>
+            <mi id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">N</mi>
+            <mo id="p1.1.m1.1.21" xref="p1.1.m1.1.31.2.2.2.1.cmml">,</mo>
+            <mrow id="p1.1.m1.1.31.2.2.2.2" xref="p1.1.m1.1.31.2.2.2.2.cmml">
+              <mi id="p1.1.m1.1.22" xref="p1.1.m1.1.22.cmml">b</mi>
+              <mo id="p1.1.m1.1.31.2.2.2.2.1" xref="p1.1.m1.1.31.2.2.2.2.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.23" xref="p1.1.m1.1.23.cmml">j</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.24" xref="p1.1.m1.1.31.2.2.2.1.cmml">,</mo>
+            <mrow id="p1.1.m1.1.31.2.2.2.3" xref="p1.1.m1.1.31.2.2.2.3.cmml">
+              <mi id="p1.1.m1.1.25" xref="p1.1.m1.1.25.cmml">a</mi>
+              <mo id="p1.1.m1.1.31.2.2.2.3.1" xref="p1.1.m1.1.31.2.2.2.3.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.26" xref="p1.1.m1.1.26.cmml">j</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.27" xref="p1.1.m1.1.31.2.2.2.1.cmml">,</mo>
+            <mi id="p1.1.m1.1.28" xref="p1.1.m1.1.28.cmml">q</mi>
+            <mo stretchy="false" id="p1.1.m1.1.29" xref="p1.1.m1.1.31.2.2.2.1.cmml">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.30" xref="p1.1.m1.1.31.2.cmml">,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.31.2.cmml" xref="p1.1.m1.1.31">
+        <eq id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15"/>
+        <apply id="p1.1.m1.1.31.2.1.cmml" xref="p1.1.m1.1.31.2.1">
+          <times id="p1.1.m1.1.31.2.1.1.cmml" xref="p1.1.m1.1.31.2.1.1"/>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑄</ci>
+          <vector id="p1.1.m1.1.31.2.1.2.1.cmml" xref="p1.1.m1.1.31.2.1.2">
+            <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑁</ci>
+            <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">𝑀</ci>
+            <apply id="p1.1.m1.1.31.2.1.2.2.cmml" xref="p1.1.m1.1.31.2.1.2.2">
+              <times id="p1.1.m1.1.31.2.1.2.2.1.cmml" xref="p1.1.m1.1.31.2.1.2.2.1"/>
+              <ci id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">𝑎</ci>
+              <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑗</ci>
+            </apply>
+            <apply id="p1.1.m1.1.31.2.1.2.3.cmml" xref="p1.1.m1.1.31.2.1.2.3">
+              <times id="p1.1.m1.1.31.2.1.2.3.1.cmml" xref="p1.1.m1.1.31.2.1.2.3.1"/>
+              <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝑏</ci>
+              <ci id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11">𝑗</ci>
+            </apply>
+            <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">𝑞</ci>
+          </vector>
+        </apply>
+        <apply id="p1.1.m1.1.31.2.2.cmml" xref="p1.1.m1.1.31.2.2">
+          <times id="p1.1.m1.1.31.2.2.1.cmml" xref="p1.1.m1.1.31.2.2.1"/>
+          <ci id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">𝑄</ci>
+          <vector id="p1.1.m1.1.31.2.2.2.1.cmml" xref="p1.1.m1.1.31.2.2.2">
+            <ci id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">𝑀</ci>
+            <ci id="p1.1.m1.1.20.cmml" xref="p1.1.m1.1.20">𝑁</ci>
+            <apply id="p1.1.m1.1.31.2.2.2.2.cmml" xref="p1.1.m1.1.31.2.2.2.2">
+              <times id="p1.1.m1.1.31.2.2.2.2.1.cmml" xref="p1.1.m1.1.31.2.2.2.2.1"/>
+              <ci id="p1.1.m1.1.22.cmml" xref="p1.1.m1.1.22">𝑏</ci>
+              <ci id="p1.1.m1.1.23.cmml" xref="p1.1.m1.1.23">𝑗</ci>
+            </apply>
+            <apply id="p1.1.m1.1.31.2.2.2.3.cmml" xref="p1.1.m1.1.31.2.2.2.3">
+              <times id="p1.1.m1.1.31.2.2.2.3.1.cmml" xref="p1.1.m1.1.31.2.2.2.3.1"/>
+              <ci id="p1.1.m1.1.25.cmml" xref="p1.1.m1.1.25">𝑎</ci>
+              <ci id="p1.1.m1.1.26.cmml" xref="p1.1.m1.1.26">𝑗</ci>
+            </apply>
+            <ci id="p1.1.m1.1.28.cmml" xref="p1.1.m1.1.28">𝑞</ci>
+          </vector>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

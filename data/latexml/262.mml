@@ -1,0 +1,145 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="1+x+x^{2}+\ldots+x^{n-1}+x^{n}=\frac{x^{n+1}-1}{x-1}\ {\rm\left(\right.}{\rm&amp;#%&#10;10;assuming%&amp;#10;}\ x\neq 1\ {\rm\left.\right)}," display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1b">
+      <mn id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">1</mn>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">+</mo>
+      <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">x</mi>
+      <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">+</mo>
+      <msup id="p1.1.m1.1.47" xref="p1.1.m1.1.47.cmml">
+        <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">x</mi>
+        <mn id="p1.1.m1.1.6.1" xref="p1.1.m1.1.6.1.cmml">2</mn>
+      </msup>
+      <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">+</mo>
+      <mi mathvariant="normal" id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">…</mi>
+      <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">+</mo>
+      <msup id="p1.1.m1.1.48" xref="p1.1.m1.1.48.cmml">
+        <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">x</mi>
+        <mrow id="p1.1.m1.1.11.1" xref="p1.1.m1.1.11.1.cmml">
+          <mi id="p1.1.m1.1.11.1.1" xref="p1.1.m1.1.11.1.1.cmml">n</mi>
+          <mo id="p1.1.m1.1.11.1.2" xref="p1.1.m1.1.11.1.2.cmml">-</mo>
+          <mn id="p1.1.m1.1.11.1.3" xref="p1.1.m1.1.11.1.3.cmml">1</mn>
+        </mrow>
+      </msup>
+      <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">+</mo>
+      <msup id="p1.1.m1.1.49" xref="p1.1.m1.1.49.cmml">
+        <mi id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">x</mi>
+        <mi id="p1.1.m1.1.14.1" xref="p1.1.m1.1.14.1.cmml">n</mi>
+      </msup>
+      <mo id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">=</mo>
+      <mpadded width="+5pt" id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">
+        <mfrac id="p1.1.m1.1.16a" xref="p1.1.m1.1.16.cmml">
+          <mrow id="p1.1.m1.1.16.2" xref="p1.1.m1.1.16.2.cmml">
+            <msup id="p1.1.m1.1.16.2.5" xref="p1.1.m1.1.16.2.5.cmml">
+              <mi id="p1.1.m1.1.16.2.1" xref="p1.1.m1.1.16.2.1.cmml">x</mi>
+              <mrow id="p1.1.m1.1.16.2.2.1" xref="p1.1.m1.1.16.2.2.1.cmml">
+                <mi id="p1.1.m1.1.16.2.2.1.1" xref="p1.1.m1.1.16.2.2.1.1.cmml">n</mi>
+                <mo id="p1.1.m1.1.16.2.2.1.2" xref="p1.1.m1.1.16.2.2.1.2.cmml">+</mo>
+                <mn id="p1.1.m1.1.16.2.2.1.3" xref="p1.1.m1.1.16.2.2.1.3.cmml">1</mn>
+              </mrow>
+            </msup>
+            <mo id="p1.1.m1.1.16.2.3" xref="p1.1.m1.1.16.2.3.cmml">-</mo>
+            <mn id="p1.1.m1.1.16.2.4" xref="p1.1.m1.1.16.2.4.cmml">1</mn>
+          </mrow>
+          <mrow id="p1.1.m1.1.16.3" xref="p1.1.m1.1.16.3.cmml">
+            <mi id="p1.1.m1.1.16.3.1" xref="p1.1.m1.1.16.3.1.cmml">x</mi>
+            <mo id="p1.1.m1.1.16.3.2" xref="p1.1.m1.1.16.3.2.cmml">-</mo>
+            <mn id="p1.1.m1.1.16.3.3" xref="p1.1.m1.1.16.3.3.cmml">1</mn>
+          </mrow>
+        </mfrac>
+      </mpadded>
+      <mrow id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">
+        <mo id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">(</mo>
+        <mi mathvariant="normal" id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">&amp;</mi>
+        <mi mathvariant="normal" id="p1.1.m1.1.21" xref="p1.1.m1.1.21.cmml">#</mi>
+        <mn id="p1.1.m1.1.23" xref="p1.1.m1.1.23.cmml">10</mn>
+        <mo id="p1.1.m1.1.24" xref="p1.1.m1.1.24.cmml">;</mo>
+        <mi id="p1.1.m1.1.32" xref="p1.1.m1.1.32.cmml">assuming</mi>
+        <mi mathvariant="normal" id="p1.1.m1.1.33" xref="p1.1.m1.1.33.cmml">%</mi>
+        <mi mathvariant="normal" id="p1.1.m1.1.34" xref="p1.1.m1.1.34.cmml">&amp;</mi>
+        <mi mathvariant="normal" id="p1.1.m1.1.35" xref="p1.1.m1.1.35.cmml">#</mi>
+        <mn id="p1.1.m1.1.37" xref="p1.1.m1.1.37.cmml">10</mn>
+        <mo rspace="7.5pt" id="p1.1.m1.1.38" xref="p1.1.m1.1.38.cmml">;</mo>
+        <mi id="p1.1.m1.1.40" xref="p1.1.m1.1.40.cmml">x</mi>
+        <mo id="p1.1.m1.1.41" xref="p1.1.m1.1.41.cmml">≠</mo>
+        <mpadded width="+5pt" id="p1.1.m1.1.42" xref="p1.1.m1.1.42.cmml">
+          <mn id="p1.1.m1.1.42a" xref="p1.1.m1.1.42.cmml">1</mn>
+        </mpadded>
+        <mo id="p1.1.m1.1.45" xref="p1.1.m1.1.45.cmml">)</mo>
+      </mrow>
+      <mo id="p1.1.m1.1.46" xref="p1.1.m1.1.46.cmml">,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1c">
+      <cerror id="p1.1.m1.1d">
+        <csymbol cd="ambiguous" id="p1.1.m1.1e">fragments</csymbol>
+        <cn type="integer" id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">1</cn>
+        <plus id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2"/>
+        <csymbol cd="unknown" id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">x</csymbol>
+        <plus id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4"/>
+        <apply id="p1.1.m1.1.47.cmml" xref="p1.1.m1.1.47">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.47.1.cmml" xref="p1.1.m1.1.47">superscript</csymbol>
+          <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">𝑥</ci>
+          <cn type="integer" id="p1.1.m1.1.6.1.cmml" xref="p1.1.m1.1.6.1">2</cn>
+        </apply>
+        <plus id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7"/>
+        <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">…</ci>
+        <plus id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9"/>
+        <apply id="p1.1.m1.1.48.cmml" xref="p1.1.m1.1.48">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.48.1.cmml" xref="p1.1.m1.1.48">superscript</csymbol>
+          <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝑥</ci>
+          <apply id="p1.1.m1.1.11.1.cmml" xref="p1.1.m1.1.11.1">
+            <minus id="p1.1.m1.1.11.1.2.cmml" xref="p1.1.m1.1.11.1.2"/>
+            <ci id="p1.1.m1.1.11.1.1.cmml" xref="p1.1.m1.1.11.1.1">𝑛</ci>
+            <cn type="integer" id="p1.1.m1.1.11.1.3.cmml" xref="p1.1.m1.1.11.1.3">1</cn>
+          </apply>
+        </apply>
+        <plus id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12"/>
+        <apply id="p1.1.m1.1.49.cmml" xref="p1.1.m1.1.49">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.49.1.cmml" xref="p1.1.m1.1.49">superscript</csymbol>
+          <ci id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">𝑥</ci>
+          <ci id="p1.1.m1.1.14.1.cmml" xref="p1.1.m1.1.14.1">𝑛</ci>
+        </apply>
+        <eq id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15"/>
+        <apply id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">
+          <divide id="p1.1.m1.1.16.1.cmml" xref="p1.1.m1.1.16"/>
+          <apply id="p1.1.m1.1.16.2.cmml" xref="p1.1.m1.1.16.2">
+            <minus id="p1.1.m1.1.16.2.3.cmml" xref="p1.1.m1.1.16.2.3"/>
+            <apply id="p1.1.m1.1.16.2.5.cmml" xref="p1.1.m1.1.16.2.5">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.16.2.5.1.cmml" xref="p1.1.m1.1.16.2.5">superscript</csymbol>
+              <ci id="p1.1.m1.1.16.2.1.cmml" xref="p1.1.m1.1.16.2.1">𝑥</ci>
+              <apply id="p1.1.m1.1.16.2.2.1.cmml" xref="p1.1.m1.1.16.2.2.1">
+                <plus id="p1.1.m1.1.16.2.2.1.2.cmml" xref="p1.1.m1.1.16.2.2.1.2"/>
+                <ci id="p1.1.m1.1.16.2.2.1.1.cmml" xref="p1.1.m1.1.16.2.2.1.1">𝑛</ci>
+                <cn type="integer" id="p1.1.m1.1.16.2.2.1.3.cmml" xref="p1.1.m1.1.16.2.2.1.3">1</cn>
+              </apply>
+            </apply>
+            <cn type="integer" id="p1.1.m1.1.16.2.4.cmml" xref="p1.1.m1.1.16.2.4">1</cn>
+          </apply>
+          <apply id="p1.1.m1.1.16.3.cmml" xref="p1.1.m1.1.16.3">
+            <minus id="p1.1.m1.1.16.3.2.cmml" xref="p1.1.m1.1.16.3.2"/>
+            <ci id="p1.1.m1.1.16.3.1.cmml" xref="p1.1.m1.1.16.3.1">𝑥</ci>
+            <cn type="integer" id="p1.1.m1.1.16.3.3.cmml" xref="p1.1.m1.1.16.3.3">1</cn>
+          </apply>
+        </apply>
+        <cerror id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">
+          <csymbol cd="ambiguous" id="p1.1.m1.1.6a.cmml" xref="p1.1.m1.1.6">fragments</csymbol>
+          <ci id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">(</ci>
+          <csymbol cd="unknown" id="p1.1.m1.1.20.cmml" xref="p1.1.m1.1.20">&amp;</csymbol>
+          <csymbol cd="unknown" id="p1.1.m1.1.21.cmml" xref="p1.1.m1.1.21">#</csymbol>
+          <cn type="integer" id="p1.1.m1.1.23.cmml" xref="p1.1.m1.1.23">10</cn>
+          <ci id="p1.1.m1.1.24.cmml" xref="p1.1.m1.1.24">;</ci>
+          <csymbol cd="unknown" id="p1.1.m1.1.32.cmml" xref="p1.1.m1.1.32">assuming</csymbol>
+          <csymbol cd="unknown" id="p1.1.m1.1.33.cmml" xref="p1.1.m1.1.33">%</csymbol>
+          <csymbol cd="unknown" id="p1.1.m1.1.34.cmml" xref="p1.1.m1.1.34">&amp;</csymbol>
+          <csymbol cd="unknown" id="p1.1.m1.1.35.cmml" xref="p1.1.m1.1.35">#</csymbol>
+          <cn type="integer" id="p1.1.m1.1.37.cmml" xref="p1.1.m1.1.37">10</cn>
+          <ci id="p1.1.m1.1.38.cmml" xref="p1.1.m1.1.38">;</ci>
+          <csymbol cd="unknown" id="p1.1.m1.1.40.cmml" xref="p1.1.m1.1.40">x</csymbol>
+          <neq id="p1.1.m1.1.41.cmml" xref="p1.1.m1.1.41"/>
+          <cn type="integer" id="p1.1.m1.1.42.cmml" xref="p1.1.m1.1.42">1</cn>
+          <ci id="p1.1.m1.1.45.cmml" xref="p1.1.m1.1.45">)</ci>
+        </cerror>
+        <ci id="p1.1.m1.1.46.cmml" xref="p1.1.m1.1.46">,</ci>
+      </cerror>
+    </annotation-xml>
+  </semantics>
+</math>

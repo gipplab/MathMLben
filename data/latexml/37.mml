@@ -1,0 +1,62 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="H(j\omega)=\mathcal{F}\{h(t)\}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">
+      <mrow id="p1.1.m1.1.14.1" xref="p1.1.m1.1.14.1.cmml">
+        <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">H</mi>
+        <mo id="p1.1.m1.1.14.1.1" xref="p1.1.m1.1.14.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.14.1.2" xref="p1.1.m1.1.14.1.2.2.cmml">
+          <mo stretchy="false" id="p1.1.m1.1.2" xref="p1.1.m1.1.14.1.2.2.cmml">(</mo>
+          <mrow id="p1.1.m1.1.14.1.2.2" xref="p1.1.m1.1.14.1.2.2.cmml">
+            <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">j</mi>
+            <mo id="p1.1.m1.1.14.1.2.2.1" xref="p1.1.m1.1.14.1.2.2.1.cmml">⁢</mo>
+            <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">ω</mi>
+          </mrow>
+          <mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.14.1.2.2.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">=</mo>
+      <mrow id="p1.1.m1.1.14.2" xref="p1.1.m1.1.14.2.cmml">
+        <mi class="ltx_font_mathcaligraphic" id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">ℱ</mi>
+        <mo id="p1.1.m1.1.14.2.1" xref="p1.1.m1.1.14.2.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.14.2.2" xref="p1.1.m1.1.14.2.2.1.cmml">
+          <mo stretchy="false" id="p1.1.m1.1.8" xref="p1.1.m1.1.14.2.2.1.cmml">{</mo>
+          <mrow id="p1.1.m1.1.14.2.2.2" xref="p1.1.m1.1.14.2.2.2.cmml">
+            <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">h</mi>
+            <mo id="p1.1.m1.1.14.2.2.2.1" xref="p1.1.m1.1.14.2.2.2.1.cmml">⁢</mo>
+            <mrow id="p1.1.m1.1.14.2.2.2.2" xref="p1.1.m1.1.14.2.2.2.cmml">
+              <mo stretchy="false" id="p1.1.m1.1.10" xref="p1.1.m1.1.14.2.2.2.cmml">(</mo>
+              <mi id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">t</mi>
+              <mo stretchy="false" id="p1.1.m1.1.12" xref="p1.1.m1.1.14.2.2.2.cmml">)</mo>
+            </mrow>
+          </mrow>
+          <mo stretchy="false" id="p1.1.m1.1.13" xref="p1.1.m1.1.14.2.2.1.cmml">}</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">
+        <eq id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
+        <apply id="p1.1.m1.1.14.1.cmml" xref="p1.1.m1.1.14.1">
+          <times id="p1.1.m1.1.14.1.1.cmml" xref="p1.1.m1.1.14.1.1"/>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝐻</ci>
+          <apply id="p1.1.m1.1.14.1.2.2.cmml" xref="p1.1.m1.1.14.1.2">
+            <times id="p1.1.m1.1.14.1.2.2.1.cmml" xref="p1.1.m1.1.14.1.2.2.1"/>
+            <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑗</ci>
+            <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝜔</ci>
+          </apply>
+        </apply>
+        <apply id="p1.1.m1.1.14.2.cmml" xref="p1.1.m1.1.14.2">
+          <times id="p1.1.m1.1.14.2.1.cmml" xref="p1.1.m1.1.14.2.1"/>
+          <ci id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">ℱ</ci>
+          <set id="p1.1.m1.1.14.2.2.1.cmml" xref="p1.1.m1.1.14.2.2">
+            <apply id="p1.1.m1.1.14.2.2.2.cmml" xref="p1.1.m1.1.14.2.2.2">
+              <times id="p1.1.m1.1.14.2.2.2.1.cmml" xref="p1.1.m1.1.14.2.2.2.1"/>
+              <ci id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">ℎ</ci>
+              <ci id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11">𝑡</ci>
+            </apply>
+          </set>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

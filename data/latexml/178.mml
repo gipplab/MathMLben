@@ -1,0 +1,38 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\Lambda\left(n\right)=\ln p," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi mathvariant="normal">Λ</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mi>n</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mi>ln</mi>
+          <mo>⁡</mo>
+          <mi>p</mi>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.9.2.cmml">
+        <eq id="S0.Ex1.m1.1.5.cmml"/>
+        <apply id="S0.Ex1.m1.1.9.2.1.cmml">
+          <times id="S0.Ex1.m1.1.9.2.1.1.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">Λ</ci>
+          <ci id="S0.Ex1.m1.1.3.cmml">𝑛</ci>
+        </apply>
+        <apply id="S0.Ex1.m1.1.9.2.2.cmml">
+          <ln id="S0.Ex1.m1.1.6.cmml"/>
+          <ci id="S0.Ex1.m1.1.7.cmml">𝑝</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

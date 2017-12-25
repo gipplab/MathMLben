@@ -1,0 +1,44 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="(\sqrt{p_{1}},\cdots,\sqrt{p_{n}})" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.8" xref="p1.1.m1.1.8.1.cmml">
+      <mo stretchy="false" id="p1.1.m1.1.1" xref="p1.1.m1.1.8.1.cmml">(</mo>
+      <msqrt id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">
+        <msub id="p1.1.m1.1.2.2" xref="p1.1.m1.1.2.2.cmml">
+          <mi id="p1.1.m1.1.2.2.1" xref="p1.1.m1.1.2.2.1.cmml">p</mi>
+          <mn id="p1.1.m1.1.2.2.2.1" xref="p1.1.m1.1.2.2.2.1.cmml">1</mn>
+        </msub>
+      </msqrt>
+      <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.8.1.cmml">,</mo>
+      <mi mathvariant="normal" id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">⋯</mi>
+      <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.8.1.cmml">,</mo>
+      <msqrt id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">
+        <msub id="p1.1.m1.1.6.2" xref="p1.1.m1.1.6.2.cmml">
+          <mi id="p1.1.m1.1.6.2.1" xref="p1.1.m1.1.6.2.1.cmml">p</mi>
+          <mi id="p1.1.m1.1.6.2.2.1" xref="p1.1.m1.1.6.2.2.1.cmml">n</mi>
+        </msub>
+      </msqrt>
+      <mo stretchy="false" id="p1.1.m1.1.7" xref="p1.1.m1.1.8.1.cmml">)</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <vector id="p1.1.m1.1.8.1.cmml" xref="p1.1.m1.1.8">
+        <apply id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">
+          <root id="p1.1.m1.1.2a.cmml" xref="p1.1.m1.1.2"/>
+          <apply id="p1.1.m1.1.2.2.cmml" xref="p1.1.m1.1.2.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.2.2.3.cmml" xref="p1.1.m1.1.2.2">subscript</csymbol>
+            <ci id="p1.1.m1.1.2.2.1.cmml" xref="p1.1.m1.1.2.2.1">𝑝</ci>
+            <cn type="integer" id="p1.1.m1.1.2.2.2.1.cmml" xref="p1.1.m1.1.2.2.2.1">1</cn>
+          </apply>
+        </apply>
+        <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">⋯</ci>
+        <apply id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">
+          <root id="p1.1.m1.1.6a.cmml" xref="p1.1.m1.1.6"/>
+          <apply id="p1.1.m1.1.6.2.cmml" xref="p1.1.m1.1.6.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.6.2.3.cmml" xref="p1.1.m1.1.6.2">subscript</csymbol>
+            <ci id="p1.1.m1.1.6.2.1.cmml" xref="p1.1.m1.1.6.2.1">𝑝</ci>
+            <ci id="p1.1.m1.1.6.2.2.1.cmml" xref="p1.1.m1.1.6.2.2.1">𝑛</ci>
+          </apply>
+        </apply>
+      </vector>
+    </annotation-xml>
+  </semantics>
+</math>

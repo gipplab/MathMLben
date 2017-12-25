@@ -1,0 +1,337 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="w_{1}(a,x)=e^{-\frac{1}{4}ix^{2}}M\left(\tfrac{1}{4}-\tfrac{1}{2}ia,\tfrac{1}{%&#10;%2},\tfrac{1}{2}ix^{2}\right)=e^{\frac{1}{4}ix^{2}}M\left(\tfrac{1}{4}+\tfrac{%&#10;1%}{2}ia,\tfrac{1}{2},-\tfrac{1}{2}ix^{2}\right)," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>w</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>⁢</mo>
+          <mrow>
+            <mo stretchy="false">(</mo>
+            <mi>a</mi>
+            <mo>,</mo>
+            <mi>x</mi>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <msup>
+            <mi>e</mi>
+            <mrow>
+              <mo>-</mo>
+              <mrow>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>4</mn>
+                </mfrac>
+                <mo>⁢</mo>
+                <mi>i</mi>
+                <mo>⁢</mo>
+                <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </mrow>
+          </msup>
+          <mo>⁢</mo>
+          <mi>M</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mstyle displaystyle="false">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>4</mn>
+                </mfrac>
+              </mstyle>
+              <mo>-</mo>
+              <mrow>
+                <mstyle displaystyle="false">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </mfrac>
+                </mstyle>
+                <mo>⁢</mo>
+                <mi>i</mi>
+                <mo>⁢</mo>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+            <mo>,</mo>
+            <mstyle displaystyle="false">
+              <mfrac>
+                <mn>1</mn>
+                <mrow>
+                  <mi mathvariant="normal">%</mi>
+                  <mo>⁢</mo>
+                  <mn>2</mn>
+                </mrow>
+              </mfrac>
+            </mstyle>
+            <mo>,</mo>
+            <mrow>
+              <mstyle displaystyle="false">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mstyle>
+              <mo>⁢</mo>
+              <mi>i</mi>
+              <mo>⁢</mo>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <msup>
+            <mi>e</mi>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>4</mn>
+              </mfrac>
+              <mo>⁢</mo>
+              <mi>i</mi>
+              <mo>⁢</mo>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </msup>
+          <mo>⁢</mo>
+          <mi>M</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mstyle displaystyle="false">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>4</mn>
+                </mfrac>
+              </mstyle>
+              <mo>+</mo>
+              <mrow>
+                <mstyle displaystyle="false">
+                  <mfrac>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>⁢</mo>
+                      <mi mathvariant="normal">%</mi>
+                    </mrow>
+                    <mn>2</mn>
+                  </mfrac>
+                </mstyle>
+                <mo>⁢</mo>
+                <mi>i</mi>
+                <mo>⁢</mo>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+            <mo>,</mo>
+            <mstyle displaystyle="false">
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mstyle>
+            <mo>,</mo>
+            <mrow>
+              <mo>-</mo>
+              <mrow>
+                <mstyle displaystyle="false">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </mfrac>
+                </mstyle>
+                <mo>⁢</mo>
+                <mi>i</mi>
+                <mo>⁢</mo>
+                <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.46.2.cmml">
+        <and id="S0.Ex1.m1.1.46.2a.cmml"/>
+        <apply id="S0.Ex1.m1.1.46.2b.cmml">
+          <eq id="S0.Ex1.m1.1.8.cmml"/>
+          <apply id="S0.Ex1.m1.1.46.2.2.cmml">
+            <times id="S0.Ex1.m1.1.46.2.2.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.46.2.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.46.2.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.1.cmml">𝑤</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.2.1.cmml">1</cn>
+            </apply>
+            <interval closure="open" id="S0.Ex1.m1.1.46.2.2.3.1.cmml">
+              <ci id="S0.Ex1.m1.1.4.cmml">𝑎</ci>
+              <ci id="S0.Ex1.m1.1.6.cmml">𝑥</ci>
+            </interval>
+          </apply>
+          <apply id="S0.Ex1.m1.1.46.2.3.cmml">
+            <times id="S0.Ex1.m1.1.46.2.3.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.46.2.3.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.46.2.3.2.1.cmml">superscript</csymbol>
+              <ci id="S0.Ex1.m1.1.9.cmml">𝑒</ci>
+              <apply id="S0.Ex1.m1.1.10.1.cmml">
+                <minus id="S0.Ex1.m1.1.10.1.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.10.1.6.cmml">
+                  <times id="S0.Ex1.m1.1.10.1.6.1.cmml"/>
+                  <apply id="S0.Ex1.m1.1.10.1.2.cmml">
+                    <divide id="S0.Ex1.m1.1.10.1.2.1.cmml"/>
+                    <cn type="integer" id="S0.Ex1.m1.1.10.1.2.2.cmml">1</cn>
+                    <cn type="integer" id="S0.Ex1.m1.1.10.1.2.3.cmml">4</cn>
+                  </apply>
+                  <ci id="S0.Ex1.m1.1.10.1.3.cmml">𝑖</ci>
+                  <apply id="S0.Ex1.m1.1.10.1.6.2.cmml">
+                    <csymbol cd="ambiguous" id="S0.Ex1.m1.1.10.1.6.2.1.cmml">superscript</csymbol>
+                    <ci id="S0.Ex1.m1.1.10.1.4.cmml">𝑥</ci>
+                    <cn type="integer" id="S0.Ex1.m1.1.10.1.5.1.cmml">2</cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <ci id="S0.Ex1.m1.1.11.cmml">𝑀</ci>
+            <vector id="S0.Ex1.m1.1.46.2.3.3.1.cmml">
+              <apply id="S0.Ex1.m1.1.46.2.3.3.2.cmml">
+                <minus id="S0.Ex1.m1.1.14.cmml"/>
+                <apply id="S0.Ex1.m1.1.13.cmml">
+                  <divide id="S0.Ex1.m1.1.13.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.13.2.cmml">1</cn>
+                  <cn type="integer" id="S0.Ex1.m1.1.13.3.cmml">4</cn>
+                </apply>
+                <apply id="S0.Ex1.m1.1.46.2.3.3.2.1.cmml">
+                  <times id="S0.Ex1.m1.1.46.2.3.3.2.1.1.cmml"/>
+                  <apply id="S0.Ex1.m1.1.15.cmml">
+                    <divide id="S0.Ex1.m1.1.15.1.cmml"/>
+                    <cn type="integer" id="S0.Ex1.m1.1.15.2.cmml">1</cn>
+                    <cn type="integer" id="S0.Ex1.m1.1.15.3.cmml">2</cn>
+                  </apply>
+                  <ci id="S0.Ex1.m1.1.16.cmml">𝑖</ci>
+                  <ci id="S0.Ex1.m1.1.17.cmml">𝑎</ci>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.19.cmml">
+                <divide id="S0.Ex1.m1.1.19.1.cmml"/>
+                <cn type="integer" id="S0.Ex1.m1.1.19.2.cmml">1</cn>
+                <apply id="S0.Ex1.m1.1.19.3.cmml">
+                  <times id="S0.Ex1.m1.1.19.3.3.cmml"/>
+                  <ci id="S0.Ex1.m1.1.19.3.1.cmml">%</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.19.3.2.cmml">2</cn>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.46.2.3.3.3.cmml">
+                <times id="S0.Ex1.m1.1.46.2.3.3.3.1.cmml"/>
+                <apply id="S0.Ex1.m1.1.21.cmml">
+                  <divide id="S0.Ex1.m1.1.21.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.21.2.cmml">1</cn>
+                  <cn type="integer" id="S0.Ex1.m1.1.21.3.cmml">2</cn>
+                </apply>
+                <ci id="S0.Ex1.m1.1.22.cmml">𝑖</ci>
+                <apply id="S0.Ex1.m1.1.46.2.3.3.3.2.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.46.2.3.3.3.2.1.cmml">superscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.23.cmml">𝑥</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.24.1.cmml">2</cn>
+                </apply>
+              </apply>
+            </vector>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.46.2c.cmml">
+          <eq id="S0.Ex1.m1.1.26.cmml"/>
+          <share href="#S0.Ex1.m1.1.46.2.3.cmml" id="S0.Ex1.m1.1.46.2d.cmml"/>
+          <apply id="S0.Ex1.m1.1.46.2.4.cmml">
+            <times id="S0.Ex1.m1.1.46.2.4.1.cmml"/>
+            <apply id="S0.Ex1.m1.1.46.2.4.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.46.2.4.2.1.cmml">superscript</csymbol>
+              <ci id="S0.Ex1.m1.1.27.cmml">𝑒</ci>
+              <apply id="S0.Ex1.m1.1.28.1.cmml">
+                <times id="S0.Ex1.m1.1.28.1.5.cmml"/>
+                <apply id="S0.Ex1.m1.1.28.1.1.cmml">
+                  <divide id="S0.Ex1.m1.1.28.1.1.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.28.1.1.2.cmml">1</cn>
+                  <cn type="integer" id="S0.Ex1.m1.1.28.1.1.3.cmml">4</cn>
+                </apply>
+                <ci id="S0.Ex1.m1.1.28.1.2.cmml">𝑖</ci>
+                <apply id="S0.Ex1.m1.1.28.1.6.cmml">
+                  <csymbol cd="ambiguous" id="S0.Ex1.m1.1.28.1.6.1.cmml">superscript</csymbol>
+                  <ci id="S0.Ex1.m1.1.28.1.3.cmml">𝑥</ci>
+                  <cn type="integer" id="S0.Ex1.m1.1.28.1.4.1.cmml">2</cn>
+                </apply>
+              </apply>
+            </apply>
+            <ci id="S0.Ex1.m1.1.29.cmml">𝑀</ci>
+            <vector id="S0.Ex1.m1.1.46.2.4.3.1.cmml">
+              <apply id="S0.Ex1.m1.1.46.2.4.3.2.cmml">
+                <plus id="S0.Ex1.m1.1.32.cmml"/>
+                <apply id="S0.Ex1.m1.1.31.cmml">
+                  <divide id="S0.Ex1.m1.1.31.1.cmml"/>
+                  <cn type="integer" id="S0.Ex1.m1.1.31.2.cmml">1</cn>
+                  <cn type="integer" id="S0.Ex1.m1.1.31.3.cmml">4</cn>
+                </apply>
+                <apply id="S0.Ex1.m1.1.46.2.4.3.2.1.cmml">
+                  <times id="S0.Ex1.m1.1.46.2.4.3.2.1.1.cmml"/>
+                  <apply id="S0.Ex1.m1.1.33.cmml">
+                    <divide id="S0.Ex1.m1.1.33.1.cmml"/>
+                    <apply id="S0.Ex1.m1.1.33.2.cmml">
+                      <times id="S0.Ex1.m1.1.33.2.3.cmml"/>
+                      <cn type="integer" id="S0.Ex1.m1.1.33.2.1.cmml">1</cn>
+                      <ci id="S0.Ex1.m1.1.33.2.2.cmml">%</ci>
+                    </apply>
+                    <cn type="integer" id="S0.Ex1.m1.1.33.3.cmml">2</cn>
+                  </apply>
+                  <ci id="S0.Ex1.m1.1.34.cmml">𝑖</ci>
+                  <ci id="S0.Ex1.m1.1.35.cmml">𝑎</ci>
+                </apply>
+              </apply>
+              <apply id="S0.Ex1.m1.1.37.cmml">
+                <divide id="S0.Ex1.m1.1.37.1.cmml"/>
+                <cn type="integer" id="S0.Ex1.m1.1.37.2.cmml">1</cn>
+                <cn type="integer" id="S0.Ex1.m1.1.37.3.cmml">2</cn>
+              </apply>
+              <apply id="S0.Ex1.m1.1.46.2.4.3.3.cmml">
+                <minus id="S0.Ex1.m1.1.39.cmml"/>
+                <apply id="S0.Ex1.m1.1.46.2.4.3.3.1.cmml">
+                  <times id="S0.Ex1.m1.1.46.2.4.3.3.1.1.cmml"/>
+                  <apply id="S0.Ex1.m1.1.40.cmml">
+                    <divide id="S0.Ex1.m1.1.40.1.cmml"/>
+                    <cn type="integer" id="S0.Ex1.m1.1.40.2.cmml">1</cn>
+                    <cn type="integer" id="S0.Ex1.m1.1.40.3.cmml">2</cn>
+                  </apply>
+                  <ci id="S0.Ex1.m1.1.41.cmml">𝑖</ci>
+                  <apply id="S0.Ex1.m1.1.46.2.4.3.3.1.2.cmml">
+                    <csymbol cd="ambiguous" id="S0.Ex1.m1.1.46.2.4.3.3.1.2.1.cmml">superscript</csymbol>
+                    <ci id="S0.Ex1.m1.1.42.cmml">𝑥</ci>
+                    <cn type="integer" id="S0.Ex1.m1.1.43.1.cmml">2</cn>
+                  </apply>
+                </apply>
+              </apply>
+            </vector>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

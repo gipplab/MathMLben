@@ -1,0 +1,78 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="A\equiv A(\tau)=\ifrac{1}{\theta_{4}\left(0\middle|2\tau\right)}," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mi>A</mi>
+        <mo>≡</mo>
+        <mrow>
+          <mi>A</mi>
+          <mo>⁢</mo>
+          <mrow>
+            <mo stretchy="false">(</mo>
+            <mi>τ</mi>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>/</mo>
+          <mrow>
+            <msub>
+              <mi>θ</mi>
+              <mn>4</mn>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <mn>0</mn>
+              <mo>|</mo>
+              <mn>2</mn>
+              <mi>τ</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.10.2.cmml">
+        <and id="S0.Ex1.m1.1.10.2a.cmml"/>
+        <apply id="S0.Ex1.m1.1.10.2b.cmml">
+          <equivalent id="S0.Ex1.m1.1.2.cmml"/>
+          <ci id="S0.Ex1.m1.1.1.cmml">𝐴</ci>
+          <apply id="S0.Ex1.m1.1.10.2.2.cmml">
+            <times id="S0.Ex1.m1.1.10.2.2.1.cmml"/>
+            <ci id="S0.Ex1.m1.1.3.cmml">𝐴</ci>
+            <ci id="S0.Ex1.m1.1.5.cmml">𝜏</ci>
+          </apply>
+        </apply>
+        <apply id="S0.Ex1.m1.1.10.2c.cmml">
+          <eq id="S0.Ex1.m1.1.7.cmml"/>
+          <share href="#S0.Ex1.m1.1.10.2.2.cmml" id="S0.Ex1.m1.1.10.2d.cmml"/>
+          <apply id="S0.Ex1.m1.1.8.cmml">
+            <divide id="S0.Ex1.m1.1.8.1.cmml"/>
+            <cn type="integer" id="S0.Ex1.m1.1.8.2.cmml">1</cn>
+            <cerror id="S0.Ex1.m1.1.8.3.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3a.cmml">fragments</csymbol>
+              <apply id="S0.Ex1.m1.1.8.3.9.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.9.1.cmml">subscript</csymbol>
+                <ci id="S0.Ex1.m1.1.8.3.1.cmml">𝜃</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.8.3.2.1.cmml">4</cn>
+              </apply>
+              <cerror id="S0.Ex1.m1.1.8.3.2.cmml">
+                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.8.3.2a.cmml">fragments</csymbol>
+                <ci id="S0.Ex1.m1.1.8.3.3.cmml">(</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.8.3.4.cmml">0</cn>
+                <ci id="S0.Ex1.m1.1.8.3.5.cmml">|</ci>
+                <cn type="integer" id="S0.Ex1.m1.1.8.3.6.cmml">2</cn>
+                <csymbol cd="unknown" id="S0.Ex1.m1.1.8.3.7.cmml">τ</csymbol>
+                <ci id="S0.Ex1.m1.1.8.3.8.cmml">)</ci>
+              </cerror>
+            </cerror>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

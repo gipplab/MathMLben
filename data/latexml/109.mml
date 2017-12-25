@@ -1,0 +1,71 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="Aw_{1}(z)+Bw_{2}(z)=0," display="block">
+  <semantics id="S0.Ex1.m1.1a">
+    <mrow>
+      <mrow>
+        <mrow>
+          <mrow>
+            <mi>A</mi>
+            <mo>⁢</mo>
+            <msub>
+              <mi>w</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>⁢</mo>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mi>z</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <mi>B</mi>
+            <mo>⁢</mo>
+            <msub>
+              <mi>w</mi>
+              <mn>2</mn>
+            </msub>
+            <mo>⁢</mo>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mi>z</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mrow>
+      <mo>,</mo>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
+      <apply id="S0.Ex1.m1.1.17.2.cmml">
+        <eq id="S0.Ex1.m1.1.14.cmml"/>
+        <apply id="S0.Ex1.m1.1.17.2.1.cmml">
+          <plus id="S0.Ex1.m1.1.7.cmml"/>
+          <apply id="S0.Ex1.m1.1.17.2.1.1.cmml">
+            <times id="S0.Ex1.m1.1.17.2.1.1.1.cmml"/>
+            <ci id="S0.Ex1.m1.1.1.cmml">𝐴</ci>
+            <apply id="S0.Ex1.m1.1.17.2.1.1.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.1.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.2.cmml">𝑤</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.3.1.cmml">1</cn>
+            </apply>
+            <ci id="S0.Ex1.m1.1.5.cmml">𝑧</ci>
+          </apply>
+          <apply id="S0.Ex1.m1.1.17.2.1.2.cmml">
+            <times id="S0.Ex1.m1.1.17.2.1.2.1.cmml"/>
+            <ci id="S0.Ex1.m1.1.8.cmml">𝐵</ci>
+            <apply id="S0.Ex1.m1.1.17.2.1.2.2.cmml">
+              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.2.1.2.2.1.cmml">subscript</csymbol>
+              <ci id="S0.Ex1.m1.1.9.cmml">𝑤</ci>
+              <cn type="integer" id="S0.Ex1.m1.1.10.1.cmml">2</cn>
+            </apply>
+            <ci id="S0.Ex1.m1.1.12.cmml">𝑧</ci>
+          </apply>
+        </apply>
+        <cn type="integer" id="S0.Ex1.m1.1.15.cmml">0</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>
