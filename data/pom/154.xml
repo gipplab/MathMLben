@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="latex-command">\operatorname</term>
     <term prime-tag="alphanumeric">Ln</term>
     <term prime-tag="latex-command">\Gamma</term>
@@ -81,7 +80,5 @@
     </expression>
     <term prime-tag="letter" secondary-tags="Latin">d</term>
     <term prime-tag="letter" secondary-tags="Latin">t</term>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

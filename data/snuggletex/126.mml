@@ -1,77 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msub>
-         <mover accent="true">
-            <mi>J</mi>
-            <mo>˜</mo>
-         </mover>
-         <mi>ν</mi>
-      </msub>
+   <msub>
+      <mover accent="true">
+         <mi>J</mi>
+         <mo>˜</mo>
+      </mover>
+      <mi>ν</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+   </mfenced>
+   <mo>=</mo>
+   <msup>
       <mfenced close=")" open="(">
-         <mi>x</mi>
+         <mfrac>
+            <mrow>
+               <mn>2</mn>
+               <mi>tanh</mi>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                     </mfrac>
+                     <mi>π</mi>
+                     <mi>ν</mi>
+                  </mrow>
+               </mfenced>
+            </mrow>
+            <mrow>
+               <mi>π</mi>
+               <mi>ν</mi>
+            </mrow>
+         </mfrac>
       </mfenced>
-      <mo>=</mo>
-      <msup>
+      <mfrac>
+         <mn>1</mn>
+         <mn>2</mn>
+      </mfrac>
+   </msup>
+   <mi>cos</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>ν</mi>
+         <mi>ln</mi>
          <mfenced close=")" open="(">
-            <mfrac>
+            <mrow>
+               <mrow>
+                  <mn>1</mn>
+               </mrow>
                <mrow>
                   <mn>2</mn>
-                  <mi>tanh</mi>
-                  <mfenced close=")" open="(">
-                     <mrow>
-                        <mfrac>
-                           <mn>1</mn>
-                           <mn>2</mn>
-                        </mfrac>
-                        <mi>π</mi>
-                        <mi>ν</mi>
-                     </mrow>
-                  </mfenced>
                </mrow>
-               <mrow>
-                  <mi>π</mi>
-                  <mi>ν</mi>
-               </mrow>
-            </mfrac>
+               <mi>x</mi>
+            </mrow>
          </mfenced>
-         <mfrac>
-            <mn>1</mn>
-            <mn>2</mn>
-         </mfrac>
-      </msup>
-      <mi>cos</mi>
-      <mfenced close=")" open="(">
-         <mrow>
+         <mo>-</mo>
+         <msub>
+            <mi>γ</mi>
             <mi>ν</mi>
-            <mi>ln</mi>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mrow>
-                     <mn>1</mn>
-                  </mrow>
-                  <mrow>
-                     <mn>2</mn>
-                  </mrow>
-                  <mi>x</mi>
-               </mrow>
-            </mfenced>
-            <mo>-</mo>
-            <msub>
-               <mi>γ</mi>
-               <mi>ν</mi>
-            </msub>
-         </mrow>
-      </mfenced>
-      <mo>+</mo>
-      <mi>O</mi>
-      <mfenced close=")" open="(">
-         <msup>
-            <mi>x</mi>
-            <mn>2</mn>
-         </msup>
-      </mfenced>
-      <mo>,</mo>
-   </mrow>
+         </msub>
+      </mrow>
+   </mfenced>
+   <mo>+</mo>
+   <mi>O</mi>
+   <mfenced close=")" open="(">
+      <msup>
+         <mi>x</mi>
+         <mn>2</mn>
+      </msup>
+   </mfenced>
 </math>

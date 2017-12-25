@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="digit" secondary-tags="numeric">4</term>
     <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
     <term prime-tag="latex-command">\eta</term>
@@ -66,7 +65,5 @@
       <term prime-tag="digit" secondary-tags="numeric">2</term>
       <term prime-tag="right-delimiter">)</term>
     </expression>
-    <term prime-tag="point">.</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

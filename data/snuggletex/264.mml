@@ -16,9 +16,7 @@
          <mi>β</mi>
       </mrow>
    </msub>
-   <mi>l</mi>
-   <mi>t</mi>
-   <mo>;</mo>
+   <mo>&lt;</mo>
    <mover accent="true">
       <mi>P</mi>
       <mo>̂</mo>
@@ -39,4 +37,16 @@
          <mi>n</mi>
       </msub>
    </mfenced>
+   <mover accent="true">
+      <mi>P</mi>
+      <mo>̂</mo>
+   </mover>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi>e</mi>
+         <mi>β</mi>
+      </msub>
+   </mfenced>
+   <mo>&gt;</mo>
+   <mi>$</mi>
 </math>

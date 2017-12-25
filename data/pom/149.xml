@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="letter" secondary-tags="Latin">C</term>
     <expression prime-tag="balanced-expression">
       <term prime-tag="left-delimiter">\left(</term>
@@ -28,7 +27,5 @@
     <term prime-tag="latex-command">\operatorname</term>
     <term prime-tag="function">erf</term>
     <term prime-tag="latex-command">\zeta</term>
-    <term prime-tag="point">.</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

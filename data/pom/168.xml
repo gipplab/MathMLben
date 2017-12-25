@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <expression prime-tag="fraction">
       <expression prime-tag="sequence" secondary-tags="numerator">
         <term prime-tag="letter" secondary-tags="Latin">d</term>
@@ -30,7 +29,5 @@
     <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
     <term prime-tag="letter" secondary-tags="Latin">t</term>
     <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

@@ -1,105 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mi>U</mi>
-      <mfenced close=")" open="(">
-         <mi>a</mi>
-         <mi>z</mi>
-      </mfenced>
-      <mo>=</mo>
-      <mfrac>
-         <msup>
-            <mi>e</mi>
-            <mrow>
-               <mo>-</mo>
-               <mfrac>
-                  <mn>1</mn>
-                  <mn>4</mn>
-               </mfrac>
-               <msup>
-                  <mi>z</mi>
-                  <mn>2</mn>
-               </msup>
-            </mrow>
-         </msup>
-         <mrow>
-            <mi>Γ</mi>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mfrac>
-                     <mn>3</mn>
-                     <mn>4</mn>
-                  </mfrac>
-                  <mo>+</mo>
-                  <mfrac>
-                     <mn>1</mn>
-                     <mn>2</mn>
-                  </mfrac>
-                  <mi>a</mi>
-               </mrow>
-            </mfenced>
-         </mrow>
-      </mfrac>
-      <msubsup>
-         <mo>∫</mo>
-         <mn>0</mn>
-         <mi>∞</mi>
-      </msubsup>
-      <msup>
-         <mi>t</mi>
-         <mrow>
-            <mfrac>
-               <mn>1</mn>
-               <mn>2</mn>
-            </mfrac>
-            <mi>a</mi>
-            <mo>-</mo>
-            <mfrac>
-               <mn>1</mn>
-               <mn>4</mn>
-            </mfrac>
-         </mrow>
-      </msup>
+   <mi>U</mi>
+   <mfenced close=")" open="(">
+      <mi>a</mi>
+      <mi>z</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mfrac>
       <msup>
          <mi>e</mi>
          <mrow>
             <mo>-</mo>
-            <mi>t</mi>
-         </mrow>
-      </msup>
-      <msup>
-         <mfenced close=")" open="(">
-            <mrow>
-               <msup>
-                  <mi>z</mi>
-                  <mn>2</mn>
-               </msup>
-               <mo>+</mo>
-               <mn>2</mn>
-               <mi>t</mi>
-            </mrow>
-         </mfenced>
-         <mrow>
-            <mo>-</mo>
-            <mfrac>
-               <mn>1</mn>
-               <mn>2</mn>
-            </mfrac>
-            <mi>a</mi>
-            <mo>-</mo>
             <mfrac>
                <mn>1</mn>
                <mn>4</mn>
             </mfrac>
+            <msup>
+               <mi>z</mi>
+               <mn>2</mn>
+            </msup>
          </mrow>
       </msup>
-      <mstyle mathvariant="normal">
-         <mi>d</mi>
-      </mstyle>
-      <mstyle mathvariant="normal">
+      <mrow>
+         <mi>Γ</mi>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mfrac>
+                  <mn>3</mn>
+                  <mn>4</mn>
+               </mfrac>
+               <mo>+</mo>
+               <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+               <mi>a</mi>
+            </mrow>
+         </mfenced>
+      </mrow>
+   </mfrac>
+   <msubsup>
+      <mo>∫</mo>
+      <mn>0</mn>
+      <mi>∞</mi>
+   </msubsup>
+   <msup>
+      <mi>t</mi>
+      <mrow>
+         <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+         <mi>a</mi>
+         <mo>-</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mn>4</mn>
+         </mfrac>
+      </mrow>
+   </msup>
+   <msup>
+      <mi>e</mi>
+      <mrow>
+         <mo>-</mo>
          <mi>t</mi>
-         <mo>,</mo>
-      </mstyle>
-   </mrow>
+      </mrow>
+   </msup>
+   <msup>
+      <mfenced close=")" open="(">
+         <mrow>
+            <msup>
+               <mi>z</mi>
+               <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <mn>2</mn>
+            <mi>t</mi>
+         </mrow>
+      </mfenced>
+      <mrow>
+         <mo>-</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+         <mi>a</mi>
+         <mo>-</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mn>4</mn>
+         </mfrac>
+      </mrow>
+   </msup>
+   <mstyle mathvariant="normal">
+      <mi>d</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>t</mi>
+   </mstyle>
 </math>

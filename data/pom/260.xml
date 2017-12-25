@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">H</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="star">*</term>
+      </expression>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="latex-command">\lambda</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <expression prime-tag="sequence">
+        <term prime-tag="operator">\prod</term>
+        <expression prime-tag="subsuperscript">
+          <expression prime-tag="underscore" secondary-tags="subscript_operation">
+            <expression prime-tag="sequence" secondary-tags="subscript">
+              <term prime-tag="letter" secondary-tags="Latin">i</term>
+              <term prime-tag="equals">=</term>
+              <term prime-tag="digit" secondary-tags="numeric">1</term>
+            </expression>
+          </expression>
+          <expression prime-tag="caret" secondary-tags="superscript_operation">
+            <term prime-tag="letter" secondary-tags="Latin">k</term>
+          </expression>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">i</term>
+        </expression>
+        <term prime-tag="exclamation point" secondary-tags="punctuation">!</term>
+      </expression>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="operator">\prod</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+        <term prime-tag="less-than">&lt;</term>
+        <term prime-tag="letter" secondary-tags="Latin">j</term>
+      </expression>
+    </expression>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">i</term>
+        </expression>
+        <term prime-tag="plus">+</term>
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">j</term>
+        </expression>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">i</term>
+        </expression>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">j</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="digit" secondary-tags="numeric">2</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="minus">-</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="letter" secondary-tags="Latin">k</term>
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+      </expression>
+    </expression>
+    <expression prime-tag="square root">
+      <expression prime-tag="sequence" secondary-tags="radicand">
+        <term prime-tag="letter" secondary-tags="Latin">H</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="latex-command" secondary-tags="accented">\lambda</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="controlled space">\quad</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="square root" secondary-tags="denominator">
+        <expression prime-tag="sequence" secondary-tags="radicand">
+          <term prime-tag="letter" secondary-tags="Latin">H</term>
+          <expression prime-tag="underscore" secondary-tags="subscript_operation">
+            <term prime-tag="latex-command" secondary-tags="accented">\lambda</term>
+          </expression>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="square root">
+      <expression prime-tag="sequence" secondary-tags="radicand">
+        <term prime-tag="letter" secondary-tags="Latin">s</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="latex-command" secondary-tags="accented">\lambda</term>
+        </expression>
+        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+        <expression prime-tag="sequence">
+          <term prime-tag="latex-command">\bf</term>
+          <term prime-tag="letter" secondary-tags="Latin">t</term>
+        </expression>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="ordinary">\infty</term>
+        </expression>
+        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="digit" secondary-tags="numeric">2</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="minus">-</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="letter" secondary-tags="Latin">k</term>
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">Q</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="latex-command">\lambda</term>
+    </expression>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <expression prime-tag="sequence">
+          <term prime-tag="latex-command">\bf</term>
+          <term prime-tag="letter" secondary-tags="Latin">t</term>
+        </expression>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="ordinary">\infty</term>
+        </expression>
+      </expression>
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+  </expression>
+</math>

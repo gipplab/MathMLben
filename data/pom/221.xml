@@ -20,7 +20,7 @@
       <term prime-tag="latex-command">\nu</term>
     </expression>
     <term prime-tag="minus">-</term>
-    <term prime-tag="text">%&amp;#10;sign</term>
+    <term prime-tag="text">sign</term>
     <term prime-tag="opening delimiter">\langle</term>
     <term prime-tag="latex-command" secondary-tags="accented">\theta</term>
     <expression prime-tag="underscore" secondary-tags="subscript_operation">

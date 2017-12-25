@@ -31,6 +31,5 @@
     <term prime-tag="letter" secondary-tags="Latin">n</term>
     <term prime-tag="relation">\geq</term>
     <term prime-tag="digit" secondary-tags="numeric">0</term>
-    <term prime-tag="point">.</term>
   </expression>
 </math>

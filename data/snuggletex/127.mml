@@ -1,61 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msub>
-         <mi>K</mi>
-         <mi>ν</mi>
-      </msub>
+   <msub>
+      <mi>K</mi>
+      <mi>ν</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>z</mi>
+   </mfenced>
+   <mo>∼</mo>
+   <msup>
       <mfenced close=")" open="(">
-         <mi>z</mi>
-      </mfenced>
-      <mo>∼</mo>
-      <msup>
-         <mfenced close=")" open="(">
-            <mfrac>
-               <mi>π</mi>
-               <mrow>
-                  <mn>2</mn>
-                  <mi>z</mi>
-               </mrow>
-            </mfrac>
-         </mfenced>
          <mfrac>
-            <mn>1</mn>
-            <mn>2</mn>
+            <mi>π</mi>
+            <mrow>
+               <mn>2</mn>
+               <mi>z</mi>
+            </mrow>
          </mfrac>
-      </msup>
-      <msup>
-         <mi>e</mi>
-         <mrow>
-            <mo>-</mo>
-            <mi>z</mi>
-         </mrow>
-      </msup>
-      <msubsup>
-         <mo>∑</mo>
-         <mrow>
-            <mi>k</mi>
-            <mo>=</mo>
-            <mn>0</mn>
-         </mrow>
-         <mi>∞</mi>
-      </msubsup>
+      </mfenced>
       <mfrac>
-         <mrow>
-            <msub>
-               <mi>a</mi>
-               <mi>k</mi>
-            </msub>
-            <mfenced close=")" open="(">
-               <mi>ν</mi>
-            </mfenced>
-         </mrow>
-         <msup>
-            <mi>z</mi>
-            <mi>k</mi>
-         </msup>
+         <mn>1</mn>
+         <mn>2</mn>
       </mfrac>
-      <mo>,</mo>
-   </mrow>
+   </msup>
+   <msup>
+      <mi>e</mi>
+      <mrow>
+         <mo>-</mo>
+         <mi>z</mi>
+      </mrow>
+   </msup>
+   <msubsup>
+      <mo>∑</mo>
+      <mrow>
+         <mi>k</mi>
+         <mo>=</mo>
+         <mn>0</mn>
+      </mrow>
+      <mi>∞</mi>
+   </msubsup>
+   <mfrac>
+      <mrow>
+         <msub>
+            <mi>a</mi>
+            <mi>k</mi>
+         </msub>
+         <mfenced close=")" open="(">
+            <mi>ν</mi>
+         </mfenced>
+      </mrow>
+      <msup>
+         <mi>z</mi>
+         <mi>k</mi>
+      </msup>
+   </mfrac>
 </math>

@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="alphanumeric">Aw</term>
     <expression prime-tag="underscore" secondary-tags="subscript_operation">
       <term prime-tag="digit" secondary-tags="numeric">1</term>
@@ -19,7 +18,5 @@
     <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
     <term prime-tag="equals">=</term>
     <term prime-tag="digit" secondary-tags="numeric">0</term>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

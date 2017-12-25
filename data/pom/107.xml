@@ -1,4 +1,30 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
-  <expression/>
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="radical with a specified index">
+      <term prime-tag="digit" secondary-tags="numeric">3</term>
+      <expression prime-tag="sequence" secondary-tags="radicand">
+        <term prime-tag="minus">-</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="numeric">27</term>
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+        <term prime-tag="letter" secondary-tags="Latin">q</term>
+        <term prime-tag="plus">+</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="digit" secondary-tags="numeric">3</term>
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+        <expression prime-tag="square root">
+          <expression prime-tag="sequence" secondary-tags="radicand">
+            <term prime-tag="minus">-</term>
+            <term prime-tag="digit" secondary-tags="numeric">3</term>
+            <term prime-tag="letter" secondary-tags="Latin">D</term>
+          </expression>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
 </math>

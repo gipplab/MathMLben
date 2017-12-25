@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <expression prime-tag="fraction">
       <expression prime-tag="sequence" secondary-tags="numerator">
         <term prime-tag="letter" secondary-tags="Latin">d</term>
@@ -22,7 +21,5 @@
     </expression>
     <term prime-tag="equals">=</term>
     <term prime-tag="alphanumeric">aw</term>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

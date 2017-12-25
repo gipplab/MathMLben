@@ -20,16 +20,17 @@
       <mi>σ</mi>
    </msub>
    <mi>exp</mi>
-   <mrow>
-      <mo>(</mo>
-      <mo>-</mo>
-      <mi>β</mi>
-      <msub>
-         <mi>H</mi>
-         <mi>N</mi>
-      </msub>
+   <mfenced close=")" open="(">
       <mrow>
-         <mo>(</mo>
+         <mo>-</mo>
+         <mi>β</mi>
+         <msub>
+            <mi>H</mi>
+            <mi>N</mi>
+         </msub>
+         <mfenced close=")" open="(">
+            <mi>σ</mi>
+         </mfenced>
       </mrow>
-   </mrow>
+   </mfenced>
 </math>

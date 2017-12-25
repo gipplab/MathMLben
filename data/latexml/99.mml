@@ -1,6 +1,6 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\;\frac{(n+\delta-1)(n+\delta-2)\cdots n}{(\delta-1)!}\;" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\;\frac{(n+\delta-1)(n+\delta-2)\cdots n}{(\delta-1)!}\ " display="inline">
   <semantics id="p1.1.m1.1a">
-    <mpadded lspace="2.8pt" width="+5.6pt" id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">
+    <mpadded lspace="2.8pt" width="+7.8pt" id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">
       <mfrac id="p1.1.m1.1.2a" xref="p1.1.m1.1.2.cmml">
         <mrow id="p1.1.m1.1.2.2" xref="p1.1.m1.1.2.2.cmml">
           <mrow id="p1.1.m1.1.2.2.18" xref="p1.1.m1.1.2.2.18.2.cmml">

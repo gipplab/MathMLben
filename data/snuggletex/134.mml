@@ -1,72 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msub>
-         <mi>A</mi>
-         <mi>k</mi>
-      </msub>
-      <mfenced close=")" open="(">
-         <mi>n</mi>
-      </mfenced>
-      <mo>=</mo>
-      <msub>
-         <mo>∑</mo>
-         <mrow>
-            <mrow>
-               <mi>c</mi>
-            </mrow>
-            <mn>1</mn>
-            <mo>&lt;</mo>
-            <mi>h</mi>
-            <mo>≤</mo>
-            <mi>k</mi>
-            <mtext>
-</mtext>
-            <mfenced close=")" open="(">
+   <msub>
+      <mi>A</mi>
+      <mi>k</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>n</mi>
+   </mfenced>
+   <mo>=</mo>
+   <msub>
+      <mo>∑</mo>
+      <mtable>
+         <mtr>
+            <mtd columnalign="center">
+               <mn>1</mn>
+               <mo>&lt;</mo>
                <mi>h</mi>
+               <mo>≤</mo>
                <mi>k</mi>
-            </mfenced>
-            <mo>=</mo>
-            <mn>1</mn>
-         </mrow>
-      </msub>
-      <mrow>
-         <mstyle mathvariant="normal">
-            <msup>
-               <mi>e</mi>
-               <mrow>
-                  <mi>π</mi>
-                  <mstyle mathvariant="normal">
-                     <mi>i</mi>
-                  </mstyle>
-                  <mstyle mathvariant="normal">
-                     <mi>f</mi>
-                     <mfenced close=")" open="(">
-                        <mi>h</mi>
-                        <mi>k</mi>
-                     </mfenced>
-                     <mo>-</mo>
-                     <mfenced close=")" open="(">
-                        <mrow>
-                           <mn>2</mn>
-                           <mi>π</mi>
-                           <mstyle mathvariant="normal">
-                              <mi>i</mi>
-                           </mstyle>
-                           <mstyle mathvariant="normal">
-                              <mi>n</mi>
-                              <mi>h</mi>
-                              <mo>/</mo>
-                              <mi>k</mi>
-                           </mstyle>
-                        </mrow>
-                     </mfenced>
-                  </mstyle>
-               </mrow>
-            </msup>
-         </mstyle>
-      </mrow>
-      <mo>,</mo>
+            </mtd>
+         </mtr>
+         <mtr>
+            <mtd columnalign="center">
+               <mfenced close=")" open="(">
+                  <mi>h</mi>
+                  <mi>k</mi>
+               </mfenced>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mtd>
+         </mtr>
+      </mtable>
+   </msub>
+   <mrow>
+      <mstyle mathvariant="normal">
+         <msup>
+            <mi>e</mi>
+            <mrow>
+               <mi>π</mi>
+               <mstyle mathvariant="normal">
+                  <mi>i</mi>
+               </mstyle>
+               <mstyle mathvariant="normal">
+                  <mi>f</mi>
+                  <mfenced close=")" open="(">
+                     <mi>h</mi>
+                     <mi>k</mi>
+                  </mfenced>
+                  <mo>-</mo>
+                  <mfenced close=")" open="(">
+                     <mrow>
+                        <mn>2</mn>
+                        <mi>π</mi>
+                        <mstyle mathvariant="normal">
+                           <mi>i</mi>
+                        </mstyle>
+                        <mstyle mathvariant="normal">
+                           <mi>n</mi>
+                           <mi>h</mi>
+                           <mo>/</mo>
+                           <mi>k</mi>
+                        </mstyle>
+                     </mrow>
+                  </mfenced>
+               </mstyle>
+            </mrow>
+         </msup>
+      </mstyle>
    </mrow>
 </math>

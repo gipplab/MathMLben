@@ -34,4 +34,20 @@
          </msup>
       </mrow>
    </mfrac>
+   <mfrac>
+      <mrow>
+         <mi>∂</mi>
+         <msup>
+            <mi>X</mi>
+            <mi>B</mi>
+         </msup>
+      </mrow>
+      <mrow>
+         <mi>∂</mi>
+         <msup>
+            <mi>x</mi>
+            <mi>ν</mi>
+         </msup>
+      </mrow>
+   </mfrac>
 </math>

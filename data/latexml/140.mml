@@ -1,83 +1,80 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="w=\operatorname{Arcsinh}z=(-1)^{k}\operatorname{arcsinh}z+k\pi i," display="block">
-  <semantics id="S0.Ex1.m1.1a">
-    <mrow>
-      <mrow>
-        <mi>w</mi>
-        <mo>=</mo>
-        <mrow>
-          <mi>Arcsinh</mi>
-          <mo>⁡</mo>
-          <mi>z</mi>
-        </mrow>
-        <mo>=</mo>
-        <mrow>
-          <mrow>
-            <msup>
-              <mrow>
-                <mo stretchy="false">(</mo>
-                <mrow>
-                  <mo>-</mo>
-                  <mn>1</mn>
-                </mrow>
-                <mo stretchy="false">)</mo>
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="w=\operatorname{Arcsinh}z=(-1)^{k}\operatorname{arcsinh}z+k\pi i" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.29" xref="p1.1.m1.1.29.cmml">
+      <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">w</mi>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">=</mo>
+      <mrow id="p1.1.m1.1.29.2" xref="p1.1.m1.1.29.2.cmml">
+        <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">Arcsinh</mi>
+        <mo id="p1.1.m1.1.29.2a" xref="p1.1.m1.1.29.2.cmml">⁡</mo>
+        <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">z</mi>
+      </mrow>
+      <mo id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">=</mo>
+      <mrow id="p1.1.m1.1.29.3" xref="p1.1.m1.1.29.3.cmml">
+        <mrow id="p1.1.m1.1.29.3.1" xref="p1.1.m1.1.29.3.1.cmml">
+          <msup id="p1.1.m1.1.29.3.1.2" xref="p1.1.m1.1.29.3.1.2.cmml">
+            <mrow id="p1.1.m1.1.29.3.1.2.2" xref="p1.1.m1.1.29.3.1.2.2.2.cmml">
+              <mo stretchy="false" id="p1.1.m1.1.12" xref="p1.1.m1.1.29.3.1.2.2.2.cmml">(</mo>
+              <mrow id="p1.1.m1.1.29.3.1.2.2.2" xref="p1.1.m1.1.29.3.1.2.2.2.cmml">
+                <mo id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">-</mo>
+                <mn id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">1</mn>
               </mrow>
-              <mi>k</mi>
-            </msup>
-            <mo>⁢</mo>
-            <mrow>
-              <mi>arcsinh</mi>
-              <mo>⁡</mo>
-              <mi>z</mi>
+              <mo stretchy="false" id="p1.1.m1.1.15" xref="p1.1.m1.1.29.3.1.2.2.2.cmml">)</mo>
             </mrow>
+            <mi id="p1.1.m1.1.16.1" xref="p1.1.m1.1.16.1.cmml">k</mi>
+          </msup>
+          <mo id="p1.1.m1.1.29.3.1.1" xref="p1.1.m1.1.29.3.1.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.29.3.1.3" xref="p1.1.m1.1.29.3.1.3.cmml">
+            <mi id="p1.1.m1.1.23" xref="p1.1.m1.1.23.cmml">arcsinh</mi>
+            <mo id="p1.1.m1.1.29.3.1.3a" xref="p1.1.m1.1.29.3.1.3.cmml">⁡</mo>
+            <mi id="p1.1.m1.1.24" xref="p1.1.m1.1.24.cmml">z</mi>
           </mrow>
-          <mo>+</mo>
-          <mrow>
-            <mi>k</mi>
-            <mo>⁢</mo>
-            <mi>π</mi>
-            <mo>⁢</mo>
-            <mi>i</mi>
-          </mrow>
+        </mrow>
+        <mo id="p1.1.m1.1.25" xref="p1.1.m1.1.25.cmml">+</mo>
+        <mrow id="p1.1.m1.1.29.3.2" xref="p1.1.m1.1.29.3.2.cmml">
+          <mi id="p1.1.m1.1.26" xref="p1.1.m1.1.26.cmml">k</mi>
+          <mo id="p1.1.m1.1.29.3.2.1" xref="p1.1.m1.1.29.3.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.27" xref="p1.1.m1.1.27.cmml">π</mi>
+          <mo id="p1.1.m1.1.29.3.2.1a" xref="p1.1.m1.1.29.3.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.28" xref="p1.1.m1.1.28.cmml">i</mi>
         </mrow>
       </mrow>
-      <mo>,</mo>
     </mrow>
-    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
-      <apply id="S0.Ex1.m1.1.30.2.cmml">
-        <and id="S0.Ex1.m1.1.30.2a.cmml"/>
-        <apply id="S0.Ex1.m1.1.30.2b.cmml">
-          <eq id="S0.Ex1.m1.1.2.cmml"/>
-          <ci id="S0.Ex1.m1.1.1.cmml">𝑤</ci>
-          <apply id="S0.Ex1.m1.1.30.2.2.cmml">
-            <ci id="S0.Ex1.m1.1.9.cmml">Arcsinh</ci>
-            <ci id="S0.Ex1.m1.1.10.cmml">𝑧</ci>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.29.cmml" xref="p1.1.m1.1.29">
+        <and id="p1.1.m1.1.29a.cmml" xref="p1.1.m1.1.29"/>
+        <apply id="p1.1.m1.1.29b.cmml" xref="p1.1.m1.1.29">
+          <eq id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2"/>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑤</ci>
+          <apply id="p1.1.m1.1.29.2.cmml" xref="p1.1.m1.1.29.2">
+            <ci id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">Arcsinh</ci>
+            <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝑧</ci>
           </apply>
         </apply>
-        <apply id="S0.Ex1.m1.1.30.2c.cmml">
-          <eq id="S0.Ex1.m1.1.11.cmml"/>
-          <share href="#S0.Ex1.m1.1.30.2.2.cmml" id="S0.Ex1.m1.1.30.2d.cmml"/>
-          <apply id="S0.Ex1.m1.1.30.2.3.cmml">
-            <plus id="S0.Ex1.m1.1.25.cmml"/>
-            <apply id="S0.Ex1.m1.1.30.2.3.1.cmml">
-              <times id="S0.Ex1.m1.1.30.2.3.1.1.cmml"/>
-              <apply id="S0.Ex1.m1.1.30.2.3.1.2.cmml">
-                <csymbol cd="ambiguous" id="S0.Ex1.m1.1.30.2.3.1.2.1.cmml">superscript</csymbol>
-                <apply id="S0.Ex1.m1.1.30.2.3.1.2.2.2.cmml">
-                  <minus id="S0.Ex1.m1.1.13.cmml"/>
-                  <cn type="integer" id="S0.Ex1.m1.1.14.cmml">1</cn>
+        <apply id="p1.1.m1.1.29c.cmml" xref="p1.1.m1.1.29">
+          <eq id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11"/>
+          <share href="#p1.1.m1.1.29.2.cmml" id="p1.1.m1.1.29d.cmml" xref="p1.1.m1.1.29"/>
+          <apply id="p1.1.m1.1.29.3.cmml" xref="p1.1.m1.1.29.3">
+            <plus id="p1.1.m1.1.25.cmml" xref="p1.1.m1.1.25"/>
+            <apply id="p1.1.m1.1.29.3.1.cmml" xref="p1.1.m1.1.29.3.1">
+              <times id="p1.1.m1.1.29.3.1.1.cmml" xref="p1.1.m1.1.29.3.1.1"/>
+              <apply id="p1.1.m1.1.29.3.1.2.cmml" xref="p1.1.m1.1.29.3.1.2">
+                <csymbol cd="ambiguous" id="p1.1.m1.1.29.3.1.2.1.cmml" xref="p1.1.m1.1.29.3.1.2">superscript</csymbol>
+                <apply id="p1.1.m1.1.29.3.1.2.2.2.cmml" xref="p1.1.m1.1.29.3.1.2.2">
+                  <minus id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13"/>
+                  <cn type="integer" id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">1</cn>
                 </apply>
-                <ci id="S0.Ex1.m1.1.16.1.cmml">𝑘</ci>
+                <ci id="p1.1.m1.1.16.1.cmml" xref="p1.1.m1.1.16.1">𝑘</ci>
               </apply>
-              <apply id="S0.Ex1.m1.1.30.2.3.1.3.cmml">
-                <ci id="S0.Ex1.m1.1.23.cmml">arcsinh</ci>
-                <ci id="S0.Ex1.m1.1.24.cmml">𝑧</ci>
+              <apply id="p1.1.m1.1.29.3.1.3.cmml" xref="p1.1.m1.1.29.3.1.3">
+                <ci id="p1.1.m1.1.23.cmml" xref="p1.1.m1.1.23">arcsinh</ci>
+                <ci id="p1.1.m1.1.24.cmml" xref="p1.1.m1.1.24">𝑧</ci>
               </apply>
             </apply>
-            <apply id="S0.Ex1.m1.1.30.2.3.2.cmml">
-              <times id="S0.Ex1.m1.1.30.2.3.2.1.cmml"/>
-              <ci id="S0.Ex1.m1.1.26.cmml">𝑘</ci>
-              <ci id="S0.Ex1.m1.1.27.cmml">𝜋</ci>
-              <ci id="S0.Ex1.m1.1.28.cmml">𝑖</ci>
+            <apply id="p1.1.m1.1.29.3.2.cmml" xref="p1.1.m1.1.29.3.2">
+              <times id="p1.1.m1.1.29.3.2.1.cmml" xref="p1.1.m1.1.29.3.2.1"/>
+              <ci id="p1.1.m1.1.26.cmml" xref="p1.1.m1.1.26">𝑘</ci>
+              <ci id="p1.1.m1.1.27.cmml" xref="p1.1.m1.1.27">𝜋</ci>
+              <ci id="p1.1.m1.1.28.cmml" xref="p1.1.m1.1.28">𝑖</ci>
             </apply>
           </apply>
         </apply>

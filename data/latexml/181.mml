@@ -1,0 +1,81 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="U_{4}\left(x\right)=16x^{4}-12x^{2}+1" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">
+      <mrow id="p1.1.m1.1.18.1" xref="p1.1.m1.1.18.1.cmml">
+        <msub id="p1.1.m1.1.18.1.2" xref="p1.1.m1.1.18.1.2.cmml">
+          <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">U</mi>
+          <mn id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">4</mn>
+        </msub>
+        <mo id="p1.1.m1.1.18.1.1" xref="p1.1.m1.1.18.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.18.1.3" xref="p1.1.m1.1.18.1.cmml">
+          <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.18.1.cmml">(</mo>
+          <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">x</mi>
+          <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.18.1.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">=</mo>
+      <mrow id="p1.1.m1.1.18.2" xref="p1.1.m1.1.18.2.cmml">
+        <mrow id="p1.1.m1.1.18.2.1" xref="p1.1.m1.1.18.2.1.cmml">
+          <mrow id="p1.1.m1.1.18.2.1.1" xref="p1.1.m1.1.18.2.1.1.cmml">
+            <mn id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">16</mn>
+            <mo id="p1.1.m1.1.18.2.1.1.1" xref="p1.1.m1.1.18.2.1.1.1.cmml">⁢</mo>
+            <msup id="p1.1.m1.1.18.2.1.1.2" xref="p1.1.m1.1.18.2.1.1.2.cmml">
+              <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">x</mi>
+              <mn id="p1.1.m1.1.10.1" xref="p1.1.m1.1.10.1.cmml">4</mn>
+            </msup>
+          </mrow>
+          <mo id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">-</mo>
+          <mrow id="p1.1.m1.1.18.2.1.2" xref="p1.1.m1.1.18.2.1.2.cmml">
+            <mn id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">12</mn>
+            <mo id="p1.1.m1.1.18.2.1.2.1" xref="p1.1.m1.1.18.2.1.2.1.cmml">⁢</mo>
+            <msup id="p1.1.m1.1.18.2.1.2.2" xref="p1.1.m1.1.18.2.1.2.2.cmml">
+              <mi id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">x</mi>
+              <mn id="p1.1.m1.1.15.1" xref="p1.1.m1.1.15.1.cmml">2</mn>
+            </msup>
+          </mrow>
+        </mrow>
+        <mo id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">+</mo>
+        <mn id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">1</mn>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18">
+        <eq id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
+        <apply id="p1.1.m1.1.18.1.cmml" xref="p1.1.m1.1.18.1">
+          <times id="p1.1.m1.1.18.1.1.cmml" xref="p1.1.m1.1.18.1.1"/>
+          <apply id="p1.1.m1.1.18.1.2.cmml" xref="p1.1.m1.1.18.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.18.1.2.1.cmml" xref="p1.1.m1.1.18.1.2">subscript</csymbol>
+            <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑈</ci>
+            <cn type="integer" id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">4</cn>
+          </apply>
+          <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝑥</ci>
+        </apply>
+        <apply id="p1.1.m1.1.18.2.cmml" xref="p1.1.m1.1.18.2">
+          <plus id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16"/>
+          <apply id="p1.1.m1.1.18.2.1.cmml" xref="p1.1.m1.1.18.2.1">
+            <minus id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11"/>
+            <apply id="p1.1.m1.1.18.2.1.1.cmml" xref="p1.1.m1.1.18.2.1.1">
+              <times id="p1.1.m1.1.18.2.1.1.1.cmml" xref="p1.1.m1.1.18.2.1.1.1"/>
+              <cn type="integer" id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">16</cn>
+              <apply id="p1.1.m1.1.18.2.1.1.2.cmml" xref="p1.1.m1.1.18.2.1.1.2">
+                <csymbol cd="ambiguous" id="p1.1.m1.1.18.2.1.1.2.1.cmml" xref="p1.1.m1.1.18.2.1.1.2">superscript</csymbol>
+                <ci id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">𝑥</ci>
+                <cn type="integer" id="p1.1.m1.1.10.1.cmml" xref="p1.1.m1.1.10.1">4</cn>
+              </apply>
+            </apply>
+            <apply id="p1.1.m1.1.18.2.1.2.cmml" xref="p1.1.m1.1.18.2.1.2">
+              <times id="p1.1.m1.1.18.2.1.2.1.cmml" xref="p1.1.m1.1.18.2.1.2.1"/>
+              <cn type="integer" id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13">12</cn>
+              <apply id="p1.1.m1.1.18.2.1.2.2.cmml" xref="p1.1.m1.1.18.2.1.2.2">
+                <csymbol cd="ambiguous" id="p1.1.m1.1.18.2.1.2.2.1.cmml" xref="p1.1.m1.1.18.2.1.2.2">superscript</csymbol>
+                <ci id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">𝑥</ci>
+                <cn type="integer" id="p1.1.m1.1.15.1.cmml" xref="p1.1.m1.1.15.1">2</cn>
+              </apply>
+            </apply>
+          </apply>
+          <cn type="integer" id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

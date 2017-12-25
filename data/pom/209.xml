@@ -45,5 +45,31 @@
       </expression>
     </expression>
     <term prime-tag="fence">|</term>
+    <term prime-tag="latex-command">\psi</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">i</term>
+    </expression>
+    <term prime-tag="closing delimiter">\rangle</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="opening delimiter">\langle</term>
+    <term prime-tag="latex-command">\psi</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">i</term>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="letter" secondary-tags="Latin">H</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">i</term>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="latex-command">\psi</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">i</term>
+    </expression>
+    <term prime-tag="closing delimiter">\rangle</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

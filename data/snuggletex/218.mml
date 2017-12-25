@@ -32,4 +32,41 @@
    </mrow>
    <mo>-</mo>
    <mi>q</mi>
+   <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>̄</mo>
+   </mover>
+   <msup>
+      <mi>γ</mi>
+      <mn>0</mn>
+   </msup>
+   <mrow>
+      <mi>Ψ</mi>
+   </mrow>
+   <mi>Φ</mi>
+   <mo>+</mo>
+   <mrow>
+      <mfrac>
+         <mn>1</mn>
+         <mn>2</mn>
+      </mfrac>
+   </mrow>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msub>
+            <mi>∂</mi>
+            <mi>μ</mi>
+         </msub>
+         <mi>Φ</mi>
+      </mrow>
+   </mfenced>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msup>
+            <mi>∂</mi>
+            <mi>μ</mi>
+         </msup>
+         <mi>Φ</mi>
+      </mrow>
+   </mfenced>
 </math>

@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msub>
-         <mi>C</mi>
-         <mi>ν</mi>
-      </msub>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>u</mi>
-            <mo>±</mo>
-            <mi>v</mi>
-         </mrow>
-      </mfenced>
-      <mo>=</mo>
-      <msubsup>
-         <mo>∑</mo>
-         <mrow>
-            <mi>k</mi>
-            <mo>=</mo>
-            <mo>-</mo>
-            <mi>∞</mi>
-         </mrow>
-         <mi>∞</mi>
-      </msubsup>
-      <msub>
-         <mi>C</mi>
-         <mrow>
-            <mi>ν</mi>
-            <mo>∓</mo>
-            <mi>k</mi>
-         </mrow>
-      </msub>
-      <mfenced close=")" open="(">
+   <msub>
+      <mi>C</mi>
+      <mi>ν</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mrow>
          <mi>u</mi>
-      </mfenced>
-      <msub>
-         <mi>J</mi>
-         <mi>k</mi>
-      </msub>
-      <mfenced close=")" open="(">
+         <mo>±</mo>
          <mi>v</mi>
-      </mfenced>
-      <mo>,</mo>
-   </mrow>
+      </mrow>
+   </mfenced>
+   <mo>=</mo>
+   <msubsup>
+      <mo>∑</mo>
+      <mrow>
+         <mi>k</mi>
+         <mo>=</mo>
+         <mo>-</mo>
+         <mi>∞</mi>
+      </mrow>
+      <mi>∞</mi>
+   </msubsup>
+   <msub>
+      <mi>C</mi>
+      <mrow>
+         <mi>ν</mi>
+         <mo>∓</mo>
+         <mi>k</mi>
+      </mrow>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>u</mi>
+   </mfenced>
+   <msub>
+      <mi>J</mi>
+      <mi>k</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>v</mi>
+   </mfenced>
 </math>

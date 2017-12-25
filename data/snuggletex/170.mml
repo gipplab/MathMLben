@@ -1,78 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mfrac>
-         <mrow>
-            <msup>
-               <mstyle mathvariant="normal">
-                  <mi>d</mi>
-               </mstyle>
-               <mn>2</mn>
-            </msup>
-            <mi>w</mi>
-         </mrow>
+   <mfrac>
+      <mrow>
          <msup>
-            <mrow>
-               <mstyle mathvariant="normal">
-                  <mi>d</mi>
-               </mstyle>
-               <mstyle mathvariant="normal">
-                  <msup>
-                     <mi>z</mi>
-                     <mi>′</mi>
-                  </msup>
-               </mstyle>
-            </mrow>
+            <mstyle mathvariant="normal">
+               <mi>d</mi>
+            </mstyle>
             <mn>2</mn>
          </msup>
-      </mfrac>
-      <mo>+</mo>
-      <mfenced close=")" open="(">
+         <mi>w</mi>
+      </mrow>
+      <msup>
          <mrow>
-            <msup>
-               <mi>h</mi>
-               <mi>′</mi>
-            </msup>
-            <mo>-</mo>
-            <mi>ν</mi>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mi>ν</mi>
-                  <mo>+</mo>
-                  <mn>1</mn>
-               </mrow>
-            </mfenced>
-            <msup>
-               <msup>
-                  <mi>k</mi>
-                  <mi>′</mi>
-               </msup>
-               <mn>2</mn>
-            </msup>
-            <mrow>
-               <msup>
-                  <mrow>
-                     <mi>s</mi>
-                     <mi>n</mi>
-                  </mrow>
-                  <mn>2</mn>
-               </msup>
-            </mrow>
-            <mfenced close=")" open="(">
+            <mstyle mathvariant="normal">
+               <mi>d</mi>
+            </mstyle>
+            <mstyle mathvariant="normal">
                <msup>
                   <mi>z</mi>
                   <mi>′</mi>
                </msup>
-               <msup>
-                  <mi>k</mi>
-                  <mi>′</mi>
-               </msup>
-            </mfenced>
+            </mstyle>
          </mrow>
-      </mfenced>
-      <mi>w</mi>
-      <mo>=</mo>
-      <mn>0.</mn>
-   </mrow>
+         <mn>2</mn>
+      </msup>
+   </mfrac>
+   <mo>+</mo>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msup>
+            <mi>h</mi>
+            <mi>′</mi>
+         </msup>
+         <mo>-</mo>
+         <mi>ν</mi>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>ν</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+            </mrow>
+         </mfenced>
+         <msup>
+            <msup>
+               <mi>k</mi>
+               <mi>′</mi>
+            </msup>
+            <mn>2</mn>
+         </msup>
+         <mrow>
+            <msup>
+               <mrow>
+                  <mi>s</mi>
+                  <mi>n</mi>
+               </mrow>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+         <mfenced close=")" open="(">
+            <msup>
+               <mi>z</mi>
+               <mi>′</mi>
+            </msup>
+            <msup>
+               <mi>k</mi>
+               <mi>′</mi>
+            </msup>
+         </mfenced>
+      </mrow>
+   </mfenced>
+   <mi>w</mi>
+   <mo>=</mo>
+   <mn>0</mn>
 </math>

@@ -9,6 +9,5 @@
     <expression prime-tag="caret" secondary-tags="superscript_operation">
       <term prime-tag="operation">\circ</term>
     </expression>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
   </expression>
 </math>

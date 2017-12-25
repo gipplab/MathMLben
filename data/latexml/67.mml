@@ -1,40 +1,37 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\frac{\partial f}{\partial x}=f_{x}=\partial_{x}f." display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\frac{\partial f}{\partial x}=f_{x}=\partial_{x}f" display="inline">
   <semantics id="p1.1.m1.1a">
-    <mrow id="p1.1.m1.1.10" xref="p1.1.m1.1.10.2.cmml">
-      <mrow id="p1.1.m1.1.10.2" xref="p1.1.m1.1.10.2.cmml">
-        <mfrac id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">
-          <mrow id="p1.1.m1.1.1.2" xref="p1.1.m1.1.1.2.cmml">
-            <mo id="p1.1.m1.1.1.2.1" xref="p1.1.m1.1.1.2.1.cmml">∂</mo>
-            <mo id="p1.1.m1.1.1.2a" xref="p1.1.m1.1.1.2.cmml">⁡</mo>
-            <mi id="p1.1.m1.1.1.2.2" xref="p1.1.m1.1.1.2.2.cmml">f</mi>
-          </mrow>
-          <mrow id="p1.1.m1.1.1.3" xref="p1.1.m1.1.1.3.cmml">
-            <mo id="p1.1.m1.1.1.3.1" xref="p1.1.m1.1.1.3.1.cmml">∂</mo>
-            <mo id="p1.1.m1.1.1.3a" xref="p1.1.m1.1.1.3.cmml">⁡</mo>
-            <mi id="p1.1.m1.1.1.3.2" xref="p1.1.m1.1.1.3.2.cmml">x</mi>
-          </mrow>
-        </mfrac>
-        <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">=</mo>
-        <msub id="p1.1.m1.1.10.2.2" xref="p1.1.m1.1.10.2.2.cmml">
-          <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">f</mi>
-          <mi id="p1.1.m1.1.4.1" xref="p1.1.m1.1.4.1.cmml">x</mi>
-        </msub>
-        <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">=</mo>
-        <mrow id="p1.1.m1.1.10.2.3" xref="p1.1.m1.1.10.2.3.cmml">
-          <msub id="p1.1.m1.1.10.2.3.1" xref="p1.1.m1.1.10.2.3.1.cmml">
-            <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">∂</mo>
-            <mi id="p1.1.m1.1.7.1" xref="p1.1.m1.1.7.1.cmml">x</mi>
-          </msub>
-          <mo id="p1.1.m1.1.10.2.3a" xref="p1.1.m1.1.10.2.3.cmml">⁡</mo>
-          <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">f</mi>
+    <mrow id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">
+      <mfrac id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">
+        <mrow id="p1.1.m1.1.1.2" xref="p1.1.m1.1.1.2.cmml">
+          <mo id="p1.1.m1.1.1.2.1" xref="p1.1.m1.1.1.2.1.cmml">∂</mo>
+          <mo id="p1.1.m1.1.1.2a" xref="p1.1.m1.1.1.2.cmml">⁡</mo>
+          <mi id="p1.1.m1.1.1.2.2" xref="p1.1.m1.1.1.2.2.cmml">f</mi>
         </mrow>
+        <mrow id="p1.1.m1.1.1.3" xref="p1.1.m1.1.1.3.cmml">
+          <mo id="p1.1.m1.1.1.3.1" xref="p1.1.m1.1.1.3.1.cmml">∂</mo>
+          <mo id="p1.1.m1.1.1.3a" xref="p1.1.m1.1.1.3.cmml">⁡</mo>
+          <mi id="p1.1.m1.1.1.3.2" xref="p1.1.m1.1.1.3.2.cmml">x</mi>
+        </mrow>
+      </mfrac>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">=</mo>
+      <msub id="p1.1.m1.1.9.2" xref="p1.1.m1.1.9.2.cmml">
+        <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">f</mi>
+        <mi id="p1.1.m1.1.4.1" xref="p1.1.m1.1.4.1.cmml">x</mi>
+      </msub>
+      <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">=</mo>
+      <mrow id="p1.1.m1.1.9.3" xref="p1.1.m1.1.9.3.cmml">
+        <msub id="p1.1.m1.1.9.3.1" xref="p1.1.m1.1.9.3.1.cmml">
+          <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">∂</mo>
+          <mi id="p1.1.m1.1.7.1" xref="p1.1.m1.1.7.1.cmml">x</mi>
+        </msub>
+        <mo id="p1.1.m1.1.9.3a" xref="p1.1.m1.1.9.3.cmml">⁡</mo>
+        <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">f</mi>
       </mrow>
-      <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.10.2.cmml">.</mo>
     </mrow>
     <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
-      <apply id="p1.1.m1.1.10.2.cmml" xref="p1.1.m1.1.10">
-        <and id="p1.1.m1.1.10.2a.cmml" xref="p1.1.m1.1.10"/>
-        <apply id="p1.1.m1.1.10.2b.cmml" xref="p1.1.m1.1.10">
+      <apply id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">
+        <and id="p1.1.m1.1.9a.cmml" xref="p1.1.m1.1.9"/>
+        <apply id="p1.1.m1.1.9b.cmml" xref="p1.1.m1.1.9">
           <eq id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2"/>
           <apply id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">
             <divide id="p1.1.m1.1.1.1.cmml" xref="p1.1.m1.1.1"/>
@@ -47,18 +44,18 @@
               <ci id="p1.1.m1.1.1.3.2.cmml" xref="p1.1.m1.1.1.3.2">𝑥</ci>
             </apply>
           </apply>
-          <apply id="p1.1.m1.1.10.2.2.cmml" xref="p1.1.m1.1.10.2.2">
-            <csymbol cd="ambiguous" id="p1.1.m1.1.10.2.2.1.cmml" xref="p1.1.m1.1.10.2.2">subscript</csymbol>
+          <apply id="p1.1.m1.1.9.2.cmml" xref="p1.1.m1.1.9.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.9.2.1.cmml" xref="p1.1.m1.1.9.2">subscript</csymbol>
             <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑓</ci>
             <ci id="p1.1.m1.1.4.1.cmml" xref="p1.1.m1.1.4.1">𝑥</ci>
           </apply>
         </apply>
-        <apply id="p1.1.m1.1.10.2c.cmml" xref="p1.1.m1.1.10">
+        <apply id="p1.1.m1.1.9c.cmml" xref="p1.1.m1.1.9">
           <eq id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5"/>
-          <share href="#p1.1.m1.1.10.2.2.cmml" id="p1.1.m1.1.10.2d.cmml" xref="p1.1.m1.1.10"/>
-          <apply id="p1.1.m1.1.10.2.3.cmml" xref="p1.1.m1.1.10.2.3">
-            <apply id="p1.1.m1.1.10.2.3.1.cmml" xref="p1.1.m1.1.10.2.3.1">
-              <csymbol cd="ambiguous" id="p1.1.m1.1.10.2.3.1.1.cmml" xref="p1.1.m1.1.10.2.3.1">subscript</csymbol>
+          <share href="#p1.1.m1.1.9.2.cmml" id="p1.1.m1.1.9d.cmml" xref="p1.1.m1.1.9"/>
+          <apply id="p1.1.m1.1.9.3.cmml" xref="p1.1.m1.1.9.3">
+            <apply id="p1.1.m1.1.9.3.1.cmml" xref="p1.1.m1.1.9.3.1">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.9.3.1.1.cmml" xref="p1.1.m1.1.9.3.1">subscript</csymbol>
               <partialdiff id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
               <ci id="p1.1.m1.1.7.1.cmml" xref="p1.1.m1.1.7.1">𝑥</ci>
             </apply>

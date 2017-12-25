@@ -1,80 +1,75 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
-    <expression prime-tag="sequence">
-      <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-      <term prime-tag="letter" secondary-tags="Latin">n</term>
-      <term prime-tag="plus">+</term>
-      <term prime-tag="latex-command">\lambda</term>
-      <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-      <expression prime-tag="caret" secondary-tags="superscript_operation">
-        <expression prime-tag="sequence" secondary-tags="superscript">
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">n</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="latex-command">\lambda</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="latex-command">\lambda</term>
+      </expression>
+    </expression>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <expression prime-tag="fraction">
           <term prime-tag="digit" secondary-tags="numeric">1</term>
-          <term prime-tag="minus">-</term>
-          <term prime-tag="latex-command">\lambda</term>
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
         </expression>
+        <term prime-tag="latex-command">\lambda</term>
       </expression>
-      <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-      <term prime-tag="digit" secondary-tags="numeric">1</term>
-      <term prime-tag="minus">-</term>
-      <term prime-tag="letter" secondary-tags="Latin">x</term>
-      <expression prime-tag="caret" secondary-tags="superscript_operation">
-        <term prime-tag="digit" secondary-tags="numeric">2</term>
-      </expression>
-      <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="letter" secondary-tags="Latin">C</term>
+    <expression prime-tag="subsuperscript">
       <expression prime-tag="caret" secondary-tags="superscript_operation">
         <expression prime-tag="sequence" secondary-tags="superscript">
-          <expression prime-tag="fraction">
-            <term prime-tag="digit" secondary-tags="numeric">1</term>
-            <term prime-tag="digit" secondary-tags="numeric">2</term>
-          </expression>
+          <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
           <term prime-tag="latex-command">\lambda</term>
+          <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
         </expression>
       </expression>
-      <term prime-tag="fence">|</term>
-      <term prime-tag="letter" secondary-tags="Latin">C</term>
-      <expression prime-tag="subsuperscript">
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+      </expression>
+    </expression>
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <term prime-tag="letter" secondary-tags="Latin">x</term>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="less-than">&lt;</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="digit" secondary-tags="numeric">2</term>
         <expression prime-tag="caret" secondary-tags="superscript_operation">
           <expression prime-tag="sequence" secondary-tags="superscript">
-            <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+            <term prime-tag="digit" secondary-tags="numeric">1</term>
+            <term prime-tag="minus">-</term>
             <term prime-tag="latex-command">\lambda</term>
-            <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
           </expression>
-        </expression>
-        <expression prime-tag="underscore" secondary-tags="subscript_operation">
-          <term prime-tag="letter" secondary-tags="Latin">n</term>
         </expression>
       </expression>
-      <expression prime-tag="balanced-expression">
-        <term prime-tag="left-delimiter">\left(</term>
-        <term prime-tag="letter" secondary-tags="Latin">x</term>
-        <term prime-tag="right-delimiter">\right)</term>
-      </expression>
-      <term prime-tag="fence">|</term>
-      <term prime-tag="less-than">&lt;</term>
-      <expression prime-tag="fraction">
-        <expression prime-tag="sequence" secondary-tags="numerator">
-          <term prime-tag="digit" secondary-tags="numeric">2</term>
-          <expression prime-tag="caret" secondary-tags="superscript_operation">
-            <expression prime-tag="sequence" secondary-tags="superscript">
-              <term prime-tag="digit" secondary-tags="numeric">1</term>
-              <term prime-tag="minus">-</term>
-              <term prime-tag="latex-command">\lambda</term>
-            </expression>
-          </expression>
-        </expression>
-        <expression prime-tag="sequence" secondary-tags="denominator">
-          <term prime-tag="latex-command">\Gamma</term>
-          <expression prime-tag="balanced-expression">
-            <term prime-tag="left-delimiter">\left(</term>
-            <term prime-tag="latex-command">\lambda</term>
-            <term prime-tag="right-delimiter">\right)</term>
-          </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="latex-command">\Gamma</term>
+        <expression prime-tag="balanced-expression">
+          <term prime-tag="left-delimiter">\left(</term>
+          <term prime-tag="latex-command">\lambda</term>
+          <term prime-tag="right-delimiter">\right)</term>
         </expression>
       </expression>
     </expression>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

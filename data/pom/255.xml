@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin, accented">g</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="latex-command">\mu</term>
+        <term prime-tag="latex-command">\nu</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">G</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="alphanumeric">AB</term>
+    </expression>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">X</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">A</term>
+        </expression>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">x</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="latex-command">\mu</term>
+        </expression>
+      </expression>
+    </expression>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">X</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="letter" secondary-tags="Latin">B</term>
+        </expression>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">x</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="latex-command">\nu</term>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

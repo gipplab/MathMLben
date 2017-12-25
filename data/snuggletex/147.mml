@@ -1,54 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mi>Π</mi>
-      <mfenced close=")" open="(">
-         <msup>
-            <mi>α</mi>
-            <mn>2</mn>
-         </msup>
-         <mi>k</mi>
-      </mfenced>
-      <mo>-</mo>
-      <mi>K</mi>
-      <mfenced close=")" open="(">
-         <mi>k</mi>
-      </mfenced>
-      <mo>=</mo>
-      <mrow>
-         <mn>1</mn>
-      </mrow>
-      <mrow>
-         <mn>3</mn>
-      </mrow>
+   <mi>Π</mi>
+   <mfenced close=")" open="(">
       <msup>
          <mi>α</mi>
          <mn>2</mn>
       </msup>
-      <msub>
-         <mi>R</mi>
-         <mi>J</mi>
-      </msub>
-      <mfenced close=")" open="(">
-         <mn>0</mn>
+      <mi>k</mi>
+   </mfenced>
+   <mo>-</mo>
+   <mi>K</mi>
+   <mfenced close=")" open="(">
+      <mi>k</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mrow>
+      <mn>1</mn>
+   </mrow>
+   <mrow>
+      <mn>3</mn>
+   </mrow>
+   <msup>
+      <mi>α</mi>
+      <mn>2</mn>
+   </msup>
+   <msub>
+      <mi>R</mi>
+      <mi>J</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mn>0</mn>
+      <msup>
          <msup>
-            <msup>
-               <mi>k</mi>
-               <mi>′</mi>
-            </msup>
+            <mi>k</mi>
+            <mi>′</mi>
+         </msup>
+         <mn>2</mn>
+      </msup>
+      <mn>1</mn>
+      <mrow>
+         <mn>1</mn>
+         <mo>-</mo>
+         <msup>
+            <mi>α</mi>
             <mn>2</mn>
          </msup>
-         <mn>1</mn>
-         <mrow>
-            <mn>1</mn>
-            <mo>-</mo>
-            <msup>
-               <mi>α</mi>
-               <mn>2</mn>
-            </msup>
-         </mrow>
-      </mfenced>
-      <mi>.</mi>
-   </mrow>
+      </mrow>
+   </mfenced>
 </math>

@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>w</mi>
+   <mo>=</mo>
    <mrow>
-      <mo>[</mo>
-      <mi>w</mi>
-      <mo>=</mo>
-      <mrow>
-         <mi>A</mi>
-         <mi>r</mi>
-         <mi>c</mi>
-         <mi>s</mi>
-         <mi>i</mi>
-         <mi>n</mi>
-         <mi>h</mi>
-      </mrow>
-      <mi>z</mi>
-      <mo>=</mo>
-      <msup>
-         <mfenced close=")" open="(">
-            <mn>-1</mn>
-         </mfenced>
-         <mi>k</mi>
-      </msup>
-      <mrow>
-         <mi>a</mi>
-         <mi>r</mi>
-         <mi>c</mi>
-         <mi>s</mi>
-         <mi>i</mi>
-         <mi>n</mi>
-         <mi>h</mi>
-      </mrow>
-      <mi>z</mi>
-      <mo>+</mo>
-      <mi>k</mi>
-      <mi>π</mi>
+      <mi>A</mi>
+      <mi>r</mi>
+      <mi>c</mi>
+      <mi>s</mi>
       <mi>i</mi>
-      <mo>,</mo>
+      <mi>n</mi>
+      <mi>h</mi>
    </mrow>
+   <mi>z</mi>
+   <mo>=</mo>
+   <msup>
+      <mfenced close=")" open="(">
+         <mn>-1</mn>
+      </mfenced>
+      <mi>k</mi>
+   </msup>
+   <mrow>
+      <mi>a</mi>
+      <mi>r</mi>
+      <mi>c</mi>
+      <mi>s</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>h</mi>
+   </mrow>
+   <mi>z</mi>
+   <mo>+</mo>
+   <mi>k</mi>
+   <mi>π</mi>
+   <mi>i</mi>
 </math>

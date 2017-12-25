@@ -1,136 +1,125 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="R_{J}\left(0,y,z,\pm\sqrt{yz}\right)=\pm\frac{3}{2\sqrt{yz}}R_{F}\left(0,y,z%%&#10;\right)." display="block">
-  <semantics id="S0.Ex1.m1.1a">
-    <mrow>
-      <mrow>
-        <mrow>
-          <msub>
-            <mi>R</mi>
-            <mi>J</mi>
-          </msub>
-          <mo>⁢</mo>
-          <mrow>
-            <mo>(</mo>
-            <mn>0</mn>
-            <mo>,</mo>
-            <mi>y</mi>
-            <mo>,</mo>
-            <mi>z</mi>
-            <mo>,</mo>
-            <mrow>
-              <mo>±</mo>
-              <msqrt>
-                <mrow>
-                  <mi>y</mi>
-                  <mo>⁢</mo>
-                  <mi>z</mi>
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="R_{J}\left(0,y,z,\pm\sqrt{yz}\right)=\pm\frac{3}{2\sqrt{yz}}R_{F}\left(0,y,z\right)" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.25" xref="p1.1.m1.1.25.cmml">
+      <mrow id="p1.1.m1.1.25.1" xref="p1.1.m1.1.25.1.cmml">
+        <msub id="p1.1.m1.1.25.1.2" xref="p1.1.m1.1.25.1.2.cmml">
+          <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">R</mi>
+          <mi id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">J</mi>
+        </msub>
+        <mo id="p1.1.m1.1.25.1.1" xref="p1.1.m1.1.25.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.25.1.3" xref="p1.1.m1.1.25.1.3.1.cmml">
+          <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.25.1.3.1.cmml">(</mo>
+          <mn id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">0</mn>
+          <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.25.1.3.1.cmml">,</mo>
+          <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">y</mi>
+          <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.25.1.3.1.cmml">,</mo>
+          <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">z</mi>
+          <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.25.1.3.1.cmml">,</mo>
+          <mrow id="p1.1.m1.1.25.1.3.2" xref="p1.1.m1.1.25.1.3.2.cmml">
+            <mo id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">±</mo>
+            <msqrt id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">
+              <mrow id="p1.1.m1.1.11.2" xref="p1.1.m1.1.11.2.cmml">
+                <mi id="p1.1.m1.1.11.2.1" xref="p1.1.m1.1.11.2.1.cmml">y</mi>
+                <mo id="p1.1.m1.1.11.2.3" xref="p1.1.m1.1.11.2.3.cmml">⁢</mo>
+                <mi id="p1.1.m1.1.11.2.2" xref="p1.1.m1.1.11.2.2.cmml">z</mi>
+              </mrow>
+            </msqrt>
+          </mrow>
+          <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.25.1.3.1.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">=</mo>
+      <mrow id="p1.1.m1.1.25.2" xref="p1.1.m1.1.25.2.cmml">
+        <mo id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">±</mo>
+        <mrow id="p1.1.m1.1.25.2.1" xref="p1.1.m1.1.25.2.1.cmml">
+          <mfrac id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">
+            <mn id="p1.1.m1.1.15.2" xref="p1.1.m1.1.15.2.cmml">3</mn>
+            <mrow id="p1.1.m1.1.15.3" xref="p1.1.m1.1.15.3.cmml">
+              <mn id="p1.1.m1.1.15.3.1" xref="p1.1.m1.1.15.3.1.cmml">2</mn>
+              <mo id="p1.1.m1.1.15.3.3" xref="p1.1.m1.1.15.3.3.cmml">⁢</mo>
+              <msqrt id="p1.1.m1.1.15.3.2" xref="p1.1.m1.1.15.3.2.cmml">
+                <mrow id="p1.1.m1.1.15.3.2.2" xref="p1.1.m1.1.15.3.2.2.cmml">
+                  <mi id="p1.1.m1.1.15.3.2.2.1" xref="p1.1.m1.1.15.3.2.2.1.cmml">y</mi>
+                  <mo id="p1.1.m1.1.15.3.2.2.3" xref="p1.1.m1.1.15.3.2.2.3.cmml">⁢</mo>
+                  <mi id="p1.1.m1.1.15.3.2.2.2" xref="p1.1.m1.1.15.3.2.2.2.cmml">z</mi>
                 </mrow>
               </msqrt>
             </mrow>
-            <mo>)</mo>
-          </mrow>
-        </mrow>
-        <mo>=</mo>
-        <mrow>
-          <mo>±</mo>
-          <mrow>
-            <mfrac>
-              <mn>3</mn>
-              <mrow>
-                <mn>2</mn>
-                <mo>⁢</mo>
-                <msqrt>
-                  <mrow>
-                    <mi>y</mi>
-                    <mo>⁢</mo>
-                    <mi>z</mi>
-                  </mrow>
-                </msqrt>
-              </mrow>
-            </mfrac>
-            <mo>⁢</mo>
-            <msub>
-              <mi>R</mi>
-              <mi>F</mi>
-            </msub>
-            <mo>⁢</mo>
-            <mrow>
-              <mo>(</mo>
-              <mn>0</mn>
-              <mo>,</mo>
-              <mi>y</mi>
-              <mo>,</mo>
-              <mrow>
-                <mi>z</mi>
-                <mo>⁢</mo>
-                <mi mathvariant="normal">%</mi>
-              </mrow>
-              <mo>)</mo>
-            </mrow>
+          </mfrac>
+          <mo id="p1.1.m1.1.25.2.1.1" xref="p1.1.m1.1.25.2.1.1.cmml">⁢</mo>
+          <msub id="p1.1.m1.1.25.2.1.2" xref="p1.1.m1.1.25.2.1.2.cmml">
+            <mi id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">R</mi>
+            <mi id="p1.1.m1.1.17.1" xref="p1.1.m1.1.17.1.cmml">F</mi>
+          </msub>
+          <mo id="p1.1.m1.1.25.2.1.1a" xref="p1.1.m1.1.25.2.1.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.25.2.1.3" xref="p1.1.m1.1.25.2.1.3.1.cmml">
+            <mo id="p1.1.m1.1.18" xref="p1.1.m1.1.25.2.1.3.1.cmml">(</mo>
+            <mn id="p1.1.m1.1.19" xref="p1.1.m1.1.19.cmml">0</mn>
+            <mo id="p1.1.m1.1.20" xref="p1.1.m1.1.25.2.1.3.1.cmml">,</mo>
+            <mi id="p1.1.m1.1.21" xref="p1.1.m1.1.21.cmml">y</mi>
+            <mo id="p1.1.m1.1.22" xref="p1.1.m1.1.25.2.1.3.1.cmml">,</mo>
+            <mi id="p1.1.m1.1.23" xref="p1.1.m1.1.23.cmml">z</mi>
+            <mo id="p1.1.m1.1.24" xref="p1.1.m1.1.25.2.1.3.1.cmml">)</mo>
           </mrow>
         </mrow>
       </mrow>
-      <mo>.</mo>
     </mrow>
-    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
-      <apply id="S0.Ex1.m1.1.27.2.cmml">
-        <eq id="S0.Ex1.m1.1.13.cmml"/>
-        <apply id="S0.Ex1.m1.1.27.2.1.cmml">
-          <times id="S0.Ex1.m1.1.27.2.1.1.cmml"/>
-          <apply id="S0.Ex1.m1.1.27.2.1.2.cmml">
-            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.27.2.1.2.1.cmml">subscript</csymbol>
-            <ci id="S0.Ex1.m1.1.1.cmml">𝑅</ci>
-            <ci id="S0.Ex1.m1.1.2.1.cmml">𝐽</ci>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.25.cmml" xref="p1.1.m1.1.25">
+        <eq id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13"/>
+        <apply id="p1.1.m1.1.25.1.cmml" xref="p1.1.m1.1.25.1">
+          <times id="p1.1.m1.1.25.1.1.cmml" xref="p1.1.m1.1.25.1.1"/>
+          <apply id="p1.1.m1.1.25.1.2.cmml" xref="p1.1.m1.1.25.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.25.1.2.1.cmml" xref="p1.1.m1.1.25.1.2">subscript</csymbol>
+            <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑅</ci>
+            <ci id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">𝐽</ci>
           </apply>
-          <vector id="S0.Ex1.m1.1.27.2.1.3.1.cmml">
-            <cn type="integer" id="S0.Ex1.m1.1.4.cmml">0</cn>
-            <ci id="S0.Ex1.m1.1.6.cmml">𝑦</ci>
-            <ci id="S0.Ex1.m1.1.8.cmml">𝑧</ci>
-            <apply id="S0.Ex1.m1.1.27.2.1.3.2.cmml">
-              <csymbol cd="latexml" id="S0.Ex1.m1.1.10.cmml">plus-or-minus</csymbol>
-              <apply id="S0.Ex1.m1.1.11.cmml">
-                <root id="S0.Ex1.m1.1.11a.cmml"/>
-                <apply id="S0.Ex1.m1.1.11.2.cmml">
-                  <times id="S0.Ex1.m1.1.11.2.3.cmml"/>
-                  <ci id="S0.Ex1.m1.1.11.2.1.cmml">𝑦</ci>
-                  <ci id="S0.Ex1.m1.1.11.2.2.cmml">𝑧</ci>
+          <vector id="p1.1.m1.1.25.1.3.1.cmml" xref="p1.1.m1.1.25.1.3">
+            <cn type="integer" id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">0</cn>
+            <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝑦</ci>
+            <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑧</ci>
+            <apply id="p1.1.m1.1.25.1.3.2.cmml" xref="p1.1.m1.1.25.1.3.2">
+              <csymbol cd="latexml" id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">plus-or-minus</csymbol>
+              <apply id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11">
+                <root id="p1.1.m1.1.11a.cmml" xref="p1.1.m1.1.11"/>
+                <apply id="p1.1.m1.1.11.2.cmml" xref="p1.1.m1.1.11.2">
+                  <times id="p1.1.m1.1.11.2.3.cmml" xref="p1.1.m1.1.11.2.3"/>
+                  <ci id="p1.1.m1.1.11.2.1.cmml" xref="p1.1.m1.1.11.2.1">𝑦</ci>
+                  <ci id="p1.1.m1.1.11.2.2.cmml" xref="p1.1.m1.1.11.2.2">𝑧</ci>
                 </apply>
               </apply>
             </apply>
           </vector>
         </apply>
-        <apply id="S0.Ex1.m1.1.27.2.2.cmml">
-          <csymbol cd="latexml" id="S0.Ex1.m1.1.14.cmml">plus-or-minus</csymbol>
-          <apply id="S0.Ex1.m1.1.27.2.2.1.cmml">
-            <times id="S0.Ex1.m1.1.27.2.2.1.1.cmml"/>
-            <apply id="S0.Ex1.m1.1.15.cmml">
-              <divide id="S0.Ex1.m1.1.15.1.cmml"/>
-              <cn type="integer" id="S0.Ex1.m1.1.15.2.cmml">3</cn>
-              <apply id="S0.Ex1.m1.1.15.3.cmml">
-                <times id="S0.Ex1.m1.1.15.3.3.cmml"/>
-                <cn type="integer" id="S0.Ex1.m1.1.15.3.1.cmml">2</cn>
-                <apply id="S0.Ex1.m1.1.15.3.2.cmml">
-                  <root id="S0.Ex1.m1.1.15.3.2a.cmml"/>
-                  <apply id="S0.Ex1.m1.1.15.3.2.2.cmml">
-                    <times id="S0.Ex1.m1.1.15.3.2.2.3.cmml"/>
-                    <ci id="S0.Ex1.m1.1.15.3.2.2.1.cmml">𝑦</ci>
-                    <ci id="S0.Ex1.m1.1.15.3.2.2.2.cmml">𝑧</ci>
+        <apply id="p1.1.m1.1.25.2.cmml" xref="p1.1.m1.1.25.2">
+          <csymbol cd="latexml" id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">plus-or-minus</csymbol>
+          <apply id="p1.1.m1.1.25.2.1.cmml" xref="p1.1.m1.1.25.2.1">
+            <times id="p1.1.m1.1.25.2.1.1.cmml" xref="p1.1.m1.1.25.2.1.1"/>
+            <apply id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">
+              <divide id="p1.1.m1.1.15.1.cmml" xref="p1.1.m1.1.15"/>
+              <cn type="integer" id="p1.1.m1.1.15.2.cmml" xref="p1.1.m1.1.15.2">3</cn>
+              <apply id="p1.1.m1.1.15.3.cmml" xref="p1.1.m1.1.15.3">
+                <times id="p1.1.m1.1.15.3.3.cmml" xref="p1.1.m1.1.15.3.3"/>
+                <cn type="integer" id="p1.1.m1.1.15.3.1.cmml" xref="p1.1.m1.1.15.3.1">2</cn>
+                <apply id="p1.1.m1.1.15.3.2.cmml" xref="p1.1.m1.1.15.3.2">
+                  <root id="p1.1.m1.1.15.3.2a.cmml" xref="p1.1.m1.1.15.3.2"/>
+                  <apply id="p1.1.m1.1.15.3.2.2.cmml" xref="p1.1.m1.1.15.3.2.2">
+                    <times id="p1.1.m1.1.15.3.2.2.3.cmml" xref="p1.1.m1.1.15.3.2.2.3"/>
+                    <ci id="p1.1.m1.1.15.3.2.2.1.cmml" xref="p1.1.m1.1.15.3.2.2.1">𝑦</ci>
+                    <ci id="p1.1.m1.1.15.3.2.2.2.cmml" xref="p1.1.m1.1.15.3.2.2.2">𝑧</ci>
                   </apply>
                 </apply>
               </apply>
             </apply>
-            <apply id="S0.Ex1.m1.1.27.2.2.1.2.cmml">
-              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.27.2.2.1.2.1.cmml">subscript</csymbol>
-              <ci id="S0.Ex1.m1.1.16.cmml">𝑅</ci>
-              <ci id="S0.Ex1.m1.1.17.1.cmml">𝐹</ci>
+            <apply id="p1.1.m1.1.25.2.1.2.cmml" xref="p1.1.m1.1.25.2.1.2">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.25.2.1.2.1.cmml" xref="p1.1.m1.1.25.2.1.2">subscript</csymbol>
+              <ci id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">𝑅</ci>
+              <ci id="p1.1.m1.1.17.1.cmml" xref="p1.1.m1.1.17.1">𝐹</ci>
             </apply>
-            <vector id="S0.Ex1.m1.1.27.2.2.1.3.1.cmml">
-              <cn type="integer" id="S0.Ex1.m1.1.19.cmml">0</cn>
-              <ci id="S0.Ex1.m1.1.21.cmml">𝑦</ci>
-              <apply id="S0.Ex1.m1.1.27.2.2.1.3.2.cmml">
-                <times id="S0.Ex1.m1.1.27.2.2.1.3.2.1.cmml"/>
-                <ci id="S0.Ex1.m1.1.23.cmml">𝑧</ci>
-                <ci id="S0.Ex1.m1.1.24.cmml">%</ci>
-              </apply>
+            <vector id="p1.1.m1.1.25.2.1.3.1.cmml" xref="p1.1.m1.1.25.2.1.3">
+              <cn type="integer" id="p1.1.m1.1.19.cmml" xref="p1.1.m1.1.19">0</cn>
+              <ci id="p1.1.m1.1.21.cmml" xref="p1.1.m1.1.21">𝑦</ci>
+              <ci id="p1.1.m1.1.23.cmml" xref="p1.1.m1.1.23">𝑧</ci>
             </vector>
           </apply>
         </apply>

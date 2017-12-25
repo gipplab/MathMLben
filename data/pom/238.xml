@@ -30,5 +30,8 @@
       <term prime-tag="letter" secondary-tags="Latin">N</term>
     </expression>
     <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="latex-command">\sigma</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
   </expression>
 </math>

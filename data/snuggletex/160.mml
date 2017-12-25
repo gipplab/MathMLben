@@ -1,75 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msub>
-         <mi>lim</mi>
-         <mrow>
-            <mi>z</mi>
-            <mn>1</mn>
-            <mo>-</mo>
-         </mrow>
-      </msub>
-      <mfrac>
-         <mrow>
-            <mi>F</mi>
-            <mfenced close=")" open="(">
-               <mi>a</mi>
-               <mrow>
-                  <mi>b</mi>
-                  <mo>;</mo>
-                  <mi>c</mi>
-                  <mo>;</mo>
-                  <mi>z</mi>
-               </mrow>
-            </mfenced>
-         </mrow>
-         <msup>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mn>1</mn>
-                  <mo>-</mo>
-                  <mi>z</mi>
-               </mrow>
-            </mfenced>
+   <msub>
+      <mi>lim</mi>
+      <mrow>
+         <mi>z</mi>
+         <mn>1</mn>
+         <mo>-</mo>
+      </mrow>
+   </msub>
+   <mfrac>
+      <mrow>
+         <mi>F</mi>
+         <mfenced close=")" open="(">
+            <mi>a</mi>
             <mrow>
-               <mi>c</mi>
-               <mo>-</mo>
-               <mi>a</mi>
-               <mo>-</mo>
                <mi>b</mi>
+               <mo>;</mo>
+               <mi>c</mi>
+               <mo>;</mo>
+               <mi>z</mi>
             </mrow>
-         </msup>
-      </mfrac>
-      <mo>=</mo>
-      <mfrac>
+         </mfenced>
+      </mrow>
+      <msup>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mn>1</mn>
+               <mo>-</mo>
+               <mi>z</mi>
+            </mrow>
+         </mfenced>
          <mrow>
-            <mi>Γ</mi>
-            <mfenced close=")" open="(">
-               <mi>c</mi>
-            </mfenced>
-            <mi>Γ</mi>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mi>a</mi>
-                  <mo>+</mo>
-                  <mi>b</mi>
-                  <mo>-</mo>
-                  <mi>c</mi>
-               </mrow>
-            </mfenced>
+            <mi>c</mi>
+            <mo>-</mo>
+            <mi>a</mi>
+            <mo>-</mo>
+            <mi>b</mi>
          </mrow>
-         <mrow>
-            <mi>Γ</mi>
-            <mfenced close=")" open="(">
+      </msup>
+   </mfrac>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mi>Γ</mi>
+         <mfenced close=")" open="(">
+            <mi>c</mi>
+         </mfenced>
+         <mi>Γ</mi>
+         <mfenced close=")" open="(">
+            <mrow>
                <mi>a</mi>
-            </mfenced>
-            <mi>Γ</mi>
-            <mfenced close=")" open="(">
+               <mo>+</mo>
                <mi>b</mi>
-            </mfenced>
-         </mrow>
-      </mfrac>
-      <mi>.</mi>
-   </mrow>
+               <mo>-</mo>
+               <mi>c</mi>
+            </mrow>
+         </mfenced>
+      </mrow>
+      <mrow>
+         <mi>Γ</mi>
+         <mfenced close=")" open="(">
+            <mi>a</mi>
+         </mfenced>
+         <mi>Γ</mi>
+         <mfenced close=")" open="(">
+            <mi>b</mi>
+         </mfenced>
+      </mrow>
+   </mfrac>
 </math>

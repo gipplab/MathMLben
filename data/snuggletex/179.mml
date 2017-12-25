@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msubsup>
-         <mo>∑</mo>
-         <mrow>
-            <mi>n</mi>
-            <mo>=</mo>
-            <mn>1</mn>
-         </mrow>
-         <mi>∞</mi>
-      </msubsup>
-      <mi>f</mi>
-      <mfenced close=")" open="(">
+   <msubsup>
+      <mo>∑</mo>
+      <mrow>
          <mi>n</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+      </mrow>
+      <mi>∞</mi>
+   </msubsup>
+   <mi>f</mi>
+   <mfenced close=")" open="(">
+      <mi>n</mi>
+   </mfenced>
+   <mo>=</mo>
+   <msub>
+      <mo>∏</mo>
+      <mi>p</mi>
+   </msub>
+   <msup>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>f</mi>
+            <mfenced close=")" open="(">
+               <mi>p</mi>
+            </mfenced>
+         </mrow>
       </mfenced>
-      <mo>=</mo>
-      <msub>
-         <mo>∏</mo>
-         <mi>p</mi>
-      </msub>
-      <msup>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mn>1</mn>
-               <mo>-</mo>
-               <mi>f</mi>
-               <mfenced close=")" open="(">
-                  <mi>p</mi>
-               </mfenced>
-            </mrow>
-         </mfenced>
-         <mn>-1</mn>
-      </msup>
-      <mi>.</mi>
-   </mrow>
+      <mn>-1</mn>
+   </msup>
 </math>

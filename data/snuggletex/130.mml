@@ -1,117 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msup>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mi>z</mi>
-               <mfrac>
+   <msup>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mi>z</mi>
+            <mfrac>
+               <mstyle mathvariant="normal">
+                  <mi>d</mi>
+               </mstyle>
+               <mrow>
                   <mstyle mathvariant="normal">
                      <mi>d</mi>
                   </mstyle>
-                  <mrow>
-                     <mstyle mathvariant="normal">
-                        <mi>d</mi>
-                     </mstyle>
-                     <mstyle mathvariant="normal">
-                        <mi>z</mi>
-                     </mstyle>
-                  </mrow>
-               </mfrac>
-               <mi>z</mi>
-            </mrow>
-         </mfenced>
-         <mi>n</mi>
-      </msup>
-      <mfenced close=")" open="(">
-         <mrow>
-            <msup>
-               <mi>e</mi>
-               <mrow>
-                  <mo>-</mo>
-                  <mfrac>
-                     <mn>1</mn>
-                     <mn>2</mn>
-                  </mfrac>
-                  <mi>z</mi>
+                  <mstyle mathvariant="normal">
+                     <mi>z</mi>
+                  </mstyle>
                </mrow>
-            </msup>
-            <msup>
-               <mi>z</mi>
-               <mrow>
-                  <mi>κ</mi>
-                  <mo>-</mo>
-                  <mn>1</mn>
-               </mrow>
-            </msup>
-            <msub>
-               <mi>M</mi>
-               <mrow>
-                  <mi>κ</mi>
-                  <mo>,</mo>
-                  <mi>μ</mi>
-               </mrow>
-            </msub>
-            <mfenced close=")" open="(">
-               <mi>z</mi>
-            </mfenced>
-         </mrow>
-      </mfenced>
-      <mo>=</mo>
-      <mrow>
-         <msub>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mrow>
-                     <mn>1</mn>
-                  </mrow>
-                  <mrow>
-                     <mn>2</mn>
-                  </mrow>
-                  <mo>+</mo>
-                  <mi>μ</mi>
-                  <mo>+</mo>
-                  <mi>κ</mi>
-               </mrow>
-            </mfenced>
-            <mi>n</mi>
-         </msub>
-      </mrow>
-      <msup>
-         <mi>e</mi>
-         <mrow>
-            <mo>-</mo>
-            <mfrac>
-               <mn>1</mn>
-               <mn>2</mn>
             </mfrac>
             <mi>z</mi>
          </mrow>
-      </msup>
-      <msup>
-         <mi>z</mi>
-         <mrow>
-            <mi>κ</mi>
-            <mo>+</mo>
-            <mi>n</mi>
-            <mo>-</mo>
-            <mn>1</mn>
-         </mrow>
-      </msup>
-      <msub>
-         <mi>M</mi>
-         <mrow>
-            <mi>κ</mi>
-            <mo>+</mo>
-            <mi>n</mi>
-            <mo>,</mo>
-            <mi>μ</mi>
-         </mrow>
-      </msub>
-      <mfenced close=")" open="(">
-         <mi>z</mi>
       </mfenced>
-      <mi>.</mi>
+      <mi>n</mi>
+   </msup>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msup>
+            <mi>e</mi>
+            <mrow>
+               <mo>-</mo>
+               <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+               <mi>z</mi>
+            </mrow>
+         </msup>
+         <msup>
+            <mi>z</mi>
+            <mrow>
+               <mi>κ</mi>
+               <mo>-</mo>
+               <mn>1</mn>
+            </mrow>
+         </msup>
+         <msub>
+            <mi>M</mi>
+            <mrow>
+               <mi>κ</mi>
+               <mo>,</mo>
+               <mi>μ</mi>
+            </mrow>
+         </msub>
+         <mfenced close=")" open="(">
+            <mi>z</mi>
+         </mfenced>
+      </mrow>
+   </mfenced>
+   <mo>=</mo>
+   <mrow>
+      <msub>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mrow>
+                  <mn>1</mn>
+               </mrow>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+               <mo>+</mo>
+               <mi>μ</mi>
+               <mo>+</mo>
+               <mi>κ</mi>
+            </mrow>
+         </mfenced>
+         <mi>n</mi>
+      </msub>
    </mrow>
+   <msup>
+      <mi>e</mi>
+      <mrow>
+         <mo>-</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+         <mi>z</mi>
+      </mrow>
+   </msup>
+   <msup>
+      <mi>z</mi>
+      <mrow>
+         <mi>κ</mi>
+         <mo>+</mo>
+         <mi>n</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+   </msup>
+   <msub>
+      <mi>M</mi>
+      <mrow>
+         <mi>κ</mi>
+         <mo>+</mo>
+         <mi>n</mi>
+         <mo>,</mo>
+         <mi>μ</mi>
+      </mrow>
+   </msub>
+   <mfenced close=")" open="(">
+      <mi>z</mi>
+   </mfenced>
 </math>

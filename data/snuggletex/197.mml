@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>A</mi>
+   <mo>≡</mo>
+   <mi>A</mi>
+   <mfenced close=")" open="(">
+      <mi>τ</mi>
+   </mfenced>
+   <mo>=</mo>
    <mrow>
-      <mo>[</mo>
-      <mi>A</mi>
-      <mo>≡</mo>
-      <mi>A</mi>
+      <mn>1</mn>
+   </mrow>
+   <mrow>
+      <msub>
+         <mi>θ</mi>
+         <mn>4</mn>
+      </msub>
       <mfenced close=")" open="(">
-         <mi>τ</mi>
+         <mrow>
+            <mn>0</mn>
+            <mo>|</mo>
+            <mn>2</mn>
+            <mi>τ</mi>
+         </mrow>
       </mfenced>
-      <mo>=</mo>
-      <mrow>
-         <mn>1</mn>
-      </mrow>
-      <mrow>
-         <msub>
-            <mi>θ</mi>
-            <mn>4</mn>
-         </msub>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mn>0</mn>
-               <mo>|</mo>
-               <mn>2</mn>
-               <mi>τ</mi>
-            </mrow>
-         </mfenced>
-      </mrow>
-      <mo>,</mo>
    </mrow>
 </math>

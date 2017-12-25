@@ -28,6 +28,5 @@
     <expression prime-tag="underscore" secondary-tags="subscript_operation">
       <term prime-tag="letter" secondary-tags="Latin">n</term>
     </expression>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
   </expression>
 </math>

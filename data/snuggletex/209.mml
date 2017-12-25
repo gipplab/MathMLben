@@ -26,21 +26,49 @@
       </mrow>
       <mi>N</mi>
    </msubsup>
-   <mrow>
-      <mo>[</mo>
+   <mfenced close="]" open="[">
       <mrow>
-         <mo>⟨</mo>
-         <msub>
-            <mi>ψ</mi>
-            <mi>i</mi>
-         </msub>
-         <mo>|</mo>
-         <msubsup>
-            <mi>H</mi>
-            <mi>i</mi>
+         <mfenced close="⟩" open="⟨">
+            <mrow>
+               <msub>
+                  <mi>ψ</mi>
+                  <mi>i</mi>
+               </msub>
+               <mo>|</mo>
+               <msubsup>
+                  <mi>H</mi>
+                  <mi>i</mi>
+                  <mn>2</mn>
+               </msubsup>
+               <mo>|</mo>
+               <msub>
+                  <mi>ψ</mi>
+                  <mi>i</mi>
+               </msub>
+            </mrow>
+         </mfenced>
+         <mo>-</mo>
+         <msup>
+            <mfenced close="⟩" open="⟨">
+               <mrow>
+                  <msub>
+                     <mi>ψ</mi>
+                     <mi>i</mi>
+                  </msub>
+                  <mo>|</mo>
+                  <msub>
+                     <mi>H</mi>
+                     <mi>i</mi>
+                  </msub>
+                  <mo>|</mo>
+                  <msub>
+                     <mi>ψ</mi>
+                     <mi>i</mi>
+                  </msub>
+               </mrow>
+            </mfenced>
             <mn>2</mn>
-         </msubsup>
-         <mo>|</mo>
+         </msup>
       </mrow>
-   </mrow>
+   </mfenced>
 </math>

@@ -1,4 +1,14 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
-  <expression/>
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">0</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="numeric">12</term>
+    </expression>
+  </expression>
 </math>

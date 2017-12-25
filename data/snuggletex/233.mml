@@ -32,6 +32,83 @@
    <mo>,</mo>
    <msub>
       <mi>α</mi>
-      <mi>j</mi>
+      <mrow>
+         <mi>j</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+      </mrow>
    </msub>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mi>X</mi>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>τ</mi>
+               <mrow>
+                  <mi>j</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msub>
+         </mfenced>
+         <mi>y</mi>
+      </mrow>
+      <mrow>
+         <mo>∥</mo>
+         <mi>X</mi>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>τ</mi>
+               <mrow>
+                  <mi>j</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msub>
+         </mfenced>
+         <mo>∥</mo>
+      </mrow>
+   </mfrac>
+   <mo>,</mo>
+   <msub>
+      <mi>α</mi>
+      <mrow>
+         <mi>j</mi>
+         <mo>+</mo>
+         <mn>2</mn>
+      </mrow>
+   </msub>
+   <mo>=</mo>
+   <mfrac>
+      <mrow>
+         <mi>X</mi>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>τ</mi>
+               <mrow>
+                  <mi>j</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msub>
+         </mfenced>
+         <mi>y</mi>
+      </mrow>
+      <mrow>
+         <mo>∥</mo>
+         <mi>X</mi>
+         <mfenced close=")" open="(">
+            <msub>
+               <mi>τ</mi>
+               <mrow>
+                  <mi>j</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msub>
+         </mfenced>
+         <mo>∥</mo>
+      </mrow>
+   </mfrac>
 </math>

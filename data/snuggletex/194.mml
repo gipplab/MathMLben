@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mfrac>
+   <mfrac>
+      <msub>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>q</mi>
+               <mo>;</mo>
+               <mi>q</mi>
+            </mrow>
+         </mfenced>
+         <mrow>
+            <msub>
+               <mi>a</mi>
+               <mn>1</mn>
+            </msub>
+            <mo>+</mo>
+            <msub>
+               <mi>a</mi>
+               <mn>2</mn>
+            </msub>
+            <mo>+</mo>
+            <mi>⋯</mi>
+            <mo>+</mo>
+            <msub>
+               <mi>a</mi>
+               <mi>n</mi>
+            </msub>
+         </mrow>
+      </msub>
+      <mrow>
          <msub>
             <mfenced close=")" open="(">
                <mrow>
@@ -11,154 +37,124 @@
                   <mi>q</mi>
                </mrow>
             </mfenced>
-            <mrow>
-               <msub>
-                  <mi>a</mi>
-                  <mn>1</mn>
-               </msub>
-               <mo>+</mo>
-               <msub>
-                  <mi>a</mi>
-                  <mn>2</mn>
-               </msub>
-               <mo>+</mo>
-               <mi>⋯</mi>
-               <mo>+</mo>
-               <msub>
-                  <mi>a</mi>
-                  <mi>n</mi>
-               </msub>
-            </mrow>
+            <msub>
+               <mi>a</mi>
+               <mn>1</mn>
+            </msub>
          </msub>
-         <mrow>
+         <msub>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>q</mi>
+                  <mo>;</mo>
+                  <mi>q</mi>
+               </mrow>
+            </mfenced>
             <msub>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>q</mi>
-                     <mo>;</mo>
-                     <mi>q</mi>
-                  </mrow>
-               </mfenced>
-               <msub>
-                  <mi>a</mi>
-                  <mn>1</mn>
-               </msub>
+               <mi>a</mi>
+               <mn>2</mn>
             </msub>
+         </msub>
+         <mi>⋯</mi>
+         <msub>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>q</mi>
+                  <mo>;</mo>
+                  <mi>q</mi>
+               </mrow>
+            </mfenced>
             <msub>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>q</mi>
-                     <mo>;</mo>
-                     <mi>q</mi>
-                  </mrow>
-               </mfenced>
-               <msub>
-                  <mi>a</mi>
-                  <mn>2</mn>
-               </msub>
+               <mi>a</mi>
+               <mi>n</mi>
             </msub>
-            <mi>⋯</mi>
-            <msub>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>q</mi>
-                     <mo>;</mo>
-                     <mi>q</mi>
-                  </mrow>
-               </mfenced>
-               <msub>
-                  <mi>a</mi>
-                  <mi>n</mi>
-               </msub>
-            </msub>
-         </mrow>
-      </mfrac>
-      <mo>=</mo>
-      <mrow>
-         <mspace width="1ex"/>
-         <mtext>coeff. of</mtext>
-         <mspace width="1ex"/>
+         </msub>
       </mrow>
-      <msubsup>
-         <mi>x</mi>
+   </mfrac>
+   <mo>=</mo>
+   <mrow>
+      <mspace width="1ex"/>
+      <mtext>coeff. of</mtext>
+      <mspace width="1ex"/>
+   </mrow>
+   <msubsup>
+      <mi>x</mi>
+      <mn>1</mn>
+      <mn>0</mn>
+   </msubsup>
+   <msubsup>
+      <mi>x</mi>
+      <mn>2</mn>
+      <mn>0</mn>
+   </msubsup>
+   <mi>⋯</mi>
+   <msubsup>
+      <mi>x</mi>
+      <mi>n</mi>
+      <mn>0</mn>
+   </msubsup>
+   <mrow>
+      <mspace width="1ex"/>
+      <mtext>in</mtext>
+      <mspace width="1ex"/>
+   </mrow>
+   <msub>
+      <mo>∏</mo>
+      <mrow>
          <mn>1</mn>
-         <mn>0</mn>
-      </msubsup>
-      <msubsup>
-         <mi>x</mi>
-         <mn>2</mn>
-         <mn>0</mn>
-      </msubsup>
-      <mi>⋯</mi>
-      <msubsup>
-         <mi>x</mi>
+         <mo>≤</mo>
+         <mi>j</mi>
+         <mo>&lt;</mo>
+         <mi>k</mi>
+         <mo>≤</mo>
          <mi>n</mi>
-         <mn>0</mn>
-      </msubsup>
-      <mrow>
-         <mspace width="1ex"/>
-         <mtext>in</mtext>
-         <mspace width="1ex"/>
       </mrow>
-      <msub>
-         <mo>∏</mo>
+   </msub>
+   <msub>
+      <mfenced close=")" open="(">
          <mrow>
-            <mn>1</mn>
-            <mo>≤</mo>
-            <mi>j</mi>
-            <mo>&lt;</mo>
-            <mi>k</mi>
-            <mo>≤</mo>
-            <mi>n</mi>
+            <mfrac>
+               <msub>
+                  <mi>x</mi>
+                  <mi>j</mi>
+               </msub>
+               <msub>
+                  <mi>x</mi>
+                  <mi>k</mi>
+               </msub>
+            </mfrac>
+            <mo>;</mo>
+            <mi>q</mi>
          </mrow>
-      </msub>
+      </mfenced>
       <msub>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mfrac>
-                  <msub>
-                     <mi>x</mi>
-                     <mi>j</mi>
-                  </msub>
+         <mi>a</mi>
+         <mi>j</mi>
+      </msub>
+   </msub>
+   <msub>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mfrac>
+               <mrow>
+                  <mi>q</mi>
                   <msub>
                      <mi>x</mi>
                      <mi>k</mi>
                   </msub>
-               </mfrac>
-               <mo>;</mo>
-               <mi>q</mi>
-            </mrow>
-         </mfenced>
-         <msub>
-            <mi>a</mi>
-            <mi>j</mi>
-         </msub>
-      </msub>
+               </mrow>
+               <msub>
+                  <mi>x</mi>
+                  <mi>j</mi>
+               </msub>
+            </mfrac>
+            <mo>;</mo>
+            <mi>q</mi>
+         </mrow>
+      </mfenced>
       <msub>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mfrac>
-                  <mrow>
-                     <mi>q</mi>
-                     <msub>
-                        <mi>x</mi>
-                        <mi>k</mi>
-                     </msub>
-                  </mrow>
-                  <msub>
-                     <mi>x</mi>
-                     <mi>j</mi>
-                  </msub>
-               </mfrac>
-               <mo>;</mo>
-               <mi>q</mi>
-            </mrow>
-         </mfenced>
-         <msub>
-            <mi>a</mi>
-            <mi>k</mi>
-         </msub>
+         <mi>a</mi>
+         <mi>k</mi>
       </msub>
-      <mi>.</mi>
-   </mrow>
+   </msub>
 </math>

@@ -15,12 +15,34 @@
    </msubsup>
    <mo>×</mo>
    <mi mathvariant="script">L</mi>
-   <mrow>
-      <mo>(</mo>
+   <mfenced close=")" open="(">
       <msub>
          <mi mathvariant="script">S</mi>
          <mi>n</mi>
       </msub>
-      <mo>,</mo>
-   </mrow>
+      <msub>
+         <mi mathvariant="script">S</mi>
+         <mi>m</mi>
+      </msub>
+   </mfenced>
+   <mo>→</mo>
+   <mi mathvariant="script">L</mi>
+   <mfenced close=")" open="(">
+      <msub>
+         <mi mathvariant="script">S</mi>
+         <mi>n</mi>
+      </msub>
+      <msub>
+         <mi mathvariant="script">S</mi>
+         <mi>m</mi>
+      </msub>
+   </mfenced>
+   <mo>:</mo>
+   <mfenced close=")" open="(">
+      <mi>f</mi>
+      <mi>A</mi>
+   </mfenced>
+   <mo>↦</mo>
+   <mi>f</mi>
+   <mi>A</mi>
 </math>

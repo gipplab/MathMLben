@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="E_{\text{k}}=E_{t}+E_{\text{r}}\," display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="E_{\text{k}}=E_{t}+E_{\text{r}}\ " display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">
       <msub id="p1.1.m1.1.10.1" xref="p1.1.m1.1.10.1.cmml">
@@ -12,7 +12,7 @@
           <mi id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">t</mi>
         </msub>
         <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">+</mo>
-        <mpadded width="+1.7pt" id="p1.1.m1.1.10.2.2" xref="p1.1.m1.1.10.2.2.cmml">
+        <mpadded width="+5pt" id="p1.1.m1.1.10.2.2" xref="p1.1.m1.1.10.2.2.cmml">
           <msub id="p1.1.m1.1.10.2.2a" xref="p1.1.m1.1.10.2.2.cmml">
             <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">E</mi>
             <mtext id="p1.1.m1.1.8.1" xref="p1.1.m1.1.8.1.cmml">r</mtext>

@@ -1,282 +1,261 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\left(z\frac{\mathrm{d}}{\mathrm{d}z}z\right)^{n}\left(e^{-\frac{1}{2}z}z^{%%&#10;\kappa-1}M_{\kappa,\mu}\left(z\right)\right)={\left(\tfrac{1}{2}+\mu+\kappa%%&#10;\right)_{n}}e^{-\frac{1}{2}z}z^{\kappa+n-1}\*M_{\kappa+n,\mu}\left(z\right)." display="block">
-  <semantics id="S0.Ex1.m1.1a">
-    <mrow>
-      <mrow>
-        <mrow>
-          <msup>
-            <mrow>
-              <mo>(</mo>
-              <mrow>
-                <mi>z</mi>
-                <mo>⁢</mo>
-                <mfrac>
-                  <mi mathvariant="normal">d</mi>
-                  <mrow>
-                    <mi mathvariant="normal">d</mi>
-                    <mo>⁢</mo>
-                    <mi>z</mi>
-                  </mrow>
-                </mfrac>
-                <mo>⁢</mo>
-                <mi>z</mi>
-              </mrow>
-              <mo>)</mo>
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\left(z\frac{\mathrm{d}}{\mathrm{d}z}z\right)^{n}\left(e^{-\frac{1}{2}z}z^{%&#10;\kappa-1}M_{\kappa,\mu}\left(z\right)\right)={\left(\tfrac{1}{2}+\mu+\kappa%&#10;\right)_{n}}e^{-\frac{1}{2}z}z^{\kappa+n-1}\*M_{\kappa+n,\mu}\left(z\right)" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.37" xref="p1.1.m1.1.37.cmml">
+      <mrow id="p1.1.m1.1.37.1" xref="p1.1.m1.1.37.1.cmml">
+        <msup id="p1.1.m1.1.37.1.2" xref="p1.1.m1.1.37.1.2.cmml">
+          <mrow id="p1.1.m1.1.37.1.2.2" xref="p1.1.m1.1.37.1.2.2.2.cmml">
+            <mo id="p1.1.m1.1.1" xref="p1.1.m1.1.37.1.2.2.2.cmml">(</mo>
+            <mrow id="p1.1.m1.1.37.1.2.2.2" xref="p1.1.m1.1.37.1.2.2.2.cmml">
+              <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">z</mi>
+              <mo id="p1.1.m1.1.37.1.2.2.2.1" xref="p1.1.m1.1.37.1.2.2.2.1.cmml">⁢</mo>
+              <mfrac id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">
+                <mi mathvariant="normal" id="p1.1.m1.1.3.2" xref="p1.1.m1.1.3.2.cmml">d</mi>
+                <mrow id="p1.1.m1.1.3.3" xref="p1.1.m1.1.3.3.cmml">
+                  <mi mathvariant="normal" id="p1.1.m1.1.3.3.1" xref="p1.1.m1.1.3.3.1.cmml">d</mi>
+                  <mo id="p1.1.m1.1.3.3.3" xref="p1.1.m1.1.3.3.3.cmml">⁢</mo>
+                  <mi id="p1.1.m1.1.3.3.2" xref="p1.1.m1.1.3.3.2.cmml">z</mi>
+                </mrow>
+              </mfrac>
+              <mo id="p1.1.m1.1.37.1.2.2.2.1a" xref="p1.1.m1.1.37.1.2.2.2.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">z</mi>
             </mrow>
-            <mi>n</mi>
-          </msup>
-          <mo>⁢</mo>
-          <mrow>
-            <mo>(</mo>
-            <mrow>
-              <msup>
-                <mi>e</mi>
-                <mrow>
-                  <mo>-</mo>
-                  <mrow>
-                    <mfrac>
-                      <mn>1</mn>
-                      <mn>2</mn>
-                    </mfrac>
-                    <mo>⁢</mo>
-                    <mi>z</mi>
-                  </mrow>
-                </mrow>
-              </msup>
-              <mo>⁢</mo>
-              <msup>
-                <mi>z</mi>
-                <mrow>
-                  <mrow>
-                    <mi mathvariant="normal">%</mi>
-                    <mo>⁢</mo>
-                    <mi>κ</mi>
-                  </mrow>
-                  <mo>-</mo>
-                  <mn>1</mn>
-                </mrow>
-              </msup>
-              <mo>⁢</mo>
-              <msub>
-                <mi>M</mi>
-                <mrow>
-                  <mi>κ</mi>
-                  <mo>,</mo>
-                  <mi>μ</mi>
-                </mrow>
-              </msub>
-              <mo>⁢</mo>
-              <mrow>
-                <mo>(</mo>
-                <mi>z</mi>
-                <mo>)</mo>
-              </mrow>
-            </mrow>
-            <mo>)</mo>
+            <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.37.1.2.2.2.cmml">)</mo>
           </mrow>
-        </mrow>
-        <mo>=</mo>
-        <mrow>
-          <msub>
-            <mrow>
-              <mo>(</mo>
-              <mrow>
-                <mstyle displaystyle="false">
-                  <mfrac>
-                    <mn>1</mn>
-                    <mn>2</mn>
+          <mi id="p1.1.m1.1.6.1" xref="p1.1.m1.1.6.1.cmml">n</mi>
+        </msup>
+        <mo id="p1.1.m1.1.37.1.1" xref="p1.1.m1.1.37.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.37.1.3" xref="p1.1.m1.1.37.1.3.2.cmml">
+          <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.37.1.3.2.cmml">(</mo>
+          <mrow id="p1.1.m1.1.37.1.3.2" xref="p1.1.m1.1.37.1.3.2.cmml">
+            <msup id="p1.1.m1.1.37.1.3.2.2" xref="p1.1.m1.1.37.1.3.2.2.cmml">
+              <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">e</mi>
+              <mrow id="p1.1.m1.1.9.1" xref="p1.1.m1.1.9.1.cmml">
+                <mo id="p1.1.m1.1.9.1.1" xref="p1.1.m1.1.9.1.1.cmml">-</mo>
+                <mrow id="p1.1.m1.1.9.1.4" xref="p1.1.m1.1.9.1.4.cmml">
+                  <mfrac id="p1.1.m1.1.9.1.2" xref="p1.1.m1.1.9.1.2.cmml">
+                    <mn id="p1.1.m1.1.9.1.2.2" xref="p1.1.m1.1.9.1.2.2.cmml">1</mn>
+                    <mn id="p1.1.m1.1.9.1.2.3" xref="p1.1.m1.1.9.1.2.3.cmml">2</mn>
                   </mfrac>
-                </mstyle>
-                <mo>+</mo>
-                <mi>μ</mi>
-                <mo>+</mo>
-                <mrow>
-                  <mi>κ</mi>
-                  <mo>⁢</mo>
-                  <mi mathvariant="normal">%</mi>
+                  <mo id="p1.1.m1.1.9.1.4.1" xref="p1.1.m1.1.9.1.4.1.cmml">⁢</mo>
+                  <mi id="p1.1.m1.1.9.1.3" xref="p1.1.m1.1.9.1.3.cmml">z</mi>
                 </mrow>
               </mrow>
-              <mo>)</mo>
-            </mrow>
-            <mi>n</mi>
-          </msub>
-          <mo>⁢</mo>
-          <msup>
-            <mi>e</mi>
-            <mrow>
-              <mo>-</mo>
-              <mrow>
-                <mfrac>
-                  <mn>1</mn>
-                  <mn>2</mn>
-                </mfrac>
-                <mo>⁢</mo>
-                <mi>z</mi>
+            </msup>
+            <mo id="p1.1.m1.1.37.1.3.2.1" xref="p1.1.m1.1.37.1.3.2.1.cmml">⁢</mo>
+            <msup id="p1.1.m1.1.37.1.3.2.3" xref="p1.1.m1.1.37.1.3.2.3.cmml">
+              <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">z</mi>
+              <mrow id="p1.1.m1.1.11.1" xref="p1.1.m1.1.11.1.cmml">
+                <mi id="p1.1.m1.1.11.1.1" xref="p1.1.m1.1.11.1.1.cmml">κ</mi>
+                <mo id="p1.1.m1.1.11.1.2" xref="p1.1.m1.1.11.1.2.cmml">-</mo>
+                <mn id="p1.1.m1.1.11.1.3" xref="p1.1.m1.1.11.1.3.cmml">1</mn>
               </mrow>
-            </mrow>
-          </msup>
-          <mo>⁢</mo>
-          <msup>
-            <mi>z</mi>
-            <mrow>
-              <mrow>
-                <mi>κ</mi>
-                <mo>+</mo>
-                <mi>n</mi>
+            </msup>
+            <mo id="p1.1.m1.1.37.1.3.2.1a" xref="p1.1.m1.1.37.1.3.2.1.cmml">⁢</mo>
+            <msub id="p1.1.m1.1.37.1.3.2.4" xref="p1.1.m1.1.37.1.3.2.4.cmml">
+              <mi id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">M</mi>
+              <mrow id="p1.1.m1.1.13.1" xref="p1.1.m1.1.13.1.4.cmml">
+                <mi id="p1.1.m1.1.13.1.1" xref="p1.1.m1.1.13.1.1.cmml">κ</mi>
+                <mo id="p1.1.m1.1.13.1.2" xref="p1.1.m1.1.13.1.4.cmml">,</mo>
+                <mi id="p1.1.m1.1.13.1.3" xref="p1.1.m1.1.13.1.3.cmml">μ</mi>
               </mrow>
-              <mo>-</mo>
-              <mn>1</mn>
+            </msub>
+            <mo id="p1.1.m1.1.37.1.3.2.1b" xref="p1.1.m1.1.37.1.3.2.1.cmml">⁢</mo>
+            <mrow id="p1.1.m1.1.37.1.3.2.5" xref="p1.1.m1.1.37.1.3.2.cmml">
+              <mo id="p1.1.m1.1.14" xref="p1.1.m1.1.37.1.3.2.cmml">(</mo>
+              <mi id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">z</mi>
+              <mo id="p1.1.m1.1.16" xref="p1.1.m1.1.37.1.3.2.cmml">)</mo>
             </mrow>
-          </msup>
-          <mo>⁢</mo>
-          <msub>
-            <mi>M</mi>
-            <mrow>
-              <mrow>
-                <mi>κ</mi>
-                <mo>+</mo>
-                <mi>n</mi>
-              </mrow>
-              <mo>,</mo>
-              <mi>μ</mi>
-            </mrow>
-          </msub>
-          <mo>⁢</mo>
-          <mrow>
-            <mo>(</mo>
-            <mi>z</mi>
-            <mo>)</mo>
           </mrow>
+          <mo id="p1.1.m1.1.17" xref="p1.1.m1.1.37.1.3.2.cmml">)</mo>
         </mrow>
       </mrow>
-      <mo>.</mo>
+      <mo id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">=</mo>
+      <mrow id="p1.1.m1.1.37.2" xref="p1.1.m1.1.37.2.cmml">
+        <msub id="p1.1.m1.1.37.2.2" xref="p1.1.m1.1.37.2.2.cmml">
+          <mrow id="p1.1.m1.1.37.2.2.2" xref="p1.1.m1.1.37.2.2.2.2.cmml">
+            <mo id="p1.1.m1.1.19" xref="p1.1.m1.1.37.2.2.2.2.cmml">(</mo>
+            <mrow id="p1.1.m1.1.37.2.2.2.2" xref="p1.1.m1.1.37.2.2.2.2.cmml">
+              <mfrac id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">
+                <mn id="p1.1.m1.1.20.2" xref="p1.1.m1.1.20.2.cmml">1</mn>
+                <mn id="p1.1.m1.1.20.3" xref="p1.1.m1.1.20.3.cmml">2</mn>
+              </mfrac>
+              <mo id="p1.1.m1.1.21" xref="p1.1.m1.1.21.cmml">+</mo>
+              <mi id="p1.1.m1.1.22" xref="p1.1.m1.1.22.cmml">μ</mi>
+              <mo id="p1.1.m1.1.21a" xref="p1.1.m1.1.21.cmml">+</mo>
+              <mi id="p1.1.m1.1.24" xref="p1.1.m1.1.24.cmml">κ</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.25" xref="p1.1.m1.1.37.2.2.2.2.cmml">)</mo>
+          </mrow>
+          <mi id="p1.1.m1.1.26.1" xref="p1.1.m1.1.26.1.cmml">n</mi>
+        </msub>
+        <mo id="p1.1.m1.1.37.2.1" xref="p1.1.m1.1.37.2.1.cmml">⁢</mo>
+        <msup id="p1.1.m1.1.37.2.3" xref="p1.1.m1.1.37.2.3.cmml">
+          <mi id="p1.1.m1.1.27" xref="p1.1.m1.1.27.cmml">e</mi>
+          <mrow id="p1.1.m1.1.28.1" xref="p1.1.m1.1.28.1.cmml">
+            <mo id="p1.1.m1.1.28.1.1" xref="p1.1.m1.1.28.1.1.cmml">-</mo>
+            <mrow id="p1.1.m1.1.28.1.4" xref="p1.1.m1.1.28.1.4.cmml">
+              <mfrac id="p1.1.m1.1.28.1.2" xref="p1.1.m1.1.28.1.2.cmml">
+                <mn id="p1.1.m1.1.28.1.2.2" xref="p1.1.m1.1.28.1.2.2.cmml">1</mn>
+                <mn id="p1.1.m1.1.28.1.2.3" xref="p1.1.m1.1.28.1.2.3.cmml">2</mn>
+              </mfrac>
+              <mo id="p1.1.m1.1.28.1.4.1" xref="p1.1.m1.1.28.1.4.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.28.1.3" xref="p1.1.m1.1.28.1.3.cmml">z</mi>
+            </mrow>
+          </mrow>
+        </msup>
+        <mo id="p1.1.m1.1.37.2.1a" xref="p1.1.m1.1.37.2.1.cmml">⁢</mo>
+        <msup id="p1.1.m1.1.37.2.4" xref="p1.1.m1.1.37.2.4.cmml">
+          <mi id="p1.1.m1.1.29" xref="p1.1.m1.1.29.cmml">z</mi>
+          <mrow id="p1.1.m1.1.30.1" xref="p1.1.m1.1.30.1.cmml">
+            <mrow id="p1.1.m1.1.30.1.6" xref="p1.1.m1.1.30.1.6.cmml">
+              <mi id="p1.1.m1.1.30.1.1" xref="p1.1.m1.1.30.1.1.cmml">κ</mi>
+              <mo id="p1.1.m1.1.30.1.2" xref="p1.1.m1.1.30.1.2.cmml">+</mo>
+              <mi id="p1.1.m1.1.30.1.3" xref="p1.1.m1.1.30.1.3.cmml">n</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.30.1.4" xref="p1.1.m1.1.30.1.4.cmml">-</mo>
+            <mn id="p1.1.m1.1.30.1.5" xref="p1.1.m1.1.30.1.5.cmml">1</mn>
+          </mrow>
+        </msup>
+        <mo id="p1.1.m1.1.37.2.1b" xref="p1.1.m1.1.37.2.1.cmml">⁢</mo>
+        <msub id="p1.1.m1.1.37.2.5" xref="p1.1.m1.1.37.2.5.cmml">
+          <mi id="p1.1.m1.1.32" xref="p1.1.m1.1.32.cmml">M</mi>
+          <mrow id="p1.1.m1.1.33.1" xref="p1.1.m1.1.33.1.6.cmml">
+            <mrow id="p1.1.m1.1.33.1.7" xref="p1.1.m1.1.33.1.7.cmml">
+              <mi id="p1.1.m1.1.33.1.1" xref="p1.1.m1.1.33.1.1.cmml">κ</mi>
+              <mo id="p1.1.m1.1.33.1.2" xref="p1.1.m1.1.33.1.2.cmml">+</mo>
+              <mi id="p1.1.m1.1.33.1.3" xref="p1.1.m1.1.33.1.3.cmml">n</mi>
+            </mrow>
+            <mo id="p1.1.m1.1.33.1.4" xref="p1.1.m1.1.33.1.6.cmml">,</mo>
+            <mi id="p1.1.m1.1.33.1.5" xref="p1.1.m1.1.33.1.5.cmml">μ</mi>
+          </mrow>
+        </msub>
+        <mo id="p1.1.m1.1.37.2.1c" xref="p1.1.m1.1.37.2.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.37.2.6" xref="p1.1.m1.1.37.2.cmml">
+          <mo id="p1.1.m1.1.34" xref="p1.1.m1.1.37.2.cmml">(</mo>
+          <mi id="p1.1.m1.1.35" xref="p1.1.m1.1.35.cmml">z</mi>
+          <mo id="p1.1.m1.1.36" xref="p1.1.m1.1.37.2.cmml">)</mo>
+        </mrow>
+      </mrow>
     </mrow>
-    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
-      <apply id="S0.Ex1.m1.1.39.2.cmml">
-        <eq id="S0.Ex1.m1.1.18.cmml"/>
-        <apply id="S0.Ex1.m1.1.39.2.1.cmml">
-          <times id="S0.Ex1.m1.1.39.2.1.1.cmml"/>
-          <apply id="S0.Ex1.m1.1.39.2.1.2.cmml">
-            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.1.2.1.cmml">superscript</csymbol>
-            <apply id="S0.Ex1.m1.1.39.2.1.2.2.2.cmml">
-              <times id="S0.Ex1.m1.1.39.2.1.2.2.2.1.cmml"/>
-              <ci id="S0.Ex1.m1.1.2.cmml">𝑧</ci>
-              <apply id="S0.Ex1.m1.1.3.cmml">
-                <divide id="S0.Ex1.m1.1.3.1.cmml"/>
-                <ci id="S0.Ex1.m1.1.3.2.cmml">d</ci>
-                <apply id="S0.Ex1.m1.1.3.3.cmml">
-                  <times id="S0.Ex1.m1.1.3.3.3.cmml"/>
-                  <ci id="S0.Ex1.m1.1.3.3.1.cmml">d</ci>
-                  <ci id="S0.Ex1.m1.1.3.3.2.cmml">𝑧</ci>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.37.cmml" xref="p1.1.m1.1.37">
+        <eq id="p1.1.m1.1.18.cmml" xref="p1.1.m1.1.18"/>
+        <apply id="p1.1.m1.1.37.1.cmml" xref="p1.1.m1.1.37.1">
+          <times id="p1.1.m1.1.37.1.1.cmml" xref="p1.1.m1.1.37.1.1"/>
+          <apply id="p1.1.m1.1.37.1.2.cmml" xref="p1.1.m1.1.37.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.37.1.2.1.cmml" xref="p1.1.m1.1.37.1.2">superscript</csymbol>
+            <apply id="p1.1.m1.1.37.1.2.2.2.cmml" xref="p1.1.m1.1.37.1.2.2">
+              <times id="p1.1.m1.1.37.1.2.2.2.1.cmml" xref="p1.1.m1.1.37.1.2.2.2.1"/>
+              <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝑧</ci>
+              <apply id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">
+                <divide id="p1.1.m1.1.3.1.cmml" xref="p1.1.m1.1.3"/>
+                <ci id="p1.1.m1.1.3.2.cmml" xref="p1.1.m1.1.3.2">d</ci>
+                <apply id="p1.1.m1.1.3.3.cmml" xref="p1.1.m1.1.3.3">
+                  <times id="p1.1.m1.1.3.3.3.cmml" xref="p1.1.m1.1.3.3.3"/>
+                  <ci id="p1.1.m1.1.3.3.1.cmml" xref="p1.1.m1.1.3.3.1">d</ci>
+                  <ci id="p1.1.m1.1.3.3.2.cmml" xref="p1.1.m1.1.3.3.2">𝑧</ci>
                 </apply>
               </apply>
-              <ci id="S0.Ex1.m1.1.4.cmml">𝑧</ci>
+              <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝑧</ci>
             </apply>
-            <ci id="S0.Ex1.m1.1.6.1.cmml">𝑛</ci>
+            <ci id="p1.1.m1.1.6.1.cmml" xref="p1.1.m1.1.6.1">𝑛</ci>
           </apply>
-          <apply id="S0.Ex1.m1.1.39.2.1.3.2.cmml">
-            <times id="S0.Ex1.m1.1.39.2.1.3.2.1.cmml"/>
-            <apply id="S0.Ex1.m1.1.39.2.1.3.2.2.cmml">
-              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.1.3.2.2.1.cmml">superscript</csymbol>
-              <ci id="S0.Ex1.m1.1.8.cmml">𝑒</ci>
-              <apply id="S0.Ex1.m1.1.9.1.cmml">
-                <minus id="S0.Ex1.m1.1.9.1.1.cmml"/>
-                <apply id="S0.Ex1.m1.1.9.1.4.cmml">
-                  <times id="S0.Ex1.m1.1.9.1.4.1.cmml"/>
-                  <apply id="S0.Ex1.m1.1.9.1.2.cmml">
-                    <divide id="S0.Ex1.m1.1.9.1.2.1.cmml"/>
-                    <cn type="integer" id="S0.Ex1.m1.1.9.1.2.2.cmml">1</cn>
-                    <cn type="integer" id="S0.Ex1.m1.1.9.1.2.3.cmml">2</cn>
+          <apply id="p1.1.m1.1.37.1.3.2.cmml" xref="p1.1.m1.1.37.1.3">
+            <times id="p1.1.m1.1.37.1.3.2.1.cmml" xref="p1.1.m1.1.37.1.3.2.1"/>
+            <apply id="p1.1.m1.1.37.1.3.2.2.cmml" xref="p1.1.m1.1.37.1.3.2.2">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.37.1.3.2.2.1.cmml" xref="p1.1.m1.1.37.1.3.2.2">superscript</csymbol>
+              <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑒</ci>
+              <apply id="p1.1.m1.1.9.1.cmml" xref="p1.1.m1.1.9.1">
+                <minus id="p1.1.m1.1.9.1.1.cmml" xref="p1.1.m1.1.9.1.1"/>
+                <apply id="p1.1.m1.1.9.1.4.cmml" xref="p1.1.m1.1.9.1.4">
+                  <times id="p1.1.m1.1.9.1.4.1.cmml" xref="p1.1.m1.1.9.1.4.1"/>
+                  <apply id="p1.1.m1.1.9.1.2.cmml" xref="p1.1.m1.1.9.1.2">
+                    <divide id="p1.1.m1.1.9.1.2.1.cmml" xref="p1.1.m1.1.9.1.2"/>
+                    <cn type="integer" id="p1.1.m1.1.9.1.2.2.cmml" xref="p1.1.m1.1.9.1.2.2">1</cn>
+                    <cn type="integer" id="p1.1.m1.1.9.1.2.3.cmml" xref="p1.1.m1.1.9.1.2.3">2</cn>
                   </apply>
-                  <ci id="S0.Ex1.m1.1.9.1.3.cmml">𝑧</ci>
+                  <ci id="p1.1.m1.1.9.1.3.cmml" xref="p1.1.m1.1.9.1.3">𝑧</ci>
                 </apply>
               </apply>
             </apply>
-            <apply id="S0.Ex1.m1.1.39.2.1.3.2.3.cmml">
-              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.1.3.2.3.1.cmml">superscript</csymbol>
-              <ci id="S0.Ex1.m1.1.10.cmml">𝑧</ci>
-              <apply id="S0.Ex1.m1.1.11.1.cmml">
-                <minus id="S0.Ex1.m1.1.11.1.3.cmml"/>
-                <apply id="S0.Ex1.m1.1.11.1.5.cmml">
-                  <times id="S0.Ex1.m1.1.11.1.5.1.cmml"/>
-                  <ci id="S0.Ex1.m1.1.11.1.1.cmml">%</ci>
-                  <ci id="S0.Ex1.m1.1.11.1.2.cmml">𝜅</ci>
-                </apply>
-                <cn type="integer" id="S0.Ex1.m1.1.11.1.4.cmml">1</cn>
+            <apply id="p1.1.m1.1.37.1.3.2.3.cmml" xref="p1.1.m1.1.37.1.3.2.3">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.37.1.3.2.3.1.cmml" xref="p1.1.m1.1.37.1.3.2.3">superscript</csymbol>
+              <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝑧</ci>
+              <apply id="p1.1.m1.1.11.1.cmml" xref="p1.1.m1.1.11.1">
+                <minus id="p1.1.m1.1.11.1.2.cmml" xref="p1.1.m1.1.11.1.2"/>
+                <ci id="p1.1.m1.1.11.1.1.cmml" xref="p1.1.m1.1.11.1.1">𝜅</ci>
+                <cn type="integer" id="p1.1.m1.1.11.1.3.cmml" xref="p1.1.m1.1.11.1.3">1</cn>
               </apply>
             </apply>
-            <apply id="S0.Ex1.m1.1.39.2.1.3.2.4.cmml">
-              <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.1.3.2.4.1.cmml">subscript</csymbol>
-              <ci id="S0.Ex1.m1.1.12.cmml">𝑀</ci>
-              <list id="S0.Ex1.m1.1.13.1.4.cmml">
-                <ci id="S0.Ex1.m1.1.13.1.1.cmml">𝜅</ci>
-                <ci id="S0.Ex1.m1.1.13.1.3.cmml">𝜇</ci>
+            <apply id="p1.1.m1.1.37.1.3.2.4.cmml" xref="p1.1.m1.1.37.1.3.2.4">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.37.1.3.2.4.1.cmml" xref="p1.1.m1.1.37.1.3.2.4">subscript</csymbol>
+              <ci id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">𝑀</ci>
+              <list id="p1.1.m1.1.13.1.4.cmml" xref="p1.1.m1.1.13.1">
+                <ci id="p1.1.m1.1.13.1.1.cmml" xref="p1.1.m1.1.13.1.1">𝜅</ci>
+                <ci id="p1.1.m1.1.13.1.3.cmml" xref="p1.1.m1.1.13.1.3">𝜇</ci>
               </list>
             </apply>
-            <ci id="S0.Ex1.m1.1.15.cmml">𝑧</ci>
+            <ci id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">𝑧</ci>
           </apply>
         </apply>
-        <apply id="S0.Ex1.m1.1.39.2.2.cmml">
-          <times id="S0.Ex1.m1.1.39.2.2.1.cmml"/>
-          <apply id="S0.Ex1.m1.1.39.2.2.2.cmml">
-            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.2.2.1.cmml">subscript</csymbol>
-            <apply id="S0.Ex1.m1.1.39.2.2.2.2.2.cmml">
-              <plus id="S0.Ex1.m1.1.21.cmml"/>
-              <apply id="S0.Ex1.m1.1.20.cmml">
-                <divide id="S0.Ex1.m1.1.20.1.cmml"/>
-                <cn type="integer" id="S0.Ex1.m1.1.20.2.cmml">1</cn>
-                <cn type="integer" id="S0.Ex1.m1.1.20.3.cmml">2</cn>
+        <apply id="p1.1.m1.1.37.2.cmml" xref="p1.1.m1.1.37.2">
+          <times id="p1.1.m1.1.37.2.1.cmml" xref="p1.1.m1.1.37.2.1"/>
+          <apply id="p1.1.m1.1.37.2.2.cmml" xref="p1.1.m1.1.37.2.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.37.2.2.1.cmml" xref="p1.1.m1.1.37.2.2">subscript</csymbol>
+            <apply id="p1.1.m1.1.37.2.2.2.2.cmml" xref="p1.1.m1.1.37.2.2.2">
+              <plus id="p1.1.m1.1.21.cmml" xref="p1.1.m1.1.21"/>
+              <apply id="p1.1.m1.1.20.cmml" xref="p1.1.m1.1.20">
+                <divide id="p1.1.m1.1.20.1.cmml" xref="p1.1.m1.1.20"/>
+                <cn type="integer" id="p1.1.m1.1.20.2.cmml" xref="p1.1.m1.1.20.2">1</cn>
+                <cn type="integer" id="p1.1.m1.1.20.3.cmml" xref="p1.1.m1.1.20.3">2</cn>
               </apply>
-              <ci id="S0.Ex1.m1.1.22.cmml">𝜇</ci>
-              <apply id="S0.Ex1.m1.1.39.2.2.2.2.2.1.cmml">
-                <times id="S0.Ex1.m1.1.39.2.2.2.2.2.1.1.cmml"/>
-                <ci id="S0.Ex1.m1.1.24.cmml">𝜅</ci>
-                <ci id="S0.Ex1.m1.1.25.cmml">%</ci>
-              </apply>
+              <ci id="p1.1.m1.1.22.cmml" xref="p1.1.m1.1.22">𝜇</ci>
+              <ci id="p1.1.m1.1.24.cmml" xref="p1.1.m1.1.24">𝜅</ci>
             </apply>
-            <ci id="S0.Ex1.m1.1.27.1.cmml">𝑛</ci>
+            <ci id="p1.1.m1.1.26.1.cmml" xref="p1.1.m1.1.26.1">𝑛</ci>
           </apply>
-          <apply id="S0.Ex1.m1.1.39.2.2.3.cmml">
-            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.2.3.1.cmml">superscript</csymbol>
-            <ci id="S0.Ex1.m1.1.28.cmml">𝑒</ci>
-            <apply id="S0.Ex1.m1.1.29.1.cmml">
-              <minus id="S0.Ex1.m1.1.29.1.1.cmml"/>
-              <apply id="S0.Ex1.m1.1.29.1.4.cmml">
-                <times id="S0.Ex1.m1.1.29.1.4.1.cmml"/>
-                <apply id="S0.Ex1.m1.1.29.1.2.cmml">
-                  <divide id="S0.Ex1.m1.1.29.1.2.1.cmml"/>
-                  <cn type="integer" id="S0.Ex1.m1.1.29.1.2.2.cmml">1</cn>
-                  <cn type="integer" id="S0.Ex1.m1.1.29.1.2.3.cmml">2</cn>
+          <apply id="p1.1.m1.1.37.2.3.cmml" xref="p1.1.m1.1.37.2.3">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.37.2.3.1.cmml" xref="p1.1.m1.1.37.2.3">superscript</csymbol>
+            <ci id="p1.1.m1.1.27.cmml" xref="p1.1.m1.1.27">𝑒</ci>
+            <apply id="p1.1.m1.1.28.1.cmml" xref="p1.1.m1.1.28.1">
+              <minus id="p1.1.m1.1.28.1.1.cmml" xref="p1.1.m1.1.28.1.1"/>
+              <apply id="p1.1.m1.1.28.1.4.cmml" xref="p1.1.m1.1.28.1.4">
+                <times id="p1.1.m1.1.28.1.4.1.cmml" xref="p1.1.m1.1.28.1.4.1"/>
+                <apply id="p1.1.m1.1.28.1.2.cmml" xref="p1.1.m1.1.28.1.2">
+                  <divide id="p1.1.m1.1.28.1.2.1.cmml" xref="p1.1.m1.1.28.1.2"/>
+                  <cn type="integer" id="p1.1.m1.1.28.1.2.2.cmml" xref="p1.1.m1.1.28.1.2.2">1</cn>
+                  <cn type="integer" id="p1.1.m1.1.28.1.2.3.cmml" xref="p1.1.m1.1.28.1.2.3">2</cn>
                 </apply>
-                <ci id="S0.Ex1.m1.1.29.1.3.cmml">𝑧</ci>
+                <ci id="p1.1.m1.1.28.1.3.cmml" xref="p1.1.m1.1.28.1.3">𝑧</ci>
               </apply>
             </apply>
           </apply>
-          <apply id="S0.Ex1.m1.1.39.2.2.4.cmml">
-            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.2.4.1.cmml">superscript</csymbol>
-            <ci id="S0.Ex1.m1.1.30.cmml">𝑧</ci>
-            <apply id="S0.Ex1.m1.1.31.1.cmml">
-              <minus id="S0.Ex1.m1.1.31.1.4.cmml"/>
-              <apply id="S0.Ex1.m1.1.31.1.6.cmml">
-                <plus id="S0.Ex1.m1.1.31.1.2.cmml"/>
-                <ci id="S0.Ex1.m1.1.31.1.1.cmml">𝜅</ci>
-                <ci id="S0.Ex1.m1.1.31.1.3.cmml">𝑛</ci>
+          <apply id="p1.1.m1.1.37.2.4.cmml" xref="p1.1.m1.1.37.2.4">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.37.2.4.1.cmml" xref="p1.1.m1.1.37.2.4">superscript</csymbol>
+            <ci id="p1.1.m1.1.29.cmml" xref="p1.1.m1.1.29">𝑧</ci>
+            <apply id="p1.1.m1.1.30.1.cmml" xref="p1.1.m1.1.30.1">
+              <minus id="p1.1.m1.1.30.1.4.cmml" xref="p1.1.m1.1.30.1.4"/>
+              <apply id="p1.1.m1.1.30.1.6.cmml" xref="p1.1.m1.1.30.1.6">
+                <plus id="p1.1.m1.1.30.1.2.cmml" xref="p1.1.m1.1.30.1.2"/>
+                <ci id="p1.1.m1.1.30.1.1.cmml" xref="p1.1.m1.1.30.1.1">𝜅</ci>
+                <ci id="p1.1.m1.1.30.1.3.cmml" xref="p1.1.m1.1.30.1.3">𝑛</ci>
               </apply>
-              <cn type="integer" id="S0.Ex1.m1.1.31.1.5.cmml">1</cn>
+              <cn type="integer" id="p1.1.m1.1.30.1.5.cmml" xref="p1.1.m1.1.30.1.5">1</cn>
             </apply>
           </apply>
-          <apply id="S0.Ex1.m1.1.39.2.2.5.cmml">
-            <csymbol cd="ambiguous" id="S0.Ex1.m1.1.39.2.2.5.1.cmml">subscript</csymbol>
-            <ci id="S0.Ex1.m1.1.33.cmml">𝑀</ci>
-            <list id="S0.Ex1.m1.1.34.1.6.cmml">
-              <apply id="S0.Ex1.m1.1.34.1.7.cmml">
-                <plus id="S0.Ex1.m1.1.34.1.2.cmml"/>
-                <ci id="S0.Ex1.m1.1.34.1.1.cmml">𝜅</ci>
-                <ci id="S0.Ex1.m1.1.34.1.3.cmml">𝑛</ci>
+          <apply id="p1.1.m1.1.37.2.5.cmml" xref="p1.1.m1.1.37.2.5">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.37.2.5.1.cmml" xref="p1.1.m1.1.37.2.5">subscript</csymbol>
+            <ci id="p1.1.m1.1.32.cmml" xref="p1.1.m1.1.32">𝑀</ci>
+            <list id="p1.1.m1.1.33.1.6.cmml" xref="p1.1.m1.1.33.1">
+              <apply id="p1.1.m1.1.33.1.7.cmml" xref="p1.1.m1.1.33.1.7">
+                <plus id="p1.1.m1.1.33.1.2.cmml" xref="p1.1.m1.1.33.1.2"/>
+                <ci id="p1.1.m1.1.33.1.1.cmml" xref="p1.1.m1.1.33.1.1">𝜅</ci>
+                <ci id="p1.1.m1.1.33.1.3.cmml" xref="p1.1.m1.1.33.1.3">𝑛</ci>
               </apply>
-              <ci id="S0.Ex1.m1.1.34.1.5.cmml">𝜇</ci>
+              <ci id="p1.1.m1.1.33.1.5.cmml" xref="p1.1.m1.1.33.1.5">𝜇</ci>
             </list>
           </apply>
-          <ci id="S0.Ex1.m1.1.36.cmml">𝑧</ci>
+          <ci id="p1.1.m1.1.35.cmml" xref="p1.1.m1.1.35">𝑧</ci>
         </apply>
       </apply>
     </annotation-xml>

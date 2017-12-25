@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="letter" secondary-tags="Latin">F</term>
     <expression prime-tag="balanced-expression">
       <term prime-tag="left-delimiter">\left(</term>
@@ -61,7 +60,5 @@
       </expression>
       <term prime-tag="right-delimiter">\right)</term>
     </expression>
-    <term prime-tag="point">.</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

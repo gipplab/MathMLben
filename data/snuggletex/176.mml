@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"/>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <msubsup>
+      <mi>S</mi>
+      <mi>p</mi>
+      <mi>m</mi>
+   </msubsup>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+      <mi>ξ</mi>
+   </mfenced>
+   <mi>sin</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>m</mi>
+         <mi>x</mi>
+      </mrow>
+   </mfenced>
+</math>

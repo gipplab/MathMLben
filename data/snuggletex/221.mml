@@ -24,5 +24,28 @@
       <mi>ν</mi>
    </msub>
    <mo>-</mo>
-   <mrow/>
+   <mrow>
+      <mtext>sign</mtext>
+   </mrow>
+   <mfenced close="⟩" open="⟨">
+      <msub>
+         <mover accent="true">
+            <mi>θ</mi>
+            <mo>̂</mo>
+         </mover>
+         <mi>ν</mi>
+      </msub>
+      <msub>
+         <mi>θ</mi>
+         <mi>ν</mi>
+      </msub>
+   </mfenced>
+   <msub>
+      <mi>θ</mi>
+      <mi>ν</mi>
+   </msub>
+   <msup>
+      <mo>∥</mo>
+      <mn>2</mn>
+   </msup>
 </math>

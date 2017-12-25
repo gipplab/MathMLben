@@ -1,24 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mi>F</mi>
+   <mi>F</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mrow>
+            <mi>a</mi>
+            <mo>,</mo>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>a</mi>
+            <mi>c</mi>
+         </mrow>
+         <mo>;</mo>
+         <mi>z</mi>
+      </mrow>
+   </mfenced>
+   <mo>=</mo>
+   <msup>
       <mfenced close=")" open="(">
          <mrow>
-            <mrow>
-               <mi>a</mi>
-               <mo>,</mo>
-               <mn>1</mn>
-               <mo>-</mo>
-               <mi>a</mi>
-               <mi>c</mi>
-            </mrow>
-            <mo>;</mo>
+            <mn>1</mn>
+            <mo>-</mo>
             <mi>z</mi>
          </mrow>
       </mfenced>
-      <mo>=</mo>
-      <msup>
+      <mrow>
+         <mi>c</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+   </msup>
+   <mi>F</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mrow>
+            <mfrac>
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>c</mi>
+                  <mo>-</mo>
+                  <mi>a</mi>
+               </mrow>
+            </mfenced>
+            <mo>,</mo>
+            <mfrac>
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>a</mi>
+                  <mo>+</mo>
+                  <mi>c</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+               </mrow>
+            </mfenced>
+            <mi>c</mi>
+         </mrow>
+         <mo>;</mo>
+         <mn>4</mn>
+         <mi>z</mi>
          <mfenced close=")" open="(">
             <mrow>
                <mn>1</mn>
@@ -26,55 +71,6 @@
                <mi>z</mi>
             </mrow>
          </mfenced>
-         <mrow>
-            <mi>c</mi>
-            <mo>-</mo>
-            <mn>1</mn>
-         </mrow>
-      </msup>
-      <mi>F</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mrow>
-               <mfrac>
-                  <mn>1</mn>
-                  <mn>2</mn>
-               </mfrac>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>c</mi>
-                     <mo>-</mo>
-                     <mi>a</mi>
-                  </mrow>
-               </mfenced>
-               <mo>,</mo>
-               <mfrac>
-                  <mn>1</mn>
-                  <mn>2</mn>
-               </mfrac>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>a</mi>
-                     <mo>+</mo>
-                     <mi>c</mi>
-                     <mo>-</mo>
-                     <mn>1</mn>
-                  </mrow>
-               </mfenced>
-               <mi>c</mi>
-            </mrow>
-            <mo>;</mo>
-            <mn>4</mn>
-            <mi>z</mi>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <mn>1</mn>
-                  <mo>-</mo>
-                  <mi>z</mi>
-               </mrow>
-            </mfenced>
-         </mrow>
-      </mfenced>
-      <mo>,</mo>
-   </mrow>
+      </mrow>
+   </mfenced>
 </math>

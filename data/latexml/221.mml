@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="L(\widehat{\theta}_{\nu},\theta_{\nu})=\parallel\widehat{\theta}_{\nu}-\mbox{%%&#10;&amp;#10;sign}\langle\widehat{\theta}_{\nu},\theta_{\nu}\rangle\theta_{\nu}%&#10;\parallel^{2}" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="L(\widehat{\theta}_{\nu},\theta_{\nu})=\parallel\widehat{\theta}_{\nu}-\mbox{%&#10;sign}\langle\widehat{\theta}_{\nu},\theta_{\nu}\rangle\theta_{\nu}\parallel^{2}" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.26" xref="p1.1.m1.1.26.cmml">
       <mrow id="p1.1.m1.1.26.1" xref="p1.1.m1.1.26.1.cmml">
@@ -35,7 +35,7 @@
             </msub>
             <mo id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">-</mo>
             <mrow id="p1.1.m1.1.26.2.2.2.2" xref="p1.1.m1.1.26.2.2.2.2.cmml">
-              <mtext id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">%&amp;#10;sign</mtext>
+              <mtext id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">sign</mtext>
               <mo id="p1.1.m1.1.26.2.2.2.2.1" xref="p1.1.m1.1.26.2.2.2.2.1.cmml">⁢</mo>
               <mrow id="p1.1.m1.1.26.2.2.2.2.2" xref="p1.1.m1.1.26.2.2.2.2.2.1.cmml">
                 <mo stretchy="false" id="p1.1.m1.1.15" xref="p1.1.m1.1.26.2.2.2.2.2.1.cmml">⟨</mo>
@@ -103,7 +103,7 @@
               </apply>
               <apply id="p1.1.m1.1.26.2.2.2.2.cmml" xref="p1.1.m1.1.26.2.2.2.2">
                 <times id="p1.1.m1.1.26.2.2.2.2.1.cmml" xref="p1.1.m1.1.26.2.2.2.2.1"/>
-                <mtext id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">%&amp;#10;sign</mtext>
+                <mtext id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14">sign</mtext>
                 <list id="p1.1.m1.1.26.2.2.2.2.2.1.cmml" xref="p1.1.m1.1.26.2.2.2.2.2">
                   <apply id="p1.1.m1.1.26.2.2.2.2.2.2.cmml" xref="p1.1.m1.1.26.2.2.2.2.2.2">
                     <csymbol cd="ambiguous" id="p1.1.m1.1.26.2.2.2.2.2.2.1.cmml" xref="p1.1.m1.1.26.2.2.2.2.2.2">subscript</csymbol>

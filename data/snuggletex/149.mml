@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mi>C</mi>
+   <mfenced close=")" open="(">
+      <mi>z</mi>
+   </mfenced>
+   <mo>±</mo>
+   <mi>i</mi>
+   <mi>S</mi>
+   <mfenced close=")" open="(">
+      <mi>z</mi>
+   </mfenced>
+   <mo>=</mo>
    <mrow>
-      <mo>[</mo>
-      <mi>C</mi>
-      <mfenced close=")" open="(">
-         <mi>z</mi>
-      </mfenced>
-      <mo>±</mo>
-      <mi>i</mi>
-      <mi>S</mi>
-      <mfenced close=")" open="(">
-         <mi>z</mi>
-      </mfenced>
-      <mo>=</mo>
+      <mn>1</mn>
+   </mrow>
+   <mrow>
+      <mn>2</mn>
+   </mrow>
+   <mfenced close=")" open="(">
       <mrow>
          <mn>1</mn>
+         <mo>±</mo>
+         <mi>i</mi>
       </mrow>
-      <mrow>
-         <mn>2</mn>
-      </mrow>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mn>1</mn>
-            <mo>±</mo>
-            <mi>i</mi>
-         </mrow>
-      </mfenced>
-      <mrow>
-         <mi>e</mi>
-         <mi>r</mi>
-         <mi>f</mi>
-      </mrow>
-      <mi>ζ</mi>
-      <mi>.</mi>
+   </mfenced>
+   <mrow>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>f</mi>
    </mrow>
+   <mi>ζ</mi>
 </math>

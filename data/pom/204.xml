@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">4</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">6</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+        <expression prime-tag="caret" secondary-tags="superscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">8</term>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="ellipsis" secondary-tags="centered_horizontal_ellipsis">\cdots</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+        <term prime-tag="minus">-</term>
+        <expression prime-tag="fraction">
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+          <expression prime-tag="sequence" secondary-tags="denominator">
+            <term prime-tag="letter" secondary-tags="Latin">p</term>
+            <expression prime-tag="caret" secondary-tags="superscript_operation">
+              <term prime-tag="digit" secondary-tags="numeric">2</term>
+            </expression>
+          </expression>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

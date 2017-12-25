@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
    <mrow>
-      <mo>[</mo>
-      <mrow>
-         <msup>
-            <mi>cos</mi>
-            <mn>2</mn>
-         </msup>
-      </mrow>
-      <mi>u</mi>
-      <mo>-</mo>
-      <mrow>
-         <msup>
-            <mi>cos</mi>
-            <mn>2</mn>
-         </msup>
-      </mrow>
-      <mi>v</mi>
-      <mo>=</mo>
-      <mo>-</mo>
-      <mi>sin</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>u</mi>
-            <mo>+</mo>
-            <mi>v</mi>
-         </mrow>
-      </mfenced>
-      <mi>sin</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>u</mi>
-            <mo>-</mo>
-            <mi>v</mi>
-         </mrow>
-      </mfenced>
-      <mo>,</mo>
+      <msup>
+         <mi>cos</mi>
+         <mn>2</mn>
+      </msup>
    </mrow>
+   <mi>u</mi>
+   <mo>-</mo>
+   <mrow>
+      <msup>
+         <mi>cos</mi>
+         <mn>2</mn>
+      </msup>
+   </mrow>
+   <mi>v</mi>
+   <mo>=</mo>
+   <mo>-</mo>
+   <mi>sin</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>u</mi>
+         <mo>+</mo>
+         <mi>v</mi>
+      </mrow>
+   </mfenced>
+   <mi>sin</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>u</mi>
+         <mo>-</mo>
+         <mi>v</mi>
+      </mrow>
+   </mfenced>
 </math>

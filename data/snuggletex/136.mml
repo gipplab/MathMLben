@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mfrac>
-         <mrow>
-            <msup>
-               <mstyle mathvariant="normal">
-                  <mi>d</mi>
-               </mstyle>
-               <mn>2</mn>
-            </msup>
-            <mi>w</mi>
-         </mrow>
+   <mfrac>
+      <mrow>
          <msup>
-            <mrow>
-               <mstyle mathvariant="normal">
-                  <mi>d</mi>
-               </mstyle>
-               <mstyle mathvariant="normal">
-                  <mi>z</mi>
-               </mstyle>
-            </mrow>
+            <mstyle mathvariant="normal">
+               <mi>d</mi>
+            </mstyle>
             <mn>2</mn>
          </msup>
-      </mfrac>
-      <mo>=</mo>
-      <mi>a</mi>
-      <mi>w</mi>
-      <mo>,</mo>
-   </mrow>
+         <mi>w</mi>
+      </mrow>
+      <msup>
+         <mrow>
+            <mstyle mathvariant="normal">
+               <mi>d</mi>
+            </mstyle>
+            <mstyle mathvariant="normal">
+               <mi>z</mi>
+            </mstyle>
+         </mrow>
+         <mn>2</mn>
+      </msup>
+   </mfrac>
+   <mo>=</mo>
+   <mi>a</mi>
+   <mi>w</mi>
 </math>

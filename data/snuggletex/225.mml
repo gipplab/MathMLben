@@ -34,27 +34,26 @@
       </mrow>
    </msqrt>
    <mspace width="0.167em"/>
-   <mrow>
-      <mo>(</mo>
-      <msup>
-         <mi>R</mi>
-         <mfenced close=")" open="(">
-            <mn>3</mn>
-         </mfenced>
-      </msup>
-      <mo>+</mo>
-      <msub>
-         <mi>L</mi>
-         <mstyle mathvariant="normal">
-            <mn>10</mn>
-            <mo>;</mo>
-            <mi>m</mi>
-            <mi>a</mi>
-            <mi>t</mi>
-            <mi>t</mi>
-            <mi>e</mi>
-            <mi>r</mi>
-         </mstyle>
-      </msub>
-   </mrow>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msup>
+            <mi>R</mi>
+            <mfenced close=")" open="(">
+               <mn>3</mn>
+            </mfenced>
+         </msup>
+         <mo>+</mo>
+         <msub>
+            <mi>L</mi>
+            <mstyle mathvariant="normal">
+               <mi>m</mi>
+               <mi>a</mi>
+               <mi>t</mi>
+               <mi>t</mi>
+               <mi>e</mi>
+               <mi>r</mi>
+            </mstyle>
+         </msub>
+      </mrow>
+   </mfenced>
 </math>

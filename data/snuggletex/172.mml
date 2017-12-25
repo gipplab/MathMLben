@@ -1,156 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mstyle mathvariant="sans-serif">
-         <msub>
-            <mi>Q</mi>
-            <mi>n</mi>
-         </msub>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mfenced close=")" open="(">
-            <mrow>
-               <mi>cos</mi>
-               <mi>θ</mi>
-            </mrow>
-         </mfenced>
-         <mo>=</mo>
-         <mfrac>
-            <mrow>
-               <msup>
+   <mstyle mathvariant="sans-serif">
+      <msub>
+         <mi>Q</mi>
+         <mi>n</mi>
+      </msub>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mfenced close=")" open="(">
+         <mrow>
+            <mi>cos</mi>
+            <mi>θ</mi>
+         </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <msup>
+               <mn>2</mn>
+               <mrow>
                   <mn>2</mn>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msup>
+            <msup>
+               <mfenced close=")" open="(">
                   <mrow>
-                     <mn>2</mn>
                      <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>1</mn>
+                     <mo>!</mo>
                   </mrow>
-               </msup>
-               <msup>
-                  <mfenced close=")" open="(">
-                     <mrow>
-                        <mi>n</mi>
-                        <mo>!</mo>
-                     </mrow>
-                  </mfenced>
+               </mfenced>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+         <mrow>
+            <mfenced close=")" open="(">
+               <mrow>
                   <mn>2</mn>
-               </msup>
-            </mrow>
-            <mrow>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mn>2</mn>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>1</mn>
-                  </mrow>
-               </mfenced>
-               <mo>!</mo>
-            </mrow>
-         </mfrac>
-         <msubsup>
-            <mo>∑</mo>
-            <mrow>
-               <mi>k</mi>
-               <mo>=</mo>
-               <mn>0</mn>
-            </mrow>
-            <mi>∞</mi>
-         </msubsup>
-         <mfrac>
-            <mrow>
-               <mn>1</mn>
-               <mo>⋅</mo>
-               <mn>3</mn>
-               <mi>⋯</mi>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mn>2</mn>
-                     <mi>k</mi>
-                     <mo>-</mo>
-                     <mn>1</mn>
-                  </mrow>
-               </mfenced>
-            </mrow>
-            <mrow>
-               <mi>k</mi>
-               <mo>!</mo>
-            </mrow>
-         </mfrac>
-         <mfrac>
-            <mrow>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>1</mn>
-                  </mrow>
-               </mfenced>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>2</mn>
-                  </mrow>
-               </mfenced>
-               <mi>⋯</mi>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mi>k</mi>
-                  </mrow>
-               </mfenced>
-            </mrow>
-            <mrow>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mn>2</mn>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>3</mn>
-                  </mrow>
-               </mfenced>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mn>2</mn>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>5</mn>
-                  </mrow>
-               </mfenced>
-               <mi>⋯</mi>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mn>2</mn>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>2</mn>
-                     <mi>k</mi>
-                     <mo>+</mo>
-                     <mn>1</mn>
-                  </mrow>
-               </mfenced>
-            </mrow>
-         </mfrac>
-         <mi>cos</mi>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>n</mi>
-                     <mo>+</mo>
-                     <mn>2</mn>
-                     <mi>k</mi>
-                     <mo>+</mo>
-                     <mn>1</mn>
-                  </mrow>
-               </mfenced>
-               <mi>θ</mi>
-            </mrow>
-         </mfenced>
-         <mo>,</mo>
-      </mstyle>
-   </mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </mfenced>
+            <mo>!</mo>
+         </mrow>
+      </mfrac>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+         </mrow>
+         <mi>∞</mi>
+      </msubsup>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+            <mo>⋅</mo>
+            <mn>3</mn>
+            <mi>⋯</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>2</mn>
+                  <mi>k</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+               </mrow>
+            </mfenced>
+         </mrow>
+         <mrow>
+            <mi>k</mi>
+            <mo>!</mo>
+         </mrow>
+      </mfrac>
+      <mfrac>
+         <mrow>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </mfenced>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+               </mrow>
+            </mfenced>
+            <mi>⋯</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mi>k</mi>
+               </mrow>
+            </mfenced>
+         </mrow>
+         <mrow>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>2</mn>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>3</mn>
+               </mrow>
+            </mfenced>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>2</mn>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>5</mn>
+               </mrow>
+            </mfenced>
+            <mi>⋯</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mn>2</mn>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+                  <mi>k</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </mfenced>
+         </mrow>
+      </mfrac>
+      <mi>cos</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+                  <mi>k</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </mfenced>
+            <mi>θ</mi>
+         </mrow>
+      </mfenced>
+   </mstyle>
 </math>

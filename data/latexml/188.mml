@@ -1,0 +1,69 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="z=2^{-2/3}\epsilon\zeta-\epsilon^{-3}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">
+      <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">z</mi>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">=</mo>
+      <mrow id="p1.1.m1.1.10.1" xref="p1.1.m1.1.10.1.cmml">
+        <mrow id="p1.1.m1.1.10.1.1" xref="p1.1.m1.1.10.1.1.cmml">
+          <msup id="p1.1.m1.1.10.1.1.2" xref="p1.1.m1.1.10.1.1.2.cmml">
+            <mn id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">2</mn>
+            <mrow id="p1.1.m1.1.4.1" xref="p1.1.m1.1.4.1.cmml">
+              <mo id="p1.1.m1.1.4.1.1" xref="p1.1.m1.1.4.1.1.cmml">-</mo>
+              <mrow id="p1.1.m1.1.4.1.5" xref="p1.1.m1.1.4.1.5.cmml">
+                <mn id="p1.1.m1.1.4.1.2" xref="p1.1.m1.1.4.1.2.cmml">2</mn>
+                <mo id="p1.1.m1.1.4.1.3" xref="p1.1.m1.1.4.1.3.cmml">/</mo>
+                <mn id="p1.1.m1.1.4.1.4" xref="p1.1.m1.1.4.1.4.cmml">3</mn>
+              </mrow>
+            </mrow>
+          </msup>
+          <mo id="p1.1.m1.1.10.1.1.1" xref="p1.1.m1.1.10.1.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">ϵ</mi>
+          <mo id="p1.1.m1.1.10.1.1.1a" xref="p1.1.m1.1.10.1.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">ζ</mi>
+        </mrow>
+        <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">-</mo>
+        <msup id="p1.1.m1.1.10.1.2" xref="p1.1.m1.1.10.1.2.cmml">
+          <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">ϵ</mi>
+          <mrow id="p1.1.m1.1.9.1" xref="p1.1.m1.1.9.1.cmml">
+            <mo id="p1.1.m1.1.9.1.1" xref="p1.1.m1.1.9.1.1.cmml">-</mo>
+            <mn id="p1.1.m1.1.9.1.2" xref="p1.1.m1.1.9.1.2.cmml">3</mn>
+          </mrow>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">
+        <eq id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2"/>
+        <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑧</ci>
+        <apply id="p1.1.m1.1.10.1.cmml" xref="p1.1.m1.1.10.1">
+          <minus id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7"/>
+          <apply id="p1.1.m1.1.10.1.1.cmml" xref="p1.1.m1.1.10.1.1">
+            <times id="p1.1.m1.1.10.1.1.1.cmml" xref="p1.1.m1.1.10.1.1.1"/>
+            <apply id="p1.1.m1.1.10.1.1.2.cmml" xref="p1.1.m1.1.10.1.1.2">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.10.1.1.2.1.cmml" xref="p1.1.m1.1.10.1.1.2">superscript</csymbol>
+              <cn type="integer" id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">2</cn>
+              <apply id="p1.1.m1.1.4.1.cmml" xref="p1.1.m1.1.4.1">
+                <minus id="p1.1.m1.1.4.1.1.cmml" xref="p1.1.m1.1.4.1.1"/>
+                <apply id="p1.1.m1.1.4.1.5.cmml" xref="p1.1.m1.1.4.1.5">
+                  <divide id="p1.1.m1.1.4.1.3.cmml" xref="p1.1.m1.1.4.1.3"/>
+                  <cn type="integer" id="p1.1.m1.1.4.1.2.cmml" xref="p1.1.m1.1.4.1.2">2</cn>
+                  <cn type="integer" id="p1.1.m1.1.4.1.4.cmml" xref="p1.1.m1.1.4.1.4">3</cn>
+                </apply>
+              </apply>
+            </apply>
+            <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">italic-ϵ</ci>
+            <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝜁</ci>
+          </apply>
+          <apply id="p1.1.m1.1.10.1.2.cmml" xref="p1.1.m1.1.10.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.10.1.2.1.cmml" xref="p1.1.m1.1.10.1.2">superscript</csymbol>
+            <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">italic-ϵ</ci>
+            <apply id="p1.1.m1.1.9.1.cmml" xref="p1.1.m1.1.9.1">
+              <minus id="p1.1.m1.1.9.1.1.cmml" xref="p1.1.m1.1.9.1.1"/>
+              <cn type="integer" id="p1.1.m1.1.9.1.2.cmml" xref="p1.1.m1.1.9.1.2">3</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

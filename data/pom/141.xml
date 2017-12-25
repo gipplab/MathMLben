@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="latex-command">\operatorname</term>
     <term prime-tag="alphanumeric">arcsinh</term>
     <term prime-tag="letter" secondary-tags="Latin">z</term>
@@ -82,7 +81,5 @@
     </expression>
     <term prime-tag="minus">-</term>
     <term prime-tag="ellipsis" secondary-tags="centered_horizontal_ellipsis">\cdots</term>
-    <term prime-tag="comma" secondary-tags="punctuation">,</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

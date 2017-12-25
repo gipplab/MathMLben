@@ -1,48 +1,45 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="0\rightarrow B\rightarrow A\oplus B\rightarrow A\rightarrow 0." display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="0\rightarrow B\rightarrow A\oplus B\rightarrow A\rightarrow 0" display="inline">
   <semantics id="p1.1.m1.1a">
-    <mrow id="p1.1.m1.1.13" xref="p1.1.m1.1.13.2.cmml">
-      <mrow id="p1.1.m1.1.13.2" xref="p1.1.m1.1.13.2.cmml">
-        <mn id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">0</mn>
-        <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">→</mo>
-        <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">B</mi>
-        <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">→</mo>
-        <mrow id="p1.1.m1.1.13.2.2" xref="p1.1.m1.1.13.2.2.cmml">
-          <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">A</mi>
-          <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">⊕</mo>
-          <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">B</mi>
-        </mrow>
-        <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">→</mo>
-        <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">A</mi>
-        <mo id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">→</mo>
-        <mn id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">0</mn>
+    <mrow id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">
+      <mn id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">0</mn>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">→</mo>
+      <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">B</mi>
+      <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">→</mo>
+      <mrow id="p1.1.m1.1.12.2" xref="p1.1.m1.1.12.2.cmml">
+        <mi id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">A</mi>
+        <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">⊕</mo>
+        <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">B</mi>
       </mrow>
-      <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.13.2.cmml">.</mo>
+      <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">→</mo>
+      <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">A</mi>
+      <mo id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">→</mo>
+      <mn id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">0</mn>
     </mrow>
     <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
-      <apply id="p1.1.m1.1.13.2.cmml" xref="p1.1.m1.1.13">
-        <and id="p1.1.m1.1.13.2a.cmml" xref="p1.1.m1.1.13"/>
-        <apply id="p1.1.m1.1.13.2b.cmml" xref="p1.1.m1.1.13">
+      <apply id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">
+        <and id="p1.1.m1.1.12a.cmml" xref="p1.1.m1.1.12"/>
+        <apply id="p1.1.m1.1.12b.cmml" xref="p1.1.m1.1.12">
           <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">→</ci>
           <cn type="integer" id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">0</cn>
           <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝐵</ci>
         </apply>
-        <apply id="p1.1.m1.1.13.2c.cmml" xref="p1.1.m1.1.13">
+        <apply id="p1.1.m1.1.12c.cmml" xref="p1.1.m1.1.12">
           <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">→</ci>
-          <share href="#p1.1.m1.1.3.cmml" id="p1.1.m1.1.13.2d.cmml" xref="p1.1.m1.1.13"/>
-          <apply id="p1.1.m1.1.13.2.2.cmml" xref="p1.1.m1.1.13.2.2">
+          <share href="#p1.1.m1.1.3.cmml" id="p1.1.m1.1.12d.cmml" xref="p1.1.m1.1.12"/>
+          <apply id="p1.1.m1.1.12.2.cmml" xref="p1.1.m1.1.12.2">
             <csymbol cd="latexml" id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">direct-sum</csymbol>
             <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">𝐴</ci>
             <ci id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">𝐵</ci>
           </apply>
         </apply>
-        <apply id="p1.1.m1.1.13.2e.cmml" xref="p1.1.m1.1.13">
+        <apply id="p1.1.m1.1.12e.cmml" xref="p1.1.m1.1.12">
           <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">→</ci>
-          <share href="#p1.1.m1.1.13.2.2.cmml" id="p1.1.m1.1.13.2f.cmml" xref="p1.1.m1.1.13"/>
+          <share href="#p1.1.m1.1.12.2.cmml" id="p1.1.m1.1.12f.cmml" xref="p1.1.m1.1.12"/>
           <ci id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">𝐴</ci>
         </apply>
-        <apply id="p1.1.m1.1.13.2g.cmml" xref="p1.1.m1.1.13">
+        <apply id="p1.1.m1.1.12g.cmml" xref="p1.1.m1.1.12">
           <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">→</ci>
-          <share href="#p1.1.m1.1.9.cmml" id="p1.1.m1.1.13.2h.cmml" xref="p1.1.m1.1.13"/>
+          <share href="#p1.1.m1.1.9.cmml" id="p1.1.m1.1.12h.cmml" xref="p1.1.m1.1.12"/>
           <cn type="integer" id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11">0</cn>
         </apply>
       </apply>

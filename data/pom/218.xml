@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="sequence">
+      <term prime-tag="latex-command">\it</term>
+      <term prime-tag="letter" secondary-tags="Latin">L</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">i</term>
+    <term prime-tag="latex-command" secondary-tags="accented">\Psi</term>
+    <term prime-tag="latex-command">\gamma</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="latex-command">\mu</term>
+    </expression>
+    <term prime-tag="operator">\partial</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="latex-command">\mu</term>
+    </expression>
+    <term prime-tag="latex-command">\Psi</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="latex-command" secondary-tags="accented">\Psi</term>
+    <term prime-tag="latex-command">\Psi</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="letter" secondary-tags="Latin">q</term>
+    <term prime-tag="latex-command" secondary-tags="accented">\Psi</term>
+    <term prime-tag="latex-command">\gamma</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">0</term>
+    </expression>
+    <term prime-tag="latex-command">\Psi</term>
+    <term prime-tag="latex-command">\Phi</term>
+    <term prime-tag="plus">+</term>
+    <expression prime-tag="sequence">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+      <term prime-tag="latex-command">\over</term>
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="operator">\partial</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="latex-command">\mu</term>
+    </expression>
+    <term prime-tag="latex-command">\Phi</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="operator">\partial</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="latex-command">\mu</term>
+    </expression>
+    <term prime-tag="latex-command">\Phi</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+  </expression>
+</math>

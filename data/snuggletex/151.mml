@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mi>Γ</mi>
-      <mfenced close=")" open="(">
+   <mi>Γ</mi>
+   <mfenced close=")" open="(">
+      <mi>z</mi>
+   </mfenced>
+   <mi>Γ</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mn>1</mn>
+         <mo>-</mo>
          <mi>z</mi>
-      </mfenced>
-      <mi>Γ</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mn>1</mn>
-            <mo>-</mo>
-            <mi>z</mi>
-         </mrow>
-      </mfenced>
-      <mo>=</mo>
-      <mi>π</mi>
-      <mo>/</mo>
-      <mi>sin</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>π</mi>
-            <mi>z</mi>
-         </mrow>
-      </mfenced>
-      <mo>,</mo>
-   </mrow>
+      </mrow>
+   </mfenced>
+   <mo>=</mo>
+   <mi>π</mi>
+   <mo>/</mo>
+   <mi>sin</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>π</mi>
+         <mi>z</mi>
+      </mrow>
+   </mfenced>
 </math>

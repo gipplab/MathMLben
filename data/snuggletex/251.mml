@@ -6,9 +6,7 @@
    <mi>p</mi>
    <mo>≥</mo>
    <mo>|</mo>
-   <mi>l</mi>
-   <mi>t</mi>
-   <mo>;</mo>
+   <mo>&lt;</mo>
    <mfenced close="]" open="[">
       <mover accent="true">
          <mi>x</mi>
@@ -19,8 +17,6 @@
          <mo>̂</mo>
       </mover>
    </mfenced>
-   <mi>g</mi>
-   <mi>t</mi>
-   <mo>;</mo>
+   <mo>&gt;</mo>
    <mo>|</mo>
 </math>

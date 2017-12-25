@@ -1,36 +1,33 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\displaystyle 1-a\,\bar{\partial}_{p}\,," display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\displaystyle 1-a\,\bar{\partial}_{p}\ " display="inline">
   <semantics id="p1.1.m1.1a">
-    <mrow id="p1.1.m1.1.9" xref="p1.1.m1.1.9.2.cmml">
-      <mrow id="p1.1.m1.1.9.2" xref="p1.1.m1.1.9.2.cmml">
-        <mn id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">1</mn>
-        <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">-</mo>
-        <mrow id="p1.1.m1.1.9.2.1" xref="p1.1.m1.1.9.2.1.cmml">
-          <mpadded width="+1.7pt" id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">
-            <mi id="p1.1.m1.1.3a" xref="p1.1.m1.1.3.cmml">a</mi>
-          </mpadded>
-          <mo id="p1.1.m1.1.9.2.1.1" xref="p1.1.m1.1.9.2.1.1.cmml">⁢</mo>
-          <mpadded width="+1.7pt" id="p1.1.m1.1.9.2.1.2" xref="p1.1.m1.1.9.2.1.2.cmml">
-            <msub id="p1.1.m1.1.9.2.1.2a" xref="p1.1.m1.1.9.2.1.2.cmml">
-              <mover accent="true" id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">
-                <mo id="p1.1.m1.1.5.2" xref="p1.1.m1.1.5.2.cmml">∂</mo>
-                <mo stretchy="false" id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">¯</mo>
-              </mover>
-              <mi id="p1.1.m1.1.6.1" xref="p1.1.m1.1.6.1.cmml">p</mi>
-            </msub>
-          </mpadded>
-        </mrow>
+    <mrow id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">
+      <mn id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">1</mn>
+      <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">-</mo>
+      <mrow id="p1.1.m1.1.8.1" xref="p1.1.m1.1.8.1.cmml">
+        <mpadded width="+1.7pt" id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">
+          <mi id="p1.1.m1.1.3a" xref="p1.1.m1.1.3.cmml">a</mi>
+        </mpadded>
+        <mo id="p1.1.m1.1.8.1.1" xref="p1.1.m1.1.8.1.1.cmml">⁢</mo>
+        <mpadded width="+5pt" id="p1.1.m1.1.8.1.2" xref="p1.1.m1.1.8.1.2.cmml">
+          <msub id="p1.1.m1.1.8.1.2a" xref="p1.1.m1.1.8.1.2.cmml">
+            <mover accent="true" id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">
+              <mo id="p1.1.m1.1.5.2" xref="p1.1.m1.1.5.2.cmml">∂</mo>
+              <mo stretchy="false" id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">¯</mo>
+            </mover>
+            <mi id="p1.1.m1.1.6.1" xref="p1.1.m1.1.6.1.cmml">p</mi>
+          </msub>
+        </mpadded>
       </mrow>
-      <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.9.2.cmml">,</mo>
     </mrow>
     <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
-      <apply id="p1.1.m1.1.9.2.cmml" xref="p1.1.m1.1.9">
+      <apply id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">
         <minus id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2"/>
         <cn type="integer" id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">1</cn>
-        <apply id="p1.1.m1.1.9.2.1.cmml" xref="p1.1.m1.1.9.2.1">
-          <times id="p1.1.m1.1.9.2.1.1.cmml" xref="p1.1.m1.1.9.2.1.1"/>
+        <apply id="p1.1.m1.1.8.1.cmml" xref="p1.1.m1.1.8.1">
+          <times id="p1.1.m1.1.8.1.1.cmml" xref="p1.1.m1.1.8.1.1"/>
           <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑎</ci>
-          <apply id="p1.1.m1.1.9.2.1.2.cmml" xref="p1.1.m1.1.9.2.1.2">
-            <csymbol cd="ambiguous" id="p1.1.m1.1.9.2.1.2.1.cmml" xref="p1.1.m1.1.9.2.1.2">subscript</csymbol>
+          <apply id="p1.1.m1.1.8.1.2.cmml" xref="p1.1.m1.1.8.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.8.1.2.1.cmml" xref="p1.1.m1.1.8.1.2">subscript</csymbol>
             <apply id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">
               <ci id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.1">¯</ci>
               <partialdiff id="p1.1.m1.1.5.2.cmml" xref="p1.1.m1.1.5.2"/>

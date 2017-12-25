@@ -21,26 +21,54 @@
          <mi>ζ</mi>
       </mrow>
    </msqrt>
-   <mrow>
-      <mo>[</mo>
-      <msup>
-         <mi>e</mi>
-         <mrow>
-            <mo>-</mo>
-            <mi>β</mi>
-            <mi>U</mi>
-         </mrow>
-      </msup>
-      <mfrac>
-         <mn>1</mn>
-         <mn>2</mn>
-      </mfrac>
-      <msup>
-         <mi>ζ</mi>
-         <mrow>
-            <mi>a</mi>
-            <mi>b</mi>
-         </mrow>
-      </msup>
-   </mrow>
+   <mfenced close="]" open="[">
+      <mrow>
+         <msup>
+            <mi>e</mi>
+            <mrow>
+               <mo>-</mo>
+               <mi>β</mi>
+               <mi>U</mi>
+            </mrow>
+         </msup>
+         <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+         <msup>
+            <mi>ζ</mi>
+            <mrow>
+               <mi>a</mi>
+               <mi>b</mi>
+            </mrow>
+         </msup>
+         <mfenced close=")" open="(">
+            <mrow>
+               <msub>
+                  <mi>G</mi>
+                  <mrow>
+                     <mi>b</mi>
+                     <mi>a</mi>
+                  </mrow>
+               </msub>
+               <mo>-</mo>
+               <msub>
+                  <mi mathvariant="script">F</mi>
+                  <mrow>
+                     <mi>b</mi>
+                     <mi>a</mi>
+                  </mrow>
+               </msub>
+            </mrow>
+         </mfenced>
+         <mo>-</mo>
+         <mfenced close=")" open="(">
+            <mrow>
+               <mi>p</mi>
+               <mo>-</mo>
+               <mn>1</mn>
+            </mrow>
+         </mfenced>
+      </mrow>
+   </mfenced>
 </math>

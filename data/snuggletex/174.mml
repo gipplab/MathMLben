@@ -1,74 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
    <mrow>
-      <mo>[</mo>
-      <mrow>
-         <msup>
-            <mfenced close=")" open="(">
-               <mrow>
-                  <msup>
-                     <mi>α</mi>
-                     <mn>2</mn>
-                  </msup>
-                  <mo>+</mo>
-                  <mi>η</mi>
-               </mrow>
-            </mfenced>
-            <mrow>
-               <mn>1</mn>
-               <mo>/</mo>
-               <mn>2</mn>
-            </mrow>
-         </msup>
-         <mo>+</mo>
-         <mrow>
-            <mn>1</mn>
-         </mrow>
-         <mrow>
-            <mn>2</mn>
-         </mrow>
-         <mi>α</mi>
-         <mi>ln</mi>
-         <mi>η</mi>
-         <mo>-</mo>
-         <mi>α</mi>
-         <mi>ln</mi>
+      <msup>
          <mfenced close=")" open="(">
             <mrow>
                <msup>
-                  <mfenced close=")" open="(">
-                     <mrow>
-                        <msup>
-                           <mi>α</mi>
-                           <mn>2</mn>
-                        </msup>
-                        <mo>+</mo>
-                        <mi>η</mi>
-                     </mrow>
-                  </mfenced>
-                  <mrow>
-                     <mn>1</mn>
-                     <mo>/</mo>
-                     <mn>2</mn>
-                  </mrow>
+                  <mi>α</mi>
+                  <mn>2</mn>
                </msup>
                <mo>+</mo>
-               <mi>α</mi>
+               <mi>η</mi>
             </mrow>
          </mfenced>
-      </mrow>
-      <mo>=</mo>
-      <mrow>
          <mrow>
-            <mi>a</mi>
-            <mi>r</mi>
-            <mi>c</mi>
-            <mi>c</mi>
-            <mi>o</mi>
-            <mi>s</mi>
+            <mn>1</mn>
+            <mo>/</mo>
+            <mn>2</mn>
          </mrow>
-         <mfenced close=")" open="(">
-            <mfrac>
+      </msup>
+      <mo>+</mo>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>α</mi>
+      <mi>ln</mi>
+      <mi>η</mi>
+      <mo>-</mo>
+      <mi>α</mi>
+      <mi>ln</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <msup>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <msup>
+                        <mi>α</mi>
+                        <mn>2</mn>
+                     </msup>
+                     <mo>+</mo>
+                     <mi>η</mi>
+                  </mrow>
+               </mfenced>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+            <mo>+</mo>
+            <mi>α</mi>
+         </mrow>
+      </mfenced>
+   </mrow>
+   <mo>=</mo>
+   <mrow>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>c</mi>
+         <mi>o</mi>
+         <mi>s</mi>
+      </mrow>
+      <mfenced close=")" open="(">
+         <mfrac>
+            <mi>x</mi>
+            <msup>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <mn>1</mn>
+                     <mo>+</mo>
+                     <msup>
+                        <mi>α</mi>
+                        <mn>2</mn>
+                     </msup>
+                  </mrow>
+               </mfenced>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+         </mfrac>
+      </mfenced>
+      <mo>+</mo>
+      <mfrac>
+         <mi>α</mi>
+         <mn>2</mn>
+      </mfrac>
+      <mi>ln</mi>
+      <mfenced close=")" open="(">
+         <mfrac>
+            <mrow>
+               <mn>1</mn>
+               <mo>+</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mn>2</mn>
+               </msup>
+               <mo>+</mo>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <msup>
+                        <mi>α</mi>
+                        <mn>2</mn>
+                     </msup>
+                     <mo>-</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </mfenced>
+               <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+               </msup>
+               <mo>-</mo>
+               <mn>2</mn>
+               <mi>α</mi>
                <mi>x</mi>
                <msup>
                   <mfenced close=")" open="(">
@@ -79,6 +130,11 @@
                            <mi>α</mi>
                            <mn>2</mn>
                         </msup>
+                        <mo>-</mo>
+                        <msup>
+                           <mi>x</mi>
+                           <mn>2</mn>
+                        </msup>
                      </mrow>
                   </mfenced>
                   <mrow>
@@ -87,90 +143,30 @@
                      <mn>2</mn>
                   </mrow>
                </msup>
-            </mfrac>
-         </mfenced>
-         <mo>+</mo>
-         <mfrac>
-            <mi>α</mi>
-            <mn>2</mn>
-         </mfrac>
-         <mi>ln</mi>
-         <mfenced close=")" open="(">
-            <mfrac>
-               <mrow>
-                  <mn>1</mn>
-                  <mo>+</mo>
-                  <msup>
-                     <mi>α</mi>
-                     <mn>2</mn>
-                  </msup>
-                  <mo>+</mo>
-                  <mfenced close=")" open="(">
-                     <mrow>
-                        <msup>
-                           <mi>α</mi>
-                           <mn>2</mn>
-                        </msup>
-                        <mo>-</mo>
-                        <mn>1</mn>
-                     </mrow>
-                  </mfenced>
-                  <msup>
-                     <mi>x</mi>
-                     <mn>2</mn>
-                  </msup>
-                  <mo>-</mo>
-                  <mn>2</mn>
-                  <mi>α</mi>
-                  <mi>x</mi>
-                  <msup>
-                     <mfenced close=")" open="(">
-                        <mrow>
-                           <mn>1</mn>
-                           <mo>+</mo>
-                           <msup>
-                              <mi>α</mi>
-                              <mn>2</mn>
-                           </msup>
-                           <mo>-</mo>
-                           <msup>
-                              <mi>x</mi>
-                              <mn>2</mn>
-                           </msup>
-                        </mrow>
-                     </mfenced>
-                     <mrow>
-                        <mn>1</mn>
-                        <mo>/</mo>
+            </mrow>
+            <mrow>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <mn>1</mn>
+                     <mo>+</mo>
+                     <msup>
+                        <mi>α</mi>
                         <mn>2</mn>
-                     </mrow>
-                  </msup>
-               </mrow>
-               <mrow>
-                  <mfenced close=")" open="(">
-                     <mrow>
-                        <mn>1</mn>
-                        <mo>+</mo>
-                        <msup>
-                           <mi>α</mi>
-                           <mn>2</mn>
-                        </msup>
-                     </mrow>
-                  </mfenced>
-                  <mfenced close=")" open="(">
-                     <mrow>
-                        <mn>1</mn>
-                        <mo>-</mo>
-                        <msup>
-                           <mi>x</mi>
-                           <mn>2</mn>
-                        </msup>
-                     </mrow>
-                  </mfenced>
-               </mrow>
-            </mfrac>
-         </mfenced>
-      </mrow>
-      <mo>,</mo>
+                     </msup>
+                  </mrow>
+               </mfenced>
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <mn>1</mn>
+                     <mo>-</mo>
+                     <msup>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                     </msup>
+                  </mrow>
+               </mfenced>
+            </mrow>
+         </mfrac>
+      </mfenced>
    </mrow>
 </math>

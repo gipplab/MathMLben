@@ -1,72 +1,69 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1.m1.1" class="ltx_Math" alttext="\Gamma\left(z\right)\Gamma\left(1-z\right)=\pi/\sin\left(\pi z\right)," display="block">
-  <semantics id="S0.Ex1.m1.1a">
-    <mrow>
-      <mrow>
-        <mrow>
-          <mi mathvariant="normal">Γ</mi>
-          <mo>⁢</mo>
-          <mrow>
-            <mo>(</mo>
-            <mi>z</mi>
-            <mo>)</mo>
-          </mrow>
-          <mo>⁢</mo>
-          <mi mathvariant="normal">Γ</mi>
-          <mo>⁢</mo>
-          <mrow>
-            <mo>(</mo>
-            <mrow>
-              <mn>1</mn>
-              <mo>-</mo>
-              <mi>z</mi>
-            </mrow>
-            <mo>)</mo>
-          </mrow>
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\Gamma\left(z\right)\Gamma\left(1-z\right)=\pi/\sin\left(\pi z\right)" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.19" xref="p1.1.m1.1.19.cmml">
+      <mrow id="p1.1.m1.1.19.1" xref="p1.1.m1.1.19.1.cmml">
+        <mi mathvariant="normal" id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">Γ</mi>
+        <mo id="p1.1.m1.1.19.1.1" xref="p1.1.m1.1.19.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.19.1.2" xref="p1.1.m1.1.19.1.cmml">
+          <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.19.1.cmml">(</mo>
+          <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">z</mi>
+          <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.19.1.cmml">)</mo>
         </mrow>
-        <mo>=</mo>
-        <mrow>
-          <mi>π</mi>
-          <mo>/</mo>
-          <mrow>
-            <mi>sin</mi>
-            <mo>⁡</mo>
-            <mrow>
-              <mo>(</mo>
-              <mrow>
-                <mi>π</mi>
-                <mo>⁢</mo>
-                <mi>z</mi>
-              </mrow>
-              <mo>)</mo>
+        <mo id="p1.1.m1.1.19.1.1a" xref="p1.1.m1.1.19.1.1.cmml">⁢</mo>
+        <mi mathvariant="normal" id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">Γ</mi>
+        <mo id="p1.1.m1.1.19.1.1b" xref="p1.1.m1.1.19.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.19.1.3" xref="p1.1.m1.1.19.1.3.2.cmml">
+          <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.19.1.3.2.cmml">(</mo>
+          <mrow id="p1.1.m1.1.19.1.3.2" xref="p1.1.m1.1.19.1.3.2.cmml">
+            <mn id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">1</mn>
+            <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">-</mo>
+            <mi id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">z</mi>
+          </mrow>
+          <mo id="p1.1.m1.1.10" xref="p1.1.m1.1.19.1.3.2.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">=</mo>
+      <mrow id="p1.1.m1.1.19.2" xref="p1.1.m1.1.19.2.cmml">
+        <mi id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">π</mi>
+        <mo id="p1.1.m1.1.13" xref="p1.1.m1.1.13.cmml">/</mo>
+        <mrow id="p1.1.m1.1.19.2.1.2" xref="p1.1.m1.1.19.2.1.1.cmml">
+          <mi id="p1.1.m1.1.14" xref="p1.1.m1.1.14.cmml">sin</mi>
+          <mo id="p1.1.m1.1.19.2.1.2a" xref="p1.1.m1.1.19.2.1.1.cmml">⁡</mo>
+          <mrow id="p1.1.m1.1.19.2.1.2.2" xref="p1.1.m1.1.19.2.1.1.cmml">
+            <mo id="p1.1.m1.1.15" xref="p1.1.m1.1.19.2.1.1.cmml">(</mo>
+            <mrow id="p1.1.m1.1.19.2.1.2.1" xref="p1.1.m1.1.19.2.1.2.1.cmml">
+              <mi id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">π</mi>
+              <mo id="p1.1.m1.1.19.2.1.2.1.1" xref="p1.1.m1.1.19.2.1.2.1.1.cmml">⁢</mo>
+              <mi id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">z</mi>
             </mrow>
+            <mo id="p1.1.m1.1.18" xref="p1.1.m1.1.19.2.1.1.cmml">)</mo>
           </mrow>
         </mrow>
       </mrow>
-      <mo>,</mo>
     </mrow>
-    <annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b">
-      <apply id="S0.Ex1.m1.1.20.2.cmml">
-        <eq id="S0.Ex1.m1.1.11.cmml"/>
-        <apply id="S0.Ex1.m1.1.20.2.1.cmml">
-          <times id="S0.Ex1.m1.1.20.2.1.1.cmml"/>
-          <ci id="S0.Ex1.m1.1.1.cmml">Γ</ci>
-          <ci id="S0.Ex1.m1.1.3.cmml">𝑧</ci>
-          <ci id="S0.Ex1.m1.1.5.cmml">Γ</ci>
-          <apply id="S0.Ex1.m1.1.20.2.1.3.2.cmml">
-            <minus id="S0.Ex1.m1.1.8.cmml"/>
-            <cn type="integer" id="S0.Ex1.m1.1.7.cmml">1</cn>
-            <ci id="S0.Ex1.m1.1.9.cmml">𝑧</ci>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.19.cmml" xref="p1.1.m1.1.19">
+        <eq id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11"/>
+        <apply id="p1.1.m1.1.19.1.cmml" xref="p1.1.m1.1.19.1">
+          <times id="p1.1.m1.1.19.1.1.cmml" xref="p1.1.m1.1.19.1.1"/>
+          <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">Γ</ci>
+          <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑧</ci>
+          <ci id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">Γ</ci>
+          <apply id="p1.1.m1.1.19.1.3.2.cmml" xref="p1.1.m1.1.19.1.3">
+            <minus id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8"/>
+            <cn type="integer" id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">1</cn>
+            <ci id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9">𝑧</ci>
           </apply>
         </apply>
-        <apply id="S0.Ex1.m1.1.20.2.2.cmml">
-          <divide id="S0.Ex1.m1.1.13.cmml"/>
-          <ci id="S0.Ex1.m1.1.12.cmml">𝜋</ci>
-          <apply id="S0.Ex1.m1.1.20.2.2.1.1.cmml">
-            <sin id="S0.Ex1.m1.1.14.cmml"/>
-            <apply id="S0.Ex1.m1.1.20.2.2.1.2.1.cmml">
-              <times id="S0.Ex1.m1.1.20.2.2.1.2.1.1.cmml"/>
-              <ci id="S0.Ex1.m1.1.16.cmml">𝜋</ci>
-              <ci id="S0.Ex1.m1.1.17.cmml">𝑧</ci>
+        <apply id="p1.1.m1.1.19.2.cmml" xref="p1.1.m1.1.19.2">
+          <divide id="p1.1.m1.1.13.cmml" xref="p1.1.m1.1.13"/>
+          <ci id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">𝜋</ci>
+          <apply id="p1.1.m1.1.19.2.1.1.cmml" xref="p1.1.m1.1.19.2.1.2">
+            <sin id="p1.1.m1.1.14.cmml" xref="p1.1.m1.1.14"/>
+            <apply id="p1.1.m1.1.19.2.1.2.1.cmml" xref="p1.1.m1.1.19.2.1.2.1">
+              <times id="p1.1.m1.1.19.2.1.2.1.1.cmml" xref="p1.1.m1.1.19.2.1.2.1.1"/>
+              <ci id="p1.1.m1.1.16.cmml" xref="p1.1.m1.1.16">𝜋</ci>
+              <ci id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">𝑧</ci>
             </apply>
           </apply>
         </apply>

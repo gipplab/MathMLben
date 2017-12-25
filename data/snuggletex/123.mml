@@ -1,47 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msup>
-         <msub>
-            <mi>J</mi>
-            <mi>ν</mi>
-         </msub>
-         <mi>'</mi>
-      </msup>
-      <mfenced close=")" open="(">
-         <mi>x</mi>
-      </mfenced>
-      <msub>
-         <mi>Y</mi>
-         <mi>ν</mi>
-      </msub>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>λ</mi>
-            <mi>x</mi>
-         </mrow>
-      </mfenced>
-      <mo>-</mo>
-      <msup>
-         <msub>
-            <mi>Y</mi>
-            <mi>ν</mi>
-         </msub>
-         <mi>'</mi>
-      </msup>
-      <mfenced close=")" open="(">
-         <mi>x</mi>
-      </mfenced>
+   <msup>
       <msub>
          <mi>J</mi>
          <mi>ν</mi>
       </msub>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>λ</mi>
-            <mi>x</mi>
-         </mrow>
-      </mfenced>
-   </mrow>
+      <mi>'</mi>
+   </msup>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+   </mfenced>
+   <msub>
+      <mi>Y</mi>
+      <mi>ν</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>λ</mi>
+         <mi>x</mi>
+      </mrow>
+   </mfenced>
+   <mo>-</mo>
+   <msup>
+      <msub>
+         <mi>Y</mi>
+         <mi>ν</mi>
+      </msub>
+      <mi>'</mi>
+   </msup>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+   </mfenced>
+   <msub>
+      <mi>J</mi>
+      <mi>ν</mi>
+   </msub>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>λ</mi>
+         <mi>x</mi>
+      </mrow>
+   </mfenced>
 </math>

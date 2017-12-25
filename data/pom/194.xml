@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <expression prime-tag="fraction">
       <expression prime-tag="sequence" secondary-tags="numerator">
         <expression prime-tag="balanced-expression">
@@ -192,7 +191,5 @@
         </expression>
       </expression>
     </expression>
-    <term prime-tag="point">.</term>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">L</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+        <term prime-tag="relation">\in</term>
+        <term prime-tag="letter" secondary-tags="Latin">N</term>
+      </expression>
+    </expression>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">v</term>
+        <term prime-tag="less-than">&lt;</term>
+        <term prime-tag="letter" secondary-tags="Latin">w</term>
+        <term prime-tag="colon" secondary-tags="punctuation">:</term>
+        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+        <term prime-tag="letter" secondary-tags="Latin">v</term>
+        <term prime-tag="comma" secondary-tags="punctuation">,</term>
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+        <term prime-tag="comma" secondary-tags="punctuation">,</term>
+        <term prime-tag="letter" secondary-tags="Latin">w</term>
+        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+        <term prime-tag="relation">\in</term>
+        <term prime-tag="latex-command">\Gamma</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <expression prime-tag="sequence" secondary-tags="subscript">
+            <term prime-tag="letter" secondary-tags="Latin">G</term>
+            <expression prime-tag="caret" secondary-tags="superscript_operation">
+              <term prime-tag="primes">\prime</term>
+            </expression>
+          </expression>
+        </expression>
+      </expression>
+    </expression>
+    <term prime-tag="latex-command">\bigg</term>
+    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
+    <term prime-tag="letter" secondary-tags="Latin">c</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">i</term>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="alphanumeric">vw</term>
+      </expression>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">i</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">w</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="latex-command">\Big</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">t</term>
+        <term prime-tag="relation">\in</term>
+        <term prime-tag="letter" secondary-tags="Latin">T</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">t</term>
+    </expression>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">i</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">w</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="alphanumeric">vw</term>
+      </expression>
+    </expression>
+    <term prime-tag="latex-command">\Big</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">w</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">i</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="latex-command">\Big</term>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="operator">\sum</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">t</term>
+        <term prime-tag="relation">\in</term>
+        <term prime-tag="letter" secondary-tags="Latin">T</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">t</term>
+    </expression>
+    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+    <term prime-tag="letter" secondary-tags="Latin">w</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">i</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="letter" secondary-tags="Latin">y</term>
+    <expression prime-tag="subsuperscript">
+      <expression prime-tag="caret" secondary-tags="superscript_operation">
+        <term prime-tag="letter" secondary-tags="Latin">i</term>
+      </expression>
+      <expression prime-tag="underscore" secondary-tags="subscript_operation">
+        <term prime-tag="alphanumeric">wv</term>
+      </expression>
+    </expression>
+    <term prime-tag="latex-command">\Big</term>
+    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+    <term prime-tag="latex-command">\bigg</term>
+    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
+  </expression>
+</math>

@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <mi>ln</mi>
-      <mi>x</mi>
-      <mo>=</mo>
-      <msup>
-         <mn>2</mn>
-         <mi>m</mi>
-      </msup>
-      <mi>ln</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mn>1</mn>
-            <mo>+</mo>
-            <mi>y</mi>
-         </mrow>
-      </mfenced>
-      <mi>.</mi>
-   </mrow>
+   <mi>ln</mi>
+   <mi>x</mi>
+   <mo>=</mo>
+   <msup>
+      <mn>2</mn>
+      <mi>m</mi>
+   </msup>
+   <mi>ln</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mn>1</mn>
+         <mo>+</mo>
+         <mi>y</mi>
+      </mrow>
+   </mfenced>
 </math>

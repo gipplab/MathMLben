@@ -1,97 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msubsup>
-         <mo>∫</mo>
-         <mi>P</mi>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mn>1</mn>
-               <mo>+</mo>
-            </mrow>
-            <mrow>
-               <mn>0</mn>
-               <mo>+</mo>
-            </mrow>
-            <mrow>
-               <mn>1</mn>
-               <mo>-</mo>
-            </mrow>
-            <mrow>
-               <mn>0</mn>
-               <mo>-</mo>
-            </mrow>
-         </mfenced>
-      </msubsup>
-      <msup>
-         <mi>t</mi>
+   <msubsup>
+      <mo>∫</mo>
+      <mi>P</mi>
+      <mfenced close=")" open="(">
          <mrow>
-            <mi>a</mi>
-            <mo>-</mo>
             <mn>1</mn>
+            <mo>+</mo>
          </mrow>
-      </msup>
-      <msup>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mn>1</mn>
-               <mo>-</mo>
-               <mi>t</mi>
-            </mrow>
-         </mfenced>
          <mrow>
-            <mi>b</mi>
-            <mo>-</mo>
-            <mn>1</mn>
+            <mn>0</mn>
+            <mo>+</mo>
          </mrow>
-      </msup>
-      <mstyle mathvariant="normal">
-         <mi>d</mi>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mi>t</mi>
-         <mo>=</mo>
+         <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+         </mrow>
+         <mrow>
+            <mn>0</mn>
+            <mo>-</mo>
+         </mrow>
+      </mfenced>
+   </msubsup>
+   <msup>
+      <mi>t</mi>
+      <mrow>
+         <mi>a</mi>
          <mo>-</mo>
-         <mn>4</mn>
-         <msup>
-            <mi>e</mi>
-            <mrow>
-               <mi>π</mi>
-               <mi>i</mi>
-               <mfenced close=")" open="(">
-                  <mrow>
-                     <mi>a</mi>
-                     <mo>+</mo>
-                     <mi>b</mi>
-                  </mrow>
-               </mfenced>
-            </mrow>
-         </msup>
-         <mi>sin</mi>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mi>π</mi>
-               <mi>a</mi>
-            </mrow>
-         </mfenced>
-         <mi>sin</mi>
-         <mfenced close=")" open="(">
-            <mrow>
-               <mi>π</mi>
-               <mi>b</mi>
-            </mrow>
-         </mfenced>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mi>B</mi>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mfenced close=")" open="(">
+         <mn>1</mn>
+      </mrow>
+   </msup>
+   <msup>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>t</mi>
+         </mrow>
+      </mfenced>
+      <mrow>
+         <mi>b</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+   </msup>
+   <mstyle mathvariant="normal">
+      <mi>d</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>t</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mn>4</mn>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>π</mi>
+            <mi>i</mi>
+            <mfenced close=")" open="(">
+               <mrow>
+                  <mi>a</mi>
+                  <mo>+</mo>
+                  <mi>b</mi>
+               </mrow>
+            </mfenced>
+         </mrow>
+      </msup>
+      <mi>sin</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mi>π</mi>
             <mi>a</mi>
+         </mrow>
+      </mfenced>
+      <mi>sin</mi>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mi>π</mi>
             <mi>b</mi>
-         </mfenced>
-         <mo>,</mo>
-      </mstyle>
-   </mrow>
+         </mrow>
+      </mfenced>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>B</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mfenced close=")" open="(">
+         <mi>a</mi>
+         <mi>b</mi>
+      </mfenced>
+   </mstyle>
 </math>

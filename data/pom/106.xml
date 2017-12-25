@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="left-bracket" secondary-tags="opening delimiter">[</term>
     <term prime-tag="letter" secondary-tags="Latin">P</term>
     <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
     <term prime-tag="letter" secondary-tags="Latin">z</term>
@@ -48,6 +47,5 @@
         </expression>
       </expression>
     </expression>
-    <term prime-tag="right-bracket" secondary-tags="closing delimiter">]</term>
   </expression>
 </math>

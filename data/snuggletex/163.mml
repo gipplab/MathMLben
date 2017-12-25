@@ -1,73 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>[</mo>
-      <msup>
-         <mi>Ψ</mi>
-         <mfenced close=")" open="(">
-            <mstyle mathvariant="normal">
-               <mi>U</mi>
-            </mstyle>
-         </mfenced>
-      </msup>
+   <msup>
+      <mi>Ψ</mi>
       <mfenced close=")" open="(">
-         <mstyle mathvariant="bold">
-            <mi>x</mi>
+         <mstyle mathvariant="normal">
+            <mi>U</mi>
          </mstyle>
       </mfenced>
-      <mo>=</mo>
-      <msubsup>
-         <mo>∫</mo>
-         <mrow>
-            <mo>-</mo>
-            <mi>∞</mi>
-         </mrow>
+   </msup>
+   <mfenced close=")" open="(">
+      <mstyle mathvariant="bold">
+         <mi>x</mi>
+      </mstyle>
+   </mfenced>
+   <mo>=</mo>
+   <msubsup>
+      <mo>∫</mo>
+      <mrow>
+         <mo>-</mo>
          <mi>∞</mi>
-      </msubsup>
-      <msubsup>
-         <mo>∫</mo>
-         <mrow>
-            <mo>-</mo>
-            <mi>∞</mi>
-         </mrow>
+      </mrow>
+      <mi>∞</mi>
+   </msubsup>
+   <msubsup>
+      <mo>∫</mo>
+      <mrow>
+         <mo>-</mo>
          <mi>∞</mi>
-      </msubsup>
-      <mi>exp</mi>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>i</mi>
-            <msup>
-               <mi>Φ</mi>
-               <mfenced close=")" open="(">
-                  <mstyle mathvariant="normal">
-                     <mi>U</mi>
-                  </mstyle>
-               </mfenced>
-            </msup>
+      </mrow>
+      <mi>∞</mi>
+   </msubsup>
+   <mi>exp</mi>
+   <mfenced close=")" open="(">
+      <mrow>
+         <mi>i</mi>
+         <msup>
+            <mi>Φ</mi>
             <mfenced close=")" open="(">
-               <mi>s</mi>
-               <mrow>
-                  <mi>t</mi>
-                  <mo>;</mo>
-                  <mstyle mathvariant="bold">
-                     <mi>x</mi>
-                  </mstyle>
-               </mrow>
+               <mstyle mathvariant="normal">
+                  <mi>U</mi>
+               </mstyle>
             </mfenced>
-         </mrow>
-      </mfenced>
-      <mstyle mathvariant="normal">
-         <mi>d</mi>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mi>s</mi>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mi>d</mi>
-      </mstyle>
-      <mstyle mathvariant="normal">
-         <mi>t</mi>
-         <mo>,</mo>
-      </mstyle>
-   </mrow>
+         </msup>
+         <mfenced close=")" open="(">
+            <mi>s</mi>
+            <mrow>
+               <mi>t</mi>
+               <mo>;</mo>
+               <mstyle mathvariant="bold">
+                  <mi>x</mi>
+               </mstyle>
+            </mrow>
+         </mfenced>
+      </mrow>
+   </mfenced>
+   <mstyle mathvariant="normal">
+      <mi>d</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>s</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>d</mi>
+   </mstyle>
+   <mstyle mathvariant="normal">
+      <mi>t</mi>
+   </mstyle>
 </math>
