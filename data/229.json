@@ -14,12 +14,14 @@
   },
   "title": "A formulaic definition of the definable closure",
   "comment": "there is a definition, but it is not formulaic",
-  "math_inputtex":"dcl(A)",
-  "correct_tex":"dcl(A)",
+  "math_inputtex": "dcl(A)",
+  "correct_tex": "dcl(A)",
   "uri": "https://arxiv.org/abs/1006.5139",
   "page": "4",
-  "formula":"1_34.22",
-  "ntcir12-type":"29",
-  "ntcir12-relevance":"3",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S1.p5.1.m18.1.cmml\" alttext=\"dcl(A)\" class=\"ltx_Math\" id=\"S1.p5.1.m18.1\" display=\"inline\"><semantics xref=\"S1.p5.1.m18.1.cmml\" id=\"S1.p5.1.m18.1a\"><mrow xref=\"S1.p5.1.m18.1.7.cmml\" id=\"S1.p5.1.m18.1.7\"><mi xref=\"S1.p5.1.m18.1.1.cmml\" id=\"S1.p5.1.m18.1.1\">d</mi><mo xref=\"S1.p5.1.m18.1.7.1.cmml\" id=\"S1.p5.1.m18.1.7.1\">\u2062</mo><mi xref=\"S1.p5.1.m18.1.2.cmml\" id=\"S1.p5.1.m18.1.2\">c</mi><mo xref=\"S1.p5.1.m18.1.7.1.cmml\" id=\"S1.p5.1.m18.1.7.1a\">\u2062</mo><mi xref=\"S1.p5.1.m18.1.3.cmml\" id=\"S1.p5.1.m18.1.3\">l</mi><mo xref=\"S1.p5.1.m18.1.7.1.cmml\" id=\"S1.p5.1.m18.1.7.1b\">\u2062</mo><mrow xref=\"S1.p5.1.m18.1.5.cmml\" id=\"S1.p5.1.m18.1.5\"><mo xref=\"S1.p5.1.m18.1.5.cmml\" id=\"S1.p5.1.m18.1.5a\">(</mo><mi xref=\"S1.p5.1.m18.1.5.cmml\" id=\"S1.p5.1.m18.1.5b\">A</mi><mo xref=\"S1.p5.1.m18.1.5.cmml\" id=\"S1.p5.1.m18.1.5c\">)</mo></mrow></mrow><annotation-xml xref=\"S1.p5.1.m18.1\" id=\"S1.p5.1.m18.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S1.p5.1.m18.1.7\" id=\"S1.p5.1.m18.1.7.cmml\"><times xref=\"S1.p5.1.m18.1.7.1\" id=\"S1.p5.1.m18.1.7.1.cmml\"></times><ci xref=\"S1.p5.1.m18.1.1\" id=\"S1.p5.1.m18.1.1.cmml\">d</ci><ci xref=\"S1.p5.1.m18.1.2\" id=\"S1.p5.1.m18.1.2.cmml\">c</ci><ci xref=\"S1.p5.1.m18.1.3\" id=\"S1.p5.1.m18.1.3.cmml\">l</ci><ci xref=\"S1.p5.1.m18.1.5\" id=\"S1.p5.1.m18.1.5.cmml\">A</ci></apply></annotation-xml><annotation xref=\"S1.p5.1.m18.1.cmml\" id=\"S1.p5.1.m18.1b\" encoding=\"application/x-tex\">dcl(A)</annotation></semantics></math>"
+  "formula": "1_34.22",
+  "ntcir12-type": "29",
+  "ntcir12-relevance": "3",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"dcl(A)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">d</mi>\n      <mo id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">⁢</mo>\n      <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">c</mi>\n      <mo id=\"p1.1.m1.1.7.1a\" xref=\"p1.1.m1.1.7.1.cmml\">⁢</mo>\n      <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">l</mi>\n      <mo id=\"p1.1.m1.1.7.1b\" xref=\"p1.1.m1.1.7.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.7.2\" xref=\"p1.1.m1.1.7.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.7.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">A</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.7.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">\n        <times id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q10564851</csymbol>\n        <ci id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">𝑐</ci>\n        <ci id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">𝑙</ci>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">Q36161</csymbol>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">dcl(A)</annotation>\n  </semantics>\n</math>",
+  "constraints": [],
+  "math_inputtex_semantic": "\\wf{Q10564851}{dcl}(\\w{Q36161}{A})"
 }
