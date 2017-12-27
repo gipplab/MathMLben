@@ -6,12 +6,14 @@
   },
   "comment": "Sigma is either a set or a family (but which kind of family?)",
   "title": "A formulaic definition of the definable closure: Context 1",
-  "math_inputtex":"\\Sigma",
-  "correct_tex":"\\Sigma",
+  "math_inputtex": "\\Sigma",
+  "correct_tex": "\\Sigma",
   "uri": "https://arxiv.org/abs/1012.1769",
   "page": "4",
-  "formula":"1_28.4",
-  "ntcir12-type":"29",
-  "ntcir12-relevance":"3",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"p26.2.m2.1.cmml\" alttext=\"\\Sigma\" class=\"ltx_Math\" id=\"p26.2.m2.1\" display=\"inline\"><semantics xref=\"p26.2.m2.1.cmml\" id=\"p26.2.m2.1a\"><mi xref=\"p26.2.m2.1.1.cmml\" mathvariant=\"normal\" id=\"p26.2.m2.1.1\">\u03a3</mi><annotation-xml xref=\"p26.2.m2.1\" id=\"p26.2.m2.1.cmml\" encoding=\"MathML-Content\"><ci xref=\"p26.2.m2.1.1\" id=\"p26.2.m2.1.1.cmml\">normal-\u03a3</ci></annotation-xml><annotation xref=\"p26.2.m2.1.cmml\" id=\"p26.2.m2.1b\" encoding=\"application/x-tex\">\\Sigma</annotation></semantics></math>"
+  "formula": "1_28.4",
+  "ntcir12-type": "29",
+  "ntcir12-relevance": "3",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\Sigma\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">Σ</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">family</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\Sigma</annotation>\n  </semantics>\n</math>",
+  "constraints": [],
+  "math_inputtex_semantic": "\\w{family}{\\Sigma}"
 }
