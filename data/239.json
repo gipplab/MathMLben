@@ -9,12 +9,13 @@
   "constraints": "",
   "title": "Music Context 1",
   "comment": "",
-  "math_inputtex":"GF(2)",
-  "correct_tex":"GF(2)",
+  "math_inputtex": "GF(2)",
+  "correct_tex": "GF(2)",
   "uri": "https://arxiv.org/abs/0903.4405",
   "page": "3",
-  "formula":"1_8.5",
-  "ntcir12-type":"10",
-  "ntcir12-relevance":"4",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S1.p6.1.m5.1.cmml\" alttext=\"GF(2)\" class=\"ltx_Math\" id=\"S1.p6.1.m5.1\" display=\"inline\"><semantics xref=\"S1.p6.1.m5.1.cmml\" id=\"S1.p6.1.m5.1a\"><mrow xref=\"S1.p6.1.m5.1.6.cmml\" id=\"S1.p6.1.m5.1.6\"><mi xref=\"S1.p6.1.m5.1.1.cmml\" id=\"S1.p6.1.m5.1.1\">G</mi><mo xref=\"S1.p6.1.m5.1.6.1.cmml\" id=\"S1.p6.1.m5.1.6.1\">\u2062</mo><mi xref=\"S1.p6.1.m5.1.2.cmml\" id=\"S1.p6.1.m5.1.2\">F</mi><mo xref=\"S1.p6.1.m5.1.6.1.cmml\" id=\"S1.p6.1.m5.1.6.1a\">\u2062</mo><mrow xref=\"S1.p6.1.m5.1.4.cmml\" id=\"S1.p6.1.m5.1.4\"><mo xref=\"S1.p6.1.m5.1.4.cmml\" id=\"S1.p6.1.m5.1.4a\">(</mo><mn xref=\"S1.p6.1.m5.1.4.cmml\" id=\"S1.p6.1.m5.1.4b\">2</mn><mo xref=\"S1.p6.1.m5.1.4.cmml\" id=\"S1.p6.1.m5.1.4c\">)</mo></mrow></mrow><annotation-xml xref=\"S1.p6.1.m5.1\" id=\"S1.p6.1.m5.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S1.p6.1.m5.1.6\" id=\"S1.p6.1.m5.1.6.cmml\"><times xref=\"S1.p6.1.m5.1.6.1\" id=\"S1.p6.1.m5.1.6.1.cmml\"></times><ci xref=\"S1.p6.1.m5.1.1\" id=\"S1.p6.1.m5.1.1.cmml\">G</ci><ci xref=\"S1.p6.1.m5.1.2\" id=\"S1.p6.1.m5.1.2.cmml\">F</ci><cn xref=\"S1.p6.1.m5.1.4\" id=\"S1.p6.1.m5.1.4.cmml\" type=\"integer\">2</cn></apply></annotation-xml><annotation xref=\"S1.p6.1.m5.1.cmml\" id=\"S1.p6.1.m5.1b\" encoding=\"application/x-tex\">GF(2)</annotation></semantics></math>"
+  "formula": "1_8.5",
+  "ntcir12-type": "10",
+  "ntcir12-relevance": "4",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"GF(2)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">G</mi>\n      <mo id=\"p1.1.m1.1.6.1\" xref=\"p1.1.m1.1.6.1.cmml\">⁢</mo>\n      <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">F</mi>\n      <mo id=\"p1.1.m1.1.6.1a\" xref=\"p1.1.m1.1.6.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.6.cmml\">(</mo>\n        <mn id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">2</mn>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.6.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">\n        <times id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.1\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q5513324</csymbol>\n        <ci id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">𝐹</ci>\n        <cn type=\"integer\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">2</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">GF(2)</annotation>\n  </semantics>\n</math>",
+  "math_inputtex_semantic": "\\w{Q5513324}{GF(2)}"
 }
