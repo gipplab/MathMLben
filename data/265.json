@@ -10,7 +10,7 @@
         "Q1027788": "argument of a function"
       }
     ],
-      "c": [
+    "c": [
       {
         "Q1027788": "argument of a function"
       }
@@ -20,7 +20,7 @@
         "Q1027788": "argument of a function"
       }
     ],
-      "e": [
+    "e": [
       {
         "Q1027788": "argument of a function"
       }
@@ -29,12 +29,13 @@
   "constraints": "",
   "title": "Neural Network Context 2",
   "comment": "",
-  "math_inputtex":"(a,b,(c,d,e))",
-  "correct_tex":"(a,b,(c,d,e))",
+  "math_inputtex": "(a,b,(c,d,e))",
+  "correct_tex": "(a,b,(c,d,e))",
   "uri": "https://arxiv.org/abs/1008.2721",
   "page": "4",
-  "formula":"1_23.3",
-  "ntcir12-type":"7",
-  "ntcir12-relevance":"2",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S4.p1.1.m3.1.cmml\" alttext=\"(a,b,(c,d,e))\" class=\"ltx_Math\" id=\"S4.p1.1.m3.1\" display=\"inline\"><semantics xref=\"S4.p1.1.m3.1.cmml\" id=\"S4.p1.1.m3.1a\"><mrow xref=\"S4.p1.1.m3.1.14.cmml\" id=\"S4.p1.1.m3.1.14\"><mo xref=\"S4.p1.1.m3.1.14.cmml\" id=\"S4.p1.1.m3.1.14a\">(</mo><mrow xref=\"S4.p1.1.m3.1.14.cmml\" id=\"S4.p1.1.m3.1.14b\"><mi xref=\"S4.p1.1.m3.1.2.cmml\" id=\"S4.p1.1.m3.1.2\">a</mi><mo xref=\"S4.p1.1.m3.1.14.cmml\" id=\"S4.p1.1.m3.1.14c\">,</mo><mi xref=\"S4.p1.1.m3.1.4.cmml\" id=\"S4.p1.1.m3.1.4\">b</mi><mo xref=\"S4.p1.1.m3.1.14.cmml\" id=\"S4.p1.1.m3.1.14d\">,</mo><mrow xref=\"S4.p1.1.m3.1.14.2.cmml\" id=\"S4.p1.1.m3.1.14.2\"><mo xref=\"S4.p1.1.m3.1.14.2.cmml\" id=\"S4.p1.1.m3.1.14.2a\">(</mo><mrow xref=\"S4.p1.1.m3.1.14.2.cmml\" id=\"S4.p1.1.m3.1.14.2b\"><mi xref=\"S4.p1.1.m3.1.7.cmml\" id=\"S4.p1.1.m3.1.7\">c</mi><mo xref=\"S4.p1.1.m3.1.14.2.cmml\" id=\"S4.p1.1.m3.1.14.2c\">,</mo><mi xref=\"S4.p1.1.m3.1.9.cmml\" id=\"S4.p1.1.m3.1.9\">d</mi><mo xref=\"S4.p1.1.m3.1.14.2.cmml\" id=\"S4.p1.1.m3.1.14.2d\">,</mo><mi xref=\"S4.p1.1.m3.1.11.cmml\" id=\"S4.p1.1.m3.1.11\">e</mi></mrow><mo xref=\"S4.p1.1.m3.1.14.2.cmml\" id=\"S4.p1.1.m3.1.14.2e\">)</mo></mrow></mrow><mo xref=\"S4.p1.1.m3.1.14.cmml\" id=\"S4.p1.1.m3.1.14e\">)</mo></mrow><annotation-xml xref=\"S4.p1.1.m3.1\" id=\"S4.p1.1.m3.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S4.p1.1.m3.1.14\" id=\"S4.p1.1.m3.1.14.cmml\"><vector id=\"S4.p1.1.m3.1.14.1.cmml\"></vector><ci xref=\"S4.p1.1.m3.1.2\" id=\"S4.p1.1.m3.1.2.cmml\">a</ci><ci xref=\"S4.p1.1.m3.1.4\" id=\"S4.p1.1.m3.1.4.cmml\">b</ci><apply xref=\"S4.p1.1.m3.1.14.2\" id=\"S4.p1.1.m3.1.14.2.cmml\"><vector id=\"S4.p1.1.m3.1.14.2.1.cmml\"></vector><ci xref=\"S4.p1.1.m3.1.7\" id=\"S4.p1.1.m3.1.7.cmml\">c</ci><ci xref=\"S4.p1.1.m3.1.9\" id=\"S4.p1.1.m3.1.9.cmml\">d</ci><ci xref=\"S4.p1.1.m3.1.11\" id=\"S4.p1.1.m3.1.11.cmml\">e</ci></apply></apply></annotation-xml><annotation xref=\"S4.p1.1.m3.1.cmml\" id=\"S4.p1.1.m3.1b\" encoding=\"application/x-tex\">(a,b,(c,d,e))</annotation></semantics></math>"
+  "formula": "1_23.3",
+  "ntcir12-type": "7",
+  "ntcir12-relevance": "2",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"(a,b,(c,d,e))\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.14\" xref=\"p1.1.m1.1.14.1.cmml\">\n      <mo stretchy=\"false\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.14.1.cmml\">(</mo>\n      <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">a</mi>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.14.1.cmml\">,</mo>\n      <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">b</mi>\n      <mo id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.14.1.cmml\">,</mo>\n      <mrow id=\"p1.1.m1.1.14.2\" xref=\"p1.1.m1.1.14.2.1.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.14.2.1.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">c</mi>\n        <mo id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.14.2.1.cmml\">,</mo>\n        <mi id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">d</mi>\n        <mo id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.14.2.1.cmml\">,</mo>\n        <mi id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">e</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.12\" xref=\"p1.1.m1.1.14.2.1.cmml\">)</mo>\n      </mrow>\n      <mo stretchy=\"false\" id=\"p1.1.m1.1.13\" xref=\"p1.1.m1.1.14.1.cmml\">)</mo>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <vector id=\"p1.1.m1.1.14.1.cmml\" xref=\"p1.1.m1.1.14\">\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">Q379825</csymbol>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q379825</csymbol>\n        <vector id=\"p1.1.m1.1.14.2.1.cmml\" xref=\"p1.1.m1.1.14.2\">\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q379825</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">Q379825</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">Q379825</csymbol>\n        </vector>\n      </vector>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">(a,b,(c,d,e))</annotation>\n  </semantics>\n</math>",
+  "math_inputtex_semantic": "(\\w{Q379825}{a},\\w{Q379825}{b},(\\w{Q379825}{c},\\w{Q379825}{d},\\w{Q379825}{e}))"
 }
