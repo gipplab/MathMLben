@@ -13,12 +13,14 @@
   },
   "title": "Arithmetic mean: Context 1",
   "comment": "",
-  "math_inputtex":"(x+y)/2",
-  "correct_tex":"(x+y)/2",
+  "math_inputtex": "(x+y)/2",
+  "correct_tex": "(x+y)/2",
   "uri": "https://arxiv.org/abs/1201.5232",
   "page": "5",
-  "formula":"1_35.3",
-  "ntcir12-type":"1",
-  "ntcir12-relevance":"4",
-  "correct_mml":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" xref=\"S4.p1.1.m3.1.cmml\" alttext=\"(x+y)/2\" class=\"ltx_Math\" id=\"S4.p1.1.m3.1\" display=\"inline\"><semantics xref=\"S4.p1.1.m3.1.cmml\" id=\"S4.p1.1.m3.1a\"><mrow xref=\"S4.p1.1.m3.1.8.cmml\" id=\"S4.p1.1.m3.1.8\"><mrow xref=\"S4.p1.1.m3.1.8.1.cmml\" id=\"S4.p1.1.m3.1.8.1\"><mo xref=\"S4.p1.1.m3.1.8.1.cmml\" id=\"S4.p1.1.m3.1.8.1a\">(</mo><mrow xref=\"S4.p1.1.m3.1.8.1.cmml\" id=\"S4.p1.1.m3.1.8.1b\"><mi xref=\"S4.p1.1.m3.1.2.cmml\" id=\"S4.p1.1.m3.1.2\">x</mi><mo xref=\"S4.p1.1.m3.1.3.cmml\" id=\"S4.p1.1.m3.1.3\">+</mo><mi xref=\"S4.p1.1.m3.1.4.cmml\" id=\"S4.p1.1.m3.1.4\">y</mi></mrow><mo xref=\"S4.p1.1.m3.1.8.1.cmml\" id=\"S4.p1.1.m3.1.8.1c\">)</mo></mrow><mo xref=\"S4.p1.1.m3.1.6.cmml\" id=\"S4.p1.1.m3.1.6\">/</mo><mn xref=\"S4.p1.1.m3.1.7.cmml\" id=\"S4.p1.1.m3.1.7\">2</mn></mrow><annotation-xml xref=\"S4.p1.1.m3.1\" id=\"S4.p1.1.m3.1.cmml\" encoding=\"MathML-Content\"><apply xref=\"S4.p1.1.m3.1.8\" id=\"S4.p1.1.m3.1.8.cmml\"><divide xref=\"S4.p1.1.m3.1.6\" id=\"S4.p1.1.m3.1.6.cmml\"></divide><apply xref=\"S4.p1.1.m3.1.8.1\" id=\"S4.p1.1.m3.1.8.1.cmml\"><plus xref=\"S4.p1.1.m3.1.3\" id=\"S4.p1.1.m3.1.3.cmml\"></plus><ci xref=\"S4.p1.1.m3.1.2\" id=\"S4.p1.1.m3.1.2.cmml\">x</ci><ci xref=\"S4.p1.1.m3.1.4\" id=\"S4.p1.1.m3.1.4.cmml\">y</ci></apply><cn xref=\"S4.p1.1.m3.1.7\" id=\"S4.p1.1.m3.1.7.cmml\" type=\"integer\">2</cn></apply></annotation-xml><annotation xref=\"S4.p1.1.m3.1.cmml\" id=\"S4.p1.1.m3.1b\" encoding=\"application/x-tex\">(x+y)/2</annotation></semantics></math>"
+  "formula": "1_35.3",
+  "ntcir12-type": "1",
+  "ntcir12-relevance": "4",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"(x+y)/2\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">\n      <mrow id=\"p1.1.m1.1.8.1\" xref=\"p1.1.m1.1.8.1.2.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.8.1.2.cmml\">(</mo>\n        <mrow id=\"p1.1.m1.1.8.1.2\" xref=\"p1.1.m1.1.8.1.2.cmml\">\n          <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">x</mi>\n          <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">+</mo>\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">y</mi>\n        </mrow>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.8.1.2.cmml\">)</mo>\n      </mrow>\n      <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">/</mo>\n      <mn id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">2</mn>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">\n        <divide id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n        <apply id=\"p1.1.m1.1.8.1.2.cmml\" xref=\"p1.1.m1.1.8.1\">\n          <plus id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">Q12916</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q12916</csymbol>\n        </apply>\n        <cn type=\"integer\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">2</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">(x+y)/2</annotation>\n  </semantics>\n</math>",
+  "constraints": [],
+  "math_inputtex_semantic": "(\\w{Q12916}{x} + \\w{Q12916}{y})/2"
 }
