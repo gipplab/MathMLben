@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mrow>
+         <msup>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mn>2</mn>
+               </msup>
+               <mo>+</mo>
+               <mi>η</mi>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
+            <mrow>
+               <mn>1</mn>
+               <mo>/</mo>
+               <mn>2</mn>
+            </mrow>
+         </msup>
+         <mo>+</mo>
+         <mstyle displaystyle="false" scriptlevel="0">
+            <mrow>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mrow>
+         </mstyle>
+         <mi>α</mi>
+         <mi>ln</mi>
+         <mi>η</mi>
+         <mo>-</mo>
+         <mi>α</mi>
+         <mi>ln</mi>
+         <mrow>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <msup>
+               <mrow>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <msup>
+                     <mi>α</mi>
+                     <mn>2</mn>
+                  </msup>
+                  <mo>+</mo>
+                  <mi>η</mi>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+               </mrow>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+            <mo>+</mo>
+            <mi>α</mi>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+         <mi>arccos</mi>
+         <mrow>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <mfrac linethickness="1">
+               <mi>x</mi>
+               <mrow>
+                  <msup>
+                     <mrow>
+                        <mo fence="true"
+                            form="prefix"
+                            lspace="0em"
+                            rspace="0.3em"
+                            stretchy="true">(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <msup>
+                           <mi>α</mi>
+                           <mn>2</mn>
+                        </msup>
+                        <mo fence="true"
+                            form="postfix"
+                            lspace="0.3em"
+                            rspace="0em"
+                            stretchy="true">)</mo>
+                     </mrow>
+                     <mrow>
+                        <mn>1</mn>
+                        <mo>/</mo>
+                        <mn>2</mn>
+                     </mrow>
+                  </msup>
+               </mrow>
+            </mfrac>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+         <mo>+</mo>
+         <mfrac linethickness="1">
+            <mi>α</mi>
+            <mn>2</mn>
+         </mfrac>
+         <mi>ln</mi>
+         <mrow>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <mfrac linethickness="1">
+               <mrow>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <msup>
+                     <mi>α</mi>
+                     <mn>2</mn>
+                  </msup>
+                  <mo>+</mo>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <msup>
+                     <mi>α</mi>
+                     <mn>2</mn>
+                  </msup>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+                  <msup>
+                     <mi>x</mi>
+                     <mn>2</mn>
+                  </msup>
+                  <mo>-</mo>
+                  <mn>2</mn>
+                  <mi>α</mi>
+                  <mi>x</mi>
+                  <msup>
+                     <mrow>
+                        <mo fence="true"
+                            form="prefix"
+                            lspace="0em"
+                            rspace="0.3em"
+                            stretchy="true">(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <msup>
+                           <mi>α</mi>
+                           <mn>2</mn>
+                        </msup>
+                        <mo>-</mo>
+                        <msup>
+                           <mi>x</mi>
+                           <mn>2</mn>
+                        </msup>
+                        <mo fence="true"
+                            form="postfix"
+                            lspace="0.3em"
+                            rspace="0em"
+                            stretchy="true">)</mo>
+                     </mrow>
+                     <mrow>
+                        <mn>1</mn>
+                        <mo>/</mo>
+                        <mn>2</mn>
+                     </mrow>
+                  </msup>
+               </mrow>
+               <mrow>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <msup>
+                     <mi>α</mi>
+                     <mn>2</mn>
+                  </msup>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <msup>
+                     <mi>x</mi>
+                     <mn>2</mn>
+                  </msup>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+               </mrow>
+            </mfrac>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+      </mrow>
+   </mrow>
+</math>

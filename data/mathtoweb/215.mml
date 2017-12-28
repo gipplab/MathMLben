@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>S</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>x</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mn>3</mn>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+   </mrow>
+</math>

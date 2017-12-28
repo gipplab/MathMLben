@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>w</mi>
+      <mo>=</mo>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mo>-</mo>
+            <msub>
+               <mi>f</mi>
+               <mn>0</mn>
+            </msub>
+            <mi>z</mi>
+            <mo>/</mo>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mi>W</mi>
+   </mrow>
+</math>

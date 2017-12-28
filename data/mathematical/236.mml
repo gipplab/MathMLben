@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>t</mi>
+         <mo>∈</mo>
+         <msub>
+            <mstyle mathvariant="bold">
+               <mi mathvariant="bold">R</mi>
+            </mstyle> 
+            <mo lspace="verythinmathspace" rspace="0em">+</mo>
+         </msub>
+      </mrow>
+      <annotation encoding="application/x-tex">t\in{\bf R}_{+}</annotation>
+   </semantics>
+</math>

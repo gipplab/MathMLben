@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mfrac linethickness="1">
+         <mi>d</mi>
+         <mrow>
+            <mo>ⅆ</mo>
+            <mi>t</mi>
+         </mrow>
+      </mfrac>
+      <msub>
+         <mi>log</mi>
+         <mi>e</mi>
+      </msub>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mi>t</mi>
+      </mfrac>
+   </mrow>
+</math>

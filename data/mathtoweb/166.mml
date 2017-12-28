@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mfrac linethickness="1">
+         <mrow>
+            <msup>
+               <mo>∂</mo>
+               <mi>j</mi>
+            </msup>
+            <msub>
+               <mi>E</mi>
+               <mi>p</mi>
+            </msub>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <mi>z</mi>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
+         </mrow>
+         <mrow>
+            <msup>
+               <mrow>
+                  <mo>∂</mo>
+                  <mi>p</mi>
+               </mrow>
+               <mi>j</mi>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <msup>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mi>j</mi>
+      </msup>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∫</mo>
+            <mn>1</mn>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <msup>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mi>ln</mi>
+            <mi>t</mi>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mi>j</mi>
+      </msup>
+      <msup>
+         <mi>t</mi>
+         <mrow>
+            <mo>-</mo>
+            <mi>p</mi>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mo>-</mo>
+            <mi>z</mi>
+            <mi>t</mi>
+         </mrow>
+      </msup>
+      <mi mathvariant="normal">d</mi>
+      <mi>t</mi>
+   </mrow>
+</math>

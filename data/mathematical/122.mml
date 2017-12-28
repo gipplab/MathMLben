@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>J</mi> 
+            <mi>ν</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <msub>
+               <mi>j</mi> 
+               <mrow>
+                  <mi>ν</mi>
+                  <mo>,</mo>
+                  <mi>m</mi>
+               </mrow>
+            </msub>
+            <mo>′</mo>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <mi>h</mi>
+               <mo stretchy="false">(</mo>
+               <mi>ζ</mi>
+               <mo stretchy="false">)</mo>
+               <mrow>
+                  <mi mathvariant="normal">Ai</mi>
+               </mrow>
+               <mrow>
+                  <mo>(</mo>
+                  <msubsup>
+                     <mi>a</mi> 
+                     <mi>m</mi> 
+                     <mstyle scriptlevel="0">
+                        <mo>′</mo>
+                     </mstyle>
+                  </msubsup>
+                  <mo>)</mo>
+               </mrow>
+            </mrow>
+            <mrow>
+               <msup>
+                  <mi>ν</mi> 
+                  <mfrac>
+                     <mn>1</mn>
+                     <mn>3</mn>
+                  </mfrac>
+               </msup>
+            </mrow>
+         </mfrac>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>O</mi>
+            <mrow>
+               <mo>(</mo>
+               <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                     <msup>
+                        <mi>ν</mi> 
+                        <mfrac>
+                           <mn>4</mn>
+                           <mn>3</mn>
+                        </mfrac>
+                     </msup>
+                  </mrow>
+               </mfrac>
+               <mo>)</mo>
+            </mrow>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">J_{\nu}\left(j_{\nu,m}'\right)=\frac{h(\zeta)\mathrm{Ai}\left(a^{\prime}_{m}\right)}{\nu^{\frac{1}{3}}}\left(1+O\left(\frac{1}{\nu^{\frac{4}{3}}}\right)\right)</annotation>
+   </semantics>
+</math>

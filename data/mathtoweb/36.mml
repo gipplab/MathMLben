@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>n</mi>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∏</mo>
+            <mrow>
+               <mi>i</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mrow>
+            <mi>r</mi>
+         </munderover>
+      </mstyle>
+      <msubsup>
+         <mi>p</mi>
+         <mi>i</mi>
+         <mrow>
+            <msub>
+               <mi>a</mi>
+               <mi>i</mi>
+            </msub>
+         </mrow>
+      </msubsup>
+   </mrow>
+</math>

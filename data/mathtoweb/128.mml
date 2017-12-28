@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>N</mi>
+         <mi>ν</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>x</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>i</mi>
+            <mi>​</mi>
+            <msub>
+               <mi>ϕ</mi>
+               <mi>ν</mi>
+            </msub>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <mi>x</mi>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
+         </mrow>
+      </msup>
+      <mo>=</mo>
+      <mi>ker</mi>
+      <msub>
+         <mi/>
+         <mi>ν</mi>
+      </msub>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>i</mi>
+      <mi>kei</mi>
+      <msub>
+         <mi/>
+         <mi>ν</mi>
+      </msub>
+      <mi>x</mi>
+   </mrow>
+</math>

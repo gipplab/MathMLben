@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>R</mi>
+         <mi>a</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi mathvariant="bold">b</mi>
+         <mo>;</mo>
+         <mi mathvariant="bold">z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mo>-</mo>
+            <mi>a</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi mathvariant="bold">b</mi>
+         <mo>;</mo>
+         <mi mathvariant="bold">z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>&gt;</mo>
+      <mn>1</mn>
+   </mrow>
+</math>

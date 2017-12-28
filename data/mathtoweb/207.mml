@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>f</mi>
+      <mo>=</mo>
+      <mi>f</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>t</mi>
+         <mo>,</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>v</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

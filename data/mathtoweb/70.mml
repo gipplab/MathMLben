@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo>ⅆ</mo>
+      <mi>f</mi>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mo>∂</mo>
+            <mi>f</mi>
+         </mrow>
+         <mrow>
+            <mo>∂</mo>
+            <mi>x</mi>
+         </mrow>
+      </mfrac>
+      <mo>ⅆ</mo>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mo>∂</mo>
+            <mi>f</mi>
+         </mrow>
+         <mrow>
+            <mo>∂</mo>
+            <mi>y</mi>
+         </mrow>
+      </mfrac>
+      <mo>ⅆ</mo>
+      <mi>y</mi>
+      <mo>=</mo>
+      <mi>p</mi>
+      <mo>ⅆ</mo>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>v</mi>
+      <mo>ⅆ</mo>
+      <mi>y</mi>
+   </mrow>
+</math>

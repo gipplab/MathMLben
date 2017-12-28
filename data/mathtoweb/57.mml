@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mn>0</mn>
+      <mo>→</mo>
+      <mi>B</mi>
+      <mo>→</mo>
+      <mi>A</mi>
+      <mo>⊕</mo>
+      <mi>B</mi>
+      <mo>→</mo>
+      <mi>A</mi>
+      <mo>→</mo>
+      <mn>0</mn>
+   </mrow>
+</math>

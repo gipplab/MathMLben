@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mstyle mathvariant="italic">
+            <mi>L</mi>
+         </mstyle>
+         <mo>=</mo>
+         <mi>i</mi>
+         <mover>
+            <mi>Ψ</mi>
+            <mo stretchy="false">¯</mo>
+         </mover>
+         <msup>
+            <mi>γ</mi> 
+            <mi>μ</mi>
+         </msup>
+         <msub>
+            <mo>∂</mo> 
+            <mi>μ</mi>
+         </msub>
+         <mi>Ψ</mi>
+         <mo>−</mo>
+         <mover>
+            <mi>Ψ</mi>
+            <mo stretchy="false">¯</mo>
+         </mover>
+         <mi>Ψ</mi>
+         <mo>−</mo>
+         <mi>q</mi>
+         <mover>
+            <mi>Ψ</mi>
+            <mo stretchy="false">¯</mo>
+         </mover>
+         <msup>
+            <mi>γ</mi> 
+            <mn>0</mn>
+         </msup>
+         <mi>Ψ</mi>
+         <mi>Φ</mi>
+         <mo>+</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mo>∂</mo> 
+            <mi>μ</mi>
+         </msub>
+         <mi>Φ</mi>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">(</mo>
+         <msup>
+            <mo>∂</mo> 
+            <mi>μ</mi>
+         </msup>
+         <mi>Φ</mi>
+         <mo stretchy="false">)</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">{\it L}=i\bar{\Psi}{\gamma}^{\mu}{\partial}_{\mu}{\Psi}-\bar{\Psi}{\Psi}-q\bar{\Psi}{\gamma}^{0}{\Psi}\Phi+{1\over 2}({\partial}_{\mu}\Phi)({\partial}^{\mu}\Phi)</annotation>
+   </semantics>
+</math>

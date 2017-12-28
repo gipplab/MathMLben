@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mfrac linethickness="1">
+         <mrow>
+            <mo>∂</mo>
+            <mi>L</mi>
+         </mrow>
+         <mrow>
+            <mo>∂</mo>
+            <msub>
+               <mi>q</mi>
+               <mi>i</mi>
+            </msub>
+         </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+         </mrow>
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+            <mi>t</mi>
+         </mrow>
+      </mfrac>
+      <mfrac linethickness="1">
+         <mrow>
+            <mo>∂</mo>
+            <mi>L</mi>
+         </mrow>
+         <mrow>
+            <mo>∂</mo>
+            <mrow>
+               <mover accent="true">
+                  <mrow>
+                     <msub>
+                        <mi>q</mi>
+                        <mi>i</mi>
+                     </msub>
+                  </mrow>
+                  <mo>˙</mo>
+               </mover>
+            </mrow>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

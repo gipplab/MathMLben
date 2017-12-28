@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>Γ</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mi>Γ</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>1</mn>
+         <mo>-</mo>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>π</mi>
+      <mo>/</mo>
+      <mi>sin</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>π</mi>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

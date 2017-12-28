@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>r</mi> 
+            <mrow>
+               <mi>i</mi>
+               <mi>j</mi>
+            </mrow>
+         </msub>
+      </mrow>
+      <annotation encoding="application/x-tex">r_{ij}</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>Θ</mi>
+      <mo>∧</mo>
+      <msup>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mo>ⅆ</mo>
+            <mi>Θ</mi>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mi>n</mi>
+      </msup>
+      <mo>≠</mo>
+      <mn>0</mn>
+   </mrow>
+</math>

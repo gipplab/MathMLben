@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <munder>
+            <mo>∑</mo> 
+            <mi>x</mi>
+         </munder>
+         <munder>
+            <mo>∑</mo> 
+            <mi>y</mi>
+         </munder>
+         <mi>I</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+         <mspace width="thinmathspace"/>
+         <mspace width="negativethinmathspace"/>
+      </mrow>
+      <annotation encoding="application/x-tex">\sum_x \sum_y I(x,y) \,\!</annotation>
+   </semantics>
+</math>

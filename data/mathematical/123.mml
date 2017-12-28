@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>J</mi> 
+            <mi>ν</mi>
+         </msub>
+         <mo>′</mo>
+         <mrow>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+         </mrow>
+         <msub>
+            <mi>Y</mi> 
+            <mi>ν</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mi>λ</mi>
+            <mi>x</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <msub>
+            <mi>Y</mi> 
+            <mi>ν</mi>
+         </msub>
+         <mo>′</mo>
+         <mrow>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+         </mrow>
+         <msub>
+            <mi>J</mi> 
+            <mi>ν</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mi>λ</mi>
+            <mi>x</mi>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">J_{\nu}'\left(x\right)Y_{\nu}\left(\lambda x\right)-Y_{\nu}'\left(x\right)J_{\nu}\left(\lambda x\right)</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>α</mi>
+         <mn>1</mn>
+      </msub>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>X</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <msub>
+                  <mi>τ</mi>
+                  <mn>1</mn>
+               </msub>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mi>y</mi>
+         </mrow>
+         <mrow>
+            <mo>∥</mo>
+            <mi>X</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <msub>
+                  <mi>τ</mi>
+                  <mn>1</mn>
+               </msub>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mo>∥</mo>
+         </mrow>
+      </mfrac>
+      <mo>,</mo>
+      <mo>…</mo>
+      <mo>,</mo>
+      <msub>
+         <mi>α</mi>
+         <mrow>
+            <mi>j</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>X</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <msub>
+                  <mi>τ</mi>
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msub>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mi>y</mi>
+         </mrow>
+         <mrow>
+            <mo>∥</mo>
+            <mi>X</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <msub>
+                  <mi>τ</mi>
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msub>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mo>∥</mo>
+         </mrow>
+      </mfrac>
+      <mo>,</mo>
+      <msub>
+         <mi>α</mi>
+         <mrow>
+            <mi>j</mi>
+            <mo>+</mo>
+            <mn>2</mn>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>X</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <msub>
+                  <mi>τ</mi>
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>2</mn>
+                  </mrow>
+               </msub>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mi>y</mi>
+         </mrow>
+         <mrow>
+            <mo>∥</mo>
+            <mi>X</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <msub>
+                  <mi>τ</mi>
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>2</mn>
+                  </mrow>
+               </msub>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mo>∥</mo>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

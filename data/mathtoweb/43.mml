@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msup>
+         <mi>f</mi>
+         <mi>μ</mi>
+      </msup>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mn>8</mn>
+      <mi>π</mi>
+      <mfrac linethickness="1">
+         <mi>G</mi>
+         <mrow>
+            <mn>3</mn>
+            <msup>
+               <mi>c</mi>
+               <mn>4</mn>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mfrac linethickness="1">
+            <mi>A</mi>
+            <mn>2</mn>
+         </mfrac>
+         <msub>
+            <mi>T</mi>
+            <mrow>
+               <mi>α</mi>
+               <mi>β</mi>
+            </mrow>
+         </msub>
+         <mo>+</mo>
+         <mfrac linethickness="1">
+            <mi>B</mi>
+            <mn>2</mn>
+         </mfrac>
+         <mi>T</mi>
+         <msub>
+            <mi>η</mi>
+            <mrow>
+               <mi>α</mi>
+               <mi>β</mi>
+            </mrow>
+         </msub>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <msubsup>
+            <mi>δ</mi>
+            <mi>ν</mi>
+            <mi>μ</mi>
+         </msubsup>
+         <mo>+</mo>
+         <msup>
+            <mi>u</mi>
+            <mi>μ</mi>
+         </msup>
+         <msub>
+            <mi>u</mi>
+            <mi>ν</mi>
+         </msub>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <msup>
+         <mi>u</mi>
+         <mi>α</mi>
+      </msup>
+      <msup>
+         <mi>x</mi>
+         <mi>ν</mi>
+      </msup>
+      <msup>
+         <mi>u</mi>
+         <mi>β</mi>
+      </msup>
+   </mrow>
+</math>

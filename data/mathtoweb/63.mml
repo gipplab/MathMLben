@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>y</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>x</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>\mathop<mstyle mathvariant="normal">
+            <mi>s</mi>
+            <mi>g</mi>
+            <mi>n</mi>
+         </mstyle>
+      </mrow>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>{<mi>ρ</mi>}<mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mfrac linethickness="1">
+         <mrow>
+            <mrow>
+               <msub>
+                  <mi>σ</mi>
+                  <mi>y</mi>
+               </msub>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mrow>
+               <msub>
+                  <mi>σ</mi>
+                  <mi>x</mi>
+               </msub>
+            </mrow>
+         </mrow>
+      </mfrac>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mrow>
+            <mi>x</mi>
+            <mo>-</mo>
+            <mrow>
+               <msub>
+                  <mi>μ</mi>
+                  <mi>x</mi>
+               </msub>
+            </mrow>
+         </mrow>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mrow>
+         <msub>
+            <mi>μ</mi>
+            <mi>y</mi>
+         </msub>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>θ</mi>
+         <mn>3</mn>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>π</mi>
+         <mi>z</mi>
+         <mo>∣</mo>
+         <mo>ⅆ</mo>
+         <mi>l</mi>
+         <mi>e</mi>
+         <mo>|</mo>
+         <mi>τ</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msub>
+         <mi>θ</mi>
+         <mn>3</mn>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>0</mn>
+         <mo>∣</mo>
+         <mo>ⅆ</mo>
+         <mi>l</mi>
+         <mi>e</mi>
+         <mo>|</mo>
+         <mi>τ</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mi>exp</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mo>-</mo>
+         <mstyle displaystyle="true">
+            <munderover>
+               <mo>∑</mo>
+               <mrow>
+                  <mi>j</mi>
+                  <mo>=</mo>
+                  <mn>1</mn>
+               </mrow>
+               <mo>∞</mo>
+            </munderover>
+         </mstyle>
+         <mfrac linethickness="1">
+            <mn>1</mn>
+            <mrow>
+               <mn>2</mn>
+               <mi>j</mi>
+            </mrow>
+         </mfrac>
+         <msub>
+            <mi>β</mi>
+            <mrow>
+               <mn>2</mn>
+               <mi>j</mi>
+            </mrow>
+         </msub>
+         <mo form="prefix">(</mo>
+         <mi>τ</mi>
+         <mo form="postfix">)</mo>
+         <msup>
+            <mi>z</mi>
+            <mrow>
+               <mn>2</mn>
+               <mi>j</mi>
+            </mrow>
+         </msup>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

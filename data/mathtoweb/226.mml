@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>S</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>T</mi>
+      <mstyle displaystyle="true">
+         <mo>∫</mo>
+      </mstyle>
+      <msup>
+         <mi>d</mi>
+         <mrow>
+            <mi>p</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <mi>σ</mi>
+      <mspace width="0.167em"/>
+      <msqrt>
+         <mrow>
+            <mo>-</mo>
+            <mi>ζ</mi>
+         </mrow>
+      </msqrt>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             minsize="2.00em"
+             rspace="0.3em"
+             stretchy="true">[</mo>
+         <msup>
+            <mi>e</mi>
+            <mrow>
+               <mo>-</mo>
+               <mi>β</mi>
+               <mi>U</mi>
+            </mrow>
+         </msup>
+         <mfrac linethickness="1">
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+         <msup>
+            <mi>ζ</mi>
+            <mrow>
+               <mi>a</mi>
+               <mi>b</mi>
+            </mrow>
+         </msup>
+         <mrow>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <msub>
+               <mi>G</mi>
+               <mrow>
+                  <mi>b</mi>
+                  <mi>a</mi>
+               </mrow>
+            </msub>
+            <mo>-</mo>
+            <msub>
+               <mi>ℱ</mi>
+               <mrow>
+                  <mi>b</mi>
+                  <mi>a</mi>
+               </mrow>
+            </msub>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+         <mo>-</mo>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mi>p</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             minsize="2.00em"
+             rspace="0em"
+             stretchy="true">]</mo>
+      </mrow>
+   </mrow>
+</math>

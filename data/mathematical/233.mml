@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>α</mi> 
+            <mn>1</mn>
+         </msub>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <mi>X</mi>
+               <mo stretchy="false">(</mo>
+               <msub>
+                  <mi>τ</mi> 
+                  <mn>1</mn>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mi>y</mi>
+            </mrow>
+            <mrow>
+               <mo>∥</mo>
+               <mi>X</mi>
+               <mo stretchy="false">(</mo>
+               <msub>
+                  <mi>τ</mi> 
+                  <mn>1</mn>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>∥</mo>
+            </mrow>
+         </mfrac>
+         <mo>,</mo>
+         <mi>…</mi>
+         <mo>,</mo>
+         <msub>
+            <mi>α</mi> 
+            <mrow>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+            </mrow>
+         </msub>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <mi>X</mi>
+               <mo stretchy="false">(</mo>
+               <msub>
+                  <mi>τ</mi> 
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mi>y</mi>
+            </mrow>
+            <mrow>
+               <mo>∥</mo>
+               <mi>X</mi>
+               <mo stretchy="false">(</mo>
+               <msub>
+                  <mi>τ</mi> 
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>∥</mo>
+            </mrow>
+         </mfrac>
+         <mo>,</mo>
+         <msub>
+            <mi>α</mi> 
+            <mrow>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+            </mrow>
+         </msub>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <mi>X</mi>
+               <mo stretchy="false">(</mo>
+               <msub>
+                  <mi>τ</mi> 
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>2</mn>
+                  </mrow>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mi>y</mi>
+            </mrow>
+            <mrow>
+               <mo>∥</mo>
+               <mi>X</mi>
+               <mo stretchy="false">(</mo>
+               <msub>
+                  <mi>τ</mi> 
+                  <mrow>
+                     <mi>j</mi>
+                     <mo>+</mo>
+                     <mn>2</mn>
+                  </mrow>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>∥</mo>
+            </mrow>
+         </mfrac>
+      </mrow>
+      <annotation encoding="application/x-tex">\alpha_{1}=\frac{X(\tau_{1})y}{\parallel X(\tau_{1})\parallel},\dots,\alpha_{j+1}=\frac{X(\tau_{j+1})y}{\parallel X(\tau_{j+1})\parallel},\alpha_{j+2}=\frac{X(\tau_{j+2})y}{\parallel X(\tau_{j+2})\parallel}</annotation>
+   </semantics>
+</math>

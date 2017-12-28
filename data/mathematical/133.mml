@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>N</mi>
+         <mo stretchy="false">(</mo>
+         <mi>n</mi>
+         <mo>,</mo>
+         <mi>k</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mi>n</mi>
+         </mfrac>
+         <mrow>
+            <mstyle displaystyle="true" scriptlevel="0">
+               <mrow>
+                  <mrow>
+                     <mo maxsize="2.047em" minsize="2.047em">(</mo>
+                  </mrow>
+                  <mfrac linethickness="0.0pt">
+                     <mi>n</mi>
+                     <mi>k</mi>
+                     <mrow>
+                        <mstyle displaystyle="true" scriptlevel="0">
+                           <mrow>
+                              <mrow>
+                                 <mo maxsize="2.047em" minsize="2.047em">(</mo>
+                              </mrow>
+                              <mfrac linethickness="0.0pt">
+                                 <mi>n</mi>
+                                 <mrow>
+                                    <mi>k</mi>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                 </mrow>
+                              </mfrac>
+                              <mrow>
+                                 <mo maxsize="2.047em" minsize="2.047em">)</mo>
+                              </mrow>
+                           </mrow>
+                        </mstyle>
+                     </mrow>
+                  </mfrac>
+                  <mrow>
+                     <mo maxsize="2.047em" minsize="2.047em">)</mo>
+                  </mrow>
+               </mrow>
+            </mstyle>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">N(n,k)=\frac{1}{n}\genfrac{(}{)}{0.0pt}{}{n}{k}\genfrac{(}{)}{0.0pt}{}{n}{k-1}</annotation>
+   </semantics>
+</math>

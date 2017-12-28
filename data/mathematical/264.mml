@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>q</mi>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>π</mi> 
+            <mi>n</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo>≡</mo>
+         <munder>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>α</mi>
+               <mo>≠</mo>
+               <mi>β</mi>
+            </mrow>
+         </munder>
+         <merror>
+            <mtext>Unknown character</mtext>
+         </merror>
+         <mover>
+            <mi>P</mi>
+            <mo stretchy="false">^</mo>
+         </mover>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>e</mi> 
+            <mi>α</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mover>
+            <mi>P</mi>
+            <mo stretchy="false">^</mo>
+         </mover>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>π</mi> 
+            <mi>n</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mover>
+            <mi>P</mi>
+            <mo stretchy="false">^</mo>
+         </mover>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>e</mi> 
+            <mi>β</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <merror>
+            <mtext>Unknown character</mtext>
+         </merror>
+         <mi>$</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">q(\pi_{n})\equiv\sum_{\alpha\neq\beta}&lt;\hat{P}(e_{\alpha})\hat{P}(\pi_{n})\hat{P}(e_{\beta})&gt;\$</annotation>
+   </semantics>
+</math>

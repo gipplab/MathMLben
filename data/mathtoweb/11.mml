@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mfrac linethickness="1">
+         <mi>d</mi>
+         <mrow>
+            <mo>ⅆ</mo>
+            <mi>x</mi>
+         </mrow>
+      </mfrac>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <msub>
+            <mi>log</mi>
+            <mi>c</mi>
+         </msub>
+         <mi>x</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <mi>x</mi>
+            <mi>ln</mi>
+            <mi>c</mi>
+         </mrow>
+      </mfrac>
+      <mo>,</mo>
+      <mspace width="2.00em"/>
+      <mi>c</mi>
+      <mo>&gt;</mo>
+      <mn>0</mn>
+      <mo>,</mo>
+      <mi>c</mi>
+      <mo>≠</mo>
+      <mn>1</mn>
+   </mrow>
+</math>

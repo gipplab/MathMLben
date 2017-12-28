@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <msub>
+               <mi>λ</mi>
+               <mi>j</mi>
+            </msub>
+            <mi>z</mi>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <msub>
+               <mi>μ</mi>
+               <mi>j</mi>
+            </msub>
+         </mrow>
+      </msup>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>s</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <mfrac linethickness="1">
+         <mrow>
+            <msub>
+               <mi>a</mi>
+               <mrow>
+                  <mi>s</mi>
+                  <mo>,</mo>
+                  <mi>j</mi>
+               </mrow>
+            </msub>
+         </mrow>
+         <mrow>
+            <msup>
+               <mi>z</mi>
+               <mi>s</mi>
+            </msup>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

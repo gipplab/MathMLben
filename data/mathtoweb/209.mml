@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mover accent="true">
+         <mrow>
+            <msup>
+               <mrow>
+                  <mo form="prefix">(</mo>
+                  <mi>Δ</mi>
+                  <mi>H</mi>
+                  <mo form="postfix">)</mo>
+               </mrow>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+         <mo stretchy="true">¯</mo>
+      </mover>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mi>N</mi>
+      </mfrac>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>i</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mrow>
+            <mi>N</mi>
+         </munderover>
+      </mstyle>
+      <mrow>
+         <mo form="prefix">[</mo>
+         <mrow>
+            <mo form="prefix">〈</mo>
+            <msub>
+               <mi>ψ</mi>
+               <mi>i</mi>
+            </msub>
+            <mo>|</mo>
+            <msubsup>
+               <mi>H</mi>
+               <mi>i</mi>
+               <mn>2</mn>
+            </msubsup>
+            <mo>|</mo>
+            <msub>
+               <mi>ψ</mi>
+               <mi>i</mi>
+            </msub>
+            <mo form="postfix">〉</mo>
+         </mrow>
+         <mo>-</mo>
+         <mo form="prefix">〈</mo>
+         <msub>
+            <mi>ψ</mi>
+            <mi>i</mi>
+         </msub>
+         <mo>|</mo>
+         <msub>
+            <mi>H</mi>
+            <mi>i</mi>
+         </msub>
+         <mo>|</mo>
+         <msub>
+            <mi>ψ</mi>
+            <mi>i</mi>
+         </msub>
+         <msup>
+            <mo>〉</mo>
+            <mn>2</mn>
+         </msup>
+         <mo form="postfix">]</mo>
+      </mrow>
+   </mrow>
+</math>

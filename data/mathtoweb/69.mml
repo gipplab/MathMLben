@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>η</mi>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>w</mi>
+            <mi>o</mi>
+            <mi>r</mi>
+            <mi>k</mi>\done</mrow>
+         <mrow>
+            <mi>h</mi>
+            <mi>e</mi>
+            <mi>a</mi>
+            <mi>t</mi>
+            <mo>|</mo>
+            <mi>o</mi>
+            <mo>|</mo>
+            <mi>r</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>d</mi>
+         </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>Q</mi>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>Q</mi>
+            <mn>2</mn>
+         </mrow>
+         <mrow>
+            <mi>Q</mi>
+            <mn>1</mn>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

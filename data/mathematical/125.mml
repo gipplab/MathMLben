@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mrow>
+               <mi mathvariant="script">C</mi>
+            </mrow> 
+            <mi>ν</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mi>u</mi>
+            <mo>±</mo>
+            <mi>v</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <munderover>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mo>−</mo>
+               <mn>∞</mn>
+            </mrow> 
+            <mn>∞</mn>
+         </munderover>
+         <msub>
+            <mrow>
+               <mi mathvariant="script">C</mi>
+            </mrow> 
+            <mrow>
+               <mi>ν</mi>
+               <mo>∓</mo>
+               <mi>k</mi>
+            </mrow>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mi>u</mi>
+            <mo>)</mo>
+         </mrow>
+         <msub>
+            <mi>J</mi> 
+            <mi>k</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mi>v</mi>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">\mathscr{C}_{\nu}\left(u\pm v\right)=\sum_{k=-\infty}^{\infty}\mathscr{C}_{\nu\mp k}\left(u\right)J_{k}\left(v\right)</annotation>
+   </semantics>
+</math>

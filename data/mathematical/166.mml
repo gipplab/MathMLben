@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mfrac>
+            <mrow>
+               <msup>
+                  <mo>∂</mo> 
+                  <mi>j</mi>
+               </msup>
+               <msub>
+                  <mi>E</mi> 
+                  <mi>p</mi>
+               </msub>
+               <mrow>
+                  <mo>(</mo>
+                  <mi>z</mi>
+                  <mo>)</mo>
+               </mrow>
+            </mrow>
+            <mrow>
+               <msup>
+                  <mrow>
+                     <mo>∂</mo>
+                     <mi>p</mi>
+                  </mrow> 
+                  <mi>j</mi>
+               </msup>
+            </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mo stretchy="false">(</mo>
+         <mo lspace="verythinmathspace" rspace="0em">−</mo>
+         <mn>1</mn>
+         <msup>
+            <mo stretchy="false">)</mo> 
+            <mi>j</mi>
+         </msup>
+         <msubsup>
+            <mo>∫</mo> 
+            <mn>1</mn> 
+            <mn>∞</mn>
+         </msubsup>
+         <mo stretchy="false">(</mo>
+         <mi>ln</mi>
+         <mi>t</mi>
+         <msup>
+            <mo stretchy="false">)</mo> 
+            <mi>j</mi>
+         </msup>
+         <msup>
+            <mi>t</mi> 
+            <mrow>
+               <mo lspace="verythinmathspace" rspace="0em">−</mo>
+               <mi>p</mi>
+            </mrow>
+         </msup>
+         <msup>
+            <mi>e</mi> 
+            <mrow>
+               <mo lspace="verythinmathspace" rspace="0em">−</mo>
+               <mi>z</mi>
+               <mi>t</mi>
+            </mrow>
+         </msup>
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+         </mrow>
+         <mi>t</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">\frac{{\partial}^{j}E_{p}\left(z\right)}{{\partial p}^{j}}=(-1)^{j}\int_{1}^{\infty}(\ln t)^{j}t^{-p}e^{-zt}\mathrm{d}t</annotation>
+   </semantics>
+</math>

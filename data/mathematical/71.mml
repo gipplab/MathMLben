@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>h</mi> 
+            <mrow>
+               <mi>r</mi>
+               <mo>,</mo>
+               <mi>s</mi>
+            </mrow>
+         </msub>
+      </mrow>
+      <annotation encoding="application/x-tex">h_{r,s}</annotation>
+   </semantics>
+</math>

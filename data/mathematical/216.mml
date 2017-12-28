@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>F</mi> 
+            <mrow>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+            </mrow>
+         </msub>
+         <mo>=</mo>
+         <munder>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>n</mi>
+               <mo>=</mo>
+               <mi>k</mi>
+               <mo lspace="verythinmathspace" rspace="0em">+</mo>
+               <mi>m</mi>
+            </mrow>
+         </munder>
+         <mrow>
+            <mo maxsize="2.047em" minsize="2.047em">(</mo>
+            <mfrac linethickness="0">
+               <mi>k</mi>
+               <mi>m</mi>
+            </mfrac>
+            <mo maxsize="2.047em" minsize="2.047em">)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">F_{n+1}=\sum_{n=k+m}\binom{k}{m}</annotation>
+   </semantics>
+</math>

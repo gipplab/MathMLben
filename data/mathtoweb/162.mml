@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>F</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mrow>
+            <mi>a</mi>
+            <mn>,1</mn>
+            <mo>-</mo>
+            <mi>a</mi>\atopc</mrow>
+         <mo>;</mo>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>z</mi>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mrow>
+            <mi>c</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <mi>F</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mrow>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <mo form="prefix">(</mo>
+            <mi>c</mi>
+            <mo>-</mo>
+            <mi>a</mi>
+            <mo form="postfix">)</mo>
+            <mo>,</mo>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <mo form="prefix">(</mo>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>c</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo form="postfix">)</mo>\atopc</mrow>
+         <mo>;</mo>
+         <mn>4</mn>
+         <mi>z</mi>
+         <mo form="prefix">(</mo>
+         <mn>1</mn>
+         <mo>-</mo>
+         <mi>z</mi>
+         <mo form="postfix">)</mo>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

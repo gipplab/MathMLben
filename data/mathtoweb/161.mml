@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>F</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mi>a</mi>
+         <mo>;</mo>
+         <mi>a</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+         <mo>;</mo>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="false" scriptlevel="0">
+         <mrow>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+         </mrow>
+      </mstyle>
+      <mi>a</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>ψ</mi>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mstyle displaystyle="false" scriptlevel="0">
+            <mrow>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mrow>
+         </mstyle>
+         <mi>a</mi>
+         <mo>+</mo>
+         <mstyle displaystyle="false" scriptlevel="0">
+            <mrow>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mrow>
+         </mstyle>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+         <mo>-</mo>
+         <mi>ψ</mi>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mstyle displaystyle="false" scriptlevel="0">
+            <mrow>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mrow>
+         </mstyle>
+         <mi>a</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

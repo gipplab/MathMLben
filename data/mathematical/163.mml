@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msup>
+            <mi>Ψ</mi> 
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mrow>
+                  <mi mathvariant="normal">U</mi>
+               </mrow>
+               <mo stretchy="false">)</mo>
+            </mrow>
+         </msup>
+         <mrow>
+            <mo>(</mo>
+            <mstyle mathvariant="bold">
+               <mi mathvariant="bold">x</mi>
+            </mstyle>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <msubsup>
+            <mo>∫</mo> 
+            <mrow>
+               <mo lspace="verythinmathspace" rspace="0em">−</mo>
+               <mn>∞</mn>
+            </mrow> 
+            <mn>∞</mn>
+         </msubsup>
+         <msubsup>
+            <mo>∫</mo> 
+            <mrow>
+               <mo lspace="verythinmathspace" rspace="0em">−</mo>
+               <mn>∞</mn>
+            </mrow> 
+            <mn>∞</mn>
+         </msubsup>
+         <mi>exp</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>i</mi>
+            <msup>
+               <mi>Φ</mi> 
+               <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mrow>
+                     <mi mathvariant="normal">U</mi>
+                  </mrow>
+                  <mo stretchy="false">)</mo>
+               </mrow>
+            </msup>
+            <mrow>
+               <mo>(</mo>
+               <mi>s</mi>
+               <mo>,</mo>
+               <mi>t</mi>
+               <mo>;</mo>
+               <mstyle mathvariant="bold">
+                  <mi mathvariant="bold">x</mi>
+               </mstyle>
+               <mo>)</mo>
+            </mrow>
+            <mo>)</mo>
+         </mrow>
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+         </mrow>
+         <mi>s</mi>
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+         </mrow>
+         <mi>t</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">\Psi^{(\mathrm{U})}\left(\mathbf{x}\right)=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\exp\left(i\Phi^{(\mathrm{U})}\left(s,t;\mathbf{x}\right)\right)\mathrm{d}s\mathrm{d}t</annotation>
+   </semantics>
+</math>

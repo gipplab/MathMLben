@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>Δ</mi>
+         <mi>W</mi>
+         <mo>=</mo>
+         <msubsup>
+            <mo>∫</mo> 
+            <mrow>
+               <msub>
+                  <mi>V</mi> 
+                  <mn>1</mn>
+               </msub>
+            </mrow> 
+            <mrow>
+               <msub>
+                  <mi>V</mi> 
+                  <mn>2</mn>
+               </msub>
+            </mrow>
+         </msubsup>
+         <mi>p</mi>
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+         </mrow>
+         <mi>V</mi>
+         <mspace width="thinmathspace"/>
+         <mspace width="negativethinmathspace"/>
+      </mrow>
+      <annotation encoding="application/x-tex">\Delta W = \int_{V_1}^{V_2} p \mathrm{d}V \,\!</annotation>
+   </semantics>
+</math>

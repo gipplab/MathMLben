@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>n</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <msup>
+         <mi>q</mi>
+         <mrow>
+            <msup>
+               <mi>n</mi>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>a</mi>
+         <mi>n</mi>
+      </msup>
+      <msub>
+         <mi>β</mi>
+         <mi>n</mi>
+      </msub>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <msub>
+               <mrow>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <mi>a</mi>
+                  <mi>q</mi>
+                  <mo>;</mo>
+                  <mi>q</mi>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+               </mrow>
+               <mo>∞</mo>
+            </msub>
+         </mrow>
+      </mfrac>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>n</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <msup>
+         <mi>q</mi>
+         <mrow>
+            <msup>
+               <mi>n</mi>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>a</mi>
+         <mi>n</mi>
+      </msup>
+      <msub>
+         <mi>α</mi>
+         <mi>n</mi>
+      </msub>
+   </mrow>
+</math>

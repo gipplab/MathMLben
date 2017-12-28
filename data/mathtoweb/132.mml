@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>h</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>ϵ</mi>
+         <mo>,</mo>
+         <mo>ℓ</mo>
+         <mo>;</mo>
+         <mi>r</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+         <mrow>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <mfrac linethickness="1">
+               <mn>2</mn>
+               <mrow>
+                  <mi>π</mi>
+                  <mi>τ</mi>
+               </mrow>
+            </mfrac>
+            <mfrac linethickness="1">
+               <mrow>
+                  <mi>A</mi>
+                  <mo form="prefix">(</mo>
+                  <mi>ϵ</mi>
+                  <mo>,</mo>
+                  <mo>ℓ</mo>
+                  <mo form="postfix">)</mo>
+               </mrow>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <msup>
+                     <mi>e</mi>
+                     <mrow>
+                        <mo>-</mo>
+                        <mn>2</mn>
+                        <mi>π</mi>
+                        <mo>/</mo>
+                        <mi>τ</mi>
+                     </mrow>
+                  </msup>
+               </mrow>
+            </mfrac>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+         <mi>\ifrac{1}<mn>2</mn>
+         </mi>
+      </msup>
+      <msub>
+         <mi>G</mi>
+         <mo>ℓ</mo>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mo>/</mo>
+         <mi>τ</mi>
+         <mo>,</mo>
+         <mi>τ</mi>
+         <mi>r</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

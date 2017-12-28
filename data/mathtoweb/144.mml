@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mo>∂</mo>
+         <mi>j</mi>
+      </msub>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mo>-</mo>
+            <mi>a</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi mathvariant="bold">b</mi>
+         <mo>;</mo>
+         <mi mathvariant="bold">z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>a</mi>
+      <msub>
+         <mi>w</mi>
+         <mi>j</mi>
+      </msub>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mo>-</mo>
+            <mi>a</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi mathvariant="bold">b</mi>
+         <mo>+</mo>
+         <msub>
+            <mrow>
+               <mi mathvariant="bold">e</mi>
+            </mrow>
+            <mi>j</mi>
+         </msub>
+         <mo>;</mo>
+         <mi mathvariant="bold">z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

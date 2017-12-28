@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mrow>
+         <msub>
+            <mi/>
+            <mn>3</mn>
+         </msub>
+         <msub>
+            <mi>ϕ</mi>
+            <mn>2</mn>
+         </msub>
+      </mrow>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mrow>
+            <mi>a</mi>
+            <mo>,</mo>
+            <mi>b</mi>
+            <mo>,</mo>
+            <msup>
+               <mi>q</mi>
+               <mrow>
+                  <mo>-</mo>
+                  <mi>n</mi>
+               </mrow>
+            </msup>\atopc<mo>,</mo>
+            <mi>a</mi>
+            <mi>b</mi>
+            <msup>
+               <mi>q</mi>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mi>n</mi>
+               </mrow>
+            </msup>
+            <mo>/</mo>
+            <mi>c</mi>
+         </mrow>
+         <mo>;</mo>
+         <mi>q</mi>
+         <mo>,</mo>
+         <mi>q</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <msub>
+               <mrow>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <mi>c</mi>
+                  <mo>/</mo>
+                  <mi>a</mi>
+                  <mo>,</mo>
+                  <mi>c</mi>
+                  <mo>/</mo>
+                  <mi>b</mi>
+                  <mo>;</mo>
+                  <mi>q</mi>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+               </mrow>
+               <mi>n</mi>
+            </msub>
+         </mrow>
+         <mrow>
+            <msub>
+               <mrow>
+                  <mo fence="true"
+                      form="prefix"
+                      lspace="0em"
+                      rspace="0.3em"
+                      stretchy="true">(</mo>
+                  <mi>c</mi>
+                  <mo>,</mo>
+                  <mi>c</mi>
+                  <mo>/</mo>
+                  <mo form="prefix">(</mo>
+                  <mi>a</mi>
+                  <mi>b</mi>
+                  <mo form="postfix">)</mo>
+                  <mo>;</mo>
+                  <mi>q</mi>
+                  <mo fence="true"
+                      form="postfix"
+                      lspace="0.3em"
+                      rspace="0em"
+                      stretchy="true">)</mo>
+               </mrow>
+               <mi>n</mi>
+            </msub>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

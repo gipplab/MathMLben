@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>A</mi>
+         <mo>≡</mo>
+         <mi>A</mi>
+         <mo stretchy="false">(</mo>
+         <mi>τ</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mo lspace="0em" rspace="thinmathspace">ifrac</mo>
+         <mn>1</mn>
+         <mrow>
+            <msub>
+               <mi>θ</mi> 
+               <mn>4</mn>
+            </msub>
+            <mrow>
+               <mo>(</mo>
+               <mn>0</mn>
+               <mo lspace="0em" rspace="thinmathspace">middle</mo>
+               <mo stretchy="false">|</mo>
+               <mn>2</mn>
+               <mi>τ</mi>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">A\equiv A(\tau)=\ifrac{1}{\theta_{4}\left(0\middle|2\tau\right)}</annotation>
+   </semantics>
+</math>

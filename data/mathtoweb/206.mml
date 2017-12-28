@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>p</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>π</mi>
+            <mi>n</mi>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munder>
+            <mo>∑</mo>
+            <mi>α</mi>
+         </munder>
+      </mstyle>
+      <mspace width="0.278em"/>
+      <msub>
+         <mi>p</mi>
+         <mi>n</mi>
+      </msub>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>e</mi>
+            <mi>α</mi>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mi>q</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>π</mi>
+            <mi>n</mi>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

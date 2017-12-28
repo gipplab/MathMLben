@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msup>
+         <mi>H</mi>
+         <mn>1</mn>
+      </msup>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>K</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msqrt>
+         <mn>2</mn>
+      </msqrt>
+   </mrow>
+</math>

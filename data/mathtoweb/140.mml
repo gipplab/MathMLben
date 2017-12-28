@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>w</mi>
+      <mo>=</mo>
+      <mi>Arcsinh</mi>
+      <mi>z</mi>
+      <mo>=</mo>
+      <msup>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mi>k</mi>
+      </msup>
+      <mi>arcsinh</mi>
+      <mi>z</mi>
+      <mo>+</mo>
+      <mi>k</mi>
+      <mi>π</mi>
+      <mi>i</mi>
+   </mrow>
+</math>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>N</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>n</mi>
+         <mo>,</mo>
+         <mi>k</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mi>n</mi>
+      </mfrac>
+      <mo>≥</mo>
+      <mi>n</mi>
+      <mi>f</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>c</mi>
+      <mrow>
+         <mrow>
+            <mo form="prefix">(</mo>
+         </mrow>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mrow>
+         <mn>0.0</mn>
+         <mi>p</mi>
+         <mi>t</mi>
+      </mrow>{<mi>n</mi>}<mi>k</mi>
+      <mo>≥</mo>
+      <mi>n</mi>
+      <mi>f</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>c</mi>
+      <mrow>
+         <mrow>
+            <mo form="prefix">(</mo>
+         </mrow>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mrow>
+         <mn>0.0</mn>
+         <mi>p</mi>
+         <mi>t</mi>
+      </mrow>{<mi>n</mi>}<mrow>
+         <mi>k</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+   </mrow>
+</math>

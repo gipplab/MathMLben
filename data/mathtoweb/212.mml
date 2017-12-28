@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>ψ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>a</mi>
+         <mo>+</mo>
+         <mi>b</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>ψ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>a</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mover accent="true">
+         <mo>+</mo>
+         <mo stretchy="true">˜</mo>
+      </mover>
+      <mi>ψ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>b</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

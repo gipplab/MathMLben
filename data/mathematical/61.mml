@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mrow>
+            <mo>{</mo>
+            <mi>z</mi>
+            <mo>∈</mo>
+            <mi>H</mi>
+            <mo>:</mo>
+            <mrow>
+               <mo>|</mo>
+               <mi>z</mi>
+               <mo>|</mo>
+            </mrow>
+            <mo>&gt;</mo>
+            <mn>1</mn>
+            <mo>,</mo>
+            <mspace width="thinmathspace"/>
+            <mrow>
+               <mo>|</mo>
+               <mspace width="thinmathspace"/>
+               <mtext>
+                  <mrow>
+                     <mi>R</mi>
+                     <mi>e</mi>
+                  </mrow>
+               </mtext>
+               <mo stretchy="false">(</mo>
+               <mi>z</mi>
+               <mo stretchy="false">)</mo>
+               <mspace width="thinmathspace"/>
+               <mo>|</mo>
+            </mrow>
+            <mo>&lt;</mo>
+            <mfrac>
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <mo>}</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">\left\{ z \in H: \left| z \right| &gt; 1,\, \left| \,\mbox{Re}(z) \,\right| &lt; \frac{1}{2} \right\}</annotation>
+   </semantics>
+</math>

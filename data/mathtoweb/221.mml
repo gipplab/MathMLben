@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>L</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mrow>
+               <mover accent="true">
+                  <mi>θ</mi>
+                  <mo stretchy="true">^</mo>
+               </mover>
+            </mrow>
+            <mi>ν</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>θ</mi>
+            <mi>ν</mi>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>∥</mo>
+      <msub>
+         <mrow>
+            <mover accent="true">
+               <mi>θ</mi>
+               <mo stretchy="true">^</mo>
+            </mover>
+         </mrow>
+         <mi>ν</mi>
+      </msub>
+      <mo>-</mo>
+      <mtext>sign</mtext>
+      <mrow>
+         <mo form="prefix">〈</mo>
+         <msub>
+            <mrow>
+               <mover accent="true">
+                  <mi>θ</mi>
+                  <mo stretchy="true">^</mo>
+               </mover>
+            </mrow>
+            <mi>ν</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>θ</mi>
+            <mi>ν</mi>
+         </msub>
+         <mo form="postfix">〉</mo>
+      </mrow>
+      <msub>
+         <mi>θ</mi>
+         <mi>ν</mi>
+      </msub>
+      <msup>
+         <mo>∥</mo>
+         <mn>2</mn>
+      </msup>
+   </mrow>
+</math>

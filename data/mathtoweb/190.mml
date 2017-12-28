@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>z</mi>
+      <msubsup>
+         <mi>v</mi>
+         <mn>1</mn>
+         <mo>′</mo>
+      </msubsup>
+      <mo>=</mo>
+      <mn>2</mn>
+      <msub>
+         <mi>u</mi>
+         <mn>0</mn>
+      </msub>
+      <mo>-</mo>
+      <mn>2</mn>
+      <msub>
+         <mi>u</mi>
+         <mn>1</mn>
+      </msub>
+      <msubsup>
+         <mi>v</mi>
+         <mn>1</mn>
+         <mn>2</mn>
+      </msubsup>
+      <mo>-</mo>
+      <msub>
+         <mi>θ</mi>
+         <mo>∞</mo>
+      </msub>
+      <msub>
+         <mi>v</mi>
+         <mn>1</mn>
+      </msub>
+   </mrow>
+</math>

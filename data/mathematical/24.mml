@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>E</mi> 
+            <mtext>k</mtext>
+         </msub>
+         <mo>=</mo>
+         <msub>
+            <mi>E</mi> 
+            <mi>t</mi>
+         </msub>
+         <mo>+</mo>
+         <msub>
+            <mi>E</mi> 
+            <mtext>r</mtext>
+         </msub>
+         <mi>$</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">E_{\text{k}} = E_t + E_{\text{r}} \$</annotation>
+   </semantics>
+</math>

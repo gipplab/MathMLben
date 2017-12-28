@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>P</mi>
+         <mn>1</mn>
+      </msub>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>X</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>P</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>X</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>/</mo>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>X</mi>
+         <mo>-</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>1</mn>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

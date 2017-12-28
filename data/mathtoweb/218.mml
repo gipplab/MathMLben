@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mrow>
+         <mo>⁢</mo>
+         <mi>L</mi>
+      </mrow>
+      <mo>=</mo>
+      <mi>i</mi>
+      <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>¯</mo>
+      </mover>
+      <msup>
+         <mi>γ</mi>
+         <mi>μ</mi>
+      </msup>
+      <msub>
+         <mo>∂</mo>
+         <mi>μ</mi>
+      </msub>
+      <mi>Ψ</mi>
+      <mo>-</mo>
+      <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>¯</mo>
+      </mover>
+      <mi>Ψ</mi>
+      <mo>-</mo>
+      <mi>q</mi>
+      <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>¯</mo>
+      </mover>
+      <msup>
+         <mi>γ</mi>
+         <mn>0</mn>
+      </msup>
+      <mi>Ψ</mi>
+      <mi>Φ</mi>
+      <mo>+</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mn>2</mn>
+      </mfrac>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mo>∂</mo>
+            <mi>μ</mi>
+         </msub>
+         <mi>Φ</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msup>
+            <mo>∂</mo>
+            <mi>μ</mi>
+         </msup>
+         <mi>Φ</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

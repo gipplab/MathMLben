@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mtext>Ker</mtext>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>k</mi>
+            <mo>*</mo>
+         </msub>
+         <mo>-</mo>
+         <msub>
+            <mi>l</mi>
+            <mo>*</mo>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>≅</mo>
+      <mtext>Im</mtext>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>i</mi>
+            <mo>*</mo>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>j</mi>
+            <mo>*</mo>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

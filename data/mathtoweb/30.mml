@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>ϕ</mi>
+         <mn>1</mn>
+      </msub>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mn>3</mn>
+      <msup>
+         <mn>0</mn>
+         <mo>∘</mo>
+      </msup>
+      <mo>.</mo>
+      <mo>.</mo>
+      <mo>.</mo>
+      <mo>+</mo>
+      <mn>3</mn>
+      <msup>
+         <mn>0</mn>
+         <mo>∘</mo>
+      </msup>
+   </mrow>
+</math>

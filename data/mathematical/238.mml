@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>A</mi> 
+            <mi>N</mi>
+         </msub>
+         <mo stretchy="false">(</mo>
+         <mi>α</mi>
+         <mo>,</mo>
+         <mi>β</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mi>N</mi>
+         </mfrac>
+         <mi>𝔼</mi>
+         <mi>ln</mi>
+         <munder>
+            <mo>∑</mo> 
+            <mi>σ</mi>
+         </munder>
+         <mi>exp</mi>
+         <mo stretchy="false">(</mo>
+         <mo lspace="verythinmathspace" rspace="0em">−</mo>
+         <mi>β</mi>
+         <msub>
+            <mi>H</mi> 
+            <mi>N</mi>
+         </msub>
+         <mo stretchy="false">(</mo>
+         <mi>σ</mi>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">)</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">A_{N}(\alpha,\beta)=\frac{1}{N}\mathbb{E}\ln\sum_{\sigma}\exp(-\beta H_{N}(\sigma))</annotation>
+   </semantics>
+</math>

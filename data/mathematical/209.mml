@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mover>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>Δ</mi>
+               <mi>H</mi>
+               <msup>
+                  <mo stretchy="false">)</mo> 
+                  <mn>2</mn>
+               </msup>
+            </mrow>
+            <mo>¯</mo>
+         </mover>
+         <mo>=</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mi>N</mi>
+         </mfrac>
+         <munderover>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>i</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mrow> 
+            <mi>N</mi>
+         </munderover>
+         <mo stretchy="false">[</mo>
+         <mo stretchy="false">⟨</mo>
+         <msub>
+            <mi>ψ</mi> 
+            <mi>i</mi>
+         </msub>
+         <mo stretchy="false">|</mo>
+         <msubsup>
+            <mi>H</mi> 
+            <mi>i</mi> 
+            <mn>2</mn>
+         </msubsup>
+         <mo stretchy="false">|</mo>
+         <msub>
+            <mi>ψ</mi> 
+            <mi>i</mi>
+         </msub>
+         <mo stretchy="false">⟩</mo>
+         <mo>−</mo>
+         <mo stretchy="false">⟨</mo>
+         <msub>
+            <mi>ψ</mi> 
+            <mi>i</mi>
+         </msub>
+         <mo stretchy="false">|</mo>
+         <msub>
+            <mi>H</mi> 
+            <mi>i</mi>
+         </msub>
+         <mo stretchy="false">|</mo>
+         <msub>
+            <mi>ψ</mi> 
+            <mi>i</mi>
+         </msub>
+         <msup>
+            <mo stretchy="false">⟩</mo> 
+            <mn>2</mn>
+         </msup>
+         <mo stretchy="false">]</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">\overline{(\Delta H)^{2}}=\frac{1}{N}\sum_{i=1}^{N}[\langle\psi_{i}|H_{i}^{2}|\psi_{i}\rangle-\langle\psi_{i}|H_{i}|\psi_{i}\rangle^{2}]</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>α</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>d</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>≤</mo>
+      <msup>
+         <mrow>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <msqrt>
+               <mrow>
+                  <mn>3</mn>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msqrt>
+            <mo>+</mo>
+            <mi>ε</mi>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+         <mi>d</mi>
+      </msup>
+   </mrow>
+</math>

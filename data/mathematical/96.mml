@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mstyle mathvariant="bold">
+            <mi mathvariant="bold">s</mi>
+         </mstyle>
+      </mrow>
+      <annotation encoding="application/x-tex">\boldsymbol{s}</annotation>
+   </semantics>
+</math>

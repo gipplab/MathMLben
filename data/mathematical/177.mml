@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mn>4</mn>
+         <mo stretchy="false">(</mo>
+         <msup>
+            <mstyle mathvariant="bold">
+               <mi mathvariant="bold">η</mi>
+            </mstyle> 
+            <mn>1</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>T</mi> 
+            <mn>1</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo>⋅</mo>
+         <msup>
+            <mstyle mathvariant="bold">
+               <mi mathvariant="bold">η</mi>
+            </mstyle> 
+            <mn>2</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>T</mi> 
+            <mn>2</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo>−</mo>
+         <msup>
+            <mstyle mathvariant="bold">
+               <mi mathvariant="bold">η</mi>
+            </mstyle> 
+            <mn>2</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>T</mi> 
+            <mn>1</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo>⋅</mo>
+         <msup>
+            <mstyle mathvariant="bold">
+               <mi mathvariant="bold">η</mi>
+            </mstyle> 
+            <mn>1</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <msub>
+            <mi>T</mi> 
+            <mn>2</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mo stretchy="false">|</mo>
+         <msub>
+            <mi>T</mi> 
+            <mn>1</mn>
+         </msub>
+         <mo>∩</mo>
+         <msub>
+            <mi>T</mi> 
+            <mn>2</mn>
+         </msub>
+         <mo stretchy="false">|</mo>
+         <mrow>
+            <mo lspace="mediummathspace">(</mo>
+            <mo rspace="thinmathspace">mod</mo>
+            <mn>2</mn>
+            <mo rspace="mediummathspace">)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">4(\boldsymbol{{\eta}}^{1}(T_{1})\cdot\boldsymbol{{\eta}}^{2}(T_{2})-\boldsymbol{{\eta}}^{2}(T_{1})\cdot\boldsymbol{{\eta}}^{1}(T_{2}))=|T_{1}\cap T_{2}|\pmod{2}</annotation>
+   </semantics>
+</math>

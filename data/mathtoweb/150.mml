@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo>ℑ</mo>
+      <mi>ψ</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mstyle displaystyle="false" scriptlevel="0">
+            <mrow>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mrow>
+         </mstyle>
+         <mo>+</mo>
+         <mi>i</mi>
+         <mi>y</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mi>π</mi>
+         <mn>2</mn>
+      </mfrac>
+      <mi>tanh</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>π</mi>
+         <mi>y</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

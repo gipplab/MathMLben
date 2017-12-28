@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mo>∇</mo>
+            <mi>Y</mi>
+         </msub>
+         <mi>T</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>1</mn>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>2</mn>
+         </msub>
+         <mo>,</mo>
+         <mo>…</mo>
+         <mo>,</mo>
+         <msub>
+            <mi>X</mi>
+            <mn>1</mn>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>X</mi>
+            <mn>2</mn>
+         </msub>
+         <mo>,</mo>
+         <mo>…</mo>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>Y</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>T</mi>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>1</mn>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>2</mn>
+         </msub>
+         <mo>,</mo>
+         <mo>…</mo>
+         <mo>,</mo>
+         <msub>
+            <mi>X</mi>
+            <mn>1</mn>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>X</mi>
+            <mn>2</mn>
+         </msub>
+         <mo>,</mo>
+         <mo>…</mo>
+         <mo form="postfix">)</mo>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

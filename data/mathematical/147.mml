@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>Π</mi>
+         <mrow>
+            <mo>(</mo>
+            <msup>
+               <mi>α</mi> 
+               <mn>2</mn>
+            </msup>
+            <mo>,</mo>
+            <mi>k</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <mi>K</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>k</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mstyle displaystyle="false">
+            <mfrac>
+               <mn>1</mn>
+               <mn>3</mn>
+            </mfrac>
+         </mstyle>
+         <msup>
+            <mi>α</mi> 
+            <mn>2</mn>
+         </msup>
+         <msub>
+            <mi>R</mi> 
+            <mi>J</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mn>0</mn>
+            <mo>,</mo>
+            <msup>
+               <mrow>
+                  <msup>
+                     <mi>k</mi> 
+                     <mstyle scriptlevel="0">
+                        <mo>′</mo>
+                     </mstyle>
+                  </msup>
+               </mrow> 
+               <mn>2</mn>
+            </msup>
+            <mo>,</mo>
+            <mn>1</mn>
+            <mo>,</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <msup>
+               <mi>α</mi> 
+               <mn>2</mn>
+            </msup>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">\Pi\left(\alpha^{2},k\right)-K\left(k\right)=\tfrac{1}{3}\alpha^{2}R_{J}\left(0,{k^{\prime}}^{2},1,1-\alpha^{2}\right)</annotation>
+   </semantics>
+</math>

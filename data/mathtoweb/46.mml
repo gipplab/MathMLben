@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>A</mi>
+      <mo>↦</mo>
+      <mi>M</mi>
+      <mi>α</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>A</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <msup>
+         <mi>M</mi>
+         <mn>-1</mn>
+      </msup>
+   </mrow>
+</math>

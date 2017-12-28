@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>C</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>Z</mi>
+         <mi>F</mi>
+         <mo>+</mo>
+         <mo>¬</mo>
+         <mi>A</mi>
+         <mi>C</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

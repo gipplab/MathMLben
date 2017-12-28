@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mrow>
+            <mo>{</mo>
+            <mn>3</mn>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>4</mn>
+            <mtext> </mtext>
+            <mo>}</mo>
+         </mrow>
+         <mo>⊂</mo>
+         <mrow>
+            <mi>ℭ</mi>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">\left\{3k+4\ \right\}\subset\mathfrak{C}</annotation>
+   </semantics>
+</math>

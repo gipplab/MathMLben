@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>A</mi> 
+            <mi>k</mi>
+         </msub>
+         <mo stretchy="false">(</mo>
+         <mi>n</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <munder>
+            <mo>∑</mo> 
+            <mtable columnalign="center"
+                    columnlines="none"
+                    displaystyle="false"
+                    rowlines="none"
+                    rowspacing="0.5ex">
+               <mtr>
+                  <mtd>
+                     <mn>1</mn>
+                     <merror>
+                        <mtext>Unknown character</mtext>
+                     </merror>
+                     <mi>h</mi>
+                     <mo>≤</mo>
+                     <mi>k</mi>
+                  </mtd>
+               </mtr> 
+               <mtr>
+                  <mtd>
+                     <mrow>
+                        <mo>(</mo>
+                        <mi>h</mi>
+                        <mo>,</mo>
+                        <mi>k</mi>
+                        <mo>)</mo>
+                     </mrow>
+                     <mo>=</mo>
+                     <mn>1</mn>
+                  </mtd>
+               </mtr>
+            </mtable>
+         </munder>
+         <mrow>
+            <msup>
+               <mrow>
+                  <mi mathvariant="normal">e</mi>
+               </mrow> 
+               <mrow>
+                  <mi>π</mi>
+                  <mrow>
+                     <mi mathvariant="normal">i</mi>
+                  </mrow>
+                  <mi>f</mi>
+                  <mo stretchy="false">(</mo>
+                  <mi>h</mi>
+                  <mo>,</mo>
+                  <mi>k</mi>
+                  <mo stretchy="false">)</mo>
+                  <mo>−</mo>
+                  <mo stretchy="false">(</mo>
+                  <mn>2</mn>
+                  <mi>π</mi>
+                  <mrow>
+                     <mi mathvariant="normal">i</mi>
+                  </mrow>
+                  <mi>n</mi>
+                  <mi>h</mi>
+                  <mo stretchy="false">/</mo>
+                  <mi>k</mi>
+                  <mo stretchy="false">)</mo>
+               </mrow>
+            </msup>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">A_{k}(n)=\sum_{\begin{array}{c}1&lt;h\leq k\\
+\left(h,k\right)=1\end{array}}{\mathrm{e}^{\pi\mathrm{i}f(h,k)-(2\pi\mathrm{i}nh/k)}}</annotation>
+   </semantics>
+</math>

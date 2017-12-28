@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mfrac>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>−</mo>
+               <mn>2</mn>
+               <mo stretchy="false">)</mo>
+               <mi>⋯</mi>
+               <mi>n</mi>
+            </mrow>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>δ</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+               <mo>!</mo>
+            </mrow>
+         </mfrac>
+         <mi>$</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">\frac{(n+\delta-1)(n+\delta-2)\cdots n}{(\delta-1)!}\$</annotation>
+   </semantics>
+</math>

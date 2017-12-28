@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>μ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>A</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">{</mo>
+         <mtable class="m-cases" columnalign="left">
+            <mtr>
+               <mtd>
+                  <mn>1</mn>
+               </mtd>
+               <mtd>
+                  <mtext> if </mtext>
+                  <mn>0</mn>
+                  <mo>∈</mo>
+                  <mi>A</mi>
+               </mtd>
+            </mtr>
+            <mtr>
+               <mtd>
+                  <mn>0</mn>
+               </mtd>
+               <mtd>
+                  <mtext> if </mtext>
+                  <mn>0</mn>
+                  <mo>∉</mo>
+                  <mi>A</mi>
+                  <mo>.</mo>
+               </mtd>
+            </mtr>
+         </mtable>
+         <mphantom fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">}</mphantom>
+      </mrow>
+   </mrow>
+</math>

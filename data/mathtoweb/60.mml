@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>p</mi>
+      <mo>=</mo>
+      <mrow>
+         <mfrac linethickness="1">
+            <mrow>
+               <mo>-</mo>
+               <mi>x</mi>
+               <mo>±</mo>
+               <msqrt>
+                  <mrow>
+                     <msup>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                     </msup>
+                     <mo>-</mo>
+                     <mn>4</mn>
+                     <mrow>
+                        <mo form="prefix">(</mo>
+                        <mfrac linethickness="1">
+                           <mrow>
+                              <mo>-</mo>
+                              <mi>g</mi>
+                              <msup>
+                                 <mi>x</mi>
+                                 <mn>2</mn>
+                              </msup>
+                           </mrow>
+                           <mrow>
+                              <mn>2</mn>
+                              <msup>
+                                 <mi>v</mi>
+                                 <mn>2</mn>
+                              </msup>
+                           </mrow>
+                        </mfrac>
+                        <mo form="postfix">)</mo>
+                     </mrow>
+                     <mrow>
+                        <mo form="prefix">(</mo>
+                        <mfrac linethickness="1">
+                           <mrow>
+                              <mo>-</mo>
+                              <mi>g</mi>
+                              <msup>
+                                 <mi>x</mi>
+                                 <mn>2</mn>
+                              </msup>
+                           </mrow>
+                           <mrow>
+                              <mn>2</mn>
+                              <msup>
+                                 <mi>v</mi>
+                                 <mn>2</mn>
+                              </msup>
+                           </mrow>
+                        </mfrac>
+                        <mo>-</mo>
+                        <mi>y</mi>
+                        <mo form="postfix">)</mo>
+                     </mrow>
+                  </mrow>
+               </msqrt>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+               <mrow>
+                  <mo form="prefix">(</mo>
+                  <mfrac linethickness="1">
+                     <mrow>
+                        <mo>-</mo>
+                        <mi>g</mi>
+                        <msup>
+                           <mi>x</mi>
+                           <mn>2</mn>
+                        </msup>
+                     </mrow>
+                     <mrow>
+                        <mn>2</mn>
+                        <msup>
+                           <mi>v</mi>
+                           <mn>2</mn>
+                        </msup>
+                     </mrow>
+                  </mfrac>
+                  <mo form="postfix">)</mo>
+               </mrow>
+            </mrow>
+         </mfrac>
+      </mrow>
+   </mrow>
+</math>

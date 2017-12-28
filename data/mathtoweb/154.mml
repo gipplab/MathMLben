@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>Ln</mi>
+      <mi>Γ</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>z</mi>
+         <mo>-</mo>
+         <mstyle displaystyle="false" scriptlevel="0">
+            <mrow>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mrow>
+         </mstyle>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mi>ln</mi>
+      <mi>z</mi>
+      <mo>-</mo>
+      <mi>z</mi>
+      <mo>+</mo>
+      <mstyle displaystyle="false" scriptlevel="0">
+         <mrow>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+         </mrow>
+      </mstyle>
+      <mi>ln</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>2</mn>
+         <mi>π</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∫</mo>
+            <mn>0</mn>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>arctan</mi>
+            <mo fence="true"
+                form="prefix"
+                lspace="0em"
+                rspace="0.3em"
+                stretchy="true">(</mo>
+            <mi>t</mi>
+            <mo>/</mo>
+            <mi>z</mi>
+            <mo fence="true"
+                form="postfix"
+                lspace="0.3em"
+                rspace="0em"
+                stretchy="true">)</mo>
+         </mrow>
+         <mrow>
+            <msup>
+               <mi>e</mi>
+               <mrow>
+                  <mn>2</mn>
+                  <mi>π</mi>
+                  <mi>t</mi>
+               </mrow>
+            </msup>
+            <mo>-</mo>
+            <mn>1</mn>
+         </mrow>
+      </mfrac>
+      <mi mathvariant="normal">d</mi>
+      <mi>t</mi>
+   </mrow>
+</math>

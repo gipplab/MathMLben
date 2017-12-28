@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mfrac>
+            <mi>d</mi>
+            <mrow>
+               <mi>d</mi>
+               <mi>x</mi>
+            </mrow>
+         </mfrac>
+         <mrow>
+            <mo>(</mo>
+            <msub>
+               <mi>log</mi> 
+               <mi>c</mi>
+            </msub>
+            <mi>x</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mrow>
+            <mfrac>
+               <mn>1</mn>
+               <mi>x</mi>
+            </mfrac>
+            <mi>ln</mi>
+            <mi>c</mi>
+         </mrow>
+         <mo>,</mo>
+         <mspace width="2em"/>
+         <mi>c</mi>
+         <mo>&gt;</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>c</mi>
+         <mo>≠</mo>
+         <mn>1</mn>
+      </mrow>
+      <annotation encoding="application/x-tex">\frac{d}{dx}\left( \log_c x\right) = {1 \over x \ln c} , \qquad c &gt; 0, c \ne 1</annotation>
+   </semantics>
+</math>

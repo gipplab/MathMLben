@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>h</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>t</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <mi>exp</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>i</mi>
+         <mi>κ</mi>
+         <msup>
+            <mi>t</mi>
+            <mi>p</mi>
+         </msup>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>s</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <msub>
+         <mi>b</mi>
+         <mi>s</mi>
+      </msub>
+      <msup>
+         <mi>t</mi>
+         <mrow>
+            <mo>-</mo>
+            <msub>
+               <mi>β</mi>
+               <mi>s</mi>
+            </msub>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

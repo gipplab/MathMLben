@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>h</mi>
+         <mi>i</mi>
+      </msub>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munder>
+            <mo>∑</mo>
+            <mi>j</mi>
+         </munder>
+      </mstyle>
+      <msub>
+         <mrow>
+            <mover accent="true">
+               <mi>w</mi>
+               <mo>^</mo>
+            </mover>
+         </mrow>
+         <mrow>
+            <mi>i</mi>
+            <mi>j</mi>
+         </mrow>
+      </msub>
+      <msub>
+         <mi>s</mi>
+         <mi>j</mi>
+      </msub>
+   </mrow>
+</math>

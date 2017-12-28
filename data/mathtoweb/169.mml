@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msup>
+         <mi>K</mi>
+         <mo>′</mo>
+      </msup>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mi>π</mi>
+         <mrow>
+            <mn>2</mn>
+            <mi>M</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>1</mn>
+               <mo>,</mo>
+               <mi>k</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

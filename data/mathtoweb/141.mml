@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>arcsinh</mi>
+      <mi>z</mi>
+      <mo>=</mo>
+      <mi>ln</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>2</mn>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mn>2</mn>
+      </mfrac>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <mn>2</mn>
+            <msup>
+               <mi>z</mi>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mo>-</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mn>1</mn>
+            <mo>⋅</mo>
+            <mn>3</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+            <mo>⋅</mo>
+            <mn>4</mn>
+         </mrow>
+      </mfrac>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <mn>4</mn>
+            <msup>
+               <mi>z</mi>
+               <mn>4</mn>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mn>1</mn>
+            <mo>⋅</mo>
+            <mn>3</mn>
+            <mo>⋅</mo>
+            <mn>5</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+            <mo>⋅</mo>
+            <mn>4</mn>
+            <mo>⋅</mo>
+            <mn>6</mn>
+         </mrow>
+      </mfrac>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <mn>6</mn>
+            <msup>
+               <mi>z</mi>
+               <mn>6</mn>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mo>-</mo>
+      <mo>⋯</mo>
+   </mrow>
+</math>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mrow>
+            <mi mathvariant="script">C</mi>
+         </mrow>
+         <mi>ν</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>u</mi>
+         <mo>±</mo>
+         <mi>v</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mo>-</mo>
+               <mo>∞</mo>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <msub>
+         <mrow>
+            <mi mathvariant="script">C</mi>
+         </mrow>
+         <mrow>
+            <mi>ν</mi>
+            <mo>∓</mo>
+            <mi>k</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>u</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <msub>
+         <mi>J</mi>
+         <mi>k</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>v</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

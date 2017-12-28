@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>ln</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>1</mn>
+         <mo>+</mo>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>z</mi>
+      <mo>-</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <msup>
+               <mi>z</mi>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+         <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <msup>
+               <mi>z</mi>
+               <mn>3</mn>
+            </msup>
+         </mrow>
+         <mn>3</mn>
+      </mfrac>
+      <mo>-</mo>
+      <mo>⋯</mo>
+   </mrow>
+</math>

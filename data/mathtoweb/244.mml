@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo fence="true"
+          form="prefix"
+          lspace="0em"
+          rspace="0.3em"
+          stretchy="true">{</mo>
+      <mn>3</mn>
+      <mi>k</mi>
+      <mo>+</mo>
+      <mn>4</mn>\<mo fence="true"
+          form="postfix"
+          lspace="0.3em"
+          rspace="0em"
+          stretchy="true">}</mo>
+      <mo>⊂</mo>
+      <mi>ℭ</mi>
+   </mrow>
+</math>

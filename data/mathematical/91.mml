@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mo stretchy="false">{</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <msub>
+            <mi>p</mi> 
+            <mi>x</mi>
+         </msub>
+         <msub>
+            <mo stretchy="false">}</mo> 
+            <mrow>
+               <mi>D</mi>
+               <mi>B</mi>
+            </mrow>
+         </msub>
+         <mo>=</mo>
+         <mo stretchy="false">{</mo>
+         <mi>y</mi>
+         <mo>,</mo>
+         <msub>
+            <mi>p</mi> 
+            <mi>y</mi>
+         </msub>
+         <msub>
+            <mo stretchy="false">}</mo> 
+            <mrow>
+               <mi>D</mi>
+               <mi>B</mi>
+            </mrow>
+         </msub>
+         <mo>=</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+         </mfrac>
+      </mrow>
+      <annotation encoding="application/x-tex">\{x, p_x\}_{DB} = \{y, p_y\}_{DB} = \frac{1}{2}</annotation>
+   </semantics>
+</math>

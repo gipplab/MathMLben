@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>P</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>z</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∏</mo>
+            <mrow>
+               <mi>n</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>1</mn>
+         <mo>-</mo>
+         <mfrac linethickness="1">
+            <mi>z</mi>
+            <mrow>
+               <msub>
+                  <mi>z</mi>
+                  <mi>n</mi>
+               </msub>
+            </mrow>
+         </mfrac>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>z</mi>
+            <mo>/</mo>
+            <msub>
+               <mi>z</mi>
+               <mi>n</mi>
+            </msub>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

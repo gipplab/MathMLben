@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mrow>
+            <mi mathvariant="sans-serif">Q</mi>
+         </mrow>
+         <mi>n</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mi>cos</mi>
+         <mi>θ</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <msup>
+               <mn>2</mn>
+               <mrow>
+                  <mn>2</mn>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msup>
+            <msup>
+               <mrow>
+                  <mo form="prefix">(</mo>
+                  <mi>n</mi>
+                  <mo>!</mo>
+                  <mo form="postfix">)</mo>
+               </mrow>
+               <mn>2</mn>
+            </msup>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mo>!</mo>
+         </mrow>
+      </mfrac>\<mo>*</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <mfrac linethickness="1">
+         <mrow>
+            <mn>1</mn>
+            <mo>⋅</mo>
+            <mn>3</mn>
+            <mo>⋯</mo>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>2</mn>
+               <mi>k</mi>
+               <mo>-</mo>
+               <mn>1</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mi>k</mi>
+            <mo>!</mo>
+         </mrow>
+      </mfrac>\<mo>*</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mo>⋯</mo>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>k</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>3</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>5</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mo>⋯</mo>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+               <mi>k</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </mrow>
+      </mfrac>\<mo>*</mo>
+      <mi>cos</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mo form="prefix">(</mo>
+         <mi>n</mi>
+         <mo>+</mo>
+         <mn>2</mn>
+         <mi>k</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+         <mo form="postfix">)</mo>
+         <mi>θ</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

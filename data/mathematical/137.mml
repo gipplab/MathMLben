@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mn>2</mn>
+         <mi>sin</mi>
+         <mi>u</mi>
+         <mi>sin</mi>
+         <mi>v</mi>
+         <mo>=</mo>
+         <mi>cos</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>u</mi>
+            <mo>−</mo>
+            <mi>v</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <mi>cos</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>u</mi>
+            <mo>+</mo>
+            <mi>v</mi>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">2\sin u\sin v=\cos\left(u-v\right)-\cos\left(u+v\right)</annotation>
+   </semantics>
+</math>

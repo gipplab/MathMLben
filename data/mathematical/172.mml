@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mstyle mathvariant="sans-serif">
+               <mi>Q</mi>
+            </mstyle> 
+            <mi>n</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <mi>cos</mi>
+            <mi>θ</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <msup>
+                  <mn>2</mn> 
+                  <mrow>
+                     <mn>2</mn>
+                     <mi>n</mi>
+                     <mo>+</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msup>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>!</mo>
+               <msup>
+                  <mo stretchy="false">)</mo> 
+                  <mn>2</mn>
+               </msup>
+            </mrow>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+               <mo>!</mo>
+            </mrow>
+         </mfrac>
+         <mtext> </mtext>
+         <mo>*</mo>
+         <munderover>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow> 
+            <mn>∞</mn>
+         </munderover>
+         <mfrac>
+            <mrow>
+               <mn>1</mn>
+               <mo>⋅</mo>
+               <mn>3</mn>
+               <mi>⋯</mi>
+               <mo stretchy="false">(</mo>
+               <mn>2</mn>
+               <mi>k</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+               <mi>k</mi>
+               <mo>!</mo>
+            </mrow>
+         </mfrac>
+         <mtext> </mtext>
+         <mo>*</mo>
+         <mfrac>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+               <mo stretchy="false">)</mo>
+               <mi>⋯</mi>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>k</mi>
+               <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>3</mn>
+               <mo stretchy="false">)</mo>
+               <mo stretchy="false">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>5</mn>
+               <mo stretchy="false">)</mo>
+               <mi>⋯</mi>
+               <mo stretchy="false">(</mo>
+               <mn>2</mn>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+               <mi>k</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+            </mrow>
+         </mfrac>
+         <mtext> </mtext>
+         <mo>*</mo>
+         <mi>cos</mi>
+         <mrow>
+            <mo>(</mo>
+            <mo stretchy="false">(</mo>
+            <mi>n</mi>
+            <mo>+</mo>
+            <mn>2</mn>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+            <mo stretchy="false">)</mo>
+            <mi>θ</mi>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">\mathsf{Q}_{n}\left(\cos\theta\right)=\frac{2^{2n+1}(n!)^{2}}{(2n+1)!}\*\sum_{k=0}^{\infty}\frac{1\cdot 3\cdots(2k-1)}{k!}\*\frac{(n+1)(n+2)\cdots(n+k)}{(2n+3)(2n+5)\cdots(2n+2k+1)}\*\cos\left((n+2k+1)\theta\right)</annotation>
+   </semantics>
+</math>

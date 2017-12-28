@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>d</mi>
+         <mi>f</mi>
+         <mo>=</mo>
+         <mrow>
+            <mo>∂</mo>
+            <mfrac>
+               <mi>f</mi>
+               <mo>∂</mo>
+            </mfrac>
+            <mi>x</mi>
+         </mrow>
+         <mi>d</mi>
+         <mi>x</mi>
+         <mo>+</mo>
+         <mrow>
+            <mo>∂</mo>
+            <mfrac>
+               <mi>f</mi>
+               <mo>∂</mo>
+            </mfrac>
+            <mi>y</mi>
+         </mrow>
+         <mi>d</mi>
+         <mi>y</mi>
+         <mo>=</mo>
+         <mi>p</mi>
+         <mi>d</mi>
+         <mi>x</mi>
+         <mo>+</mo>
+         <mi>v</mi>
+         <mi>d</mi>
+         <mi>y</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">df = {\partial f \over \partial x}dx + {\partial f \over \partial y}dy = pdx + vdy</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>a</mi>
+      <mi>p</mi>
+      <mi>p</mi>
+      <mo>:</mo>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>A</mi>
+         <mi>​</mi>
+         <mo>:</mo>
+         <mi>​</mi>
+         <mo>⋆</mo>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>A</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>→</mo>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>A</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>→</mo>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>A</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

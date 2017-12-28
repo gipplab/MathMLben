@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>c</mi>
+         <mn>0</mn>
+      </msub>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mn>0</mn>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mstyle displaystyle="false" scriptlevel="0">
+         <mrow>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>3</mn>
+            </mfrac>
+         </mrow>
+      </mstyle>
+   </mrow>
+</math>

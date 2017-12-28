@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>J</mi>
+         <mi>ν</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <msub>
+            <mi>j</mi>
+            <mrow>
+               <mi>ν</mi>
+               <mo>,</mo>
+               <mi>m</mi>
+            </mrow>
+         </msub>
+         <mo>'</mo>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mi>h</mi>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>ζ</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mstyle mathvariant="normal">
+               <mi>A</mi>
+               <mi>i</mi>
+            </mstyle>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <msubsup>
+                  <mi>a</mi>
+                  <mi>m</mi>
+                  <mo>′</mo>
+               </msubsup>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
+         </mrow>
+         <mrow>
+            <msup>
+               <mi>ν</mi>
+               <mrow>
+                  <mfrac linethickness="1">
+                     <mn>1</mn>
+                     <mn>3</mn>
+                  </mfrac>
+               </mrow>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>1</mn>
+         <mo>+</mo>
+         <mi>O</mi>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mfrac linethickness="1">
+            <mn>1</mn>
+            <mrow>
+               <msup>
+                  <mi>ν</mi>
+                  <mrow>
+                     <mfrac linethickness="1">
+                        <mn>4</mn>
+                        <mn>3</mn>
+                     </mfrac>
+                  </mrow>
+               </msup>
+            </mrow>
+         </mfrac>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

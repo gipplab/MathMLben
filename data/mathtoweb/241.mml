@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>Φ</mi>
+      <mo>:</mo>
+      <msubsup>
+         <mi>𝒪</mi>
+         <mi>M</mi>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mi>m</mi>
+            <mo mathvariant="double-struck">)</mo>
+         </mrow>
+      </msubsup>
+      <mo mathvariant="double-struck">×</mo>
+      <mi>ℒ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>𝒮</mi>
+            <mi>n</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>𝒮</mi>
+            <mi>m</mi>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>→</mo>
+      <mi>ℒ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msub>
+            <mi>𝒮</mi>
+            <mi>n</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>𝒮</mi>
+            <mi>m</mi>
+         </msub>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>:</mo>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>f</mi>
+         <mo>,</mo>
+         <mi>A</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>↦</mo>
+      <mi>f</mi>
+      <mi>A</mi>
+   </mrow>
+</math>

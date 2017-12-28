@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo>|</mo>
+      <mi>Γ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>L</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>|</mo>
+      <mo>=</mo>
+      <msup>
+         <mi>p</mi>
+         <mi>i</mi>
+      </msup>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <msup>
+            <mi>p</mi>
+            <mrow>
+               <mn>2</mn>
+               <mi>i</mi>
+            </mrow>
+         </msup>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

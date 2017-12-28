@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">\calL<mo>=</mo>
+      <mrow>
+         <mo form="prefix">{</mo>
+         <msub>
+            <mi>π</mi>
+            <mn>1</mn>
+         </msub>
+         <mo>,</mo>
+         <msub>
+            <mi>π</mi>
+            <mn>2</mn>
+         </msub>
+         <mo form="postfix">}</mo>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mstyle displaystyle="true" scriptlevel="0">
+            <mrow>
+               <mi>S</mi>
+               <mo>≤</mo>
+               <mfrac>
+                  <mi>A</mi>
+                  <mrow>
+                     <mn>4</mn>
+                     <mi>G</mi>
+                  </mrow>
+               </mfrac>
+            </mrow>
+         </mstyle>
+      </mrow>
+      <annotation encoding="application/x-tex">\displaystyle S\leq\frac{A}{4G}</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>F</mi>
+      <mo>=</mo>
+      <mrow>
+         <mo form="prefix">{</mo>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mi>x</mi>
+            <mo>,</mo>
+            <mi>y</mi>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mo>:</mo>
+         <mi>x</mi>
+         <mo>∈</mo>
+         <msup>
+            <mi>ℛ</mi>
+            <mi>b</mi>
+         </msup>
+         <mo>,</mo>
+         <mspace width="0.167em"/>
+         <mi>y</mi>
+         <mo>∈</mo>
+         <msup>
+            <mi>ℛ</mi>
+            <mi>n</mi>
+         </msup>
+         <mo>,</mo>
+         <mspace width="0.278em"/>
+         <mi>x</mi>
+         <mo>=</mo>
+         <mi>y</mi>
+         <mo form="postfix">}</mo>
+      </mrow>
+   </mrow>
+</math>

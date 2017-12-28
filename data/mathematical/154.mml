@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>
+            <mrow>
+               <mi>L</mi>
+               <mi>n</mi>
+            </mrow>
+         </mi>
+         <mi>Γ</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>−</mo>
+            <mstyle displaystyle="false">
+               <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+            </mstyle>
+            <mo>)</mo>
+         </mrow>
+         <mi>ln</mi>
+         <mi>z</mi>
+         <mo>−</mo>
+         <mi>z</mi>
+         <mo>+</mo>
+         <mstyle displaystyle="false">
+            <mfrac>
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+         </mstyle>
+         <mi>ln</mi>
+         <mrow>
+            <mo>(</mo>
+            <mn>2</mn>
+            <mi>π</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>+</mo>
+         <mn>2</mn>
+         <msubsup>
+            <mo>∫</mo> 
+            <mn>0</mn> 
+            <mn>∞</mn>
+         </msubsup>
+         <mfrac>
+            <mrow>
+               <mi>
+                  <mrow>
+                     <mi>a</mi>
+                     <mi>r</mi>
+                     <mi>c</mi>
+                     <mi>t</mi>
+                     <mi>a</mi>
+                     <mi>n</mi>
+                  </mrow>
+               </mi>
+               <mrow>
+                  <mo>(</mo>
+                  <mi>t</mi>
+                  <mo stretchy="false">/</mo>
+                  <mi>z</mi>
+                  <mo>)</mo>
+               </mrow>
+            </mrow>
+            <mrow>
+               <msup>
+                  <mi>e</mi> 
+                  <mrow>
+                     <mn>2</mn>
+                     <mi>π</mi>
+                     <mi>t</mi>
+                  </mrow>
+               </msup>
+               <mo>−</mo>
+               <mn>1</mn>
+            </mrow>
+         </mfrac>
+         <mrow>
+            <mi mathvariant="normal">d</mi>
+         </mrow>
+         <mi>t</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">\operatorname{Ln}\Gamma\left(z\right)=\left(z-\tfrac{1}{2}\right)\ln z-z+\tfrac{1}{2}\ln\left(2\pi\right)+2\int_{0}^{\infty}\frac{\operatorname{arctan}\left(t/z\right)}{e^{2\pi t}-1}\mathrm{d}t</annotation>
+   </semantics>
+</math>

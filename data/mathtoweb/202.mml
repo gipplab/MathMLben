@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo>|</mo>
+      <mo form="prefix">[</mo>
+      <mi>k</mi>
+      <msup>
+         <mo>]</mo>
+         <mi>n</mi>
+      </msup>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mn>1</mn>
+         <mtext>-</mtext>
+         <mn>1</mn>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>|</mo>
+      <mo>=</mo>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0em"
+             stretchy="true">(</mo>
+         <mfrac linethickness="0">
+            <mi>k</mi>
+            <mi>n</mi>
+         </mfrac>
+         <mo fence="true"
+             form="postfix"
+             lspace="0em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mi>n</mi>
+      <mo>!</mo>
+      <mo>=</mo>
+      <msub>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mi>k</mi>
+            <mo form="postfix">)</mo>
+         </mrow>
+         <mi>n</mi>
+      </msub>
+   </mrow>
+</math>

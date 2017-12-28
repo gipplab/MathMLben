@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>Γ</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+         </mrow>
+         <mi>Γ</mi>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mi>π</mi>
+         <mo stretchy="false">/</mo>
+         <mi>sin</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>π</mi>
+            <mi>z</mi>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">\Gamma\left(z\right)\Gamma\left(1-z\right)=\pi/\sin\left(\pi z\right)</annotation>
+   </semantics>
+</math>

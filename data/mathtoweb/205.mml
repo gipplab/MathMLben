@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="0.278em"/>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="0.278em"/>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="0.278em"/>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mn>1</mn>
+         <mo>-</mo>
+         <mi>x</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mspace width="0.278em"/>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>x</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>/</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="0.278em"/>
+      <mi>x</mi>
+      <mo>/</mo>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>x</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mspace width="2.00em"/>\hskip{0<mo>.</mo>0<mi>p</mi>
+      <mi>t</mi>}<mrow>
+         <mo form="prefix">(</mo>
+         <mo>*</mo>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>T</mi>
+         <mo>−</mo>
+         <mi>λ</mi>
+         <mi>I</mi>
+      </mrow>
+      <annotation encoding="application/x-tex">T-\lambda I</annotation>
+   </semantics>
+</math>

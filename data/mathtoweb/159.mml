@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>R</mi>
+         <mi>j</mi>
+      </msub>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>n</mi>
+               <mo>-</mo>
+               <mi>j</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>γ</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mi>γ</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>γ</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+               <mi>j</mi>
+               <mo form="postfix">)</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mi>γ</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>+</mo>
+               <mn>2</mn>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <mn>2</mn>
+            <mi>π</mi>
+            <mi mathvariant="normal">i</mi>
+         </mrow>
+      </mfrac>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∫</mo>
+            <mrow>
+               <mo>-</mo>
+               <mo>∞</mo>
+            </mrow>
+            <mrow>
+               <mo form="prefix">(</mo>
+               <mn>0</mn>
+               <mo>+</mo>
+               <mo form="postfix">)</mo>
+            </mrow>
+         </munderover>
+      </mstyle>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>z</mi>
+            <mi>t</mi>
+            <mo>+</mo>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+            <msup>
+               <mi>t</mi>
+               <mn>-1</mn>
+            </msup>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>t</mi>
+         <mi>κ</mi>
+      </msup>
+      <msub>
+         <mi>W</mi>
+         <mrow>
+            <mi>κ</mi>
+            <mo>,</mo>
+            <mi>μ</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <msup>
+            <mi>t</mi>
+            <mn>-1</mn>
+         </msup>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mi mathvariant="normal">d</mi>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mn>2</mn>
+            <msup>
+               <mi>z</mi>
+               <mrow>
+                  <mo>-</mo>
+                  <mi>κ</mi>
+                  <mo>-</mo>
+                  <mfrac linethickness="1">
+                     <mn>1</mn>
+                     <mn>2</mn>
+                  </mfrac>
+               </mrow>
+            </msup>
+         </mrow>
+         <mrow>
+            <mi>Γ</mi>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+               <mo>+</mo>
+               <mi>μ</mi>
+               <mo>-</mo>
+               <mi>κ</mi>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
+            <mi>Γ</mi>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <mfrac linethickness="1">
+                  <mn>1</mn>
+                  <mn>2</mn>
+               </mfrac>
+               <mo>-</mo>
+               <mi>μ</mi>
+               <mo>-</mo>
+               <mi>κ</mi>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
+         </mrow>
+      </mfrac>
+      <msub>
+         <mi>K</mi>
+         <mrow>
+            <mn>2</mn>
+            <mi>μ</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>2</mn>
+         <msqrt>
+            <mi>z</mi>
+         </msqrt>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

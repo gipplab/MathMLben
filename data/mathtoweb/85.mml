@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>X</mi>
+         <mi>i</mi>
+      </msub>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>ω</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msub>
+         <mi>ω</mi>
+         <mi>i</mi>
+      </msub>
+   </mrow>
+</math>

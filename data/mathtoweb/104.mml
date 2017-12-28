@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msup>
+         <mi>z</mi>
+         <mi>n</mi>
+      </msup>
+      <mo>=</mo>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <msup>
+            <mi>x</mi>
+            <mi>n</mi>
+         </msup>
+         <mo>-</mo>
+         <mo>≥</mo>
+         <mi>n</mi>
+         <mi>f</mi>
+         <mi>r</mi>
+         <mi>a</mi>
+         <mi>c</mi>
+         <mo form="prefix">(</mo>
+         <mo form="postfix">)</mo>
+         <mrow>
+            <mn>0.0</mn>
+            <mi>p</mi>
+            <mi>t</mi>
+         </mrow>{<mi>n</mi>}<mn>2</mn>
+         <msup>
+            <mi>x</mi>
+            <mrow>
+               <mi>n</mi>
+               <mo>-</mo>
+               <mn>2</mn>
+            </mrow>
+         </msup>
+         <msup>
+            <mi>y</mi>
+            <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <mo>≥</mo>
+         <mi>n</mi>
+         <mi>f</mi>
+         <mi>r</mi>
+         <mi>a</mi>
+         <mi>c</mi>
+         <mo form="prefix">(</mo>
+         <mo form="postfix">)</mo>
+         <mrow>
+            <mn>0.0</mn>
+            <mi>p</mi>
+            <mi>t</mi>
+         </mrow>{<mi>n</mi>}<mn>4</mn>
+         <msup>
+            <mi>x</mi>
+            <mrow>
+               <mi>n</mi>
+               <mo>-</mo>
+               <mn>4</mn>
+            </mrow>
+         </msup>
+         <msup>
+            <mi>y</mi>
+            <mn>4</mn>
+         </msup>
+         <mo>-</mo>
+         <mo>⋯</mo>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mi>i</mi>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mo>≥</mo>
+         <mi>n</mi>
+         <mi>f</mi>
+         <mi>r</mi>
+         <mi>a</mi>
+         <mi>c</mi>
+         <mo form="prefix">(</mo>
+         <mo form="postfix">)</mo>
+         <mrow>
+            <mn>0.0</mn>
+            <mi>p</mi>
+            <mi>t</mi>
+         </mrow>{<mi>n</mi>}<mn>1</mn>
+         <msup>
+            <mi>x</mi>
+            <mrow>
+               <mi>n</mi>
+               <mo>-</mo>
+               <mn>1</mn>
+            </mrow>
+         </msup>
+         <mi>y</mi>
+         <mo>-</mo>
+         <mo>≥</mo>
+         <mi>n</mi>
+         <mi>f</mi>
+         <mi>r</mi>
+         <mi>a</mi>
+         <mi>c</mi>
+         <mo form="prefix">(</mo>
+         <mo form="postfix">)</mo>
+         <mrow>
+            <mn>0.0</mn>
+            <mi>p</mi>
+            <mi>t</mi>
+         </mrow>{<mi>n</mi>}<mn>3</mn>
+         <msup>
+            <mi>x</mi>
+            <mrow>
+               <mi>n</mi>
+               <mo>-</mo>
+               <mn>3</mn>
+            </mrow>
+         </msup>
+         <msup>
+            <mi>y</mi>
+            <mn>3</mn>
+         </msup>
+         <mo>+</mo>
+         <mo>⋯</mo>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

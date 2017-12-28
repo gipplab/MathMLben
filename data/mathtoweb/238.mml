@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>A</mi>
+         <mi>N</mi>
+      </msub>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>α</mi>
+         <mo>,</mo>
+         <mi>β</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mi>N</mi>
+      </mfrac>
+      <mi>𝔼</mi>
+      <mi>ln</mi>
+      <mstyle displaystyle="true">
+         <munder>
+            <mo>∑</mo>
+            <mi>σ</mi>
+         </munder>
+      </mstyle>
+      <mi>exp</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mo>-</mo>
+         <mi>β</mi>
+         <msub>
+            <mi>H</mi>
+            <mi>N</mi>
+         </msub>
+         <mo form="prefix">(</mo>
+         <mi>σ</mi>
+         <mo form="postfix">)</mo>
+         <mo form="postfix">)</mo>
+      </mrow>
+   </mrow>
+</math>

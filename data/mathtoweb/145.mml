@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>R</mi>
+         <mi>J</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo>,</mo>
+         <mi>z</mi>
+         <mo>,</mo>
+         <mo>±</mo>
+         <msqrt>
+            <mrow>
+               <mi>y</mi>
+               <mi>z</mi>
+            </mrow>
+         </msqrt>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>±</mo>
+      <mfrac linethickness="1">
+         <mn>3</mn>
+         <mrow>
+            <mn>2</mn>
+            <msqrt>
+               <mrow>
+                  <mi>y</mi>
+                  <mi>z</mi>
+               </mrow>
+            </msqrt>
+         </mrow>
+      </mfrac>
+      <msub>
+         <mi>R</mi>
+         <mi>F</mi>
+      </msub>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo>,</mo>
+         <mi>z</mi>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>dim</mi>
+      <mi>f</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>Z</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>&gt;</mo>
+      <mi>n</mi>
+   </mrow>
+</math>

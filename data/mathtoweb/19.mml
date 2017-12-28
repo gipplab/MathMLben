@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>Z</mi>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munder>
+            <mo>∑</mo>
+            <mi>j</mi>
+         </munder>
+      </mstyle>
+      <msub>
+         <mi>g</mi>
+         <mi>j</mi>
+      </msub>
+      <mo>⋅</mo>
+      <msup>
+         <mrow>
+            <mi mathvariant="normal">e</mi>
+         </mrow>
+         <mrow>
+            <mo>-</mo>
+            <mi>β</mi>
+            <msub>
+               <mi>E</mi>
+               <mi>j</mi>
+            </msub>
+         </mrow>
+      </msup>
+   </mrow>
+</math>
