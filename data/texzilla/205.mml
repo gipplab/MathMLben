@@ -1,0 +1,58 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="thickmathspace"/>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="thickmathspace"/>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="thickmathspace"/>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+      <mo>,</mo>
+      <mspace width="thickmathspace"/>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+      <mo>/</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mspace width="thickmathspace"/>
+      <mi>x</mi>
+      <mo>/</mo>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+      <mspace width="2em"/>
+      <mtext>\</mtext>
+      <mi>h</mi>
+      <mi>s</mi>
+      <mi>k</mi>
+      <mi>i</mi>
+      <mi>p</mi>
+      <mrow>
+        <mn>0.0</mn>
+        <mi>p</mi>
+        <mi>t</mi>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">x,\;1/x,\;1-x,\;1/(1-x),\;(x-1)/x,\;x/(x-1)\qquad\hskip{0.0pt}</annotation>
+  </semantics>
+</math>

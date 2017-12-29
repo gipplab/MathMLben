@@ -1,0 +1,131 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>w</mi>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>,</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mn>4</mn>
+          </mfrac>
+          <mi>i</mi>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </msup>
+      <mi>M</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>4</mn>
+            </mfrac>
+          </mstyle>
+          <mo>-</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>i</mi>
+          <mi>a</mi>
+          <mo>,</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mo>,</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>i</mi>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>4</mn>
+          </mfrac>
+          <mi>i</mi>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </msup>
+      <mi>M</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>4</mn>
+            </mfrac>
+          </mstyle>
+          <mo>+</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>i</mi>
+          <mi>a</mi>
+          <mo>,</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mo>,</mo>
+          <mo>-</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>i</mi>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">w_{1}(a,x)=e^{-\frac{1}{4}ix^{2}}M\left(\tfrac{1}{4}-\tfrac{1}{2}ia,\tfrac{1}{2},\tfrac{1}{2}ix^{2}\right)=e^{\frac{1}{4}ix^{2}}M\left(\tfrac{1}{4}+\tfrac{1}{2}ia,\tfrac{1}{2},-\tfrac{1}{2}ix^{2}\right)</annotation>
+  </semantics>
+</math>

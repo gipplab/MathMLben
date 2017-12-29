@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>W</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <munder>
+        <mo>∑</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>≤</mo>
+          <mi>ℓ</mi>
+          <mo>&lt;</mo>
+          <mi>j</mi>
+          <mo>≤</mo>
+          <mi>n</mi>
+        </mrow>
+      </munder>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mo stretchy="false">|</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mi>i</mi>
+          <msub>
+            <mi>θ</mi>
+            <mi>ℓ</mi>
+          </msub>
+        </mrow>
+      </msup>
+      <mo>-</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mi>i</mi>
+          <msub>
+            <mi>θ</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+      </msup>
+      <mo stretchy="false">|</mo>
+    </mrow>
+    <annotation encoding="TeX">W=-\sum_{1\leq\ell&lt;j\leq n}\ln|e^{i\theta_{\ell}}-e^{i\theta_{j}}|</annotation>
+  </semantics>
+</math>

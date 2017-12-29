@@ -1,0 +1,38 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mi>z</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>z</mi>
+      <mo>-</mo>
+      <mfrac>
+        <msup>
+          <mi>z</mi>
+          <mn>2</mn>
+        </msup>
+        <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+        <msup>
+          <mi>z</mi>
+          <mn>3</mn>
+        </msup>
+        <mn>3</mn>
+      </mfrac>
+      <mo>-</mo>
+      <mo>⋯</mo>
+    </mrow>
+    <annotation encoding="TeX">\ln\left(1+z\right)=z-\frac{z^{2}}{2}+\frac{z^{3}}{3}-\cdots</annotation>
+  </semantics>
+</math>

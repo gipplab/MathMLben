@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>d</mi>
+      <mi>c</mi>
+      <mi>l</mi>
+      <mo stretchy="false">(</mo>
+      <mi>A</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">dcl(A)</annotation>
+  </semantics>
+</math>

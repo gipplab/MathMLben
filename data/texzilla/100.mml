@@ -1,0 +1,15 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>y</mi>
+        <mi>k</mi>
+      </msub>
+      <mo stretchy="false">[</mo>
+      <mi>n</mi>
+      <mo stretchy="false">]</mo>
+    </mrow>
+    <annotation encoding="TeX">y_k[n]</annotation>
+  </semantics>
+</math>

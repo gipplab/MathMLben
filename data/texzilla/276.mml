@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>η</mi>
+        <mrow>
+          <mi>μ</mi>
+          <mi>ν</mi>
+        </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mtext>\</mtext>
+      <mi>d</mi>
+      <mi>i</mi>
+      <mi>a</mi>
+      <mi>g</mi>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">(\eta_{\mu\nu})=\diag(-1,1,1,1)</annotation>
+  </semantics>
+</math>

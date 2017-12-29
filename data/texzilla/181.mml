@@ -1,0 +1,31 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>U</mi>
+        <mn>4</mn>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mn>16</mn>
+      <msup>
+        <mi>x</mi>
+        <mn>4</mn>
+      </msup>
+      <mo>-</mo>
+      <mn>12</mn>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mn>1</mn>
+    </mrow>
+    <annotation encoding="TeX">U_{4}\left(x\right)=16x^{4}-12x^{2}+1</annotation>
+  </semantics>
+</math>

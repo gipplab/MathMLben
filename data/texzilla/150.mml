@@ -1,0 +1,39 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>ℑ</mi>
+      <mi>ψ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mo>+</mo>
+          <mi>i</mi>
+          <mi>y</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mi>π</mi>
+        <mn>2</mn>
+      </mfrac>
+      <mo lspace="0em" rspace="0em">tanh</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>π</mi>
+          <mi>y</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\Im\psi\left(\tfrac{1}{2}+iy\right)=\frac{\pi}{2}\tanh\left(\pi y\right)</annotation>
+  </semantics>
+</math>

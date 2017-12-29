@@ -1,0 +1,55 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mo>∫</mo>
+        <msup>
+          <mstyle mathvariant="double-struck">
+            <mi>R</mi>
+          </mstyle>
+          <mi>n</mi>
+        </msup>
+      </msub>
+      <mi>f</mi>
+      <mspace width="thinmathspace"/>
+      <mi>d</mi>
+      <mi>x</mi>
+      <mo>=</mo>
+      <msubsup>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mn>∞</mn>
+      </msubsup>
+      <mrow>
+        <mo>{</mo>
+        <mrow>
+          <msub>
+            <mo>∫</mo>
+            <mrow>
+              <mo>∂</mo>
+              <mi>B</mi>
+              <mo stretchy="false">(</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>0</mn>
+              </msub>
+              <mo>;</mo>
+              <mi>r</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </msub>
+          <mi>f</mi>
+          <mspace width="thinmathspace"/>
+          <mi>d</mi>
+          <mi>S</mi>
+        </mrow>
+        <mo>}</mo>
+      </mrow>
+      <mspace width="thinmathspace"/>
+      <mi>d</mi>
+      <mi>r</mi>
+    </mrow>
+    <annotation encoding="TeX">\int_{\mathbb{R}^n}f\,dx = \int_0^\infty\left\{\int_{\partial B(x_0;r)} f\,dS\right\}\,dr</annotation>
+  </semantics>
+</math>

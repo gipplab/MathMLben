@@ -1,0 +1,89 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>p</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mo>-</mo>
+          <mi>x</mi>
+          <mo>±</mo>
+          <msqrt>
+            <mrow>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>-</mo>
+              <mn>4</mn>
+              <mo stretchy="false">(</mo>
+              <mfrac>
+                <mrow>
+                  <mo>-</mo>
+                  <mi>g</mi>
+                  <msup>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                  </msup>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                  <msup>
+                    <mi>v</mi>
+                    <mn>2</mn>
+                  </msup>
+                </mrow>
+              </mfrac>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">(</mo>
+              <mfrac>
+                <mrow>
+                  <mo>-</mo>
+                  <mi>g</mi>
+                  <msup>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                  </msup>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                  <msup>
+                    <mi>v</mi>
+                    <mn>2</mn>
+                  </msup>
+                </mrow>
+              </mfrac>
+              <mo>-</mo>
+              <mi>y</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </msqrt>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mo stretchy="false">(</mo>
+          <mfrac>
+            <mrow>
+              <mo>-</mo>
+              <mi>g</mi>
+              <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <msup>
+                <mi>v</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </mfrac>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX"> p = {\frac{-x\pm\sqrt{x^2-4(\frac{-gx^2}{2v^2})(\frac{-gx^2}{2v^2}-y)}}{2(\frac{-gx^2}{2v^2}) }}</annotation>
+  </semantics>
+</math>

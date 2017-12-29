@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>t</mi>
+      <mo>∊</mo>
+      <msub>
+        <mrow>
+          <mtext>\</mtext>
+          <mi>b</mi>
+          <mi>f</mi>
+          <mi>R</mi>
+        </mrow>
+        <mo>+</mo>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">t\in{\bf R}_{+}</annotation>
+  </semantics>
+</math>

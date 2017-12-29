@@ -1,0 +1,29 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">|</mo>
+      <mi>f</mi>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>α</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mo>+</mo>
+      <mi>β</mi>
+      <mo stretchy="false">)</mo>
+      <mo>-</mo>
+      <mi>f</mi>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">|</mo>
+      <mo>&lt;</mo>
+      <mi>ϵ</mi>
+    </mrow>
+    <annotation encoding="TeX">|f(a+\alpha,b+\beta) - f(a,b)| &lt; \epsilon</annotation>
+  </semantics>
+</math>

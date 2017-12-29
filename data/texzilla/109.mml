@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <msub>
+        <mi>w</mi>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>+</mo>
+      <mi>B</mi>
+      <msub>
+        <mi>w</mi>
+        <mn>2</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX">Aw_{1}(z)+Bw_{2}(z)=0</annotation>
+  </semantics>
+</math>

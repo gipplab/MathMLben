@@ -1,0 +1,22 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <munder>
+        <mo>∑</mo>
+        <mi>x</mi>
+      </munder>
+      <munder>
+        <mo>∑</mo>
+        <mi>y</mi>
+      </munder>
+      <mi>I</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\sum_x \sum_y I(x,y) </annotation>
+  </semantics>
+</math>

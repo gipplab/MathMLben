@@ -1,0 +1,38 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>G</mi>
+        <mrow>
+          <mi>k</mi>
+          <mo>,</mo>
+          <mi>σ</mi>
+        </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mi>k</mi>
+      <mi>y</mi>
+      <mo>/</mo>
+      <mi>σ</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mo>-</mo>
+          <mn>1</mn>
+          <mo>/</mo>
+          <mi>k</mi>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">G_{k, \sigma} (y)= 1-(1+ky/\sigma)^{-1/k} </annotation>
+  </semantics>
+</math>

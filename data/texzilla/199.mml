@@ -1,0 +1,148 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>{</mo>
+        <mtable displaystyle="false" rowspacing="0.5ex">
+          <mtr>
+            <mtd>
+              <msub>
+                <mi>j</mi>
+                <mn>1</mn>
+              </msub>
+            </mtd>
+            <mtd>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+            </mtd>
+            <mtd>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+              <mtext>\</mtext>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mtd>
+            <mtd>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+              <mo>-</mo>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mtd>
+            <mtd>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>-</mo>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>}</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>J</mi>
+      </msup>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mfrac>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+              <mo>-</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>1</mn>
+              </msub>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">(</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>1</mn>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+              <mo>+</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <msub>
+                <mi>j</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>+</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+              <mn>2</mn>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <msub>
+                <mi>j</mi>
+                <mn>3</mn>
+              </msub>
+              <mo>+</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\begin{Bmatrix}j_{1}&amp;j_{2}&amp;j_{3}\
+\frac{1}{2}&amp;j_{3}-\frac{1}{2}&amp;j_{2}-\frac{1}{2}\end{Bmatrix}=(-1)^{J}\left(\frac{(j_{2}+j_{3}-j_{1})(j_{1}+j_{2}+j_{3}+1)}{2j_{2}(2j_{2}+1)2j_{3}(2j_{3}+1)}\right)^{\frac{1}{2}}</annotation>
+  </semantics>
+</math>

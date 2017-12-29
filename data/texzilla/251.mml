@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...Delta x\Delta p\geq|&amp;lt;[\widehat{x},\wi
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">\Delta x\Delta p\geq|&amp;lt;[\widehat{x},\widehat{p}]&amp;gt;|</annotation>
+  </semantics>
+</math>

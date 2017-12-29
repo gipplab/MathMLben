@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...2}\left(1+\frac{g_{%&amp;#10;s}\pi\sin\theta
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">S_{\rm probe}=-(T_{4}L)\int d^{4}x\,\sqrt{-g}\left[{1\over 2}\left(1+\frac{g_{%&amp;#10;s}\pi\sin\theta}{2(M_{s}L)(M_{s}y)^{2}}\right)|\partial y|^{2}-2\left(1-\frac{%&amp;#10;g_{s}\pi\tan^{3}\theta}{8(M_{s}L)(M_{s}y)^{2}}\right)\right]</annotation>
+  </semantics>
+</math>

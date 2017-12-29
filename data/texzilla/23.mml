@@ -1,0 +1,41 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>D</mi>
+      <mo stretchy="false">(</mo>
+      <mi>G</mi>
+      <mo>,</mo>
+      <mi>H</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mn>29</mn>
+      </munderover>
+      <mo stretchy="false">|</mo>
+      <msub>
+        <mi>F</mi>
+        <mi>i</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>G</mi>
+      <mo stretchy="false">)</mo>
+      <mo>-</mo>
+      <msub>
+        <mi>F</mi>
+        <mi>i</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>H</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">|</mo>
+    </mrow>
+    <annotation encoding="TeX">D(G,H) = \sum_{i=1}^{29} | F_i(G) - F_i(H) |</annotation>
+  </semantics>
+</math>

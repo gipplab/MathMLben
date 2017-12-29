@@ -1,0 +1,117 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msup>
+        <mo lspace="0em" rspace="thinmathspace">gd</mo>
+        <mrow>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mo lspace="0em" rspace="0em">tan</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>4</mn>
+            </mfrac>
+          </mstyle>
+          <mi>π</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">sec</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mo lspace="0em" rspace="0em">tan</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">arcsinh</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">tan</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">arccsch</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">cot</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">arccosh</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">sec</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">arcsech</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">cos</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">arctanh</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">sin</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">arccoth</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mo lspace="0em" rspace="0em">csc</mo>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">{\operatorname{gd}^{-1}}\left(x\right)=\ln\tan\left(\tfrac{1}{2}x+\tfrac{1}{4}\pi\right)=\ln\left(\sec x+\tan x\right)=\operatorname{arcsinh}\left(\tan x\right)=\operatorname{arccsch}\left(\cot x\right)=\operatorname{arccosh}\left(\sec x\right)=\operatorname{arcsech}\left(\cos x\right)=\operatorname{arctanh}\left(\sin x\right)=\operatorname{arccoth}\left(\csc x\right)</annotation>
+  </semantics>
+</math>

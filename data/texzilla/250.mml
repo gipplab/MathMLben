@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>θ</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mi>σ</mi>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">\theta=\frac{1}{\sigma}</annotation>
+  </semantics>
+</math>

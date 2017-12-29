@@ -1,0 +1,21 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mo>,</mo>
+      <mo stretchy="false">(</mo>
+      <mi>c</mi>
+      <mo>,</mo>
+      <mi>d</mi>
+      <mo>,</mo>
+      <mi>e</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">(a,b,(c,d,e))</annotation>
+  </semantics>
+</math>

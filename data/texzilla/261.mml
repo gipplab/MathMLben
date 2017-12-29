@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>μ</mi>
+        <mi>k</mi>
+      </msub>
+      <mo>=</mo>
+      <mi>E</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>C</mi>
+        <mi>k</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mover>
+          <mi>s</mi>
+          <mo>̈</mo>
+        </mover>
+        <mi>a</mi>
+      </msub>
+      <msubsup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mover>
+            <mi>k</mi>
+            <mo>¯</mo>
+          </mover>
+          <mo stretchy="false">|</mo>
+          <mi>j</mi>
+        </mrow>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>p</mi>
+          <mo>,</mo>
+          <mi>q</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msubsup>
+    </mrow>
+    <annotation encoding="TeX">{\mu}_{k}=E(C_{k})=({\ddot{s}}_{a})_{\overline{k}|j}^{(p,q)}</annotation>
+  </semantics>
+</math>

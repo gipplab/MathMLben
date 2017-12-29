@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>f</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>+</mo>
+      <msub>
+        <mi>f</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>=</mo>
+      <mn>2</mn>
+      <msub>
+        <mi>f</mi>
+        <mn>0</mn>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">f_{1}+f_{2}=2f_{0}</annotation>
+  </semantics>
+</math>

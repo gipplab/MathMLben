@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+..._{i}!\right)\prod_{i&amp;lt;j}\frac{n_{i}+n_
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">H^{*}_{\lambda}=\left(\prod_{i=1}^{k}n_{i}!\right)\prod_{i&amp;lt;j}\frac{n_{i}+n_{j}%&amp;#10;}{n_{i}-n_{j}}=2^{-\frac{k}{2}}\sqrt{H_{\tilde{\lambda}}},\quad\frac{1}{\sqrt{%&amp;#10;H_{\tilde{\lambda}}}}=\sqrt{s_{\tilde{\lambda}}({\bf t}_{\infty})}=2^{-\frac{k%&amp;#10;}{2}}Q_{\lambda}(\frac{{\bf t}_{\infty}}{2})</annotation>
+  </semantics>
+</math>

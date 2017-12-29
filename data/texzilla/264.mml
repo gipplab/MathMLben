@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...um_{\alpha\neq\beta}&amp;lt;\hat{P}(e_{\alph
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">q(\pi_{n})\equiv\sum_{\alpha\neq\beta}&amp;lt;\hat{P}(e_{\alpha})\hat{P}(\pi_{n})\hat%&amp;#10;{P}(e_{\beta})&amp;gt</annotation>
+  </semantics>
+</math>

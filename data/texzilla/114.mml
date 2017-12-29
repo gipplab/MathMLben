@@ -1,0 +1,24 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>w</mi>
+      <mo>=</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mo>-</mo>
+          <msub>
+            <mi>f</mi>
+            <mn>0</mn>
+          </msub>
+          <mi>z</mi>
+          <mo>/</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi>W</mi>
+    </mrow>
+    <annotation encoding="TeX">w=e^{-f_{0}z/2}W</annotation>
+  </semantics>
+</math>

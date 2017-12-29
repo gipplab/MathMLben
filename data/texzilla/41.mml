@@ -1,0 +1,10 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msup>
+      <mi>q</mi>
+      <mn>42</mn>
+    </msup>
+    <annotation encoding="TeX">q^{42}</annotation>
+  </semantics>
+</math>

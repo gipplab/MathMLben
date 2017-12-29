@@ -1,0 +1,11 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">⌊</mo>
+      <mo>…</mo>
+      <mo stretchy="false">⌋</mo>
+    </mrow>
+    <annotation encoding="TeX">\lfloor\ldots\rfloor</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,25 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <msqrt>
+        <msub>
+          <mi>p</mi>
+          <mn>1</mn>
+        </msub>
+      </msqrt>
+      <mo>,</mo>
+      <mo>⋯</mo>
+      <mo>,</mo>
+      <msqrt>
+        <msub>
+          <mi>p</mi>
+          <mi>n</mi>
+        </msub>
+      </msqrt>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">(\sqrt{p_1}, \cdots ,\sqrt{p_n})</annotation>
+  </semantics>
+</math>

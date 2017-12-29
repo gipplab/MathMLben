@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msub>
+      <mstyle mathvariant="bold">
+        <mi>F</mi>
+      </mstyle>
+      <mi>r</mi>
+    </msub>
+    <annotation encoding="TeX">\boldsymbol{F}_r</annotation>
+  </semantics>
+</math>

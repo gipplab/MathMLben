@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>z</mi>
+      <mo>=</mo>
+      <msup>
+        <mi>ζ</mi>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">z=\zeta^{2}</annotation>
+  </semantics>
+</math>

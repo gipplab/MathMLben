@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>p</mi>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+      <msup>
+        <mo>!</mo>
+        <mi>n</mi>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">(p-1)!^n</annotation>
+  </semantics>
+</math>

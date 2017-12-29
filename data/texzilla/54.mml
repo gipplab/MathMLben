@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mstyle mathvariant="sans-serif">
+      <mrow>
+        <mi>f</mi>
+        <mi>v</mi>
+      </mrow>
+    </mstyle>
+    <annotation encoding="TeX">\mathsf{fv}</annotation>
+  </semantics>
+</math>

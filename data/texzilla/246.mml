@@ -1,0 +1,36 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>C</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mo stretchy="false">(</mo>
+      <mi>Z</mi>
+      <mi>F</mi>
+      <mi>C</mi>
+      <mo>+</mo>
+      <mi>I</mi>
+      <mi>F</mi>
+      <msub>
+        <mi>S</mi>
+        <mrow>
+          <mi>W</mi>
+          <mspace width="negativethinmathspace"/>
+          <mi>A</mi>
+          <mi>b</mi>
+          <mspace width="thinmathspace"/>
+          <mi>L</mi>
+          <mo stretchy="false">(</mo>
+          <msub>
+            <mi>V</mi>
+            <mi>α</mi>
+          </msub>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">Con(ZFC+IFS_{W\!Ab\,L(V_{\alpha})})</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,55 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>N</mi>
+      <mo stretchy="false">(</mo>
+      <mi>n</mi>
+      <mo>,</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mi>n</mi>
+      </mfrac>
+      <mo>≥</mo>
+      <mi>n</mi>
+      <mi>f</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>c</mi>
+      <mo stretchy="false">(</mo>
+      <mo stretchy="false">)</mo>
+      <mrow>
+        <mn>0.0</mn>
+        <mi>p</mi>
+        <mi>t</mi>
+      </mrow>
+      <mrow/>
+      <mi>n</mi>
+      <mi>k</mi>
+      <mo>≥</mo>
+      <mi>n</mi>
+      <mi>f</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>c</mi>
+      <mo stretchy="false">(</mo>
+      <mo stretchy="false">)</mo>
+      <mrow>
+        <mn>0.0</mn>
+        <mi>p</mi>
+        <mi>t</mi>
+      </mrow>
+      <mrow/>
+      <mi>n</mi>
+      <mrow>
+        <mi>k</mi>
+        <mo>-</mo>
+        <mn>1</mn>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">N(n,k)=\frac{1}{n}\genfrac{(}{)}{0.0pt}{}{n}{k}\genfrac{(}{)}{0.0pt}{}{n}{k-1}</annotation>
+  </semantics>
+</math>

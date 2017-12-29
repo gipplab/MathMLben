@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo>∫</mo>
+      <msub>
+        <mi>E</mi>
+        <mi>n</mi>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>t</mi>
+        <mo>)</mo>
+      </mrow>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mi>E</mi>
+            <mrow>
+              <mi>n</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <mrow>
+            <mo>(</mo>
+            <mi>t</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mtext>const.</mtext>
+    </mrow>
+    <annotation encoding="TeX">\int E_{n}\left(t\right)\mathrm{d}t=\frac{E_{n+1}\left(t\right)}{n+1}+\text{const.}</annotation>
+  </semantics>
+</math>

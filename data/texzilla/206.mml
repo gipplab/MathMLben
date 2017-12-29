@@ -1,0 +1,39 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>p</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>π</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <munder>
+        <mo>∑</mo>
+        <mi>α</mi>
+      </munder>
+      <mspace width="thickmathspace"/>
+      <msub>
+        <mi>p</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>e</mi>
+        <mi>α</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>+</mo>
+      <mi>q</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>π</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">p(\pi_{n})=\sum_{\alpha}\;p_{n}(e_{\alpha})+q(\pi_{n})</annotation>
+  </semantics>
+</math>

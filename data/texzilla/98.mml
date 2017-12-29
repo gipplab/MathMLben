@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msup>
+      <mover>
+        <mi>V</mi>
+        <mo stretchy="false">¯</mo>
+      </mover>
+      <mo>*</mo>
+    </msup>
+    <annotation encoding="TeX">\bar V^*</annotation>
+  </semantics>
+</math>

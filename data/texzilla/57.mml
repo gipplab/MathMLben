@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mn>0</mn>
+      <mo stretchy="false">→</mo>
+      <mi>B</mi>
+      <mo stretchy="false">→</mo>
+      <mi>A</mi>
+      <mo>⊕</mo>
+      <mi>B</mi>
+      <mo stretchy="false">→</mo>
+      <mi>A</mi>
+      <mo stretchy="false">→</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX">0\rightarrow B\rightarrow A\oplus B\rightarrow A\rightarrow0</annotation>
+  </semantics>
+</math>

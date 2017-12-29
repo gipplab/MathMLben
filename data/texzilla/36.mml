@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>n</mi>
+      <mo>=</mo>
+      <munderover>
+        <mo>∏</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>r</mi>
+      </munderover>
+      <msubsup>
+        <mi>p</mi>
+        <mi>i</mi>
+        <msub>
+          <mi>a</mi>
+          <mi>i</mi>
+        </msub>
+      </msubsup>
+    </mrow>
+    <annotation encoding="TeX">n = \prod_{i=1}^r p_i^{a_i}</annotation>
+  </semantics>
+</math>

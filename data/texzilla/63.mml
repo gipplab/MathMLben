@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Lexical error on line 1. Unrecognized text.
+... \right) = {\mathop{\rm sgn}} \left( {{\
+-----------------------^</mtext>
+    </merror>
+    <annotation encoding="TeX">y\left( x \right) = {\mathop{\rm sgn}} \left( {{\rho }} \right)\frac{{{\sigma _y}}}{{{\sigma _x}}}\left( {x - {\mu _x}} \right) + {\mu _y}.
+  </annotation>
+  </semantics>
+</math>

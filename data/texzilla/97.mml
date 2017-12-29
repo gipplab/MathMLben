@@ -1,0 +1,18 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mstyle mathvariant="bold">
+      <mrow>
+        <msup>
+          <mi>J</mi>
+          <mi>T</mi>
+        </msup>
+        <mi>W</mi>
+        <mtext>\</mtext>
+        <mi>Δ</mi>
+        <mi>y</mi>
+      </mrow>
+    </mstyle>
+    <annotation encoding="TeX">\mathbf{J^TW\  \Delta y}</annotation>
+  </semantics>
+</math>

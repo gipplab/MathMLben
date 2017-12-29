@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>H</mi>
+      <mo stretchy="false">(</mo>
+      <mi>j</mi>
+      <mi>ω</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mstyle mathvariant="script">
+        <mi>F</mi>
+      </mstyle>
+      <mo stretchy="false">{</mo>
+      <mi>h</mi>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">}</mo>
+    </mrow>
+    <annotation encoding="TeX">H(j \omega) = \mathcal{F}\{h(t)\}</annotation>
+  </semantics>
+</math>

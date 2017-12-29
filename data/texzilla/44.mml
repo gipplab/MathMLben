@@ -1,0 +1,42 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mi>D</mi>
+            <mi>g</mi>
+          </msub>
+          <msub>
+            <mi>u</mi>
+            <mi>g</mi>
+          </msub>
+        </mrow>
+        <mrow>
+          <mi>D</mi>
+          <mi>t</mi>
+        </mrow>
+      </mfrac>
+      <mo>-</mo>
+      <msub>
+        <mi>f</mi>
+        <mn>0</mn>
+      </msub>
+      <msub>
+        <mi>v</mi>
+        <mi>a</mi>
+      </msub>
+      <mo>-</mo>
+      <mi>β</mi>
+      <mi>y</mi>
+      <msub>
+        <mi>v</mi>
+        <mi>g</mi>
+      </msub>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX"> \frac{D_g u_g}{Dt} - f_{0}v_a - \beta y v_g = 0 </annotation>
+  </semantics>
+</math>

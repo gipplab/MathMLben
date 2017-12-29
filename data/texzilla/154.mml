@@ -1,0 +1,87 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo lspace="0em" rspace="thinmathspace">Ln</mo>
+      <mi>Γ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mi>z</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>z</mi>
+          <mo>-</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mi>z</mi>
+      <mo>-</mo>
+      <mi>z</mi>
+      <mo>+</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </mstyle>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>2</mn>
+          <mi>π</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+      <msubsup>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mn>∞</mn>
+      </msubsup>
+      <mfrac>
+        <mrow>
+          <mo lspace="0em" rspace="thinmathspace">arctan</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>t</mi>
+              <mo>/</mo>
+              <mi>z</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <msup>
+            <mi>e</mi>
+            <mrow>
+              <mn>2</mn>
+              <mi>π</mi>
+              <mi>t</mi>
+            </mrow>
+          </msup>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>t</mi>
+    </mrow>
+    <annotation encoding="TeX">\operatorname{Ln}\Gamma\left(z\right)=\left(z-\tfrac{1}{2}\right)\ln z-z+\tfrac{1}{2}\ln\left(2\pi\right)+2\int_{0}^{\infty}\frac{\operatorname{arctan}\left(t/z\right)}{e^{2\pi t}-1}\mathrm{d}t</annotation>
+  </semantics>
+</math>

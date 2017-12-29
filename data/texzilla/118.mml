@@ -1,0 +1,137 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>M</mi>
+        <mi>ν</mi>
+        <mn>2</mn>
+      </msubsup>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <mfrac>
+        <mn>2</mn>
+        <mrow>
+          <mi>π</mi>
+          <mi>x</mi>
+        </mrow>
+      </mfrac>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mfrac>
+            <mrow>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+              <msup>
+                <mo stretchy="false">)</mo>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mfrac>
+            <mrow>
+              <mn>1</mn>
+              <mo>⋅</mo>
+              <mn>3</mn>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>⋅</mo>
+              <mn>4</mn>
+            </mrow>
+          </mfrac>
+          <mfrac>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>9</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+              <msup>
+                <mo stretchy="false">)</mo>
+                <mn>4</mn>
+              </msup>
+            </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mfrac>
+            <mrow>
+              <mn>1</mn>
+              <mo>⋅</mo>
+              <mn>3</mn>
+              <mo>⋅</mo>
+              <mn>5</mn>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>⋅</mo>
+              <mn>4</mn>
+              <mo>⋅</mo>
+              <mn>6</mn>
+            </mrow>
+          </mfrac>
+          <mfrac>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>9</mn>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>25</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+              <msup>
+                <mo stretchy="false">)</mo>
+                <mn>6</mn>
+              </msup>
+            </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mo>⋯</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">{M_{\nu}^{2}}\left(x\right)\sim\frac{2}{\pi x}\left(1+\frac{1}{2}\frac{\mu-1}{(2x)^{2}}+\frac{1\cdot 3}{2\cdot 4}\frac{(\mu-1)(\mu-9)}{(2x)^{4}}+\frac{1\cdot 3\cdot 5}{2\cdot 4\cdot 6}\frac{(\mu-1)(\mu-9)(\mu-25)}{(2x)^{6}}+\cdots\right)</annotation>
+  </semantics>
+</math>

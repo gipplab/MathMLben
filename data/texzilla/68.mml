@@ -1,0 +1,22 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>P</mi>
+        <mi>x</mi>
+      </msub>
+      <mo>=</mo>
+      <mi>P</mi>
+      <mo>-</mo>
+      <mo stretchy="false">{</mo>
+      <mi>a</mi>
+      <mo>∣</mo>
+      <mi>a</mi>
+      <mo>≥</mo>
+      <mi>x</mi>
+      <mo stretchy="false">}</mo>
+    </mrow>
+    <annotation encoding="TeX"> P_x = P - \{ a\mid a \geq x\} </annotation>
+  </semantics>
+</math>

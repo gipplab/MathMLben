@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Λ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mi>n</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mi>p</mi>
+    </mrow>
+    <annotation encoding="TeX">\Lambda\left(n\right)=\ln p</annotation>
+  </semantics>
+</math>

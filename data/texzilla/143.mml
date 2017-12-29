@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+\(E\left(-ik^{\prime}/k\right)=(1/
+--------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">E\left(-ik^{\prime}/k\right)=(1/k)E\left(k^{\prime}\right)</annotation>
+  </semantics>
+</math>

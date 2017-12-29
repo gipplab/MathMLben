@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>b</mi>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">b(k)</annotation>
+  </semantics>
+</math>

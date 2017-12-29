@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <mi>P</mi>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mi>P</mi>
+      <mo>+</mo>
+      <mi>a</mi>
+      <mo stretchy="false">)</mo>
+      <mi>A</mi>
+    </mrow>
+    <annotation encoding="TeX">AP=(P+a)A</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,80 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mover>
+          <mi>J</mi>
+          <mo>˜</mo>
+        </mover>
+        <mi>ν</mi>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mfrac>
+            <mrow>
+              <mn>2</mn>
+              <mo lspace="0em" rspace="0em">tanh</mo>
+              <mo stretchy="false">(</mo>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+              <mi>π</mi>
+              <mi>ν</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mi>π</mi>
+              <mi>ν</mi>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </msup>
+      <mo lspace="0em" rspace="0em">cos</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>ν</mi>
+          <mo lspace="0em" rspace="0em">ln</mo>
+          <mo stretchy="false">(</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+          <mo>-</mo>
+          <msub>
+            <mi>γ</mi>
+            <mi>ν</mi>
+          </msub>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mi>O</mi>
+      <mo stretchy="false">(</mo>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\widetilde{J}_{\nu}\left(x\right)=\left(\frac{2\tanh(\frac{1}{2}\pi\nu)}{\pi\nu}\right)^{\frac{1}{2}}\cos\left(\nu\ln(\tfrac{1}{2}x)-\gamma_{\nu}\right)+O(x^{2})</annotation>
+  </semantics>
+</math>

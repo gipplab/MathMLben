@@ -1,0 +1,42 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>a</mi>
+      <mi>p</mi>
+      <mi>p</mi>
+      <mo>:</mo>
+      <mo stretchy="false">(</mo>
+      <mi>A</mi>
+      <mspace width="negativethinmathspace"/>
+      <mo>:</mo>
+      <mspace width="negativethinmathspace"/>
+      <mo>⋆</mo>
+      <mo stretchy="false">)</mo>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mo stretchy="false">(</mo>
+      <mi>A</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">→</mo>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mo stretchy="false">(</mo>
+      <mi>A</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">→</mo>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mo stretchy="false">(</mo>
+      <mi>A</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">app:(A\!:\!\star)list(A)\rightarrow list(A)\rightarrow list(A)</annotation>
+  </semantics>
+</math>

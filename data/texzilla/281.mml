@@ -1,0 +1,39 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>v</mi>
+        <mi>p</mi>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <msub>
+            <mo>∂</mo>
+            <mi>r</mi>
+          </msub>
+          <mi>R</mi>
+        </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <msup>
+            <mi>r</mi>
+            <mn>2</mn>
+          </msup>
+          <msup>
+            <mi>ω</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">v_{p}=\frac{1}{\partial_{r}R}=1+\frac{1}{r^{2}\omega^{2}}</annotation>
+  </semantics>
+</math>

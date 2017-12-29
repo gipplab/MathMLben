@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msub>
+      <mi>h</mi>
+      <mrow>
+        <mi>r</mi>
+        <mo>,</mo>
+        <mi>s</mi>
+      </mrow>
+    </msub>
+    <annotation encoding="TeX">h_{r,s}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,96 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mo>∫</mo>
+        <mi>P</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mo>,</mo>
+          <mn>0</mn>
+          <mo>+</mo>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mo>,</mo>
+          <mn>0</mn>
+          <mo>-</mo>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msubsup>
+      <msup>
+        <mi>t</mi>
+        <mrow>
+          <mi>a</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>t</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mi>b</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mn>4</mn>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mi>π</mi>
+          <mi>i</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msup>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>π</mi>
+          <mi>a</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>π</mi>
+          <mi>b</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mstyle mathvariant="normal">
+        <mi>B</mi>
+      </mstyle>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>a</mi>
+          <mo>,</mo>
+          <mi>b</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\int_{P}^{(1+,0+,1-,0-)}t^{a-1}(1-t)^{b-1}\mathrm{d}t=-4e^{\pi i(a+b)}\sin\left(\pi a\right)\sin\left(\pi b\right)\mathrm{B}\left(a,b\right)</annotation>
+  </semantics>
+</math>

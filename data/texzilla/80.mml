@@ -1,0 +1,15 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo lspace="0em" rspace="0em">dim</mo>
+      <mi>f</mi>
+      <mo stretchy="false">(</mo>
+      <mi>Z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>&gt;</mo>
+      <mi>n</mi>
+    </mrow>
+    <annotation encoding="TeX">\dim f(Z) &gt; n</annotation>
+  </semantics>
+</math>

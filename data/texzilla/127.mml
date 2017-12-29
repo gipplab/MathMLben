@@ -1,0 +1,66 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>K</mi>
+        <mi>ν</mi>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>z</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mfrac>
+            <mi>π</mi>
+            <mrow>
+              <mn>2</mn>
+              <mi>z</mi>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </msup>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>z</mi>
+        </mrow>
+      </msup>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mi>a</mi>
+            <mi>k</mi>
+          </msub>
+          <mo stretchy="false">(</mo>
+          <mi>ν</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <msup>
+          <mi>z</mi>
+          <mi>k</mi>
+        </msup>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">K_{\nu}\left(z\right)\sim\left(\frac{\pi}{2z}\right)^{\frac{1}{2}}e^{-z}\sum_{k=0}^{\infty}\frac{a_{k}(\nu)}{z^{k}}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mrow>
+        <mtext>\</mtext>
+        <mi>c</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi>L</mi>
+      </mrow>
+      <mo>=</mo>
+      <mo stretchy="false">{</mo>
+      <msub>
+        <mi>π</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>π</mi>
+        <mn>2</mn>
+      </msub>
+      <mo stretchy="false">}</mo>
+    </mrow>
+    <annotation encoding="TeX">{\cal L}=\{\pi_{1},\pi_{2}\}</annotation>
+  </semantics>
+</math>

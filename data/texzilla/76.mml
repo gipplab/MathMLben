@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>z</mi>
+        <mi>t</mi>
+      </msub>
+      <mo>=</mo>
+      <msub>
+        <mi>λ</mi>
+        <mn>1</mn>
+      </msub>
+      <msub>
+        <mi>z</mi>
+        <mrow>
+          <mi>t</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>+</mo>
+      <msub>
+        <mi>ε</mi>
+        <mi>t</mi>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX"> z_{t} = \lambda_{1}z_{t-1} + \varepsilon_{t} </annotation>
+  </semantics>
+</math>

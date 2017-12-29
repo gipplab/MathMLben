@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>f</mi>
+      <mo>:</mo>
+      <msub>
+        <mstyle mathvariant="double-struck">
+          <mi>N</mi>
+        </mstyle>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">→</mo>
+      <msub>
+        <mstyle mathvariant="double-struck">
+          <mi>N</mi>
+        </mstyle>
+        <mn>1</mn>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">f:{\mathbb{N}_{1}}\to{\mathbb{N}_{1}}</annotation>
+  </semantics>
+</math>

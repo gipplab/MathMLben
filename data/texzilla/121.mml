@@ -1,0 +1,84 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>J</mi>
+        <mi>ν</mi>
+        <mo>′</mo>
+      </msubsup>
+      <mrow>
+        <mo>(</mo>
+        <msub>
+          <mi>j</mi>
+          <mrow>
+            <mi>ν</mi>
+            <mo>,</mo>
+            <mi>m</mi>
+          </mrow>
+        </msub>
+        <mo>)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>m</mi>
+      </msup>
+      <mfrac>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mn>2</mn>
+          <mo>/</mo>
+          <mi>ν</mi>
+          <msup>
+            <mo stretchy="false">)</mo>
+            <mfrac>
+              <mn>2</mn>
+              <mn>3</mn>
+            </mfrac>
+          </msup>
+        </mrow>
+        <mrow>
+          <mi>π</mi>
+          <mi>M</mi>
+          <mrow>
+            <mo>(</mo>
+            <msub>
+              <mi>a</mi>
+              <mi>m</mi>
+            </msub>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mfrac>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <mfrac>
+        <msub>
+          <mi>β</mi>
+          <mi>k</mi>
+        </msub>
+        <msup>
+          <mi>ν</mi>
+          <mrow>
+            <mn>2</mn>
+            <mi>k</mi>
+            <mo>/</mo>
+            <mn>3</mn>
+          </mrow>
+        </msup>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">J_{\nu}'\left(j_{\nu,m}\right)\sim(-1)^{m}\frac{(2/\nu)^{\frac{2}{3}}}{\pi M\left(a_{m}\right)}\sum_{k=0}^{\infty}\frac{\beta_{k}}{\nu^{2k/3}}</annotation>
+  </semantics>
+</math>

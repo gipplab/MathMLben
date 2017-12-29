@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...p^{8}}+\cdots=\frac%&amp;#10;{1}{1-\frac{1}{
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">1+\frac{1}{p^{2}}+\frac{1}{p^{4}}+\frac{1}{p^{6}}+\frac{1}{p^{8}}+\cdots=\frac%&amp;#10;{1}{1-\frac{1}{p^{2}}}</annotation>
+  </semantics>
+</math>

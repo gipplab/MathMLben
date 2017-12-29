@@ -1,0 +1,72 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>n</mi>
+      <mo>+</mo>
+      <mi>λ</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mi>λ</mi>
+        </mrow>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mi>λ</mi>
+        </mrow>
+      </msup>
+      <mo stretchy="false">|</mo>
+      <msubsup>
+        <mi>C</mi>
+        <mi>n</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>λ</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msubsup>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo stretchy="false">|</mo>
+      <mo>&lt;</mo>
+      <mfrac>
+        <msup>
+          <mn>2</mn>
+          <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>λ</mi>
+          </mrow>
+        </msup>
+        <mrow>
+          <mi>Γ</mi>
+          <mrow>
+            <mo>(</mo>
+            <mi>λ</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">{(n+\lambda)^{1-\lambda}(1-x^{2})^{\frac{1}{2}\lambda}|C^{(\lambda)}_{n}\left(x\right)|&lt;\frac{2^{1-\lambda}}{\Gamma\left(\lambda\right)}}</annotation>
+  </semantics>
+</math>

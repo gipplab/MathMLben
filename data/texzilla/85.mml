@@ -1,0 +1,20 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>X</mi>
+        <mi>i</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>ω</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <msub>
+        <mi>ω</mi>
+        <mi>i</mi>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">X_i(\omega)=\omega_i</annotation>
+  </semantics>
+</math>

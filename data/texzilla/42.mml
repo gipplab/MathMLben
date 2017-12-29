@@ -1,0 +1,31 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>α</mi>
+      <mo stretchy="false">(</mo>
+      <mi>d</mi>
+      <mo stretchy="false">)</mo>
+      <mo>≤</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <msqrt>
+              <mrow>
+                <mn>3</mn>
+                <mo>/</mo>
+                <mn>2</mn>
+              </mrow>
+            </msqrt>
+            <mo>+</mo>
+            <mi>ε</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mi>d</mi>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\alpha(d) \le \left(\sqrt{3/2} + \varepsilon\right)^d</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,29 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>n</mi>
+      <mo>=</mo>
+      <msubsup>
+        <mi>x</mi>
+        <mn>1</mn>
+        <mn>2</mn>
+      </msubsup>
+      <mo>+</mo>
+      <msubsup>
+        <mi>x</mi>
+        <mn>2</mn>
+        <mn>2</mn>
+      </msubsup>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <msubsup>
+        <mi>x</mi>
+        <mi>k</mi>
+        <mn>2</mn>
+      </msubsup>
+    </mrow>
+    <annotation encoding="TeX">n=x_{1}^{2}+x_{2}^{2}+\dots+x_{k}^{2}</annotation>
+  </semantics>
+</math>

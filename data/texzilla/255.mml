@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...{\mu}}\frac{\partial&amp;#10;X%&amp;#10;^{B}}{\p
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">\tilde{g}_{\mu\nu}=G_{AB}\frac{\partial X^{A}}{\partial x^{\mu}}\frac{\partial&amp;#10;X%&amp;#10;^{B}}{\partial x^{\nu}}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...el},\dots,\alpha_{j%&amp;#10;+1}=\frac{X(\ta
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">\alpha_{1}=\frac{X(\tau_{1})y}{\parallel X(\tau_{1})\parallel},\dots,\alpha_{j%&amp;#10;+1}=\frac{X(\tau_{j+1})y}{\parallel X(\tau_{j+1})\parallel},\alpha_{j+2}=\frac%&amp;#10;{X(\tau_{j+2})y}{\parallel X(\tau_{j+2})\parallel}</annotation>
+  </semantics>
+</math>

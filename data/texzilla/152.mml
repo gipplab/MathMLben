@@ -1,0 +1,52 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>ψ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mi>z</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>γ</mi>
+      <mo>+</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>2</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>k</mi>
+      </msup>
+      <mi>ζ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mi>k</mi>
+        <mo>)</mo>
+      </mrow>
+      <msup>
+        <mi>z</mi>
+        <mrow>
+          <mi>k</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\psi\left(1+z\right)=-\gamma+\sum_{k=2}^{\infty}(-1)^{k}\zeta\left(k\right)z^{k-1}</annotation>
+  </semantics>
+</math>

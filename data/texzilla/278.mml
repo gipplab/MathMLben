@@ -1,0 +1,32 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>F</mi>
+        <mrow>
+          <mi>α</mi>
+          <mi>β</mi>
+        </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mover>
+          <mi>F</mi>
+          <mo stretchy="false">¯</mo>
+        </mover>
+        <mrow>
+          <mover>
+            <mi>α</mi>
+            <mo>˙</mo>
+          </mover>
+          <mover>
+            <mi>β</mi>
+            <mo>˙</mo>
+          </mover>
+        </mrow>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">F_{\alpha\beta},\bar{F}_{{\dot{\alpha}}{\dot{\beta}}}</annotation>
+  </semantics>
+</math>

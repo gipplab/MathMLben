@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+\(zv_{1}^{\prime}=2u_{0}-2u_{1
+----------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">zv_{1}^{\prime}=2u_{0}-2u_{1}v_{1}^{2}-\theta_{\infty}v_{1}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...1-\frac{z^{2}}{{{j^{\prime}_{\nu,k}}^{\m
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">J_{\nu}'\left(z\right)=\frac{(\tfrac{1}{2}z)^{\nu-1}}{2\Gamma\left(\nu\right)}\prod_{k=1}^{\infty}\left(1-\frac{z^{2}}{{{j^{\prime}_{\nu,k}}^{\mspace{-16.0mu }2}}}\right)</annotation>
+  </semantics>
+</math>

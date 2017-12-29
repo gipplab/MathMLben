@@ -1,0 +1,38 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mstyle mathvariant="normal">
+              <mi>d</mi>
+            </mstyle>
+            <mn>2</mn>
+          </msup>
+          <mi>θ</mi>
+          <mo stretchy="false">(</mo>
+          <mi>t</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <msup>
+          <mrow>
+            <mstyle mathvariant="normal">
+              <mi>d</mi>
+            </mstyle>
+            <mi>t</mi>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mfrac>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mi>θ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\frac{{\mathrm{d}}^{2}\theta(t)}{{\mathrm{d}t}^{2}}=-\sin\theta(t)</annotation>
+  </semantics>
+</math>

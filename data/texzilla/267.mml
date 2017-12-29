@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>H</mi>
+      <mo>=</mo>
+      <msub>
+        <mi>H</mi>
+        <mi>S</mi>
+      </msub>
+      <mo>+</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>N</mi>
+      </munderover>
+      <msub>
+        <mi>H</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>+</mo>
+      <msub>
+        <mi>V</mi>
+        <mn>0</mn>
+      </msub>
+      <mo>⊗</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>N</mi>
+      </munderover>
+      <msub>
+        <mi>A</mi>
+        <mi>i</mi>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">H=H_{S}+\sum_{i=1}^{N}H_{i}+V_{0}\otimes\sum_{i=1}^{N}A_{i}</annotation>
+  </semantics>
+</math>

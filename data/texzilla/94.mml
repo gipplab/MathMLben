@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>π</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>=</mo>
+      <msup>
+        <mn>2</mn>
+        <mrow>
+          <mo>-</mo>
+          <mi>N</mi>
+        </mrow>
+      </msup>
+      <mrow>
+        <mo>(</mo>
+        <mstyle displaystyle="false">
+          <mfrac linethickness="0">
+            <mi>N</mi>
+            <mi>i</mi>
+          </mfrac>
+        </mstyle>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\pi_i = 2^{-N} \tbinom Ni</annotation>
+  </semantics>
+</math>

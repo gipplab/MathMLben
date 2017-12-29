@@ -1,0 +1,48 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>S</mi>
+        <mrow>
+          <mtext>\</mtext>
+          <mi>r</mi>
+          <mi>m</mi>
+          <mi>B</mi>
+          <mi>H</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mi>n</mi>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+      <mi>V</mi>
+      <mo>/</mo>
+      <mn>4</mn>
+      <msub>
+        <mi>G</mi>
+        <mi>n</mi>
+      </msub>
+      <mi>R</mi>
+      <mo>≡</mo>
+      <mn>2</mn>
+      <mi>π</mi>
+      <msub>
+        <mi>E</mi>
+        <mrow>
+          <mtext>\</mtext>
+          <mi>r</mi>
+          <mi>m</mi>
+          <mi>B</mi>
+          <mi>H</mi>
+        </mrow>
+      </msub>
+      <mi>R</mi>
+      <mo>/</mo>
+      <mi>n</mi>
+    </mrow>
+    <annotation encoding="TeX">S_{\rm BH}=(n-1)V/4G_{n}R\equiv 2\pi E_{\rm BH}R/n</annotation>
+  </semantics>
+</math>

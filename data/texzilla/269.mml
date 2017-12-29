@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mstyle mathvariant="monospace">
+      <mrow>
+        <mi>l</mi>
+        <mi>i</mi>
+        <mi>s</mi>
+        <mi>t</mi>
+      </mrow>
+    </mstyle>
+    <annotation encoding="TeX">\mathtt{list}</annotation>
+  </semantics>
+</math>

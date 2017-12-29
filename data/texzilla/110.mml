@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>f</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <msub>
+        <mi>a</mi>
+        <mi>k</mi>
+      </msub>
+      <msup>
+        <mi>x</mi>
+        <mi>k</mi>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">f(x)=\sum^{\infty}_{k=0}a_{k}x^{k}</annotation>
+  </semantics>
+</math>

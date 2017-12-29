@@ -1,0 +1,16 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>θ</mi>
+      <mo>=</mo>
+      <mi>n</mi>
+      <mo>×</mo>
+      <msup>
+        <mn>137.508</mn>
+        <mo>∘</mo>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\theta = n \times 137.508^\circ</annotation>
+  </semantics>
+</math>

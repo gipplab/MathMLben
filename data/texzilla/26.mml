@@ -1,0 +1,21 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>L</mi>
+      <mrow>
+        <mo>(</mo>
+        <mi>C</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>≤</mo>
+      <mi>L</mi>
+      <mrow>
+        <mo>(</mo>
+        <mi>T</mi>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">L\left(C\right) \leq L\left(T\right)</annotation>
+  </semantics>
+</math>

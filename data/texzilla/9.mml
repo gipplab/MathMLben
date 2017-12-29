@@ -1,0 +1,127 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">|</mo>
+      <mi>Ψ</mi>
+      <mo stretchy="false">⟩</mo>
+      <mo>=</mo>
+      <munder>
+        <mo>∑</mo>
+        <mrow>
+          <msub>
+            <mi>i</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>i</mi>
+            <mn>2</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>α</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>α</mi>
+            <mn>2</mn>
+          </msub>
+        </mrow>
+      </munder>
+      <msubsup>
+        <mi>Γ</mi>
+        <msub>
+          <mi>α</mi>
+          <mn>1</mn>
+        </msub>
+        <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>1</mn>
+          <mo stretchy="false">]</mo>
+          <msub>
+            <mi>i</mi>
+            <mn>1</mn>
+          </msub>
+        </mrow>
+      </msubsup>
+      <msubsup>
+        <mi>λ</mi>
+        <msub>
+          <mi>α</mi>
+          <mn>1</mn>
+        </msub>
+        <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>1</mn>
+          <mo stretchy="false">]</mo>
+        </mrow>
+      </msubsup>
+      <msubsup>
+        <mi>Γ</mi>
+        <mrow>
+          <msub>
+            <mi>α</mi>
+            <mn>1</mn>
+          </msub>
+          <msub>
+            <mi>α</mi>
+            <mn>2</mn>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>2</mn>
+          <mo stretchy="false">]</mo>
+          <msub>
+            <mi>i</mi>
+            <mn>2</mn>
+          </msub>
+        </mrow>
+      </msubsup>
+      <msubsup>
+        <mi>λ</mi>
+        <msub>
+          <mi>α</mi>
+          <mn>2</mn>
+        </msub>
+        <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>2</mn>
+          <mo stretchy="false">]</mo>
+        </mrow>
+      </msubsup>
+      <mo stretchy="false">|</mo>
+      <mrow>
+        <msub>
+          <mi>i</mi>
+          <mn>1</mn>
+        </msub>
+        <msub>
+          <mi>i</mi>
+          <mn>2</mn>
+        </msub>
+      </mrow>
+      <mo stretchy="false">⟩</mo>
+      <mo stretchy="false">|</mo>
+      <msubsup>
+        <mi>Φ</mi>
+        <msub>
+          <mi>α</mi>
+          <mn>2</mn>
+        </msub>
+        <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>3</mn>
+          <mo>.</mo>
+          <mo>.</mo>
+          <mi>N</mi>
+          <mo stretchy="false">]</mo>
+        </mrow>
+      </msubsup>
+      <mo stretchy="false">⟩</mo>
+    </mrow>
+    <annotation encoding="TeX">|{\Psi}\rangle=\sum_{i_1,i_2,\alpha_1,\alpha_2}\Gamma^{[1]i_1}_{\alpha_1}\lambda^{[1]}_{\alpha_1}\Gamma^{[2]i_2}_{\alpha_1\alpha_2}\lambda^{[2]}_{{\alpha}_2}|{i_1i_2}\rangle|{\Phi^{[3..N]}_{\alpha_2}}\rangle</annotation>
+  </semantics>
+</math>

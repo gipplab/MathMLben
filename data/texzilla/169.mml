@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+\(K^{\prime}=\frac{\pi}{2
+-----^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">K^{\prime}=\frac{\pi}{2M(1,k)}</annotation>
+  </semantics>
+</math>

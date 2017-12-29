@@ -1,0 +1,35 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>σ</mi>
+        <mi>y</mi>
+        <mn>2</mn>
+      </msubsup>
+      <mo stretchy="false">(</mo>
+      <mi>τ</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <msup>
+            <mi>π</mi>
+            <mn>2</mn>
+          </msup>
+          <mi>τ</mi>
+        </mrow>
+        <mn>3</mn>
+      </mfrac>
+      <msub>
+        <mi>h</mi>
+        <mrow>
+          <mo>-</mo>
+          <mn>2</mn>
+        </mrow>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">\sigma_y^2(\tau) = \frac{2\pi^2\tau}{3}h_{-2}</annotation>
+  </semantics>
+</math>

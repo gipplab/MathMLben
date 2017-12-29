@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>c</mi>
+        <mn>0</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>3</mn>
+        </mfrac>
+      </mstyle>
+    </mrow>
+    <annotation encoding="TeX">c_0(0) = -\tfrac{1}{3}</annotation>
+  </semantics>
+</math>

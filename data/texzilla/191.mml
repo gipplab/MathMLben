@@ -1,0 +1,45 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>W</mi>
+      <mo stretchy="false">(</mo>
+      <mi>ζ</mi>
+      <mo>;</mo>
+      <msub>
+        <mi>α</mi>
+        <mn>0</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>β</mi>
+        <mn>0</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>γ</mi>
+        <mn>0</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>δ</mi>
+        <mn>0</mn>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mi>v</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+        <mrow>
+          <mi>v</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">W(\zeta;\alpha_{0},\beta_{0},\gamma_{0},\delta_{0})=\frac{v-1}{v+1}</annotation>
+  </semantics>
+</math>

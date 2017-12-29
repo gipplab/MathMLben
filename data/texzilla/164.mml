@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mi>y</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>4</mn>
+        </mfrac>
+      </mstyle>
+      <msup>
+        <mi>z</mi>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">x=y=-\tfrac{1}{4}z^{2}</annotation>
+  </semantics>
+</math>

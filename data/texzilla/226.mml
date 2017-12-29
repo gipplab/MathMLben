@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...rac{1}{2}\zeta^{ab}%&amp;#10;\left(G_{ba}-{\
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">S=-T\int d^{p+1}\sigma\,\sqrt{-\zeta}\Bigl[e^{-\beta U}\frac{1}{2}\zeta^{ab}%&amp;#10;\left(G_{ba}-{\mathcal{F}}_{ba}\right)-(p-1)\Bigr]</annotation>
+  </semantics>
+</math>

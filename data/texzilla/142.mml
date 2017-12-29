@@ -1,0 +1,25 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mi>x</mi>
+      <mo>=</mo>
+      <msup>
+        <mn>2</mn>
+        <mi>m</mi>
+      </msup>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mi>y</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\ln x=2^{m}\ln\left(1+y\right)</annotation>
+  </semantics>
+</math>

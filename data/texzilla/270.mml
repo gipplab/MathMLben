@@ -1,0 +1,26 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Φ</mi>
+      <mo>=</mo>
+      <msup>
+        <mi>Φ</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>r</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msup>
+      <msup>
+        <mi>Φ</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>s</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\Phi=\Phi^{(r)}\Phi^{(s)}</annotation>
+  </semantics>
+</math>

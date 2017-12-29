@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>λ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>L</mi>
+      <mo stretchy="false">(</mo>
+      <mi>B</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">)</mo>
+      <mo>≤</mo>
+      <mi>d</mi>
+    </mrow>
+    <annotation encoding="TeX">\lambda(L(B)) \leq d</annotation>
+  </semantics>
+</math>

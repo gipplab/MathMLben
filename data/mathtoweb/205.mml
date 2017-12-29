@@ -46,10 +46,5 @@
          <mo form="postfix">)</mo>
       </mrow>
       <mspace width="2.00em"/>\hskip{0<mo>.</mo>0<mi>p</mi>
-      <mi>t</mi>}<mrow>
-         <mo form="prefix">(</mo>
-         <mo>*</mo>
-         <mo form="postfix">)</mo>
-      </mrow>
-   </mrow>
+      <mi>t</mi>}</mrow>
 </math>

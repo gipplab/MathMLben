@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo>=</mo>
+      <mfrac>
+        <mi>k</mi>
+        <mi>n</mi>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">= \frac{k}{n}</annotation>
+  </semantics>
+</math>

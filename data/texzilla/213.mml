@@ -1,0 +1,37 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Q</mi>
+      <mo stretchy="false">(</mo>
+      <mi>N</mi>
+      <mo>,</mo>
+      <mi>M</mi>
+      <mo>,</mo>
+      <mi>a</mi>
+      <mi>j</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mi>j</mi>
+      <mo>,</mo>
+      <mi>q</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mi>Q</mi>
+      <mo stretchy="false">(</mo>
+      <mi>M</mi>
+      <mo>,</mo>
+      <mi>N</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mi>j</mi>
+      <mo>,</mo>
+      <mi>a</mi>
+      <mi>j</mi>
+      <mo>,</mo>
+      <mi>q</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">Q(N,M,aj,bj,q)=Q(M,N,bj,aj,q)</annotation>
+  </semantics>
+</math>

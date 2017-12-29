@@ -1,0 +1,70 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mo>∇</mo>
+        <mi>Y</mi>
+      </msub>
+      <mi>T</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>α</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>α</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>,</mo>
+      <mo>…</mo>
+      <mo>,</mo>
+      <msub>
+        <mi>X</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>X</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>,</mo>
+      <mo>…</mo>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mi>Y</mi>
+      <mo stretchy="false">(</mo>
+      <mi>T</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>α</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>α</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>,</mo>
+      <mo>…</mo>
+      <mo>,</mo>
+      <msub>
+        <mi>X</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>X</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>,</mo>
+      <mo>…</mo>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">(\nabla_Y T)(\alpha_1, \alpha_2, \ldots, X_1, X_2, \ldots) =Y(T(\alpha_1,\alpha_2,\ldots,X_1,X_2,\ldots))</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,42 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <mo>≡</mo>
+      <mi>A</mi>
+      <mo stretchy="false">(</mo>
+      <mi>τ</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mtext>\</mtext>
+      <mi>i</mi>
+      <mi>f</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>c</mi>
+      <mn>1</mn>
+      <mrow>
+        <msub>
+          <mi>θ</mi>
+          <mn>4</mn>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mn>0</mn>
+            <mo>∣</mo>
+            <mi>d</mi>
+            <mi>l</mi>
+            <mi>e</mi>
+            <mo stretchy="false">|</mo>
+            <mn>2</mn>
+            <mi>τ</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">A\equiv A(\tau)=\ifrac{1}{\theta_{4}\left(0\middle|2\tau\right)}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,37 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <munder>
+        <mo>∑</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>∊</mo>
+          <msup>
+            <mstyle mathvariant="double-struck">
+              <mi>Z</mi>
+            </mstyle>
+            <mi>d</mi>
+          </msup>
+        </mrow>
+      </munder>
+      <mo stretchy="false">|</mo>
+      <mi>ψ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo>,</mo>
+      <mi>n</mi>
+      <mo stretchy="false">)</mo>
+      <msup>
+        <mo stretchy="false">|</mo>
+        <mn>2</mn>
+      </msup>
+      <mo stretchy="false">|</mo>
+      <mi>n</mi>
+      <mo stretchy="false">|</mo>
+      <mo>≤</mo>
+      <mi>C</mi>
+    </mrow>
+    <annotation encoding="TeX"> \sum_{n \in \mathbb{Z}^d} |\psi(t,n)|^2 |n| \leq C </annotation>
+  </semantics>
+</math>

@@ -1,0 +1,25 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mi>d</mi>
+        <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+        </mrow>
+      </mfrac>
+      <msub>
+        <mo lspace="0em" rspace="0em">log</mo>
+        <mi>e</mi>
+      </msub>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mi>t</mi>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">\frac{d}{dt} \log_e t = \frac{1}{t}</annotation>
+  </semantics>
+</math>

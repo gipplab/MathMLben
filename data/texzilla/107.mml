@@ -1,0 +1,37 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mroot>
+        <mrow>
+          <mo>-</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>27</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <mi>q</mi>
+          <mo>+</mo>
+          <mstyle displaystyle="false">
+            <mfrac>
+              <mn>3</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mstyle>
+          <msqrt>
+            <mrow>
+              <mo>-</mo>
+              <mn>3</mn>
+              <mi>D</mi>
+            </mrow>
+          </msqrt>
+        </mrow>
+        <mn>3</mn>
+      </mroot>
+    </mrow>
+    <annotation encoding="TeX">A=\sqrt[3]{-\tfrac{27}{2}q+\tfrac{3}{2}\sqrt{-3D}}</annotation>
+  </semantics>
+</math>

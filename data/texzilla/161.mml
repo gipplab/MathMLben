@@ -1,0 +1,75 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>F</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mi>a</mi>
+          <mo>;</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+          <mo>;</mo>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </mstyle>
+      <mi>a</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>ψ</mi>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mstyle displaystyle="false">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mstyle>
+              <mi>a</mi>
+              <mo>+</mo>
+              <mstyle displaystyle="false">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mstyle>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>-</mo>
+          <mi>ψ</mi>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mstyle displaystyle="false">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mstyle>
+              <mi>a</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">F\left(1,a;a+1;-1\right)=\tfrac{1}{2}a\left(\psi\left(\tfrac{1}{2}a+\tfrac{1}{2}\right)-\psi\left(\tfrac{1}{2}a\right)\right)</annotation>
+  </semantics>
+</math>

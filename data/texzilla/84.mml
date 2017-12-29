@@ -1,0 +1,41 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>F</mi>
+      <mo>=</mo>
+      <mo stretchy="false">{</mo>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+      <mo>:</mo>
+      <mi>x</mi>
+      <mo>∊</mo>
+      <msup>
+        <mstyle mathvariant="script">
+          <mi>R</mi>
+        </mstyle>
+        <mi>b</mi>
+      </msup>
+      <mo>,</mo>
+      <mspace width="thinmathspace"/>
+      <mi>y</mi>
+      <mo>∊</mo>
+      <msup>
+        <mstyle mathvariant="script">
+          <mi>R</mi>
+        </mstyle>
+        <mi>n</mi>
+      </msup>
+      <mo>,</mo>
+      <mspace width="thickmathspace"/>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mi>y</mi>
+      <mo stretchy="false">}</mo>
+    </mrow>
+    <annotation encoding="TeX"> F = \{ (x,y) : x \in \mathcal{R}^b,\, y \in \mathcal{R}^n,\; x=y \}</annotation>
+  </semantics>
+</math>

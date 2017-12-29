@@ -1,0 +1,25 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>D</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>ρ</mi>
+          <msub>
+            <mi>u</mi>
+            <mi>i</mi>
+          </msub>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>/</mo>
+      <mi>D</mi>
+      <mi>t</mi>
+      <mo>≈</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX">D\left(\rho u_i\right)/Dt\approx0</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,20 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">{</mo>
+      <mi>C</mi>
+      <mo>:</mo>
+      <msub>
+        <mi>K</mi>
+        <mi>X</mi>
+      </msub>
+      <mo>⋅</mo>
+      <mi>C</mi>
+      <mo>=</mo>
+      <mn>0</mn>
+      <mo stretchy="false">}</mo>
+    </mrow>
+    <annotation encoding="TeX">\{C : K_X \cdot C = 0\}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,38 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo lspace="0em" rspace="thinmathspace">am</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo>,</mo>
+          <mi>k</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msubsup>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mi>x</mi>
+      </msubsup>
+      <mo lspace="0em" rspace="thinmathspace">dn</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>t</mi>
+          <mo>,</mo>
+          <mi>k</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>t</mi>
+    </mrow>
+    <annotation encoding="TeX">\operatorname{am}\left(x,k\right)=\int_{0}^{x}\operatorname{dn}\left(t,k\right)\mathrm{d}t</annotation>
+  </semantics>
+</math>

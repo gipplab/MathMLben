@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...\psi_{i}|H_{i}^{2}|%&amp;#10;\psi_{i}\rangle
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">\overline{(\Delta H)^{2}}=\frac{1}{N}\sum_{i=1}^{N}[\langle\psi_{i}|H_{i}^{2}|%&amp;#10;\psi_{i}\rangle-\langle\psi_{i}|H_{i}|\psi_{i}\rangle^{2}]</annotation>
+  </semantics>
+</math>

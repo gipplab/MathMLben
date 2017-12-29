@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...{2}w}{{\mathrm{d}z^{\prime}}^{2}}+(h^{\p
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">\frac{{\mathrm{d}}^{2}w}{{\mathrm{d}z^{\prime}}^{2}}+(h^{\prime}-\nu(\nu+1){k^{\prime}}^{2}{\operatorname{sn}^{2}}\left(z^{\prime},k^{\prime}\right))w=0</annotation>
+  </semantics>
+</math>

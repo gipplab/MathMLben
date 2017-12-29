@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msub>
+      <mi>λ</mi>
+      <mrow>
+        <mi>i</mi>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <annotation encoding="TeX">\lambda_{in}</annotation>
+  </semantics>
+</math>

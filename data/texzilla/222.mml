@@ -1,0 +1,50 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Δ</mi>
+      <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+      </msub>
+      <mi>Δ</mi>
+      <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>≥</mo>
+      <msup>
+        <mrow>
+          <mtext>\</mtext>
+          <mi>m</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>c</mi>
+          <mi>h</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mn>22</mn>
+          <mtext>\</mtext>
+          <mi>m</mi>
+          <mi>k</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mn>9.0</mn>
+          <mi>m</mi>
+          <mi>u</mi>
+          <mi>λ</mi>
+        </mrow>
+        <mn>2</mn>
+      </msup>
+      <mo>/</mo>
+      <mo stretchy="false">(</mo>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\Delta x_{1}\Delta x_{2}\geq{\mathchar 22\mkern-9.0mu\lambda}^{2}/(2\pi)</annotation>
+  </semantics>
+</math>

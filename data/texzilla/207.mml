@@ -1,0 +1,18 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>f</mi>
+      <mo>=</mo>
+      <mi>f</mi>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo>,</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">f=f(t,x,v)</annotation>
+  </semantics>
+</math>

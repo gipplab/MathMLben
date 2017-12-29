@@ -1,0 +1,37 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>K</mi>
+        <mo>*</mo>
+        <mi>M</mi>
+      </msubsup>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+      <mo>:=</mo>
+      <msup>
+        <mi>T</mi>
+        <mo>*</mo>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <msup>
+        <mi>k</mi>
+        <mo>×</mo>
+      </msup>
+      <mo stretchy="false">)</mo>
+      <mo>/</mo>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>⊗</mo>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>a</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX"> K^M_*(k) := T^*(k^\times)/(a\otimes (1-a)) </annotation>
+  </semantics>
+</math>

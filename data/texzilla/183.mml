@@ -1,0 +1,84 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mn>1</mn>
+      </msubsup>
+      <msub>
+        <mi>P</mi>
+        <mi>n</mi>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mn>2</mn>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>x</mi>
+          <mi>y</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </mstyle>
+      <mi>π</mi>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <msub>
+              <mi>J</mi>
+              <mrow>
+                <mi>n</mi>
+                <mo>+</mo>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mrow>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mstyle displaystyle="false">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </mfrac>
+                </mstyle>
+                <mi>y</mi>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\int_{0}^{1}P_{n}\left(1-2x^{2}\right)\sin\left(xy\right)\mathrm{d}x=\tfrac{1}{2}\pi\left(J_{n+\frac{1}{2}}\left(\tfrac{1}{2}y\right)\right)^{2}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>X</mi>
+      <mo>,</mo>
+      <mi>Σ</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">(X,\Sigma)</annotation>
+  </semantics>
+</math>

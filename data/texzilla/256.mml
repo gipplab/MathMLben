@@ -1,0 +1,15 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Z</mi>
+      <mi>F</mi>
+      <mi>C</mi>
+      <mo>+</mo>
+      <mi>G</mi>
+      <mi>C</mi>
+      <mi>H</mi>
+    </mrow>
+    <annotation encoding="TeX">ZFC+GCH</annotation>
+  </semantics>
+</math>

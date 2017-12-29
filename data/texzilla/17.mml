@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msub>
+      <mstyle mathvariant="bold">
+        <mi>m</mi>
+      </mstyle>
+      <mn>1</mn>
+    </msub>
+    <annotation encoding="TeX">\mathbf{m}_1</annotation>
+  </semantics>
+</math>

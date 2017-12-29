@@ -1,0 +1,29 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <mo>∂</mo>
+          <mi>f</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi>x</mi>
+        </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <msub>
+        <mi>f</mi>
+        <mi>x</mi>
+      </msub>
+      <mo>=</mo>
+      <msub>
+        <mo>∂</mo>
+        <mi>x</mi>
+      </msub>
+      <mi>f</mi>
+    </mrow>
+    <annotation encoding="TeX">\frac{ \partial f}{ \partial x} = f_x = \partial_x f</annotation>
+  </semantics>
+</math>

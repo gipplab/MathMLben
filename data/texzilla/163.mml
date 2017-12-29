@@ -1,0 +1,81 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>Ψ</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mstyle mathvariant="normal">
+            <mi>U</mi>
+          </mstyle>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msup>
+      <mrow>
+        <mo>(</mo>
+        <mstyle mathvariant="bold">
+          <mi>x</mi>
+        </mstyle>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msubsup>
+        <mo>∫</mo>
+        <mrow>
+          <mo>-</mo>
+          <mn>∞</mn>
+        </mrow>
+        <mn>∞</mn>
+      </msubsup>
+      <msubsup>
+        <mo>∫</mo>
+        <mrow>
+          <mo>-</mo>
+          <mn>∞</mn>
+        </mrow>
+        <mn>∞</mn>
+      </msubsup>
+      <mo lspace="0em" rspace="0em">exp</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>i</mi>
+          <msup>
+            <mi>Φ</mi>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mstyle mathvariant="normal">
+                <mi>U</mi>
+              </mstyle>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </msup>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>s</mi>
+              <mo>,</mo>
+              <mi>t</mi>
+              <mo>;</mo>
+              <mstyle mathvariant="bold">
+                <mi>x</mi>
+              </mstyle>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>s</mi>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>t</mi>
+    </mrow>
+    <annotation encoding="TeX">\Psi^{(\mathrm{U})}\left(\mathbf{x}\right)=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\exp\left(i\Phi^{(\mathrm{U})}\left(s,t;\mathbf{x}\right)\right)\mathrm{d}s\mathrm{d}t</annotation>
+  </semantics>
+</math>

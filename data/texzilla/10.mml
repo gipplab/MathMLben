@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>z</mi>
+      <mo>*</mo>
+      <mi>x</mi>
+      <mo>≤</mo>
+      <mi>y</mi>
+    </mrow>
+    <annotation encoding="TeX">z*x\le y</annotation>
+  </semantics>
+</math>

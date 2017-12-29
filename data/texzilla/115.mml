@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>E</mi>
+        <mrow>
+          <mn>2</mn>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX">E_{2n+1}=0</annotation>
+  </semantics>
+</math>

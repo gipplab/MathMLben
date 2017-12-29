@@ -1,0 +1,9 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mstyle mathvariant="script">
+      <mi>M</mi>
+    </mstyle>
+    <annotation encoding="TeX">\mathcal{M}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <msub>
+      <mi>r</mi>
+      <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+      </mrow>
+    </msub>
+    <annotation encoding="TeX">r_{ij}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,20 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Θ</mi>
+      <mo>∧</mo>
+      <mo stretchy="false">(</mo>
+      <mi>d</mi>
+      <mi>Θ</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>n</mi>
+      </msup>
+      <mo>≠</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX">\Theta \wedge
+(d\Theta)^n \neq 0</annotation>
+  </semantics>
+</math>

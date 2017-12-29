@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>P</mi>
+      <mo>=</mo>
+      <mi>N</mi>
+      <mi>P</mi>
+    </mrow>
+    <annotation encoding="TeX">P=NP</annotation>
+  </semantics>
+</math>

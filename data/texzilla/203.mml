@@ -1,0 +1,25 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mn>2</mn>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <mi>k</mi>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <mo stretchy="false">(</mo>
+      <mi>n</mi>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">(1+2+\ldots+k+\ldots+(n-1))</annotation>
+  </semantics>
+</math>

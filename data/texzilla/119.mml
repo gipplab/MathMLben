@@ -1,0 +1,88 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>N</mi>
+        <mi>ν</mi>
+        <mn>2</mn>
+      </msubsup>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <mfrac>
+        <mn>2</mn>
+        <mrow>
+          <mi>π</mi>
+          <mi>x</mi>
+        </mrow>
+      </mfrac>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+          <mfrac>
+            <mrow>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>3</mn>
+            </mrow>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+              <msup>
+                <mo stretchy="false">)</mo>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </mfrac>
+          <mo>-</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mn>2</mn>
+              <mo>⋅</mo>
+              <mn>4</mn>
+            </mrow>
+          </mfrac>
+          <mfrac>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">(</mo>
+              <mi>μ</mi>
+              <mo>-</mo>
+              <mn>45</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+              <msup>
+                <mo stretchy="false">)</mo>
+                <mn>4</mn>
+              </msup>
+            </mrow>
+          </mfrac>
+          <mo>-</mo>
+          <mo>⋯</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">{N_{\nu}^{2}}\left(x\right)\sim\frac{2}{\pi x}\left(1-\frac{1}{2}\frac{\mu-3}{(2x)^{2}}-\frac{1}{2\cdot 4}\frac{(\mu-1)(\mu-45)}{(2x)^{4}}-\cdots\right)</annotation>
+  </semantics>
+</math>

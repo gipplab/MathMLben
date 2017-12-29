@@ -1,0 +1,26 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mtext>\</mtext>
+      <mo stretchy="false">[</mo>
+      <mi>A</mi>
+      <msub>
+        <mo stretchy="false">]</mo>
+        <mi>t</mi>
+      </msub>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>k</mi>
+      <mi>t</mi>
+      <mo>+</mo>
+      <mo stretchy="false">[</mo>
+      <mi>A</mi>
+      <msub>
+        <mo stretchy="false">]</mo>
+        <mn>0</mn>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">\ [A]_t = -kt + [A]_0</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,69 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>-</mo>
+      <mi>y</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mn>2</mn>
+      </msup>
+      <mi>U</mi>
+      <mo>=</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <msqrt>
+              <mrow>
+                <msup>
+                  <mi>x</mi>
+                  <mn>4</mn>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                  <mi>a</mi>
+                  <mn>4</mn>
+                </msup>
+              </mrow>
+            </msqrt>
+            <mo>+</mo>
+            <msqrt>
+              <mrow>
+                <msup>
+                  <mi>y</mi>
+                  <mn>4</mn>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                  <mi>a</mi>
+                  <mn>4</mn>
+                </msup>
+              </mrow>
+            </msqrt>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mn>2</mn>
+      </msup>
+      <mo>-</mo>
+      <mo stretchy="false">(</mo>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>-</mo>
+      <msup>
+        <mi>y</mi>
+        <mn>2</mn>
+      </msup>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">(x-y)^{2}U=\left(\sqrt{x^{4}+a^{4}}+\sqrt{y^{4}+a^{4}}\right)^{2}-(x^{2}-y^{2})^{2}</annotation>
+  </semantics>
+</math>

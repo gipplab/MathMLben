@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>{</mo>
+        <mrow>
+          <mn>3</mn>
+          <mi>k</mi>
+          <mo>+</mo>
+          <mn>4</mn>
+          <mtext>\</mtext>
+        </mrow>
+        <mo>}</mo>
+      </mrow>
+      <mo>⊂</mo>
+      <mstyle mathvariant="fraktur">
+        <mi>C</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="TeX">\left\{3k+4\ \right\}\subset\mathfrak{C}</annotation>
+  </semantics>
+</math>

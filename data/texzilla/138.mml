@@ -1,0 +1,41 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msup>
+        <mo lspace="0em" rspace="0em">cos</mo>
+        <mn>2</mn>
+      </msup>
+      <mi>u</mi>
+      <mo>-</mo>
+      <msup>
+        <mo lspace="0em" rspace="0em">cos</mo>
+        <mn>2</mn>
+      </msup>
+      <mi>v</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>u</mi>
+          <mo>+</mo>
+          <mi>v</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>u</mi>
+          <mo>-</mo>
+          <mi>v</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">{\cos^{2}}u-{\cos^{2}}v=-\sin\left(u+v\right)\sin\left(u-v\right)</annotation>
+  </semantics>
+</math>

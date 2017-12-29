@@ -1,0 +1,68 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mo>∂</mo>
+        <mi>j</mi>
+      </msub>
+      <msub>
+        <mi>R</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>a</mi>
+        </mrow>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mstyle mathvariant="bold">
+            <mi>b</mi>
+          </mstyle>
+          <mo>;</mo>
+          <mstyle mathvariant="bold">
+            <mi>z</mi>
+          </mstyle>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mi>a</mi>
+      <msub>
+        <mi>w</mi>
+        <mi>j</mi>
+      </msub>
+      <msub>
+        <mi>R</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>a</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mstyle mathvariant="bold">
+            <mi>b</mi>
+          </mstyle>
+          <mo>+</mo>
+          <msub>
+            <mstyle mathvariant="bold">
+              <mi>e</mi>
+            </mstyle>
+            <mi>j</mi>
+          </msub>
+          <mo>;</mo>
+          <mstyle mathvariant="bold">
+            <mi>z</mi>
+          </mstyle>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\partial_{j}R_{-a}\left(\mathbf{b};\mathbf{z}\right)=-aw_{j}R_{-a-1}\left(\mathbf{b}+\mathbf{e}_{j};\mathbf{z}\right)</annotation>
+  </semantics>
+</math>

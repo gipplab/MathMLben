@@ -1,0 +1,49 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>h</mi>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+      <mo>∼</mo>
+      <mo lspace="0em" rspace="0em">exp</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>i</mi>
+          <mi>κ</mi>
+          <msup>
+            <mi>t</mi>
+            <mi>p</mi>
+          </msup>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>s</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <msub>
+        <mi>b</mi>
+        <mi>s</mi>
+      </msub>
+      <msup>
+        <mi>t</mi>
+        <mrow>
+          <mo>-</mo>
+          <msub>
+            <mi>β</mi>
+            <mi>s</mi>
+          </msub>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">h(t)\sim\exp\left(i\kappa t^{p}\right)\sum_{s=0}^{\infty}b_{s}t^{-\beta_{s}}</annotation>
+  </semantics>
+</math>

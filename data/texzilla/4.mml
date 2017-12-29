@@ -1,0 +1,22 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <msup>
+        <mi>z</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mi>c</mi>
+    </mrow>
+    <annotation encoding="TeX">f_c(z) = z^2 + c</annotation>
+  </semantics>
+</math>

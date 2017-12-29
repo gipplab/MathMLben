@@ -1,0 +1,28 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>S</mi>
+        <mi>p</mi>
+        <mi>m</mi>
+      </msubsup>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>ξ</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">→</mo>
+      <mo lspace="0em" rspace="0em">sin</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>m</mi>
+          <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">S_{p}^{m}(x,\xi)\to\sin\left(mx\right)</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>P</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>=</mo>
+      <mtext>\</mtext>
+      <mi>m</mi>
+      <mi>b</mi>
+      <mi>o</mi>
+      <mi>x</mi>
+      <mrow>
+        <mi>h</mi>
+        <mi>e</mi>
+        <mi>a</mi>
+        <mi>d</mi>
+      </mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>E</mi>
+        <mi>K</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>S</mi>
+        <mrow>
+          <mi>i</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>,</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+      <mo>⊕</mo>
+      <msub>
+        <mi>C</mi>
+        <mi>i</mi>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">P_i = \mbox{head}(E_K (S_{i-1}), x) \oplus C_i</annotation>
+  </semantics>
+</math>

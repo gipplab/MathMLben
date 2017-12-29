@@ -1,0 +1,32 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Z</mi>
+      <mo>=</mo>
+      <munder>
+        <mo>∑</mo>
+        <mi>j</mi>
+      </munder>
+      <msub>
+        <mi>g</mi>
+        <mi>j</mi>
+      </msub>
+      <mo>⋅</mo>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>e</mi>
+        </mstyle>
+        <mrow>
+          <mo>-</mo>
+          <mi>β</mi>
+          <msub>
+            <mi>E</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX"> Z = \sum_{j} g_j \cdot \mathrm{e}^{- \beta E_j}</annotation>
+  </semantics>
+</math>

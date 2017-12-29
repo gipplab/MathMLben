@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...r{\Psi}{\Psi}-q\bar%&amp;#10;{\Psi}{\gamma}^
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">{\it L}=i\bar{\Psi}{\gamma}^{\mu}{\partial}_{\mu}{\Psi}-\bar{\Psi}{\Psi}-q\bar%&amp;#10;{\Psi}{\gamma}^{0}{\Psi}\Phi+{1\over 2}({\partial}_{\mu}\Phi)({\partial}^{\mu}%&amp;#10;\Phi)</annotation>
+  </semantics>
+</math>

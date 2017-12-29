@@ -1,0 +1,35 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>F</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <munder>
+        <mo>∑</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mi>k</mi>
+          <mo>+</mo>
+          <mi>m</mi>
+        </mrow>
+      </munder>
+      <mrow>
+        <mo>(</mo>
+        <mfrac linethickness="0">
+          <mi>k</mi>
+          <mi>m</mi>
+        </mfrac>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">F_{n+1}=\sum_{n=k+m}\binom{k}{m}</annotation>
+  </semantics>
+</math>

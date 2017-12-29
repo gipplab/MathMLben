@@ -1,0 +1,31 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mstyle mathvariant="normal">
+              <mi>d</mi>
+            </mstyle>
+            <mn>2</mn>
+          </msup>
+          <mi>w</mi>
+        </mrow>
+        <msup>
+          <mrow>
+            <mstyle mathvariant="normal">
+              <mi>d</mi>
+            </mstyle>
+            <mi>z</mi>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mfrac>
+      <mo>=</mo>
+      <mi>a</mi>
+      <mi>w</mi>
+    </mrow>
+    <annotation encoding="TeX">\frac{{\mathrm{d}}^{2}w}{{\mathrm{d}z}^{2}}=aw</annotation>
+  </semantics>
+</math>

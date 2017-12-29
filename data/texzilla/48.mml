@@ -1,0 +1,18 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Y</mi>
+      <mo>=</mo>
+      <mi>β</mi>
+      <msub>
+        <mi>T</mi>
+        <mn>8</mn>
+      </msub>
+      <mo>+</mo>
+      <mi>I</mi>
+      <mi>X</mi>
+    </mrow>
+    <annotation encoding="TeX">Y = \beta T_8 + I X</annotation>
+  </semantics>
+</math>

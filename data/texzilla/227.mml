@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>C</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mo stretchy="false">(</mo>
+      <mi>Z</mi>
+      <mi>F</mi>
+      <mo>+</mo>
+      <mo>¬</mo>
+      <mi>A</mi>
+      <mi>C</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">Con(ZF+\neg AC)</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>H</mi>
+        <mn>1</mn>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <mi>K</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <msqrt>
+        <mn>2</mn>
+      </msqrt>
+    </mrow>
+    <annotation encoding="TeX">H^1(K)=\sqrt{2}</annotation>
+  </semantics>
+</math>

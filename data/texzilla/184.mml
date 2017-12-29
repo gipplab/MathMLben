@@ -1,0 +1,44 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>ℓ</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mi>n</mi>
+      </munderover>
+      <msub>
+        <mi>T</mi>
+        <mi>ℓ</mi>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <msup>
+        <mi>x</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mi>ℓ</mi>
+        </mrow>
+      </msup>
+      <mo>=</mo>
+      <msub>
+        <mi>U</mi>
+        <mi>n</mi>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\sum_{\ell=0}^{n}T_{\ell}\left(x\right)x^{n-\ell}=U_{n}\left(x\right)</annotation>
+  </semantics>
+</math>

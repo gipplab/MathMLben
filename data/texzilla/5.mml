@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo>∀</mo>
+      <mi>x</mi>
+      <mspace width="thinmathspace"/>
+      <mo>∀</mo>
+      <mi>y</mi>
+      <mspace width="thinmathspace"/>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">⇔</mo>
+      <mo>∀</mo>
+      <mi>y</mi>
+      <mspace width="thinmathspace"/>
+      <mo>∀</mo>
+      <mi>x</mi>
+      <mspace width="thinmathspace"/>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\forall x \, \forall y \, P(x,y) \Leftrightarrow \forall y \, \forall x \, P(x,y)</annotation>
+  </semantics>
+</math>

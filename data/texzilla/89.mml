@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>σ</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>=</mo>
+      <msup>
+        <mi>X</mi>
+        <mi>T</mi>
+      </msup>
+      <mi>V</mi>
+      <mi>X</mi>
+    </mrow>
+    <annotation encoding="TeX">\sigma^2 = X^TVX</annotation>
+  </semantics>
+</math>

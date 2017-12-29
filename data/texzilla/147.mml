@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+...{2}R_{J}\left(0,{k^{\prime}}^{2},1,1-\al
+-----------------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">\Pi\left(\alpha^{2},k\right)-K\left(k\right)=\tfrac{1}{3}\alpha^{2}R_{J}\left(0,{k^{\prime}}^{2},1,1-\alpha^{2}\right)</annotation>
+  </semantics>
+</math>

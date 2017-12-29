@@ -1,0 +1,64 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>I</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mo>-</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>s</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mi>n</mi>
+        </mrow>
+      </munderover>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>a</mi>
+        <mi>s</mi>
+      </msub>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mi>x</mi>
+      <mo>+</mo>
+      <msub>
+        <mi>b</mi>
+        <mi>s</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <msup>
+        <mi>x</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>s</mi>
+        </mrow>
+      </msup>
+      <mo>+</mo>
+      <mi>O</mi>
+      <mrow>
+        <mo>(</mo>
+        <msup>
+          <mi>x</mi>
+          <mrow>
+            <mo>-</mo>
+            <mn>2</mn>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>ϵ</mi>
+          </mrow>
+        </msup>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">I(x)=-\sum_{s=0}^{2n}(a_{s}\ln x+b_{s})x^{-s}+O\left(x^{-2n-1+\epsilon}\right)</annotation>
+  </semantics>
+</math>

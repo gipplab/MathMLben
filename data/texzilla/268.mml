@@ -1,0 +1,11 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>N</mi>
+      <mo>×</mo>
+      <mi>N</mi>
+    </mrow>
+    <annotation encoding="TeX">N\times N</annotation>
+  </semantics>
+</math>

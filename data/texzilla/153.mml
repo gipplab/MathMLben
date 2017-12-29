@@ -1,0 +1,58 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>ψ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mfrac>
+          <mrow>
+            <mi>z</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+          </mrow>
+          <mn>2</mn>
+        </mfrac>
+        <mo>)</mo>
+      </mrow>
+      <mo>-</mo>
+      <mi>ψ</mi>
+      <mrow>
+        <mo>(</mo>
+        <mfrac>
+          <mi>z</mi>
+          <mn>2</mn>
+        </mfrac>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mn>2</mn>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <mfrac>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mo>-</mo>
+          <mn>1</mn>
+          <msup>
+            <mo stretchy="false">)</mo>
+            <mi>k</mi>
+          </msup>
+        </mrow>
+        <mrow>
+          <mi>k</mi>
+          <mo>+</mo>
+          <mi>z</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">\psi\left(\frac{z+1}{2}\right)-\psi\left(\frac{z}{2}\right)=2\sum_{k=0}^{\infty}\frac{(-1)^{k}}{k+z}</annotation>
+  </semantics>
+</math>

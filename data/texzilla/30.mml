@@ -1,0 +1,26 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>ϕ</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>=</mo>
+      <mo>-</mo>
+      <msup>
+        <mn>30</mn>
+        <mo>∘</mo>
+      </msup>
+      <mo>.</mo>
+      <mo>.</mo>
+      <mo>.</mo>
+      <mo>+</mo>
+      <msup>
+        <mn>30</mn>
+        <mo>∘</mo>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX"> \phi_1 = -30^\circ...+30^\circ</annotation>
+  </semantics>
+</math>

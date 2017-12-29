@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">|</mo>
+      <mi>Γ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>L</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">|</mo>
+      <mo>=</mo>
+      <msup>
+        <mi>p</mi>
+        <mi>i</mi>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <msup>
+        <mi>p</mi>
+        <mrow>
+          <mn>2</mn>
+          <mi>i</mi>
+        </mrow>
+      </msup>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">|\Gamma(L)|=p^{i}(p^{2i}-1)</annotation>
+  </semantics>
+</math>

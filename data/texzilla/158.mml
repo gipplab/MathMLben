@@ -1,0 +1,44 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>K</mi>
+        <mi>j</mi>
+      </msub>
+      <msub>
+        <mi>c</mi>
+        <mrow>
+          <mi>j</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>+</mo>
+      <msub>
+        <mi>L</mi>
+        <mi>j</mi>
+      </msub>
+      <msub>
+        <mi>c</mi>
+        <mi>j</mi>
+      </msub>
+      <mo>+</mo>
+      <msub>
+        <mi>M</mi>
+        <mi>j</mi>
+      </msub>
+      <msub>
+        <mi>c</mi>
+        <mrow>
+          <mi>j</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation encoding="TeX">K_{j}c_{j-1}+L_{j}c_{j}+M_{j}c_{j+1}=0</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>a</mi>
+        <mn>0</mn>
+      </msub>
+      <mo>=</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>12</mn>
+        </mfrac>
+      </mstyle>
+    </mrow>
+    <annotation encoding="TeX">a_0 = \tfrac{1}{12}</annotation>
+  </semantics>
+</math>

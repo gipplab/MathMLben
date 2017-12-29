@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Δ</mi>
+      <mi>W</mi>
+      <mo>=</mo>
+      <msubsup>
+        <mo>∫</mo>
+        <msub>
+          <mi>V</mi>
+          <mn>1</mn>
+        </msub>
+        <msub>
+          <mi>V</mi>
+          <mn>2</mn>
+        </msub>
+      </msubsup>
+      <mi>p</mi>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>V</mi>
+    </mrow>
+    <annotation encoding="TeX"> \Delta W = \int_{V_1}^{V_2} p \mathrm{d}V </annotation>
+  </semantics>
+</math>

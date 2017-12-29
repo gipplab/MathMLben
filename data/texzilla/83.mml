@@ -1,0 +1,16 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mn>2</mn>
+      <mo>≤</mo>
+      <mi>s</mi>
+      <mi>e</mi>
+      <mi>q</mi>
+      <mi>s</mi>
+      <mo>≤</mo>
+      <mn>6</mn>
+    </mrow>
+    <annotation encoding="TeX">2\le seqs \le6</annotation>
+  </semantics>
+</math>

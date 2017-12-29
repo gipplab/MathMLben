@@ -1,0 +1,15 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mn>1</mn>
+      <mo>≤</mo>
+      <mi>k</mi>
+      <mo>≤</mo>
+      <mi>n</mi>
+      <mo>-</mo>
+      <mn>1</mn>
+    </mrow>
+    <annotation encoding="TeX">1\leq k\leq n-1</annotation>
+  </semantics>
+</math>

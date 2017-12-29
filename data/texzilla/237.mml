@@ -1,0 +1,31 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>h</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>=</mo>
+      <munder>
+        <mo>∑</mo>
+        <mi>j</mi>
+      </munder>
+      <msub>
+        <mover>
+          <mi>w</mi>
+          <mo stretchy="false">^</mo>
+        </mover>
+        <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+        </mrow>
+      </msub>
+      <msub>
+        <mi>s</mi>
+        <mi>j</mi>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">h_{i}=\sum_{j}\hat{w}_{ij}s_{j}</annotation>
+  </semantics>
+</math>

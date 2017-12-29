@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>s</mi>
+        <mi>V</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mstyle mathvariant="script">
+        <mi>R</mi>
+      </mstyle>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">s_V(\mathcal{R})</annotation>
+  </semantics>
+</math>

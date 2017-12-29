@@ -1,0 +1,24 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>W</mi>
+      <mo stretchy="false">(</mo>
+      <mn>2</mn>
+      <mo>,</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+      <mo>&gt;</mo>
+      <msup>
+        <mn>2</mn>
+        <mi>k</mi>
+      </msup>
+      <mo>/</mo>
+      <msup>
+        <mi>k</mi>
+        <mi>ε</mi>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">W(2, k) &gt; 2^k/k^\varepsilon</annotation>
+  </semantics>
+</math>

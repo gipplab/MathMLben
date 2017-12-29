@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>a</mi>
+        <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>1</mn>
+    </mrow>
+    <annotation encoding="TeX">a_{ij}=1</annotation>
+  </semantics>
+</math>

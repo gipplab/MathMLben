@@ -1,0 +1,58 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>A</mi>
+        <mi>n</mi>
+      </msub>
+      <msub>
+        <mi>B</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>-</mo>
+      <msub>
+        <mi>B</mi>
+        <mi>n</mi>
+      </msub>
+      <msub>
+        <mi>A</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <munderover>
+        <mo>∏</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+      </munderover>
+      <msub>
+        <mi>a</mi>
+        <mi>k</mi>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">A_{n}B_{n-1}-B_{n}A_{n-1}=(-1)^{n-1}\prod^{n}_{k=1}a_{k}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,26 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>w</mi>
+      <mo>=</mo>
+      <mo lspace="0em" rspace="thinmathspace">Arcsinh</mo>
+      <mi>z</mi>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>k</mi>
+      </msup>
+      <mo lspace="0em" rspace="thinmathspace">arcsinh</mo>
+      <mi>z</mi>
+      <mo>+</mo>
+      <mi>k</mi>
+      <mi>π</mi>
+      <mi>i</mi>
+    </mrow>
+    <annotation encoding="TeX">w=\operatorname{Arcsinh}z=(-1)^{k}\operatorname{arcsinh}z+k\pi i</annotation>
+  </semantics>
+</math>

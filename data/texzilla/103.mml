@@ -1,0 +1,16 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo lspace="0em" rspace="thinmathspace">ph</mo>
+      <mi>z</mi>
+      <mo>=</mo>
+      <mi>θ</mi>
+      <mo>+</mo>
+      <mn>2</mn>
+      <mi>n</mi>
+      <mi>π</mi>
+    </mrow>
+    <annotation encoding="TeX">\operatorname{ph}z=\theta+2n\pi</annotation>
+  </semantics>
+</math>

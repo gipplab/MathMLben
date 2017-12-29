@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msup>
+        <mstyle mathvariant="bold">
+          <mi>B</mi>
+        </mstyle>
+        <mo>*</mo>
+      </msup>
+      <mstyle mathvariant="bold">
+        <msub>
+          <mi>σ</mi>
+          <mn>3</mn>
+        </msub>
+      </mstyle>
+      <mstyle mathvariant="bold">
+        <mi>B</mi>
+      </mstyle>
+      <mo>=</mo>
+      <mstyle mathvariant="bold">
+        <msub>
+          <mi>σ</mi>
+          <mn>3</mn>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="TeX">\mathbf{B}^{*}\mathbf{\sigma_{3}}\mathbf{B}=\mathbf{\sigma_{3}}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,9 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mstyle mathvariant="script">
+      <mi>P</mi>
+    </mstyle>
+    <annotation encoding="TeX">\mathcal{P}</annotation>
+  </semantics>
+</math>

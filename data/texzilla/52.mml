@@ -1,0 +1,221 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <munder>
+          <mrow>
+            <msub>
+              <mi>u</mi>
+              <mn>1</mn>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mstyle mathvariant="bold">
+              <mi>x</mi>
+            </mstyle>
+            <mo>,</mo>
+            <msub>
+              <mi>z</mi>
+              <mn>1</mn>
+            </msub>
+            <mo stretchy="false">)</mo>
+            <mo>=</mo>
+            <msub>
+              <mi>v</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>+</mo>
+            <msub>
+              <mover>
+                <mi>u</mi>
+                <mo>˙</mo>
+              </mover>
+              <mi>x</mi>
+            </msub>
+          </mrow>
+          <mo>⏟</mo>
+        </munder>
+        <mrow>
+          <mtext>By definition of </mtext>
+          <msub>
+            <mi>v</mi>
+            <mn>1</mn>
+          </msub>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <msup>
+        <mover>
+          <mrow>
+            <mo>-</mo>
+            <mfrac>
+              <mrow>
+                <mo>∂</mo>
+                <msub>
+                  <mi>V</mi>
+                  <mi>x</mi>
+                </msub>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mstyle mathvariant="bold">
+                  <mi>x</mi>
+                </mstyle>
+              </mrow>
+            </mfrac>
+            <msub>
+              <mi>g</mi>
+              <mi>x</mi>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mstyle mathvariant="bold">
+              <mi>x</mi>
+            </mstyle>
+            <mo stretchy="false">)</mo>
+            <mo>-</mo>
+            <msub>
+              <mi>k</mi>
+              <mn>1</mn>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <msub>
+              <munder>
+                <mrow>
+                  <msub>
+                    <mi>z</mi>
+                    <mn>1</mn>
+                  </msub>
+                  <mo>-</mo>
+                  <msub>
+                    <mi>u</mi>
+                    <mi>x</mi>
+                  </msub>
+                  <mo stretchy="false">(</mo>
+                  <mstyle mathvariant="bold">
+                    <mi>x</mi>
+                  </mstyle>
+                  <mo stretchy="false">)</mo>
+                </mrow>
+                <mo>⏟</mo>
+              </munder>
+              <msub>
+                <mi>e</mi>
+                <mn>1</mn>
+              </msub>
+            </msub>
+            <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>⏞</mo>
+        </mover>
+        <msub>
+          <mi>v</mi>
+          <mn>1</mn>
+        </msub>
+      </msup>
+      <mspace width="thinmathspace"/>
+      <mo>+</mo>
+      <mspace width="thinmathspace"/>
+      <msup>
+        <mover>
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mo>∂</mo>
+                <msub>
+                  <mi>u</mi>
+                  <mi>x</mi>
+                </msub>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mstyle mathvariant="bold">
+                  <mi>x</mi>
+                </mstyle>
+              </mrow>
+            </mfrac>
+            <mo stretchy="false">(</mo>
+            <msub>
+              <munder>
+                <mrow>
+                  <msub>
+                    <mi>f</mi>
+                    <mi>x</mi>
+                  </msub>
+                  <mo stretchy="false">(</mo>
+                  <mstyle mathvariant="bold">
+                    <mi>x</mi>
+                  </mstyle>
+                  <mo stretchy="false">)</mo>
+                  <mo>+</mo>
+                  <msub>
+                    <mi>g</mi>
+                    <mi>x</mi>
+                  </msub>
+                  <mo stretchy="false">(</mo>
+                  <mstyle mathvariant="bold">
+                    <mi>x</mi>
+                  </mstyle>
+                  <mo stretchy="false">)</mo>
+                  <msub>
+                    <mi>z</mi>
+                    <mn>1</mn>
+                  </msub>
+                </mrow>
+                <mo>⏟</mo>
+              </munder>
+              <mrow>
+                <mover>
+                  <mstyle mathvariant="bold">
+                    <mi>x</mi>
+                  </mstyle>
+                  <mo>˙</mo>
+                </mover>
+                <mtext> (i.e., </mtext>
+                <mfrac>
+                  <mrow>
+                    <mo lspace="0em" rspace="thinmathspace">d</mo>
+                    <mstyle mathvariant="bold">
+                      <mi>x</mi>
+                    </mstyle>
+                  </mrow>
+                  <mrow>
+                    <mo lspace="0em" rspace="thinmathspace">d</mo>
+                    <mi>t</mi>
+                  </mrow>
+                </mfrac>
+                <mtext>)</mtext>
+              </mrow>
+            </msub>
+            <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>⏞</mo>
+        </mover>
+        <mrow>
+          <msub>
+            <mover>
+              <mi>u</mi>
+              <mo>˙</mo>
+            </mover>
+            <mi>x</mi>
+          </msub>
+          <mtext> (i.e., </mtext>
+          <mfrac>
+            <mrow>
+              <mo lspace="0em" rspace="thinmathspace">d</mo>
+              <msub>
+                <mi>u</mi>
+                <mi>x</mi>
+              </msub>
+            </mrow>
+            <mrow>
+              <mo lspace="0em" rspace="thinmathspace">d</mo>
+              <mi>t</mi>
+            </mrow>
+          </mfrac>
+          <mtext>)</mtext>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">\underbrace{u_1(\mathbf{x},z_1)=v_1+\dot{u}_x}_{\text{By definition of }v_1}=\overbrace{-\frac{\partial V_x}{\partial \mathbf{x}}g_x(\mathbf{x})-k_1(\underbrace{z_1-u_x(\mathbf{x})}_{e_1})}^{v_1} \, + \, \overbrace{\frac{\partial u_x}{\partial \mathbf{x}}(\underbrace{f_x(\mathbf{x})+g_x(\mathbf{x})z_1}_{\dot{\mathbf{x}} \text{ (i.e., } \frac{\operatorname{d}\mathbf{x}}{\operatorname{d}t} \text{)}})}^{\dot{u}_x \text{ (i.e., } \frac{ \operatorname{d}u_x }{\operatorname{d}t} \text{)}}</annotation>
+  </semantics>
+</math>

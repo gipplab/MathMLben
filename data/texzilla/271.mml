@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mstyle displaystyle="true">
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>a</mi>
+      <mspace width="thinmathspace"/>
+      <msub>
+        <mover>
+          <mo>∂</mo>
+          <mo stretchy="false">¯</mo>
+        </mover>
+        <mi>p</mi>
+      </msub>
+    </mstyle>
+    <annotation encoding="TeX">\displaystyle 1-a\,\bar{\partial}_{p}</annotation>
+  </semantics>
+</math>

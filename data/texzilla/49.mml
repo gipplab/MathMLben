@@ -1,0 +1,56 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>μ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>A</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mrow>
+        <mo>{</mo>
+        <mtable displaystyle="false" columnalign="left left">
+          <mtr>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+            <mtd>
+              <mtext>\</mtext>
+              <mi>m</mi>
+              <mi>b</mi>
+              <mi>o</mi>
+              <mi>x</mi>
+              <mrow>
+                <mi>i</mi>
+                <mi>f</mi>
+              </mrow>
+              <mn>0</mn>
+              <mo>∊</mo>
+              <mi>A</mi>
+              <mtext>\</mtext>
+              <mn>0</mn>
+            </mtd>
+            <mtd>
+              <mtext>\</mtext>
+              <mi>m</mi>
+              <mi>b</mi>
+              <mi>o</mi>
+              <mi>x</mi>
+              <mrow>
+                <mi>i</mi>
+                <mi>f</mi>
+              </mrow>
+              <mn>0</mn>
+              <mo>∉</mo>
+              <mi>A</mi>
+              <mo>.</mo>
+            </mtd>
+          </mtr>
+        </mtable>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX"> \mu (A)= \begin{cases} 1 &amp; \mbox{ if } 0 \in A \ 
+                               0 &amp; \mbox{ if } 0 \notin A.
+\end{cases}</annotation>
+  </semantics>
+</math>

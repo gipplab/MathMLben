@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>ψ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>b</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mi>ψ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo stretchy="false">)</mo>
+      <mover>
+        <mo>+</mo>
+        <mo>˜</mo>
+      </mover>
+      <mi>ψ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>b</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\psi(a+b)=\psi(a)\widetilde{+}\psi(b)</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,71 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mo>∂</mo>
+            <mi>j</mi>
+          </msup>
+          <msub>
+            <mi>E</mi>
+            <mi>p</mi>
+          </msub>
+          <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <msup>
+          <mrow>
+            <mo>∂</mo>
+            <mi>p</mi>
+          </mrow>
+          <mi>j</mi>
+        </msup>
+      </mfrac>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>j</mi>
+      </msup>
+      <msubsup>
+        <mo>∫</mo>
+        <mn>1</mn>
+        <mn>∞</mn>
+      </msubsup>
+      <mo stretchy="false">(</mo>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <mi>t</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mi>j</mi>
+      </msup>
+      <msup>
+        <mi>t</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>p</mi>
+        </mrow>
+      </msup>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>z</mi>
+          <mi>t</mi>
+        </mrow>
+      </msup>
+      <mstyle mathvariant="normal">
+        <mi>d</mi>
+      </mstyle>
+      <mi>t</mi>
+    </mrow>
+    <annotation encoding="TeX">\frac{{\partial}^{j}E_{p}\left(z\right)}{{\partial p}^{j}}=(-1)^{j}\int_{1}^{\infty}(\ln t)^{j}t^{-p}e^{-zt}\mathrm{d}t</annotation>
+  </semantics>
+</math>

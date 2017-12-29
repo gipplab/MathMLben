@@ -1,0 +1,18 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>U</mi>
+        <mo>±</mo>
+        <mo>†</mo>
+      </msubsup>
+      <mo>=</mo>
+      <msub>
+        <mi>U</mi>
+        <mo>±</mo>
+      </msub>
+    </mrow>
+    <annotation encoding="TeX">U_{\pm}^{\dagger}=U_{\pm}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,29 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>P</mi>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>X</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <mi>X</mi>
+      <mo stretchy="false">)</mo>
+      <mo>/</mo>
+      <mo stretchy="false">(</mo>
+      <mi>X</mi>
+      <mo>-</mo>
+      <msub>
+        <mi>α</mi>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">P_1(X)=P(X)/(X-\alpha_1)</annotation>
+  </semantics>
+</math>

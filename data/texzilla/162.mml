@@ -1,0 +1,81 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>F</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mfrac linethickness="0">
+            <mrow>
+              <mi>a</mi>
+              <mo>,</mo>
+              <mn>1</mn>
+              <mo>-</mo>
+              <mi>a</mi>
+            </mrow>
+            <mi>c</mi>
+          </mfrac>
+          <mo>;</mo>
+          <mi>z</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>z</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mrow>
+          <mi>c</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi>F</mi>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mfrac linethickness="0">
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+              <mo stretchy="false">(</mo>
+              <mi>c</mi>
+              <mo>-</mo>
+              <mi>a</mi>
+              <mo stretchy="false">)</mo>
+              <mo>,</mo>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+              <mo stretchy="false">(</mo>
+              <mi>a</mi>
+              <mo>+</mo>
+              <mi>c</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mi>c</mi>
+          </mfrac>
+          <mo>;</mo>
+          <mn>4</mn>
+          <mi>z</mi>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mi>z</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">F\left({a,1-a\atop c};z\right)=(1-z)^{c-1}F\left({\frac{1}{2}(c-a),\frac{1}{2}(a+c-1)\atop c};4z(1-z)\right)</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,22 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>h</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>:</mo>
+      <mi>X</mi>
+      <mo stretchy="false">→</mo>
+      <mo stretchy="false">{</mo>
+      <mo>-</mo>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mo>+</mo>
+      <mn>1</mn>
+      <mo stretchy="false">}</mo>
+    </mrow>
+    <annotation encoding="TeX">h_i : X \to \{-1,+1\}</annotation>
+  </semantics>
+</math>

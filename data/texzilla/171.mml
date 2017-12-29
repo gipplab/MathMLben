@@ -1,0 +1,50 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>b</mi>
+        <mi>ν</mi>
+        <mrow>
+          <mn>2</mn>
+          <mi>m</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msubsup>
+      <mrow>
+        <mo>(</mo>
+        <msup>
+          <mi>k</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="false">
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </mstyle>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>H</mi>
+        <mi>m</mi>
+      </msub>
+      <mo>+</mo>
+      <mi>ν</mi>
+      <mo stretchy="false">(</mo>
+      <mi>ν</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+      <msup>
+        <mi>k</mi>
+        <mn>2</mn>
+      </msup>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">b^{2m+1}_{\nu}\left(k^{2}\right)=\tfrac{1}{2}(H_{m}+\nu(\nu+1)k^{2})</annotation>
+  </semantics>
+</math>

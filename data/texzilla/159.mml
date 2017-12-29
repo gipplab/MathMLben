@@ -1,0 +1,61 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>R</mi>
+        <mi>j</mi>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mi>j</mi>
+          <mo stretchy="false">)</mo>
+          <mo stretchy="false">(</mo>
+          <mi>j</mi>
+          <mo>+</mo>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mi>γ</mi>
+          <mo>+</mo>
+          <mi>δ</mi>
+          <mo stretchy="false">)</mo>
+          <mo stretchy="false">(</mo>
+          <mi>j</mi>
+          <mo>+</mo>
+          <mi>γ</mi>
+          <mo stretchy="false">)</mo>
+          <mo stretchy="false">(</mo>
+          <mi>j</mi>
+          <mo>+</mo>
+          <mi>δ</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>γ</mi>
+          <mo>+</mo>
+          <mi>δ</mi>
+          <mo>+</mo>
+          <mn>2</mn>
+          <mi>j</mi>
+          <mo stretchy="false">)</mo>
+          <mo stretchy="false">(</mo>
+          <mi>γ</mi>
+          <mo>+</mo>
+          <mi>δ</mi>
+          <mo>+</mo>
+          <mn>2</mn>
+          <mi>j</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">R_{j}=\frac{(n-j)(j+n+\gamma+\delta)(j+\gamma)(j+\delta)}{(\gamma+\delta+2j)(\gamma+\delta+2j+1)}</annotation>
+  </semantics>
+</math>

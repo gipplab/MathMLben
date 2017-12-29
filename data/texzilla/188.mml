@@ -1,0 +1,29 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>z</mi>
+      <mo>=</mo>
+      <msup>
+        <mn>2</mn>
+        <mrow>
+          <mo>-</mo>
+          <mn>2</mn>
+          <mo>/</mo>
+          <mn>3</mn>
+        </mrow>
+      </msup>
+      <mi>ϵ</mi>
+      <mi>ζ</mi>
+      <mo>-</mo>
+      <msup>
+        <mi>ϵ</mi>
+        <mrow>
+          <mo>-</mo>
+          <mn>3</mn>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">z=2^{-2/3}\epsilon\zeta-\epsilon^{-3}</annotation>
+  </semantics>
+</math>

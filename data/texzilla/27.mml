@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>v</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mi>c</mi>
+        <mi>n</mi>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">v = \frac{c}{n}</annotation>
+  </semantics>
+</math>

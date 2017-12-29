@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mtext>Ker</mtext>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>k</mi>
+        <mo>*</mo>
+      </msub>
+      <mo>-</mo>
+      <msub>
+        <mi>l</mi>
+        <mo>*</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>≅</mo>
+      <mtext>Im</mtext>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>i</mi>
+        <mo>*</mo>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>j</mi>
+        <mo>*</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\text{Ker} (k_* - l_*) \cong \text{Im} (i_*, j_*)</annotation>
+  </semantics>
+</math>

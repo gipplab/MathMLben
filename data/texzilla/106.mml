@@ -1,0 +1,48 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <munderover>
+        <mo>∏</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mfrac>
+            <mi>z</mi>
+            <msub>
+              <mi>z</mi>
+              <mi>n</mi>
+            </msub>
+          </mfrac>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mi>z</mi>
+          <mo>/</mo>
+          <msub>
+            <mi>z</mi>
+            <mi>n</mi>
+          </msub>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">P(z)=\prod^{\infty}_{n=1}\left(1-\frac{z}{z_{n}}\right)e^{z/z_{n}}</annotation>
+  </semantics>
+</math>

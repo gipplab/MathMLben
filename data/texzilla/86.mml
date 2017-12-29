@@ -1,0 +1,51 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <mo>∂</mo>
+          <mi>L</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <msub>
+            <mi>q</mi>
+            <mi>i</mi>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mfrac>
+        <mstyle mathvariant="normal">
+          <mi>d</mi>
+        </mstyle>
+        <mrow>
+          <mstyle mathvariant="normal">
+            <mi>d</mi>
+          </mstyle>
+          <mi>t</mi>
+        </mrow>
+      </mfrac>
+      <mfrac>
+        <mrow>
+          <mo>∂</mo>
+          <mi>L</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mover>
+            <msub>
+              <mi>q</mi>
+              <mi>i</mi>
+            </msub>
+            <mo>˙</mo>
+          </mover>
+        </mrow>
+      </mfrac>
+      <mo>.</mo>
+    </mrow>
+    <annotation encoding="TeX">{\partial{L}\over \partial q_i} = {\mathrm{d} \over \mathrm{d}t}{\partial{L}\over \partial{\dot{q_i}}}.
+</annotation>
+  </semantics>
+</math>
