@@ -9,7 +9,7 @@
   },
   "math_inputtex": "\\mathbf{m}_1",
   "title": "Kernel_Fisher_discriminant_analysis",
-  "correct_tex": "\\w{}{\\mathbf{m}}_1",
+  "correct_tex": "\\mathbf{m}_1",
   "uri": "https://en.formulasearchengine.com/w/index.php?oldid=27275#math27275.2",
   "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\mathbf{m}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">𝐦</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝐦</ci>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\mathbf{m}</annotation>\n  </semantics>\n</math>",
   "constraints": [],
