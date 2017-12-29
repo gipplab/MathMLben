@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>D</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ρ</mi>
+      <msub>
+         <mi>u</mi>
+         <mi>i</mi>
+      </msub>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>/</mo>
+      <mi>D</mi>
+      <mi>t</mi>
+      <mo>≈</mo>
+      <mn>0</mn>
+   </mrow>
+</math>

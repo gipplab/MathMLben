@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mi>U</mi>
+         <mrow>
+            <mi>±</mi>
+         </mrow>
+         <mrow>
+            <mi>†</mi>
+         </mrow>
+      </msubsup>
+      <mo>=</mo>
+      <msub>
+         <mi>U</mi>
+         <mrow>
+            <mi>±</mi>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

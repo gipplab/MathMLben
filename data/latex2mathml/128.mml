@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>N</mi>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>i</mi>
+            <mspace width="0.167em"/>
+            <mi>!</mi>
+            <msub>
+               <mi>ϕ</mi>
+               <mrow>
+                  <mi>ν</mi>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>x</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+      </msup>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <msub>
+         <mrow>
+            <mi>k</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+         </mrow>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>i</mi>
+      <mi>operatorname</mi>
+      <msub>
+         <mrow>
+            <mi>k</mi>
+            <mi>e</mi>
+            <mi>i</mi>
+         </mrow>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mi>x</mi>
+   </mrow>
+</math>

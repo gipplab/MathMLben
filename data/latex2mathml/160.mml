@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>lim</mi>
+         <mrow>
+            <mi>z</mi>
+            <mo>→</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+         </mrow>
+      </msub>
+      <mfrac>
+         <mrow>
+            <mi>F</mi>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>a</mi>
+            <mi>,</mi>
+            <mi>b</mi>
+            <mi>;</mi>
+            <mi>c</mi>
+            <mi>;</mi>
+            <mi>z</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+         <mrow>
+            <msup>
+               <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo>−</mo>
+                  <mi>z</mi>
+                  <mo>)</mo>
+               </mrow>
+               <mrow>
+                  <mi>c</mi>
+                  <mo>−</mo>
+                  <mi>a</mi>
+                  <mo>−</mo>
+                  <mi>b</mi>
+               </mrow>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mi>Γ</mi>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>c</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <mi>Γ</mi>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+            <mo>−</mo>
+            <mi>c</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+         <mrow>
+            <mi>Γ</mi>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>a</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <mi>Γ</mi>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>b</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

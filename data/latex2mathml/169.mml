@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msup>
+         <mi>K</mi>
+         <mrow>
+            <mi>′</mi>
+         </mrow>
+      </msup>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mi>π</mi>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+            <mi>M</mi>
+            <mrow>
+               <mo>(</mo>
+               <mn>1</mn>
+               <mi>,</mi>
+               <mi>k</mi>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

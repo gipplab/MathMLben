@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mi>cal</mi>
+         <mi>L</mi>
+      </mrow>
+      <mo>=</mo>
+      <mspace width="0.167em"/>
+      <mrow>
+         <msub>
+            <mi>π</mi>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+         </msub>
+         <mi>,</mi>
+         <msub>
+            <mi>π</mi>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </msub>
+         <mspace width="0.167em"/>
+      </mrow>
+   </mrow>
+</math>

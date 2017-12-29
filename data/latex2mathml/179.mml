@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>n</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mo>∞</mo>
+         </mrow>
+      </msubsup>
+      <mi>f</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>n</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msub>
+         <mo>∏</mo>
+         <mrow>
+            <mi>p</mi>
+         </mrow>
+      </msub>
+      <msup>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mi>f</mi>
+            <mrow>
+               <mo>(</mo>
+               <mi>p</mi>
+               <mo>)</mo>
+            </mrow>
+            <mo>)</mo>
+         </mrow>
+         <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

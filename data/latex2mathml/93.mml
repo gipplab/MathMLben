@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>L</mi>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>H</mi>
+            <mi>B</mi>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+      <mo>⊗</mo>
+      <mi>C</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>X</mi>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

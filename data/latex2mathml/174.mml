@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <msup>
+            <mi>α</mi>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </msup>
+         <mo>+</mo>
+         <mi>η</mi>
+         <mo fence="true" form="postfix" stretchy="true">^</mo>
+         <mo>)</mo>
+         <mrow>
+            <mn>1</mn>
+            <mo>/</mo>
+            <mn>2</mn>
+         </mrow>
+         <mo>+</mo>
+         <mi>tfrac</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+         <mi>α</mi>
+         <mi>ln</mi>
+         <mi>η</mi>
+         <mo>−</mo>
+         <mi>α</mi>
+         <mi>ln</mi>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <msup>
+            <mi>α</mi>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </msup>
+         <mo>+</mo>
+         <mi>η</mi>
+         <mo fence="true" form="postfix" stretchy="true">^</mo>
+         <mo>)</mo>
+         <mrow>
+            <mn>1</mn>
+            <mo>/</mo>
+            <mn>2</mn>
+         </mrow>
+         <mo>+</mo>
+         <mi>α</mi>
+         <mo fence="true" form="postfix" stretchy="true">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+         <mi>operatorname</mi>
+         <mrow>
+            <mi>a</mi>
+            <mi>r</mi>
+            <mi>c</mi>
+            <mi>c</mi>
+            <mi>o</mi>
+            <mi>s</mi>
+         </mrow>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <mfrac>
+            <mrow>
+               <mi>x</mi>
+            </mrow>
+            <mrow>
+               <mo fence="true" form="prefix" stretchy="true">(</mo>
+               <mn>1</mn>
+               <mo>+</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo fence="true" form="postfix" stretchy="true">^</mo>
+               <mo>)</mo>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </mrow>
+         </mfrac>
+         <mo fence="true" form="postfix" stretchy="true">)</mo>
+         <mo>+</mo>
+         <mfrac>
+            <mrow>
+               <mi>α</mi>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </mfrac>
+         <mi>ln</mi>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <mfrac>
+            <mrow>
+               <mn>1</mn>
+               <mo>+</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo>+</mo>
+               <mo fence="true" form="prefix" stretchy="true">(</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo fence="true" form="postfix" stretchy="true">)</mo>
+               <msup>
+                  <mi>x</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo>−</mo>
+               <mn>2</mn>
+               <mi>α</mi>
+               <mi>x</mi>
+               <mo fence="true" form="prefix" stretchy="true">(</mo>
+               <mn>1</mn>
+               <mo>+</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo>−</mo>
+               <msup>
+                  <mi>x</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo fence="true" form="postfix" stretchy="true">^</mo>
+               <mo>)</mo>
+               <mrow>
+                  <mn>1</mn>
+                  <mo>/</mo>
+                  <mn>2</mn>
+               </mrow>
+            </mrow>
+            <mrow>
+               <mo fence="true" form="prefix" stretchy="true">(</mo>
+               <mn>1</mn>
+               <mo>+</mo>
+               <msup>
+                  <mi>α</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo fence="true" form="postfix" stretchy="true">)</mo>
+               <mo fence="true" form="prefix" stretchy="true">(</mo>
+               <mn>1</mn>
+               <mo>−</mo>
+               <msup>
+                  <mi>x</mi>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </msup>
+               <mo fence="true" form="postfix" stretchy="true">)</mo>
+            </mrow>
+         </mfrac>
+         <mo fence="true" form="postfix" stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

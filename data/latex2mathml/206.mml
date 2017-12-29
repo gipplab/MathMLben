@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>p</mi>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>π</mi>
+            <mrow>
+               <mi>n</mi>
+            </mrow>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msub>
+         <mo>∑</mo>
+         <mrow>
+            <mi>α</mi>
+         </mrow>
+      </msub>
+      <mspace width="0.167em"/>
+      <msub>
+         <mi>p</mi>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>e</mi>
+            <mrow>
+               <mi>α</mi>
+            </mrow>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mi>q</mi>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>π</mi>
+            <mrow>
+               <mi>n</mi>
+            </mrow>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

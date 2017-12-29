@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mi>J</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>0</mn>
+      <mi>,</mi>
+      <mi>y</mi>
+      <mi>,</mi>
+      <mi>z</mi>
+      <mi>,</mi>
+      <mi>±</mi>
+      <msqrt>
+         <mrow>
+            <mi>y</mi>
+            <mi>z</mi>
+         </mrow>
+      </msqrt>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>±</mi>
+      <mfrac>
+         <mrow>
+            <mn>3</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+            <msqrt>
+               <mrow>
+                  <mi>y</mi>
+                  <mi>z</mi>
+               </mrow>
+            </msqrt>
+         </mrow>
+      </mfrac>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mi>F</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>0</mn>
+      <mi>,</mi>
+      <mi>y</mi>
+      <mi>,</mi>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

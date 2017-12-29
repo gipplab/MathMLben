@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>displaystyle</mi>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mi>a</mi>
+      <mspace width="0.167em"/>
+      <mi>̄</mi>
+      <msub>
+         <mrow>
+            <mo>∂</mo>
+         </mrow>
+         <mrow>
+            <mi>p</mi>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

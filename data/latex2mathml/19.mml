@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Z</mi>
+      <mo>=</mo>
+      <msub>
+         <mo>∑</mo>
+         <mrow>
+            <mi>j</mi>
+         </mrow>
+      </msub>
+      <msub>
+         <mi>g</mi>
+         <mi>j</mi>
+      </msub>
+      <mo>⋅</mo>
+      <mi>mathrm</mi>
+      <msup>
+         <mrow>
+            <mi>e</mi>
+         </mrow>
+         <mrow>
+            <mo>−</mo>
+            <mi>β</mi>
+            <msub>
+               <mi>E</mi>
+               <mi>j</mi>
+            </msub>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

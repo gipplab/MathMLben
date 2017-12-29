@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>ψ</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mo>−</mo>
+      <mi>γ</mi>
+      <mo>+</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>=</mo>
+            <mn>2</mn>
+         </mrow>
+         <mrow>
+            <mo>∞</mo>
+         </mrow>
+      </msubsup>
+      <msup>
+         <mrow>
+            <mo>(</mo>
+            <mo>−</mo>
+            <mn>1</mn>
+            <mo>)</mo>
+         </mrow>
+         <mrow>
+            <mi>k</mi>
+         </mrow>
+      </msup>
+      <mi>ζ</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>k</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <mi>k</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

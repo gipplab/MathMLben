@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Q</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>N</mi>
+         <mi>,</mi>
+         <mi>M</mi>
+         <mi>,</mi>
+         <mi>a</mi>
+         <mi>j</mi>
+         <mi>,</mi>
+         <mi>b</mi>
+         <mi>j</mi>
+         <mi>,</mi>
+         <mi>q</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>Q</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>M</mi>
+         <mi>,</mi>
+         <mi>N</mi>
+         <mi>,</mi>
+         <mi>b</mi>
+         <mi>j</mi>
+         <mi>,</mi>
+         <mi>a</mi>
+         <mi>j</mi>
+         <mi>,</mi>
+         <mi>q</mi>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

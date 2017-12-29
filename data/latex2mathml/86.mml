@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mo>∂</mo>
+         <mrow>
+            <mi>L</mi>
+         </mrow>
+         <mi>over</mi>
+         <mo>∂</mo>
+         <msub>
+            <mi>q</mi>
+            <mi>i</mi>
+         </msub>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+         <mi>mathrm</mi>
+         <mrow>
+            <mi>d</mi>
+         </mrow>
+         <mi>over</mi>
+         <mi>mathrm</mi>
+         <mrow>
+            <mi>d</mi>
+         </mrow>
+         <mi>t</mi>
+      </mrow>
+      <mrow>
+         <mo>∂</mo>
+         <mrow>
+            <mi>L</mi>
+         </mrow>
+         <mi>over</mi>
+         <mo>∂</mo>
+         <mrow>
+            <mi>̇</mi>
+            <mrow>
+               <msub>
+                  <mi>q</mi>
+                  <mi>i</mi>
+               </msub>
+            </mrow>
+         </mrow>
+      </mrow>
+   </mrow>
+</math>

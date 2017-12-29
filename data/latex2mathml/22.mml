@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>text</mi>
+      <mrow>
+         <mi>K</mi>
+         <mi>e</mi>
+         <mi>r</mi>
+      </mrow>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>k</mi>
+            <mo>*</mo>
+         </msub>
+         <mo>−</mo>
+         <msub>
+            <mi>l</mi>
+            <mo>*</mo>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+      <mo>≅</mo>
+      <mi>text</mi>
+      <mrow>
+         <mi>I</mi>
+         <mi>m</mi>
+      </mrow>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>i</mi>
+            <mo>*</mo>
+         </msub>
+         <mi>,</mi>
+         <msub>
+            <mi>j</mi>
+            <mo>*</mo>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

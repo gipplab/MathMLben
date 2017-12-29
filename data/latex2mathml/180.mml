@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>n</mi>
+      <mo>=</mo>
+      <msubsup>
+         <mi>x</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msubsup>
+      <mo>+</mo>
+      <msubsup>
+         <mi>x</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msubsup>
+      <mo>+</mo>
+      <mi>dots</mi>
+      <mo>+</mo>
+      <msubsup>
+         <mi>x</mi>
+         <mrow>
+            <mi>k</mi>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msubsup>
+   </mrow>
+</math>

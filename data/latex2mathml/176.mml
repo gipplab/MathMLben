@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mi>S</mi>
+         <mrow>
+            <mi>p</mi>
+         </mrow>
+         <mrow>
+            <mi>m</mi>
+         </mrow>
+      </msubsup>
+      <mrow>
+         <mo>(</mo>
+         <mi>x</mi>
+         <mi>,</mi>
+         <mi>ξ</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>→</mo>
+      <mi>sin</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>m</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

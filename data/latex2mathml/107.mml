@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mroot>
+         <mrow>
+            <mi>tfrac</mi>
+            <mrow>
+               <mn>27</mn>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+            <mi>q</mi>
+            <mo>+</mo>
+            <mi>tfrac</mi>
+            <mrow>
+               <mn>3</mn>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+            <msqrt>
+               <mrow>
+                  <mn>3</mn>
+                  <mi>D</mi>
+                  <mo>−</mo>
+               </mrow>
+            </msqrt>
+            <mo>−</mo>
+         </mrow>
+         <mrow>
+            <mn>3</mn>
+         </mrow>
+      </mroot>
+   </mrow>
+</math>

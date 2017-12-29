@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mo fence="true" form="prefix" stretchy="true">\</mo>
+      <mrow>
+         <mn>3</mn>
+         <mi>k</mi>
+         <mo>+</mo>
+         <mn>4</mn>
+         <mspace width="0.167em"/>
+         <mo fence="true" form="postfix" stretchy="true">\</mo>
+      </mrow>
+      <mo>⊂</mo>
+      <mi>mathfrak</mi>
+      <mrow>
+         <mi>C</mi>
+      </mrow>
+   </mrow>
+</math>

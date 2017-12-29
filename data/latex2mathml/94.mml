@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>π</mi>
+         <mi>i</mi>
+      </msub>
+      <mo>=</mo>
+      <msup>
+         <mn>2</mn>
+         <mrow>
+            <mo>−</mo>
+            <mi>N</mi>
+         </mrow>
+      </msup>
+      <mi>tbinom</mi>
+      <mi>N</mi>
+      <mi>i</mi>
+   </mrow>
+</math>

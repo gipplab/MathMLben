@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>mathscr</mi>
+      <msub>
+         <mrow>
+            <mi>C</mi>
+         </mrow>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>u</mi>
+      <mi>±</mi>
+      <mi>v</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>=</mo>
+            <mo>−</mo>
+            <mo>∞</mo>
+         </mrow>
+         <mrow>
+            <mo>∞</mo>
+         </mrow>
+      </msubsup>
+      <mi>mathscr</mi>
+      <msub>
+         <mrow>
+            <mi>C</mi>
+         </mrow>
+         <mrow>
+            <mi>ν</mi>
+            <mo>∓</mo>
+            <mi>k</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>u</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msub>
+         <mi>J</mi>
+         <mrow>
+            <mi>k</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>v</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

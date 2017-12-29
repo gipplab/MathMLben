@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>P</mi>
+         <mi>i</mi>
+      </msub>
+      <mo>=</mo>
+      <mi>mbox</mi>
+      <mrow>
+         <mi>h</mi>
+         <mi>e</mi>
+         <mi>a</mi>
+         <mi>d</mi>
+      </mrow>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>E</mi>
+            <mi>K</mi>
+         </msub>
+         <mrow>
+            <mo>(</mo>
+            <msub>
+               <mi>S</mi>
+               <mrow>
+                  <mi>i</mi>
+                  <mo>−</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msub>
+            <mo>)</mo>
+         </mrow>
+         <mi>,</mi>
+         <mi>x</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>⊕</mo>
+      <msub>
+         <mi>C</mi>
+         <mi>i</mi>
+      </msub>
+   </mrow>
+</math>

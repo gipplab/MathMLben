@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>|</mi>
+      <mi>f</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>a</mi>
+         <mo>+</mo>
+         <mi>α</mi>
+         <mi>,</mi>
+         <mi>b</mi>
+         <mo>+</mo>
+         <mi>β</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>−</mo>
+      <mi>f</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>a</mi>
+         <mi>,</mi>
+         <mi>b</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>|</mi>
+      <mi>&lt;</mi>
+      <mi>ϵ</mi>
+   </mrow>
+</math>

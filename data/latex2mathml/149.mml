@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>C</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>±</mi>
+      <mi>i</mi>
+      <mi>S</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mrow>
+         <mo>(</mo>
+         <mn>1</mn>
+         <mi>±</mi>
+         <mi>i</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>e</mi>
+         <mi>r</mi>
+         <mi>f</mi>
+      </mrow>
+      <mi>ζ</mi>
+   </mrow>
+</math>

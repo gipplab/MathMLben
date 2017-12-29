@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Δ</mi>
+      <mi>x</mi>
+      <mi>Δ</mi>
+      <mi>p</mi>
+      <mo>≥</mo>
+      <mi>|</mi>
+      <mi>&lt;</mi>
+      <mrow>
+         <mi>[</mi>
+         <mi>widehat</mi>
+         <mrow>
+            <mi>x</mi>
+         </mrow>
+         <mi>,</mi>
+         <mi>widehat</mi>
+         <mrow>
+            <mi>p</mi>
+         </mrow>
+         <mi>]</mi>
+      </mrow>
+      <mi>&gt;</mi>
+      <mi>|</mi>
+   </mrow>
+</math>

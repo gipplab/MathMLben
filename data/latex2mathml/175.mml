@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>U</mi>
+         <mrow>
+            <mi>m</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>ξ</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>−</mo>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <msup>
+               <mn>2</mn>
+               <mrow>
+                  <mn>6</mn>
+               </mrow>
+            </msup>
+            <mi>h</mi>
+         </mrow>
+      </mfrac>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+            <mo>+</mo>
+            <mn>4</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>−</mo>
+      <mn>4</mn>
+      <mi>!</mi>
+      <mi>dbinom</mi>
+      <mrow>
+         <mi>m</mi>
+      </mrow>
+      <mrow>
+         <mn>4</mn>
+      </mrow>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+            <mo>−</mo>
+            <mn>4</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>+</mo>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <msup>
+               <mn>2</mn>
+               <mrow>
+                  <mn>13</mn>
+               </mrow>
+            </msup>
+            <msup>
+               <mi>h</mi>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+         </mrow>
+      </mfrac>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+            <mo>+</mo>
+            <mn>8</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>−</mo>
+      <msup>
+         <mn>2</mn>
+         <mrow>
+            <mn>5</mn>
+         </mrow>
+      </msup>
+      <mrow>
+         <mo>(</mo>
+         <mi>m</mi>
+         <mo>+</mo>
+         <mn>2</mn>
+         <mo>)</mo>
+      </mrow>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+            <mo>+</mo>
+            <mn>4</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>+</mo>
+      <mn>4</mn>
+      <mi>!</mi>
+      <mspace width="0.167em"/>
+      <msup>
+         <mn>2</mn>
+         <mrow>
+            <mn>5</mn>
+         </mrow>
+      </msup>
+      <mrow>
+         <mo>(</mo>
+         <mi>m</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>)</mo>
+      </mrow>
+      <mi>dbinom</mi>
+      <mrow>
+         <mi>m</mi>
+      </mrow>
+      <mrow>
+         <mn>4</mn>
+      </mrow>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+            <mo>−</mo>
+            <mn>4</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>+</mo>
+      <mn>8</mn>
+      <mi>!</mi>
+      <mi>genfrac</mi>
+      <mrow>
+         <mrow>
+            <mo>(</mo>
+         </mrow>
+         <mrow>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <mrow>
+         <mn>0.0</mn>
+         <mi>p</mi>
+         <mi>t</mi>
+      </mrow>
+      <mrow/>
+      <mrow>
+         <mi>m</mi>
+      </mrow>
+      <mrow>
+         <mn>8</mn>
+      </mrow>
+      <msub>
+         <mi>D</mi>
+         <mrow>
+            <mi>m</mi>
+            <mo>−</mo>
+            <mn>8</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ξ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>+</mo>
+      <mo>⋯</mo>
+   </mrow>
+</math>

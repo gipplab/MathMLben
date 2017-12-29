@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>ln</mi>
+      <mi>x</mi>
+      <mo>=</mo>
+      <msup>
+         <mn>2</mn>
+         <mrow>
+            <mi>m</mi>
+         </mrow>
+      </msup>
+      <mi>ln</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mi>y</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

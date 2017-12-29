@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>θ</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>2</mn>
+      <mi>z</mi>
+      <mi>,</mi>
+      <mi>q</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mn>2</mn>
+      <mfrac>
+         <mrow>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>1</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>z</mi>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>z</mi>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>3</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>z</mi>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>4</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>z</mi>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+         <mrow>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mn>0</mn>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>3</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mn>0</mn>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>4</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mn>0</mn>
+            <mi>,</mi>
+            <mi>q</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

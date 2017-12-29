@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mi>K</mi>
+         <mo>*</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>(</mo>
+            <mo>)</mo>
+         </mrow>
+      </msubsup>
+      <mi>:</mi>
+      <mo>=</mo>
+      <mi>T</mi>
+      <msup>
+         <mo>*</mo>
+         <mrow>
+            <mi>k</mi>
+            <msup>
+               <mi>×</mi>
+               <mo>(</mo>
+            </msup>
+            <mo>)</mo>
+         </mrow>
+      </msup>
+      <mo>/</mo>
+      <mrow>
+         <mi>a</mi>
+         <mo>⊗</mo>
+         <mrow>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mi>a</mi>
+            <mo>(</mo>
+            <mo>)</mo>
+         </mrow>
+         <mo>(</mo>
+         <mo>)</mo>
+      </mrow>
+      <mi>M</mi>
+   </mrow>
+</math>

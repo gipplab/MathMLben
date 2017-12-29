@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>F</mi>
+         <mrow>
+            <mi>n</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <msub>
+         <mo>∑</mo>
+         <mrow>
+            <mi>k</mi>
+            <mo>≤</mo>
+            <mi>n</mi>
+         </mrow>
+      </msub>
+      <mo>(</mo>
+      <mfrac linethickness="0">
+         <mrow>
+            <mi>n</mi>
+            <mo>−</mo>
+            <mi>k</mi>
+         </mrow>
+         <mrow>
+            <mi>k</mi>
+         </mrow>
+      </mfrac>
+      <mo>)</mo>
+      <mi>,</mi>
+      <mspace width="0.167em"/>
+      <mi>n</mi>
+      <mo>≥</mo>
+      <mn>0</mn>
+   </mrow>
+</math>

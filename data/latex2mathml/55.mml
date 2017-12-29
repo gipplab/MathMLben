@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mo>∑</mo>
+         <mi>x</mi>
+      </msub>
+      <msub>
+         <mo>∑</mo>
+         <mi>y</mi>
+      </msub>
+      <mi>I</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>x</mi>
+         <mi>,</mi>
+         <mi>y</mi>
+         <mo>)</mo>
+      </mrow>
+      <mspace width="0.167em"/>
+      <mspace width="0.167em"/>
+      <mi>!</mi>
+   </mrow>
+</math>

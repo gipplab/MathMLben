@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mi>y</mi>
+      <mo>=</mo>
+      <mo>−</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>4</mn>
+      </mrow>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

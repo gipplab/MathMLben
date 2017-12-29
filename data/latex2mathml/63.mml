@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>y</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mrow>
+         <mi>mathop</mi>
+         <mrow>
+            <mi>rm</mi>
+            <mi>s</mi>
+            <mi>g</mi>
+            <mi>n</mi>
+         </mrow>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mrow>
+         <mrow>
+            <mi>ρ</mi>
+         </mrow>
+      </mrow>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mfrac>
+         <mrow>
+            <mrow>
+               <mrow>
+                  <msub>
+                     <mi>σ</mi>
+                     <mi>y</mi>
+                  </msub>
+               </mrow>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mrow>
+                  <msub>
+                     <mi>σ</mi>
+                     <mi>x</mi>
+                  </msub>
+               </mrow>
+            </mrow>
+         </mrow>
+      </mfrac>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mrow>
+         <mi>x</mi>
+         <mo>−</mo>
+         <mrow>
+            <msub>
+               <mi>μ</mi>
+               <mi>x</mi>
+            </msub>
+         </mrow>
+      </mrow>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>+</mo>
+      <mrow>
+         <msub>
+            <mi>μ</mi>
+            <mi>y</mi>
+         </msub>
+      </mrow>
+   </mrow>
+</math>

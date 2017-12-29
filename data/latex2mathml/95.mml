@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mo>(</mo>
+         <msqrt>
+            <mrow>
+               <msub>
+                  <mi>p</mi>
+                  <mn>1</mn>
+               </msub>
+            </mrow>
+         </msqrt>
+         <mi>,</mi>
+         <mo>⋯</mo>
+         <mi>,</mi>
+         <msqrt>
+            <mrow>
+               <msub>
+                  <mi>p</mi>
+                  <mi>n</mi>
+               </msub>
+            </mrow>
+         </msqrt>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

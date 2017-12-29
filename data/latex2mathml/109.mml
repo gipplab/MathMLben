@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>A</mi>
+      <msub>
+         <mi>w</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>z</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mi>B</mi>
+      <msub>
+         <mi>w</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>z</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mn>0</mn>
+   </mrow>
+</math>

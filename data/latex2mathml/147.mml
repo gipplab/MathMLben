@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Π</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msup>
+         <mi>α</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mi>,</mi>
+      <mi>k</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>−</mo>
+      <mi>K</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>k</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>3</mn>
+      </mrow>
+      <msup>
+         <mi>α</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mi>J</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>0</mn>
+      <mi>,</mi>
+      <msup>
+         <mrow>
+            <msup>
+               <mi>k</mi>
+               <mrow>
+                  <mi>′</mi>
+               </mrow>
+            </msup>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mi>,</mi>
+      <mn>1</mn>
+      <mi>,</mi>
+      <mn>1</mn>
+      <mo>−</mo>
+      <msup>
+         <mi>α</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>H</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>j</mi>
+         <mi>ω</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>mathcal</mi>
+      <mrow>
+         <mi>F</mi>
+      </mrow>
+      <mspace width="0.167em"/>
+      <mrow>
+         <mi>h</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>t</mi>
+            <mo>)</mo>
+         </mrow>
+         <mspace width="0.167em"/>
+      </mrow>
+   </mrow>
+</math>

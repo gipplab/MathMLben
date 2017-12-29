@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>S</mi>
+         <mrow>
+            <mi>rm</mi>
+            <mi>B</mi>
+            <mi>H</mi>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>n</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>)</mo>
+      </mrow>
+      <mi>V</mi>
+      <mo>/</mo>
+      <mn>4</mn>
+      <msub>
+         <mi>G</mi>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </msub>
+      <mi>R</mi>
+      <mo>≡</mo>
+      <mn>2</mn>
+      <mi>π</mi>
+      <msub>
+         <mi>E</mi>
+         <mrow>
+            <mi>rm</mi>
+            <mi>B</mi>
+            <mi>H</mi>
+         </mrow>
+      </msub>
+      <mi>R</mi>
+      <mo>/</mo>
+      <mi>n</mi>
+   </mrow>
+</math>

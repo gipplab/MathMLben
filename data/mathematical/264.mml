@@ -54,8 +54,7 @@
          <merror>
             <mtext>Unknown character</mtext>
          </merror>
-         <mi>$</mi>
       </mrow>
-      <annotation encoding="application/x-tex">q(\pi_{n})\equiv\sum_{\alpha\neq\beta}&lt;\hat{P}(e_{\alpha})\hat{P}(\pi_{n})\hat{P}(e_{\beta})&gt;\$</annotation>
+      <annotation encoding="application/x-tex">q(\pi_{n})\equiv\sum_{\alpha\neq\beta}&lt;\hat{P}(e_{\alpha})\hat{P}(\pi_{n})\hat{P}(e_{\beta})&gt;</annotation>
    </semantics>
 </math>

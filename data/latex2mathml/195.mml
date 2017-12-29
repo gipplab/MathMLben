@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>θ</mi>
+         <mrow>
+            <mn>3</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>π</mi>
+      <mi>z</mi>
+      <mi>middle</mi>
+      <mi>|</mi>
+      <mi>τ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <msub>
+         <mi>θ</mi>
+         <mrow>
+            <mn>3</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>0</mn>
+      <mi>middle</mi>
+      <mi>|</mi>
+      <mi>τ</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>exp</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mo>−</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>j</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mo>∞</mo>
+         </mrow>
+      </msubsup>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+            <mi>j</mi>
+         </mrow>
+      </mfrac>
+      <msub>
+         <mi>β</mi>
+         <mrow>
+            <mn>2</mn>
+            <mi>j</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>τ</mi>
+         <mo>)</mo>
+      </mrow>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <mn>2</mn>
+            <mi>j</mi>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

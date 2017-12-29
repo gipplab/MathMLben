@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>E</mi>
+         <mrow>
+            <mi>text</mi>
+            <mrow>
+               <mi>k</mi>
+            </mrow>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <msub>
+         <mi>E</mi>
+         <mi>t</mi>
+      </msub>
+      <mo>+</mo>
+      <msub>
+         <mi>E</mi>
+         <mrow>
+            <mi>text</mi>
+            <mrow>
+               <mi>r</mi>
+            </mrow>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

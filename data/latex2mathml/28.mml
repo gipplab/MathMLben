@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mi>σ</mi>
+         <mi>y</mi>
+         <mn>2</mn>
+      </msubsup>
+      <mrow>
+         <mo>(</mo>
+         <mi>τ</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mn>2</mn>
+            <msup>
+               <mi>π</mi>
+               <mn>2</mn>
+            </msup>
+            <mi>τ</mi>
+         </mrow>
+         <mrow>
+            <mn>3</mn>
+         </mrow>
+      </mfrac>
+      <msub>
+         <mi>h</mi>
+         <mrow>
+            <mo>−</mo>
+            <mn>2</mn>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

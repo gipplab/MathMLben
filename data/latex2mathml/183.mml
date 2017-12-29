@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mo>∫</mo>
+         <mrow>
+            <mn>0</mn>
+         </mrow>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+      </msubsup>
+      <msub>
+         <mi>P</mi>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mn>2</mn>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>sin</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mi>y</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>mathrm</mi>
+      <mrow>
+         <mi>d</mi>
+      </mrow>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>π</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msub>
+         <mi>J</mi>
+         <mrow>
+            <mi>n</mi>
+            <mo>+</mo>
+            <mfrac>
+               <mrow>
+                  <mn>1</mn>
+               </mrow>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </mfrac>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>y</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo fence="true" form="postfix" stretchy="true">^</mo>
+      <mo>)</mo>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+   </mrow>
+</math>

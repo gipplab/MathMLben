@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>z</mi>
+         <mrow>
+            <mi>t</mi>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <msub>
+         <mi>λ</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <msub>
+         <mi>z</mi>
+         <mrow>
+            <mi>t</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mo>+</mo>
+      <msub>
+         <mi>ε</mi>
+         <mrow>
+            <mi>t</mi>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

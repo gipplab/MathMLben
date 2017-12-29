@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>h</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>∼</mo>
+      <mi>exp</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>i</mi>
+      <mi>κ</mi>
+      <msup>
+         <mi>t</mi>
+         <mrow>
+            <mi>p</mi>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>s</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+         </mrow>
+         <mrow>
+            <mo>∞</mo>
+         </mrow>
+      </msubsup>
+      <msub>
+         <mi>b</mi>
+         <mrow>
+            <mi>s</mi>
+         </mrow>
+      </msub>
+      <msup>
+         <mi>t</mi>
+         <mrow>
+            <mo>−</mo>
+            <msub>
+               <mi>β</mi>
+               <mrow>
+                  <mi>s</mi>
+               </mrow>
+            </msub>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

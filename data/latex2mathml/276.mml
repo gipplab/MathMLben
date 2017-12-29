@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>η</mi>
+            <mrow>
+               <mi>μ</mi>
+               <mi>ν</mi>
+            </mrow>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>diag</mi>
+      <mrow>
+         <mo>(</mo>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mi>,</mi>
+         <mn>1</mn>
+         <mi>,</mi>
+         <mn>1</mn>
+         <mi>,</mi>
+         <mn>1</mn>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mo>(</mo>
+         <mi>a</mi>
+         <mi>,</mi>
+         <mi>b</mi>
+         <mi>,</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>c</mi>
+            <mi>,</mi>
+            <mi>d</mi>
+            <mi>,</mi>
+            <mi>e</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

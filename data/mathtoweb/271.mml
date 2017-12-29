@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mstyle displaystyle="true">
+         <mn>1</mn>
+         <mo>-</mo>
+         <mi>a</mi>
+         <mspace width="0.167em"/>
+         <msub>
+            <mrow>
+               <mover accent="true">
+                  <mo>∂</mo>
+                  <mo>¯</mo>
+               </mover>
+            </mrow>
+            <mi>p</mi>
+         </msub>
+      </mstyle>
+   </mrow>
+</math>

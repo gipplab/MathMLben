@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>h</mi>
+         <mi>i</mi>
+      </msub>
+      <mi>:</mi>
+      <mi>X</mi>
+      <mo>→</mo>
+      <mspace width="0.167em"/>
+      <mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mi>,</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+         <mspace width="0.167em"/>
+      </mrow>
+   </mrow>
+</math>

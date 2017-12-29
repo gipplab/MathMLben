@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>f</mi>
+      <mi>:</mi>
+      <mrow>
+         <mi>mathbb</mi>
+         <msub>
+            <mrow>
+               <mi>N</mi>
+            </mrow>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+         </msub>
+      </mrow>
+      <mo>→</mo>
+      <mrow>
+         <mi>mathbb</mi>
+         <msub>
+            <mrow>
+               <mi>N</mi>
+            </mrow>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+         </msub>
+      </mrow>
+   </mrow>
+</math>

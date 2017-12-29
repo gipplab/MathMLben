@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Δ</mi>
+      <mi>x</mi>
+      <mi>Δ</mi>
+      <mi>v</mi>
+      <mo>≥</mo>
+      <mfrac>
+         <mrow>
+            <mi>d</mi>
+            <msup>
+               <mi>m</mi>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </mfrac>
+      <mo fence="true" form="prefix" stretchy="true">⟨</mo>
+      <msup>
+         <mi>E</mi>
+         <mrow>
+            <mo>−</mo>
+            <mn>3</mn>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">⟩</mo>
+   </mrow>
+</math>

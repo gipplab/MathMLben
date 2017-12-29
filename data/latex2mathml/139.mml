@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mi>operatorname</mi>
+         <msup>
+            <mrow>
+               <mi>g</mi>
+               <mi>d</mi>
+            </mrow>
+            <mrow>
+               <mo>−</mo>
+               <mn>1</mn>
+            </mrow>
+         </msup>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>ln</mi>
+      <mi>tan</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>4</mn>
+      </mrow>
+      <mi>π</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>ln</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>sec</mi>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>tan</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>s</mi>
+         <mi>i</mi>
+         <mi>n</mi>
+         <mi>h</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>tan</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>c</mi>
+         <mi>s</mi>
+         <mi>c</mi>
+         <mi>h</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>cot</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>c</mi>
+         <mi>o</mi>
+         <mi>s</mi>
+         <mi>h</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>sec</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>s</mi>
+         <mi>e</mi>
+         <mi>c</mi>
+         <mi>h</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>cos</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>t</mi>
+         <mi>a</mi>
+         <mi>n</mi>
+         <mi>h</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>sin</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>a</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+         <mi>c</mi>
+         <mi>o</mi>
+         <mi>t</mi>
+         <mi>h</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>csc</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

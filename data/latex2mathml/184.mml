@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>ℓ</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+         </mrow>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </msubsup>
+      <msub>
+         <mi>T</mi>
+         <mrow>
+            <mi>ℓ</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mi>n</mi>
+            <mo>−</mo>
+            <mi>ℓ</mi>
+         </mrow>
+      </msup>
+      <mo>=</mo>
+      <msub>
+         <mi>U</mi>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

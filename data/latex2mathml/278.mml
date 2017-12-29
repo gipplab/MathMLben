@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>F</mi>
+         <mrow>
+            <mi>α</mi>
+            <mi>β</mi>
+         </mrow>
+      </msub>
+      <mi>,</mi>
+      <mi>̄</mi>
+      <msub>
+         <mrow>
+            <mi>F</mi>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mi>̇</mi>
+               <mrow>
+                  <mi>α</mi>
+               </mrow>
+            </mrow>
+            <mrow>
+               <mi>̇</mi>
+               <mrow>
+                  <mi>β</mi>
+               </mrow>
+            </mrow>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

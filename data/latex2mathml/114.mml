@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>w</mi>
+      <mo>=</mo>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mo>−</mo>
+            <msub>
+               <mi>f</mi>
+               <mrow>
+                  <mn>0</mn>
+               </mrow>
+            </msub>
+            <mi>z</mi>
+            <mo>/</mo>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mi>W</mi>
+   </mrow>
+</math>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>x</mi>
+      <mi>,</mi>
+      <mspace width="0.167em"/>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mi>x</mi>
+      <mi>,</mi>
+      <mspace width="0.167em"/>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mi>x</mi>
+      <mi>,</mi>
+      <mspace width="0.167em"/>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mrow>
+         <mo>(</mo>
+         <mn>1</mn>
+         <mo>−</mo>
+         <mi>x</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>,</mi>
+      <mspace width="0.167em"/>
+      <mrow>
+         <mo>(</mo>
+         <mi>x</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>)</mo>
+      </mrow>
+      <mo>/</mo>
+      <mi>x</mi>
+      <mi>,</mi>
+      <mspace width="0.167em"/>
+      <mi>x</mi>
+      <mo>/</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>x</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>)</mo>
+      </mrow>
+      <mspace width="0.167em"/>
+      <mi>hskip</mi>
+      <mrow>
+         <mn>0.0</mn>
+         <mi>p</mi>
+         <mi>t</mi>
+      </mrow>
+      <mrow>
+         <mo>(</mo>
+         <mo>*</mo>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

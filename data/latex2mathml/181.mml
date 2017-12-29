@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>U</mi>
+         <mrow>
+            <mn>4</mn>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mn>16</mn>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mn>4</mn>
+         </mrow>
+      </msup>
+      <mo>−</mo>
+      <mn>12</mn>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mo>+</mo>
+      <mn>1</mn>
+   </mrow>
+</math>

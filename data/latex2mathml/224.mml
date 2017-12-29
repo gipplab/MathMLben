@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>mathbf</mi>
+      <msup>
+         <mrow>
+            <mi>B</mi>
+         </mrow>
+         <mrow>
+            <mo>*</mo>
+         </mrow>
+      </msup>
+      <mi>mathbf</mi>
+      <mrow>
+         <msub>
+            <mi>σ</mi>
+            <mrow>
+               <mn>3</mn>
+            </mrow>
+         </msub>
+      </mrow>
+      <mi>mathbf</mi>
+      <mrow>
+         <mi>B</mi>
+      </mrow>
+      <mo>=</mo>
+      <mi>mathbf</mi>
+      <mrow>
+         <msub>
+            <mi>σ</mi>
+            <mrow>
+               <mn>3</mn>
+            </mrow>
+         </msub>
+      </mrow>
+   </mrow>
+</math>

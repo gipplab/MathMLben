@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>f</mi>
+         <mi>c</mi>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>z</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msup>
+         <mi>z</mi>
+         <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mi>c</mi>
+   </mrow>
+</math>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>P</mi>
+         <mi>x</mi>
+      </msub>
+      <mo>=</mo>
+      <mi>P</mi>
+      <mo>−</mo>
+      <mspace width="0.167em"/>
+      <mrow>
+         <mi>a</mi>
+         <mo>∣</mo>
+         <mi>a</mi>
+         <mo>≥</mo>
+         <mi>x</mi>
+         <mspace width="0.167em"/>
+      </mrow>
+   </mrow>
+</math>

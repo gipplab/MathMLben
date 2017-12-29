@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>A</mi>
+      <mo>↦</mo>
+      <mi>M</mi>
+      <mi>α</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>A</mi>
+         <mo>)</mo>
+      </mrow>
+      <msup>
+         <mi>M</mi>
+         <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

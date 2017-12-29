@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>h</mi>
+         <mrow>
+            <mi>i</mi>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <msub>
+         <mo>∑</mo>
+         <mrow>
+            <mi>j</mi>
+         </mrow>
+      </msub>
+      <mi>̂</mi>
+      <msub>
+         <mrow>
+            <mi>w</mi>
+         </mrow>
+         <mrow>
+            <mi>i</mi>
+            <mi>j</mi>
+         </mrow>
+      </msub>
+      <msub>
+         <mi>s</mi>
+         <mrow>
+            <mi>j</mi>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

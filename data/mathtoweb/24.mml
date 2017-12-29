@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi>E</mi>
+         <mtext>k</mtext>
+      </msub>
+      <mo>=</mo>
+      <msub>
+         <mi>E</mi>
+         <mi>t</mi>
+      </msub>
+      <mo>+</mo>
+      <msub>
+         <mi>E</mi>
+         <mtext>r</mtext>
+      </msub>
+   </mrow>
+</math>

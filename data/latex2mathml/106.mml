@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>P</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>z</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msubsup>
+         <mo>∏</mo>
+         <mrow>
+            <mo>=</mo>
+            <mn>1</mn>
+            <mi>n</mi>
+         </mrow>
+         <mi>left</mi>
+      </msubsup>
+      <mrow>
+         <mn>1</mn>
+         <mo>−</mo>
+         <mfrac>
+            <mrow>
+               <mi>z</mi>
+            </mrow>
+            <mrow>
+               <msub>
+                  <mrow>
+                     <mi>n</mi>
+                  </mrow>
+                  <mi>z</mi>
+               </msub>
+            </mrow>
+         </mfrac>
+         <mo fence="true" form="postfix" stretchy="true">(</mo>
+         <mo>)</mo>
+      </mrow>
+      <mi>e</mi>
+      <msup>
+         <mrow>
+            <mo>/</mo>
+            <mi>z</mi>
+            <msub>
+               <mrow>
+                  <mi>n</mi>
+               </mrow>
+               <mi>z</mi>
+            </msub>
+         </mrow>
+         <mrow>
+            <mo>∞</mo>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

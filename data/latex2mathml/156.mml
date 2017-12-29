@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mo>∫</mo>
+         <mrow>
+            <mi>P</mi>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mo>(</mo>
+               <mn>1</mn>
+               <mo>+</mo>
+               <mi>,</mi>
+               <mn>0</mn>
+               <mo>+</mo>
+               <mi>,</mi>
+               <mn>1</mn>
+               <mo>−</mo>
+               <mi>,</mi>
+               <mn>0</mn>
+               <mo>−</mo>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </msubsup>
+      <msup>
+         <mi>t</mi>
+         <mrow>
+            <mi>a</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <msup>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mi>t</mi>
+            <mo>)</mo>
+         </mrow>
+         <mrow>
+            <mi>b</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <mi>mathrm</mi>
+      <mrow>
+         <mi>d</mi>
+      </mrow>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mo>−</mo>
+      <mn>4</mn>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mi>π</mi>
+            <mi>i</mi>
+            <mrow>
+               <mo>(</mo>
+               <mi>a</mi>
+               <mo>+</mo>
+               <mi>b</mi>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </msup>
+      <mi>sin</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>π</mi>
+      <mi>a</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>sin</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>π</mi>
+      <mi>b</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>mathrm</mi>
+      <mrow>
+         <mi>B</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>a</mi>
+      <mi>,</mi>
+      <mi>b</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

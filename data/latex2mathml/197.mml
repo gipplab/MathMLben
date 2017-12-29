@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>A</mi>
+      <mo>≡</mo>
+      <mi>A</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>τ</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>ifrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <msub>
+            <mi>θ</mi>
+            <mrow>
+               <mn>4</mn>
+            </mrow>
+         </msub>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <mn>0</mn>
+         <mi>middle</mi>
+         <mi>|</mi>
+         <mn>2</mn>
+         <mi>τ</mi>
+         <mo fence="true" form="postfix" stretchy="true">)</mo>
+      </mrow>
+   </mrow>
+</math>

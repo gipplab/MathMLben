@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Δ</mi>
+      <mi>W</mi>
+      <mo>=</mo>
+      <msubsup>
+         <mo>∫</mo>
+         <mrow>
+            <msub>
+               <mi>V</mi>
+               <mn>1</mn>
+            </msub>
+         </mrow>
+         <mrow>
+            <msub>
+               <mi>V</mi>
+               <mn>2</mn>
+            </msub>
+         </mrow>
+      </msubsup>
+      <mi>p</mi>
+      <mi>mathrm</mi>
+      <mrow>
+         <mi>d</mi>
+      </mrow>
+      <mi>V</mi>
+      <mspace width="0.167em"/>
+      <mspace width="0.167em"/>
+      <mi>!</mi>
+   </mrow>
+</math>

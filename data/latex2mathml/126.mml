@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>widetilde</mi>
+      <msub>
+         <mrow>
+            <mi>J</mi>
+         </mrow>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mfrac>
+         <mrow>
+            <mn>2</mn>
+            <mi>tanh</mi>
+            <mrow>
+               <mo>(</mo>
+               <mfrac>
+                  <mrow>
+                     <mn>1</mn>
+                  </mrow>
+                  <mrow>
+                     <mn>2</mn>
+                  </mrow>
+               </mfrac>
+               <mi>π</mi>
+               <mi>ν</mi>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mi>π</mi>
+            <mi>ν</mi>
+         </mrow>
+      </mfrac>
+      <mo fence="true" form="postfix" stretchy="true">^</mo>
+      <mo>)</mo>
+      <mrow>
+         <mfrac>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </mfrac>
+      </mrow>
+      <mi>cos</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ν</mi>
+      <mi>ln</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>tfrac</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+         <mi>x</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>−</mo>
+      <msub>
+         <mi>γ</mi>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>+</mo>
+      <mi>O</mi>
+      <mrow>
+         <mo>(</mo>
+         <msup>
+            <mi>x</mi>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </msup>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

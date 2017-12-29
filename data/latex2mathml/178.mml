@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Λ</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>n</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>ln</mi>
+      <mi>p</mi>
+   </mrow>
+</math>

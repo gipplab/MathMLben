@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>G</mi>
+         <mrow>
+            <mi>k</mi>
+            <mi>,</mi>
+            <mi>σ</mi>
+         </mrow>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>y</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <msup>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>k</mi>
+            <mi>y</mi>
+            <mo>/</mo>
+            <mi>σ</mi>
+            <mo>)</mo>
+         </mrow>
+         <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+            <mo>/</mo>
+            <mi>k</mi>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

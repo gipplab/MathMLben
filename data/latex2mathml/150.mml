@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>ℑ</mi>
+      <mi>ψ</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mo>+</mo>
+      <mi>i</mi>
+      <mi>y</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mi>π</mi>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </mfrac>
+      <mi>tanh</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>π</mi>
+      <mi>y</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

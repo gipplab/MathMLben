@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>|</mi>
+      <mi>Γ</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>L</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>|</mi>
+      <mo>=</mo>
+      <msup>
+         <mi>p</mi>
+         <mrow>
+            <mi>i</mi>
+         </mrow>
+      </msup>
+      <mrow>
+         <mo>(</mo>
+         <msup>
+            <mi>p</mi>
+            <mrow>
+               <mn>2</mn>
+               <mi>i</mi>
+            </mrow>
+         </msup>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

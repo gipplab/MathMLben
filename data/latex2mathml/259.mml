@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>f</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mo>+</mo>
+      <msub>
+         <mi>f</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>2</mn>
+      <msub>
+         <mi>f</mi>
+         <mrow>
+            <mn>0</mn>
+         </mrow>
+      </msub>
+   </mrow>
+</math>

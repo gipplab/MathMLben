@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mfrac>
+         <mrow>
+            <mrow>
+               <mo>(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo>)</mo>
+            </mrow>
+            <mrow>
+               <mo>(</mo>
+               <mi>n</mi>
+               <mo>+</mo>
+               <mi>δ</mi>
+               <mo>−</mo>
+               <mn>2</mn>
+               <mo>)</mo>
+            </mrow>
+            <mo>⋯</mo>
+            <mi>n</mi>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mo>(</mo>
+               <mi>δ</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo>)</mo>
+            </mrow>
+            <mi>!</mi>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

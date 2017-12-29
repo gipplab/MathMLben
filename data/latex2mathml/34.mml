@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>P</mi>
+         <mn>1</mn>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>X</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>P</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>X</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>/</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>X</mi>
+         <mo>−</mo>
+         <msub>
+            <mi>α</mi>
+            <mn>1</mn>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

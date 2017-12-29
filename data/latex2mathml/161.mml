@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>F</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mn>1</mn>
+      <mi>,</mi>
+      <mi>a</mi>
+      <mi>;</mi>
+      <mi>a</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+      <mi>;</mi>
+      <mo>−</mo>
+      <mn>1</mn>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>a</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>ψ</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>−</mo>
+      <mi>ψ</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>tfrac</mi>
+      <mrow>
+         <mn>1</mn>
+      </mrow>
+      <mrow>
+         <mn>2</mn>
+      </mrow>
+      <mi>a</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>J</mi>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mi>'</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msub>
+         <mi>Y</mi>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>λ</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>−</mo>
+      <msub>
+         <mi>Y</mi>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mi>'</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msub>
+         <mi>J</mi>
+         <mrow>
+            <mi>ν</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>λ</mi>
+      <mi>x</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

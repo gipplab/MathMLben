@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>I</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>x</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mo>−</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>s</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+            <mi>n</mi>
+         </mrow>
+      </msubsup>
+      <mrow>
+         <mo>(</mo>
+         <msub>
+            <mi>a</mi>
+            <mrow>
+               <mi>s</mi>
+            </mrow>
+         </msub>
+         <mi>ln</mi>
+         <mi>x</mi>
+         <mo>+</mo>
+         <msub>
+            <mi>b</mi>
+            <mrow>
+               <mi>s</mi>
+            </mrow>
+         </msub>
+         <mo>)</mo>
+      </mrow>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mo>−</mo>
+            <mi>s</mi>
+         </mrow>
+      </msup>
+      <mo>+</mo>
+      <mi>O</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mo>−</mo>
+            <mn>2</mn>
+            <mi>n</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>ϵ</mi>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

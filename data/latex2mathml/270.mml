@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Φ</mi>
+      <mo>=</mo>
+      <msup>
+         <mi>Φ</mi>
+         <mrow>
+            <mrow>
+               <mo>(</mo>
+               <mi>r</mi>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>Φ</mi>
+         <mrow>
+            <mrow>
+               <mo>(</mo>
+               <mi>s</mi>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </msup>
+   </mrow>
+</math>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>D</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>G</mi>
+         <mi>,</mi>
+         <mi>H</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msubsup>
+         <mo>∑</mo>
+         <mrow>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mn>29</mn>
+         </mrow>
+      </msubsup>
+      <mi>|</mi>
+      <msub>
+         <mi>F</mi>
+         <mi>i</mi>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>G</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>−</mo>
+      <msub>
+         <mi>F</mi>
+         <mi>i</mi>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>H</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>|</mi>
+   </mrow>
+</math>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>v</mi>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mi>c</mi>
+         </mrow>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

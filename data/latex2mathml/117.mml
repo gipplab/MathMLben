@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mo>∫</mo>
+      <msub>
+         <mi>E</mi>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>t</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>mathrm</mi>
+      <mrow>
+         <mi>d</mi>
+      </mrow>
+      <mi>t</mi>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <msub>
+               <mi>E</mi>
+               <mrow>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mi>t</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+         <mrow>
+            <mi>n</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+         </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mi>text</mi>
+      <mrow>
+         <mi>c</mi>
+         <mi>o</mi>
+         <mi>n</mi>
+         <mi>s</mi>
+         <mi>t</mi>
+         <mi>.</mi>
+      </mrow>
+   </mrow>
+</math>

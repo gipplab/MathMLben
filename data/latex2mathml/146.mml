@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mi>a</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>mathbf</mi>
+      <mrow>
+         <mi>b</mi>
+      </mrow>
+      <mi>;</mi>
+      <mi>mathbf</mi>
+      <mrow>
+         <mi>z</mi>
+      </mrow>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <msub>
+         <mi>R</mi>
+         <mrow>
+            <mo>−</mo>
+            <mi>a</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>mathbf</mi>
+      <mrow>
+         <mi>b</mi>
+      </mrow>
+      <mi>;</mi>
+      <mi>mathbf</mi>
+      <mrow>
+         <mi>z</mi>
+      </mrow>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mi>&gt;</mi>
+      <mn>1</mn>
+   </mrow>
+</math>

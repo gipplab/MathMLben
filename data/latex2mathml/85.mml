@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mi>X</mi>
+         <mi>i</mi>
+      </msub>
+      <mrow>
+         <mo>(</mo>
+         <mi>ω</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <msub>
+         <mi>ω</mi>
+         <mi>i</mi>
+      </msub>
+   </mrow>
+</math>

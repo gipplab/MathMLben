@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>α</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>d</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>≤</mo>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msqrt>
+         <mrow>
+            <mn>3</mn>
+            <mo>/</mo>
+            <mn>2</mn>
+         </mrow>
+      </msqrt>
+      <mo>+</mo>
+      <mi>ε</mi>
+      <mo fence="true" form="postfix" stretchy="true">^</mo>
+      <mo>)</mo>
+      <mi>d</mi>
+   </mrow>
+</math>

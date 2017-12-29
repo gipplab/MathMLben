@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>F</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mrow>
+         <mi>a</mi>
+         <mi>,</mi>
+         <mn>1</mn>
+         <mo>−</mo>
+         <mi>a</mi>
+         <mi>atop</mi>
+         <mi>c</mi>
+      </mrow>
+      <mi>;</mi>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <msup>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+         </mrow>
+         <mrow>
+            <mi>c</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <mi>F</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mrow>
+         <mfrac>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </mfrac>
+         <mrow>
+            <mo>(</mo>
+            <mi>c</mi>
+            <mo>−</mo>
+            <mi>a</mi>
+            <mo>)</mo>
+         </mrow>
+         <mi>,</mi>
+         <mfrac>
+            <mrow>
+               <mn>1</mn>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+            </mrow>
+         </mfrac>
+         <mrow>
+            <mo>(</mo>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>c</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+            <mo>)</mo>
+         </mrow>
+         <mi>atop</mi>
+         <mi>c</mi>
+      </mrow>
+      <mi>;</mi>
+      <mn>4</mn>
+      <mi>z</mi>
+      <mrow>
+         <mo>(</mo>
+         <mn>1</mn>
+         <mo>−</mo>
+         <mi>z</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

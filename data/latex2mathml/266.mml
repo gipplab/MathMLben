@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mspace width="0.167em"/>
+      <mrow>
+         <mi>⃑</mi>
+         <msup>
+            <mrow>
+               <mi>ξ</mi>
+            </mrow>
+            <mrow>
+               <mi>μ</mi>
+            </mrow>
+         </msup>
+         <mi>,</mi>
+         <msup>
+            <mi>τ</mi>
+            <mrow>
+               <mi>μ</mi>
+            </mrow>
+         </msup>
+      </mrow>
+   </mrow>
+</math>

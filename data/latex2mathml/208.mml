@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msubsup>
+         <mi>ξ</mi>
+         <mrow>
+            <mi>i</mi>
+         </mrow>
+         <mrow>
+            <mi>μ</mi>
+         </mrow>
+      </msubsup>
+      <mo>=</mo>
+      <mi>±</mi>
+      <mn>1</mn>
+   </mrow>
+</math>

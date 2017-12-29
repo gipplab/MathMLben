@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>F</mi>
+      <mo>=</mo>
+      <mspace width="0.167em"/>
+      <mrow>
+         <mrow>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mi>,</mi>
+            <mi>y</mi>
+            <mo>)</mo>
+         </mrow>
+         <mi>:</mi>
+         <mi>x</mi>
+         <mo>∈</mo>
+         <mi>mathcal</mi>
+         <msup>
+            <mrow>
+               <mi>R</mi>
+            </mrow>
+            <mi>b</mi>
+         </msup>
+         <mi>,</mi>
+         <mspace width="0.167em"/>
+         <mi>y</mi>
+         <mo>∈</mo>
+         <mi>mathcal</mi>
+         <msup>
+            <mrow>
+               <mi>R</mi>
+            </mrow>
+            <mi>n</mi>
+         </msup>
+         <mi>,</mi>
+         <mspace width="0.167em"/>
+         <mi>x</mi>
+         <mo>=</mo>
+         <mi>y</mi>
+         <mspace width="0.167em"/>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>E</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msup>
+         <mi>k</mi>
+         <mrow>
+            <mi>′</mi>
+         </mrow>
+      </msup>
+      <mo>/</mo>
+      <mi>k</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mrow>
+         <mo>(</mo>
+         <mn>1</mn>
+         <mo>/</mo>
+         <mi>k</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>E</mi>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msup>
+         <mi>k</mi>
+         <mrow>
+            <mi>′</mi>
+         </mrow>
+      </msup>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>

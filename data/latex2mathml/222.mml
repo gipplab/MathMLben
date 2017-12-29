@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>Δ</mi>
+      <msub>
+         <mi>x</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+      </msub>
+      <mi>Δ</mi>
+      <msub>
+         <mi>x</mi>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msub>
+      <mo>≥</mo>
+      <msup>
+         <mrow>
+            <mi>mathchar</mi>
+            <mn>22</mn>
+            <mi>mkern</mi>
+            <mo>−</mo>
+            <mn>9.0</mn>
+            <mi>m</mi>
+            <mi>u</mi>
+            <mi>λ</mi>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+      </msup>
+      <mo>/</mo>
+      <mrow>
+         <mo>(</mo>
+         <mn>2</mn>
+         <mi>π</mi>
+         <mo>)</mo>
+      </mrow>
+   </mrow>
+</math>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>θ</mi>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mi>σ</mi>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <msub>
+         <mo>∑</mo>
+         <mrow>
+            <mi>n</mi>
+            <mo>∈</mo>
+            <mi>mathbb</mi>
+            <msup>
+               <mrow>
+                  <mi>Z</mi>
+               </mrow>
+               <mi>d</mi>
+            </msup>
+         </mrow>
+      </msub>
+      <mi>|</mi>
+      <mi>ψ</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mi>,</mi>
+         <mi>n</mi>
+         <mo>)</mo>
+      </mrow>
+      <msup>
+         <mi>|</mi>
+         <mn>2</mn>
+      </msup>
+      <mi>|</mi>
+      <mi>n</mi>
+      <mi>|</mi>
+      <mo>≤</mo>
+      <mi>C</mi>
+   </mrow>
+</math>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>z</mi>
+      <mfrac>
+         <mrow>
+            <mi>mathrm</mi>
+            <mrow>
+               <mi>d</mi>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mi>mathrm</mi>
+            <mrow>
+               <mi>d</mi>
+            </mrow>
+            <mi>z</mi>
+         </mrow>
+      </mfrac>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">^</mo>
+      <mo>)</mo>
+      <mrow>
+         <mi>n</mi>
+      </mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mo>−</mo>
+            <mfrac>
+               <mrow>
+                  <mn>1</mn>
+               </mrow>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </mfrac>
+            <mi>z</mi>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <mi>κ</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <msub>
+         <mi>M</mi>
+         <mrow>
+            <mi>κ</mi>
+            <mi>,</mi>
+            <mi>μ</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mo>=</mo>
+      <mrow>
+         <mo fence="true" form="prefix" stretchy="true">(</mo>
+         <mi>tfrac</mi>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mn>2</mn>
+         </mrow>
+         <mo>+</mo>
+         <mi>μ</mi>
+         <mo>+</mo>
+         <mi>κ</mi>
+         <mo fence="true" form="postfix" stretchy="true">_</mo>
+         <mo>)</mo>
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+      </mrow>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mo>−</mo>
+            <mfrac>
+               <mrow>
+                  <mn>1</mn>
+               </mrow>
+               <mrow>
+                  <mn>2</mn>
+               </mrow>
+            </mfrac>
+            <mi>z</mi>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>z</mi>
+         <mrow>
+            <mi>κ</mi>
+            <mo>+</mo>
+            <mi>n</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <mspace width="0.167em"/>
+      <mo>*</mo>
+      <msub>
+         <mi>M</mi>
+         <mrow>
+            <mi>κ</mi>
+            <mo>+</mo>
+            <mi>n</mi>
+            <mi>,</mi>
+            <mi>μ</mi>
+         </mrow>
+      </msub>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mi>z</mi>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
+   </mrow>
+</math>
