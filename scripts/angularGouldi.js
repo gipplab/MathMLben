@@ -4,6 +4,13 @@ angular
         var loadFromJson = function (name) {
             $http.get("scripts/" + name + ".json").then(function (res) {
                 $scope[name] = res.data;
+                console.log("Loaded: " + name);
+                return name;
+            }).then( function(name){
+                if ( name === 'model' ) {
+                    console.log("Load actual model from GitHub!");
+                    $scope.readModel();
+                }
             });
         };
 
@@ -156,7 +163,7 @@ angular
 
         $scope.$watch('model.math_inputtex', function(){
             if ( !('model' in $scope) ){
-                console.log("Undefined model!");
+                //console.log("Undefined model!");
                 return;
             }
 
@@ -167,7 +174,7 @@ angular
                 container.innerHTML = "";
                 container.innerHTML = res.data;
             }).catch( function(e){
-                console.log("ERROR: " + e.message);
+                console.log("ERROR: " + e.data);
             });
         }, true);
 
@@ -176,4 +183,6 @@ angular
             if ( model_help !== null )
                 model_help.innerHTML = JSON.stringify($scope.model, null, 2);
         }, true);
+
+        console.log("Finish instantiation of controller. Load first model!");
     });
