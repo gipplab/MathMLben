@@ -17,5 +17,6 @@
   "uri": "https://arxiv.org/abs/astro-ph/0201511",
   "page": "6",
   "comment": "Apply block in MML necessary?",
-  "constraints": []
+  "constraints": [],
+  "type": "general formula"
 }
