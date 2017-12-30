@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="q Superscript 42">
+  <semantics>
+    <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">q</mi>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="2">42</mn>
+      </mrow>
+    </msup>
+    <annotation encoding="application/x-tex">q^{42}</annotation>
+  </semantics>
+</math>

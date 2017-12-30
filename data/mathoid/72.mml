@@ -1,0 +1,77 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper K Subscript asterisk Superscript upper M Baseline left-parenthesis k right-parenthesis colon equals upper T Superscript asterisk Baseline left-parenthesis k Superscript times Baseline right-parenthesis slash left-parenthesis a circled-times left-parenthesis 1 minus a right-parenthesis right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="infixop" data-semantic-role="division" data-semantic-id="38" data-semantic-children="37,32" data-semantic-content="17">
+      <mrow data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="37" data-semantic-children="36,34" data-semantic-content="8" data-semantic-parent="38">
+        <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="36" data-semantic-children="4,27" data-semantic-content="35,0" data-semantic-parent="37">
+          <msubsup data-semantic-type="subsup" data-semantic-role="simple function" data-semantic-id="4" data-semantic-children="0,1,2" data-semantic-parent="36" data-semantic-collapsed="(4 (3 0 1) 2)">
+            <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="4" data-semantic-operator="appl">K</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="1" data-semantic-parent="4">∗
+                <!-- ∗ -->
+              </mo>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">M</mi>
+            </mrow>
+          </msubsup>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="35" data-semantic-parent="36" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="27" data-semantic-children="6" data-semantic-content="5,7" data-semantic-parent="36">
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="5" data-semantic-parent="27" data-semantic-operator="fenced">(</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="27">k</mi>
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="7" data-semantic-parent="27" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="8" data-semantic-parent="37" data-semantic-operator="infixop,:=">:=</mo>
+        <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="34" data-semantic-children="11,28" data-semantic-content="33,9" data-semantic-parent="37">
+          <msup data-semantic-type="superscript" data-semantic-role="simple function" data-semantic-id="11" data-semantic-children="9,10" data-semantic-parent="34">
+            <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="11" data-semantic-operator="appl">T</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="10" data-semantic-parent="11">∗
+                <!-- ∗ -->
+              </mo>
+            </mrow>
+          </msup>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="33" data-semantic-parent="34" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="28" data-semantic-children="15" data-semantic-content="12,16" data-semantic-parent="34">
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="12" data-semantic-parent="28" data-semantic-operator="fenced">(</mo>
+            <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="15" data-semantic-children="13,14" data-semantic-parent="28">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="15">k</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="14" data-semantic-parent="15">×
+                  <!-- × -->
+                </mo>
+              </mrow>
+            </msup>
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="16" data-semantic-parent="28" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mo data-semantic-type="operator" data-semantic-role="division" data-semantic-id="17" data-semantic-parent="38" data-semantic-operator="infixop,/">/</mo>
+      </mrow>
+      <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="32" data-semantic-children="31" data-semantic-content="18,26" data-semantic-parent="38">
+        <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="18" data-semantic-parent="32" data-semantic-operator="fenced">(</mo>
+        <mrow data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="31" data-semantic-children="19,30" data-semantic-content="20" data-semantic-parent="32">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="19" data-semantic-parent="31">a</mi>
+          <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="20" data-semantic-parent="31" data-semantic-operator="infixop,⊗">⊗
+            <!-- ⊗ -->
+          </mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="30" data-semantic-children="29" data-semantic-content="21,25" data-semantic-parent="31">
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="21" data-semantic-parent="30" data-semantic-operator="fenced">(</mo>
+            <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="29" data-semantic-children="22,24" data-semantic-content="23" data-semantic-parent="30">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="22" data-semantic-parent="29">1</mn>
+              <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="23" data-semantic-parent="29" data-semantic-operator="infixop,−">−
+                <!-- − -->
+              </mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="24" data-semantic-parent="29">a</mi>
+            </mrow>
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="25" data-semantic-parent="30" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+        <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="26" data-semantic-parent="32" data-semantic-operator="fenced">)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">K_{*}^{M}(k):=T^{*}(k^{\times })/(a\otimes (1-a))</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,39 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="left-brace ModifyingAbove xi With right-arrow Superscript mu Baseline comma tau Superscript mu">
+  <semantics>
+    <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="10" data-semantic-children="0,5,6,9" data-semantic-content="0,6">
+      <mo fence="false" stretchy="false" data-semantic-type="punctuation" data-semantic-role="openfence" data-semantic-id="0" data-semantic-parent="10" data-semantic-operator="punctuated">{</mo>
+      <msup data-semantic-type="superscript" data-semantic-role="greekletter" data-semantic-id="5" data-semantic-children="3,4" data-semantic-parent="10">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover data-semantic-type="overscore" data-semantic-role="greekletter" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="5">
+              <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">ξ
+                <!-- ξ -->
+              </mi>
+              <mo stretchy="false" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-id="2" data-semantic-parent="3">→
+                <!-- → -->
+              </mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="5">μ
+            <!-- μ -->
+          </mi>
+        </mrow>
+      </msup>
+      <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="6" data-semantic-parent="10" data-semantic-operator="punctuated">,</mo>
+      <msup data-semantic-type="superscript" data-semantic-role="greekletter" data-semantic-id="9" data-semantic-children="7,8" data-semantic-parent="10">
+        <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="9">τ
+          <!-- τ -->
+        </mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="9">μ
+            <!-- μ -->
+          </mi>
+        </mrow>
+      </msup>
+    </mrow>
+    <annotation encoding="application/x-tex">\{{\vec {\xi }}^{\mu },\tau ^{\mu }</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,11 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper P upper A">
+  <semantics>
+    <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="3">P</mi>
+      <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">A</mi>
+    </mrow>
+    <annotation encoding="application/x-tex">PA</annotation>
+  </semantics>
+</math>

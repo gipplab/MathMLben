@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper S Subscript p Superscript m Baseline left-parenthesis x comma xi right-parenthesis right-arrow sine left-parenthesis m x right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="arrow" data-semantic-id="26" data-semantic-children="25,23" data-semantic-content="10">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="25" data-semantic-children="4,21" data-semantic-content="24,0" data-semantic-parent="26">
+        <msubsup data-semantic-type="subsup" data-semantic-role="simple function" data-semantic-id="4" data-semantic-children="0,1,2" data-semantic-parent="25" data-semantic-collapsed="(4 (3 0 1) 2)">
+          <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="4" data-semantic-operator="appl">S</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="4">p</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">m</mi>
+          </mrow>
+        </msubsup>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="24" data-semantic-parent="25" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="21" data-semantic-children="20" data-semantic-content="5,9" data-semantic-parent="25">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="5" data-semantic-parent="21" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="20" data-semantic-children="6,7,8" data-semantic-content="7" data-semantic-parent="21">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="20">x</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="7" data-semantic-parent="20" data-semantic-operator="punctuated">,</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="20">ξ
+              <!-- ξ -->
+            </mi>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="9" data-semantic-parent="21" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo stretchy="false" data-semantic-type="relation" data-semantic-role="arrow" data-semantic-id="10" data-semantic-parent="26" data-semantic-operator="relseq,→">→
+        <!-- → -->
+      </mo>
+      <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="23" data-semantic-children="11,19" data-semantic-content="22,11" data-semantic-parent="26">
+        <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="11" data-semantic-parent="23" data-semantic-operator="appl">sin</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="22" data-semantic-parent="23" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="19" data-semantic-children="17" data-semantic-content="13,18" data-semantic-parent="23">
+          <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="13" data-semantic-parent="19" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="17" data-semantic-children="14,15" data-semantic-content="16" data-semantic-parent="19">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="14" data-semantic-parent="17">m</mi>
+            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="16" data-semantic-parent="17" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="17">x</mi>
+          </mrow>
+          <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="18" data-semantic-parent="19" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">S_{p}^{m}(x,\xi )\to \sin \left(mx\right)</annotation>
+  </semantics>
+</math>

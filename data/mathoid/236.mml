@@ -1,0 +1,22 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="t element-of bold upper R Subscript plus">
+  <semantics>
+    <mrow data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="5" data-semantic-children="0,4" data-semantic-content="1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="5">t</mi>
+      <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="1" data-semantic-parent="5" data-semantic-operator="infixop,∈">∈
+        <!-- ∈ -->
+      </mo>
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="4" data-semantic-children="2,3" data-semantic-parent="5">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="2" data-semantic-parent="4">R</mi>
+          </mrow>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="3" data-semantic-parent="4">+</mo>
+        </mrow>
+      </msub>
+    </mrow>
+    <annotation encoding="application/x-tex">t\in {\bf {R}}_{+}</annotation>
+  </semantics>
+</math>

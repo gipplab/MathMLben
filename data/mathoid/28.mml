@@ -1,0 +1,63 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="sigma Subscript y Superscript 2 Baseline left-parenthesis tau right-parenthesis equals StartFraction 2 pi squared tau Over 3 EndFraction h Subscript negative 2">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="29" data-semantic-children="26,28" data-semantic-content="8">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="26" data-semantic-children="4,24" data-semantic-content="25,0" data-semantic-parent="29">
+        <msubsup data-semantic-type="subsup" data-semantic-role="simple function" data-semantic-id="4" data-semantic-children="0,1,2" data-semantic-parent="26" data-semantic-collapsed="(4 (3 0 1) 2)">
+          <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="4" data-semantic-operator="appl">σ
+            <!-- σ -->
+          </mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="4">y</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="4">2</mn>
+          </mrow>
+        </msubsup>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="25" data-semantic-parent="26" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="24" data-semantic-children="6" data-semantic-content="5,7" data-semantic-parent="26">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="5" data-semantic-parent="24" data-semantic-operator="fenced">(</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="24">τ
+            <!-- τ -->
+          </mi>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="7" data-semantic-parent="24" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="8" data-semantic-parent="29" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="28" data-semantic-children="18,23" data-semantic-content="27" data-semantic-parent="29">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="18" data-semantic-children="16,17" data-semantic-parent="28">
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="16" data-semantic-children="9,12,13" data-semantic-content="14,15" data-semantic-parent="18">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="9" data-semantic-parent="16">2</mn>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="14" data-semantic-parent="16" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <msup data-semantic-type="superscript" data-semantic-role="greekletter" data-semantic-id="12" data-semantic-children="10,11" data-semantic-parent="16">
+                <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="12">π
+                  <!-- π -->
+                </mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="11" data-semantic-parent="12">2</mn>
+                </mrow>
+              </msup>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="15" data-semantic-parent="16" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="16">τ
+                <!-- τ -->
+              </mi>
+            </mrow>
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="17" data-semantic-parent="18">3</mn>
+          </mfrac>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="27" data-semantic-parent="28" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="23" data-semantic-children="19,22" data-semantic-parent="28">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="19" data-semantic-parent="23">h</mi>
+          <mrow class="MJX-TeXAtom-ORD" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-id="22" data-semantic-children="21" data-semantic-content="20" data-semantic-parent="23">
+            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="20" data-semantic-parent="22" data-semantic-operator="prefixop,−">−
+              <!-- − -->
+            </mo>
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="21" data-semantic-parent="22">2</mn>
+          </mrow>
+        </msub>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\sigma _{y}^{2}(\tau )={\frac {2\pi ^{2}\tau }{3}}h_{-2}</annotation>
+  </semantics>
+</math>

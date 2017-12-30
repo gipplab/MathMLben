@@ -1,0 +1,17 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="left floor ellipsis right floor">
+  <semantics>
+    <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="3" data-semantic-children="1" data-semantic-content="0,2">
+      <mo fence="false" stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="3" data-semantic-operator="fenced">⌊
+        <!-- ⌊ -->
+      </mo>
+      <mo data-semantic-type="punctuation" data-semantic-role="ellipsis" data-semantic-id="1" data-semantic-parent="3">…
+        <!-- … -->
+      </mo>
+      <mo fence="false" stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="2" data-semantic-parent="3" data-semantic-operator="fenced">⌋
+        <!-- ⌋ -->
+      </mo>
+    </mrow>
+    <annotation encoding="application/x-tex">\lfloor \ldots \rfloor</annotation>
+  </semantics>
+</math>

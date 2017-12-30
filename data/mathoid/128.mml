@@ -1,0 +1,85 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper N Subscript nu Baseline left-parenthesis x right-parenthesis e Superscript i phi Super Subscript nu Superscript left-parenthesis x right-parenthesis Baseline equals kernel Subscript nu Baseline x plus i k e i Subscript nu Baseline x">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="45" data-semantic-children="41,44" data-semantic-content="21">
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="41" data-semantic-children="39,20" data-semantic-content="40" data-semantic-parent="45">
+        <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="39" data-semantic-children="2,6" data-semantic-content="38,0" data-semantic-parent="41">
+          <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="39">
+            <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2" data-semantic-operator="appl">N</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="2">ν
+                <!-- ν -->
+              </mi>
+            </mrow>
+          </msub>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="38" data-semantic-parent="39" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="6" data-semantic-children="4" data-semantic-content="3,5" data-semantic-parent="39">
+            <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="6" data-semantic-operator="fenced">(</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="6">x</mi>
+            <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="6" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="40" data-semantic-parent="41" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="20" data-semantic-children="7,19" data-semantic-parent="41">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="20">e</mi>
+          <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="19" data-semantic-children="8,17" data-semantic-content="18" data-semantic-parent="20">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="19">i</mi>
+            <mspace width="negativethinmathspace"/>
+            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="17" data-semantic-children="11,15" data-semantic-content="16,9" data-semantic-parent="19">
+              <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="11" data-semantic-children="9,10" data-semantic-parent="17">
+                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="11" data-semantic-operator="appl">ϕ
+                  <!-- ϕ -->
+                </mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="11">ν
+                    <!-- ν -->
+                  </mi>
+                </mrow>
+              </msub>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="16" data-semantic-parent="17" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="15" data-semantic-children="13" data-semantic-content="12,14" data-semantic-parent="17">
+                <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="12" data-semantic-parent="15" data-semantic-operator="fenced">(</mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="15">x</mi>
+                <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="14" data-semantic-parent="15" data-semantic-operator="fenced">)</mo>
+              </mrow>
+            </mrow>
+          </mrow>
+        </msup>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="21" data-semantic-parent="45" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="44" data-semantic-children="37,43" data-semantic-content="27" data-semantic-parent="45">
+        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="37" data-semantic-children="24,26" data-semantic-content="36,22" data-semantic-parent="44">
+          <msub data-semantic-type="subscript" data-semantic-role="prefix function" data-semantic-id="24" data-semantic-children="22,23" data-semantic-parent="37">
+            <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="22" data-semantic-parent="24" data-semantic-operator="appl">ker</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="23" data-semantic-parent="24">ν
+                <!-- ν -->
+              </mi>
+            </mrow>
+          </msub>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="36" data-semantic-parent="37" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="26" data-semantic-parent="37">x</mi>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="27" data-semantic-parent="44" data-semantic-operator="infixop,+">+</mo>
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="43" data-semantic-children="28,35" data-semantic-content="42" data-semantic-parent="44">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="28" data-semantic-parent="43">i</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="42" data-semantic-parent="43" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="35" data-semantic-children="31,33" data-semantic-content="34,29" data-semantic-parent="43">
+            <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="31" data-semantic-children="29,30" data-semantic-parent="35">
+              <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="normal" data-semantic-id="29" data-semantic-parent="31" data-semantic-operator="appl">kei</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="30" data-semantic-parent="31">ν
+                  <!-- ν -->
+                </mi>
+              </mrow>
+            </msub>
+            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="34" data-semantic-parent="35" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="33" data-semantic-parent="35">x</mi>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">N_{\nu }\left(x\right)e^{i\!\phi _{\nu }\left(x\right)}=\operatorname {ker} _{\nu }x+i\operatorname {kei} _{\nu }x</annotation>
+  </semantics>
+</math>

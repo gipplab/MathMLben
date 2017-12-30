@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="b 3">
+  <semantics>
+    <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">b</mi>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="2">3</mn>
+      </mrow>
+    </msub>
+    <annotation encoding="application/x-tex">b_{3}</annotation>
+  </semantics>
+</math>

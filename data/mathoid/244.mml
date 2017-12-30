@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartSet 3 k plus 4 EndSet subset-of German upper C">
+  <semantics>
+    <mrow data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="15" data-semantic-children="12,14" data-semantic-content="13">
+      <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="12" data-semantic-children="10" data-semantic-content="0,11" data-semantic-parent="15">
+        <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="12" data-semantic-operator="fenced">{</mo>
+        <mrow data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="10" data-semantic-children="8,5" data-semantic-content="9" data-semantic-parent="12">
+          <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="8" data-semantic-children="7,4" data-semantic-content="3" data-semantic-parent="10">
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="7" data-semantic-children="1,2" data-semantic-content="6" data-semantic-parent="8">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="7">3</mn>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="6" data-semantic-parent="7" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="7">k</mi>
+            </mrow>
+            <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="3" data-semantic-parent="8" data-semantic-operator="infixop,+">+</mo>
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="4" data-semantic-parent="8">4</mn>
+          </mrow>
+          <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+          <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-id="5" data-semantic-parent="10"/>
+        </mrow>
+        <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="11" data-semantic-parent="12" data-semantic-operator="fenced">}</mo>
+      </mrow>
+      <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="13" data-semantic-parent="15" data-semantic-operator="infixop,⊂">⊂
+        <!-- ⊂ -->
+      </mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="fraktur" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="fraktur" data-semantic-id="14" data-semantic-parent="15">C</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\left\{3k+4\ \right\}\subset {\mathfrak {C}}</annotation>
+  </semantics>
+</math>

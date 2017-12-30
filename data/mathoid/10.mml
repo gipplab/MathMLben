@@ -1,0 +1,19 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="z asterisk x less-than-or-equal-to y">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="inequality" data-semantic-id="6" data-semantic-children="5,4" data-semantic-content="3">
+      <mrow data-semantic-type="infixop" data-semantic-role="multiplication" data-semantic-id="5" data-semantic-children="0,2" data-semantic-content="1" data-semantic-parent="6">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="5">z</mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="1" data-semantic-parent="5" data-semantic-operator="infixop,∗">∗
+          <!-- ∗ -->
+        </mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="5">x</mi>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="inequality" data-semantic-id="3" data-semantic-parent="6" data-semantic-operator="relseq,≤">≤
+        <!-- ≤ -->
+      </mo>
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="6">y</mi>
+    </mrow>
+    <annotation encoding="application/x-tex">z*x\leq y</annotation>
+  </semantics>
+</math>

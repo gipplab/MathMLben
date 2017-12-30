@@ -1,0 +1,38 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartFraction d Over d t EndFraction log Subscript e Baseline t equals StartFraction 1 Over t EndFraction">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="19" data-semantic-children="18,14" data-semantic-content="11">
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="18" data-semantic-children="5,16" data-semantic-content="17" data-semantic-parent="19">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="5" data-semantic-children="0,4" data-semantic-parent="18">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="5">d</mi>
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="4" data-semantic-children="1,2" data-semantic-content="3" data-semantic-parent="5">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="4">d</mi>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="3" data-semantic-parent="4" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">t</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="17" data-semantic-parent="18" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="16" data-semantic-children="8,10" data-semantic-content="15,6" data-semantic-parent="18">
+          <msub data-semantic-type="subscript" data-semantic-role="prefix function" data-semantic-id="8" data-semantic-children="6,7" data-semantic-parent="16">
+            <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="6" data-semantic-parent="8" data-semantic-operator="appl">log</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="8">e</mi>
+            </mrow>
+          </msub>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="15" data-semantic-parent="16" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="16">t</mi>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="11" data-semantic-parent="19" data-semantic-operator="relseq,=">=</mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="14" data-semantic-children="12,13" data-semantic-parent="19">
+          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="12" data-semantic-parent="14">1</mn>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="14">t</mi>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">{\frac {d}{dt}}\log _{e}t={\frac {1}{t}}</annotation>
+  </semantics>
+</math>

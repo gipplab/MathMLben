@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="left-parenthesis a comma b comma left-parenthesis c comma d comma e right-parenthesis right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="16" data-semantic-children="15" data-semantic-content="0,12">
+      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="16" data-semantic-operator="fenced">(</mo>
+      <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="15" data-semantic-children="1,2,3,4,14" data-semantic-content="2,4" data-semantic-parent="16">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="15">a</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="2" data-semantic-parent="15" data-semantic-operator="punctuated">,</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="15">b</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="4" data-semantic-parent="15" data-semantic-operator="punctuated">,</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="14" data-semantic-children="13" data-semantic-content="5,11" data-semantic-parent="15">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="5" data-semantic-parent="14" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="13" data-semantic-children="6,7,8,9,10" data-semantic-content="7,9" data-semantic-parent="14">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="13">c</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="7" data-semantic-parent="13" data-semantic-operator="punctuated">,</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="13">d</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="9" data-semantic-parent="13" data-semantic-operator="punctuated">,</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="13">e</mi>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="11" data-semantic-parent="14" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="12" data-semantic-parent="16" data-semantic-operator="fenced">)</mo>
+    </mrow>
+    <annotation encoding="application/x-tex">(a,b,(c,d,e))</annotation>
+  </semantics>
+</math>

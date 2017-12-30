@@ -1,0 +1,9 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="bold-italic s">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi mathvariant="bold-italic" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold-italic" data-semantic-id="0">s</mi>
+    </mrow>
+    <annotation encoding="application/x-tex">{\boldsymbol {s}}</annotation>
+  </semantics>
+</math>

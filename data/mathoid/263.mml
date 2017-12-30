@@ -1,0 +1,55 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartAbsoluteValue normal upper Gamma left-parenthesis upper L right-parenthesis EndAbsoluteValue equals p Superscript i Baseline left-parenthesis p Superscript 2 i Baseline minus 1 right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="28" data-semantic-children="23,27" data-semantic-content="6">
+      <mrow data-semantic-type="fenced" data-semantic-role="neutral" data-semantic-id="23" data-semantic-children="22" data-semantic-content="0,5" data-semantic-parent="28">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="neutral" data-semantic-id="0" data-semantic-parent="23" data-semantic-operator="fenced">|</mo>
+        </mrow>
+        <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="22" data-semantic-children="1,20" data-semantic-content="21,1" data-semantic-parent="23">
+          <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="22" data-semantic-operator="appl">Γ
+            <!-- Γ -->
+          </mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="21" data-semantic-parent="22" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="20" data-semantic-children="3" data-semantic-content="2,4" data-semantic-parent="22">
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="2" data-semantic-parent="20" data-semantic-operator="fenced">(</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="20">L</mi>
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="4" data-semantic-parent="20" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="neutral" data-semantic-id="5" data-semantic-parent="23" data-semantic-operator="fenced">|</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="28" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="27" data-semantic-children="9,25" data-semantic-content="26" data-semantic-parent="28">
+        <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="9" data-semantic-children="7,8" data-semantic-parent="27">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="9">p</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="9">i</mi>
+          </mrow>
+        </msup>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="26" data-semantic-parent="27" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="25" data-semantic-children="24" data-semantic-content="10,19" data-semantic-parent="27">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="10" data-semantic-parent="25" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="24" data-semantic-children="16,18" data-semantic-content="17" data-semantic-parent="25">
+            <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="16" data-semantic-children="11,15" data-semantic-parent="24">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="16">p</mi>
+              <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="15" data-semantic-children="12,13" data-semantic-content="14" data-semantic-parent="16">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="12" data-semantic-parent="15">2</mn>
+                <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="14" data-semantic-parent="15" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="15">i</mi>
+              </mrow>
+            </msup>
+            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="17" data-semantic-parent="24" data-semantic-operator="infixop,−">−
+              <!-- − -->
+            </mo>
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="18" data-semantic-parent="24">1</mn>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="19" data-semantic-parent="25" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">|\Gamma (L)|=p^{i}(p^{2i}-1)</annotation>
+  </semantics>
+</math>

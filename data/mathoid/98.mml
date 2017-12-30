@@ -1,0 +1,23 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper V overbar Superscript asterisk">
+  <semantics>
+    <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="4" data-semantic-children="2,3">
+      <mrow class="MJX-TeXAtom-ORD">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="4">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">V</mi>
+            <mo stretchy="false" data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-id="1" data-semantic-parent="2">¯
+              <!-- ¯ -->
+            </mo>
+          </mover>
+        </mrow>
+      </mrow>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="3" data-semantic-parent="4">∗
+          <!-- ∗ -->
+        </mo>
+      </mrow>
+    </msup>
+    <annotation encoding="application/x-tex">{\bar {V}}^{*}</annotation>
+  </semantics>
+</math>

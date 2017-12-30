@@ -1,0 +1,15 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper P equals upper N upper P">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="6" data-semantic-children="0,5" data-semantic-content="1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="6">P</mi>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="6" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="5" data-semantic-children="2,3" data-semantic-content="4" data-semantic-parent="6">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="5">N</mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="4" data-semantic-parent="5" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="5">P</mi>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">P=NP</annotation>
+  </semantics>
+</math>

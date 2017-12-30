@@ -1,0 +1,46 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartFraction partial-differential f Over partial-differential x EndFraction equals f Subscript x Baseline equals partial-differential Subscript x Baseline f">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="20" data-semantic-children="8,12,19" data-semantic-content="9,13">
+      <mrow class="MJX-TeXAtom-ORD">
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="8" data-semantic-children="3,7" data-semantic-parent="20">
+          <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-parent="8">
+            <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="3">∂
+              <!-- ∂ -->
+            </mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">f</mi>
+          </mrow>
+          <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="7" data-semantic-children="4,5" data-semantic-content="6" data-semantic-parent="8">
+            <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="4" data-semantic-parent="7">∂
+              <!-- ∂ -->
+            </mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="6" data-semantic-parent="7" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="7">x</mi>
+          </mrow>
+        </mfrac>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="9" data-semantic-parent="20" data-semantic-operator="relseq,=">=</mo>
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="12" data-semantic-children="10,11" data-semantic-parent="20">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="12">f</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="12">x</mi>
+        </mrow>
+      </msub>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="13" data-semantic-parent="20" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="19" data-semantic-children="16,17" data-semantic-content="18" data-semantic-parent="20">
+        <msub data-semantic-type="subscript" data-semantic-role="prefix function" data-semantic-id="16" data-semantic-children="14,15" data-semantic-parent="19">
+          <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="14" data-semantic-parent="16">∂
+            <!-- ∂ -->
+          </mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="16">x</mi>
+          </mrow>
+        </msub>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="17" data-semantic-parent="19">f</mi>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">{\frac {\partial f}{\partial x}}=f_{x}=\partial _{x}f</annotation>
+  </semantics>
+</math>

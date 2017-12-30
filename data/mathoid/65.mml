@@ -1,0 +1,28 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper H Superscript 1 Baseline left-parenthesis upper K right-parenthesis equals StartRoot 2 EndRoot">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="12" data-semantic-children="11,8" data-semantic-content="6">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="11" data-semantic-children="2,9" data-semantic-content="10,0" data-semantic-parent="12">
+        <msup data-semantic-type="superscript" data-semantic-role="simple function" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="11">
+          <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2" data-semantic-operator="appl">H</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="2">1</mn>
+          </mrow>
+        </msup>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="10" data-semantic-parent="11" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="9" data-semantic-children="4" data-semantic-content="3,5" data-semantic-parent="11">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="9" data-semantic-operator="fenced">(</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="9">K</mi>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="9" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="12" data-semantic-operator="relseq,=">=</mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <msqrt data-semantic-type="sqrt" data-semantic-role="unknown" data-semantic-id="8" data-semantic-children="7" data-semantic-parent="12">
+          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="8">2</mn>
+        </msqrt>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">H^{1}(K)={\sqrt {2}}</annotation>
+  </semantics>
+</math>

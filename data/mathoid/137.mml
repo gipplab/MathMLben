@@ -1,0 +1,59 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="2 sine u sine v equals cosine left-parenthesis u minus v right-parenthesis minus cosine left-parenthesis u plus v right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="40" data-semantic-children="38,39" data-semantic-content="7">
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="38" data-semantic-children="0,36" data-semantic-content="37" data-semantic-parent="40">
+        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="38">2</mn>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="37" data-semantic-parent="38" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="36" data-semantic-children="1,34" data-semantic-content="35,1" data-semantic-parent="38">
+          <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="36" data-semantic-operator="appl">sin</mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="35" data-semantic-parent="36" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="34" data-semantic-children="3,32" data-semantic-content="33" data-semantic-parent="36">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="34">u</mi>
+            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="33" data-semantic-parent="34" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+            <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="32" data-semantic-children="4,6" data-semantic-content="31,4" data-semantic-parent="34">
+              <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="4" data-semantic-parent="32" data-semantic-operator="appl">sin</mi>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="31" data-semantic-parent="32" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="32">v</mi>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="7" data-semantic-parent="40" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="39" data-semantic-children="30,28" data-semantic-content="17" data-semantic-parent="40">
+        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="30" data-semantic-children="8,16" data-semantic-content="29,8" data-semantic-parent="39">
+          <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="8" data-semantic-parent="30" data-semantic-operator="appl">cos</mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="29" data-semantic-parent="30" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="16" data-semantic-children="14" data-semantic-content="10,15" data-semantic-parent="30">
+            <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="10" data-semantic-parent="16" data-semantic-operator="fenced">(</mo>
+            <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="14" data-semantic-children="11,13" data-semantic-content="12" data-semantic-parent="16">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="14">u</mi>
+              <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="12" data-semantic-parent="14" data-semantic-operator="infixop,−">−
+                <!-- − -->
+              </mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="14">v</mi>
+            </mrow>
+            <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="15" data-semantic-parent="16" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="17" data-semantic-parent="39" data-semantic-operator="infixop,−">−
+          <!-- − -->
+        </mo>
+        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="28" data-semantic-children="18,26" data-semantic-content="27,18" data-semantic-parent="39">
+          <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="18" data-semantic-parent="28" data-semantic-operator="appl">cos</mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="27" data-semantic-parent="28" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="26" data-semantic-children="24" data-semantic-content="20,25" data-semantic-parent="28">
+            <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="20" data-semantic-parent="26" data-semantic-operator="fenced">(</mo>
+            <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="24" data-semantic-children="21,23" data-semantic-content="22" data-semantic-parent="26">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="21" data-semantic-parent="24">u</mi>
+              <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="22" data-semantic-parent="24" data-semantic-operator="infixop,+">+</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="23" data-semantic-parent="24">v</mi>
+            </mrow>
+            <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="25" data-semantic-parent="26" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">2\sin u\sin v=\cos \left(u-v\right)-\cos \left(u+v\right)</annotation>
+  </semantics>
+</math>

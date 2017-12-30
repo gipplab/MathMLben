@@ -1,0 +1,16 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="equals StartFraction k Over n EndFraction">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="5" data-semantic-children="4,3" data-semantic-content="0">
+      <mrow data-semantic-type="empty" data-semantic-role="unknown" data-semantic-id="4" data-semantic-parent="5"/>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="0" data-semantic-parent="5" data-semantic-operator="relseq,=">=</mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="5">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">k</mi>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="3">n</mi>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">={\frac {k}{n}}</annotation>
+  </semantics>
+</math>

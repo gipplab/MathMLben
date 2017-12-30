@@ -1,0 +1,15 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="pi slash 4">
+  <semantics>
+    <mrow data-semantic-type="infixop" data-semantic-role="division" data-semantic-id="3" data-semantic-children="0,2" data-semantic-content="1">
+      <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="3">π
+        <!-- π -->
+      </mi>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mo data-semantic-type="operator" data-semantic-role="division" data-semantic-id="1" data-semantic-parent="3" data-semantic-operator="infixop,/">/</mo>
+      </mrow>
+      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="3">4</mn>
+    </mrow>
+    <annotation encoding="application/x-tex">\pi /4</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper A upper P equals left-parenthesis upper P plus a right-parenthesis upper A">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="15" data-semantic-children="12,14" data-semantic-content="2">
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="12" data-semantic-children="0,1" data-semantic-content="11" data-semantic-parent="15">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="12">A</mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="11" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="12">P</mi>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="2" data-semantic-parent="15" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="14" data-semantic-children="10,8" data-semantic-content="13" data-semantic-parent="15">
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="10" data-semantic-children="9" data-semantic-content="3,7" data-semantic-parent="14">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="10" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="9" data-semantic-children="4,6" data-semantic-content="5" data-semantic-parent="10">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="9">P</mi>
+            <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="5" data-semantic-parent="9" data-semantic-operator="infixop,+">+</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="9">a</mi>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="7" data-semantic-parent="10" data-semantic-operator="fenced">)</mo>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="13" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="14">A</mi>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">AP=(P+a)A</annotation>
+  </semantics>
+</math>

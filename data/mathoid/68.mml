@@ -1,0 +1,38 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper P Subscript x Baseline equals upper P minus StartSet a bar a greater-than-or-equal-to x EndSet">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="17" data-semantic-children="2,16" data-semantic-content="3">
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="17">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">P</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="2">x</mi>
+        </mrow>
+      </msub>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="17" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="16" data-semantic-children="4,15" data-semantic-content="5" data-semantic-parent="17">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="16">P</mi>
+        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="5" data-semantic-parent="16" data-semantic-operator="infixop,−">−
+          <!-- − -->
+        </mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="15" data-semantic-children="14" data-semantic-content="6,12" data-semantic-parent="16">
+          <mo fence="false" stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="6" data-semantic-parent="15" data-semantic-operator="fenced">{</mo>
+          <mrow data-semantic-type="relseq" data-semantic-role="inequality" data-semantic-id="14" data-semantic-children="13,11" data-semantic-content="10" data-semantic-parent="15">
+            <mrow data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="13" data-semantic-children="7,9" data-semantic-content="8" data-semantic-parent="14">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="13">a</mi>
+              <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="8" data-semantic-parent="13" data-semantic-operator="infixop,∣">∣
+                <!-- ∣ -->
+              </mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="13">a</mi>
+            </mrow>
+            <mo data-semantic-type="relation" data-semantic-role="inequality" data-semantic-id="10" data-semantic-parent="14" data-semantic-operator="relseq,≥">≥
+              <!-- ≥ -->
+            </mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="14">x</mi>
+          </mrow>
+          <mo fence="false" stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="12" data-semantic-parent="15" data-semantic-operator="fenced">}</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">P_{x}=P-\{a\mid a\geq x\}</annotation>
+  </semantics>
+</math>

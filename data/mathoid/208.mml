@@ -1,0 +1,28 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="xi Subscript i Superscript mu Baseline equals plus-or-minus 1">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="9" data-semantic-children="4,8" data-semantic-content="5">
+      <msubsup data-semantic-type="subsup" data-semantic-role="greekletter" data-semantic-id="4" data-semantic-children="0,1,2" data-semantic-parent="9" data-semantic-collapsed="(4 (3 0 1) 2)">
+        <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="4">ξ
+          <!-- ξ -->
+        </mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="4">i</mi>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">μ
+            <!-- μ -->
+          </mi>
+        </mrow>
+      </msubsup>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="5" data-semantic-parent="9" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="prefixop" data-semantic-role="addition" data-semantic-id="8" data-semantic-children="7" data-semantic-content="6" data-semantic-parent="9">
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="6" data-semantic-parent="8" data-semantic-operator="prefixop,±">±
+          <!-- ± -->
+        </mo>
+        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="8">1</mn>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\xi _{i}^{\mu }=\pm 1</annotation>
+  </semantics>
+</math>

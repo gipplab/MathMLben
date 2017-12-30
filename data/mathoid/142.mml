@@ -1,0 +1,36 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="ln x equals 2 Superscript m Baseline ln left-parenthesis 1 plus y right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="22" data-semantic-children="19,21" data-semantic-content="3">
+      <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="19" data-semantic-children="0,2" data-semantic-content="18,0" data-semantic-parent="22">
+        <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="19" data-semantic-operator="appl">ln</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="19">x</mi>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="22" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="21" data-semantic-children="6,17" data-semantic-content="20" data-semantic-parent="22">
+        <msup data-semantic-type="superscript" data-semantic-role="integer" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="21">
+          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="4" data-semantic-parent="6">2</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="6">m</mi>
+          </mrow>
+        </msup>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="20" data-semantic-parent="21" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="17" data-semantic-children="7,15" data-semantic-content="16,7" data-semantic-parent="21">
+          <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="17" data-semantic-operator="appl">ln</mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="16" data-semantic-parent="17" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="15" data-semantic-children="13" data-semantic-content="9,14" data-semantic-parent="17">
+            <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="9" data-semantic-parent="15" data-semantic-operator="fenced">(</mo>
+            <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="13" data-semantic-children="10,12" data-semantic-content="11" data-semantic-parent="15">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="10" data-semantic-parent="13">1</mn>
+              <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="11" data-semantic-parent="13" data-semantic-operator="infixop,+">+</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="12" data-semantic-parent="13">y</mi>
+            </mrow>
+            <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="14" data-semantic-parent="15" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\ln x=2^{m}\ln \left(1+y\right)</annotation>
+  </semantics>
+</math>

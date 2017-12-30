@@ -1,0 +1,41 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper W left-parenthesis 2 comma k right-parenthesis greater-than 2 Superscript k Baseline slash k Superscript epsilon">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="inequality" data-semantic-id="19" data-semantic-children="17,18" data-semantic-content="6">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="17" data-semantic-children="0,15" data-semantic-content="16,0" data-semantic-parent="19">
+        <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="17" data-semantic-operator="appl">W</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="16" data-semantic-parent="17" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="15" data-semantic-children="14" data-semantic-content="1,5" data-semantic-parent="17">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="1" data-semantic-parent="15" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="14" data-semantic-children="2,3,4" data-semantic-content="3" data-semantic-parent="15">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="14">2</mn>
+            <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="3" data-semantic-parent="14" data-semantic-operator="punctuated">,</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="14">k</mi>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="15" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="inequality" data-semantic-id="6" data-semantic-parent="19" data-semantic-operator="relseq,>">></mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="division" data-semantic-id="18" data-semantic-children="9,13" data-semantic-content="10" data-semantic-parent="19">
+        <msup data-semantic-type="superscript" data-semantic-role="integer" data-semantic-id="9" data-semantic-children="7,8" data-semantic-parent="18">
+          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="9">2</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="9">k</mi>
+          </mrow>
+        </msup>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo data-semantic-type="operator" data-semantic-role="division" data-semantic-id="10" data-semantic-parent="18" data-semantic-operator="infixop,/">/</mo>
+        </mrow>
+        <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="13" data-semantic-children="11,12" data-semantic-parent="18">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="13">k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="12" data-semantic-parent="13">ε
+              <!-- ε -->
+            </mi>
+          </mrow>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">W(2,k)>2^{k}/k^{\varepsilon }</annotation>
+  </semantics>
+</math>

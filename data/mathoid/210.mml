@@ -1,0 +1,18 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="a Subscript i j Baseline equals 1">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="8" data-semantic-children="5,7" data-semantic-content="6">
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="5" data-semantic-children="0,4" data-semantic-parent="8">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="5">a</mi>
+        <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="4" data-semantic-children="1,2" data-semantic-content="3" data-semantic-parent="5">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="4">i</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="3" data-semantic-parent="4" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">j</mi>
+        </mrow>
+      </msub>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="8" data-semantic-operator="relseq,=">=</mo>
+      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="8">1</mn>
+    </mrow>
+    <annotation encoding="application/x-tex">a_{ij}=1</annotation>
+  </semantics>
+</math>

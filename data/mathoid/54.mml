@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="sans-serif f sans-serif v">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2">
+        <mi mathvariant="sans-serif" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="sans-serif" data-semantic-id="0" data-semantic-parent="3">f</mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi mathvariant="sans-serif" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="sans-serif" data-semantic-id="1" data-semantic-parent="3">v</mi>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">{\mathsf {fv}}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,47 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="z Subscript t Baseline equals lamda 1 z Subscript t minus 1 Baseline plus epsilon Subscript t">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="20" data-semantic-children="2,19" data-semantic-content="3">
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="20">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">z</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="2">t</mi>
+        </mrow>
+      </msub>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="20" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="19" data-semantic-children="18,16" data-semantic-content="13" data-semantic-parent="20">
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="18" data-semantic-children="6,12" data-semantic-content="17" data-semantic-parent="19">
+          <msub data-semantic-type="subscript" data-semantic-role="greekletter" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="18">
+            <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="6">λ
+              <!-- λ -->
+            </mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="5" data-semantic-parent="6">1</mn>
+            </mrow>
+          </msub>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="17" data-semantic-parent="18" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="12" data-semantic-children="7,11" data-semantic-parent="18">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="12">z</mi>
+            <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="11" data-semantic-children="8,10" data-semantic-content="9" data-semantic-parent="12">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="11">t</mi>
+              <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="9" data-semantic-parent="11" data-semantic-operator="infixop,−">−
+                <!-- − -->
+              </mo>
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="10" data-semantic-parent="11">1</mn>
+            </mrow>
+          </msub>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="13" data-semantic-parent="19" data-semantic-operator="infixop,+">+</mo>
+        <msub data-semantic-type="subscript" data-semantic-role="greekletter" data-semantic-id="16" data-semantic-children="14,15" data-semantic-parent="19">
+          <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="14" data-semantic-parent="16">ε
+            <!-- ε -->
+          </mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="16">t</mi>
+          </mrow>
+        </msub>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">z_{t}=\lambda _{1}z_{t-1}+\varepsilon _{t}</annotation>
+  </semantics>
+</math>

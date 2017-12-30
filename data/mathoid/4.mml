@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="f Subscript c Baseline left-parenthesis z right-parenthesis equals z squared plus c">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="16" data-semantic-children="14,15" data-semantic-content="6">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="14" data-semantic-children="2,12" data-semantic-content="13,0" data-semantic-parent="16">
+        <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="14">
+          <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2" data-semantic-operator="appl">f</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="2">c</mi>
+          </mrow>
+        </msub>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="13" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="12" data-semantic-children="4" data-semantic-content="3,5" data-semantic-parent="14">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="12" data-semantic-operator="fenced">(</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="12">z</mi>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="12" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="16" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="15" data-semantic-children="9,11" data-semantic-content="10" data-semantic-parent="16">
+        <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="9" data-semantic-children="7,8" data-semantic-parent="15">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="9">z</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="8" data-semantic-parent="9">2</mn>
+          </mrow>
+        </msup>
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="10" data-semantic-parent="15" data-semantic-operator="infixop,+">+</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="15">c</mi>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">f_{c}(z)=z^{2}+c</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,51 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="h Subscript i Baseline equals sigma-summation Underscript j Endscripts ModifyingAbove w With caret Subscript i j Baseline s Subscript j">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="21" data-semantic-children="2,20" data-semantic-content="3">
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="21">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">h</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="2">i</mi>
+        </mrow>
+      </msub>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="21" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="bigop" data-semantic-role="sum" data-semantic-id="20" data-semantic-children="6,19" data-semantic-content="4" data-semantic-parent="21">
+        <munder data-semantic-type="limlower" data-semantic-role="sum" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="20">
+          <mo data-semantic-type="largeop" data-semantic-role="sum" data-semantic-id="4" data-semantic-parent="6" data-semantic-operator="bigop">∑
+            <!-- ∑ -->
+          </mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="6">j</mi>
+          </mrow>
+        </munder>
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="19" data-semantic-children="14,17" data-semantic-content="18" data-semantic-parent="20">
+          <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="14" data-semantic-children="9,13" data-semantic-parent="19">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-id="9" data-semantic-children="7,8" data-semantic-parent="14">
+                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="9">w</mi>
+                  <mo stretchy="false" data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-id="8" data-semantic-parent="9">^
+                    <!-- ^ -->
+                  </mo>
+                </mover>
+              </mrow>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="13" data-semantic-children="10,11" data-semantic-content="12" data-semantic-parent="14">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="13">i</mi>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="12" data-semantic-parent="13" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="13">j</mi>
+            </mrow>
+          </msub>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="17" data-semantic-children="15,16" data-semantic-parent="19">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="17">s</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="16" data-semantic-parent="17">j</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">h_{i}=\sum _{j}{\hat {w}}_{ij}s_{j}</annotation>
+  </semantics>
+</math>

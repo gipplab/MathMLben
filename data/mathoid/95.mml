@@ -1,0 +1,37 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="left-parenthesis StartRoot p 1 EndRoot comma ellipsis comma StartRoot p Subscript n Baseline EndRoot right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="14" data-semantic-children="13" data-semantic-content="0,12">
+      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="14" data-semantic-operator="fenced">(</mo>
+      <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="13" data-semantic-children="4,5,6,7,11" data-semantic-content="5,7" data-semantic-parent="14">
+        <mrow class="MJX-TeXAtom-ORD">
+          <msqrt data-semantic-type="sqrt" data-semantic-role="unknown" data-semantic-id="4" data-semantic-children="3" data-semantic-parent="13">
+            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="4">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">p</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="3">1</mn>
+              </mrow>
+            </msub>
+          </msqrt>
+        </mrow>
+        <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="5" data-semantic-parent="13" data-semantic-operator="punctuated">,</mo>
+        <mo data-semantic-type="punctuation" data-semantic-role="ellipsis" data-semantic-id="6" data-semantic-parent="13">⋯
+          <!-- ⋯ -->
+        </mo>
+        <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="7" data-semantic-parent="13" data-semantic-operator="punctuated">,</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <msqrt data-semantic-type="sqrt" data-semantic-role="unknown" data-semantic-id="11" data-semantic-children="10" data-semantic-parent="13">
+            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="10" data-semantic-children="8,9" data-semantic-parent="11">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="10">p</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="10">n</mi>
+              </mrow>
+            </msub>
+          </msqrt>
+        </mrow>
+      </mrow>
+      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="12" data-semantic-parent="14" data-semantic-operator="fenced">)</mo>
+    </mrow>
+    <annotation encoding="application/x-tex">({\sqrt {p_{1}}},\cdots ,{\sqrt {p_{n}}})</annotation>
+  </semantics>
+</math>

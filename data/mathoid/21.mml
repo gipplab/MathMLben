@@ -1,0 +1,10 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper S prime">
+  <semantics>
+    <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2">S</mi>
+      <mo data-semantic-type="punctuation" data-semantic-role="prime" data-semantic-id="1" data-semantic-parent="2">′</mo>
+    </msup>
+    <annotation encoding="application/x-tex">S'</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,150 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="area hyperbolic sine z equals ln left-parenthesis 2 z right-parenthesis plus one-half StartFraction 1 Over 2 z squared EndFraction minus StartFraction 1 dot 3 Over 2 dot 4 EndFraction StartFraction 1 Over 4 z Superscript 4 Baseline EndFraction plus StartFraction 1 dot 3 dot 5 Over 2 dot 4 dot 6 EndFraction StartFraction 1 Over 6 z Superscript 6 Baseline EndFraction minus ellipsis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="81" data-semantic-children="70,80" data-semantic-content="3">
+      <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="70" data-semantic-children="0,2" data-semantic-content="69,0" data-semantic-parent="81">
+        <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="70" data-semantic-operator="appl">arcsinh</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="69" data-semantic-parent="70" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="70">z</mi>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="81" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="80" data-semantic-children="79,66" data-semantic-content="65" data-semantic-parent="81">
+        <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="79" data-semantic-children="76,78" data-semantic-content="43" data-semantic-parent="80">
+          <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="76" data-semantic-children="73,75" data-semantic-content="25" data-semantic-parent="79">
+            <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="73" data-semantic-children="68,72" data-semantic-content="13" data-semantic-parent="76">
+              <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="68" data-semantic-children="4,12" data-semantic-content="67,4" data-semantic-parent="73">
+                <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="4" data-semantic-parent="68" data-semantic-operator="appl">ln</mi>
+                <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="67" data-semantic-parent="68" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="12" data-semantic-children="10" data-semantic-content="6,11" data-semantic-parent="68">
+                  <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="6" data-semantic-parent="12" data-semantic-operator="fenced">(</mo>
+                  <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="10" data-semantic-children="7,8" data-semantic-content="9" data-semantic-parent="12">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="10">2</mn>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="10">z</mi>
+                  </mrow>
+                  <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="11" data-semantic-parent="12" data-semantic-operator="fenced">)</mo>
+                </mrow>
+              </mrow>
+              <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="13" data-semantic-parent="73" data-semantic-operator="infixop,+">+</mo>
+              <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="72" data-semantic-children="16,24" data-semantic-content="71" data-semantic-parent="73">
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-id="16" data-semantic-children="14,15" data-semantic-parent="72">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="14" data-semantic-parent="16">1</mn>
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="15" data-semantic-parent="16">2</mn>
+                  </mfrac>
+                </mrow>
+                <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="71" data-semantic-parent="72" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="24" data-semantic-children="17,23" data-semantic-parent="72">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="17" data-semantic-parent="24">1</mn>
+                    <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="23" data-semantic-children="18,21" data-semantic-content="22" data-semantic-parent="24">
+                      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="18" data-semantic-parent="23">2</mn>
+                      <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="22" data-semantic-parent="23" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                      <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="21" data-semantic-children="19,20" data-semantic-parent="23">
+                        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="19" data-semantic-parent="21">z</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="20" data-semantic-parent="21">2</mn>
+                        </mrow>
+                      </msup>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+              </mrow>
+            </mrow>
+            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="25" data-semantic-parent="76" data-semantic-operator="infixop,−">−
+              <!-- − -->
+            </mo>
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="75" data-semantic-children="34,42" data-semantic-content="74" data-semantic-parent="76">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="34" data-semantic-children="29,33" data-semantic-parent="75">
+                  <mrow data-semantic-type="infixop" data-semantic-role="multiplication" data-semantic-id="29" data-semantic-children="26,28" data-semantic-content="27" data-semantic-parent="34">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="26" data-semantic-parent="29">1</mn>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="27" data-semantic-parent="29" data-semantic-operator="infixop,⋅">⋅
+                      <!-- ⋅ -->
+                    </mo>
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="28" data-semantic-parent="29">3</mn>
+                  </mrow>
+                  <mrow data-semantic-type="infixop" data-semantic-role="multiplication" data-semantic-id="33" data-semantic-children="30,32" data-semantic-content="31" data-semantic-parent="34">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="30" data-semantic-parent="33">2</mn>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="31" data-semantic-parent="33" data-semantic-operator="infixop,⋅">⋅
+                      <!-- ⋅ -->
+                    </mo>
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="32" data-semantic-parent="33">4</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="74" data-semantic-parent="75" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="42" data-semantic-children="35,41" data-semantic-parent="75">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="35" data-semantic-parent="42">1</mn>
+                  <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="41" data-semantic-children="36,39" data-semantic-content="40" data-semantic-parent="42">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="36" data-semantic-parent="41">4</mn>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="40" data-semantic-parent="41" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="39" data-semantic-children="37,38" data-semantic-parent="41">
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="37" data-semantic-parent="39">z</mi>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="38" data-semantic-parent="39">4</mn>
+                      </mrow>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </mrow>
+          </mrow>
+          <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="43" data-semantic-parent="79" data-semantic-operator="infixop,+">+</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="78" data-semantic-children="56,64" data-semantic-content="77" data-semantic-parent="79">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="56" data-semantic-children="49,55" data-semantic-parent="78">
+                <mrow data-semantic-type="infixop" data-semantic-role="multiplication" data-semantic-id="49" data-semantic-children="44,46,48" data-semantic-content="45,47" data-semantic-parent="56">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="44" data-semantic-parent="49">1</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="45" data-semantic-parent="49" data-semantic-operator="infixop,⋅">⋅
+                    <!-- ⋅ -->
+                  </mo>
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="46" data-semantic-parent="49">3</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="47" data-semantic-parent="49" data-semantic-operator="infixop,⋅">⋅
+                    <!-- ⋅ -->
+                  </mo>
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="48" data-semantic-parent="49">5</mn>
+                </mrow>
+                <mrow data-semantic-type="infixop" data-semantic-role="multiplication" data-semantic-id="55" data-semantic-children="50,52,54" data-semantic-content="51,53" data-semantic-parent="56">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="50" data-semantic-parent="55">2</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="51" data-semantic-parent="55" data-semantic-operator="infixop,⋅">⋅
+                    <!-- ⋅ -->
+                  </mo>
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="52" data-semantic-parent="55">4</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="53" data-semantic-parent="55" data-semantic-operator="infixop,⋅">⋅
+                    <!-- ⋅ -->
+                  </mo>
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="54" data-semantic-parent="55">6</mn>
+                </mrow>
+              </mfrac>
+            </mrow>
+            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="77" data-semantic-parent="78" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="64" data-semantic-children="57,63" data-semantic-parent="78">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="57" data-semantic-parent="64">1</mn>
+                <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="63" data-semantic-children="58,61" data-semantic-content="62" data-semantic-parent="64">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="58" data-semantic-parent="63">6</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="62" data-semantic-parent="63" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                  <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="61" data-semantic-children="59,60" data-semantic-parent="63">
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="59" data-semantic-parent="61">z</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="60" data-semantic-parent="61">6</mn>
+                    </mrow>
+                  </msup>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="65" data-semantic-parent="80" data-semantic-operator="infixop,−">−
+          <!-- − -->
+        </mo>
+        <mo data-semantic-type="punctuation" data-semantic-role="ellipsis" data-semantic-id="66" data-semantic-parent="80">⋯
+          <!-- ⋯ -->
+        </mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\operatorname {arcsinh} z=\ln \left(2z\right)+{\frac {1}{2}}{\frac {1}{2z^{2}}}-{\frac {1\cdot 3}{2\cdot 4}}{\frac {1}{4z^{4}}}+{\frac {1\cdot 3\cdot 5}{2\cdot 4\cdot 6}}{\frac {1}{6z^{6}}}-\cdots</annotation>
+  </semantics>
+</math>

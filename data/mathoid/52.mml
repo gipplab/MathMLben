@@ -1,0 +1,393 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="ModifyingBelow u 1 left-parenthesis bold x comma z 1 right-parenthesis equals v 1 plus ModifyingAbove u With dot Subscript x Baseline With bottom-brace Underscript By definition of v 1 Endscripts equals ModifyingAbove minus StartFraction partial-differential upper V Subscript x Baseline Over partial-differential bold x EndFraction g Subscript x Baseline left-parenthesis bold x right-parenthesis minus k 1 left-parenthesis ModifyingBelow z 1 minus u Subscript x Baseline left-parenthesis bold x right-parenthesis With bottom-brace Underscript e 1 Endscripts right-parenthesis With top-brace Overscript v 1 Endscripts plus ModifyingAbove StartFraction partial-differential u Subscript x Baseline Over partial-differential bold x EndFraction left-parenthesis ModifyingBelow f Subscript x Baseline left-parenthesis bold x right-parenthesis plus g Subscript x Baseline left-parenthesis bold x right-parenthesis z 1 With bottom-brace Underscript ModifyingAbove bold x With dot left-parenthesis i period e period comma StartFraction normal d bold x Over normal d t EndFraction right-parenthesis Endscripts right-parenthesis With top-brace Overscript ModifyingAbove u With dot Subscript x Baseline left-parenthesis i period e period comma StartFraction normal d u Subscript x Baseline Over normal d t EndFraction right-parenthesis Endscripts">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="189" data-semantic-children="34,188" data-semantic-content="35">
+      <munder data-semantic-type="underscore" data-semantic-role="equality" data-semantic-id="34" data-semantic-children="27,33" data-semantic-parent="189">
+        <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+          <munder data-semantic-type="underscore" data-semantic-role="equality" data-semantic-id="27" data-semantic-children="25,26" data-semantic-parent="34">
+            <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="25" data-semantic-children="23,24" data-semantic-content="10" data-semantic-parent="27">
+              <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="23" data-semantic-children="2,21" data-semantic-content="22,0" data-semantic-parent="25">
+                <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="23">
+                  <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="2" data-semantic-operator="appl">u</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="2">1</mn>
+                  </mrow>
+                </msub>
+                <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="22" data-semantic-parent="23" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="21" data-semantic-children="20" data-semantic-content="3,9" data-semantic-parent="23">
+                  <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="21" data-semantic-operator="fenced">(</mo>
+                  <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="20" data-semantic-children="4,5,8" data-semantic-content="5" data-semantic-parent="21">
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="4" data-semantic-parent="20">x</mi>
+                    </mrow>
+                    <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="5" data-semantic-parent="20" data-semantic-operator="punctuated">,</mo>
+                    <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="8" data-semantic-children="6,7" data-semantic-parent="20">
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="8">z</mi>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="8">1</mn>
+                      </mrow>
+                    </msub>
+                  </mrow>
+                  <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="9" data-semantic-parent="21" data-semantic-operator="fenced">)</mo>
+                </mrow>
+              </mrow>
+              <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="10" data-semantic-parent="25" data-semantic-operator="relseq,=">=</mo>
+              <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="24" data-semantic-children="13,19" data-semantic-content="14" data-semantic-parent="25">
+                <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="13" data-semantic-children="11,12" data-semantic-parent="24">
+                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="13">v</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="12" data-semantic-parent="13">1</mn>
+                  </mrow>
+                </msub>
+                <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="14" data-semantic-parent="24" data-semantic-operator="infixop,+">+</mo>
+                <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="19" data-semantic-children="17,18" data-semantic-parent="24">
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-id="17" data-semantic-children="15,16" data-semantic-parent="19">
+                        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="17">u</mi>
+                        <mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-id="16" data-semantic-parent="17">˙
+                          <!-- ˙ -->
+                        </mo>
+                      </mover>
+                    </mrow>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="18" data-semantic-parent="19">x</mi>
+                  </mrow>
+                </msub>
+              </mrow>
+            </mrow>
+            <mo data-semantic-type="fence" data-semantic-role="underaccent" data-semantic-id="26" data-semantic-parent="27">⏟
+              <!-- ⏟ -->
+            </mo>
+          </munder>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="33" data-semantic-children="28,31" data-semantic-content="32" data-semantic-parent="34">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="28" data-semantic-parent="33">By definition of </mtext>
+          </mrow>
+          <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="32" data-semantic-parent="33" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+          <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="31" data-semantic-children="29,30" data-semantic-parent="33">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="29" data-semantic-parent="31">v</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="30" data-semantic-parent="31">1</mn>
+            </mrow>
+          </msub>
+        </mrow>
+      </munder>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="35" data-semantic-parent="189" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="188" data-semantic-children="95,187" data-semantic-content="96" data-semantic-parent="189">
+        <mover data-semantic-type="overscore" data-semantic-role="subtraction" data-semantic-id="95" data-semantic-children="91,94" data-semantic-parent="188">
+          <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+            <mover data-semantic-type="overscore" data-semantic-role="subtraction" data-semantic-id="91" data-semantic-children="89,90" data-semantic-parent="95">
+              <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="89" data-semantic-children="88,83" data-semantic-content="54" data-semantic-parent="91">
+                <mrow data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-id="88" data-semantic-children="87" data-semantic-content="36" data-semantic-parent="89">
+                  <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="36" data-semantic-parent="88" data-semantic-operator="prefixop,−">−
+                    <!-- − -->
+                  </mo>
+                  <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="87" data-semantic-children="47,85" data-semantic-content="86" data-semantic-parent="88">
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="47" data-semantic-children="42,46" data-semantic-parent="87">
+                        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="42" data-semantic-children="37,40" data-semantic-content="41" data-semantic-parent="47">
+                          <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="37" data-semantic-parent="42">∂
+                            <!-- ∂ -->
+                          </mi>
+                          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="41" data-semantic-parent="42" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                          <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="40" data-semantic-children="38,39" data-semantic-parent="42">
+                            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="38" data-semantic-parent="40">V</mi>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="39" data-semantic-parent="40">x</mi>
+                            </mrow>
+                          </msub>
+                        </mrow>
+                        <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="46" data-semantic-children="43,44" data-semantic-content="45" data-semantic-parent="47">
+                          <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="43" data-semantic-parent="46">∂
+                            <!-- ∂ -->
+                          </mi>
+                          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="45" data-semantic-parent="46" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="44" data-semantic-parent="46">x</mi>
+                          </mrow>
+                        </mrow>
+                      </mfrac>
+                    </mrow>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="86" data-semantic-parent="87" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="85" data-semantic-children="50,80" data-semantic-content="84,48" data-semantic-parent="87">
+                      <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="50" data-semantic-children="48,49" data-semantic-parent="85">
+                        <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="48" data-semantic-parent="50" data-semantic-operator="appl">g</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="49" data-semantic-parent="50">x</mi>
+                        </mrow>
+                      </msub>
+                      <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="84" data-semantic-parent="85" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                      <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="80" data-semantic-children="52" data-semantic-content="51,53" data-semantic-parent="85">
+                        <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="51" data-semantic-parent="80" data-semantic-operator="fenced">(</mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="52" data-semantic-parent="80">x</mi>
+                        </mrow>
+                        <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="53" data-semantic-parent="80" data-semantic-operator="fenced">)</mo>
+                      </mrow>
+                    </mrow>
+                  </mrow>
+                </mrow>
+                <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="54" data-semantic-parent="89" data-semantic-operator="infixop,−">−
+                  <!-- − -->
+                </mo>
+                <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="83" data-semantic-children="57,81" data-semantic-content="82,55" data-semantic-parent="89">
+                  <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="57" data-semantic-children="55,56" data-semantic-parent="83">
+                    <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="55" data-semantic-parent="57" data-semantic-operator="appl">k</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="56" data-semantic-parent="57">1</mn>
+                    </mrow>
+                  </msub>
+                  <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="82" data-semantic-parent="83" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                  <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="81" data-semantic-children="78" data-semantic-content="58,79" data-semantic-parent="83">
+                    <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="58" data-semantic-parent="81" data-semantic-operator="fenced">(</mo>
+                    <munder data-semantic-type="underscore" data-semantic-role="subtraction" data-semantic-id="78" data-semantic-children="74,77" data-semantic-parent="81">
+                      <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                        <munder data-semantic-type="underscore" data-semantic-role="subtraction" data-semantic-id="74" data-semantic-children="72,73" data-semantic-parent="78">
+                          <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="72" data-semantic-children="61,71" data-semantic-content="62" data-semantic-parent="74">
+                            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="61" data-semantic-children="59,60" data-semantic-parent="72">
+                              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="59" data-semantic-parent="61">z</mi>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="60" data-semantic-parent="61">1</mn>
+                              </mrow>
+                            </msub>
+                            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="62" data-semantic-parent="72" data-semantic-operator="infixop,−">−
+                              <!-- − -->
+                            </mo>
+                            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="71" data-semantic-children="65,69" data-semantic-content="70,63" data-semantic-parent="72">
+                              <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="65" data-semantic-children="63,64" data-semantic-parent="71">
+                                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="63" data-semantic-parent="65" data-semantic-operator="appl">u</mi>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="64" data-semantic-parent="65">x</mi>
+                                </mrow>
+                              </msub>
+                              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="70" data-semantic-parent="71" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="69" data-semantic-children="67" data-semantic-content="66,68" data-semantic-parent="71">
+                                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="66" data-semantic-parent="69" data-semantic-operator="fenced">(</mo>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="67" data-semantic-parent="69">x</mi>
+                                </mrow>
+                                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="68" data-semantic-parent="69" data-semantic-operator="fenced">)</mo>
+                              </mrow>
+                            </mrow>
+                          </mrow>
+                          <mo data-semantic-type="fence" data-semantic-role="underaccent" data-semantic-id="73" data-semantic-parent="74">⏟
+                            <!-- ⏟ -->
+                          </mo>
+                        </munder>
+                      </mrow>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="77" data-semantic-children="75,76" data-semantic-parent="78">
+                          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="75" data-semantic-parent="77">e</mi>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="76" data-semantic-parent="77">1</mn>
+                          </mrow>
+                        </msub>
+                      </mrow>
+                    </munder>
+                    <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="79" data-semantic-parent="81" data-semantic-operator="fenced">)</mo>
+                  </mrow>
+                </mrow>
+              </mrow>
+              <mo data-semantic-type="fence" data-semantic-role="overaccent" data-semantic-id="90" data-semantic-parent="91">⏞
+                <!-- ⏞ -->
+              </mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="94" data-semantic-children="92,93" data-semantic-parent="95">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="92" data-semantic-parent="94">v</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="93" data-semantic-parent="94">1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </mover>
+        <mspace width="thinmathspace"/>
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="96" data-semantic-parent="188" data-semantic-operator="infixop,+">+</mo>
+        <mspace width="thinmathspace"/>
+        <mover data-semantic-type="overscore" data-semantic-role="implicit" data-semantic-id="187" data-semantic-children="162,186" data-semantic-parent="188">
+          <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+            <mover data-semantic-type="overscore" data-semantic-role="implicit" data-semantic-id="162" data-semantic-children="160,161" data-semantic-parent="187">
+              <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="160" data-semantic-children="107,158" data-semantic-content="159" data-semantic-parent="162">
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="107" data-semantic-children="102,106" data-semantic-parent="160">
+                    <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="102" data-semantic-children="97,100" data-semantic-content="101" data-semantic-parent="107">
+                      <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="97" data-semantic-parent="102">∂
+                        <!-- ∂ -->
+                      </mi>
+                      <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="101" data-semantic-parent="102" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="100" data-semantic-children="98,99" data-semantic-parent="102">
+                        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="98" data-semantic-parent="100">u</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="99" data-semantic-parent="100">x</mi>
+                        </mrow>
+                      </msub>
+                    </mrow>
+                    <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="106" data-semantic-children="103,104" data-semantic-content="105" data-semantic-parent="107">
+                      <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="103" data-semantic-parent="106">∂
+                        <!-- ∂ -->
+                      </mi>
+                      <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="105" data-semantic-parent="106" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="104" data-semantic-parent="106">x</mi>
+                      </mrow>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+                <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="159" data-semantic-parent="160" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="158" data-semantic-children="156" data-semantic-content="108,157" data-semantic-parent="160">
+                  <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="108" data-semantic-parent="158" data-semantic-operator="fenced">(</mo>
+                  <munder data-semantic-type="underscore" data-semantic-role="addition" data-semantic-id="156" data-semantic-children="135,155" data-semantic-parent="158">
+                    <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                      <munder data-semantic-type="underscore" data-semantic-role="addition" data-semantic-id="135" data-semantic-children="133,134" data-semantic-parent="156">
+                        <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="133" data-semantic-children="130,132" data-semantic-content="115" data-semantic-parent="135">
+                          <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="130" data-semantic-children="111,125" data-semantic-content="129,109" data-semantic-parent="133">
+                            <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="111" data-semantic-children="109,110" data-semantic-parent="130">
+                              <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="109" data-semantic-parent="111" data-semantic-operator="appl">f</mi>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="110" data-semantic-parent="111">x</mi>
+                              </mrow>
+                            </msub>
+                            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="129" data-semantic-parent="130" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                            <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="125" data-semantic-children="113" data-semantic-content="112,114" data-semantic-parent="130">
+                              <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="112" data-semantic-parent="125" data-semantic-operator="fenced">(</mo>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="113" data-semantic-parent="125">x</mi>
+                              </mrow>
+                              <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="114" data-semantic-parent="125" data-semantic-operator="fenced">)</mo>
+                            </mrow>
+                          </mrow>
+                          <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="115" data-semantic-parent="133" data-semantic-operator="infixop,+">+</mo>
+                          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="132" data-semantic-children="128,124" data-semantic-content="131" data-semantic-parent="133">
+                            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="128" data-semantic-children="118,126" data-semantic-content="127,116" data-semantic-parent="132">
+                              <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="118" data-semantic-children="116,117" data-semantic-parent="128">
+                                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="116" data-semantic-parent="118" data-semantic-operator="appl">g</mi>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="117" data-semantic-parent="118">x</mi>
+                                </mrow>
+                              </msub>
+                              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="127" data-semantic-parent="128" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="126" data-semantic-children="120" data-semantic-content="119,121" data-semantic-parent="128">
+                                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="119" data-semantic-parent="126" data-semantic-operator="fenced">(</mo>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="120" data-semantic-parent="126">x</mi>
+                                </mrow>
+                                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="121" data-semantic-parent="126" data-semantic-operator="fenced">)</mo>
+                              </mrow>
+                            </mrow>
+                            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="131" data-semantic-parent="132" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="124" data-semantic-children="122,123" data-semantic-parent="132">
+                              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="122" data-semantic-parent="124">z</mi>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="123" data-semantic-parent="124">1</mn>
+                              </mrow>
+                            </msub>
+                          </mrow>
+                        </mrow>
+                        <mo data-semantic-type="fence" data-semantic-role="underaccent" data-semantic-id="134" data-semantic-parent="135">⏟
+                          <!-- ⏟ -->
+                        </mo>
+                      </munder>
+                    </mrow>
+                    <mrow class="MJX-TeXAtom-ORD" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="155" data-semantic-children="138,139,150,151" data-semantic-content="152,153,154" data-semantic-parent="156">
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-id="138" data-semantic-children="136,137" data-semantic-parent="155">
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="136" data-semantic-parent="138">x</mi>
+                            </mrow>
+                            <mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-id="137" data-semantic-parent="138">˙
+                              <!-- ˙ -->
+                            </mo>
+                          </mover>
+                        </mrow>
+                      </mrow>
+                      <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="152" data-semantic-parent="155" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="139" data-semantic-parent="155"> (i.e., </mtext>
+                      </mrow>
+                      <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="153" data-semantic-parent="155" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="150" data-semantic-children="144,149" data-semantic-parent="155">
+                          <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="144" data-semantic-children="140,142" data-semantic-content="143,140" data-semantic-parent="150">
+                            <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="normal" data-semantic-id="140" data-semantic-parent="144" data-semantic-operator="appl">d</mi>
+                            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="143" data-semantic-parent="144" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="142" data-semantic-parent="144">x</mi>
+                            </mrow>
+                          </mrow>
+                          <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="149" data-semantic-children="145,147" data-semantic-content="148,145" data-semantic-parent="150">
+                            <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="normal" data-semantic-id="145" data-semantic-parent="149" data-semantic-operator="appl">d</mi>
+                            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="148" data-semantic-parent="149" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="147" data-semantic-parent="149">t</mi>
+                          </mrow>
+                        </mfrac>
+                      </mrow>
+                      <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="154" data-semantic-parent="155" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mtext data-semantic-type="text" data-semantic-role="close" data-semantic-id="151" data-semantic-parent="155">)</mtext>
+                      </mrow>
+                    </mrow>
+                  </munder>
+                  <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="157" data-semantic-parent="158" data-semantic-operator="fenced">)</mo>
+                </mrow>
+              </mrow>
+              <mo data-semantic-type="fence" data-semantic-role="overaccent" data-semantic-id="161" data-semantic-parent="162">⏞
+                <!-- ⏞ -->
+              </mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="186" data-semantic-children="167,168,181,182" data-semantic-content="183,184,185" data-semantic-parent="187">
+            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="167" data-semantic-children="165,166" data-semantic-parent="186">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-id="165" data-semantic-children="163,164" data-semantic-parent="167">
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="163" data-semantic-parent="165">u</mi>
+                    <mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-id="164" data-semantic-parent="165">˙
+                      <!-- ˙ -->
+                    </mo>
+                  </mover>
+                </mrow>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="166" data-semantic-parent="167">x</mi>
+              </mrow>
+            </msub>
+            <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="183" data-semantic-parent="186" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="168" data-semantic-parent="186"> (i.e., </mtext>
+            </mrow>
+            <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="184" data-semantic-parent="186" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="181" data-semantic-children="175,180" data-semantic-parent="186">
+                <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="175" data-semantic-children="169,173" data-semantic-content="174,169" data-semantic-parent="181">
+                  <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="normal" data-semantic-id="169" data-semantic-parent="175" data-semantic-operator="appl">d</mi>
+                  <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="174" data-semantic-parent="175" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                  <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="173" data-semantic-children="171,172" data-semantic-parent="175">
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="171" data-semantic-parent="173">u</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="172" data-semantic-parent="173">x</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+                <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="180" data-semantic-children="176,178" data-semantic-content="179,176" data-semantic-parent="181">
+                  <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="normal" data-semantic-id="176" data-semantic-parent="180" data-semantic-operator="appl">d</mi>
+                  <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="179" data-semantic-parent="180" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="178" data-semantic-parent="180">t</mi>
+                </mrow>
+              </mfrac>
+            </mrow>
+            <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="185" data-semantic-parent="186" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mtext data-semantic-type="text" data-semantic-role="close" data-semantic-id="182" data-semantic-parent="186">)</mtext>
+            </mrow>
+          </mrow>
+        </mover>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\underbrace {u_{1}(\mathbf {x} ,z_{1})=v_{1}+{\dot {u}}_{x}} _{{\text{By definition of }}v_{1}}=\overbrace {-{\frac {\partial V_{x}}{\partial \mathbf {x} }}g_{x}(\mathbf {x} )-k_{1}(\underbrace {z_{1}-u_{x}(\mathbf {x} )} _{e_{1}})} ^{v_{1}}\,+\,\overbrace {{\frac {\partial u_{x}}{\partial \mathbf {x} }}(\underbrace {f_{x}(\mathbf {x} )+g_{x}(\mathbf {x} )z_{1}} _{{\dot {\mathbf {x} }}{\text{ (i.e., }}{\frac {\operatorname {d} \mathbf {x} }{\operatorname {d} t}}{\text{)}}})} ^{{\dot {u}}_{x}{\text{ (i.e., }}{\frac {\operatorname {d} u_{x}}{\operatorname {d} t}}{\text{)}}}</annotation>
+  </semantics>
+</math>

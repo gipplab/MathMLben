@@ -1,0 +1,14 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="normal alef 0">
+  <semantics>
+    <msub data-semantic-type="subscript" data-semantic-role="otherletter" data-semantic-id="2" data-semantic-children="0,1">
+      <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="otherletter" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="2">ℵ
+        <!-- ℵ -->
+      </mi>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="1" data-semantic-parent="2">0</mn>
+      </mrow>
+    </msub>
+    <annotation encoding="application/x-tex">\aleph _{0}</annotation>
+  </semantics>
+</math>

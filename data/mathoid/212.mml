@@ -1,0 +1,58 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="psi left-parenthesis a plus b right-parenthesis equals psi left-parenthesis a right-parenthesis ModifyingAbove plus With tilde psi left-parenthesis b right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="29" data-semantic-children="27,28" data-semantic-content="6">
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="27" data-semantic-children="0,19" data-semantic-content="26" data-semantic-parent="29">
+        <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="27">ψ
+          <!-- ψ -->
+        </mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="26" data-semantic-parent="27" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="19" data-semantic-children="18" data-semantic-content="1,5" data-semantic-parent="27">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="1" data-semantic-parent="19" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="18" data-semantic-children="2,4" data-semantic-content="3" data-semantic-parent="19">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="18">a</mi>
+            <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="3" data-semantic-parent="18" data-semantic-operator="infixop,+">+</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="18">b</mi>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="19" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="29" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="28" data-semantic-children="25,23" data-semantic-content="13" data-semantic-parent="29">
+        <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="25" data-semantic-children="7,20" data-semantic-content="24,7" data-semantic-parent="28">
+          <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="25" data-semantic-operator="appl">ψ
+            <!-- ψ -->
+          </mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="24" data-semantic-parent="25" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="20" data-semantic-children="9" data-semantic-content="8,10" data-semantic-parent="25">
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="8" data-semantic-parent="20" data-semantic-operator="fenced">(</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="20">a</mi>
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="10" data-semantic-parent="20" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover data-semantic-type="overscore" data-semantic-role="addition" data-semantic-id="13" data-semantic-children="11,12" data-semantic-parent="28" data-semantic-embellished="operator" data-semantic-operator="infixop,+">
+              <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="11" data-semantic-parent="13">+</mo>
+              <mo data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-id="12" data-semantic-parent="13">~
+                <!-- ~ -->
+              </mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="23" data-semantic-children="14,21" data-semantic-content="22,14" data-semantic-parent="28">
+          <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="14" data-semantic-parent="23" data-semantic-operator="appl">ψ
+            <!-- ψ -->
+          </mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="22" data-semantic-parent="23" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+          <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="21" data-semantic-children="16" data-semantic-content="15,17" data-semantic-parent="23">
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="15" data-semantic-parent="21" data-semantic-operator="fenced">(</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="16" data-semantic-parent="21">b</mi>
+            <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="17" data-semantic-parent="21" data-semantic-operator="fenced">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\psi (a+b)=\psi (a){\widetilde {+}}\psi (b)</annotation>
+  </semantics>
+</math>

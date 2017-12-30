@@ -1,0 +1,96 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="integral Underscript double-struck upper R Superscript n Baseline Endscripts f d x equals integral Subscript 0 Superscript normal infinity Baseline StartSet integral Underscript partial-differential upper B left-parenthesis x 0 semicolon r right-parenthesis Endscripts f d upper S EndSet d r">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="47" data-semantic-children="46,43" data-semantic-content="8">
+      <mrow data-semantic-type="integral" data-semantic-role="integral" data-semantic-id="46" data-semantic-children="4,5,45" data-semantic-content="0" data-semantic-parent="47">
+        <msub data-semantic-type="limlower" data-semantic-role="integral" data-semantic-id="4" data-semantic-children="0,3" data-semantic-parent="46">
+          <mo data-semantic-type="largeop" data-semantic-role="integral" data-semantic-id="0" data-semantic-parent="4" data-semantic-operator="integral">∫
+            <!-- ∫ -->
+          </mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="4">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="double-struck" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="double-struck" data-semantic-id="1" data-semantic-parent="3">R</mi>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="3">n</mi>
+              </mrow>
+            </msup>
+          </mrow>
+        </msub>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="46">f</mi>
+        <mspace width="thinmathspace"/>
+        <mrow data-semantic-type="punctuated" data-semantic-role="integral" data-semantic-id="45" data-semantic-children="6,44,7" data-semantic-content="44" data-semantic-parent="46">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="45">d</mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="44" data-semantic-parent="45" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="45">x</mi>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="8" data-semantic-parent="47" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="integral" data-semantic-role="integral" data-semantic-id="43" data-semantic-children="12,38,42" data-semantic-content="9" data-semantic-parent="47">
+        <msubsup data-semantic-type="limboth" data-semantic-role="integral" data-semantic-id="12" data-semantic-children="9,10,11" data-semantic-parent="43">
+          <mo data-semantic-type="largeop" data-semantic-role="integral" data-semantic-id="9" data-semantic-parent="12" data-semantic-operator="integral">∫
+            <!-- ∫ -->
+          </mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="10" data-semantic-parent="12">0</mn>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="11" data-semantic-parent="12">∞
+              <!-- ∞ -->
+            </mi>
+          </mrow>
+        </msubsup>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="38" data-semantic-children="36" data-semantic-content="13,37" data-semantic-parent="43">
+          <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="13" data-semantic-parent="38" data-semantic-operator="fenced">{</mo>
+          <mrow data-semantic-type="integral" data-semantic-role="integral" data-semantic-id="36" data-semantic-children="30,31,35" data-semantic-content="14" data-semantic-parent="38">
+            <msub data-semantic-type="limlower" data-semantic-role="integral" data-semantic-id="30" data-semantic-children="14,29" data-semantic-parent="36">
+              <mo data-semantic-type="largeop" data-semantic-role="integral" data-semantic-id="14" data-semantic-parent="30" data-semantic-operator="integral">∫
+                <!-- ∫ -->
+              </mo>
+              <mrow class="MJX-TeXAtom-ORD" data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="29" data-semantic-children="15,27" data-semantic-content="28" data-semantic-parent="30">
+                <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="15" data-semantic-parent="29">∂
+                  <!-- ∂ -->
+                </mi>
+                <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="28" data-semantic-parent="29" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="27" data-semantic-children="16,25" data-semantic-content="26,16" data-semantic-parent="29">
+                  <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="16" data-semantic-parent="27" data-semantic-operator="appl">B</mi>
+                  <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="26" data-semantic-parent="27" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                  <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="25" data-semantic-children="24" data-semantic-content="17,23" data-semantic-parent="27">
+                    <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="17" data-semantic-parent="25" data-semantic-operator="fenced">(</mo>
+                    <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="24" data-semantic-children="20,21,22" data-semantic-content="21" data-semantic-parent="25">
+                      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="20" data-semantic-children="18,19" data-semantic-parent="24">
+                        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="18" data-semantic-parent="20">x</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="19" data-semantic-parent="20">0</mn>
+                        </mrow>
+                      </msub>
+                      <mo data-semantic-type="punctuation" data-semantic-role="unknown" data-semantic-id="21" data-semantic-parent="24" data-semantic-operator="punctuated">;</mo>
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="22" data-semantic-parent="24">r</mi>
+                    </mrow>
+                    <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="23" data-semantic-parent="25" data-semantic-operator="fenced">)</mo>
+                  </mrow>
+                </mrow>
+              </mrow>
+            </msub>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="31" data-semantic-parent="36">f</mi>
+            <mspace width="thinmathspace"/>
+            <mrow data-semantic-type="punctuated" data-semantic-role="integral" data-semantic-id="35" data-semantic-children="32,34,33" data-semantic-content="34" data-semantic-parent="36">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="32" data-semantic-parent="35">d</mi>
+              <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="34" data-semantic-parent="35" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="33" data-semantic-parent="35">S</mi>
+            </mrow>
+          </mrow>
+          <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="37" data-semantic-parent="38" data-semantic-operator="fenced">}</mo>
+        </mrow>
+        <mspace width="thinmathspace"/>
+        <mrow data-semantic-type="punctuated" data-semantic-role="integral" data-semantic-id="42" data-semantic-children="39,41,40" data-semantic-content="41" data-semantic-parent="43">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="39" data-semantic-parent="42">d</mi>
+          <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="41" data-semantic-parent="42" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="40" data-semantic-parent="42">r</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\int _{\mathbb {R} ^{n}}f\,dx=\int _{0}^{\infty }\left\{\int _{\partial B(x_{0};r)}f\,dS\right\}\,dr</annotation>
+  </semantics>
+</math>

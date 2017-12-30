@@ -1,0 +1,55 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="normal upper Delta x normal upper Delta v greater-than-or-equal-to StartFraction d m squared Over 2 EndFraction mathematical left-angle upper E Superscript negative 3 Baseline mathematical right-angle">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="inequality" data-semantic-id="27" data-semantic-children="24,26" data-semantic-content="4">
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="24" data-semantic-children="0,1,2,3" data-semantic-content="21,22,23" data-semantic-parent="27">
+        <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="24">Δ
+          <!-- Δ -->
+        </mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="21" data-semantic-parent="24" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="24">x</mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="22" data-semantic-parent="24" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="24">Δ
+          <!-- Δ -->
+        </mi>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="23" data-semantic-parent="24" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="24">v</mi>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="inequality" data-semantic-id="4" data-semantic-parent="27" data-semantic-operator="relseq,≥">≥
+        <!-- ≥ -->
+      </mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="26" data-semantic-children="12,20" data-semantic-content="25" data-semantic-parent="27">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="12" data-semantic-children="10,11" data-semantic-parent="26">
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="10" data-semantic-children="5,8" data-semantic-content="9" data-semantic-parent="12">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="10">d</mi>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="8" data-semantic-children="6,7" data-semantic-parent="10">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="8">m</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="8">2</mn>
+                </mrow>
+              </msup>
+            </mrow>
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="11" data-semantic-parent="12">2</mn>
+          </mfrac>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="25" data-semantic-parent="26" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="20" data-semantic-children="18" data-semantic-content="13,19" data-semantic-parent="26">
+          <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="13" data-semantic-parent="20" data-semantic-operator="fenced">⟨</mo>
+          <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="18" data-semantic-children="14,17" data-semantic-parent="20">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="14" data-semantic-parent="18">E</mi>
+            <mrow class="MJX-TeXAtom-ORD" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-id="17" data-semantic-children="16" data-semantic-content="15" data-semantic-parent="18">
+              <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="15" data-semantic-parent="17" data-semantic-operator="prefixop,−">−
+                <!-- − -->
+              </mo>
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="16" data-semantic-parent="17">3</mn>
+            </mrow>
+          </msup>
+          <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="19" data-semantic-parent="20" data-semantic-operator="fenced">⟩</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\Delta x\Delta v\geq {\frac {dm^{2}}{2}}\left\langle E^{-3}\right\rangle</annotation>
+  </semantics>
+</math>
