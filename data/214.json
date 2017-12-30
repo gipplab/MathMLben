@@ -22,5 +22,6 @@
   "ntcir12-type": "14",
   "ntcir12-relevance": "4",
   "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"P=\\operatorname{NP}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">P</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">NP</mi>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q846354</csymbol>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q846354</csymbol>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">P=\\operatorname{NP}</annotation>\n  </semantics>\n</math>",
-  "math_inputtex_semantic": "\\w{Q846354}{P} = \\w{Q846354}{\\operatorname{NP}}"
+  "math_inputtex_semantic": "\\w{Q846354}{P} = \\w{Q846354}{\\operatorname{NP}}",
+  "type": "relation"
 }
