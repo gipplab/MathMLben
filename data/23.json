@@ -35,5 +35,6 @@
   "constraints": [
     "i\\in \\{1,\\ldots ,29\\}"
   ],
-  "math_inputtex_semantic": "\\wf{Q11652}{D}(\\w{Q5597315}{G},\\w{Q5597315}{H}) = \\sum_{\\w{Q2303886}{i}=1}^{29} \\abs{\\wf{Q11348}{F}_i(G) - F_i(H)}"
+  "math_inputtex_semantic": "\\wf{Q11652}{D}(\\w{Q5597315}{G},\\w{Q5597315}{H}) = \\sum_{\\w{Q2303886}{i}=1}^{29} \\abs{\\wf{Q11348}{F}_i(G) - F_i(H)}",
+  "type": "equation"
 }
