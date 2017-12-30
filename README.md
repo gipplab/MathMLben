@@ -9,7 +9,7 @@
 * run
 ```bash
 sudo useradd gouldi
-sudo mkdir /srv/gouli
+sudo mkdir /srv/gouldi
 sudo chown gouldi /srv/gouldi
 sudo su gouldi
 mkdir "${HOME}/.npm-packages"
@@ -32,3 +32,11 @@ npm i -g pm2
 git clone https://github.com/ag-gipp/GoUldI
 cd GoUldI/
 pm2 deploy ecosystem.json production setup
+```
+* update
+```bash
+sudo su gouldi
+cd GoUldI
+git pull
+pm2 deploy production update
+```
