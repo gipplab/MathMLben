@@ -20,5 +20,6 @@
     "c > 0",
     "c \\ne 1"
   ],
-  "math_inputtex_semantic": "\\frac{d}{d\\w{Q12916}{x}}\\left( \\ln_{\\w{Q12916}{c}} \\w{Q12916}{x}\\right) = {1 \\over \\w{Q12916}{x} \\ln \\w{Q12916}{c}}"
+  "math_inputtex_semantic": "\\frac{d}{d\\w{Q12916}{x}}\\left( \\ln_{\\w{Q12916}{c}} \\w{Q12916}{x}\\right) = {1 \\over \\w{Q12916}{x} \\ln \\w{Q12916}{c}}",
+  "type": "equation"
 }
