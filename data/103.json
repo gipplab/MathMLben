@@ -35,7 +35,7 @@
       "z = r\\expe^{\\iunit\\theta}"
     ]
   },
-  "math_inputtex_semantic": "\\wf{Q185553}{\\ph}@@{\\w{Q11567}{z}} = \\w{Q12916}{\\theta} + 2 \\w{Q28920052}{n} \\cpi",
+  "math_inputtex_semantic": "\\wf{Q47004582}{\\ph}@@{\\w{Q11567}{z}} = \\w{Q12916}{\\theta} + 2 \\w{Q28920052}{n} \\cpi",
   "type": "definition",
   "correct_tex": "\\ph@@{\\w{Q11567}{z\\} = \\theta + 2n\\cpi",
   "uri": "http://dlmf.nist.gov/1.9#E7",
