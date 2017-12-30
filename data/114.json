@@ -20,7 +20,7 @@
   },
   "constraints": [],
   "substitutions": {},
-  "math_inputtex_semantic": "\\wf{Q11348}{w} = \\expe^{-\\w{Q50700}{f}_0 \\ifrac{\\w{Q11567}{z}}{2}} \\w{Q11567}{W}",
+  "math_inputtex_semantic": "\\wf{Q11348}{w} = \\expe^{-\\w{Q50700}{f}_0 \\ifrac{\\w{Q11567}{z}}{2}} W",
   "title": "Fabry's transformation",
   "correct_tex": "w = \\expe^{-f_0 \\ifrac{z}{2}} W",
   "uri": "http://dlmf.nist.gov/2.7#E19",
