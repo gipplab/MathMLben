@@ -1,0 +1,137 @@
+{
+  "1": {
+    "query": " what symbol is $\\zeta$",
+    "results": " \\wl{706725587}{\\textbf{Riemann zeta function}}, \\wl{710018522}{Damping ratio}, \\wl{676046404}{Hurwitz zeta function}, \\wl{715852907}{1s Slater-type function}, \\wl{710094581}{Jerk (physics)}, \\wl{635423899}{Oblate spheroidal coordinates}, \\wl{715738107}{Routhian mechanics}",
+    "comment": "6 new hits.}"
+  },
+  "2": {
+    "query": " define $\\iff$ in $A\\iff B$",
+    "results": "\\wl{607377546}{Monoidal t-norm logic}, \\wl{706630414}{\\textbf{Logical equivalence}}, \\wl{675920363}{\\textbf{If and only if}}, \\wl{677013630}{Logical biconditional} \\wl{698881079}{Contraposition}, (\\wl{715679912}{Tautology (logic)} or \\wl{680914801}{Exportation (logic)})",
+    "comment": "4 new hits; the assessors rated 1 hit as irrelevant that we consider relevant.}"
+  },
+  "3": {
+    "query": " definition $a \\oplus b$",
+    "results": " \\wl{699260438}{\\textbf{Direct sum}}, \\wl{683299470}{\\boldmath$\\oplus$}, \\wl{713297915}{Exclusive or}",
+    "comment": "1 new hit.}"
+  },
+  "4": {
+    "query": " \\renewcommand{\\arraystretch}{1} $\\left|\\begin{array}[]{c c}a&b\\\\c&d\\end{array}\\right|$ \\renewcommand{\\arraystretch}{1.3}",
+    "results": " \\wl{707820405\\#2.C2.A0.C3.97.C2.A02\\_matrices}{\\textbf{Determinant}}, \\wl{690460820}{Laplace expansion}",
+    "comment": "1 new hit.}"
+  },
+  "5": {
+    "query": " define notation ${}_{2}F_{1}(a,b;c;z)$",
+    "results": " \\wl{704931144\\#The\\_hypergeometric\\_series}{\\textbf{Hypergeometric function}}",
+    "comment": "no new hits.}"
+  },
+  "6": {
+    "query": " $a_{0}+\\frac{b_{1}}{a_{1}+}\\frac{b_{2}}{a_{2}+}\\cdots$ define pattern",
+    "results": " \\wl{709340675}{Generalized continued fraction}, \\wl{703459703\\#Basic\\_formula}{\\textbf{Continued fraction}}",
+    "comment": "1 new hit.}"
+  },
+  "8": {
+    "query": " $n=\\frac{c}{\\qvar{*1*}}$ light",
+    "results": " \\wl{706356696}{\\textbf{Refractive index}}",
+    "comment": "no new hits.}"
+  },
+  "9": {
+    "query": " $\\qvar{*1*}_{n+1}=r\\qvar{*1*}_{n}(1-\\qvar{*1*}_{n})$ recurrence relation",
+    "results": " \\wl{701785111}{Logistic map} \\wl{680690451\\#Bifurcations in 1D discrete dynamical systems}{\\textbf{Bifurcation diagram}}, \\wl{540571748}{Lyapunov fractal}",
+    "comment": "2 new hits (one more and one less relevant than our original hit).}"
+  },
+  "10": {
+    "query": " $g(x)=\\frac{1}{1+e^{-x}}$",
+    "results": " \\wl{706980836}{\\textbf{Logistic function}}, \\wl{701632719}{\\sout{Multimodal learning}}",
+    "comment": "No new hits; we consider the second hit as a duplicate.}"
+  },
+  "11": {
+    "query": " $F=ma$ ",
+    "results": " \\wl{706870627\\#Newton.27s second law}{\\textbf{Newton's laws of motion}}, \\wl{141636357}{\\textbf{Force}}",
+    "comment": "no new hits.}"
+  },
+  "12": {
+    "query": " Legendre $\\left(\\dfrac{a}{p}\\right)$",
+    "results": " \\wl{678726139}{\\textbf{Legendre symbol}}",
+    "comment": "no new hits.}"
+  },
+  "13": {
+    "query": " find $ax^{2}+bx+c=(\\qvar{*1*})^{2}+\\qvar{*2*}$",
+    "results": " \\wl{702735790}{\\textbf{Quadratic equation}}, \\wl{705519974}{\\textbf{Quadratic function}}, \\wl{707326903}{\\textbf{Binomial theorem}}",
+    "comment": "no new hits.}"
+  },
+  "14": {
+    "query": " convert $log_{2}(\\qvar{*1*})$ to $\\ln(\\qvar{*1*})$",
+    "results": " \\wl{706673332\\#Conversion\\_from\\_other\\_bases}{\\textbf{Binary logarithm}}",
+    "comment": "no new hits.}"
+  },
+  "15": {
+    "query": " compute value for $n\\choose k$",
+    "results": " \\wl{707158872}{\\textbf{Binomial coefficient}}",
+    "comment": "no new hits.}"
+  },
+  "18": {
+    "query": " $\\displaystyle\\lim_{x\\rightarrow 0}\\frac{2-\\cos(3x)-\\cos(4x)}{x}$ solve limit",
+    "results": " \\wl{707875566}{\\textbf{L'H\\^opital's rule}}, \\wl{701402263}{List of limits}",
+    "comment": "1 new hit.}"
+  },
+  "19": {
+    "query": " sequence name $1,2,2,3,3,4,4,4,5,5,\\ldots$",
+    "results": " \\wl{696572733}{\\textbf{Golomb sequence}}",
+    "comment": "no new hits.}"
+  },
+  "20": {
+    "query": " why $\\qvar{*1*}^{2}-7\\qvar{*1*}+2$ polynomial but $\\frac{\\qvar{*1*}^{2}-7\\qvar{*1*}+2}{\\qvar{*1*}+2}$ not polynomial",
+    "results": " \\wl{707851055}{\\textbf{Polynomial}}",
+    "comment": "no new hits.}"
+  },
+  "21": {
+    "query": " difference between $\\textrm{Log}~{}\\qvar{*1*}$ and $\\log\\qvar{*1*}$",
+    "results": " \\wl{692327418}{\\textbf{Common logarithm}}",
+    "comment": "no new hits.}"
+  },
+  "22": {
+    "query": " explanation intuition $\\nabla\\times E=-\\frac{\\delta B}{\\delta t}$",
+    "results": " \\wl{704930628}{\\textbf{Faraday's law of induction}}",
+    "comment": "no new hits.}"
+  },
+  "23": {
+    "query": " is $P=NP$ possible",
+    "results": " \\wl{706155391}{\\textbf{P versus NP problem}}",
+    "comment": "no new hits.}"
+  },
+  "24": {
+    "query": " what is gamma $\\int_{0}^{\\qvar{*1*}}e^{-x}dx$",
+    "results": " \\wl{703005954}{\\textbf{Gamma function}}, \\wl{716410012}{Incomplete gamma function}",
+    "comment": "1 new hit.}"
+  },
+  "25": {
+    "query": " prove $(f\\circ g)^{\\prime}=(f^{\\prime}\\circ g)\\cdot g^{\\prime}$",
+    "results": " \\wl{704552026}{\\textbf{Chain rule}}",
+    "comment": "no new hits.}"
+  },
+  "26": {
+    "query": " prove $x^{2}+y^{2}=z^{2}$",
+    "results": " \\wl{708038295}{\\textbf{Pythagorean theorem}}",
+    "comment": "no new hits.}"
+  },
+  "27": {
+    "query": " $\\qvar{*1*}^{2}+\\qvar{*2*}^{2}=\\qvar{*3*}^{2}$ uses",
+    "results": " \\wl{708107822}{\\textbf{Pythagorean triple}}, \\wl{706530600}{\\textbf{Polar coordinate system}}, \\wl{707910094}{\\textbf{Cauchy-Schwarz inequality}}, \\wl{707385945\\#Length}{\\textbf{Euclidean vector}}, \\wl{705558169}{\\textbf{Parallelogram law}}, \\wl{701630288}{Crossed ladders problem}, \\wl{713503925}{Cauchy–Schwarz inequality}, \\wl{706584611}{Law of cosines}, \\wl{714182197}{Isosceles triangle}, \\wl{635505723}{Slant height}, \\wl{697219844}{Special right triangles}, \\wl{716899587}{Triangle}",
+    "comment": "7 new hits (no particular order of relevance).}"
+  },
+  "28": {
+    "query": " example uses $f\\left(a_{1}x_{1}+\\cdots+a_{n}x_{n}\\right)\\leq a_{1}f(x_{1})+\\cdots+a_{n}f(x_{n})$ where $x_{i}\\in\\mathbb{R}$ $a_{i}\\geq 0$ $\\sum_{i=1}^{n}a_{i}=1$",
+    "results": " \\wl{716271266}{\\textbf{Jensen's inequality}}, \\wl{674788261}{\\sout{Sublinear function}}, \\wl{695748103\\#Examples\\_in\\_various\\_domains}{\\sout{Subadditivity}}",
+    "comment": "1 new hit that we consider significantly more relevant than our hits.}"
+  },
+  "29": {
+    "query": " application growth $\\frac{dP}{dt}=r\\left(1-\\frac{P}{K}\\right)P$ epidemiology biology",
+    "results": " \\wl{706980836\\#In ecology: modeling population growth}{\\textbf{Logistic function}}, \\wl{705904473}{\\textbf{R/K selection theory}}, \\wl{714709911}{Ecology}",
+    "comment": "1 new hit.}"
+  },
+  "30": {
+    "query": " applications $f\\star g$ where $(f\\star g)[\\qvar{*1*}]:=\\sum_{\\qvar{*2*}=-\\infty}^{\\infty}f(\\qvar{*2*})\\,g(\\qvar{*1*}-\\qvar{*2*})$",
+    "results": " \\wl{707851850\\#Circular\\_discrete\\_convolution}{\\textbf{Convolution}}, \\wl{710266485}{Cross-correlation}",
+    "comment": "1 new hit; both hits are equally relevant and very similar.}"
+  }
+}
