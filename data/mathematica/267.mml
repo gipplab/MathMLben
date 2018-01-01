@@ -1,0 +1,110 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>H</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>V</mi>
+            <mn>0</mn>
+          </msub>
+          <mo>&#8855;</mo>
+          <mrow>
+            <munderover>
+              <mo>&#8721;</mo>
+              <mrow>
+                <mi>i</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+              <mi>N</mi>
+            </munderover>
+            <msub>
+              <mi>A</mi>
+              <mi>i</mi>
+            </msub>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <munderover>
+            <mo>&#8721;</mo>
+            <mrow>
+              <mi>i</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mi>N</mi>
+          </munderover>
+          <msub>
+            <mi>H</mi>
+            <mi>i</mi>
+          </msub>
+        </mrow>
+        <mo>+</mo>
+        <msub>
+          <mi>H</mi>
+          <mi>S</mi>
+        </msub>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>H</ci>
+        <apply>
+          <plus />
+          <apply>
+            <ci>CircleTimes</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>V</ci>
+              <cn type='integer'>0</cn>
+            </apply>
+            <apply>
+              <sum />
+              <bvar>
+                <ci>i</ci>
+              </bvar>
+              <lowlimit>
+                <cn type='integer'>1</cn>
+              </lowlimit>
+              <uplimit>
+                <ci>N</ci>
+              </uplimit>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>A</ci>
+                <ci>i</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <sum />
+            <bvar>
+              <ci>i</ci>
+            </bvar>
+            <lowlimit>
+              <cn type='integer'>1</cn>
+            </lowlimit>
+            <uplimit>
+              <ci>N</ci>
+            </uplimit>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>H</ci>
+              <ci>i</ci>
+            </apply>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>H</ci>
+            <ci>S</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

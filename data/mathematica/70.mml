@@ -1,0 +1,88 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>df</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>d</mi>
+          <mo>&#8290;</mo>
+          <mi>x</mi>
+          <mo>&#8290;</mo>
+          <mfrac>
+            <mrow>
+              <mo>&#8706;</mo>
+              <mi>f</mi>
+            </mrow>
+            <mrow>
+              <mo>&#8706;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>d</mi>
+          <mo>&#8290;</mo>
+          <mi>y</mi>
+          <mo>&#8290;</mo>
+          <mfrac>
+            <mrow>
+              <mo>&#8706;</mo>
+              <mi>f</mi>
+            </mrow>
+            <mrow>
+              <mo>&#8706;</mo>
+              <mi>y</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>pdx</mi>
+        <mo>+</mo>
+        <mi>vdy</mi>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>df</ci>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <ci>d</ci>
+            <ci>x</ci>
+            <apply>
+              <ci>D</ci>
+              <ci>f</ci>
+              <list>
+                <ci>x</ci>
+              </list>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <ci>d</ci>
+            <ci>y</ci>
+            <apply>
+              <ci>D</ci>
+              <ci>f</ci>
+              <list>
+                <ci>y</ci>
+              </list>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <ci>pdx</ci>
+          <ci>vdy</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

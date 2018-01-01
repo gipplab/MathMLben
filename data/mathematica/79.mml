@@ -1,0 +1,23 @@
+Integrate::nodiffd: 
+      V
+       2
+   ∫   pdV cannot be interpreted. Integrals are entered in the form 
+      V
+       1
+                     b
+     ∫ f  x, ∫  f  x, or       ∫       f
+                     a             vars ∈ region
+       , where  is entered as dd.
+
+ToExpression::esntx: 
+   Could not parse  \Delta W = \int_{V_1}^{V_2} p \mathrm{d}V  as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

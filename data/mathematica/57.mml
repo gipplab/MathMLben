@@ -1,0 +1,61 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mn>0</mn>
+      <semantics>
+        <mo>&#8594;</mo>
+        <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+      </semantics>
+      <mrow>
+        <mi>B</mi>
+        <semantics>
+          <mo>&#8594;</mo>
+          <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+        </semantics>
+        <mrow>
+          <mrow>
+            <mi>A</mi>
+            <mo>&#8853;</mo>
+            <mi>B</mi>
+          </mrow>
+          <semantics>
+            <mo>&#8594;</mo>
+            <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+          </semantics>
+          <mrow>
+            <mi>A</mi>
+            <semantics>
+              <mo>&#8594;</mo>
+              <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+            </semantics>
+            <mn>0</mn>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Rule</ci>
+        <cn type='integer'>0</cn>
+        <apply>
+          <ci>Rule</ci>
+          <ci>B</ci>
+          <apply>
+            <ci>Rule</ci>
+            <apply>
+              <ci>CirclePlus</ci>
+              <ci>A</ci>
+              <ci>B</ci>
+            </apply>
+            <apply>
+              <ci>Rule</ci>
+              <ci>A</ci>
+              <cn type='integer'>0</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,17 @@
+                                           ′   ′
+Syntax::sntxf: "(" cannot be followed by "z   , k   )".
+
+ToExpression::esntx: 
+   Could not parse \frac{{\mathrm{d}}^{2}w}{{\mathrm{d}z^{\prime}}^{2}}+(h^{\p
+     rime}-\nu(\nu+1){k^{\prime}}^{2}{\operatorname{sn}^{2}}\left(z^{\prime},k
+     ^{\prime}\right))w=0 as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,19 @@
+Syntax::tsntxi: 
+                  n
+   "RowBox[{|, [k]  (1 - 1), |, 
+       RowBox[{, RowBox[{TemplateBox[{k, n}, Binomial], n !}], , (k) }]}
+                                                                          n
+       ]" is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse |[k]^{n}(1\text{-}1)|=\binom{k}{n}n!=(k)_{n} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,35 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>e</mi>
+      <mo>&#8290;</mo>
+      <mi>r</mi>
+      <mo>&#8290;</mo>
+      <mi>t</mi>
+      <mo>&#8290;</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>e</mi>
+          <mo>:</mo>
+          <mi>&#9733;</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <ci>e</ci>
+        <ci>r</ci>
+        <ci>t</ci>
+        <apply>
+          <ci>Pattern</ci>
+          <ci>e</ci>
+          <ci>&#9733;</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

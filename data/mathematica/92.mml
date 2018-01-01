@@ -1,0 +1,99 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>G</mi>
+          <mrow>
+            <mi>k</mi>
+            <mo>,</mo>
+            <mi>&#963;</mi>
+          </mrow>
+        </msub>
+        <mo>(</mo>
+        <mi>y</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mn>1</mn>
+        <mo>-</mo>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mrow>
+                  <mi>k</mi>
+                  <mo>&#8290;</mo>
+                  <mi>y</mi>
+                </mrow>
+                <mi>&#963;</mi>
+              </mfrac>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mrow>
+            <mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>/</mo>
+            <mi>k</mi>
+          </mrow>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>G</ci>
+            <ci>k</ci>
+            <ci>&#963;</ci>
+          </apply>
+          <ci>y</ci>
+        </apply>
+        <apply>
+          <plus />
+          <cn type='integer'>1</cn>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <power />
+              <apply>
+                <plus />
+                <apply>
+                  <times />
+                  <ci>k</ci>
+                  <ci>y</ci>
+                  <apply>
+                    <power />
+                    <ci>&#963;</ci>
+                    <cn type='integer'>-1</cn>
+                  </apply>
+                </apply>
+                <cn type='integer'>1</cn>
+              </apply>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <apply>
+                  <power />
+                  <ci>k</ci>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

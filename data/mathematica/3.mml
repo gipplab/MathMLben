@@ -1,0 +1,38 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>p</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>!</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mi>n</mi>
+    </msup>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <power />
+        <apply>
+          <factorial />
+          <apply>
+            <plus />
+            <ci>p</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <ci>n</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

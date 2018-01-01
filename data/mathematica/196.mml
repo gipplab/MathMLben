@@ -1,0 +1,230 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>&#952;</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mn>2</mn>
+            <mo>&#8290;</mo>
+            <mi>z</mi>
+          </mrow>
+          <mo>,</mo>
+          <mi>q</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mrow>
+                <msub>
+                  <mi>&#952;</mi>
+                  <mn>1</mn>
+                </msub>
+                <mo>(</mo>
+                <mrow>
+                  <mi>z</mi>
+                  <mo>,</mo>
+                  <mi>q</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>&#952;</mi>
+                  <mn>2</mn>
+                </msub>
+                <mo>(</mo>
+                <mrow>
+                  <mi>z</mi>
+                  <mo>,</mo>
+                  <mi>q</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>&#952;</mi>
+                  <mn>3</mn>
+                </msub>
+                <mo>(</mo>
+                <mrow>
+                  <mi>z</mi>
+                  <mo>,</mo>
+                  <mi>q</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>&#952;</mi>
+                  <mn>4</mn>
+                </msub>
+                <mo>(</mo>
+                <mrow>
+                  <mi>z</mi>
+                  <mo>,</mo>
+                  <mi>q</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mrow>
+            <msub>
+              <mi>&#952;</mi>
+              <mn>2</mn>
+            </msub>
+            <mo>(</mo>
+            <mrow>
+              <mn>0</mn>
+              <mo>,</mo>
+              <mi>q</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <msub>
+              <mi>&#952;</mi>
+              <mn>3</mn>
+            </msub>
+            <mo>(</mo>
+            <mrow>
+              <mn>0</mn>
+              <mo>,</mo>
+              <mi>q</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <msub>
+              <mi>&#952;</mi>
+              <mn>4</mn>
+            </msub>
+            <mo>(</mo>
+            <mrow>
+              <mn>0</mn>
+              <mo>,</mo>
+              <mi>q</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#952;</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>2</cn>
+            <ci>z</ci>
+          </apply>
+          <ci>q</ci>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>2</cn>
+          <apply>
+            <times />
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#952;</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+              <ci>z</ci>
+              <ci>q</ci>
+            </apply>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#952;</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+              <ci>z</ci>
+              <ci>q</ci>
+            </apply>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#952;</ci>
+                <cn type='integer'>3</cn>
+              </apply>
+              <ci>z</ci>
+              <ci>q</ci>
+            </apply>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#952;</ci>
+                <cn type='integer'>4</cn>
+              </apply>
+              <ci>z</ci>
+              <ci>q</ci>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>&#952;</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <cn type='integer'>0</cn>
+                <ci>q</ci>
+              </apply>
+              <apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>&#952;</ci>
+                  <cn type='integer'>3</cn>
+                </apply>
+                <cn type='integer'>0</cn>
+                <ci>q</ci>
+              </apply>
+              <apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>&#952;</ci>
+                  <cn type='integer'>4</cn>
+                </apply>
+                <cn type='integer'>0</cn>
+                <ci>q</ci>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

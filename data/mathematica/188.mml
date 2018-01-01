@@ -1,0 +1,71 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>z</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <msup>
+            <mn>2</mn>
+            <mrow>
+              <mrow>
+                <mo>-</mo>
+                <mn>2</mn>
+              </mrow>
+              <mo>/</mo>
+              <mn>3</mn>
+            </mrow>
+          </msup>
+          <mo>&#8290;</mo>
+          <mi>&#1013;&#950;</mi>
+        </mrow>
+        <mo>-</mo>
+        <mfrac>
+          <mn>1</mn>
+          <msup>
+            <mi>&#1013;</mi>
+            <mn>3</mn>
+          </msup>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>z</ci>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <apply>
+              <power />
+              <cn type='integer'>2</cn>
+              <cn type='rational'>-2
+                <sep />3
+              </cn>
+            </apply>
+            <ci>&#1013;&#950;</ci>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <cn type='integer'>1</cn>
+              <apply>
+                <power />
+                <apply>
+                  <power />
+                  <ci>&#1013;</ci>
+                  <cn type='integer'>3</cn>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

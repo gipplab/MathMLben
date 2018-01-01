@@ -1,0 +1,17 @@
+Syntax::tsntxi: 
+                2
+   "| ψ(t, n) |  | n | ≤ C" is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse  \sum_{n \in \mathbb{Z}^d} |\psi(t,n)|^2 |n| \leq C 
+     as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

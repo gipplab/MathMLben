@@ -1,0 +1,172 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>&#8520;</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>O</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <msup>
+            <mi>x</mi>
+            <mrow>
+              <mrow>
+                <mo>-</mo>
+                <mrow>
+                  <mrow>
+                    <mn>2</mn>
+                  </mrow>
+                  <mo>&#8290;</mo>
+                  <mi>n</mi>
+                </mrow>
+              </mrow>
+              <mo>+</mo>
+              <mi>&#1013;</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msup>
+          <mo>)</mo>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <munderover>
+            <mo>&#8721;</mo>
+            <mrow>
+              <mi>s</mi>
+              <mo>=</mo>
+              <mn>0</mn>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mi>n</mi>
+            </mrow>
+          </munderover>
+          <mrow>
+            <msup>
+              <mi>x</mi>
+              <mrow>
+                <mo>-</mo>
+                <mi>s</mi>
+              </mrow>
+            </msup>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mrow>
+                  <mi>x</mi>
+                  <mo>&#8290;</mo>
+                  <mi>ln</mi>
+                  <mo>&#8290;</mo>
+                  <msub>
+                    <mi>a</mi>
+                    <mi>s</mi>
+                  </msub>
+                </mrow>
+                <mo>+</mo>
+                <msub>
+                  <mi>b</mi>
+                  <mi>s</mi>
+                </msub>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <imaginaryi />
+          <ci>x</ci>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <ci>O</ci>
+            <apply>
+              <power />
+              <ci>x</ci>
+              <apply>
+                <plus />
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <apply>
+                    <times />
+                    <cn type='integer'>2</cn>
+                    <ci>n</ci>
+                  </apply>
+                </apply>
+                <ci>&#1013;</ci>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <sum />
+              <bvar>
+                <ci>s</ci>
+              </bvar>
+              <lowlimit>
+                <cn type='integer'>0</cn>
+              </lowlimit>
+              <uplimit>
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>n</ci>
+                </apply>
+              </uplimit>
+              <apply>
+                <times />
+                <apply>
+                  <power />
+                  <ci>x</ci>
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <ci>s</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus />
+                  <apply>
+                    <times />
+                    <ci>x</ci>
+                    <ci>ln</ci>
+                    <apply>
+                      <ci>Subscript</ci>
+                      <ci>a</ci>
+                      <ci>s</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <ci>Subscript</ci>
+                    <ci>b</ci>
+                    <ci>s</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

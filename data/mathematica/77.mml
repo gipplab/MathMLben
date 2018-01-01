@@ -1,0 +1,16 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msub>
+      <mi>b</mi>
+      <mn>3</mn>
+    </msub>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Subscript</ci>
+        <ci>b</ci>
+        <cn type='integer'>3</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,117 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>C</mi>
+          <mi>&#957;</mi>
+        </msub>
+        <mo>(</mo>
+        <mrow>
+          <mi>u</mi>
+          <mo>&#177;</mo>
+          <mi>v</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munderover>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>k</mi>
+            <mo>&#63449;</mo>
+            <mrow>
+              <mo>-</mo>
+              <mi>&#8734;</mi>
+            </mrow>
+          </mrow>
+          <mi>&#8734;</mi>
+        </munderover>
+        <mrow>
+          <semantics>
+            <mrow>
+              <msub>
+                <mi>J</mi>
+                <mi>k</mi>
+              </msub>
+              <mo>(</mo>
+              <mi>v</mi>
+              <mo>)</mo>
+            </mrow>
+            <annotation encoding='Mathematica'>TemplateBox[List[&quot;k&quot;, &quot;v&quot;], &quot;BesselJ&quot;]</annotation>
+          </semantics>
+          <mtext></mtext>
+          <mrow>
+            <msub>
+              <mi>C</mi>
+              <mrow>
+                <mi>&#957;</mi>
+                <mo>&#8723;</mo>
+                <mi>k</mi>
+              </mrow>
+            </msub>
+            <mo>(</mo>
+            <mi>u</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>C</ci>
+            <ci>&#957;</ci>
+          </apply>
+          <apply>
+            <ci>PlusMinus</ci>
+            <ci>u</ci>
+            <ci>v</ci>
+          </apply>
+        </apply>
+        <apply>
+          <sum />
+          <bvar>
+            <list>
+              <apply>
+                <eq />
+                <ci>k</ci>
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <infinity />
+                </apply>
+              </apply>
+              <infinity />
+            </list>
+          </bvar>
+          <apply>
+            <times />
+            <apply>
+              <ci>BesselJ</ci>
+              <ci>k</ci>
+              <ci>v</ci>
+            </apply>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>C</ci>
+                <apply>
+                  <ci>MinusPlus</ci>
+                  <ci>&#957;</ci>
+                  <ci>k</ci>
+                </apply>
+              </apply>
+              <ci>u</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

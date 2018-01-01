@@ -1,0 +1,270 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mi>x</mi>
+        <mi>gd</mi>
+      </mfrac>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>ln</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>tan</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mn>4</mn>
+                  <mo>&#8290;</mo>
+                  <mi>&#960;</mi>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&#8290;</mo>
+                    <mi>x</mi>
+                  </mrow>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>log</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>tan</mi>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>sec</mi>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>arcsinh</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>tan</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>arccsch</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>cot</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>arccosh</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>sec</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>arcsech</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>cos</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>arctanh</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>sin</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>arccoth</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&#8290;</mo>
+            <mi>csc</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <ci>x</ci>
+          <apply>
+            <power />
+            <ci>gd</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>ln</ci>
+          <apply>
+            <tan />
+            <apply>
+              <times />
+              <cn type='integer'>1</cn>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <cn type='integer'>4</cn>
+                    <pi />
+                  </apply>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>x</ci>
+                    </apply>
+                    <cn type='integer'>1</cn>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <ln />
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <ci>x</ci>
+              <ci>tan</ci>
+            </apply>
+            <apply>
+              <times />
+              <ci>x</ci>
+              <ci>sec</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>arcsinh</ci>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <ci>tan</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>arccsch</ci>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <ci>cot</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>arccosh</ci>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <ci>sec</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>arcsech</ci>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <ci>cos</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>arctanh</ci>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <ci>sin</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>arccoth</ci>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <ci>csc</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

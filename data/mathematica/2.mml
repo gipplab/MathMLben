@@ -1,0 +1,13 @@
+Syntax::sntxf: "(" cannot be followed by "X, Σ)".
+
+ToExpression::esntx: Could not parse (X,\Sigma) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

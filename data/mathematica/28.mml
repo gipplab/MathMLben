@@ -1,0 +1,85 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msubsup>
+          <mi>&#963;</mi>
+          <mi>y</mi>
+          <mn>2</mn>
+        </msubsup>
+        <mo>(</mo>
+        <mi>&#964;</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>3</mn>
+        </mfrac>
+        <mo>&#8290;</mo>
+        <msub>
+          <mi>h</mi>
+          <mrow>
+            <mo>-</mo>
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mn>2</mn>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>&#960;</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>&#8290;</mo>
+            <mi>&#964;</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <power />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#963;</ci>
+              <ci>y</ci>
+            </apply>
+            <cn type='integer'>2</cn>
+          </apply>
+          <ci>&#964;</ci>
+        </apply>
+        <apply>
+          <times />
+          <cn type='rational'>1
+            <sep />3
+          </cn>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>h</ci>
+            <cn type='integer'>-2</cn>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>2</cn>
+            <apply>
+              <power />
+              <pi />
+              <cn type='integer'>2</cn>
+            </apply>
+            <ci>&#964;</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

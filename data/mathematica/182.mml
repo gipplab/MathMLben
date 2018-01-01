@@ -1,0 +1,22 @@
+                        1 - λ       2 1/2 λ    (λ)
+Syntax::sntxf: "(n + λ)       (1 - x )       | C    (x) |"
+                                                 n
+                               1 - λ
+                              2
+     cannot be followed by "< -------".
+                              Γ(λ)
+
+ToExpression::esntx: 
+   Could not parse {(n+\lambda)^{1-\lambda}(1-x^{2})^{\frac{1}{2}\lambda}|C^{(
+     \lambda)}_{n}\left(x\right)|<\frac{2^{1-\lambda}}{\Gamma\left(\lambda\rig
+     ht)}} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

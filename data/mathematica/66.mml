@@ -1,0 +1,83 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>P</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>head</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mrow>
+              <msub>
+                <mi>&#8519;</mi>
+                <mi>K</mi>
+              </msub>
+              <mo>(</mo>
+              <msub>
+                <mi>S</mi>
+                <mrow>
+                  <mi>i</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mo>,</mo>
+            <mi>x</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#8853;</mo>
+        <msub>
+          <mi>C</mi>
+          <mi>i</mi>
+        </msub>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>P</ci>
+          <ci>i</ci>
+        </apply>
+        <apply>
+          <ci>CirclePlus</ci>
+          <apply>
+            <ci>head</ci>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <exponentiale />
+                <ci>K</ci>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>S</ci>
+                <apply>
+                  <plus />
+                  <ci>i</ci>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+            </apply>
+            <ci>x</ci>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>C</ci>
+            <ci>i</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

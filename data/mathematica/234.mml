@@ -1,0 +1,18 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>U</mi>
+      <mo>&#8289;</mo>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>)</mo>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>U</ci>
+        <cn type='integer'>1</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,112 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>u</mi>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>cos</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mi>v</mi>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>cos</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mrow>
+            <mi>sin</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mrow>
+              <mi>u</mi>
+              <mo>+</mo>
+              <mi>v</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>sin</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mi>u</mi>
+            <mo>-</mo>
+            <mi>v</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <ci>u</ci>
+            <apply>
+              <power />
+              <ci>cos</ci>
+              <cn type='integer'>2</cn>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <ci>v</ci>
+              <apply>
+                <power />
+                <ci>cos</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <sin />
+              <apply>
+                <plus />
+                <ci>u</ci>
+                <ci>v</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <sin />
+            <apply>
+              <plus />
+              <ci>u</ci>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <ci>v</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

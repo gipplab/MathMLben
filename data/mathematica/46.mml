@@ -1,0 +1,42 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <mo>&#8614;</mo>
+      <mfrac>
+        <mrow>
+          <mi>M</mi>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>&#945;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>A</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mi>M</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>RightTeeArrow</ci>
+        <ci>A</ci>
+        <apply>
+          <times />
+          <ci>M</ci>
+          <apply>
+            <ci>&#945;</ci>
+            <ci>A</ci>
+          </apply>
+          <apply>
+            <power />
+            <ci>M</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,44 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <munder>
+        <mo>&#8721;</mo>
+        <mi>x</mi>
+      </munder>
+      <mrow>
+        <munder>
+          <mo>&#8721;</mo>
+          <mi>y</mi>
+        </munder>
+        <mrow>
+          <mi>&#8520;</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>,</mo>
+            <mi>y</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <sum />
+        <bvar>
+          <ci>x</ci>
+        </bvar>
+        <bvar>
+          <ci>y</ci>
+        </bvar>
+        <apply>
+          <imaginaryi />
+          <ci>x</ci>
+          <ci>y</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

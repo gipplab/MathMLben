@@ -1,0 +1,14 @@
+                             ⇀μ    μ
+Syntax::bktmcp: Expression "{ξ   , τ  " has no closing "}".
+
+ToExpression::esntx: Could not parse \{\vec{\xi}^{\mu},\tau^{\mu} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

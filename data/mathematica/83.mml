@@ -1,0 +1,20 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mn>2</mn>
+      <mo>&#8804;</mo>
+      <mi>seqs</mi>
+      <mo>&#8804;</mo>
+      <mn>6</mn>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <leq />
+        <cn type='integer'>2</cn>
+        <ci>seqs</ci>
+        <cn type='integer'>6</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

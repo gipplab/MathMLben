@@ -1,0 +1,20 @@
+Integrate::malfop: 
+   RawBoxes[SubscriptBox[∫, SuperscriptBox[R, n]]]
+     is a malformed integral operator. Valid forms include ∫ 
+          b
+     , ∫ , and       ∫      .
+          a      vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse \int_{\mathbb{R}^n}f\,dx =
+     \int_0^\infty\left\{\int_{\partial B(x_0;r)} f\,dS\right\}\,dr as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

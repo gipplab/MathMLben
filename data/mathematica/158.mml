@@ -1,0 +1,110 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>c</mi>
+            <mrow>
+              <mi>j</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>K</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msub>
+            <mi>c</mi>
+            <mi>j</mi>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>L</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msub>
+            <mi>c</mi>
+            <mrow>
+              <mi>j</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>M</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>c</ci>
+              <apply>
+                <plus />
+                <ci>j</ci>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>K</ci>
+              <ci>j</ci>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>c</ci>
+              <ci>j</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>L</ci>
+              <ci>j</ci>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>c</ci>
+              <apply>
+                <plus />
+                <ci>j</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>M</ci>
+              <ci>j</ci>
+            </apply>
+          </apply>
+        </apply>
+        <cn type='integer'>0</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

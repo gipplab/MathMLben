@@ -1,0 +1,42 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>L</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <msub>
+          <mi>H</mi>
+          <mi>B</mi>
+        </msub>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8855;</mo>
+      <msub>
+        <semantics>
+          <mi>c</mi>
+          <annotation encoding='Mathematica'>TagBox[&quot;c&quot;, C]</annotation>
+        </semantics>
+        <mi>X</mi>
+      </msub>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>CircleTimes</ci>
+        <apply>
+          <ci>L</ci>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>H</ci>
+            <ci>B</ci>
+          </apply>
+        </apply>
+        <apply>
+          <ci>C</ci>
+          <ci>X</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

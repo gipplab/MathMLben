@@ -1,0 +1,24 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi> y</mi>
+      <mo>&#8290;</mo>
+      <msup>
+        <mi>J</mi>
+        <mi>TW</mi>
+      </msup>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <ci> y</ci>
+        <apply>
+          <power />
+          <ci>J</ci>
+          <ci>TW</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

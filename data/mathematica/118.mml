@@ -1,0 +1,339 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msubsup>
+          <mi>M</mi>
+          <mi>&#957;</mi>
+          <mn>2</mn>
+        </msubsup>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8764;</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mrow>
+                  <mi>&#956;</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                  <mo>&#8290;</mo>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mn>2</mn>
+                        <mo>&#8290;</mo>
+                        <mi>x</mi>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                  </msup>
+                </mrow>
+              </mfrac>
+              <mo>+</mo>
+              <mfrac>
+                <mrow>
+                  <mrow>
+                    <mo>(</mo>
+                    <mrow>
+                      <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                          <mi>&#956;</mi>
+                          <mo>-</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mo>)</mo>
+                      </mrow>
+                      <mo>&#8290;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                          <mi>&#956;</mi>
+                          <mo>-</mo>
+                          <mn>9</mn>
+                        </mrow>
+                        <mo>)</mo>
+                      </mrow>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                  <mo>&#8290;</mo>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>&#183;</mo>
+                    <mn>3</mn>
+                  </mrow>
+                </mrow>
+                <mrow>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mn>2</mn>
+                        <mo>&#8290;</mo>
+                        <mi>x</mi>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>4</mn>
+                  </msup>
+                  <mo>&#8290;</mo>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&#183;</mo>
+                    <mn>4</mn>
+                  </mrow>
+                </mrow>
+              </mfrac>
+              <mo>+</mo>
+              <mfrac>
+                <mrow>
+                  <mrow>
+                    <mo>(</mo>
+                    <mrow>
+                      <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                          <mi>&#956;</mi>
+                          <mo>-</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mo>)</mo>
+                      </mrow>
+                      <mo>&#8290;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                          <mi>&#956;</mi>
+                          <mo>-</mo>
+                          <mn>9</mn>
+                        </mrow>
+                        <mo>)</mo>
+                      </mrow>
+                      <mo>&#8290;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                          <mi>&#956;</mi>
+                          <mo>-</mo>
+                          <mn>25</mn>
+                        </mrow>
+                        <mo>)</mo>
+                      </mrow>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                  <mo>&#8290;</mo>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>&#183;</mo>
+                    <mn>3</mn>
+                    <mo>&#183;</mo>
+                    <mn>5</mn>
+                  </mrow>
+                </mrow>
+                <mrow>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mn>2</mn>
+                        <mo>&#8290;</mo>
+                        <mi>x</mi>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>6</mn>
+                  </msup>
+                  <mo>&#8290;</mo>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&#183;</mo>
+                    <mn>4</mn>
+                    <mo>&#183;</mo>
+                    <mn>6</mn>
+                  </mrow>
+                </mrow>
+              </mfrac>
+              <mo>+</mo>
+              <mo>&#8943;</mo>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mi>&#960;</mi>
+          <mo>&#8290;</mo>
+          <mi>x</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Tilde</ci>
+        <apply>
+          <apply>
+            <power />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>M</ci>
+              <ci>&#957;</ci>
+            </apply>
+            <cn type='integer'>2</cn>
+          </apply>
+          <ci>x</ci>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>2</cn>
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <apply>
+                <plus />
+                <ci>&#956;</ci>
+                <cn type='integer'>-1</cn>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <apply>
+                    <power />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>x</ci>
+                    </apply>
+                    <cn type='integer'>2</cn>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <apply>
+                <times />
+                <apply>
+                  <plus />
+                  <ci>&#956;</ci>
+                  <cn type='integer'>-1</cn>
+                </apply>
+                <apply>
+                  <plus />
+                  <ci>&#956;</ci>
+                  <cn type='integer'>-9</cn>
+                </apply>
+              </apply>
+              <apply>
+                <ci>CenterDot</ci>
+                <cn type='integer'>1</cn>
+                <cn type='integer'>3</cn>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <apply>
+                    <power />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>x</ci>
+                    </apply>
+                    <cn type='integer'>4</cn>
+                  </apply>
+                  <apply>
+                    <ci>CenterDot</ci>
+                    <cn type='integer'>2</cn>
+                    <cn type='integer'>4</cn>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <apply>
+                <times />
+                <apply>
+                  <plus />
+                  <ci>&#956;</ci>
+                  <cn type='integer'>-1</cn>
+                </apply>
+                <apply>
+                  <plus />
+                  <ci>&#956;</ci>
+                  <cn type='integer'>-9</cn>
+                </apply>
+                <apply>
+                  <plus />
+                  <ci>&#956;</ci>
+                  <cn type='integer'>-25</cn>
+                </apply>
+              </apply>
+              <apply>
+                <ci>CenterDot</ci>
+                <cn type='integer'>1</cn>
+                <cn type='integer'>3</cn>
+                <cn type='integer'>5</cn>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <apply>
+                    <power />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>x</ci>
+                    </apply>
+                    <cn type='integer'>6</cn>
+                  </apply>
+                  <apply>
+                    <ci>CenterDot</ci>
+                    <cn type='integer'>2</cn>
+                    <cn type='integer'>4</cn>
+                    <cn type='integer'>6</cn>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+            <ci>&#8943;</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <pi />
+              <ci>x</ci>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

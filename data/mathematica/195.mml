@@ -1,0 +1,178 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>&#952;</mi>
+          <mn>3</mn>
+        </msub>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mi>&#960;</mi>
+            <mo>&#8290;</mo>
+            <mi>z</mi>
+          </mrow>
+          <mo>|</mo>
+          <mi>&#964;</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>&#952;</mi>
+            <mn>3</mn>
+          </msub>
+          <mo>(</mo>
+          <mrow>
+            <mn>0</mn>
+            <mo>|</mo>
+            <mi>&#964;</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#8290;</mo>
+        <msup>
+          <mi>&#8519;</mi>
+          <mrow>
+            <mo>-</mo>
+            <mrow>
+              <munderover>
+                <mo>&#8721;</mo>
+                <mrow>
+                  <mi>j</mi>
+                  <mo>=</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mi>&#8734;</mi>
+              </munderover>
+              <mfrac>
+                <mrow>
+                  <msup>
+                    <mi>z</mi>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>&#8290;</mo>
+                      <mi>j</mi>
+                    </mrow>
+                  </msup>
+                  <mo>&#8290;</mo>
+                  <mrow>
+                    <msub>
+                      <mi>&#946;</mi>
+                      <mrow>
+                        <mn>2</mn>
+                        <mo>&#8290;</mo>
+                        <mi>j</mi>
+                      </mrow>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>&#964;</mi>
+                    <mo>)</mo>
+                  </mrow>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                  <mo>&#8290;</mo>
+                  <mi>j</mi>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mrow>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#952;</ci>
+            <cn type='integer'>3</cn>
+          </apply>
+          <apply>
+            <ci>Alternatives</ci>
+            <apply>
+              <times />
+              <pi />
+              <ci>z</ci>
+            </apply>
+            <ci>&#964;</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#952;</ci>
+              <cn type='integer'>3</cn>
+            </apply>
+            <apply>
+              <ci>Alternatives</ci>
+              <cn type='integer'>0</cn>
+              <ci>&#964;</ci>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <exponentiale />
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <apply>
+                <sum />
+                <bvar>
+                  <ci>j</ci>
+                </bvar>
+                <lowlimit>
+                  <cn type='integer'>1</cn>
+                </lowlimit>
+                <uplimit>
+                  <infinity />
+                </uplimit>
+                <apply>
+                  <times />
+                  <apply>
+                    <power />
+                    <ci>z</ci>
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>j</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <apply>
+                      <ci>Subscript</ci>
+                      <ci>&#946;</ci>
+                      <apply>
+                        <times />
+                        <cn type='integer'>2</cn>
+                        <ci>j</ci>
+                      </apply>
+                    </apply>
+                    <ci>&#964;</ci>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>j</ci>
+                    </apply>
+                    <cn type='integer'>-1</cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

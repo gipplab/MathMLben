@@ -1,0 +1,149 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>A</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>B</mi>
+            <mrow>
+              <mi>n</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <msub>
+            <mi>A</mi>
+            <mrow>
+              <mi>n</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>B</mi>
+            <mi>n</mi>
+          </msub>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+        <mo>&#8290;</mo>
+        <mrow>
+          <munderover>
+            <mo>&#8719;</mo>
+            <mrow>
+              <mi>k</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mi>n</mi>
+          </munderover>
+          <msub>
+            <mi>a</mi>
+            <mi>k</mi>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>A</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>B</ci>
+              <apply>
+                <plus />
+                <ci>n</ci>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>A</ci>
+                <apply>
+                  <plus />
+                  <ci>n</ci>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>B</ci>
+                <ci>n</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <power />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <plus />
+              <ci>n</ci>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+          <apply>
+            <product />
+            <bvar>
+              <ci>k</ci>
+            </bvar>
+            <lowlimit>
+              <cn type='integer'>1</cn>
+            </lowlimit>
+            <uplimit>
+              <ci>n</ci>
+            </uplimit>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>a</ci>
+              <ci>k</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

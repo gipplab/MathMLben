@@ -1,0 +1,290 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mfrac>
+      <mrow>
+        <mi>a</mi>
+        <mo>&#63449;</mo>
+        <mrow>
+          <mrow>
+            <mo>-</mo>
+            <mrow>
+              <mi>n</mi>
+            </mrow>
+          </mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mi>z</mi>
+            </mrow>
+            <msup>
+              <mi>&#960;</mi>
+              <mn>2</mn>
+            </msup>
+          </mfrac>
+          <mo>-</mo>
+          <mfrac>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <msqrt>
+                <mi>zn</mi>
+              </msqrt>
+            </mrow>
+            <mi>&#960;</mi>
+          </mfrac>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mrow>
+      <mrow>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mi>b</mi>
+            </mrow>
+            <mo>+</mo>
+            <mn>1</mn>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mrow>
+                  <mo>-</mo>
+                  <mrow>
+                    <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                          <mi>b</mi>
+                          <mo>-</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mo>)</mo>
+                      </mrow>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </mrow>
+                <mo>+</mo>
+                <mrow>
+                  <msup>
+                    <mi>z</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mo>(</mo>
+                  <mrow>
+                    <mfrac>
+                      <mn>1</mn>
+                      <mn>3</mn>
+                    </mfrac>
+                    <mo>-</mo>
+                    <mfrac>
+                      <mn>4</mn>
+                      <msup>
+                        <mi>&#960;</mi>
+                        <mn>2</mn>
+                      </msup>
+                    </mfrac>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mo>+</mo>
+                <mi>z</mi>
+                <mo>+</mo>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>4</mn>
+                </mfrac>
+              </mrow>
+              <mrow>
+                <mn>4</mn>
+                <mo>&#8290;</mo>
+                <mi>&#960;</mi>
+                <mo>&#8290;</mo>
+                <msqrt>
+                  <mi>zn</mi>
+                </msqrt>
+              </mrow>
+            </mfrac>
+            <mo>+</mo>
+            <mrow>
+              <mi>O</mi>
+              <mo>&#8289;</mo>
+              <mo>(</mo>
+              <mfrac>
+                <mn>1</mn>
+                <mi>n</mi>
+              </mfrac>
+              <mo>)</mo>
+            </mrow>
+            <mo>+</mo>
+            <mn>4</mn>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <apply>
+          <eq />
+          <ci>a</ci>
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>2</cn>
+                <ci>z</ci>
+                <apply>
+                  <power />
+                  <apply>
+                    <power />
+                    <pi />
+                    <cn type='integer'>2</cn>
+                  </apply>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>2</cn>
+                <apply>
+                  <root />
+                  <ci>zn</ci>
+                </apply>
+                <apply>
+                  <power />
+                  <pi />
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+            </apply>
+            <cn type='integer'>1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <power />
+          <apply>
+            <times />
+            <apply>
+              <plus />
+              <apply>
+                <times />
+                <cn type='integer'>2</cn>
+                <ci>b</ci>
+              </apply>
+              <cn type='integer'>1</cn>
+            </apply>
+            <apply>
+              <plus />
+              <apply>
+                <times />
+                <apply>
+                  <plus />
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <ci>b</ci>
+                        <cn type='integer'>-1</cn>
+                      </apply>
+                      <cn type='integer'>2</cn>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <apply>
+                      <power />
+                      <ci>z</ci>
+                      <cn type='integer'>2</cn>
+                    </apply>
+                    <apply>
+                      <plus />
+                      <cn type='rational'>1
+                        <sep />3
+                      </cn>
+                      <apply>
+                        <times />
+                        <cn type='integer'>-1</cn>
+                        <apply>
+                          <times />
+                          <cn type='integer'>4</cn>
+                          <apply>
+                            <power />
+                            <apply>
+                              <power />
+                              <pi />
+                              <cn type='integer'>2</cn>
+                            </apply>
+                            <cn type='integer'>-1</cn>
+                          </apply>
+                        </apply>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <ci>z</ci>
+                  <cn type='rational'>1
+                    <sep />4
+                  </cn>
+                </apply>
+                <apply>
+                  <power />
+                  <apply>
+                    <times />
+                    <cn type='integer'>4</cn>
+                    <pi />
+                    <apply>
+                      <root />
+                      <ci>zn</ci>
+                    </apply>
+                  </apply>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+              <apply>
+                <ci>O</ci>
+                <apply>
+                  <times />
+                  <cn type='integer'>1</cn>
+                  <apply>
+                    <power />
+                    <ci>n</ci>
+                    <cn type='integer'>-1</cn>
+                  </apply>
+                </apply>
+              </apply>
+              <cn type='integer'>4</cn>
+            </apply>
+          </apply>
+          <cn type='integer'>-1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

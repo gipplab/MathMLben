@@ -1,0 +1,200 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msup>
+          <msub>
+            <mi>J</mi>
+            <mi>&#957;</mi>
+          </msub>
+          <mo>&#8242;</mo>
+        </msup>
+        <mo>(</mo>
+        <mi>z</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <mfrac>
+                <mn>1</mn>
+                <mrow>
+                  <mn>2</mn>
+                  <mo>&#8290;</mo>
+                  <mi>z</mi>
+                </mrow>
+              </mfrac>
+              <mo>)</mo>
+            </mrow>
+            <mrow>
+              <mi>&#957;</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msup>
+          <mo>&#8290;</mo>
+          <mrow>
+            <munderover>
+              <mo>&#8719;</mo>
+              <mrow>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+              <mi>&#8734;</mi>
+            </munderover>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mn>1</mn>
+                <mo>-</mo>
+                <mfrac>
+                  <msup>
+                    <mi>z</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <msup>
+                        <msub>
+                          <mi>j</mi>
+                          <mrow>
+                            <mi>&#957;</mi>
+                            <mo>,</mo>
+                            <mi>k</mi>
+                          </mrow>
+                        </msub>
+                        <mo>&#8242;</mo>
+                      </msup>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                  </msup>
+                </mfrac>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mtext></mtext>
+          <semantics>
+            <mrow>
+              <mi>&#915;</mi>
+              <mo>&#8289;</mo>
+              <mo>(</mo>
+              <mi>&#957;</mi>
+              <mo>)</mo>
+            </mrow>
+            <annotation encoding='Mathematica'>TemplateBox[List[&quot;\[Nu]&quot;], &quot;Gamma&quot;]</annotation>
+          </semantics>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <partialdiff />
+          <bvar>
+            <ci>z</ci>
+          </bvar>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>J</ci>
+              <ci>&#957;</ci>
+            </apply>
+            <ci>z</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <cn type='integer'>1</cn>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>z</ci>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <plus />
+              <ci>&#957;</ci>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+          <apply>
+            <product />
+            <bvar>
+              <ci>k</ci>
+            </bvar>
+            <lowlimit>
+              <cn type='integer'>1</cn>
+            </lowlimit>
+            <uplimit>
+              <infinity />
+            </uplimit>
+            <apply>
+              <plus />
+              <cn type='integer'>1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <apply>
+                  <times />
+                  <apply>
+                    <power />
+                    <ci>z</ci>
+                    <cn type='integer'>2</cn>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <power />
+                      <apply>
+                        <partialdiff />
+                        <apply>
+                          <ci>BesselJZero</ci>
+                          <ci>&#957;</ci>
+                          <ci>k</ci>
+                        </apply>
+                      </apply>
+                      <cn type='integer'>2</cn>
+                    </apply>
+                    <cn type='integer'>-1</cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <cn type='integer'>2</cn>
+              <apply>
+                <ci>Gamma</ci>
+                <ci>&#957;</ci>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

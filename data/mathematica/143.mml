@@ -1,0 +1,81 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>&#8519;</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mrow>
+              <mi>i</mi>
+              <mo>&#8290;</mo>
+              <msup>
+                <mi>k</mi>
+                <mo>&#8242;</mo>
+              </msup>
+            </mrow>
+            <mi>k</mi>
+          </mfrac>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mi>&#8519;</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <msup>
+            <mi>k</mi>
+            <mo>&#8242;</mo>
+          </msup>
+          <mo>)</mo>
+        </mrow>
+        <mi>k</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <exponentiale />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <ci>i</ci>
+              <apply>
+                <partialdiff />
+                <ci>k</ci>
+              </apply>
+              <apply>
+                <power />
+                <ci>k</ci>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <exponentiale />
+            <apply>
+              <partialdiff />
+              <ci>k</ci>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <ci>k</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

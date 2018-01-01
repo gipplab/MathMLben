@@ -1,0 +1,23 @@
+Syntax::bktmcp: 
+   Expression "RowBox[{{, Cell[BoxData[FormBox[GridBox[{{Cell[TextData[
+               { , Cell[1, InlineFormula],  }]], 
+             Cell[TextData[{ , Cell[BoxData[ if 0 ∈ A], InlineFormula], 
+
+                 }]]}, {<
+<2>>}}], TraditionalForm]]]}]" has no closing "}".
+
+ToExpression::esntx: 
+   Could not parse  \mu (A)= \begin{cases} 1 & \mbox{ if } 0 \in A \\ 
+                                                  0 & \mbox{ if } 0 \notin A.
+                   \end{cases}
+     as input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

@@ -1,0 +1,33 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mi>ygt</mi>
+      </mrow>
+      <mo>;</mo>
+      <mrow>
+        <mn>2</mn>
+        <mo>&#8290;</mo>
+        <mi>n</mi>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>CompoundExpression</ci>
+        <apply>
+          <plus />
+          <ci>x</ci>
+          <ci>ygt</ci>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>2</cn>
+          <ci>n</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

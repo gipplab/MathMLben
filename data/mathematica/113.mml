@@ -1,0 +1,109 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>z</mi>
+        <msub>
+          <mi>&#956;</mi>
+          <mi>j</mi>
+        </msub>
+      </msup>
+      <mo>&#8290;</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mi>z</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>&#955;</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+      </msup>
+      <mo>&#8290;</mo>
+      <mrow>
+        <munderover>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>s</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+          </mrow>
+          <mi>&#8734;</mi>
+        </munderover>
+        <mfrac>
+          <msub>
+            <mi>a</mi>
+            <mrow>
+              <mi>s</mi>
+              <mo>,</mo>
+              <mi>j</mi>
+            </mrow>
+          </msub>
+          <msup>
+            <mi>z</mi>
+            <mi>s</mi>
+          </msup>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <apply>
+          <power />
+          <ci>z</ci>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#956;</ci>
+            <ci>j</ci>
+          </apply>
+        </apply>
+        <apply>
+          <power />
+          <ci>e</ci>
+          <apply>
+            <times />
+            <ci>z</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#955;</ci>
+              <ci>j</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <sum />
+          <bvar>
+            <ci>s</ci>
+          </bvar>
+          <lowlimit>
+            <cn type='integer'>0</cn>
+          </lowlimit>
+          <uplimit>
+            <infinity />
+          </uplimit>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>a</ci>
+              <ci>s</ci>
+              <ci>j</ci>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <power />
+                <ci>z</ci>
+                <ci>s</ci>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

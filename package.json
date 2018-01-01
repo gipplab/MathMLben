@@ -43,5 +43,9 @@
     "texzilla": "^0.9.9",
     "vmext": "^1.0.6",
     "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "child-process-promise": "^2.2.1",
+    "promised-spawn": "0.0.1"
   }
 }

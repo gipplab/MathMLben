@@ -1,0 +1,137 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <semantics>
+        <mrow>
+          <msub>
+            <mi>K</mi>
+            <mi>&#957;</mi>
+          </msub>
+          <mo>(</mo>
+          <mi>z</mi>
+          <mo>)</mo>
+        </mrow>
+        <annotation encoding='Mathematica'>TemplateBox[List[&quot;\[Nu]&quot;, &quot;z&quot;], &quot;BesselK&quot;]</annotation>
+      </semantics>
+      <mo>&#8764;</mo>
+      <mrow>
+        <msqrt>
+          <mfrac>
+            <mi>&#960;</mi>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mi>z</mi>
+            </mrow>
+          </mfrac>
+        </msqrt>
+        <mo>&#8290;</mo>
+        <msup>
+          <mi>e</mi>
+          <mrow>
+            <mo>-</mo>
+            <mi>z</mi>
+          </mrow>
+        </msup>
+        <mo>&#8290;</mo>
+        <mrow>
+          <munderover>
+            <mo>&#8721;</mo>
+            <mrow>
+              <mi>k</mi>
+              <mo>=</mo>
+              <mn>0</mn>
+            </mrow>
+            <mi>&#8734;</mi>
+          </munderover>
+          <mfrac>
+            <mrow>
+              <msub>
+                <mi>a</mi>
+                <mi>k</mi>
+              </msub>
+              <mo>(</mo>
+              <mi>&#957;</mi>
+              <mo>)</mo>
+            </mrow>
+            <msup>
+              <mi>z</mi>
+              <mi>k</mi>
+            </msup>
+          </mfrac>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Tilde</ci>
+        <apply>
+          <ci>BesselK</ci>
+          <ci>&#957;</ci>
+          <ci>z</ci>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <root />
+            <apply>
+              <times />
+              <pi />
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>z</ci>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <ci>e</ci>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <ci>z</ci>
+            </apply>
+          </apply>
+          <apply>
+            <sum />
+            <bvar>
+              <ci>k</ci>
+            </bvar>
+            <lowlimit>
+              <cn type='integer'>0</cn>
+            </lowlimit>
+            <uplimit>
+              <infinity />
+            </uplimit>
+            <apply>
+              <times />
+              <apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>a</ci>
+                  <ci>k</ci>
+                </apply>
+                <ci>&#957;</ci>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <power />
+                  <ci>z</ci>
+                  <ci>k</ci>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

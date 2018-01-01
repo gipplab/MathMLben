@@ -1,0 +1,59 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>n</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munderover>
+          <mo>&#8719;</mo>
+          <mrow>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mi>r</mi>
+        </munderover>
+        <msubsup>
+          <mi>p</mi>
+          <mi>i</mi>
+          <msub>
+            <mi>a</mi>
+            <mi>i</mi>
+          </msub>
+        </msubsup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>n</ci>
+        <apply>
+          <product />
+          <bvar>
+            <ci>i</ci>
+          </bvar>
+          <lowlimit>
+            <cn type='integer'>1</cn>
+          </lowlimit>
+          <uplimit>
+            <ci>r</ci>
+          </uplimit>
+          <apply>
+            <power />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>p</ci>
+              <ci>i</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>a</ci>
+              <ci>i</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

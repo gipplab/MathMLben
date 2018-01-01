@@ -1,0 +1,111 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>N</mi>
+            <mi>&#957;</mi>
+          </msub>
+          <mo>(</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#8290;</mo>
+        <msup>
+          <mi>e</mi>
+          <mrow>
+            <mi>i</mi>
+            <mo>&#8290;</mo>
+            <mrow>
+              <msub>
+                <mi>&#981;</mi>
+                <mi>&#957;</mi>
+              </msub>
+              <mo>(</mo>
+              <mi>x</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </msup>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>&#8290;</mo>
+          <mi>x</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>kei</mi>
+            <mi>&#957;</mi>
+          </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>ker</mi>
+            <mi>&#957;</mi>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>N</ci>
+              <ci>&#957;</ci>
+            </apply>
+            <ci>x</ci>
+          </apply>
+          <apply>
+            <power />
+            <ci>e</ci>
+            <apply>
+              <times />
+              <ci>i</ci>
+              <apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>&#981;</ci>
+                  <ci>&#957;</ci>
+                </apply>
+                <ci>x</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <ci>i</ci>
+            <ci>x</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>kei</ci>
+              <ci>&#957;</ci>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <ci>x</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>ker</ci>
+              <ci>&#957;</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

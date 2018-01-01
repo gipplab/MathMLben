@@ -1,0 +1,18 @@
+Syntax::bktmop: Expression "| Ψ 〉" has no opening "〈".
+
+ToExpression::esntx: 
+   Could not parse |{\Psi}\rangle=\sum_{i_1,i_2,\alpha_1,\alpha_2}\Gamma^{[1]i
+      _1}_{\alpha_1}\lambda^{[1]}_{\alpha_1}\Gamma^{[2]i_2}_{\alpha_1<
+<24
+       >>{\alpha}_2}|{i_1i_2}\rangle|{\Phi^{[3..N]}_{\alpha_2}}\rangle as
+     input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

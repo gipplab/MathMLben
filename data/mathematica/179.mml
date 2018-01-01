@@ -1,0 +1,93 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <munderover>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>n</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mi>&#8734;</mi>
+        </munderover>
+        <mrow>
+          <mi>f</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mi>n</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munder>
+          <mo>&#8719;</mo>
+          <mi>p</mi>
+        </munder>
+        <mfrac>
+          <mn>1</mn>
+          <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mrow>
+              <mi>f</mi>
+              <mo>&#8289;</mo>
+              <mo>(</mo>
+              <mi>p</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <sum />
+          <bvar>
+            <ci>n</ci>
+          </bvar>
+          <lowlimit>
+            <cn type='integer'>1</cn>
+          </lowlimit>
+          <uplimit>
+            <infinity />
+          </uplimit>
+          <apply>
+            <ci>f</ci>
+            <ci>n</ci>
+          </apply>
+        </apply>
+        <apply>
+          <product />
+          <bvar>
+            <ci>p</ci>
+          </bvar>
+          <apply>
+            <times />
+            <cn type='integer'>1</cn>
+            <apply>
+              <power />
+              <apply>
+                <plus />
+                <cn type='integer'>1</cn>
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <apply>
+                    <ci>f</ci>
+                    <ci>p</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,18 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>p</mi>
+      <mo>&#8289;</mo>
+      <mo>(</mo>
+      <mi>&#955;</mi>
+      <mo>)</mo>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>p</ci>
+        <ci>&#955;</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

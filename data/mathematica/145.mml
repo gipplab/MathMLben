@@ -1,0 +1,115 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>R</mi>
+          <mi>J</mi>
+        </msub>
+        <mo>(</mo>
+        <mrow>
+          <mn>0</mn>
+          <mo>,</mo>
+          <mi>y</mi>
+          <mo>,</mo>
+          <mi>z</mi>
+          <mo>,</mo>
+          <mrow>
+            <mo>&#177;</mo>
+            <msqrt>
+              <mi>yz</mi>
+            </msqrt>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mo>&#177;</mo>
+          <mfrac>
+            <mn>3</mn>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <msqrt>
+                <mi>yz</mi>
+              </msqrt>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>&#8290;</mo>
+        <mrow>
+          <msub>
+            <mi>R</mi>
+            <mi>F</mi>
+          </msub>
+          <mo>(</mo>
+          <mrow>
+            <mn>0</mn>
+            <mo>,</mo>
+            <mi>y</mi>
+            <mo>,</mo>
+            <mi>z</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>R</ci>
+            <ci>J</ci>
+          </apply>
+          <cn type='integer'>0</cn>
+          <ci>y</ci>
+          <ci>z</ci>
+          <apply>
+            <ci>PlusMinus</ci>
+            <apply>
+              <root />
+              <ci>yz</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <ci>PlusMinus</ci>
+            <apply>
+              <times />
+              <cn type='integer'>3</cn>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <apply>
+                    <root />
+                    <ci>yz</ci>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>R</ci>
+              <ci>F</ci>
+            </apply>
+            <cn type='integer'>0</cn>
+            <ci>y</ci>
+            <ci>z</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

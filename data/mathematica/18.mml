@@ -1,0 +1,16 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msub>
+      <mi>r</mi>
+      <mi>ij</mi>
+    </msub>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Subscript</ci>
+        <ci>r</ci>
+        <ci>ij</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

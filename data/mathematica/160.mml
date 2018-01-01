@@ -1,0 +1,17 @@
+Syntax::tsntxi: "1 -" is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse \lim_{z\to
+     1-}\frac{F\left(a,b;c;z\right)}{(1-z)^{c-a-b}}=\frac{\Gamma\left(c\right)
+     \Gamma\left(a+b-c\right)}{\Gamma\left(a\right)\Gamma\left(b\right)} as
+     input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

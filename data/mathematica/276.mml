@@ -1,0 +1,13 @@
+Syntax::sntxf: "(" cannot be followed by "-1, 1, 1, 1)".
+
+ToExpression::esntx: Could not parse (\eta_{\mu\nu})=\diag(-1,1,1,1) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

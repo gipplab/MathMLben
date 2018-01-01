@@ -1,0 +1,18 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msub>
+      <semantics>
+        <mi>c</mi>
+        <annotation encoding='Mathematica'>TagBox[&quot;c&quot;, C]</annotation>
+      </semantics>
+      <mi>K</mi>
+    </msub>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>C</ci>
+        <ci>K</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

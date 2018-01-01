@@ -1,0 +1,20 @@
+                     1          2         2          1
+Syntax::sntxf: "4 (η (T ) · η (T ) - η (T ) · η (T )) "
+                        1          2         1          2
+     cannot be followed by "| T  ⋂ T  | (mod2)".
+                               1      2
+
+ToExpression::esntx: 
+   Could not parse 4(\boldsymbol{{\eta}}^{1}(T_{1})\cdot\boldsymbol{{\eta}}^{2
+     }(T_{2})-\boldsymbol{{\eta}}^{2}(T_{1})\cdot\boldsymbol{{\eta}}^{1}(T_{2}
+     ))=|T_{1}\cap T_{2}|\pmod{2} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,15 @@
+Syntax::sntxf: "(" cannot be followed by "Sqrt[p ], ⋯, Sqrt[p ])".
+                                                1              n
+
+ToExpression::esntx: 
+   Could not parse (\sqrt{p_1}, \cdots ,\sqrt{p_n}) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

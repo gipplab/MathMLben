@@ -1,0 +1,142 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <mo>&#8706;</mo>
+          <mrow>
+            <msub>
+              <mi>R</mi>
+              <mrow>
+                <mo>-</mo>
+                <mi>a</mi>
+              </mrow>
+            </msub>
+            <mo>(</mo>
+            <mrow>
+              <mi>b</mi>
+              <mo>;</mo>
+              <mi>z</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mo>&#8706;</mo>
+          <mi>j</mi>
+        </mrow>
+      </mfrac>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mi>a</mi>
+        </mrow>
+        <mo>&#8290;</mo>
+        <msub>
+          <mi>w</mi>
+          <mi>j</mi>
+        </msub>
+        <mo>&#8290;</mo>
+        <mrow>
+          <msub>
+            <mi>R</mi>
+            <mrow>
+              <mrow>
+                <mo>-</mo>
+                <mrow>
+                  <mi>a</mi>
+                </mrow>
+              </mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <mo>(</mo>
+          <mrow>
+            <mrow>
+              <mi>b</mi>
+              <mo>+</mo>
+              <msub>
+                <mi>e</mi>
+                <mi>j</mi>
+              </msub>
+            </mrow>
+            <mo>;</mo>
+            <mi>z</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>D</ci>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>R</ci>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <ci>a</ci>
+              </apply>
+            </apply>
+            <apply>
+              <ci>CompoundExpression</ci>
+              <ci>b</ci>
+              <ci>z</ci>
+            </apply>
+          </apply>
+          <list>
+            <ci>j</ci>
+          </list>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <ci>a</ci>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>w</ci>
+            <ci>j</ci>
+          </apply>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>R</ci>
+              <apply>
+                <plus />
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <ci>a</ci>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <ci>CompoundExpression</ci>
+              <apply>
+                <plus />
+                <ci>b</ci>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>e</ci>
+                  <ci>j</ci>
+                </apply>
+              </apply>
+              <ci>z</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

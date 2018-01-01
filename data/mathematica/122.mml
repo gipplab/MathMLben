@@ -1,0 +1,169 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <semantics>
+        <mrow>
+          <msub>
+            <mi>J</mi>
+            <mi>&#957;</mi>
+          </msub>
+          <mo>(</mo>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>j</mi>
+                <mrow>
+                  <mi>&#957;</mi>
+                  <mo>,</mo>
+                  <mi>m</mi>
+                </mrow>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mo>&#8242;</mo>
+          </msup>
+          <mo>)</mo>
+        </mrow>
+        <annotation encoding='Mathematica'>TemplateBox[List[&quot;\[Nu]&quot;, SuperscriptBox[RowBox[List[&quot;(&quot;, TemplateBox[List[&quot;\[Nu]&quot;, &quot;m&quot;], &quot;BesselJZero&quot;, Rule[SyntaxForm, SubscriptBox]], &quot;)&quot;]], &quot;\[Prime]&quot;, Rule[MultilineFunction, None]]], &quot;BesselJ&quot;]</annotation>
+      </semantics>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mrow>
+                <mi>O</mi>
+                <mo>&#8289;</mo>
+                <mo>(</mo>
+                <mfrac>
+                  <mn>1</mn>
+                  <msup>
+                    <mi>&#957;</mi>
+                    <mrow>
+                      <mn>4</mn>
+                      <mo>/</mo>
+                      <mn>3</mn>
+                    </mrow>
+                  </msup>
+                </mfrac>
+                <mo>)</mo>
+              </mrow>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mrow>
+                <mi>h</mi>
+                <mo>&#8289;</mo>
+                <mo>(</mo>
+                <mi>&#950;</mi>
+                <mo>)</mo>
+              </mrow>
+              <mtext></mtext>
+              <semantics>
+                <mrow>
+                  <mi>Ai</mi>
+                  <mo>&#8289;</mo>
+                  <mo>(</mo>
+                  <msup>
+                    <msub>
+                      <mi>a</mi>
+                      <mi>m</mi>
+                    </msub>
+                    <mo>&#8242;</mo>
+                  </msup>
+                  <mo>)</mo>
+                </mrow>
+                <annotation encoding='Mathematica'>TemplateBox[List[SuperscriptBox[SubscriptBox[&quot;a&quot;, &quot;m&quot;], &quot;\[Prime]&quot;, Rule[MultilineFunction, None]]], &quot;AiryAi&quot;]</annotation>
+              </semantics>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mroot>
+          <mi>&#957;</mi>
+          <mn>3</mn>
+        </mroot>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>BesselJ</ci>
+          <ci>&#957;</ci>
+          <apply>
+            <partialdiff />
+            <apply>
+              <ci>BesselJZero</ci>
+              <ci>&#957;</ci>
+              <ci>m</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <plus />
+            <apply>
+              <ci>O</ci>
+              <apply>
+                <times />
+                <cn type='integer'>1</cn>
+                <apply>
+                  <power />
+                  <apply>
+                    <power />
+                    <ci>&#957;</ci>
+                    <cn type='rational'>4
+                      <sep />3
+                    </cn>
+                  </apply>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+            </apply>
+            <cn type='integer'>1</cn>
+          </apply>
+          <apply>
+            <times />
+            <apply>
+              <ci>h</ci>
+              <ci>&#950;</ci>
+            </apply>
+            <apply>
+              <ci>AiryAi</ci>
+              <apply>
+                <partialdiff />
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>a</ci>
+                  <ci>m</ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <power />
+              <ci>&#957;</ci>
+              <cn type='rational'>1
+                <sep />3
+              </cn>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

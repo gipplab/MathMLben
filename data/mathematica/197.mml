@@ -1,0 +1,77 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mi>A</mi>
+          <mo>&#8801;</mo>
+          <mrow>
+            <mi>A</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>&#964;</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mn>1</mn>
+        <mo>&#8290;</mo>
+        <mrow>
+          <msub>
+            <mi>&#952;</mi>
+            <mn>4</mn>
+          </msub>
+          <mo>(</mo>
+          <mrow>
+            <mn>0</mn>
+            <mo>|</mo>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mi>&#964;</mi>
+            </mrow>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <equivalent />
+          <ci>A</ci>
+          <apply>
+            <ci>A</ci>
+            <ci>&#964;</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>1</cn>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#952;</ci>
+              <cn type='integer'>4</cn>
+            </apply>
+            <apply>
+              <ci>Alternatives</ci>
+              <cn type='integer'>0</cn>
+              <apply>
+                <times />
+                <cn type='integer'>2</cn>
+                <ci>&#964;</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

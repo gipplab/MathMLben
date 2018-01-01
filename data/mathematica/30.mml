@@ -1,0 +1,63 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <msub>
+              <mi>&#981;</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>&#63449;</mo>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mo>-</mo>
+                  <mn>30</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mi>&#9702;</mi>
+            </msup>
+          </mrow>
+          <mo>...</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>+</mo>
+      <msup>
+        <mn>30</mn>
+        <mi>&#9702;</mi>
+      </msup>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <plus />
+        <apply>
+          <ci>RepeatedNull</ci>
+          <apply>
+            <eq />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#981;</ci>
+              <cn type='integer'>1</cn>
+            </apply>
+            <apply>
+              <power />
+              <cn type='integer'>-30</cn>
+              <ci>&#9702;</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <power />
+          <cn type='integer'>30</cn>
+          <ci>&#9702;</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

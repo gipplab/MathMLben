@@ -1,0 +1,16 @@
+Syntax::sntxf: "(" cannot be followed by "α , α , …, X , X , …)".
+                                            1    2        1   2
+
+ToExpression::esntx: 
+   Could not parse (\nabla_Y T)(\alpha_1, \alpha_2, \ldots, X_1, X_2, \ldots)
+     =Y(T(\alpha_1,\alpha_2,\ldots,X_1,X_2,\ldots)) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

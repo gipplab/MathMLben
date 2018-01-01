@@ -1,0 +1,28 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mn>1</mn>
+      <mo>&#8804;</mo>
+      <mi>k</mi>
+      <mo>&#8804;</mo>
+      <mrow>
+        <mi>n</mi>
+        <mo>-</mo>
+        <mn>1</mn>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <leq />
+        <cn type='integer'>1</cn>
+        <ci>k</ci>
+        <apply>
+          <plus />
+          <ci>n</ci>
+          <cn type='integer'>-1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

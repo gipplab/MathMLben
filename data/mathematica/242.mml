@@ -1,0 +1,37 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>AP</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>A</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>P</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>AP</ci>
+        <apply>
+          <times />
+          <ci>A</ci>
+          <apply>
+            <plus />
+            <ci>a</ci>
+            <ci>P</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

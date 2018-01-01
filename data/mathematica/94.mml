@@ -1,0 +1,54 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>&#960;</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mn>2</mn>
+            <mrow>
+              <mo>-</mo>
+              <mi>N</mi>
+            </mrow>
+          </msup>
+          <mo>&#8290;</mo>
+          <mi>N</mi>
+        </mrow>
+        <mi>i</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <pi />
+          <ci>i</ci>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <power />
+            <cn type='integer'>2</cn>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <ci>N</ci>
+            </apply>
+          </apply>
+          <ci>N</ci>
+          <apply>
+            <power />
+            <ci>i</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

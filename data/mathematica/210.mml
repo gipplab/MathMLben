@@ -1,0 +1,24 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>a</mi>
+        <mi>ij</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mn>1</mn>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>a</ci>
+          <ci>ij</ci>
+        </apply>
+        <cn type='integer'>1</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

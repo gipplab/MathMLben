@@ -1,0 +1,23 @@
+Integrate::nodiffd: 
+      ∞     ∞          (U)
+   ∫     ∫     exp(i Φ   (s, t ; x)) dsdt
+      -∞    -∞
+     cannot be interpreted. Integrals are entered in the form ∫ f  x
+          b
+     , ∫  f  x, or       ∫       f, where  is entered as dd.
+          a             vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse \Psi^{(\mathrm{U})}\left(\mathbf{x}\right)=\int_{-\infty}^{
+     \infty}\int_{-\infty}^{\infty}\exp\left(i\Phi^{(\mathrm{U})}\left(s,t;\ma
+     thbf{x}\right)\right)\mathrm{d}s\mathrm{d}t as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

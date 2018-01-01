@@ -1,0 +1,89 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mo>{</mo>
+      <mrow>
+        <mrow>
+          <mi>z</mi>
+          <mo>&#8712;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>H</mi>
+              <mo>:</mo>
+              <mrow>
+                <semantics>
+                  <mrow>
+                    <mo>&#10072;</mo>
+                    <mi>z</mi>
+                    <mo>&#10072;</mo>
+                  </mrow>
+                  <annotation encoding='Mathematica'>TemplateBox[List[&quot;z&quot;], &quot;Abs&quot;]</annotation>
+                </semantics>
+                <mo>&gt;</mo>
+                <mn>1</mn>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>,</mo>
+        <mrow>
+          <semantics>
+            <mrow>
+              <mo>&#10072;</mo>
+              <mrow>
+                <mi>Re</mi>
+                <mo>&#8290;</mo>
+                <mi>z</mi>
+              </mrow>
+              <mo>&#10072;</mo>
+            </mrow>
+            <annotation encoding='Mathematica'>TemplateBox[List[RowBox[List[&quot;Re&quot;, &quot; &quot;, &quot;z&quot;]]], &quot;Abs&quot;]</annotation>
+          </semantics>
+          <mo>&lt;</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+          </mfrac>
+        </mrow>
+      </mrow>
+      <mo>}</mo>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <list>
+        <apply>
+          <in />
+          <ci>z</ci>
+          <apply>
+            <ci>Pattern</ci>
+            <ci>H</ci>
+            <apply>
+              <gt />
+              <apply>
+                <abs />
+                <ci>z</ci>
+              </apply>
+              <cn type='integer'>1</cn>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <lt />
+          <apply>
+            <abs />
+            <apply>
+              <times />
+              <real />
+              <ci>z</ci>
+            </apply>
+          </apply>
+          <cn type='rational'>1
+            <sep />2
+          </cn>
+        </apply>
+      </list>
+    </annotation-xml>
+  </semantics>
+</math>

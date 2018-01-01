@@ -1,0 +1,109 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mrow>
+            <msub>
+              <mi>f</mi>
+              <mn>0</mn>
+            </msub>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>v</mi>
+              <mi>a</mi>
+            </msub>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+          <mrow>
+            <msub>
+              <mi>D</mi>
+              <mi>g</mi>
+            </msub>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>u</mi>
+              <mi>g</mi>
+            </msub>
+          </mrow>
+          <mi>Dt</mi>
+        </mfrac>
+        <mo>-</mo>
+        <mrow>
+          <mi>&#946;</mi>
+          <mo>&#8290;</mo>
+          <mi>y</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>v</mi>
+            <mi>g</mi>
+          </msub>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>f</ci>
+                <cn type='integer'>0</cn>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>v</ci>
+                <ci>a</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>D</ci>
+              <ci>g</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>u</ci>
+              <ci>g</ci>
+            </apply>
+            <apply>
+              <power />
+              <ci>Dt</ci>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <ci>&#946;</ci>
+              <ci>y</ci>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>v</ci>
+                <ci>g</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <cn type='integer'>0</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

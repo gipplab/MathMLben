@@ -1,0 +1,24 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>z</mi>
+      <mo>&#63449;</mo>
+      <msup>
+        <mi>&#950;</mi>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>z</ci>
+        <apply>
+          <power />
+          <ci>&#950;</ci>
+          <cn type='integer'>2</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

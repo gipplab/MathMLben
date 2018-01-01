@@ -1,0 +1,82 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>F</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munder>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>n</mi>
+            <mo>&#63449;</mo>
+            <mrow>
+              <mi>k</mi>
+              <mo>+</mo>
+              <mi>m</mi>
+            </mrow>
+          </mrow>
+        </munder>
+        <semantics>
+          <mrow>
+            <mo>(</mo>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mi>k</mi>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mi>m</mi>
+                </mtd>
+              </mtr>
+            </mtable>
+            <mo>)</mo>
+          </mrow>
+          <annotation encoding='Mathematica'>TemplateBox[List[&quot;k&quot;, &quot;m&quot;], &quot;Binomial&quot;]</annotation>
+        </semantics>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>F</ci>
+          <apply>
+            <plus />
+            <ci>n</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <sum />
+          <bvar>
+            <apply>
+              <eq />
+              <ci>n</ci>
+              <apply>
+                <plus />
+                <ci>k</ci>
+                <ci>m</ci>
+              </apply>
+            </apply>
+          </bvar>
+          <apply>
+            <ci>Binomial</ci>
+            <ci>k</ci>
+            <ci>m</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

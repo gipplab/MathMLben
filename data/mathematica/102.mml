@@ -1,0 +1,137 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>&#1013;</mi>
+          <mrow>
+            <mi>j</mi>
+            <mo>&#8290;</mo>
+            <mi>k</mi>
+            <mo>&#8290;</mo>
+            <mi>&#8467;</mi>
+          </mrow>
+        </msub>
+        <mo>&#8290;</mo>
+        <msub>
+          <mi>&#1013;</mi>
+          <mrow>
+            <mi>m</mi>
+            <mo>&#8290;</mo>
+            <mi>n</mi>
+            <mo>&#8290;</mo>
+            <mi>&#8467;</mi>
+          </mrow>
+        </msub>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>&#948;</mi>
+            <mrow>
+              <mi>j</mi>
+              <mo>,</mo>
+              <mi>m</mi>
+            </mrow>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>&#948;</mi>
+            <mrow>
+              <mi>k</mi>
+              <mo>,</mo>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <msub>
+            <mi>&#948;</mi>
+            <mrow>
+              <mi>j</mi>
+              <mo>,</mo>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>&#948;</mi>
+            <mrow>
+              <mi>k</mi>
+              <mo>,</mo>
+              <mi>m</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#1013;</ci>
+            <apply>
+              <times />
+              <ci>j</ci>
+              <ci>k</ci>
+              <ci>&#8467;</ci>
+            </apply>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#1013;</ci>
+            <apply>
+              <times />
+              <ci>m</ci>
+              <ci>n</ci>
+              <ci>&#8467;</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#948;</ci>
+              <ci>j</ci>
+              <ci>m</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#948;</ci>
+              <ci>k</ci>
+              <ci>n</ci>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#948;</ci>
+                <ci>j</ci>
+                <ci>n</ci>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#948;</ci>
+                <ci>k</ci>
+                <ci>m</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

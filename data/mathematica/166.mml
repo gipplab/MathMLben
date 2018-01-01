@@ -1,0 +1,16 @@
+Syntax::sntxi: Incomplete expression; more input is needed .
+
+ToExpression::esntx: 
+   Could not parse \frac{{\partial}^{j}E_{p}\left(z\right)}{{\partial
+     p}^{j}}=(-1)^{j}\int_{1}^{\infty}(\ln t)^{j}t^{-p}e^{-zt}\mathrm{d}t as
+     input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

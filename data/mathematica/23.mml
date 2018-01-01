@@ -1,0 +1,17 @@
+Syntax::tsntxi: 
+                 29
+   "D(G, H)   ∑  | F (G) - F (H) |" is incomplete; more input is needed.
+                i = 1    i       i
+
+ToExpression::esntx: 
+   Could not parse D(G,H) = \sum_{i=1}^{29} | F_i(G) - F_i(H) | as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

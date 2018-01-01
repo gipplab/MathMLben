@@ -1,0 +1,24 @@
+Integrate::nodiffd: 
+      1           2
+   ∫  P (1 - 2 x ) sin(xy) dx cannot be interpreted. Integrals are entered
+      0  n
+                                  b
+      in the form ∫ f  x, ∫  f  x
+                                  a
+      , or       ∫       f, where  is entered as dd.
+           vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse \int_{0}^{1}P_{n}\left(1-2x^{2}\right)\sin\left(xy\right)\m
+     athrm{d}x=\tfrac{1}{2}\pi\left(J_{n+\frac{1}{2}}\left(\tfrac{1}{2}y\right
+     )\right)^{2} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

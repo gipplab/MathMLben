@@ -1,0 +1,17 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <mo>&#8853;</mo>
+      <mi>B</mi>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>CirclePlus</ci>
+        <ci>A</ci>
+        <ci>B</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

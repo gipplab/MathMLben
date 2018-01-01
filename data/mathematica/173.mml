@@ -1,0 +1,240 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msubsup>
+          <mi>P</mi>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mfrac>
+              <mn>1</mn>
+              <mn>2</mn>
+            </mfrac>
+          </mrow>
+          <mi>m</mi>
+        </msubsup>
+        <mo>(</mo>
+        <mrow>
+          <mi>&#958;</mi>
+          <mo>&#8290;</mo>
+          <mi>cosh</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <msqrt>
+            <mfrac>
+              <mn>2</mn>
+              <mrow>
+                <mi>&#960;</mi>
+                <mo>&#8290;</mo>
+                <mi>&#958;</mi>
+                <mo>&#8290;</mo>
+                <mi>sinh</mi>
+              </mrow>
+            </mfrac>
+          </msqrt>
+          <mtext></mtext>
+          <semantics>
+            <mrow>
+              <mi>&#915;</mi>
+              <mo>&#8289;</mo>
+              <mo>(</mo>
+              <mrow>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+                <mo>&#8290;</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mi>m</mi>
+                    <mo>+</mo>
+                    <mi>n</mi>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <annotation encoding='Mathematica'>TemplateBox[List[RowBox[List[FractionBox[&quot;1&quot;, &quot;2&quot;], &quot; &quot;, RowBox[List[&quot;(&quot;, RowBox[List[&quot;m&quot;, &quot;+&quot;, &quot;n&quot;, &quot;+&quot;, &quot;1&quot;]], &quot;)&quot;]]]]], &quot;Gamma&quot;]</annotation>
+          </semantics>
+          <mtext></mtext>
+          <mrow>
+            <msubsup>
+              <mi>Q</mi>
+              <mrow>
+                <mi>m</mi>
+                <mo>-</mo>
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mrow>
+              <mi>n</mi>
+            </msubsup>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#958;</mi>
+              <mo>&#8290;</mo>
+              <mi>coth</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <semantics>
+          <mrow>
+            <mi>&#915;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mrow>
+                    <mo>-</mo>
+                    <mi>m</mi>
+                  </mrow>
+                  <mo>+</mo>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <annotation encoding='Mathematica'>TemplateBox[List[RowBox[List[FractionBox[&quot;1&quot;, &quot;2&quot;], &quot; &quot;, RowBox[List[&quot;(&quot;, RowBox[List[RowBox[List[&quot;-&quot;, &quot;m&quot;]], &quot;+&quot;, &quot;n&quot;, &quot;+&quot;, &quot;1&quot;]], &quot;)&quot;]]]]], &quot;Gamma&quot;]</annotation>
+        </semantics>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <power />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>P</ci>
+              <apply>
+                <plus />
+                <ci>n</ci>
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <cn type='rational'>1
+                    <sep />2
+                  </cn>
+                </apply>
+              </apply>
+            </apply>
+            <ci>m</ci>
+          </apply>
+          <apply>
+            <times />
+            <ci>&#958;</ci>
+            <ci>cosh</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <root />
+            <apply>
+              <times />
+              <cn type='integer'>2</cn>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <pi />
+                  <ci>&#958;</ci>
+                  <ci>sinh</ci>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <ci>Gamma</ci>
+            <apply>
+              <times />
+              <cn type='rational'>1
+                <sep />2
+              </cn>
+              <apply>
+                <plus />
+                <ci>m</ci>
+                <ci>n</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <apply>
+              <power />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>Q</ci>
+                <apply>
+                  <plus />
+                  <ci>m</ci>
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <cn type='rational'>1
+                      <sep />2
+                    </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <times />
+              <ci>&#958;</ci>
+              <ci>coth</ci>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <ci>Gamma</ci>
+              <apply>
+                <times />
+                <cn type='rational'>1
+                  <sep />2
+                </cn>
+                <apply>
+                  <plus />
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <ci>m</ci>
+                  </apply>
+                  <ci>n</ci>
+                  <cn type='integer'>1</cn>
+                </apply>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,91 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <munderover>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>&#8467;</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+          </mrow>
+          <mi>n</mi>
+        </munderover>
+        <mrow>
+          <msup>
+            <mi>x</mi>
+            <mrow>
+              <mi>n</mi>
+              <mo>-</mo>
+              <mi>&#8467;</mi>
+            </mrow>
+          </msup>
+          <mo>&#8290;</mo>
+          <mrow>
+            <msub>
+              <mi>T</mi>
+              <mi>&#8467;</mi>
+            </msub>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <msub>
+          <mi>U</mi>
+          <mi>n</mi>
+        </msub>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <sum />
+          <bvar>
+            <ci>&#8467;</ci>
+          </bvar>
+          <lowlimit>
+            <cn type='integer'>0</cn>
+          </lowlimit>
+          <uplimit>
+            <ci>n</ci>
+          </uplimit>
+          <apply>
+            <times />
+            <apply>
+              <power />
+              <ci>x</ci>
+              <apply>
+                <plus />
+                <ci>n</ci>
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <ci>&#8467;</ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <ci>ChebyshevT</ci>
+              <ci>&#8467;</ci>
+              <ci>x</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <ci>ChebyshevU</ci>
+          <ci>n</ci>
+          <ci>x</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

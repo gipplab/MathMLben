@@ -1,0 +1,36 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>S</mi>
+      <mo>&#8804;</mo>
+      <mfrac>
+        <mi>A</mi>
+        <mrow>
+          <mn>4</mn>
+          <mo>&#8290;</mo>
+          <mi>G</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <leq />
+        <ci>S</ci>
+        <apply>
+          <times />
+          <ci>A</ci>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <cn type='integer'>4</cn>
+              <ci>G</ci>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

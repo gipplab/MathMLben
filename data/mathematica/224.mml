@@ -1,0 +1,76 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msup>
+          <mi>B</mi>
+          <mo>*</mo>
+        </msup>
+        <mo>&#8290;</mo>
+        <mi>B</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mn>4</mn>
+            <mo>&#8290;</mo>
+            <mo>_</mo>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mo>{</mo>
+              <mn>3</mn>
+              <mo>}</mo>
+            </mrow>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mn>4</mn>
+        <mo>&#8290;</mo>
+        <mo>_</mo>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>{</mo>
+          <mn>3</mn>
+          <mo>}</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <apply>
+            <ci>SuperStar</ci>
+            <ci>B</ci>
+          </apply>
+          <ci>B</ci>
+          <apply>
+            <times />
+            <cn type='integer'>4</cn>
+            <apply>
+              <ci>Blank</ci>
+            </apply>
+            <list>
+              <cn type='integer'>3</cn>
+            </list>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>4</cn>
+          <apply>
+            <ci>Blank</ci>
+          </apply>
+          <list>
+            <cn type='integer'>3</cn>
+          </list>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

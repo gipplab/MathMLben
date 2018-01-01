@@ -1,0 +1,21 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msup>
+      <mover>
+        <mi>V</mi>
+        <mo>_</mo>
+      </mover>
+      <mo>*</mo>
+    </msup>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>SuperStar</ci>
+        <apply>
+          <ci>OverBar</ci>
+          <ci>V</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

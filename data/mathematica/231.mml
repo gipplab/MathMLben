@@ -1,0 +1,19 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <semantics>
+      <mrow>
+        <mo>&#8970;</mo>
+        <mo>&#8230;</mo>
+        <mo>&#8971;</mo>
+      </mrow>
+      <annotation encoding='Mathematica'>TemplateBox[List[&quot;\[Ellipsis]&quot;], &quot;Floor&quot;]</annotation>
+    </semantics>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <floor />
+        <ci>&#8230;</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

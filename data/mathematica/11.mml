@@ -1,0 +1,18 @@
+Syntax::tsntxi: 
+    d                1
+   "-- (log  x)  ----, c > 0, c ≠ 1" is incomplete; more input is needed.
+    dx     c        xlnc
+
+ToExpression::esntx: 
+   Could not parse  \frac{d}{dx}\left( \log_c x\right) = {1 \over x \ln c} ,
+     \qquad c > 0, c \ne 1 as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

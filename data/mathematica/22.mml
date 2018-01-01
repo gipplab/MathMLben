@@ -1,0 +1,76 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>Ker</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <msub>
+            <mi>k</mi>
+            <mo>*</mo>
+          </msub>
+          <mo>-</mo>
+          <msub>
+            <mi>l</mi>
+            <mo>*</mo>
+          </msub>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8773;</mo>
+      <mrow>
+        <mi>Im</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <msub>
+            <mi>i</mi>
+            <mo>*</mo>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>j</mi>
+            <mo>*</mo>
+          </msub>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>TildeFullEqual</ci>
+        <apply>
+          <ci>Ker</ci>
+          <apply>
+            <plus />
+            <apply>
+              <ci>SubStar</ci>
+              <ci>k</ci>
+            </apply>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <apply>
+                <ci>SubStar</ci>
+                <ci>l</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <imaginary />
+          <apply>
+            <ci>SubStar</ci>
+            <ci>i</ci>
+          </apply>
+          <apply>
+            <ci>SubStar</ci>
+            <ci>j</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

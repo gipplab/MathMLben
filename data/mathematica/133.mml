@@ -1,0 +1,69 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>N</mi>
+        <mo>[</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>,</mo>
+          <mi>k</mi>
+        </mrow>
+        <mo>]</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mi>n</mi>
+          <mo>&#8290;</mo>
+          <mi>n</mi>
+        </mrow>
+        <mrow>
+          <mi>k</mi>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>k</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mi>n</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>N</ci>
+          <ci>n</ci>
+          <ci>k</ci>
+        </apply>
+        <apply>
+          <times />
+          <ci>n</ci>
+          <ci>n</ci>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <ci>k</ci>
+              <apply>
+                <plus />
+                <ci>k</ci>
+                <cn type='integer'>-1</cn>
+              </apply>
+              <ci>n</ci>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,54 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msubsup>
+          <mi>S</mi>
+          <mi>p</mi>
+          <mi>m</mi>
+        </msubsup>
+        <mo>(</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo>,</mo>
+          <mi>&#958;</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <semantics>
+        <mo>&#8594;</mo>
+        <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+      </semantics>
+      <mrow>
+        <mi>sin</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mi>mx</mi>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Rule</ci>
+        <apply>
+          <apply>
+            <power />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>S</ci>
+              <ci>p</ci>
+            </apply>
+            <ci>m</ci>
+          </apply>
+          <ci>x</ci>
+          <ci>&#958;</ci>
+        </apply>
+        <apply>
+          <sin />
+          <ci>mx</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

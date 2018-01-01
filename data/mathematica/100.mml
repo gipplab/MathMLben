@@ -1,0 +1,21 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>y</mi>
+        <mi>k</mi>
+      </msub>
+      <mo>(</mo>
+      <mi>n</mi>
+      <mo>)</mo>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>SphericalBesselY</ci>
+        <ci>k</ci>
+        <ci>n</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

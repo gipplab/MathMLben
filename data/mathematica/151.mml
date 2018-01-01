@@ -1,0 +1,89 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <semantics>
+          <mrow>
+            <mi>&#915;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+          </mrow>
+          <annotation encoding='Mathematica'>TemplateBox[List[&quot;z&quot;], &quot;Gamma&quot;]</annotation>
+        </semantics>
+        <mtext></mtext>
+        <semantics>
+          <mrow>
+            <mi>&#915;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mrow>
+              <mn>1</mn>
+              <mo>-</mo>
+              <mi>z</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <annotation encoding='Mathematica'>TemplateBox[List[RowBox[List[&quot;1&quot;, &quot;-&quot;, &quot;z&quot;]]], &quot;Gamma&quot;]</annotation>
+        </semantics>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mi>&#960;</mi>
+        <mrow>
+          <mi>sin</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mi>&#960;</mi>
+            <mo>&#8290;</mo>
+            <mi>z</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <apply>
+            <ci>Gamma</ci>
+            <ci>z</ci>
+          </apply>
+          <apply>
+            <ci>Gamma</ci>
+            <apply>
+              <plus />
+              <cn type='integer'>1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <ci>z</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <pi />
+          <apply>
+            <power />
+            <apply>
+              <sin />
+              <apply>
+                <times />
+                <pi />
+                <ci>z</ci>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

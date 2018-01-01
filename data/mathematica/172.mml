@@ -1,0 +1,422 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>Q</mi>
+          <mi>n</mi>
+        </msub>
+        <mo>(</mo>
+        <mrow>
+          <mi>&#952;</mi>
+          <mo>&#8290;</mo>
+          <mi>cos</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <msup>
+                <mn>2</mn>
+                <mrow>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&#8290;</mo>
+                    <mi>n</mi>
+                  </mrow>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msup>
+              <mo>&#8290;</mo>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>!</mo>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <munderover>
+              <mo>&#8721;</mo>
+              <mrow>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+              <mi>&#8734;</mi>
+            </munderover>
+            <mfrac>
+              <mrow>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mi>n</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mi>n</mi>
+                        <mo>+</mo>
+                        <mn>2</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mo>&#8943;</mo>
+                      <mo>&#8289;</mo>
+                      <mo>(</mo>
+                      <mrow>
+                        <mi>k</mi>
+                        <mo>+</mo>
+                        <mi>n</mi>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mo>&#8290;</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>&#183;</mo>
+                      <mn>3</mn>
+                    </mrow>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mo>&#8943;</mo>
+                      <mo>&#8289;</mo>
+                      <mo>(</mo>
+                      <mrow>
+                        <mrow>
+                          <mn>2</mn>
+                          <mo>&#8290;</mo>
+                          <mi>k</mi>
+                        </mrow>
+                        <mo>-</mo>
+                        <mn>1</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mo>&#8290;</mo>
+                <mrow>
+                  <mi>cos</mi>
+                  <mo>&#8289;</mo>
+                  <mo>(</mo>
+                  <mrow>
+                    <mi>&#952;</mi>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mrow>
+                          <mn>2</mn>
+                          <mo>&#8290;</mo>
+                          <mi>k</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mi>n</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+              <mrow>
+                <mrow>
+                  <mi>k</mi>
+                  <mo>!</mo>
+                </mrow>
+                <mo>&#8290;</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mrow>
+                          <mn>2</mn>
+                          <mo>&#8290;</mo>
+                          <mi>n</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>3</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <mrow>
+                          <mn>2</mn>
+                          <mo>&#8290;</mo>
+                          <mi>n</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>5</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mo>&#8943;</mo>
+                      <mo>&#8289;</mo>
+                      <mo>(</mo>
+                      <mrow>
+                        <mrow>
+                          <mn>2</mn>
+                          <mo>&#8290;</mo>
+                          <mi>k</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                          <mn>2</mn>
+                          <mo>&#8290;</mo>
+                          <mi>n</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mrow>
+                <mn>2</mn>
+                <mo>&#8290;</mo>
+                <mi>n</mi>
+              </mrow>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>!</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>Q</ci>
+            <ci>n</ci>
+          </apply>
+          <apply>
+            <times />
+            <ci>&#952;</ci>
+            <ci>cos</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <times />
+            <apply>
+              <power />
+              <cn type='integer'>2</cn>
+              <apply>
+                <plus />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>n</ci>
+                </apply>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <factorial />
+                <ci>n</ci>
+              </apply>
+              <cn type='integer'>2</cn>
+            </apply>
+          </apply>
+          <apply>
+            <sum />
+            <bvar>
+              <ci>k</ci>
+            </bvar>
+            <lowlimit>
+              <cn type='integer'>0</cn>
+            </lowlimit>
+            <uplimit>
+              <infinity />
+            </uplimit>
+            <apply>
+              <times />
+              <apply>
+                <times />
+                <apply>
+                  <plus />
+                  <ci>n</ci>
+                  <cn type='integer'>1</cn>
+                </apply>
+                <apply>
+                  <plus />
+                  <ci>n</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <apply>
+                  <ci>&#8943;</ci>
+                  <apply>
+                    <plus />
+                    <ci>k</ci>
+                    <ci>n</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times />
+                <apply>
+                  <ci>CenterDot</ci>
+                  <cn type='integer'>1</cn>
+                  <cn type='integer'>3</cn>
+                </apply>
+                <apply>
+                  <ci>&#8943;</ci>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>k</ci>
+                    </apply>
+                    <cn type='integer'>-1</cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <cos />
+                <apply>
+                  <times />
+                  <ci>&#952;</ci>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>k</ci>
+                    </apply>
+                    <ci>n</ci>
+                    <cn type='integer'>1</cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <apply>
+                    <factorial />
+                    <ci>k</ci>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <plus />
+                      <apply>
+                        <times />
+                        <cn type='integer'>2</cn>
+                        <ci>n</ci>
+                      </apply>
+                      <cn type='integer'>3</cn>
+                    </apply>
+                    <apply>
+                      <plus />
+                      <apply>
+                        <times />
+                        <cn type='integer'>2</cn>
+                        <ci>n</ci>
+                      </apply>
+                      <cn type='integer'>5</cn>
+                    </apply>
+                    <apply>
+                      <ci>&#8943;</ci>
+                      <apply>
+                        <plus />
+                        <apply>
+                          <times />
+                          <cn type='integer'>2</cn>
+                          <ci>k</ci>
+                        </apply>
+                        <apply>
+                          <times />
+                          <cn type='integer'>2</cn>
+                          <ci>n</ci>
+                        </apply>
+                        <cn type='integer'>1</cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <factorial />
+              <apply>
+                <plus />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>n</ci>
+                </apply>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

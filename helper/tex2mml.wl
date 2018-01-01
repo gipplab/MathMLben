@@ -1,5 +1,5 @@
 (* ::Package:: *)
 
 texString=$ScriptCommandLine[[2]]
-tex=ToExpression["a^2=b^2",TeXForm,Defer]
+tex=ToExpression[texString,TeXForm,Defer]
 Print@ExportString[tex,"MathML","Content"->True]

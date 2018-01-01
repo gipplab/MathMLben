@@ -1,0 +1,29 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>c</mi>
+      <mo>&#8290;</mo>
+      <mi>d</mi>
+      <mo>&#8290;</mo>
+      <mrow>
+        <mi>l</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mi>A</mi>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <ci>c</ci>
+        <ci>d</ci>
+        <apply>
+          <ci>l</ci>
+          <ci>A</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

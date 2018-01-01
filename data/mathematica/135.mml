@@ -1,0 +1,15 @@
+Syntax::sntxi: Incomplete expression; more input is needed .
+
+ToExpression::esntx: 
+   Could not parse S\left(n,m\right)=\frac{1}{m!}\sum_{k=0}^{n-1}\genfrac{<}{>
+     }{0.0pt}{}{n}{k}\genfrac{(}{)}{0.0pt}{}{k}{n-m} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

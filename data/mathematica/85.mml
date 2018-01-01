@@ -1,0 +1,39 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>X</mi>
+          <mi>i</mi>
+        </msub>
+        <mo>(</mo>
+        <mi>&#969;</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <msub>
+        <mi>&#969;</mi>
+        <mi>i</mi>
+      </msub>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>X</ci>
+            <ci>i</ci>
+          </apply>
+          <ci>&#969;</ci>
+        </apply>
+        <apply>
+          <ci>Subscript</ci>
+          <ci>&#969;</ci>
+          <ci>i</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

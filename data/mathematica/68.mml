@@ -1,0 +1,58 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>P</mi>
+        <mi>x</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>P</mi>
+        <mo>-</mo>
+        <mrow>
+          <mo>{</mo>
+          <mrow>
+            <mi>a</mi>
+            <mo>|</mo>
+            <mrow>
+              <mi>a</mi>
+              <mo>&#8805;</mo>
+              <mi>x</mi>
+            </mrow>
+          </mrow>
+          <mo>}</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>P</ci>
+          <ci>x</ci>
+        </apply>
+        <apply>
+          <plus />
+          <ci>P</ci>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <list>
+              <apply>
+                <ci>Alternatives</ci>
+                <ci>a</ci>
+                <apply>
+                  <geq />
+                  <ci>a</ci>
+                  <ci>x</ci>
+                </apply>
+              </apply>
+            </list>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

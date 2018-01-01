@@ -1,0 +1,12 @@
+Import::texerr: 
+   Error: Unexpected EOF processing arguments for \frac  on line 0
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

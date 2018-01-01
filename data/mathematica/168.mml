@@ -1,0 +1,92 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>&#952;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>t</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>d</mi>
+              <mo>&#8290;</mo>
+              <mi>t</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mfrac>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mi>sin</mi>
+        </mrow>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>&#952;</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <apply>
+            <power />
+            <ci>d</ci>
+            <cn type='integer'>2</cn>
+          </apply>
+          <apply>
+            <ci>&#952;</ci>
+            <ci>t</ci>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <power />
+              <apply>
+                <times />
+                <ci>d</ci>
+                <ci>t</ci>
+              </apply>
+              <cn type='integer'>2</cn>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <ci>sin</ci>
+          </apply>
+          <apply>
+            <ci>&#952;</ci>
+            <ci>t</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

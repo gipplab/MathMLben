@@ -1,0 +1,14 @@
+Syntax::sntxi: Incomplete expression; more input is needed .
+
+ToExpression::esntx: 
+   Could not parse \psi(a+b)=\psi(a)\widetilde{+}\psi(b) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

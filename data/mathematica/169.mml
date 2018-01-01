@@ -1,0 +1,56 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>K</mi>
+        <mo>&#8242;</mo>
+      </msup>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mi>&#960;</mi>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>M</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mrow>
+              <mn>1</mn>
+              <mo>,</mo>
+              <mi>k</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <partialdiff />
+          <ci>K</ci>
+        </apply>
+        <apply>
+          <times />
+          <pi />
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <cn type='integer'>2</cn>
+              <apply>
+                <ci>M</ci>
+                <cn type='integer'>1</cn>
+                <ci>k</ci>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,88 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mfrac>
+      <mrow>
+        <mrow>
+          <msub>
+            <semantics>
+              <mi>c</mi>
+              <annotation encoding='Mathematica'>TagBox[&quot;c&quot;, C]</annotation>
+            </semantics>
+            <mi>z</mi>
+          </msub>
+          <mo>&#177;</mo>
+          <mrow>
+            <mi>i</mi>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mi>S</mi>
+              <mo>&#8289;</mo>
+              <mo>(</mo>
+              <mi>z</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo>&#63449;</mo>
+        <mn>1</mn>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+        <mo>&#8290;</mo>
+        <mi>erf</mi>
+        <mo>&#8290;</mo>
+        <mi>&#950;</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mn>1</mn>
+            <mo>&#177;</mo>
+            <mi>i</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <apply>
+          <eq />
+          <apply>
+            <ci>PlusMinus</ci>
+            <apply>
+              <ci>C</ci>
+              <ci>z</ci>
+            </apply>
+            <apply>
+              <times />
+              <ci>i</ci>
+              <apply>
+                <ci>S</ci>
+                <ci>z</ci>
+              </apply>
+            </apply>
+          </apply>
+          <cn type='integer'>1</cn>
+        </apply>
+        <apply>
+          <power />
+          <apply>
+            <times />
+            <cn type='integer'>2</cn>
+            <ci>erf</ci>
+            <ci>&#950;</ci>
+            <apply>
+              <ci>PlusMinus</ci>
+              <cn type='integer'>1</cn>
+              <ci>i</ci>
+            </apply>
+          </apply>
+          <cn type='integer'>-1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

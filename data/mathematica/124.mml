@@ -1,0 +1,27 @@
+Integrate::nodiffd: 
+           ν + 1
+          t       J  (at)
+      ∞          ν
+   ∫    --------------- dt cannot be interpreted. Integrals are entered in
+      0     2    2 μ + 1
+          (t  + b )
+                               b
+      the form ∫ f  x, ∫  f  x
+                               a
+      , or       ∫       f, where  is entered as dd.
+           vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse \int_{0}^{\infty}\frac{t^{\nu+1}J_{\nu}\left(at\right)}{(t^
+     {2}+b^{2})^{\mu+1}}\mathrm{d}t=\frac{a^{\mu}b^{\nu-\mu}}{2^{\mu}\Gamma\le
+     ft(\mu+1\right)}K_{\nu-\mu}\left(ab\right) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

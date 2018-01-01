@@ -1,0 +1,42 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>f</mi>
+        <mo>:</mo>
+        <msub>
+          <mi>N</mi>
+          <mn>1</mn>
+        </msub>
+      </mrow>
+      <semantics>
+        <mo>&#8594;</mo>
+        <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+      </semantics>
+      <msub>
+        <mi>N</mi>
+        <mn>1</mn>
+      </msub>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Rule</ci>
+        <apply>
+          <ci>Pattern</ci>
+          <ci>f</ci>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>N</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <ci>Subscript</ci>
+          <ci>N</ci>
+          <cn type='integer'>1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,54 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <mi>d</mi>
+          <mo>&#8290;</mo>
+          <mi>t</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>log</mi>
+            <mi>e</mi>
+          </msub>
+        </mrow>
+        <mi>dt</mi>
+      </mfrac>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mi>t</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <ci>d</ci>
+          <ci>t</ci>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>log</ci>
+            <ci>e</ci>
+          </apply>
+          <apply>
+            <power />
+            <ci>dt</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>1</cn>
+          <apply>
+            <power />
+            <ci>t</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,139 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>&#951;</mi>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mi>d</mi>
+          <mo>&#8290;</mo>
+          <mi>e</mi>
+          <mo>&#8290;</mo>
+          <mi>k</mi>
+          <mo>&#8290;</mo>
+          <mi>n</mi>
+          <mo>&#8290;</mo>
+          <mi>o</mi>
+          <mo>&#8290;</mo>
+          <mi>o</mi>
+          <mo>&#8290;</mo>
+          <mi>r</mi>
+          <mo>&#8290;</mo>
+          <mi>w</mi>
+        </mrow>
+        <mrow>
+          <mi>a</mi>
+          <mo>&#8290;</mo>
+          <mi>a</mi>
+          <mo>&#8290;</mo>
+          <mi>b</mi>
+          <mo>&#8290;</mo>
+          <mi>b</mi>
+          <mo>&#8290;</mo>
+          <mi>d</mi>
+          <mo>&#8290;</mo>
+          <mi>e</mi>
+          <mo>&#8290;</mo>
+          <mi>e</mi>
+          <mo>&#8290;</mo>
+          <mi>h</mi>
+          <mo>&#8290;</mo>
+          <mi>o</mi>
+          <mo>&#8290;</mo>
+          <mi>r</mi>
+          <mo>&#8290;</mo>
+          <mi>s</mi>
+          <mo>&#8290;</mo>
+          <mi>t</mi>
+        </mrow>
+      </mfrac>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mn>1</mn>
+            <mo>&#8290;</mo>
+            <mi>Q</mi>
+          </mrow>
+          <mo>-</mo>
+          <mrow>
+            <mn>2</mn>
+            <mo>&#8290;</mo>
+            <mi>Q</mi>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mn>1</mn>
+          <mo>&#8290;</mo>
+          <mi>Q</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>&#951;</ci>
+        <apply>
+          <times />
+          <ci>d</ci>
+          <ci>e</ci>
+          <ci>k</ci>
+          <ci>n</ci>
+          <ci>o</ci>
+          <ci>o</ci>
+          <ci>r</ci>
+          <ci>w</ci>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <ci>a</ci>
+              <ci>a</ci>
+              <ci>b</ci>
+              <ci>b</ci>
+              <ci>d</ci>
+              <ci>e</ci>
+              <ci>e</ci>
+              <ci>h</ci>
+              <ci>o</ci>
+              <ci>r</ci>
+              <ci>s</ci>
+              <ci>t</ci>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <cn type='integer'>1</cn>
+              <ci>Q</ci>
+            </apply>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>2</cn>
+                <ci>Q</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <cn type='integer'>1</cn>
+              <ci>Q</ci>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

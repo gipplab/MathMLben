@@ -1,0 +1,20 @@
+                                                   dx
+Syntax::sntxf: "(" cannot be followed by "i . e ., --)".
+                                                   dt
+
+ToExpression::esntx: 
+   Could not parse \underbrace{u_1(\mathbf{x},z_1)=v_1+\dot{u}_x}_{\text{By
+      definition of }v_1}=\overbrace{-\frac{\partial V_x}{\partial \mat<
+<304
+       >>, } \frac{ \operatorname{d}u_x }{\operatorname{d}t} \text{)}} as
+     input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

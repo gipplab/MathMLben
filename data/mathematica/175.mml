@@ -1,0 +1,419 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>U</mi>
+          <mi>m</mi>
+        </msub>
+        <mo>(</mo>
+        <mi>&#958;</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8764;</mo>
+      <mrow>
+        <mfrac>
+          <mrow>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>8</mn>
+              </mfrac>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mn>8</mn>
+                <mo>!</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mi>m</mi>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>D</mi>
+                  <mrow>
+                    <mi>m</mi>
+                    <mo>-</mo>
+                    <mn>8</mn>
+                  </mrow>
+                </msub>
+                <mo>(</mo>
+                <mi>&#958;</mi>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mo>+</mo>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>4</mn>
+              </mfrac>
+              <mo>&#8290;</mo>
+              <msup>
+                <mn>2</mn>
+                <mn>5</mn>
+              </msup>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mn>4</mn>
+                <mo>!</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mi>m</mi>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>m</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>D</mi>
+                  <mrow>
+                    <mi>m</mi>
+                    <mo>-</mo>
+                    <mn>4</mn>
+                  </mrow>
+                </msub>
+                <mo>(</mo>
+                <mi>&#958;</mi>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mo>-</mo>
+            <mrow>
+              <msup>
+                <mn>2</mn>
+                <mn>5</mn>
+              </msup>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>m</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>D</mi>
+                  <mrow>
+                    <mi>m</mi>
+                    <mo>+</mo>
+                    <mn>4</mn>
+                  </mrow>
+                </msub>
+                <mo>(</mo>
+                <mi>&#958;</mi>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mo>+</mo>
+            <mrow>
+              <msub>
+                <mi>D</mi>
+                <mrow>
+                  <mi>m</mi>
+                  <mo>+</mo>
+                  <mn>8</mn>
+                </mrow>
+              </msub>
+              <mo>(</mo>
+              <mi>&#958;</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+          <mrow>
+            <msup>
+              <mn>2</mn>
+              <mn>13</mn>
+            </msup>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>h</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </mfrac>
+        <mo>-</mo>
+        <mfrac>
+          <mrow>
+            <mrow>
+              <msub>
+                <mi>D</mi>
+                <mrow>
+                  <mi>m</mi>
+                  <mo>+</mo>
+                  <mn>4</mn>
+                </mrow>
+              </msub>
+              <mo>(</mo>
+              <mi>&#958;</mi>
+              <mo>)</mo>
+            </mrow>
+            <mo>-</mo>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>4</mn>
+              </mfrac>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mn>4</mn>
+                <mo>!</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mi>m</mi>
+              <mo>&#8290;</mo>
+              <mrow>
+                <msub>
+                  <mi>D</mi>
+                  <mrow>
+                    <mi>m</mi>
+                    <mo>-</mo>
+                    <mn>4</mn>
+                  </mrow>
+                </msub>
+                <mo>(</mo>
+                <mi>&#958;</mi>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mrow>
+          <mrow>
+            <msup>
+              <mn>2</mn>
+              <mn>6</mn>
+            </msup>
+            <mo>&#8290;</mo>
+            <mi>h</mi>
+          </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+          <msub>
+            <mi>D</mi>
+            <mi>m</mi>
+          </msub>
+          <mo>(</mo>
+          <mi>&#958;</mi>
+          <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mo>&#8943;</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>Tilde</ci>
+        <apply>
+          <ci>ChebyshevU</ci>
+          <ci>m</ci>
+          <ci>&#958;</ci>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <apply>
+              <plus />
+              <apply>
+                <times />
+                <cn type='rational'>1
+                  <sep />8
+                </cn>
+                <apply>
+                  <factorial />
+                  <cn type='integer'>8</cn>
+                </apply>
+                <ci>m</ci>
+                <apply>
+                  <apply>
+                    <ci>Subscript</ci>
+                    <ci>D</ci>
+                    <apply>
+                      <plus />
+                      <ci>m</ci>
+                      <cn type='integer'>-8</cn>
+                    </apply>
+                  </apply>
+                  <ci>&#958;</ci>
+                </apply>
+              </apply>
+              <apply>
+                <times />
+                <cn type='rational'>1
+                  <sep />4
+                </cn>
+                <apply>
+                  <power />
+                  <cn type='integer'>2</cn>
+                  <cn type='integer'>5</cn>
+                </apply>
+                <apply>
+                  <factorial />
+                  <cn type='integer'>4</cn>
+                </apply>
+                <ci>m</ci>
+                <apply>
+                  <plus />
+                  <ci>m</ci>
+                  <cn type='integer'>-1</cn>
+                </apply>
+                <apply>
+                  <apply>
+                    <ci>Subscript</ci>
+                    <ci>D</ci>
+                    <apply>
+                      <plus />
+                      <ci>m</ci>
+                      <cn type='integer'>-4</cn>
+                    </apply>
+                  </apply>
+                  <ci>&#958;</ci>
+                </apply>
+              </apply>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <apply>
+                  <times />
+                  <apply>
+                    <power />
+                    <cn type='integer'>2</cn>
+                    <cn type='integer'>5</cn>
+                  </apply>
+                  <apply>
+                    <plus />
+                    <ci>m</ci>
+                    <cn type='integer'>2</cn>
+                  </apply>
+                  <apply>
+                    <apply>
+                      <ci>Subscript</ci>
+                      <ci>D</ci>
+                      <apply>
+                        <plus />
+                        <ci>m</ci>
+                        <cn type='integer'>4</cn>
+                      </apply>
+                    </apply>
+                    <ci>&#958;</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>D</ci>
+                  <apply>
+                    <plus />
+                    <ci>m</ci>
+                    <cn type='integer'>8</cn>
+                  </apply>
+                </apply>
+                <ci>&#958;</ci>
+              </apply>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <times />
+                <apply>
+                  <power />
+                  <cn type='integer'>2</cn>
+                  <cn type='integer'>13</cn>
+                </apply>
+                <apply>
+                  <power />
+                  <ci>h</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <apply>
+                <plus />
+                <apply>
+                  <apply>
+                    <ci>Subscript</ci>
+                    <ci>D</ci>
+                    <apply>
+                      <plus />
+                      <ci>m</ci>
+                      <cn type='integer'>4</cn>
+                    </apply>
+                  </apply>
+                  <ci>&#958;</ci>
+                </apply>
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <apply>
+                    <times />
+                    <cn type='rational'>1
+                      <sep />4
+                    </cn>
+                    <apply>
+                      <factorial />
+                      <cn type='integer'>4</cn>
+                    </apply>
+                    <ci>m</ci>
+                    <apply>
+                      <apply>
+                        <ci>Subscript</ci>
+                        <ci>D</ci>
+                        <apply>
+                          <plus />
+                          <ci>m</ci>
+                          <cn type='integer'>-4</cn>
+                        </apply>
+                      </apply>
+                      <ci>&#958;</ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <apply>
+                    <power />
+                    <cn type='integer'>2</cn>
+                    <cn type='integer'>6</cn>
+                  </apply>
+                  <ci>h</ci>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>D</ci>
+              <ci>m</ci>
+            </apply>
+            <ci>&#958;</ci>
+          </apply>
+          <ci>&#8943;</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,24 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>s</mi>
+        <mi>V</mi>
+      </msub>
+      <mo>(</mo>
+      <mi>R</mi>
+      <mo>)</mo>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <apply>
+          <ci>Subscript</ci>
+          <ci>s</ci>
+          <ci>V</ci>
+        </apply>
+        <ci>R</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

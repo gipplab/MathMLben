@@ -1,0 +1,37 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msup>
+          <mi>H</mi>
+          <mn>1</mn>
+        </msup>
+        <mo>(</mo>
+        <mi>K</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <msqrt>
+        <mn>2</mn>
+      </msqrt>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <power />
+            <ci>H</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+          <ci>K</ci>
+        </apply>
+        <apply>
+          <root />
+          <cn type='integer'>2</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

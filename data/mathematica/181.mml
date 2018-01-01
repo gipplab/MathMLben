@@ -1,0 +1,74 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>U</mi>
+          <mn>4</mn>
+        </msub>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mn>16</mn>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>x</mi>
+            <mn>4</mn>
+          </msup>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mn>12</mn>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>+</mo>
+        <mn>1</mn>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>ChebyshevU</ci>
+          <cn type='integer'>4</cn>
+          <ci>x</ci>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <cn type='integer'>16</cn>
+            <apply>
+              <power />
+              <ci>x</ci>
+              <cn type='integer'>4</cn>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <cn type='integer'>12</cn>
+              <apply>
+                <power />
+                <ci>x</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+            </apply>
+          </apply>
+          <cn type='integer'>1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

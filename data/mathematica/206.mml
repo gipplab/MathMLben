@@ -1,0 +1,91 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>p</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <msub>
+          <mi>&#960;</mi>
+          <mi>n</mi>
+        </msub>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <munder>
+            <mo>&#8721;</mo>
+            <mi>&#945;</mi>
+          </munder>
+          <mrow>
+            <msub>
+              <mi>p</mi>
+              <mi>n</mi>
+            </msub>
+            <mo>(</mo>
+            <msub>
+              <mi>e</mi>
+              <mi>&#945;</mi>
+            </msub>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>q</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <msub>
+            <mi>&#960;</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>p</ci>
+          <apply>
+            <ci>Subscript</ci>
+            <pi />
+            <ci>n</ci>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <sum />
+            <bvar>
+              <ci>&#945;</ci>
+            </bvar>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>p</ci>
+                <ci>n</ci>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>e</ci>
+                <ci>&#945;</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <ci>q</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <pi />
+              <ci>n</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

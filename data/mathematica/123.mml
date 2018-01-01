@@ -1,0 +1,123 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mrow>
+          <msup>
+            <msub>
+              <mi>J</mi>
+              <mi>&#957;</mi>
+            </msub>
+            <mo>&#8242;</mo>
+          </msup>
+          <mo>(</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+        </mrow>
+        <mtext></mtext>
+        <semantics>
+          <mrow>
+            <msub>
+              <mi>Y</mi>
+              <mi>&#957;</mi>
+            </msub>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#955;</mi>
+              <mo>&#8290;</mo>
+              <mi>x</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <annotation encoding='Mathematica'>TemplateBox[List[&quot;\[Nu]&quot;, RowBox[List[&quot;\[Lambda]&quot;, &quot; &quot;, &quot;x&quot;]]], &quot;BesselY&quot;]</annotation>
+        </semantics>
+      </mrow>
+      <mo>-</mo>
+      <mrow>
+        <semantics>
+          <mrow>
+            <msub>
+              <mi>J</mi>
+              <mi>&#957;</mi>
+            </msub>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#955;</mi>
+              <mo>&#8290;</mo>
+              <mi>x</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <annotation encoding='Mathematica'>TemplateBox[List[&quot;\[Nu]&quot;, RowBox[List[&quot;\[Lambda]&quot;, &quot; &quot;, &quot;x&quot;]]], &quot;BesselJ&quot;]</annotation>
+        </semantics>
+        <mtext></mtext>
+        <mrow>
+          <mi>SphericalHarmonicY</mi>
+          <mo>[</mo>
+          <mrow>
+            <mi>&#957;</mi>
+            <mo>,</mo>
+            <mo>&#8242;</mo>
+            <mo>,</mo>
+            <mi>x</mi>
+          </mrow>
+          <mo>]</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <plus />
+        <apply>
+          <times />
+          <apply>
+            <partialdiff />
+            <bvar>
+              <ci>x</ci>
+            </bvar>
+            <apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>J</ci>
+                <ci>&#957;</ci>
+              </apply>
+              <ci>x</ci>
+            </apply>
+          </apply>
+          <apply>
+            <ci>BesselY</ci>
+            <ci>&#957;</ci>
+            <apply>
+              <times />
+              <ci>&#955;</ci>
+              <ci>x</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>-1</cn>
+          <apply>
+            <times />
+            <apply>
+              <ci>BesselJ</ci>
+              <ci>&#957;</ci>
+              <apply>
+                <times />
+                <ci>&#955;</ci>
+                <ci>x</ci>
+              </apply>
+            </apply>
+            <apply>
+              <ci>SphericalHarmonicY</ci>
+              <ci>&#957;</ci>
+              <ci>&#8242;</ci>
+              <ci>x</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,100 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>A</mi>
+      <mo>&#63449;</mo>
+      <mroot>
+        <mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mn>27</mn>
+            <mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mn>2</mn>
+                  <mo>&#8290;</mo>
+                  <msqrt>
+                    <mrow>
+                      <mrow>
+                        <mo>-</mo>
+                        <mn>3</mn>
+                      </mrow>
+                      <mo>&#8290;</mo>
+                      <mi>D</mi>
+                    </mrow>
+                  </msqrt>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&#8290;</mo>
+                    <mi>q</mi>
+                  </mrow>
+                  <mo>+</mo>
+                  <mn>3</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mn>3</mn>
+      </mroot>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>A</ci>
+        <apply>
+          <power />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <cn type='integer'>27</cn>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <cn type='integer'>2</cn>
+                    <apply>
+                      <root />
+                      <apply>
+                        <times />
+                        <cn type='integer'>-3</cn>
+                        <ci>D</ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <times />
+                      <cn type='integer'>2</cn>
+                      <ci>q</ci>
+                    </apply>
+                    <cn type='integer'>3</cn>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <cn type='rational'>1
+            <sep />3
+          </cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

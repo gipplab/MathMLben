@@ -1,0 +1,15 @@
+Syntax::sntxf: "(" cannot be followed by "x, y)".
+
+ToExpression::esntx: 
+   Could not parse  F = \{ (x,y) : x \in \mathcal{R}^b,\, y \in
+     \mathcal{R}^n,\; x=y \} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

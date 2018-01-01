@@ -1,0 +1,21 @@
+Syntax::tsntxi: 
+                                     i θ       i θ
+                                         ℓ        j
+   "W  -        ∑         ln | e        - e      |"
+           1 ≤ ℓ < j ≤ n
+     is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse W=-\sum_{1\leq\ell
+<j\leq
+     n}\ln|e^{i\theta_{\ell}}-e^{i\theta_{j}}| as input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

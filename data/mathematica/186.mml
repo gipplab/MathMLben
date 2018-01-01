@@ -1,0 +1,25 @@
+Integrate::nodiffd: 
+      ∞  1/2 a - 1/4  -t   2      -1/2 a - 1/4
+   ∫    t            e   (z  + 2t)             dt
+      0
+     cannot be interpreted. Integrals are entered in the form ∫ f  x
+          b
+     , ∫  f  x, or       ∫       f, where  is entered as dd.
+          a             vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse U\left(a,z\right)=\frac{e^{-\frac{1}{4}z^{2}}}{\Gamma\left(
+      \frac{3}{4}+\frac{1}{2}a\right)}\*\int_{0}^{\infty}t^{\frac{1}{<
+<21
+       >>}\left(z^{2}+2t\right)^{-\frac{1}{2}a-\frac{1}{4}}\mathrm{d}t as
+     input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

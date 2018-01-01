@@ -1,0 +1,40 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>Y</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>IX</mi>
+        <mo>+</mo>
+        <mrow>
+          <mi>&#946;</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>T</mi>
+            <mn>8</mn>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>Y</ci>
+        <apply>
+          <plus />
+          <ci>IX</ci>
+          <apply>
+            <times />
+            <ci>&#946;</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>T</ci>
+              <cn type='integer'>8</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

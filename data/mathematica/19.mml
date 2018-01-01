@@ -1,0 +1,73 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>Z</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munder>
+          <mo>&#8721;</mo>
+          <mi>j</mi>
+        </munder>
+        <mrow>
+          <msub>
+            <mi>g</mi>
+            <mi>j</mi>
+          </msub>
+          <mo>&#183;</mo>
+          <msup>
+            <mi>e</mi>
+            <mrow>
+              <mrow>
+                <mo>-</mo>
+                <mi>&#946;</mi>
+              </mrow>
+              <mo>&#8290;</mo>
+              <msub>
+                <mi>&#8519;</mi>
+                <mi>j</mi>
+              </msub>
+            </mrow>
+          </msup>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>Z</ci>
+        <apply>
+          <sum />
+          <bvar>
+            <ci>j</ci>
+          </bvar>
+          <apply>
+            <ci>CenterDot</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>g</ci>
+              <ci>j</ci>
+            </apply>
+            <apply>
+              <power />
+              <ci>e</ci>
+              <apply>
+                <times />
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <ci>&#946;</ci>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <exponentiale />
+                  <ci>j</ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

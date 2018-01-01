@@ -1,0 +1,161 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>R</mi>
+        <mi>j</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#947;</mi>
+              <mo>+</mo>
+              <mi>j</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#948;</mi>
+              <mo>+</mo>
+              <mi>j</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>n</mi>
+              <mo>-</mo>
+              <mi>j</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#947;</mi>
+              <mo>+</mo>
+              <mi>&#948;</mi>
+              <mo>+</mo>
+              <mi>j</mi>
+              <mo>+</mo>
+              <mi>n</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#947;</mi>
+              <mo>+</mo>
+              <mi>&#948;</mi>
+              <mo>+</mo>
+              <mrow>
+                <mn>2</mn>
+                <mo>&#8290;</mo>
+                <mi>j</mi>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>&#947;</mi>
+              <mo>+</mo>
+              <mi>&#948;</mi>
+              <mo>+</mo>
+              <mrow>
+                <mn>2</mn>
+                <mo>&#8290;</mo>
+                <mi>j</mi>
+              </mrow>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>R</ci>
+          <ci>j</ci>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <plus />
+            <ci>&#947;</ci>
+            <ci>j</ci>
+          </apply>
+          <apply>
+            <plus />
+            <ci>&#948;</ci>
+            <ci>j</ci>
+          </apply>
+          <apply>
+            <plus />
+            <ci>n</ci>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <ci>j</ci>
+            </apply>
+          </apply>
+          <apply>
+            <plus />
+            <ci>&#947;</ci>
+            <ci>&#948;</ci>
+            <ci>j</ci>
+            <ci>n</ci>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <apply>
+                <plus />
+                <ci>&#947;</ci>
+                <ci>&#948;</ci>
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>j</ci>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <ci>&#947;</ci>
+                <ci>&#948;</ci>
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <ci>j</ci>
+                </apply>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,20 @@
+Syntax::tsntxi: 
+   "RowBox[{RowBox[{F     , , 
+                     n + 1
+         RowBox[{  ∑  , TemplateBox[{n - k, k}, Binomial]}]}], ,, n ≥ 0}]"
+                 k ≤ n
+     is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse F_{n+1}=\sum_{k\leq n}\binom{n-k}{k},\quad n\geq 0
+     as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

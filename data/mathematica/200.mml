@@ -1,0 +1,278 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>F</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo>,</mo>
+          <mi>s</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <semantics>
+            <mrow>
+              <mi>&#915;</mi>
+              <mo>&#8289;</mo>
+              <mo>(</mo>
+              <mrow>
+                <mn>1</mn>
+                <mo>-</mo>
+                <mi>s</mi>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <annotation encoding='Mathematica'>TemplateBox[List[RowBox[List[&quot;1&quot;, &quot;-&quot;, &quot;s&quot;]]], &quot;Gamma&quot;]</annotation>
+          </semantics>
+          <mtext></mtext>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mrow>
+                <msup>
+                  <mi>e</mi>
+                  <mrow>
+                    <mfrac>
+                      <mn>1</mn>
+                      <mn>2</mn>
+                    </mfrac>
+                    <mo>&#8290;</mo>
+                    <mi>&#960;</mi>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mi>i</mi>
+                      <mo>&#8289;</mo>
+                      <mo>(</mo>
+                      <mrow>
+                        <mi>s</mi>
+                        <mo>-</mo>
+                        <mn>1</mn>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                </msup>
+                <mo>&#8290;</mo>
+                <mrow>
+                  <mi>&#950;</mi>
+                  <mo>&#8289;</mo>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>-</mo>
+                      <mi>s</mi>
+                    </mrow>
+                    <mo>,</mo>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>-</mo>
+                      <mi>x</mi>
+                    </mrow>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <msup>
+                  <mi>e</mi>
+                  <mrow>
+                    <mfrac>
+                      <mn>1</mn>
+                      <mn>2</mn>
+                    </mfrac>
+                    <mo>&#8290;</mo>
+                    <mi>&#960;</mi>
+                    <mo>&#8290;</mo>
+                    <mrow>
+                      <mi>i</mi>
+                      <mo>&#8289;</mo>
+                      <mo>(</mo>
+                      <mrow>
+                        <mn>1</mn>
+                        <mo>-</mo>
+                        <mi>s</mi>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                </msup>
+                <mo>&#8290;</mo>
+                <mrow>
+                  <mi>&#950;</mi>
+                  <mo>&#8289;</mo>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>-</mo>
+                      <mi>s</mi>
+                    </mrow>
+                    <mo>,</mo>
+                    <mi>x</mi>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mrow>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mi>&#960;</mi>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>s</mi>
+          </mrow>
+        </msup>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>F</ci>
+          <ci>x</ci>
+          <ci>s</ci>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <ci>Gamma</ci>
+            <apply>
+              <plus />
+              <cn type='integer'>1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <ci>s</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <apply>
+                <power />
+                <ci>e</ci>
+                <apply>
+                  <times />
+                  <cn type='rational'>1
+                    <sep />2
+                  </cn>
+                  <pi />
+                  <apply>
+                    <ci>i</ci>
+                    <apply>
+                      <plus />
+                      <ci>s</ci>
+                      <cn type='integer'>-1</cn>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <ci>&#950;</ci>
+                <apply>
+                  <plus />
+                  <cn type='integer'>1</cn>
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <ci>s</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus />
+                  <cn type='integer'>1</cn>
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <ci>x</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <apply>
+                <power />
+                <ci>e</ci>
+                <apply>
+                  <times />
+                  <cn type='rational'>1
+                    <sep />2
+                  </cn>
+                  <pi />
+                  <apply>
+                    <ci>i</ci>
+                    <apply>
+                      <plus />
+                      <cn type='integer'>1</cn>
+                      <apply>
+                        <times />
+                        <cn type='integer'>-1</cn>
+                        <ci>s</ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <ci>&#950;</ci>
+                <apply>
+                  <plus />
+                  <cn type='integer'>1</cn>
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <ci>s</ci>
+                  </apply>
+                </apply>
+                <ci>x</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <power />
+              <apply>
+                <times />
+                <cn type='integer'>2</cn>
+                <pi />
+              </apply>
+              <apply>
+                <plus />
+                <cn type='integer'>1</cn>
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <ci>s</ci>
+                </apply>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

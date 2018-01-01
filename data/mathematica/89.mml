@@ -1,0 +1,44 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>&#963;</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>V</mi>
+        <mo>&#8290;</mo>
+        <mi>X</mi>
+        <mtext></mtext>
+        <semantics>
+          <msup>
+            <mi>X</mi>
+            <mi fontfamily='Helvetica'>T</mi>
+          </msup>
+          <annotation encoding='Mathematica'>TemplateBox[List[&quot;X&quot;], &quot;Transpose&quot;, Rule[SyntaxForm, SuperscriptBox]]</annotation>
+        </semantics>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <power />
+          <ci>&#963;</ci>
+          <cn type='integer'>2</cn>
+        </apply>
+        <apply>
+          <times />
+          <ci>V</ci>
+          <ci>X</ci>
+          <apply>
+            <transpose />
+            <ci>X</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

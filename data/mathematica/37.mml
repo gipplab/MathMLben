@@ -1,0 +1,57 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>H</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mi>j</mi>
+          <mo>&#8290;</mo>
+          <mi>&#969;</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>F</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>{</mo>
+          <mrow>
+            <mi>h</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>t</mi>
+            <mo>)</mo>
+          </mrow>
+          <mo>}</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>H</ci>
+          <apply>
+            <times />
+            <ci>j</ci>
+            <ci>&#969;</ci>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>F</ci>
+          <list>
+            <apply>
+              <ci>h</ci>
+              <ci>t</ci>
+            </apply>
+          </list>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

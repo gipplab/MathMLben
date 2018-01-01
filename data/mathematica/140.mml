@@ -1,0 +1,99 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>w</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>z</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>A</mi>
+            <mo>&#8290;</mo>
+            <mi>c</mi>
+            <mo>&#8290;</mo>
+            <mi>h</mi>
+            <mo>&#8290;</mo>
+            <mi>i</mi>
+            <mo>&#8290;</mo>
+            <mi>n</mi>
+            <mo>&#8290;</mo>
+            <mi>r</mi>
+            <mo>&#8290;</mo>
+            <mi>s</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>arcsinh</mi>
+          <mo>&#8290;</mo>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <mi>k</mi>
+          </msup>
+          <mo>&#8290;</mo>
+          <mi>z</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mi>&#960;</mi>
+          <mo>&#8290;</mo>
+          <mi>i</mi>
+          <mo>&#8290;</mo>
+          <mi>k</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>w</ci>
+        <apply>
+          <times />
+          <ci>z</ci>
+          <apply>
+            <times />
+            <ci>A</ci>
+            <ci>c</ci>
+            <ci>h</ci>
+            <ci>i</ci>
+            <ci>n</ci>
+            <ci>r</ci>
+            <ci>s</ci>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <ci>arcsinh</ci>
+            <apply>
+              <power />
+              <cn type='integer'>-1</cn>
+              <ci>k</ci>
+            </apply>
+            <ci>z</ci>
+          </apply>
+          <apply>
+            <times />
+            <pi />
+            <ci>i</ci>
+            <ci>k</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

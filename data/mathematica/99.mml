@@ -1,0 +1,79 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mfrac>
+      <mrow>
+        <mi>n</mi>
+        <mo>&#8290;</mo>
+        <mo>&#8943;</mo>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>&#948;</mi>
+            <mo>+</mo>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>&#948;</mi>
+            <mo>+</mo>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>2</mn>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mrow>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>&#948;</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>!</mo>
+      </mrow>
+    </mfrac>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <ci>n</ci>
+        <ci>&#8943;</ci>
+        <apply>
+          <plus />
+          <ci>&#948;</ci>
+          <ci>n</ci>
+          <cn type='integer'>-1</cn>
+        </apply>
+        <apply>
+          <plus />
+          <ci>&#948;</ci>
+          <ci>n</ci>
+          <cn type='integer'>-2</cn>
+        </apply>
+        <apply>
+          <power />
+          <apply>
+            <factorial />
+            <apply>
+              <plus />
+              <ci>&#948;</ci>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+          <cn type='integer'>-1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

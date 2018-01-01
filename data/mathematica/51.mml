@@ -1,0 +1,27 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>p</mi>
+      <mo>&#8290;</mo>
+      <mi>r</mi>
+      <mo>&#8290;</mo>
+      <msub>
+        <mi>m</mi>
+        <mi>motor</mi>
+      </msub>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <ci>p</ci>
+        <ci>r</ci>
+        <apply>
+          <ci>Subscript</ci>
+          <ci>m</ci>
+          <ci>motor</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

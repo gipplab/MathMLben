@@ -1,0 +1,129 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>z</mi>
+        <mo>&#8290;</mo>
+        <msup>
+          <msub>
+            <mi>v</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>&#8242;</mo>
+        </msup>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mo>-</mo>
+          <mrow>
+            <mrow>
+              <mn>2</mn>
+            </mrow>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>u</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>&#8290;</mo>
+            <msubsup>
+              <mi>v</mi>
+              <mn>1</mn>
+              <mn>2</mn>
+            </msubsup>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>u</mi>
+            <mn>0</mn>
+          </msub>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <msub>
+            <mi>v</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>&#952;</mi>
+            <mi>&#8734;</mi>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <ci>z</ci>
+          <apply>
+            <partialdiff />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>v</ci>
+              <cn type='integer'>1</cn>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <cn type='integer'>2</cn>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>u</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>v</ci>
+                  <cn type='integer'>1</cn>
+                </apply>
+                <cn type='integer'>2</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>2</cn>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>u</ci>
+              <cn type='integer'>0</cn>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>v</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#952;</ci>
+                <infinity />
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

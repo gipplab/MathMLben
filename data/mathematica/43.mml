@@ -1,0 +1,208 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>f</mi>
+        <mi>&#956;</mi>
+      </msup>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mo>-</mo>
+        <mfrac>
+          <mrow>
+            <mn>8</mn>
+            <mo>&#8290;</mo>
+            <mi>&#960;</mi>
+            <mo>&#8290;</mo>
+            <mi>G</mi>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>u</mi>
+              <mi>&#945;</mi>
+            </msup>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>u</mi>
+              <mi>&#946;</mi>
+            </msup>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>x</mi>
+              <mi>&#957;</mi>
+            </msup>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <msubsup>
+                  <mi>&#948;</mi>
+                  <mi>&#957;</mi>
+                  <mi>&#956;</mi>
+                </msubsup>
+                <mo>+</mo>
+                <mrow>
+                  <msup>
+                    <mi>u</mi>
+                    <mi>&#956;</mi>
+                  </msup>
+                  <mo>&#8290;</mo>
+                  <msub>
+                    <mi>u</mi>
+                    <mi>&#957;</mi>
+                  </msub>
+                </mrow>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mi>A</mi>
+                    <mo>&#8290;</mo>
+                    <msub>
+                      <mi>T</mi>
+                      <mi>&#945;&#946;</mi>
+                    </msub>
+                  </mrow>
+                  <mn>2</mn>
+                </mfrac>
+                <mo>+</mo>
+                <mrow>
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </mfrac>
+                  <mo>&#8290;</mo>
+                  <mi>B</mi>
+                  <mo>&#8290;</mo>
+                  <mi>T</mi>
+                  <mo>&#8290;</mo>
+                  <msub>
+                    <mi>&#951;</mi>
+                    <mi>&#945;&#946;</mi>
+                  </msub>
+                </mrow>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+          <mrow>
+            <mn>3</mn>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>c</mi>
+              <mn>4</mn>
+            </msup>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <power />
+          <ci>f</ci>
+          <ci>&#956;</ci>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>-1</cn>
+          <apply>
+            <times />
+            <cn type='integer'>8</cn>
+            <pi />
+            <ci>G</ci>
+            <apply>
+              <power />
+              <ci>u</ci>
+              <ci>&#945;</ci>
+            </apply>
+            <apply>
+              <power />
+              <ci>u</ci>
+              <ci>&#946;</ci>
+            </apply>
+            <apply>
+              <power />
+              <ci>x</ci>
+              <ci>&#957;</ci>
+            </apply>
+            <apply>
+              <plus />
+              <apply>
+                <power />
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>&#948;</ci>
+                  <ci>&#957;</ci>
+                </apply>
+                <ci>&#956;</ci>
+              </apply>
+              <apply>
+                <times />
+                <apply>
+                  <power />
+                  <ci>u</ci>
+                  <ci>&#956;</ci>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>u</ci>
+                  <ci>&#957;</ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus />
+              <apply>
+                <times />
+                <ci>A</ci>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>T</ci>
+                  <ci>&#945;&#946;</ci>
+                </apply>
+                <apply>
+                  <power />
+                  <cn type='integer'>2</cn>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+              <apply>
+                <times />
+                <cn type='rational'>1
+                  <sep />2
+                </cn>
+                <ci>B</ci>
+                <ci>T</ci>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>&#951;</ci>
+                  <ci>&#945;&#946;</ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <times />
+                <cn type='integer'>3</cn>
+                <apply>
+                  <power />
+                  <ci>c</ci>
+                  <cn type='integer'>4</cn>
+                </apply>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,64 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>h</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munder>
+          <mo>&#8721;</mo>
+          <mi>j</mi>
+        </munder>
+        <mrow>
+          <msub>
+            <mover>
+              <mi>w</mi>
+              <mo>^</mo>
+            </mover>
+            <mi>ij</mi>
+          </msub>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>s</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>h</ci>
+          <ci>i</ci>
+        </apply>
+        <apply>
+          <sum />
+          <bvar>
+            <ci>j</ci>
+          </bvar>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <apply>
+                <ci>OverHat</ci>
+                <ci>w</ci>
+              </apply>
+              <ci>ij</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>s</ci>
+              <ci>j</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

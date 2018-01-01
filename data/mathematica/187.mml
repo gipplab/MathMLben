@@ -1,0 +1,18 @@
+Syntax::tsntxi: "2ia, 1" is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse w_{1}(a,x)=e^{-\frac{1}{4}ix^{2}}M\left(\tfrac{1}{4}-\tfrac
+      {1}{2}ia,\tfrac{1}{2},\tfrac{1}{2}ix^{2}\right)=e^{\frac{1}{4}i<
+<19
+       >>{1}{4}+\tfrac{1}{2}ia,\tfrac{1}{2},-\tfrac{1}{2}ix^{2}\right) as
+     input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

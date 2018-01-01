@@ -1,0 +1,680 @@
+XML`MathML`BoxesToSymbolicMathML::uncnvbxs: 
+   The boxes 1[System`Convert`MathMLDump`inert[j]]
+     are not convertible to a symbolic XML expression.
+
+XML`MathML`BoxesToSymbolicMathML::uncnvbxs: 
+   The boxes 2[System`Convert`MathMLDump`inert[j]]
+     are not convertible to a symbolic XML expression.
+
+XML`MathML`BoxesToSymbolicMathML::uncnvbxs: 
+   The boxes 3[System`Convert`MathMLDump`inert[j]]
+     are not convertible to a symbolic XML expression.
+
+General::stop: Further output of XML`MathML`BoxesToSymbolicMathML::uncnvbxs
+     will be suppressed during this calculation.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>{</mo>
+        <semantics>
+          <mrow>
+            <mo>(</mo>
+            <mtable rowspacing='1ex'
+          columnspacing='1em'
+          rowalign='baseline'
+          columnalign='center'>
+              <mtr>
+                <mtd>
+                  <mrow>
+                    <mtext></mtext>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>&#8289;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mi>j</mi>
+                        <mo>)</mo>
+                      </mrow>
+                    </mrow>
+                    <mtext></mtext>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mrow>
+                    <mtext></mtext>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>&#8289;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mi>j</mi>
+                        <mo>)</mo>
+                      </mrow>
+                    </mrow>
+                    <mtext></mtext>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mrow>
+                    <mtext></mtext>
+                    <mrow>
+                      <mn>3</mn>
+                      <mo>&#8289;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mi>j</mi>
+                        <mo>)</mo>
+                      </mrow>
+                    </mrow>
+                    <mtext></mtext>
+                  </mrow>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mrow>
+                    <mtext></mtext>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>&#8289;</mo>
+                      <mrow>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>)</mo>
+                      </mrow>
+                    </mrow>
+                    <mtext></mtext>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mrow>
+                    <mtext></mtext>
+                    <mrow>
+                      <mo>{</mo>
+                      <mrow>
+                        <msub>
+                          <mi>j</mi>
+                          <mn>3</mn>
+                        </msub>
+                        <mo>,</mo>
+                        <mi>Null</mi>
+                        <mo>,</mo>
+                        <mrow>
+                          <mi>ErrorBox</mi>
+                          <mo>[</mo>
+                          <mrow>
+                            <mi>ErrorBox</mi>
+                            <mo>[</mo>
+                            <ms>-</ms>
+                            <mo>]</mo>
+                          </mrow>
+                          <mo>]</mo>
+                        </mrow>
+                        <mo>,</mo>
+                        <mi>Null</mi>
+                        <mo>,</mo>
+                        <mfrac>
+                          <mn>1</mn>
+                          <mn>2</mn>
+                        </mfrac>
+                      </mrow>
+                      <mo>}</mo>
+                    </mrow>
+                    <mtext></mtext>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mrow>
+                    <mtext></mtext>
+                    <mrow>
+                      <mo>{</mo>
+                      <mrow>
+                        <msub>
+                          <mi>j</mi>
+                          <mn>2</mn>
+                        </msub>
+                        <mo>,</mo>
+                        <mi>Null</mi>
+                        <mo>,</mo>
+                        <mrow>
+                          <mi>ErrorBox</mi>
+                          <mo>[</mo>
+                          <mrow>
+                            <mi>ErrorBox</mi>
+                            <mo>[</mo>
+                            <ms>-</ms>
+                            <mo>]</mo>
+                          </mrow>
+                          <mo>]</mo>
+                        </mrow>
+                        <mo>,</mo>
+                        <mi>Null</mi>
+                        <mo>,</mo>
+                        <mfrac>
+                          <mn>1</mn>
+                          <mn>2</mn>
+                        </mfrac>
+                      </mrow>
+                      <mo>}</mo>
+                    </mrow>
+                    <mtext></mtext>
+                  </mrow>
+                </mtd>
+              </mtr>
+            </mtable>
+            <mo>)</mo>
+          </mrow>
+          <annotation-xml encoding='MathML-Content'>
+            <apply>
+              <ci>ExpressionCell</ci>
+              <apply>
+                <ci>TraditionalForm</ci>
+                <list>
+                  <list>
+                    <apply>
+                      <ci>TextCell</ci>
+                      <apply>
+                        <ci>Row</ci>
+                        <list>
+                          <ms></ms>
+                          <apply>
+                            <ci>ExpressionCell</ci>
+                            <none />
+                            <ms>InlineFormula</ms>
+                          </apply>
+                          <ms></ms>
+                        </list>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <ci>TextCell</ci>
+                      <apply>
+                        <ci>Row</ci>
+                        <list>
+                          <ms></ms>
+                          <apply>
+                            <ci>ExpressionCell</ci>
+                            <none />
+                            <ms>InlineFormula</ms>
+                          </apply>
+                          <ms></ms>
+                        </list>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <ci>TextCell</ci>
+                      <apply>
+                        <ci>Row</ci>
+                        <list>
+                          <ms></ms>
+                          <apply>
+                            <ci>ExpressionCell</ci>
+                            <none />
+                            <ms>InlineFormula</ms>
+                          </apply>
+                          <ms></ms>
+                        </list>
+                      </apply>
+                    </apply>
+                  </list>
+                  <list>
+                    <apply>
+                      <ci>TextCell</ci>
+                      <apply>
+                        <ci>Row</ci>
+                        <list>
+                          <ms></ms>
+                          <apply>
+                            <ci>ExpressionCell</ci>
+                            <none />
+                            <ms>InlineFormula</ms>
+                          </apply>
+                          <ms></ms>
+                        </list>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <ci>TextCell</ci>
+                      <apply>
+                        <ci>Row</ci>
+                        <list>
+                          <ms></ms>
+                          <apply>
+                            <ci>ExpressionCell</ci>
+                            <list>
+                              <apply>
+                                <ci>Subscript</ci>
+                                <ci>j</ci>
+                                <cn type='integer'>3</cn>
+                              </apply>
+                              <ci>Null</ci>
+                              <apply>
+                                <ci>ErrorBox</ci>
+                                <apply>
+                                  <ci>ErrorBox</ci>
+                                  <ms>-</ms>
+                                </apply>
+                              </apply>
+                              <ci>Null</ci>
+                              <cn type='rational'>1
+                                <sep />2
+                              </cn>
+                            </list>
+                            <ms>InlineFormula</ms>
+                          </apply>
+                          <ms></ms>
+                        </list>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <ci>TextCell</ci>
+                      <apply>
+                        <ci>Row</ci>
+                        <list>
+                          <ms></ms>
+                          <apply>
+                            <ci>ExpressionCell</ci>
+                            <list>
+                              <apply>
+                                <ci>Subscript</ci>
+                                <ci>j</ci>
+                                <cn type='integer'>2</cn>
+                              </apply>
+                              <ci>Null</ci>
+                              <apply>
+                                <ci>ErrorBox</ci>
+                                <apply>
+                                  <ci>ErrorBox</ci>
+                                  <ms>-</ms>
+                                </apply>
+                              </apply>
+                              <ci>Null</ci>
+                              <cn type='rational'>1
+                                <sep />2
+                              </cn>
+                            </list>
+                            <ms>InlineFormula</ms>
+                          </apply>
+                          <ms></ms>
+                        </list>
+                      </apply>
+                    </apply>
+                  </list>
+                </list>
+              </apply>
+            </apply>
+          </annotation-xml>
+        </semantics>
+        <mo>}</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mi>J</mi>
+        </msup>
+        <mo>&#8290;</mo>
+        <msqrt>
+          <mfrac>
+            <mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mrow>
+                    <mo>-</mo>
+                    <mrow>
+                      <msub>
+                        <mi>j</mi>
+                        <mn>1</mn>
+                      </msub>
+                    </mrow>
+                  </mrow>
+                  <mo>+</mo>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>2</mn>
+                  </msub>
+                  <mo>+</mo>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>3</mn>
+                  </msub>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>&#8290;</mo>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>1</mn>
+                  </msub>
+                  <mo>+</mo>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>2</mn>
+                  </msub>
+                  <mo>+</mo>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>3</mn>
+                  </msub>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mo>&#8290;</mo>
+              <mn>2</mn>
+              <mtext></mtext>
+              <semantics>
+                <mrow>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>2</mn>
+                  </msub>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>&#8290;</mo>
+                      <msub>
+                        <mi>j</mi>
+                        <mn>2</mn>
+                      </msub>
+                    </mrow>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <annotation encoding='Mathematica'>TemplateBox[List[&quot;2&quot;, RowBox[List[RowBox[List[&quot;2&quot;, &quot; &quot;, SubscriptBox[&quot;j&quot;, &quot;2&quot;]]], &quot;+&quot;, &quot;1&quot;]]], &quot;SphericalBesselJ&quot;]</annotation>
+              </semantics>
+              <mtext></mtext>
+              <semantics>
+                <mrow>
+                  <msub>
+                    <mi>j</mi>
+                    <mn>3</mn>
+                  </msub>
+                  <mo>(</mo>
+                  <mrow>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>&#8290;</mo>
+                      <msub>
+                        <mi>j</mi>
+                        <mn>3</mn>
+                      </msub>
+                    </mrow>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <annotation encoding='Mathematica'>TemplateBox[List[&quot;3&quot;, RowBox[List[RowBox[List[&quot;2&quot;, &quot; &quot;, SubscriptBox[&quot;j&quot;, &quot;3&quot;]]], &quot;+&quot;, &quot;1&quot;]]], &quot;SphericalBesselJ&quot;]</annotation>
+              </semantics>
+            </mrow>
+          </mfrac>
+        </msqrt>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <list>
+          <apply>
+            <ci>ExpressionCell</ci>
+            <apply>
+              <ci>TraditionalForm</ci>
+              <list>
+                <list>
+                  <apply>
+                    <ci>TextCell</ci>
+                    <apply>
+                      <ci>Row</ci>
+                      <list>
+                        <ms></ms>
+                        <apply>
+                          <ci>ExpressionCell</ci>
+                          <none />
+                          <ms>InlineFormula</ms>
+                        </apply>
+                        <ms></ms>
+                      </list>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <ci>TextCell</ci>
+                    <apply>
+                      <ci>Row</ci>
+                      <list>
+                        <ms></ms>
+                        <apply>
+                          <ci>ExpressionCell</ci>
+                          <none />
+                          <ms>InlineFormula</ms>
+                        </apply>
+                        <ms></ms>
+                      </list>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <ci>TextCell</ci>
+                    <apply>
+                      <ci>Row</ci>
+                      <list>
+                        <ms></ms>
+                        <apply>
+                          <ci>ExpressionCell</ci>
+                          <none />
+                          <ms>InlineFormula</ms>
+                        </apply>
+                        <ms></ms>
+                      </list>
+                    </apply>
+                  </apply>
+                </list>
+                <list>
+                  <apply>
+                    <ci>TextCell</ci>
+                    <apply>
+                      <ci>Row</ci>
+                      <list>
+                        <ms></ms>
+                        <apply>
+                          <ci>ExpressionCell</ci>
+                          <none />
+                          <ms>InlineFormula</ms>
+                        </apply>
+                        <ms></ms>
+                      </list>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <ci>TextCell</ci>
+                    <apply>
+                      <ci>Row</ci>
+                      <list>
+                        <ms></ms>
+                        <apply>
+                          <ci>ExpressionCell</ci>
+                          <list>
+                            <apply>
+                              <ci>Subscript</ci>
+                              <ci>j</ci>
+                              <cn type='integer'>3</cn>
+                            </apply>
+                            <ci>Null</ci>
+                            <apply>
+                              <ci>ErrorBox</ci>
+                              <apply>
+                                <ci>ErrorBox</ci>
+                                <ms>-</ms>
+                              </apply>
+                            </apply>
+                            <ci>Null</ci>
+                            <cn type='rational'>1
+                              <sep />2
+                            </cn>
+                          </list>
+                          <ms>InlineFormula</ms>
+                        </apply>
+                        <ms></ms>
+                      </list>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <ci>TextCell</ci>
+                    <apply>
+                      <ci>Row</ci>
+                      <list>
+                        <ms></ms>
+                        <apply>
+                          <ci>ExpressionCell</ci>
+                          <list>
+                            <apply>
+                              <ci>Subscript</ci>
+                              <ci>j</ci>
+                              <cn type='integer'>2</cn>
+                            </apply>
+                            <ci>Null</ci>
+                            <apply>
+                              <ci>ErrorBox</ci>
+                              <apply>
+                                <ci>ErrorBox</ci>
+                                <ms>-</ms>
+                              </apply>
+                            </apply>
+                            <ci>Null</ci>
+                            <cn type='rational'>1
+                              <sep />2
+                            </cn>
+                          </list>
+                          <ms>InlineFormula</ms>
+                        </apply>
+                        <ms></ms>
+                      </list>
+                    </apply>
+                  </apply>
+                </list>
+              </list>
+            </apply>
+          </apply>
+        </list>
+        <apply>
+          <times />
+          <apply>
+            <power />
+            <cn type='integer'>-1</cn>
+            <ci>J</ci>
+          </apply>
+          <apply>
+            <root />
+            <apply>
+              <times />
+              <apply>
+                <plus />
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <apply>
+                    <ci>Subscript</ci>
+                    <ci>j</ci>
+                    <cn type='integer'>1</cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>j</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>j</ci>
+                  <cn type='integer'>3</cn>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>j</ci>
+                  <cn type='integer'>1</cn>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>j</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>j</ci>
+                  <cn type='integer'>3</cn>
+                </apply>
+                <cn type='integer'>1</cn>
+              </apply>
+              <apply>
+                <power />
+                <apply>
+                  <times />
+                  <cn type='integer'>2</cn>
+                  <cn type='integer'>2</cn>
+                  <apply>
+                    <ci>SphericalBesselJ</ci>
+                    <cn type='integer'>2</cn>
+                    <apply>
+                      <plus />
+                      <apply>
+                        <times />
+                        <cn type='integer'>2</cn>
+                        <apply>
+                          <ci>Subscript</ci>
+                          <ci>j</ci>
+                          <cn type='integer'>2</cn>
+                        </apply>
+                      </apply>
+                      <cn type='integer'>1</cn>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <ci>SphericalBesselJ</ci>
+                    <cn type='integer'>3</cn>
+                    <apply>
+                      <plus />
+                      <apply>
+                        <times />
+                        <cn type='integer'>2</cn>
+                        <apply>
+                          <ci>Subscript</ci>
+                          <ci>j</ci>
+                          <cn type='integer'>3</cn>
+                        </apply>
+                      </apply>
+                      <cn type='integer'>1</cn>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

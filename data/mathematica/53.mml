@@ -1,0 +1,74 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>&#8519;</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <msup>
+          <mover>
+            <mi>&#963;</mi>
+            <mo>^</mo>
+          </mover>
+          <mn>2</mn>
+        </msup>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>(</mo>
+            <mrow>
+              <mi>n</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>&#963;</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mi>n</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <exponentiale />
+          <apply>
+            <power />
+            <apply>
+              <ci>OverHat</ci>
+              <ci>&#963;</ci>
+            </apply>
+            <cn type='integer'>2</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <plus />
+            <ci>n</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+          <apply>
+            <power />
+            <ci>&#963;</ci>
+            <cn type='integer'>2</cn>
+          </apply>
+          <apply>
+            <power />
+            <ci>n</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

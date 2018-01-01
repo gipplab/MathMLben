@@ -1,0 +1,100 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>W</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mi>&#950;</mi>
+            <mo>;</mo>
+            <msub>
+              <mi>&#945;</mi>
+              <mn>0</mn>
+            </msub>
+          </mrow>
+          <mo>,</mo>
+          <msub>
+            <mi>&#946;</mi>
+            <mn>0</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>&#947;</mi>
+            <mn>0</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>&#948;</mi>
+            <mn>0</mn>
+          </msub>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mi>v</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+        <mrow>
+          <mi>v</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>W</ci>
+          <apply>
+            <ci>CompoundExpression</ci>
+            <ci>&#950;</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#945;</ci>
+              <cn type='integer'>0</cn>
+            </apply>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#946;</ci>
+            <cn type='integer'>0</cn>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#947;</ci>
+            <cn type='integer'>0</cn>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#948;</ci>
+            <cn type='integer'>0</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <plus />
+            <ci>v</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <plus />
+              <ci>v</ci>
+              <cn type='integer'>1</cn>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,35 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msubsup>
+        <mi>&#958;</mi>
+        <mi>i</mi>
+        <mi>&#956;</mi>
+      </msubsup>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mo>&#177;</mo>
+        <mn>1</mn>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <power />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#958;</ci>
+            <ci>i</ci>
+          </apply>
+          <ci>&#956;</ci>
+        </apply>
+        <apply>
+          <ci>PlusMinus</ci>
+          <cn type='integer'>1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

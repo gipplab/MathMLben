@@ -1,0 +1,34 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>f</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>f</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mi>t</mi>
+          <mo>,</mo>
+          <mi>x</mi>
+          <mo>,</mo>
+          <mi>v</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>f</ci>
+        <apply>
+          <ci>f</ci>
+          <ci>t</ci>
+          <ci>x</ci>
+          <ci>v</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

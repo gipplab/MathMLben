@@ -1,0 +1,19 @@
+Syntax::bktmop: 
+                             2
+                          d m        -3
+   Expression "ΔxΔv ≥ ---- þ    〉" has no opening "〈".
+                           2
+
+ToExpression::esntx: 
+   Could not parse \Delta x\Delta v\geq\frac{dm^{2}}{2}\left\langle
+     E^{-3}\right\rangle as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

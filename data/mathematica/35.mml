@@ -1,0 +1,37 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>P</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mi>n</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mi>k</mi>
+        <mi>n</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>P</ci>
+          <ci>n</ci>
+        </apply>
+        <apply>
+          <times />
+          <ci>k</ci>
+          <apply>
+            <power />
+            <ci>n</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

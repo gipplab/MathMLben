@@ -1,0 +1,15 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msup>
+      <mi>S</mi>
+      <mo>&#8242;</mo>
+    </msup>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <partialdiff />
+        <ci>S</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

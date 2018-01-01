@@ -1,0 +1,39 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>{</mo>
+        <mrow>
+          <mrow>
+            <mn>3</mn>
+            <mo>&#8290;</mo>
+            <mi>k</mi>
+          </mrow>
+          <mo>+</mo>
+          <mn>4</mn>
+        </mrow>
+        <mo>}</mo>
+      </mrow>
+      <mo>&#8834;</mo>
+      <mi>C</mi>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <prsubset />
+        <list>
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <cn type='integer'>3</cn>
+              <ci>k</ci>
+            </apply>
+            <cn type='integer'>4</cn>
+          </apply>
+        </list>
+        <ci>C</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

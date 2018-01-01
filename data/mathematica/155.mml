@@ -1,0 +1,41 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mn>1</mn>
+        <mn>12</mn>
+      </mfrac>
+      <mo>&#8290;</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <msub>
+            <mi>a</mi>
+            <mn>0</mn>
+          </msub>
+          <mo>&#63449;</mo>
+          <mn>1</mn>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <cn type='rational'>1
+          <sep />12
+        </cn>
+        <apply>
+          <eq />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>a</ci>
+            <cn type='integer'>0</cn>
+          </apply>
+          <cn type='integer'>1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

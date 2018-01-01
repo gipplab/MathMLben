@@ -1,0 +1,26 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>F</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mn>2</mn>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8290;</mo>
+      <mi>G</mi>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <apply>
+          <ci>F</ci>
+          <cn type='integer'>2</cn>
+        </apply>
+        <ci>G</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

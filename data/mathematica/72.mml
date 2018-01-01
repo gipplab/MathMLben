@@ -1,0 +1,17 @@
+Syntax::tsntxi: 
+     M           *  ×
+   "K (k) :  T (k  )/(a ⊗ (1 - a))" is incomplete; more input is needed.
+     *
+
+ToExpression::esntx: 
+   Could not parse  K^M_*(k) := T^*(k^\times)/(a\otimes (1-a))  as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

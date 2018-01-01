@@ -1,0 +1,167 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <munderover>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>n</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+          </mrow>
+          <mi>&#8734;</mi>
+        </munderover>
+        <mrow>
+          <msup>
+            <mi>a</mi>
+            <mi>n</mi>
+          </msup>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>&#946;</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>q</mi>
+            <msup>
+              <mi>n</mi>
+              <mn>2</mn>
+            </msup>
+          </msup>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <munderover>
+            <mo>&#8721;</mo>
+            <mrow>
+              <mi>n</mi>
+              <mo>=</mo>
+              <mn>0</mn>
+            </mrow>
+            <mi>&#8734;</mi>
+          </munderover>
+          <mrow>
+            <msup>
+              <mi>a</mi>
+              <mi>n</mi>
+            </msup>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>&#945;</mi>
+              <mi>n</mi>
+            </msub>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>q</mi>
+              <msup>
+                <mi>n</mi>
+                <mn>2</mn>
+              </msup>
+            </msup>
+          </mrow>
+        </mrow>
+        <msub>
+          <mrow>
+            <mi>aq</mi>
+            <mo>;</mo>
+            <mi>q</mi>
+          </mrow>
+          <mi>&#8734;</mi>
+        </msub>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <sum />
+          <bvar>
+            <ci>n</ci>
+          </bvar>
+          <lowlimit>
+            <cn type='integer'>0</cn>
+          </lowlimit>
+          <uplimit>
+            <infinity />
+          </uplimit>
+          <apply>
+            <times />
+            <apply>
+              <power />
+              <ci>a</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#946;</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <power />
+              <ci>q</ci>
+              <apply>
+                <power />
+                <ci>n</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <sum />
+            <bvar>
+              <ci>n</ci>
+            </bvar>
+            <lowlimit>
+              <cn type='integer'>0</cn>
+            </lowlimit>
+            <uplimit>
+              <infinity />
+            </uplimit>
+            <apply>
+              <times />
+              <apply>
+                <power />
+                <ci>a</ci>
+                <ci>n</ci>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#945;</ci>
+                <ci>n</ci>
+              </apply>
+              <apply>
+                <power />
+                <ci>q</ci>
+                <apply>
+                  <power />
+                  <ci>n</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <ci>Subscript</ci>
+              <apply>
+                <ci>CompoundExpression</ci>
+                <ci>aq</ci>
+                <ci>q</ci>
+              </apply>
+              <infinity />
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

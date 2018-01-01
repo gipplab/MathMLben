@@ -1,0 +1,46 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mo>{</mo>
+      <mrow>
+        <mi>C</mi>
+        <mo>:</mo>
+        <mrow>
+          <mrow>
+            <msub>
+              <mi>K</mi>
+              <mi>X</mi>
+            </msub>
+            <mo>&#183;</mo>
+            <mi>C</mi>
+          </mrow>
+          <mo>&#63449;</mo>
+          <mn>0</mn>
+        </mrow>
+      </mrow>
+      <mo>}</mo>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <list>
+        <apply>
+          <ci>Pattern</ci>
+          <ci>C</ci>
+          <apply>
+            <eq />
+            <apply>
+              <ci>CenterDot</ci>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>K</ci>
+                <ci>X</ci>
+              </apply>
+              <ci>C</ci>
+            </apply>
+            <cn type='integer'>0</cn>
+          </apply>
+        </apply>
+      </list>
+    </annotation-xml>
+  </semantics>
+</math>

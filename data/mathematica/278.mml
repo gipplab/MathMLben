@@ -1,0 +1,18 @@
+                        _
+Syntax::tsntxi: "F    , F     " is incomplete; more input is needed.
+                  αβ   .  .
+                         α β
+
+ToExpression::esntx: 
+   Could not parse F_{\alpha\beta},\bar{F}_{{\dot{\alpha}}{\dot{\beta}}}
+     as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

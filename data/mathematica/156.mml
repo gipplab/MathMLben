@@ -1,0 +1,23 @@
+Integrate::nodiffd: 
+      (1 +, 0 +, 1 -, 0 -)  a - 1        b - 1
+   ∫                     t      (1 - t)      dt
+      P
+     cannot be interpreted. Integrals are entered in the form ∫ f  x
+          b
+     , ∫  f  x, or       ∫       f, where  is entered as dd.
+          a             vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse \int_{P}^{(1+,0+,1-,0-)}t^{a-1}(1-t)^{b-1}\mathrm{d}t=-4e^{
+     \pi i(a+b)}\sin\left(\pi a\right)\sin\left(\pi
+     b\right)\mathrm{B}\left(a,b\right) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

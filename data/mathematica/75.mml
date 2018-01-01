@@ -1,0 +1,56 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <mi>t</mi>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>D</mi>
+            <mo>[</mo>
+            <mrow>
+              <mi>&#961;</mi>
+              <mo>&#8290;</mo>
+              <msub>
+                <mi>u</mi>
+                <mi>i</mi>
+              </msub>
+            </mrow>
+            <mo>]</mo>
+          </mrow>
+        </mrow>
+        <mi>D</mi>
+      </mfrac>
+      <mo>&#8776;</mo>
+      <mn>0</mn>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <ci>TildeTilde</ci>
+        <apply>
+          <times />
+          <ci>t</ci>
+          <apply>
+            <ci>D</ci>
+            <apply>
+              <times />
+              <ci>&#961;</ci>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>u</ci>
+                <ci>i</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <power />
+            <ci>D</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <cn type='integer'>0</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

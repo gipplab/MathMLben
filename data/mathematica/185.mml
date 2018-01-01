@@ -1,0 +1,94 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <msub>
+          <mi>p</mi>
+          <mi>n</mi>
+        </msub>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <msub>
+          <mi>W</mi>
+          <mi>n</mi>
+        </msub>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mi>x</mi>
+            <mo>;</mo>
+            <msub>
+              <mi>a</mi>
+              <mn>1</mn>
+            </msub>
+          </mrow>
+          <mo>,</mo>
+          <msub>
+            <mi>a</mi>
+            <mn>2</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>a</mi>
+            <mn>3</mn>
+          </msub>
+          <mo>,</mo>
+          <msub>
+            <mi>a</mi>
+            <mn>4</mn>
+          </msub>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>p</ci>
+            <ci>n</ci>
+          </apply>
+          <ci>x</ci>
+        </apply>
+        <apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>W</ci>
+            <ci>n</ci>
+          </apply>
+          <apply>
+            <ci>CompoundExpression</ci>
+            <ci>x</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>a</ci>
+              <cn type='integer'>1</cn>
+            </apply>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>a</ci>
+            <cn type='integer'>2</cn>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>a</ci>
+            <cn type='integer'>3</cn>
+          </apply>
+          <apply>
+            <ci>Subscript</ci>
+            <ci>a</ci>
+            <cn type='integer'>4</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

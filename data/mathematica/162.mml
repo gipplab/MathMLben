@@ -1,0 +1,16 @@
+Syntax::tsntxi: "a, 1 - a" is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse F\left({a,1-a\atop
+     c};z\right)=(1-z)^{c-1}F\left({\frac{1}{2}(c-a),\frac{1}{2}(a+c-1)\atop
+     c};4z(1-z)\right) as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

@@ -1,0 +1,15 @@
+Syntax::sntxf: "(" cannot be followed by "p, q)".
+
+ToExpression::esntx: 
+   Could not parse {\mu}_{k}=E(C_{k})=({\ddot{s}}_{a})_{\overline{k}|j}^{(p,q)
+     } as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

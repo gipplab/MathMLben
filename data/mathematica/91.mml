@@ -1,0 +1,75 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msub>
+        <mrow>
+          <mo>{</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>,</mo>
+            <msub>
+              <mi>p</mi>
+              <mi>x</mi>
+            </msub>
+          </mrow>
+          <mo>}</mo>
+        </mrow>
+        <mi>DB</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <msub>
+        <mrow>
+          <mo>{</mo>
+          <mrow>
+            <mi>y</mi>
+            <mo>,</mo>
+            <msub>
+              <mi>p</mi>
+              <mi>y</mi>
+            </msub>
+          </mrow>
+          <mo>}</mo>
+        </mrow>
+        <mi>DB</mi>
+      </msub>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <list>
+            <ci>x</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>p</ci>
+              <ci>x</ci>
+            </apply>
+          </list>
+          <ci>DB</ci>
+        </apply>
+        <apply>
+          <ci>Subscript</ci>
+          <list>
+            <ci>y</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>p</ci>
+              <ci>y</ci>
+            </apply>
+          </list>
+          <ci>DB</ci>
+        </apply>
+        <cn type='rational'>1
+          <sep />2
+        </cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

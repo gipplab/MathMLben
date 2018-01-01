@@ -1,0 +1,34 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>dim</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>f</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mi>Z</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&gt;</mo>
+      <mi>n</mi>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <gt />
+        <apply>
+          <times />
+          <ci>dim</ci>
+          <apply>
+            <ci>f</ci>
+            <ci>Z</ci>
+          </apply>
+        </apply>
+        <ci>n</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

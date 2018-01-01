@@ -1,0 +1,17 @@
+                        -n
+Syntax::tsntxi: "a, b, q  " is incomplete; more input is needed.
+
+ToExpression::esntx: 
+   Could not parse {{}_{3}\phi_{2}}\left({a,b,q^{-n}\atop
+     c,abq^{1-n}/c};q,q\right)=\frac{\left(c/a,c/b;q\right)_{n}}{\left(c,c/(ab
+     );q\right)_{n}} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

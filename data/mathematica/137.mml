@@ -1,0 +1,84 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mn>2</mn>
+        <mo>&#8290;</mo>
+        <mi>u</mi>
+        <mo>&#8290;</mo>
+        <mi>v</mi>
+        <mo>&#8290;</mo>
+        <mi>sin</mi>
+        <mo>&#8290;</mo>
+        <mi>sin</mi>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mi>u</mi>
+            <mo>-</mo>
+            <mi>v</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>-</mo>
+        <mrow>
+          <mi>cos</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mi>u</mi>
+            <mo>+</mo>
+            <mi>v</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <cn type='integer'>2</cn>
+          <ci>u</ci>
+          <ci>v</ci>
+          <ci>sin</ci>
+          <ci>sin</ci>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <cos />
+            <apply>
+              <plus />
+              <ci>u</ci>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <ci>v</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <cn type='integer'>-1</cn>
+            <apply>
+              <cos />
+              <apply>
+                <plus />
+                <ci>u</ci>
+                <ci>v</ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

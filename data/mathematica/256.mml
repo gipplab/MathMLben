@@ -1,0 +1,17 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>GCH</mi>
+      <mo>+</mo>
+      <mi>ZFC</mi>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <plus />
+        <ci>GCH</ci>
+        <ci>ZFC</ci>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

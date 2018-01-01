@@ -1,0 +1,32 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>&#952;</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>n</mi>
+        <mtext></mtext>
+        <msup>
+          <mn>137.508</mn>
+          <mi>&#9702;</mi>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <ci>&#952;</ci>
+        <apply>
+          <times />
+          <ci>n</ci>
+          <apply>
+            <power />
+            <cn type='real'>137.508</cn>
+            <ci>&#9702;</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

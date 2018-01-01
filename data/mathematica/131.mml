@@ -1,0 +1,26 @@
+Integrate::nodiffd: 
+                       -1
+      (0 +)  zt + 1/2 t    κ          -1
+   ∫      e             t   W      (t  ) dt
+      -∞                     κ, μ
+     cannot be interpreted. Integrals are entered in the form ∫ f  x
+          b
+     , ∫  f  x, or       ∫       f, where  is entered as dd.
+          a             vars ∈ region
+
+ToExpression::esntx: 
+   Could not parse \frac{1}{2\pi\mathrm{i}}\int_{-\infty}^{(0+)}e^{zt+\frac{1}
+      {2}t^{-1}}t^{\kappa}W_{\kappa,\mu}\left(t^{-1}\right)\mathrm{d}<
+<86
+       >>(\frac{1}{2}-\mu-\kappa\right)}K_{2\mu}\left(2\sqrt{z}\right) as
+     input.
+
+  <math 
+    xmlns='http://www.w3.org/1998/Math/MathML'>
+    <semantics>
+      <mi>$Failed</mi>
+      <annotation-xml encoding='MathML-Content'>
+        <ci>$Failed</ci>
+      </annotation-xml>
+    </semantics>
+  </math>

@@ -1,0 +1,16 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <msup>
+      <mi>q</mi>
+      <mn>42</mn>
+    </msup>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <power />
+        <ci>q</ci>
+        <cn type='integer'>42</cn>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

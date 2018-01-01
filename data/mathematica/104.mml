@@ -1,0 +1,243 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msup>
+        <mi>z</mi>
+        <mi>n</mi>
+      </msup>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mrow>
+              <mo>-</mo>
+              <mrow>
+                <mrow>
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>3</mn>
+                  </mfrac>
+                </mrow>
+                <mo>&#8290;</mo>
+                <mi>n</mi>
+                <mo>&#8290;</mo>
+                <msup>
+                  <mi>y</mi>
+                  <mn>3</mn>
+                </msup>
+                <mo>&#8290;</mo>
+                <msup>
+                  <mi>x</mi>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>-</mo>
+                    <mn>3</mn>
+                  </mrow>
+                </msup>
+              </mrow>
+            </mrow>
+            <mo>+</mo>
+            <mrow>
+              <mi>n</mi>
+              <mo>&#8290;</mo>
+              <mi>y</mi>
+              <mo>&#8290;</mo>
+              <msup>
+                <mi>x</mi>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msup>
+            </mrow>
+            <mo>+</mo>
+            <mo>&#8943;</mo>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>4</mn>
+              </mfrac>
+              <mo>&#8290;</mo>
+              <mi>n</mi>
+              <mo>&#8290;</mo>
+              <msup>
+                <mi>y</mi>
+                <mn>4</mn>
+              </msup>
+              <mo>&#8290;</mo>
+              <msup>
+                <mi>x</mi>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>-</mo>
+                  <mn>4</mn>
+                </mrow>
+              </msup>
+            </mrow>
+            <mo>-</mo>
+            <mrow>
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+              <mo>&#8290;</mo>
+              <mi>n</mi>
+              <mo>&#8290;</mo>
+              <msup>
+                <mi>y</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>&#8290;</mo>
+              <msup>
+                <mi>x</mi>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>-</mo>
+                  <mn>2</mn>
+                </mrow>
+              </msup>
+            </mrow>
+            <mo>+</mo>
+            <msup>
+              <mi>x</mi>
+              <mi>n</mi>
+            </msup>
+            <mo>-</mo>
+            <mo>&#8943;</mo>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <power />
+          <ci>z</ci>
+          <ci>n</ci>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <ci>i</ci>
+            <apply>
+              <plus />
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <apply>
+                  <times />
+                  <cn type='rational'>1
+                    <sep />3
+                  </cn>
+                  <ci>n</ci>
+                  <apply>
+                    <power />
+                    <ci>y</ci>
+                    <cn type='integer'>3</cn>
+                  </apply>
+                  <apply>
+                    <power />
+                    <ci>x</ci>
+                    <apply>
+                      <plus />
+                      <ci>n</ci>
+                      <cn type='integer'>-3</cn>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times />
+                <ci>n</ci>
+                <ci>y</ci>
+                <apply>
+                  <power />
+                  <ci>x</ci>
+                  <apply>
+                    <plus />
+                    <ci>n</ci>
+                    <cn type='integer'>-1</cn>
+                  </apply>
+                </apply>
+              </apply>
+              <ci>&#8943;</ci>
+            </apply>
+          </apply>
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <cn type='rational'>1
+                <sep />4
+              </cn>
+              <ci>n</ci>
+              <apply>
+                <power />
+                <ci>y</ci>
+                <cn type='integer'>4</cn>
+              </apply>
+              <apply>
+                <power />
+                <ci>x</ci>
+                <apply>
+                  <plus />
+                  <ci>n</ci>
+                  <cn type='integer'>-4</cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <apply>
+                <times />
+                <cn type='rational'>1
+                  <sep />2
+                </cn>
+                <ci>n</ci>
+                <apply>
+                  <power />
+                  <ci>y</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <apply>
+                  <power />
+                  <ci>x</ci>
+                  <apply>
+                    <plus />
+                    <ci>n</ci>
+                    <cn type='integer'>-2</cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <power />
+              <ci>x</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <times />
+              <cn type='integer'>-1</cn>
+              <ci>&#8943;</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

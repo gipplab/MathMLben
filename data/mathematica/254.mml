@@ -1,0 +1,106 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <msub>
+            <mi>S</mi>
+            <mi>BH</mi>
+          </msub>
+          <mo>&#63449;</mo>
+          <mrow>
+            <mfrac>
+              <mn>1</mn>
+              <mn>4</mn>
+            </mfrac>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mi>n</mi>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <mo>&#8290;</mo>
+            <mi>R</mi>
+            <mo>&#8290;</mo>
+            <mi>V</mi>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>G</mi>
+              <mi>n</mi>
+            </msub>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8801;</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mo>&#8290;</mo>
+          <mi>&#960;</mi>
+          <mo>&#8290;</mo>
+          <msub>
+            <mi>&#8519;</mi>
+            <mi>BH</mi>
+          </msub>
+          <mo>&#8290;</mo>
+          <mi>R</mi>
+        </mrow>
+        <mi>n</mi>
+      </mfrac>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <equivalent />
+        <apply>
+          <eq />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>S</ci>
+            <ci>BH</ci>
+          </apply>
+          <apply>
+            <times />
+            <cn type='rational'>1
+              <sep />4
+            </cn>
+            <apply>
+              <plus />
+              <ci>n</ci>
+              <cn type='integer'>-1</cn>
+            </apply>
+            <ci>R</ci>
+            <ci>V</ci>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>G</ci>
+              <ci>n</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>2</cn>
+          <pi />
+          <apply>
+            <ci>Subscript</ci>
+            <exponentiale />
+            <ci>BH</ci>
+          </apply>
+          <ci>R</ci>
+          <apply>
+            <power />
+            <ci>n</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

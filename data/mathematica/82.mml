@@ -1,0 +1,14 @@
+Syntax::sntxb: Expression cannot begin with "h  : X  {-1, +1}".
+                                              i
+
+ToExpression::esntx: Could not parse h_i : X \to \{-1,+1\} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

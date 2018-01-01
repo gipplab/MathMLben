@@ -1,0 +1,43 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>C</mi>
+      <mo>&#8290;</mo>
+      <mi>o</mi>
+      <mo>&#8290;</mo>
+      <mrow>
+        <mi>n</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <mo>&#172;</mo>
+            <mi>AC</mi>
+          </mrow>
+          <mo>+</mo>
+          <mi>ZF</mi>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <ci>C</ci>
+        <ci>o</ci>
+        <apply>
+          <ci>n</ci>
+          <apply>
+            <plus />
+            <apply>
+              <not />
+              <ci>AC</ci>
+            </apply>
+            <ci>ZF</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

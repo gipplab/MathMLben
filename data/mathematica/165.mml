@@ -1,0 +1,52 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mn>1</mn>
+        <mn>3</mn>
+      </mfrac>
+      <mo>&#8290;</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <msub>
+              <mi>c</mi>
+              <mn>0</mn>
+            </msub>
+            <mo>(</mo>
+            <mn>0</mn>
+            <mo>)</mo>
+          </mrow>
+          <mo>&#63449;</mo>
+          <mrow>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <times />
+        <cn type='rational'>1
+          <sep />3
+        </cn>
+        <apply>
+          <eq />
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>c</ci>
+              <cn type='integer'>0</cn>
+            </apply>
+            <cn type='integer'>0</cn>
+          </apply>
+          <cn type='integer'>-1</cn>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

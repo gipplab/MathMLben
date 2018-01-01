@@ -1,0 +1,29 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mi>T</mi>
+      <mo>-</mo>
+      <mrow>
+        <mi>&#8520;</mi>
+        <mo>&#8290;</mo>
+        <mi>&#955;</mi>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <plus />
+        <ci>T</ci>
+        <apply>
+          <times />
+          <cn type='integer'>-1</cn>
+          <apply>
+            <times />
+            <imaginaryi />
+            <ci>&#955;</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

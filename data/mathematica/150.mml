@@ -1,0 +1,86 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>&#8465;</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>&#968;</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mi>iy</mi>
+              <mo>+</mo>
+              <mn>2</mn>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+        <mo>&#8290;</mo>
+        <mi>&#960;</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>tanh</mi>
+          <mo>&#8289;</mo>
+          <mo>(</mo>
+          <mrow>
+            <mi>&#960;</mi>
+            <mo>&#8290;</mo>
+            <mi>y</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <ci>&#8465;</ci>
+          <apply>
+            <ci>&#968;</ci>
+            <apply>
+              <times />
+              <cn type='integer'>1</cn>
+              <apply>
+                <power />
+                <apply>
+                  <plus />
+                  <ci>iy</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <cn type='integer'>-1</cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <cn type='rational'>1
+            <sep />2
+          </cn>
+          <pi />
+          <apply>
+            <tanh />
+            <apply>
+              <times />
+              <pi />
+              <ci>y</ci>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>
