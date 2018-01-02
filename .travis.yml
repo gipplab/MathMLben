@@ -3,9 +3,15 @@ node_js:
   - "node"
   - "4"
   - "6"
-deploy:
-  # deploy master to production
-  - provider: script
-    script: sh $TRAVIS_BUILD_DIR/travis_deploy.sh
-    on:
-      branch: master
+  - "lts/*"
+
+jobs:
+  include:
+    - stage: deploy
+      node_js: "6"
+    deploy:
+      # deploy master to production
+      - provider: script
+        script: sh $TRAVIS_BUILD_DIR/travis_deploy.sh
+        on:
+          branch: master
