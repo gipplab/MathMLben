@@ -6,5 +6,6 @@
   "uri": "https://en.wikipedia.org/w/index.php?title=Hypergeometric_function&oldid=811794098",
   "math_inputtex_semantic": "{}_2\\wf{Q21028472}{F}_1(a,b;c;z) = \\sum_{n=0}^\\infty \\frac{(a)_n (b)_n}{(c)_n} \\frac{z^n}{n!}",
   "title": "Hypergeometric function",
-  "type": "definition"
+  "type": "definition",
+  "comment": "NTCIR 12 wiki topic 5"
 }
