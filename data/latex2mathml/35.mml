@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math>
    <mrow>
+      <mi>P</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>n</mi>
+         <mo>)</mo>
+      </mrow>
       <mo>=</mo>
       <mfrac>
          <mrow>

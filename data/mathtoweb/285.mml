@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo>|</mo>
+      <mi>A</mi>
+      <mo>|</mo>
+      <mo>=</mo>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">|</mo>
+         <mtable class="m-vmatrix">
+            <mtr>
+               <mtd>
+                  <mi>a</mi>
+               </mtd>
+               <mtd>
+                  <mi>b</mi>
+               </mtd>
+            </mtr>
+            <mtr>
+               <mtd>
+                  <mi>c</mi>
+               </mtd>
+               <mtd>
+                  <mi>d</mi>
+               </mtd>
+            </mtr>
+         </mtable>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">|</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>a</mi>
+      <mi>d</mi>
+      <mo>-</mo>
+      <mi>b</mi>
+      <mi>c</mi>
+   </mrow>
+</math>

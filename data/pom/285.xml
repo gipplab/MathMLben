@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="fence">|</term>
+    <term prime-tag="letter" secondary-tags="Latin">A</term>
+    <term prime-tag="fence">|</term>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="matrix">
+      <expression prime-tag="row">
+        <term prime-tag="letter" secondary-tags="Latin">a</term>
+        <term prime-tag="letter" secondary-tags="Latin">b</term>
+      </expression>
+      <expression prime-tag="row">
+        <term prime-tag="letter" secondary-tags="Latin">c</term>
+        <term prime-tag="letter" secondary-tags="Latin">d</term>
+      </expression>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="alphanumeric">ad</term>
+    <term prime-tag="minus">-</term>
+    <term prime-tag="alphanumeric">bc</term>
+  </expression>
+</math>

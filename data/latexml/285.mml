@@ -1,21 +1,89 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="null" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="|A|=\begin{vmatrix}a&amp;b\\&#10;c&amp;d\end{vmatrix}=ad-bc" display="inline">
   <semantics id="p1.1.m1.1a">
-    <mrow id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">
-      <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">n</mi>
-      <mo id="p1.1.m1.1.5.1" xref="p1.1.m1.1.5.1.cmml">⁢</mo>
-      <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">u</mi>
-      <mo id="p1.1.m1.1.5.1a" xref="p1.1.m1.1.5.1.cmml">⁢</mo>
-      <mi id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">l</mi>
-      <mo id="p1.1.m1.1.5.1b" xref="p1.1.m1.1.5.1.cmml">⁢</mo>
-      <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">l</mi>
+    <mrow id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">
+      <mrow id="p1.1.m1.1.12.2" xref="p1.1.m1.1.12.2.1.cmml">
+        <mo stretchy="false" id="p1.1.m1.1.1" xref="p1.1.m1.1.12.2.1.1.cmml">|</mo>
+        <mi id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">A</mi>
+        <mo stretchy="false" id="p1.1.m1.1.3" xref="p1.1.m1.1.12.2.1.1.cmml">|</mo>
+      </mrow>
+      <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">=</mo>
+      <mrow id="p1.1.m1.1.5.5" xref="p1.1.m1.1.5.1.cmml">
+        <mo id="p1.1.m1.1.5.2" xref="p1.1.m1.1.5.1.1.cmml">|</mo>
+        <mtable columnspacing="5pt" rowspacing="0pt" id="p1.1.m1.1.5.3" xref="p1.1.m1.1.5.3.cmml">
+          <mtr id="p1.1.m1.1.5.3a" xref="p1.1.m1.1.5.3.cmml">
+            <mtd columnalign="center" id="p1.1.m1.1.5.3b" xref="p1.1.m1.1.5.3.cmml">
+              <mi id="p1.1.m1.1.5.3.1.1.1.1" xref="p1.1.m1.1.5.3.1.1.1.1.cmml">a</mi>
+            </mtd>
+            <mtd columnalign="center" id="p1.1.m1.1.5.3c" xref="p1.1.m1.1.5.3.cmml">
+              <mi id="p1.1.m1.1.5.3.1.1.2.1" xref="p1.1.m1.1.5.3.1.1.2.1.cmml">b</mi>
+            </mtd>
+          </mtr>
+          <mtr id="p1.1.m1.1.5.3d" xref="p1.1.m1.1.5.3.cmml">
+            <mtd columnalign="center" id="p1.1.m1.1.5.3e" xref="p1.1.m1.1.5.3.cmml">
+              <mi id="p1.1.m1.1.5.3.1.2.1.1" xref="p1.1.m1.1.5.3.1.2.1.1.cmml">c</mi>
+            </mtd>
+            <mtd columnalign="center" id="p1.1.m1.1.5.3f" xref="p1.1.m1.1.5.3.cmml">
+              <mi id="p1.1.m1.1.5.3.1.2.2.1" xref="p1.1.m1.1.5.3.1.2.2.1.cmml">d</mi>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo id="p1.1.m1.1.5.4" xref="p1.1.m1.1.5.1.1.cmml">|</mo>
+      </mrow>
+      <mo id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">=</mo>
+      <mrow id="p1.1.m1.1.12.3" xref="p1.1.m1.1.12.3.cmml">
+        <mrow id="p1.1.m1.1.12.3.1" xref="p1.1.m1.1.12.3.1.cmml">
+          <mi id="p1.1.m1.1.7" xref="p1.1.m1.1.7.cmml">a</mi>
+          <mo id="p1.1.m1.1.12.3.1.1" xref="p1.1.m1.1.12.3.1.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">d</mi>
+        </mrow>
+        <mo id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">-</mo>
+        <mrow id="p1.1.m1.1.12.3.2" xref="p1.1.m1.1.12.3.2.cmml">
+          <mi id="p1.1.m1.1.10" xref="p1.1.m1.1.10.cmml">b</mi>
+          <mo id="p1.1.m1.1.12.3.2.1" xref="p1.1.m1.1.12.3.2.1.cmml">⁢</mo>
+          <mi id="p1.1.m1.1.11" xref="p1.1.m1.1.11.cmml">c</mi>
+        </mrow>
+      </mrow>
     </mrow>
     <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
-      <apply id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">
-        <times id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.1"/>
-        <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝑛</ci>
-        <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝑢</ci>
-        <ci id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">𝑙</ci>
-        <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝑙</ci>
+      <apply id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">
+        <and id="p1.1.m1.1.12a.cmml" xref="p1.1.m1.1.12"/>
+        <apply id="p1.1.m1.1.12b.cmml" xref="p1.1.m1.1.12">
+          <eq id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4"/>
+          <apply id="p1.1.m1.1.12.2.1.cmml" xref="p1.1.m1.1.12.2">
+            <abs id="p1.1.m1.1.12.2.1.1.cmml" xref="p1.1.m1.1.1"/>
+            <ci id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">𝐴</ci>
+          </apply>
+          <apply id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.5">
+            <determinant id="p1.1.m1.1.5.1.1.cmml" xref="p1.1.m1.1.5.2"/>
+            <matrix id="p1.1.m1.1.5.3.cmml" xref="p1.1.m1.1.5.3">
+              <matrixrow id="p1.1.m1.1.5.3a.cmml" xref="p1.1.m1.1.5.3">
+                <ci id="p1.1.m1.1.5.3.1.1.1.1.cmml" xref="p1.1.m1.1.5.3.1.1.1.1">𝑎</ci>
+                <ci id="p1.1.m1.1.5.3.1.1.2.1.cmml" xref="p1.1.m1.1.5.3.1.1.2.1">𝑏</ci>
+              </matrixrow>
+              <matrixrow id="p1.1.m1.1.5.3b.cmml" xref="p1.1.m1.1.5.3">
+                <ci id="p1.1.m1.1.5.3.1.2.1.1.cmml" xref="p1.1.m1.1.5.3.1.2.1.1">𝑐</ci>
+                <ci id="p1.1.m1.1.5.3.1.2.2.1.cmml" xref="p1.1.m1.1.5.3.1.2.2.1">𝑑</ci>
+              </matrixrow>
+            </matrix>
+          </apply>
+        </apply>
+        <apply id="p1.1.m1.1.12c.cmml" xref="p1.1.m1.1.12">
+          <eq id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6"/>
+          <share href="#p1.1.m1.1.5.cmml" id="p1.1.m1.1.12d.cmml" xref="p1.1.m1.1.12"/>
+          <apply id="p1.1.m1.1.12.3.cmml" xref="p1.1.m1.1.12.3">
+            <minus id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9"/>
+            <apply id="p1.1.m1.1.12.3.1.cmml" xref="p1.1.m1.1.12.3.1">
+              <times id="p1.1.m1.1.12.3.1.1.cmml" xref="p1.1.m1.1.12.3.1.1"/>
+              <ci id="p1.1.m1.1.7.cmml" xref="p1.1.m1.1.7">𝑎</ci>
+              <ci id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8">𝑑</ci>
+            </apply>
+            <apply id="p1.1.m1.1.12.3.2.cmml" xref="p1.1.m1.1.12.3.2">
+              <times id="p1.1.m1.1.12.3.2.1.cmml" xref="p1.1.m1.1.12.3.2.1"/>
+              <ci id="p1.1.m1.1.10.cmml" xref="p1.1.m1.1.10">𝑏</ci>
+              <ci id="p1.1.m1.1.11.cmml" xref="p1.1.m1.1.11">𝑐</ci>
+            </apply>
+          </apply>
+        </apply>
       </apply>
     </annotation-xml>
   </semantics>

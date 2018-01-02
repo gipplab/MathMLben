@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <msub>
+         <mi/>
+         <mn>2</mn>
+      </msub>
+      <msub>
+         <mi>F</mi>
+         <mn>1</mn>
+      </msub>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>a</mi>
+         <mo>,</mo>
+         <mi>b</mi>
+         <mo>;</mo>
+         <mi>c</mi>
+         <mo>;</mo>
+         <mi>z</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∑</mo>
+            <mrow>
+               <mi>n</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <mfrac linethickness="1">
+         <mrow>
+            <msub>
+               <mrow>
+                  <mo form="prefix">(</mo>
+                  <mi>a</mi>
+                  <mo form="postfix">)</mo>
+               </mrow>
+               <mi>n</mi>
+            </msub>
+            <msub>
+               <mrow>
+                  <mo form="prefix">(</mo>
+                  <mi>b</mi>
+                  <mo form="postfix">)</mo>
+               </mrow>
+               <mi>n</mi>
+            </msub>
+         </mrow>
+         <mrow>
+            <msub>
+               <mrow>
+                  <mo form="prefix">(</mo>
+                  <mi>c</mi>
+                  <mo form="postfix">)</mo>
+               </mrow>
+               <mi>n</mi>
+            </msub>
+         </mrow>
+      </mfrac>
+      <mfrac linethickness="1">
+         <mrow>
+            <msup>
+               <mi>z</mi>
+               <mi>n</mi>
+            </msup>
+         </mrow>
+         <mrow>
+            <mi>n</mi>
+            <mo>!</mo>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>
