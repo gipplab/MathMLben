@@ -134,14 +134,14 @@ gouldi.controller('FormController', ['$scope', 'gouldiCookieService', 'gouldiHtt
         };
 
         $scope.previousID = function( model ){
-            if ( model.qID <= $scope.schema.qID.minimum ) return;
+            if ( model.qID <= $scope.schema.properties.qID.minimum ) return;
 
             model.qID = model.qID-1;
             $scope.readModel();
         };
 
         $scope.nextID = function(model){
-            if ( model.qID >= $scope.schema.qID.maximum ) return;
+            if ( model.qID >= $scope.schema.properties.qID.maximum ) return;
 
             model.qID = model.qID+1;
             $scope.readModel();
