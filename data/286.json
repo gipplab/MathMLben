@@ -1,1 +1,6 @@
-{}
+{
+  "constraints": [],
+  "correct_mml": "NTCIR 12 wiki topic 5",
+  "math_inputtex": "{}_2F_1(a,b;c;z) = \\sum_{n=0}^\\infty \\frac{(a)_n (b)_n}{(c)_n} \\frac{z^n}{n!}.",
+  "correct_tex": "{}_2F_1(a,b;c;z) = \\sum_{n=0}^\\infty \\frac{(a)_n (b)_n}{(c)_n} \\frac{z^n}{n!}"
+}
