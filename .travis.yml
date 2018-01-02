@@ -3,15 +3,7 @@ node_js:
   - "node"
   - "4"
   - "6"
-  - "lts/*"
 
-jobs:
-  include:
-    - stage: deploy
-      node_js: "6"
-    deploy:
-      # deploy master to production
-      - provider: script
-        script: sh $TRAVIS_BUILD_DIR/travis_deploy.sh
-        on:
-          branch: master
+after_success:
+  - npm install -g travis-deploy-once
+  - travis-deploy-once && sh $TRAVIS_BUILD_DIR/travis_deploy.sh
