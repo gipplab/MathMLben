@@ -1,12 +1,11 @@
 language: node_js
 node_js:
   - "node"
-  - "lts/*"
   - "4"
   - "6"
 deploy:
   # deploy master to production
   - provider: script
-    script: travis_deploy.sh
+    script: sh $TRAVIS_BUILD_DIR/travis_deploy.sh
     on:
       branch: master
