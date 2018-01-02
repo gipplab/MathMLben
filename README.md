@@ -40,3 +40,25 @@ cd GoUldI
 git pull
 pm2 deploy production update
 ```
+
+## automatic deployment via webhook
+
+```bash
+sudo apt-get install apache2-suexec-custom
+sudo a2enmod suexec
+sudo service apache2 restart
+
+drmf-beta:/etc/apache2/sites-available# cat 100-gouldi-deploy.conf 
+Listen 34513 
+<VirtualHost *:34513>
+ServerName gouldi-deploy.wmflabs.org 
+SuexecUserGroup gouldi gouldi
+ScriptAlias "/cgi-bin/" "/home/gouldi/GoUldI/"
+DocumentRoot /home/gouldi/GoUldI
+<Directory /home/gouldi/GoUldI>
+Options Indexes FollowSymLinks
+AllowOverride None
+Require all granted
+</Directory>
+</VirtualHost>
+```
