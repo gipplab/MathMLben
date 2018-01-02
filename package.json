@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
+    "angular-cookies": "^1.6.8",
     "angular-schema-form": "^0.8.13",
     "angular-schema-form-bootstrap": "^0.2.0",
     "angular-ui-bootstrap": "^2.5.6",

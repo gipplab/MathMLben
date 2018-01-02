@@ -1,25 +1,41 @@
 angular
     .module('gouldiApp', ['schemaForm','ui.bootstrap'])
-    .controller('FormController', function ($scope, $http) {
-        var loadFromJson = function (name) {
-            $http.get("scripts/" + name + ".json").then(function (res) {
-                $scope[name] = res.data;
-                console.log("Loaded: " + name);
-                return name;
-            }).then( function(name){
-                if ( name === 'model' ) {
-                    console.log("Load actual model from GitHub!");
-                    $scope.readModel();
-                }
-            });
+    .controller('FormController', ['$scope', '$http', function ($scope, $http) {
+        var loadFromJson = function (arr) {
+            if ( arr.length <= 0 ) {
+                console.log("Finished loading process.");
+                return;
+            }
+
+            var name = arr.pop();
+            $http
+                .get("scripts/" + name + ".json")
+                .then(function (res) {
+                    $scope[name] = res.data;
+                    console.log("Loaded: " + name);
+                    return name;
+                })
+                .then( function(name){
+                    if ( name === 'model' ) {
+                        console.log("Reload actual model from GitHub!");
+                        $scope.readModel();
+                    }
+                })
+                .then( function() {
+                    loadFromJson(arr);
+                });
         };
 
-        loadFromJson('schemarepo');
-        loadFromJson('formrepo');
-        loadFromJson('modelrepo');
-        loadFromJson('model');
-        loadFromJson('schema');
-        loadFromJson('form');
+        var loader = [
+            'schemarepo',
+            'formrepo',
+            'modelrepo',
+            'model',
+            'schema',
+            'form'
+        ].reverse();
+
+        loadFromJson(loader);
 
         $scope.onRequest = function (form){
             $scope.$broadcast('schemaFormValidate');
@@ -162,7 +178,7 @@ angular
         };
 
         $scope.$watch('model.math_inputtex', function(){
-            if ( !('model' in $scope) ){
+            if ( !('model' in $scope) || !$scope.model.math_inputtex ){
                 //console.log("Undefined model!");
                 return;
             }
@@ -185,4 +201,4 @@ angular
         }, true);
 
         console.log("Finish instantiation of controller. Load first model!");
-    });
+    }]);
