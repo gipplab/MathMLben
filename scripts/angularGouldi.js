@@ -1,6 +1,43 @@
-angular
-    .module('gouldiApp', ['schemaForm','ui.bootstrap','ngCookies'])
-    .controller('FormController', ['$scope', '$cookies', '$cookieStore', '$http', function ($scope, $cookies, $cookieStore, $http) {
+var gouldi = angular.module('gouldiApp', ['schemaForm','ui.bootstrap','ngCookies']);
+
+gouldi.service(
+    'gouldiServices',
+    ['$http', function($http){
+        this.scriptLoader = function( name ){
+            return $http.get("scripts/" + name + ".json");
+        };
+
+        this.modelRequest = function( id, jsonInfo ){
+            var githubReq = jsonInfo;
+            githubReq.path = jsonInfo.foldername + "/" + id + ".json";
+            return $http.post('/get-model', githubReq);
+        };
+
+        this.writeModelRequest = function( repo, data ){
+            return $http.post('/write-model', {
+                user:       repo.owner,
+                repo:       repo.repo,
+                filename:   repo.foldername + "/" + data.qID + ".json",
+                token:      repo.token,
+                data:       data
+            });
+        };
+
+        this.latexmlRequest = function( semantic_latex ){
+            return $http.post('/latexml', {
+                latex: semantic_latex
+            });
+        };
+
+        this.renderMathRequest = function( latex ){
+            return $http.post('/render-math', {
+                input: latex
+            });
+        }
+    }]
+);
+
+gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'gouldiServices', function ($scope, $cookies, $cookieStore, gouldiServices) {
         //$cookies.name = 'gouldi_githubaccesstoken';
         //$scope.platformCookie = $cookies.name;
 
@@ -11,8 +48,7 @@ angular
             }
 
             var name = arr.pop();
-            $http
-                .get("scripts/" + name + ".json")
+            gouldiServices.scriptLoader( name )
                 .then(function (res) {
                     $scope[name] = res.data;
                     console.log("Loaded: " + name);
@@ -80,11 +116,8 @@ angular
         $scope.readModel = function () {
             var id = $scope.model.qID;
             var githubReq = $scope.modelrepo;
-            githubReq.path =
-                $scope.modelrepo.foldername + "/" + id + ".json";
 
-            $http
-                .post('/get-model', githubReq)
+            gouldiServices.modelRequest( id, githubReq )
                 .then(function (res) {
                     $scope.model = res.data;
                     $scope.model.qID = id;
@@ -115,16 +148,15 @@ angular
                 return;
             }
 
-            $http.post('/latexml', {
-                latex: semantic_tex
-            }).then( function(res) {
-                console.log("Created MML!");
-                $scope.model.correct_mml = res.data;
-                $scope.updated();
-                $scope.logger("Successfully created MML!", "alert-success");
-            }).catch( function(e) {
-                $scope.logger(e.message, 'alert-danger');
-            });
+            gouldiServices.latexmlRequest(semantic_tex)
+                .then( function(res) {
+                    console.log("Created MML!");
+                    $scope.model.correct_mml = res.data;
+                    $scope.updated();
+                    $scope.logger("Successfully created MML!", "alert-success");
+                }).catch( function(e) {
+                    $scope.logger(e.message, 'alert-danger');
+                });
         };
 
         $scope.onSave = function(form) {
@@ -151,23 +183,16 @@ angular
                 $scope.$broadcast('schemaFormValidate');
             }
 
-            var gold = $scope.model;
-
             // Then we check if the form is valid
             if (form.$valid) {
-                $http.post('/write-model', {
-                    user: $scope.modelrepo.owner,
-                    repo: $scope.modelrepo.repo,
-                    filename: $scope.modelrepo.foldername + "/" + $scope.model.qID + ".json",
-                    token: $scope.modelrepo.token,
-                    data: gold
-                }).then( function ( res ) {
-                    $scope.logger( res, 'alert-success');
-                }).catch( function (jsonError) {
-                    jsonError.config.data = " ... ";
-                    $scope.readModel();
-                    $scope.logger( jsonError, 'alert-danger' );
-                });
+                gouldiServices.writeModelRequest($scope.modelrepo, $scope.model)
+                    .then(function (res) {
+                        $scope.logger(res, 'alert-success');
+                    }).catch(function (jsonError) {
+                        jsonError.config.data = " ... ";
+                        $scope.readModel();
+                        $scope.logger(jsonError, 'alert-danger');
+                    });
             }
         };
 
@@ -186,15 +211,14 @@ angular
                 return;
             }
 
-            $http.post('/render-math', {
-                input: $scope.model.math_inputtex
-            }).then( function(res){
-                var container = document.getElementById('svg-renderer-container');
-                container.innerHTML = "";
-                container.innerHTML = res.data;
-            }).catch( function(e){
-                console.log("ERROR: " + e.data);
-            });
+            gouldiServices.renderMathRequest($scope.model.math_inputtex)
+                .then( function(res){
+                    var container = document.getElementById('svg-renderer-container');
+                    container.innerHTML = "";
+                    container.innerHTML = res.data;
+                }).catch( function(e){
+                    console.log("ERROR: " + e.data);
+                });
         }, true);
 
         $scope.$watch('model', function(){
