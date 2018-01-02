@@ -4,3 +4,9 @@ node_js:
   - "lts/*"
   - "4"
   - "6"
+deploy:
+  # deploy master to production
+  - provider: script
+    script: travis_deploy.sh
+    on:
+      branch: master
