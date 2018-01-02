@@ -1,6 +1,9 @@
 angular
-    .module('gouldiApp', ['schemaForm','ui.bootstrap'])
-    .controller('FormController', ['$scope', '$http', function ($scope, $http) {
+    .module('gouldiApp', ['schemaForm','ui.bootstrap','ngCookies'])
+    .controller('FormController', ['$scope', '$cookies', '$cookieStore', '$http', function ($scope, $cookies, $cookieStore, $http) {
+        //$cookies.name = 'gouldi_githubaccesstoken';
+        //$scope.platformCookie = $cookies.name;
+
         var loadFromJson = function (arr) {
             if ( arr.length <= 0 ) {
                 console.log("Finished loading process.");
