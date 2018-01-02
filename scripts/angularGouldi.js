@@ -1,10 +1,34 @@
 var gouldi = angular.module('gouldiApp', ['schemaForm','ui.bootstrap','ngCookies']);
 
 gouldi.service(
-    'gouldiServices',
-    ['$http', function($http){
-        this.scriptLoader = function( name ){
-            return $http.get("scripts/" + name + ".json");
+    'gouldiHttpServices',
+    ['$http', '$q', function($http, $q){
+        this.scriptLoader = function( name, $scope ){
+            return $http
+                .get("scripts/" + name + ".json")
+                .then( function( res ){
+                    $scope[name] = res.data;
+                    console.log("Loaded: " + name);
+                });
+        };
+
+        this.initScripts = function( $scope ){
+            var load = [
+                'schemarepo',
+                'formrepo',
+                'modelrepo',
+                'model',
+                'schema',
+                'form'
+            ];
+
+            var promises = [];
+
+            while ( load.length > 0 ){
+                promises.push(this.scriptLoader( load.pop(), $scope ));
+            }
+
+            return $q.all(promises);
         };
 
         this.modelRequest = function( id, jsonInfo ){
@@ -37,44 +61,54 @@ gouldi.service(
     }]
 );
 
-gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'gouldiServices', function ($scope, $cookies, $cookieStore, gouldiServices) {
-        //$cookies.name = 'gouldi_githubaccesstoken';
-        //$scope.platformCookie = $cookies.name;
+gouldi.service('gouldiCookieService',
+    ['$cookies', function( $cookies ){
+        var id = 'gouldi_githubaccesstoken';
 
-        var loadFromJson = function (arr) {
-            if ( arr.length <= 0 ) {
-                console.log("Finished loading process.");
-                return;
-            }
-
-            var name = arr.pop();
-            gouldiServices.scriptLoader( name )
-                .then(function (res) {
-                    $scope[name] = res.data;
-                    console.log("Loaded: " + name);
-                    return name;
-                })
-                .then( function(name){
-                    if ( name === 'model' ) {
-                        console.log("Reload actual model from GitHub!");
-                        $scope.readModel();
-                    }
-                })
-                .then( function() {
-                    loadFromJson(arr);
-                });
+        this.loadCookie = function (){
+            return $cookies.get(id);
         };
 
-        var loader = [
-            'schemarepo',
-            'formrepo',
-            'modelrepo',
-            'model',
-            'schema',
-            'form'
-        ].reverse();
+        this.writeCookie = function ( token ){
+            var expireDate = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+            console.log("Safe: " + id + " - " + token);
+            $cookies.put( id, token, {
+                expires: expireDate,
+                secure: false
+            });
+        };
 
-        loadFromJson(loader);
+        // should be called once after all models and repos are loaded
+        this.initCookies = function( modelrepo ){
+            var cookie = this.loadCookie();
+            if ( cookie ){
+                console.log("Found cookie of access token: " + cookie);
+                modelrepo.token = cookie;
+            }
+        };
+
+        this.update = function( modelrepo ){
+            var cookie = this.loadCookie();
+            if ( modelrepo.token !== "" && modelrepo.token !== cookie ) {
+                console.log("Store new access token in cookies.");
+                this.writeCookie( modelrepo.token );
+            }
+        }
+    }]
+);
+
+gouldi.controller('FormController', ['$scope', 'gouldiCookieService', 'gouldiHttpServices', function ($scope, gouldiCookieService, gouldiHttpServices) {
+        var init = function( ){
+            gouldiHttpServices
+                .initScripts( $scope )
+                .then( function(){
+                    console.log("Finished loading process. Init cookies and load actual model.");
+                    $scope.readModel();
+                    gouldiCookieService.initCookies( $scope.modelrepo );
+            });
+        };
+
+        init();
 
         $scope.onRequest = function (form){
             $scope.$broadcast('schemaFormValidate');
@@ -117,7 +151,7 @@ gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'goul
             var id = $scope.model.qID;
             var githubReq = $scope.modelrepo;
 
-            gouldiServices.modelRequest( id, githubReq )
+            gouldiHttpServices.modelRequest( id, githubReq )
                 .then(function (res) {
                     $scope.model = res.data;
                     $scope.model.qID = id;
@@ -148,7 +182,7 @@ gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'goul
                 return;
             }
 
-            gouldiServices.latexmlRequest(semantic_tex)
+            gouldiHttpServices.latexmlRequest(semantic_tex)
                 .then( function(res) {
                     console.log("Created MML!");
                     $scope.model.correct_mml = res.data;
@@ -185,7 +219,7 @@ gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'goul
 
             // Then we check if the form is valid
             if (form.$valid) {
-                gouldiServices.writeModelRequest($scope.modelrepo, $scope.model)
+                gouldiHttpServices.writeModelRequest($scope.modelrepo, $scope.model)
                     .then(function (res) {
                         $scope.logger(res, 'alert-success');
                     }).catch(function (jsonError) {
@@ -205,13 +239,19 @@ gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'goul
             }
         };
 
+        $scope.$watch('modelrepo.token', function(){
+            if ( 'modelrepo' in $scope ){
+                gouldiCookieService.update( $scope.modelrepo );
+            }
+        });
+
         $scope.$watch('model.math_inputtex', function(){
             if ( !('model' in $scope) || !$scope.model.math_inputtex ){
                 //console.log("Undefined model!");
                 return;
             }
 
-            gouldiServices.renderMathRequest($scope.model.math_inputtex)
+            gouldiHttpServices.renderMathRequest($scope.model.math_inputtex)
                 .then( function(res){
                     var container = document.getElementById('svg-renderer-container');
                     container.innerHTML = "";
@@ -227,5 +267,5 @@ gouldi.controller('FormController', ['$scope', '$cookies', '$cookieStore', 'goul
                 model_help.innerHTML = JSON.stringify($scope.model, null, 2);
         }, true);
 
-        console.log("Finish instantiation of controller. Load first model!");
+        console.log("Finish instantiation of controller!");
     }]);
