@@ -45,7 +45,7 @@ gouldi.controller(
         };
 
         $scope.changeID = function( newID ){
-            model.qID = newID;
+            $scope.model.qID = newID;
             $scope.readModel();
         }
 

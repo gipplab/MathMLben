@@ -1,7 +1,6 @@
 <!doctype html>
 <html data-ng-app="gouldiApp">
 <head>
-
     <!-- Just load all nodes before our own scripts -->
     <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
@@ -38,7 +37,14 @@
                           data-ng-submit="onSave(repo)">
                     </form>
                     <hr>
-                    <div class="alert alert-info" id="logger-info-helper"></div>
+                    <uib-accordion close-others="oneAtATime">
+                        <div uib-accordion-group class="panel-default" heading="MathML Editor Field" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+                            <pre><code class="scrollable">{{ model.correct_mml }}</code></pre>
+                        </div>
+                        <div uib-accordion-group class="panel-default" heading="Information">
+                            <div class="alert alert-info" id="logger-info-helper"></div>
+                        </div>
+                    </uib-accordion>
                 </uib-tab>
                 <uib-tab ng-attr-active="tabs[1].active" heading="GitHub Access Definitions">
                     <form name="repo"

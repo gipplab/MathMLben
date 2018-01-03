@@ -79,12 +79,6 @@
     ]
   },
   {
-    "key": "correct_mml",
-    "type": "textarea",
-    "title": "MathML",
-    "onChange": "updated()"
-  },
-  {
     "key": "comment",
     "type": "textarea",
     "title": "Comment"
