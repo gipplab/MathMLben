@@ -44,18 +44,19 @@ gouldi.controller(
             $scope.readModel($scope.form);
         };
 
+        $scope.changeID = function( newID ){
+            model.qID = newID;
+            $scope.readModel();
+        }
+
         $scope.previousID = function( model ){
             if ( model.qID <= $scope.min ) return;
-
-            model.qID = model.qID-1;
-            $scope.readModel();
+            else $scope.changeID( model.qID-1 )
         };
 
         $scope.nextID = function(model){
             if ( model.qID >= $scope.max ) return;
-
-            model.qID = model.qID+1;
-            $scope.readModel();
+            else $scope.changeID( model.qID+1 )
         };
 
         $scope.readModel = function () {
@@ -104,7 +105,7 @@ gouldi.controller(
                 });
         };
 
-        $scope.onSave = function(form) {
+        $scope.broadcastingTest = function(){
             if ( $scope.modelrepo.token === "" ){
                 $scope.$broadcast(
                     'schemaForm.error.token',
@@ -116,7 +117,7 @@ gouldi.controller(
                 $scope.$broadcast('schemaFormValidate');
                 $scope.activeForm = 1;
                 $scope.logger("Missing Access Token", 'alert-warning');
-                return;
+                return -1;
             } else {
                 $scope.$broadcast(
                     'schemaForm.error.token',
@@ -126,7 +127,13 @@ gouldi.controller(
                 );
                 // First we broadcast an event so all fields validate themselves
                 $scope.$broadcast('schemaFormValidate');
+                return 0;
             }
+        };
+
+        $scope.onSave = function(form) {
+            var returnValue = $scope.broadcastingTest();
+            if ( returnValue < 0 ) return;
 
             // Then we check if the form is valid
             if (form.$valid) {
