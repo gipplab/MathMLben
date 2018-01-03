@@ -2,16 +2,20 @@ var gouldi = angular.module('gouldiApp');
 
 gouldi.controller(
     'GouldiMainController',
-    ['$scope', '$routeParams', 'gouldiCookieService', 'gouldiHttpServices',
-        function ($scope, $routeParams, gouldiCookieService, gouldiHttpServices) {
+    ['$scope', '$routeParams', '$timeout', 'gouldiCookieService', 'gouldiHttpServices',
+        function ($scope, $routeParams, $timeout, gouldiCookieService, gouldiHttpServices) {
+        var pleaseWait = false;
 
-        var init = function( ){
+        var init = function(){
             gouldiHttpServices
                 .initScripts( $scope )
                 .then( function(){
                     console.log("Finished loading process. Init cookies and load actual model.");
                     $scope.readModel();
                     gouldiCookieService.initCookies( $scope.modelrepo );
+                    $scope.max = $scope.schema.properties.qID.maximum;
+                    $scope.min = $scope.schema.properties.qID.minimum;
+                    gouldi.pleaseWaitALittle = false;
             });
         };
 
@@ -41,14 +45,14 @@ gouldi.controller(
         };
 
         $scope.previousID = function( model ){
-            if ( model.qID <= $scope.schema.properties.qID.minimum ) return;
+            if ( model.qID <= $scope.min ) return;
 
             model.qID = model.qID-1;
             $scope.readModel();
         };
 
         $scope.nextID = function(model){
-            if ( model.qID >= $scope.schema.properties.qID.maximum ) return;
+            if ( model.qID >= $scope.max ) return;
 
             model.qID = model.qID+1;
             $scope.readModel();
@@ -59,7 +63,7 @@ gouldi.controller(
             var githubReq = $scope.modelrepo;
 
             gouldiHttpServices.modelRequest( id, githubReq )
-                .then(function (res) {
+                .then( function (res) {
                     $scope.model = res.data;
                     $scope.model.qID = id;
 
@@ -147,10 +151,17 @@ gouldi.controller(
         };
 
         $scope.$on('$routeChangeSuccess', function() {
-            console.dir($routeParams);
+            console.log("Well, routing changed");
             try {
-                $scope.model.qID = parseInt($routeParams.qid);
-                $scope.readModel();
+                var possibleNum = parseInt($routeParams.qid);
+                if (possibleNum >= $scope.min &&
+                    possibleNum <= $scope.max) {
+                    // TODO wow... timeout...
+                    $timeout( function(){
+                        $scope.model.qID = parseInt($routeParams.qid);
+                        $scope.readModel();
+                    }, 100 );
+                }
             } catch ( err ) {
                 console.log("I don't care... " + err);
             }
