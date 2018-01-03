@@ -45,18 +45,20 @@ gouldi.controller(
         };
 
         $scope.changeID = function( newID ){
-            model.qID = newID;
+            if (
+                model.qID <= $scope.min || 
+                model.qID >= $scope.max ) 
+                return;
+            $scope.model.qID = newID;
             $scope.readModel();
         }
 
         $scope.previousID = function( model ){
-            if ( model.qID <= $scope.min ) return;
-            else $scope.changeID( model.qID-1 )
+            $scope.changeID( model.qID-1 )
         };
 
         $scope.nextID = function(model){
-            if ( model.qID >= $scope.max ) return;
-            else $scope.changeID( model.qID+1 )
+            $scope.changeID( model.qID+1 )
         };
 
         $scope.readModel = function () {
