@@ -1,15 +1,25 @@
 <!doctype html>
 <html data-ng-app="gouldiApp">
 <head>
+
+    <!-- Just load all nodes before our own scripts -->
     <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-cookies/angular-cookies.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
     <script type="text/javascript" src="node_modules/tv4/tv4.js"></script>
     <script type="text/javascript" src="node_modules/objectpath/lib/ObjectPath.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+    <!-- Own scripts -->
     <script src="scripts/angularGouldi.js"></script>
+    <script src="scripts/angularGouldiServices.js"></script>
+    <script src="scripts/angularGouldiConfig.js"></script>
+    <script src="scripts/angularGouldiController.js"></script>
+
+    <!-- Some nice styles for the UI -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
     <link rel="stylesheet" href="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
@@ -18,7 +28,7 @@
 <body>
 <div class="wrapper">
     <div class="info-panel">
-        <div data-ng-controller="FormController">
+        <div data-ng-controller="GouldiMainController">
             <uib-tabset active="activeForm">
                 <uib-tab ng-attr-active="tabs[0].active" heading="Gold Standard">
                     <form name="gold"

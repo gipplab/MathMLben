@@ -98,6 +98,12 @@ app.post('/latexml', function(req, res){
     })
 });
 
+
+app.all('/*', function(req, res, next) {
+    // Just send the index.html for other files to support HTML5Mode
+    res.sendFile('views/index.html', { root: __dirname });
+});
+
 var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
 app.listen( port, function () {
     console.log('Started GoUldI on ' + port);
