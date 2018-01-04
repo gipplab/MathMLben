@@ -11,6 +11,8 @@
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <script type="text/javascript" src="node_modules/highlight.js/lib/highlight.js"></script>
+    <script type="text/javascript" src="node_modules/angular-highlightjs/build/angular-highlightjs.min.js"></script>
 
     <!-- Own scripts -->
     <script src="scripts/angularGouldi.js"></script>
@@ -23,6 +25,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
     <link rel="stylesheet" href="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
     <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 </head>
 <body>
 <div class="wrapper">
@@ -39,7 +43,9 @@
                     <hr>
                     <uib-accordion close-others="oneAtATime">
                         <div uib-accordion-group class="panel-default" heading="MathML Editor Field" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
-                            <pre><code class="scrollable">{{ model.correct_mml }}</code></pre>
+                            <div hljs
+                                 hljs-source="model.correct_mml"
+                                 hljs-language="html"></div>
                         </div>
                         <div uib-accordion-group class="panel-default" heading="Information">
                             <div class="alert alert-info" id="logger-info-helper"></div>
