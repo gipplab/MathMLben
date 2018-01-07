@@ -25,10 +25,18 @@ fs.readdirAsync(goldDir).map(function (name) {
         var num = name.split('.')[0];
         console.log();
         console.log('Parse ' + num + ':');
+        json.formula={
+          qId:name.replace(/\.json/,'')|0,
+          math_inputtex:json.math_inputtex,
+          fid:json.fid|0,
+          title:json.title|'title',
+          oldId:json.oldId|0
+        };
         return json;
       });
   } else {
     console.log('Skip directory ' + name);
+    return {};
   }
-}, {concurrency: 1})
-  .then(jsons => {return fs.writeFileAsync('gold.json', JSON.stringify(jsons));});
+})
+  .then(jsons => {return fs.writeFileAsync('gold.json', JSON.stringify(jsons,null,2));});
