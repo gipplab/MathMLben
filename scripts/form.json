@@ -83,7 +83,34 @@
     "type": "textarea",
     "title": "Comment"
   },
-  "checks",
+  {
+    "key": "check.items",
+    "type": "radiobuttons",
+    "titleMap": [
+      {
+        "value": true,
+        "name": "Looks good"
+      },
+      {
+        "value": false,
+        "name": "Needs improvement"
+      }
+    ]
+  },
+  {
+    "key": "check.elements",
+    "type": "radiobuttons",
+    "titleMap": [
+      {
+        "value": true,
+        "name": "Looks good"
+      },
+      {
+        "value": false,
+        "name": "Needs improvement"
+      }
+    ]
+  },
   {
     "type": "section",
     "htmlClass": "row btn-row center",
