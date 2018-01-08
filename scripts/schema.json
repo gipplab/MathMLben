@@ -44,6 +44,10 @@
       "title": "Comment",
       "type": "textarea"
     },
+    "commitMsg": {
+      "title": "Commit Message",
+      "type": "textarea"
+    },
     "qID": {
       "title": "Gold ID",
       "type": "integer",

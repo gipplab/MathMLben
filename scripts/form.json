@@ -79,6 +79,12 @@
     ]
   },
   {
+    "key": "commitMsg",
+    "type": "text",
+    "title": "Overwrite commit message",
+    "description": "Use the comments field for persistent notes"
+  },
+  {
     "key": "comment",
     "type": "textarea",
     "title": "Comment"
@@ -86,6 +92,7 @@
   {
     "key": "check.items",
     "type": "radiobuttons",
+    "title": "Item state",
     "titleMap": [
       {
         "value": true,
@@ -100,6 +107,7 @@
   {
     "key": "check.elements",
     "type": "radiobuttons",
+    "title": "Element state",
     "titleMap": [
       {
         "value": true,
@@ -111,6 +119,7 @@
       }
     ]
   },
+
   {
     "type": "section",
     "htmlClass": "row btn-row center",
