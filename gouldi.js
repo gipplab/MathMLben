@@ -57,6 +57,8 @@ app.post('/get-model', function (req, res) {
 app.post('/write-model', function (req, res) {
     var body = req.body;
     body.transform = function (x) {
+        body.message = body.data.commitMsg || `Update item ${body.data.qID} \n\n[ci skip]`;
+        delete body.data.commitMsg;
         delete body.data.qID;
         return JSON.stringify(body.data, null, 2);
     };
