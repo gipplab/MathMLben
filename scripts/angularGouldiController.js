@@ -45,7 +45,7 @@ gouldi.controller(
         };
 
         $scope.changeID = function( newID ){
-            if ( newID <= $scope.min || $scope.max <= newID ) return;
+            if ( newID < $scope.min || $scope.max < newID ) return;
             $scope.model.qID = newID;
             $scope.readModel();
         }
@@ -147,13 +147,39 @@ gouldi.controller(
             }
         };
 
+        const cssColorSettings = [
+            '#3c763d', // success text color
+            '#d6e9c6', // success border color
+            '#dff0d8', // success background color
+            '#31708f', // info text color IDX=3
+            '#bce8f1', // info border color
+            '#d9edf7', // info background color
+            '#8a6d3b', // warning text color IDX=6
+            '#faebcc', // warning border color
+            '#fcf8e3', // warning background color
+            '#a94442', // danger text color IDX=9
+            '#ebccd1', // danger border color
+            '#f2dede', // danger background color
+        ];
+
         $scope.logger = function( msg, alert ){
             var help = document.getElementById("logger-info-helper");
-            //console.log("Hmm... " + help);
             if ( help !== null ){
                 help.setAttribute( 'class', "alert " + alert );
                 help.innerHTML = JSON.stringify(msg, null, 2);
             }
+            var panelDiv = document.getElementById("logger-info-panel").firstChild;
+            var defaultIdx = 0; // alert-info level
+            if ( alert === 'alert-info' )
+                defaultIdx = 3;
+            else if ( alert === 'alert-warning')
+                defaultIdx = 6;
+            else if ( alert === 'alert-danger' )
+                defaultIdx = 9;
+            panelDiv.style.color = cssColorSettings[defaultIdx];
+            panelDiv.style.borderColor = cssColorSettings[defaultIdx+1];
+            panelDiv.style.backgroundColor = cssColorSettings[defaultIdx+2];
+
         };
 
         $scope.$on('$routeChangeSuccess', function() {
