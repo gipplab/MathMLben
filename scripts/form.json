@@ -90,9 +90,10 @@
     "title": "Comment"
   },
   {
-    "key": "check.items",
+    "key": "check.tree",
     "type": "radiobuttons",
-    "title": "Item state",
+    "title": "Tree state",
+    "description": "If the MML tree is rendered correct.",
     "titleMap": [
       {
         "value": true,
@@ -100,14 +101,15 @@
       },
       {
         "value": false,
-        "name": "Needs improvement"
+        "name": "Needs improvements"
       }
     ]
   },
   {
-    "key": "check.elements",
+    "key": "check.qid",
     "type": "radiobuttons",
-    "title": "Element state",
+    "title": "QID state",
+    "description": "If the QID's are correct.",
     "titleMap": [
       {
         "value": true,
@@ -115,7 +117,7 @@
       },
       {
         "value": false,
-        "name": "Needs improvement"
+        "name": "Needs improvements"
       }
     ]
   },

@@ -24,8 +24,5 @@
   "constraints": [],
   "math_inputtex_semantic": "\\wf{Q7913892}{W}(2, \\w{Q12503}{k}) > {2}^{k}/{k}^{\\w{Q3176558}{\\varepsilon}}",
   "comment": "test new qId inheritance. Note that only the first k is marked.",
-  "type": "relation",
-  "check": {
-    "items": true
-  }
+  "type": "relation"
 }

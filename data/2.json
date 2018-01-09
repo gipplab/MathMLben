@@ -19,9 +19,5 @@
   "constraints": [],
   "type": "general formula",
   "comment": "",
-  "math_inputtex_semantic": "\\measurableSpace{\\XSet}{\\SetFamily}",
-  "check": {
-    "items": true,
-    "elements": true
-  }
+  "math_inputtex_semantic": "\\measurableSpace{\\XSet}{\\SetFamily}"
 }

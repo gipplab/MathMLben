@@ -55,12 +55,12 @@
       "maximum": 330
     },
     "check":{
-      "structure": {
+      "qid": {
         "type": "boolean",
         "title":"Structure",
         "default": false
       },
-      "elements": {
+      "tree": {
         "type": "boolean",
         "title":"Elements",
         "default": false

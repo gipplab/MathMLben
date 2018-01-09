@@ -97,7 +97,7 @@ app.post('/latexml', function(req, res){
         res.send( inner_res.body.result );
     }).catch( function(e){
         res.status(400).send('Error while request LaTeXML: ' + e.message);
-    })
+    });
 });
 
 
