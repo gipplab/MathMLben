@@ -1,0 +1,27 @@
+{
+  "type": "section",
+  "htmlClass": "form-group",
+  "items": [
+    {
+      "type": "help",
+      "helpvalue": "<label>Constraints</label>"
+    },
+    {
+      "htmlClass": "small-tabs",
+      "key": "constraints",
+      "type": "tabarray",
+      "add": "Add Const.",
+      "remove": "Remove",
+      "style": {
+        "remove": "btn-danger"
+      },
+      "title": "{{ value || 'Const. '+$index }}",
+      "items": [
+        {
+          "key": "constraints[]",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ gouldi.controller(
     ['$scope', '$routeParams', '$timeout', 'gouldiCookieService', 'gouldiHttpServices',
         function ($scope, $routeParams, $timeout, gouldiCookieService, gouldiHttpServices) {
         var pleaseWait = false;
+        $scope.commitMessage = " ";
 
         var init = function(){
             gouldiHttpServices

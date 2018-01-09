@@ -41,20 +41,25 @@
                           data-sf-model="model"
                           data-ng-submit="onSave(repo)">
                     </form>
-                    <a href="https://github.com/ag-gipp/gouldi/issues/new?title=Issue with {{model.qID}} {{model.title}}
-&body=%0A{{model.comment}}
-%0A[Link to {{model.title}}, qID {{model.qID}}](https://gouldi.wmflabs.org/{{model.qID}})">
-                        Create issue about this item on github</a>
                     <hr>
                     <uib-accordion close-others="oneAtATime">
-                        <div uib-accordion-group class="panel-default" heading="MathML Editor Field" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+                        <div uib-accordion-group class="panel-default" heading="Commit Message / Create an Issue" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+                            <label>Overwrite commit message</label>
+                            <input type="text" data-ng-model="commitMessage" class="ng-scope ng-pristine ng-valid form-control">
+                            <div class="help-block">Use the comments field for persistent notes</div>
+                            <hr>
+                            <a href="https://github.com/ag-gipp/gouldi/issues/new?title=Issue with {{model.qID}} {{model.title}}
+&body=%0A{{commitMessage}}%0A[Link to {{model.title}}, qID {{model.qID}}](https://gouldi.wmflabs.org/{{model.qID}})">
+                                Create issue about this item on github</a>
+                        </div>
+                        <div uib-accordion-group class="panel-default" heading="Action Messages" id="logger-info-panel">
+                            <div class="alert alert-info" id="logger-info-helper"></div>
+                        </div>
+                        <div uib-accordion-group class="panel-default" heading="MathML Field">
                             <div hljs
                                  hljs-source="model.correct_mml"
                                  hljs-language="html"
                                  class="scrollable"></div>
-                        </div>
-                        <div uib-accordion-group class="panel-default" heading="Information" id="logger-info-panel">
-                            <div class="alert alert-info" id="logger-info-helper"></div>
                         </div>
                     </uib-accordion>
                 </uib-tab>
