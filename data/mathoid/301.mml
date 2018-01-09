@@ -1,0 +1,45 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="nabla times bold upper E equals minus StartFraction partial-differential bold upper B Over partial-differential t EndFraction">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="16" data-semantic-children="14,15" data-semantic-content="3">
+      <mrow data-semantic-type="infixop" data-semantic-role="unknown" data-semantic-id="14" data-semantic-children="0,2" data-semantic-content="1" data-semantic-parent="16">
+        <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="0" data-semantic-parent="14">∇
+          <!-- ∇ -->
+        </mi>
+        <mo data-semantic-type="operator" data-semantic-role="unknown" data-semantic-id="1" data-semantic-parent="14" data-semantic-operator="infixop,×">×
+          <!-- × -->
+        </mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="2" data-semantic-parent="14">E</mi>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="16" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-id="15" data-semantic-children="13" data-semantic-content="4" data-semantic-parent="16">
+        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="4" data-semantic-parent="15" data-semantic-operator="prefixop,−">−
+          <!-- − -->
+        </mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="13" data-semantic-children="8,12" data-semantic-parent="15">
+            <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="8" data-semantic-children="5,6" data-semantic-content="7" data-semantic-parent="13">
+              <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="5" data-semantic-parent="8">∂
+                <!-- ∂ -->
+              </mi>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="7" data-semantic-parent="8" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="bold" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="bold" data-semantic-id="6" data-semantic-parent="8">B</mi>
+              </mrow>
+            </mrow>
+            <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="12" data-semantic-children="9,10" data-semantic-content="11" data-semantic-parent="13">
+              <mi mathvariant="normal" data-semantic-type="prefixop" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="9" data-semantic-parent="12">∂
+                <!-- ∂ -->
+              </mi>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="11" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="12">t</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\nabla \times \mathbf {E} =-{\frac {\partial \mathbf {B} }{\partial t}}</annotation>
+  </semantics>
+</math>

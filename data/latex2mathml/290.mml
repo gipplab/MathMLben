@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>g</mi>
+      <mrow>
+         <mo>(</mo>
+         <mi>x</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <mrow>
+               <mo>(</mo>
+               <mn>1</mn>
+               <mo>+</mo>
+               <mi>mathrm</mi>
+               <mrow>
+                  <mi>e</mi>
+                  <mi>x</mi>
+                  <mi>p</mi>
+               </mrow>
+               <mrow>
+                  <mo>(</mo>
+                  <mo>−</mo>
+                  <mi>x</mi>
+                  <mo>)</mo>
+               </mrow>
+               <mo>)</mo>
+            </mrow>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

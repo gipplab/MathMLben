@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <expression prime-tag="sequence" secondary-tags="subscript">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <expression prime-tag="sequence" secondary-tags="superscript">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="ellipsis">\dotsb</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">1</term>
+    </expression>
+    <term prime-tag="letter" secondary-tags="Latin">x</term>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="underscore" secondary-tags="subscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">0</term>
+    </expression>
+  </expression>
+</math>

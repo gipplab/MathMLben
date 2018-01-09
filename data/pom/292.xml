@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="balanced-expression">
+      <term prime-tag="left-delimiter">\left(</term>
+      <expression prime-tag="fraction">
+        <term prime-tag="letter" secondary-tags="Latin">a</term>
+        <term prime-tag="letter" secondary-tags="Latin">p</term>
+      </expression>
+      <term prime-tag="right-delimiter">\right)</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="multicase">
+      <expression prime-tag="case">
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+        <expression prime-tag="sequence">
+          <term prime-tag="text"> if </term>
+          <term prime-tag="letter" secondary-tags="Latin">a</term>
+          <term prime-tag="text"> is a quadratic residue modulo </term>
+          <term prime-tag="letter" secondary-tags="Latin">p</term>
+          <term prime-tag="text"> and </term>
+          <term prime-tag="letter" secondary-tags="Latin">a</term>
+          <term prime-tag="negated relation" secondary-tags="negated">\not \equiv</term>
+          <term prime-tag="digit" secondary-tags="numeric">0</term>
+          <expression prime-tag="sequence">
+            <term prime-tag="left-delimiter">(</term>
+            <term prime-tag="modulo" secondary-tags="relation-qualifier">mod</term>
+            <term prime-tag="letter" secondary-tags="Latin">p</term>
+            <term prime-tag="right-delimiter">)</term>
+          </expression>
+          <term prime-tag="comma" secondary-tags="punctuation">,</term>
+        </expression>
+      </expression>
+      <expression prime-tag="case">
+        <expression prime-tag="sequence">
+          <term prime-tag="minus">-</term>
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+        </expression>
+        <expression prime-tag="sequence">
+          <term prime-tag="text"> if </term>
+          <term prime-tag="letter" secondary-tags="Latin">a</term>
+          <term prime-tag="text"> is a quadratic non-residue modulo </term>
+          <term prime-tag="letter" secondary-tags="Latin">p</term>
+          <term prime-tag="comma" secondary-tags="punctuation">,</term>
+        </expression>
+      </expression>
+      <expression prime-tag="case">
+        <term prime-tag="digit" secondary-tags="numeric">0</term>
+        <expression prime-tag="sequence">
+          <term prime-tag="text"> if </term>
+          <term prime-tag="letter" secondary-tags="Latin">a</term>
+          <term prime-tag="relation">\equiv</term>
+          <term prime-tag="digit" secondary-tags="numeric">0</term>
+          <expression prime-tag="sequence">
+            <term prime-tag="left-delimiter">(</term>
+            <term prime-tag="modulo" secondary-tags="relation-qualifier">mod</term>
+            <term prime-tag="letter" secondary-tags="Latin">p</term>
+            <term prime-tag="right-delimiter">)</term>
+          </expression>
+          <term prime-tag="point">.</term>
+        </expression>
+      </expression>
+    </expression>
+  </expression>
+</math>

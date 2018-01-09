@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mi>n</mi>
+   <mi>l</mi>
+   <mi>o</mi>
+   <mi>g</mi>
+   <mo>&lt;</mo>
+   <mi>s</mi>
    <mi>u</mi>
-   <mi>l</mi>
-   <mi>l</mi>
+   <mi>b</mi>
+   <mo>&gt;</mo>
+   <mn>10</mn>
+   <mo>&lt;</mo>
+   <mo>/</mo>
+   <mi>s</mi>
+   <mi>u</mi>
+   <mi>b</mi>
+   <mo>&gt;</mo>
+   <mfenced close=")" open="(">
+      <mrow>
+         <msup>
+            <mi>'</mi>
+            <mi>'</mi>
+         </msup>
+         <msup>
+            <mi>x</mi>
+            <mi>'</mi>
+         </msup>
+         <mi>'</mi>
+      </mrow>
+   </mfenced>
 </math>

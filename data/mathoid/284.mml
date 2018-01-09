@@ -1,0 +1,13 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper A circled-plus upper B">
+  <semantics>
+    <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="3" data-semantic-children="0,2" data-semantic-content="1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="3">A</mi>
+      <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="1" data-semantic-parent="3" data-semantic-operator="infixop,⊕">⊕
+        <!-- ⊕ -->
+      </mo>
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="3">B</mi>
+    </mrow>
+    <annotation encoding="application/x-tex">A\oplus B</annotation>
+  </semantics>
+</math>

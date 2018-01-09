@@ -1,0 +1,70 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mrow>
+        <mo>(</mo>
+        <mfrac>
+          <mi>a</mi>
+          <mi>p</mi>
+        </mfrac>
+        <mo>)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>{</mo>
+        <mtable displaystyle="false" columnalign="left left">
+          <mtr>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+            <mtd>
+              <mtext> if </mtext>
+              <mi>a</mi>
+              <mtext> is a quadratic residue modulo </mtext>
+              <mi>p</mi>
+              <mtext> and </mtext>
+              <mi>a</mi>
+              <mo>¬</mo>
+              <mo>≡</mo>
+              <mn>0</mn>
+              <mrow>
+                <mo lspace="mediummathspace">(</mo>
+                <mo rspace="thinmathspace">mod</mo>
+                <mi>p</mi>
+                <mo rspace="mediummathspace">)</mo>
+              </mrow>
+              <mo>,</mo>
+              <mtext>\</mtext>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mtd>
+            <mtd>
+              <mtext> if </mtext>
+              <mi>a</mi>
+              <mtext> is a quadratic non-residue modulo </mtext>
+              <mi>p</mi>
+              <mo>,</mo>
+              <mtext>\</mtext>
+              <mn>0</mn>
+            </mtd>
+            <mtd>
+              <mtext> if </mtext>
+              <mi>a</mi>
+              <mo>≡</mo>
+              <mn>0</mn>
+              <mrow>
+                <mo lspace="mediummathspace">(</mo>
+                <mo rspace="thinmathspace">mod</mo>
+                <mi>p</mi>
+                <mo rspace="mediummathspace">)</mo>
+              </mrow>
+              <mo>.</mo>
+            </mtd>
+          </mtr>
+        </mtable>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\left(\frac{a}{p}\right) =  \begin{cases}  1 &amp; \text{ if } a \text{ is a quadratic residue modulo } p \text{ and } a \not\equiv 0\pmod{p}, \ -1 &amp; \text{ if } a \text{ is a quadratic non-residue modulo } p, \  0 &amp; \text{ if } a \equiv 0 \pmod{p}.   \end{cases}</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,11 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>p</mi>
+      <mo stretchy="false">⇔</mo>
+      <mi>q</mi>
+    </mrow>
+    <annotation encoding="TeX">p \Leftrightarrow q</annotation>
+  </semantics>
+</math>

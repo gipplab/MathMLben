@@ -1,0 +1,32 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>l</mi>
+      <mi>o</mi>
+      <mi>g</mi>
+      <mo>&lt;</mo>
+      <mi>s</mi>
+      <mi>u</mi>
+      <mi>b</mi>
+      <mo>&gt;</mo>
+      <mn>10</mn>
+      <mo>&lt;</mo>
+      <mo>/</mo>
+      <mi>s</mi>
+      <mi>u</mi>
+      <mi>b</mi>
+      <mo>&gt;</mo>
+      <msup>
+        <mo stretchy="false">(</mo>
+        <mo>″</mo>
+      </msup>
+      <msup>
+        <mi>x</mi>
+        <mo>″</mo>
+      </msup>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">log&lt;sub&gt;10&lt;/sub&gt;(''x'')</annotation>
+  </semantics>
+</math>

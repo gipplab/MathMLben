@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mrow>
+            <mo maxsize="2.047em" minsize="2.047em">(</mo>
+            <mfrac linethickness="0">
+               <mi>n</mi>
+               <mi>k</mi>
+            </mfrac>
+            <mo maxsize="2.047em" minsize="2.047em">)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <mi>n</mi>
+               <mo>!</mo>
+            </mrow>
+            <mrow>
+               <mi>k</mi>
+               <mo>!</mo>
+               <mo stretchy="false">(</mo>
+               <mi>n</mi>
+               <mo>−</mo>
+               <mi>k</mi>
+               <mo stretchy="false">)</mo>
+               <mo>!</mo>
+            </mrow>
+         </mfrac>
+      </mrow>
+      <annotation encoding="application/x-tex">\binom{n}{k} = \frac{n!}{k! (n-k)!}</annotation>
+   </semantics>
+</math>

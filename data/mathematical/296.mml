@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <munder>
+            <mi>lim</mi> 
+            <mrow>
+               <mi>x</mi>
+               <mo>→</mo>
+               <mi>c</mi>
+            </mrow>
+         </munder>
+         <mfrac>
+            <mrow>
+               <mi>f</mi>
+               <mo stretchy="false">(</mo>
+               <mi>x</mi>
+               <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+               <mi>g</mi>
+               <mo stretchy="false">(</mo>
+               <mi>x</mi>
+               <mo stretchy="false">)</mo>
+            </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <munder>
+            <mi>lim</mi> 
+            <mrow>
+               <mi>x</mi>
+               <mo>→</mo>
+               <mi>c</mi>
+            </mrow>
+         </munder>
+         <mfrac>
+            <mrow>
+               <mi>f</mi>
+               <mo>′</mo>
+               <mo stretchy="false">(</mo>
+               <mi>x</mi>
+               <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+               <mi>g</mi>
+               <mo>′</mo>
+               <mo stretchy="false">(</mo>
+               <mi>x</mi>
+               <mo stretchy="false">)</mo>
+            </mrow>
+         </mfrac>
+      </mrow>
+      <annotation encoding="application/x-tex">\lim_{x\to c}\frac{f(x)}{g(x)} = \lim_{x\to c}\frac{f'(x)}{g'(x)}</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+\((f * g )(t) &amp; \, \stackrel{\math
+--------------^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">(f * g )(t) &amp; \, \stackrel{\mathrm{def}}{=}\ \int_{-\infty}^\infty f(\tau) g(t - \tau) \, d\tau</annotation>
+  </semantics>
+</math>

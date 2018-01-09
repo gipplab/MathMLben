@@ -1,0 +1,37 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">|</mo>
+      <mi>A</mi>
+      <mo stretchy="false">|</mo>
+      <mo>=</mo>
+      <mrow>
+        <mo>|</mo>
+        <mtable displaystyle="false" rowspacing="0.5ex">
+          <mtr>
+            <mtd>
+              <mi>a</mi>
+            </mtd>
+            <mtd>
+              <mi>b</mi>
+              <mtext>\</mtext>
+              <mi>c</mi>
+            </mtd>
+            <mtd>
+              <mi>d</mi>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>|</mo>
+      </mrow>
+      <mo>=</mo>
+      <mi>a</mi>
+      <mi>d</mi>
+      <mo>-</mo>
+      <mi>b</mi>
+      <mi>c</mi>
+    </mrow>
+    <annotation encoding="TeX">|A| = \begin{vmatrix} a &amp; b\c &amp; d \end{vmatrix}=ad - bc</annotation>
+  </semantics>
+</math>

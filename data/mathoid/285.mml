@@ -1,0 +1,58 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartAbsoluteValue upper A EndAbsoluteValue equals Start 2 By 2 Determinant 1st Row a b 2nd Row c d EndDeterminant equals a d minus b c">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="30" data-semantic-children="24,15,29" data-semantic-content="3,18">
+      <mrow data-semantic-type="fenced" data-semantic-role="neutral" data-semantic-id="24" data-semantic-children="1" data-semantic-content="0,2" data-semantic-parent="30">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="neutral" data-semantic-id="0" data-semantic-parent="24" data-semantic-operator="fenced">|</mo>
+        </mrow>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="24">A</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="neutral" data-semantic-id="2" data-semantic-parent="24" data-semantic-operator="fenced">|</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="30" data-semantic-operator="relseq,=">=</mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mrow data-semantic-type="matrix" data-semantic-role="determinant" data-semantic-id="15" data-semantic-children="9,14" data-semantic-content="4,16" data-semantic-parent="30">
+          <mo data-semantic-type="fence" data-semantic-role="neutral" data-semantic-id="4" data-semantic-parent="15">|</mo>
+          <mtable rowspacing="4pt" columnspacing="1em">
+            <mtr data-semantic-type="row" data-semantic-role="determinant" data-semantic-id="9" data-semantic-children="6,8" data-semantic-parent="15">
+              <mtd data-semantic-type="cell" data-semantic-role="determinant" data-semantic-id="6" data-semantic-children="5" data-semantic-parent="9">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="6">a</mi>
+              </mtd>
+              <mtd data-semantic-type="cell" data-semantic-role="determinant" data-semantic-id="8" data-semantic-children="7" data-semantic-parent="9">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="8">b</mi>
+              </mtd>
+            </mtr>
+            <mtr data-semantic-type="row" data-semantic-role="determinant" data-semantic-id="14" data-semantic-children="11,13" data-semantic-parent="15">
+              <mtd data-semantic-type="cell" data-semantic-role="determinant" data-semantic-id="11" data-semantic-children="10" data-semantic-parent="14">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="11">c</mi>
+              </mtd>
+              <mtd data-semantic-type="cell" data-semantic-role="determinant" data-semantic-id="13" data-semantic-children="12" data-semantic-parent="14">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="12" data-semantic-parent="13">d</mi>
+              </mtd>
+            </mtr>
+          </mtable>
+          <mo data-semantic-type="fence" data-semantic-role="neutral" data-semantic-id="16" data-semantic-parent="15">|</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="18" data-semantic-parent="30" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="29" data-semantic-children="26,28" data-semantic-content="21" data-semantic-parent="30">
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="26" data-semantic-children="19,20" data-semantic-content="25" data-semantic-parent="29">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="19" data-semantic-parent="26">a</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="25" data-semantic-parent="26" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="20" data-semantic-parent="26">d</mi>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="21" data-semantic-parent="29" data-semantic-operator="infixop,−">−
+          <!-- − -->
+        </mo>
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="28" data-semantic-children="22,23" data-semantic-content="27" data-semantic-parent="29">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="22" data-semantic-parent="28">b</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="27" data-semantic-parent="28" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="23" data-semantic-parent="28">c</mi>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">|A|={\begin{vmatrix}a&amp;b\\c&amp;d\end{vmatrix}}=ad-bc</annotation>
+  </semantics>
+</math>

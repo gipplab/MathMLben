@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>x</mi>
+      <mo>=</mo>
+      <msub>
+         <mi>log</mi>
+         <mn>2</mn>
+      </msub>
+      <mi>n</mi>
+      <mspace width="1.00em"/>
+      <mo>⟺</mo>
+      <mspace width="1.00em"/>
+      <msup>
+         <mn>2</mn>
+         <mi>x</mi>
+      </msup>
+      <mo>=</mo>
+      <mi>n</mi>
+   </mrow>
+</math>

@@ -1,0 +1,59 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <munder>
+        <mo lspace="0em" rspace="0em">lim</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">→</mo>
+          <mi>c</mi>
+        </mrow>
+      </munder>
+      <mfrac>
+        <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mrow>
+          <mi>g</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <munder>
+        <mo lspace="0em" rspace="0em">lim</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">→</mo>
+          <mi>c</mi>
+        </mrow>
+      </munder>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mi>f</mi>
+            <mo>′</mo>
+          </msup>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mrow>
+          <msup>
+            <mi>g</mi>
+            <mo>′</mo>
+          </msup>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">\lim_{x\to c}\frac{f(x)}{g(x)} = \lim_{x\to c}\frac{f'(x)}{g'(x)}</annotation>
+  </semantics>
+</math>

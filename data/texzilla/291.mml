@@ -1,0 +1,12 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <merror>
+      <mtext>Parse error on line 1:
+\('''F''' {{=}} ''m'''
+--^
+</mtext>
+    </merror>
+    <annotation encoding="TeX">'''F''' {{=}} ''m'''''a'''</annotation>
+  </semantics>
+</math>

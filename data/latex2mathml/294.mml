@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mi>x</mi>
+      <mo>=</mo>
+      <msub>
+         <mi>log</mi>
+         <mn>2</mn>
+      </msub>
+      <mi>n</mi>
+      <mspace width="0.167em"/>
+      <mi>⟺</mi>
+      <mspace width="0.167em"/>
+      <msup>
+         <mn>2</mn>
+         <mi>x</mi>
+      </msup>
+      <mo>=</mo>
+      <mi>n</mi>
+   </mrow>
+</math>

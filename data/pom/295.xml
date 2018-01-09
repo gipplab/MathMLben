@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <expression prime-tag="binomial coefficient">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+      <term prime-tag="letter" secondary-tags="Latin">k</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="exclamation point" secondary-tags="punctuation">!</term>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">k</term>
+        <term prime-tag="exclamation point" secondary-tags="punctuation">!</term>
+        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
+        <term prime-tag="letter" secondary-tags="Latin">n</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="letter" secondary-tags="Latin">k</term>
+        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
+        <term prime-tag="exclamation point" secondary-tags="punctuation">!</term>
+      </expression>
+    </expression>
+  </expression>
+</math>

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mi>n</mi>
-   <mi>u</mi>
-   <mi>l</mi>
-   <mi>l</mi>
+   <mi>g</mi>
+   <mfenced close=")" open="(">
+      <mi>x</mi>
+   </mfenced>
+   <mo>=</mo>
+   <mfrac>
+      <mn>1</mn>
+      <mfenced close=")" open="(">
+         <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mstyle mathvariant="normal">
+               <mi>e</mi>
+               <mi>x</mi>
+               <mi>p</mi>
+            </mstyle>
+            <mstyle mathvariant="normal">
+               <mfenced close=")" open="(">
+                  <mrow>
+                     <mo>-</mo>
+                     <mi>x</mi>
+                  </mrow>
+               </mfenced>
+            </mstyle>
+         </mrow>
+      </mfenced>
+   </mfrac>
 </math>

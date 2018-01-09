@@ -2,12 +2,16 @@
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
     <mrow>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <mi>n</mi>
+      <mo stretchy="false">)</mo>
       <mo>=</mo>
       <mfrac>
         <mi>k</mi>
         <mi>n</mi>
       </mfrac>
     </mrow>
-    <annotation encoding="TeX">= \frac{k}{n}</annotation>
+    <annotation encoding="TeX">P(n) = \frac{k}{n}</annotation>
   </semantics>
 </math>

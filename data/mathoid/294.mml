@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="x equals log Subscript 2 Baseline n long left right double arrow 2 Superscript x Baseline equals n">
+  <semantics>
+    <mrow data-semantic-type="multirel" data-semantic-role="unknown" data-semantic-id="15" data-semantic-children="0,14,10,12" data-semantic-content="1,7,11">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="15">x</mi>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="15" data-semantic-operator="multirel">=</mo>
+      <mrow data-semantic-type="appl" data-semantic-role="prefix function" data-semantic-id="14" data-semantic-children="4,6" data-semantic-content="13,2" data-semantic-parent="15">
+        <msub data-semantic-type="subscript" data-semantic-role="prefix function" data-semantic-id="4" data-semantic-children="2,3" data-semantic-parent="14">
+          <mi data-semantic-type="function" data-semantic-role="prefix function" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="4" data-semantic-operator="appl">log</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="3" data-semantic-parent="4">2</mn>
+          </mrow>
+        </msub>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="13" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="14">n</mi>
+      </mrow>
+      <mspace width="1em"/>
+      <mo stretchy="false" data-semantic-type="relation" data-semantic-role="arrow" data-semantic-id="7" data-semantic-parent="15" data-semantic-operator="multirel">⟺
+        <!-- ⟺ -->
+      </mo>
+      <mspace width="1em"/>
+      <msup data-semantic-type="superscript" data-semantic-role="integer" data-semantic-id="10" data-semantic-children="8,9" data-semantic-parent="15">
+        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="8" data-semantic-parent="10">2</mn>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="10">x</mi>
+        </mrow>
+      </msup>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="11" data-semantic-parent="15" data-semantic-operator="multirel">=</mo>
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="12" data-semantic-parent="15">n</mi>
+    </mrow>
+    <annotation encoding="application/x-tex">x=\log _{2}n\quad \Longleftrightarrow \quad 2^{x}=n</annotation>
+  </semantics>
+</math>

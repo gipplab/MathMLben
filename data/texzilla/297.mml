@@ -1,0 +1,29 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mn>2</mn>
+      <mo>,</mo>
+      <mn>2</mn>
+      <mo>,</mo>
+      <mn>3</mn>
+      <mo>,</mo>
+      <mn>3</mn>
+      <mo>,</mo>
+      <mn>4</mn>
+      <mo>,</mo>
+      <mn>4</mn>
+      <mo>,</mo>
+      <mn>4</mn>
+      <mo>,</mo>
+      <mn>5</mn>
+      <mo>,</mo>
+      <mn>5</mn>
+      <mo>,</mo>
+      <mn>5</mn>
+    </mrow>
+    <annotation encoding="TeX">1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5</annotation>
+  </semantics>
+</math>

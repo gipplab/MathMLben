@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>l</mi>
+         <mi>o</mi>
+         <mi>g</mi>
+         <merror>
+            <mtext>Unknown character</mtext>
+         </merror>
+         <mi>s</mi>
+         <mi>u</mi>
+         <mi>b</mi>
+         <merror>
+            <mtext>Unknown character</mtext>
+         </merror>
+         <mn>10</mn>
+         <merror>
+            <mtext>Unknown character</mtext>
+         </merror>
+         <mo stretchy="false">/</mo>
+         <mi>s</mi>
+         <mi>u</mi>
+         <mi>b</mi>
+         <merror>
+            <mtext>Unknown character</mtext>
+         </merror>
+         <mo stretchy="false">(</mo>
+         <mo>″</mo>
+         <mi>x</mi>
+         <mo>″</mo>
+         <mo stretchy="false">)</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">log&lt;sub&gt;10&lt;/sub&gt;(''x'')</annotation>
+   </semantics>
+</math>

@@ -1,0 +1,85 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="limit Underscript x right-arrow c Endscripts StartFraction f left-parenthesis x right-parenthesis Over g left-parenthesis x right-parenthesis EndFraction equals limit Underscript x right-arrow c Endscripts StartFraction f prime left-parenthesis x right-parenthesis Over g prime left-parenthesis x right-parenthesis EndFraction">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="51" data-semantic-children="50,48" data-semantic-content="21">
+      <mrow data-semantic-type="appl" data-semantic-role="limit function" data-semantic-id="50" data-semantic-children="5,20" data-semantic-content="49,0" data-semantic-parent="51">
+        <munder data-semantic-type="limlower" data-semantic-role="limit function" data-semantic-id="5" data-semantic-children="0,4" data-semantic-parent="50">
+          <mo movablelimits="true" form="prefix" data-semantic-type="function" data-semantic-role="limit function" data-semantic-id="0" data-semantic-parent="5" data-semantic-operator="appl">lim</mo>
+          <mrow class="MJX-TeXAtom-ORD" data-semantic-type="relseq" data-semantic-role="arrow" data-semantic-id="4" data-semantic-children="1,3" data-semantic-content="2" data-semantic-parent="5">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="4">x</mi>
+            <mo stretchy="false" data-semantic-type="relation" data-semantic-role="arrow" data-semantic-id="2" data-semantic-parent="4" data-semantic-operator="relseq,→">→
+              <!-- → -->
+            </mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="4">c</mi>
+          </mrow>
+        </munder>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="49" data-semantic-parent="50" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="20" data-semantic-children="12,19" data-semantic-parent="50">
+            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="12" data-semantic-children="6,10" data-semantic-content="11,6" data-semantic-parent="20">
+              <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="12" data-semantic-operator="appl">f</mi>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="11" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="10" data-semantic-children="8" data-semantic-content="7,9" data-semantic-parent="12">
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="7" data-semantic-parent="10" data-semantic-operator="fenced">(</mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="10">x</mi>
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="9" data-semantic-parent="10" data-semantic-operator="fenced">)</mo>
+              </mrow>
+            </mrow>
+            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="19" data-semantic-children="13,17" data-semantic-content="18,13" data-semantic-parent="20">
+              <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="19" data-semantic-operator="appl">g</mi>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="17" data-semantic-children="15" data-semantic-content="14,16" data-semantic-parent="19">
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="14" data-semantic-parent="17" data-semantic-operator="fenced">(</mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="17">x</mi>
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="16" data-semantic-parent="17" data-semantic-operator="fenced">)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="21" data-semantic-parent="51" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="appl" data-semantic-role="limit function" data-semantic-id="48" data-semantic-children="27,46" data-semantic-content="47,22" data-semantic-parent="51">
+        <munder data-semantic-type="limlower" data-semantic-role="limit function" data-semantic-id="27" data-semantic-children="22,26" data-semantic-parent="48">
+          <mo movablelimits="true" form="prefix" data-semantic-type="function" data-semantic-role="limit function" data-semantic-id="22" data-semantic-parent="27" data-semantic-operator="appl">lim</mo>
+          <mrow class="MJX-TeXAtom-ORD" data-semantic-type="relseq" data-semantic-role="arrow" data-semantic-id="26" data-semantic-children="23,25" data-semantic-content="24" data-semantic-parent="27">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="23" data-semantic-parent="26">x</mi>
+            <mo stretchy="false" data-semantic-type="relation" data-semantic-role="arrow" data-semantic-id="24" data-semantic-parent="26" data-semantic-operator="relseq,→">→
+              <!-- → -->
+            </mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="25" data-semantic-parent="26">c</mi>
+          </mrow>
+        </munder>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="47" data-semantic-parent="48" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="46" data-semantic-children="36,45" data-semantic-parent="48">
+            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="36" data-semantic-children="30,34" data-semantic-content="35,28" data-semantic-parent="46">
+              <msup data-semantic-type="superscript" data-semantic-role="simple function" data-semantic-id="30" data-semantic-children="28,29" data-semantic-parent="36">
+                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="28" data-semantic-parent="30" data-semantic-operator="appl">f</mi>
+                <mo data-semantic-type="punctuation" data-semantic-role="prime" data-semantic-id="29" data-semantic-parent="30">′</mo>
+              </msup>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="35" data-semantic-parent="36" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="34" data-semantic-children="32" data-semantic-content="31,33" data-semantic-parent="36">
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="31" data-semantic-parent="34" data-semantic-operator="fenced">(</mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="32" data-semantic-parent="34">x</mi>
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="33" data-semantic-parent="34" data-semantic-operator="fenced">)</mo>
+              </mrow>
+            </mrow>
+            <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="45" data-semantic-children="39,43" data-semantic-content="44,37" data-semantic-parent="46">
+              <msup data-semantic-type="superscript" data-semantic-role="simple function" data-semantic-id="39" data-semantic-children="37,38" data-semantic-parent="45">
+                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="37" data-semantic-parent="39" data-semantic-operator="appl">g</mi>
+                <mo data-semantic-type="punctuation" data-semantic-role="prime" data-semantic-id="38" data-semantic-parent="39">′</mo>
+              </msup>
+              <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="44" data-semantic-parent="45" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="43" data-semantic-children="41" data-semantic-content="40,42" data-semantic-parent="45">
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="40" data-semantic-parent="43" data-semantic-operator="fenced">(</mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="41" data-semantic-parent="43">x</mi>
+                <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="42" data-semantic-parent="43" data-semantic-operator="fenced">)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">\lim _{x\to c}{\frac {f(x)}{g(x)}}=\lim _{x\to c}{\frac {f'(x)}{g'(x)}}</annotation>
+  </semantics>
+</math>

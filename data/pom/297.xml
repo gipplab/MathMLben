@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="digit" secondary-tags="numeric">1</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">2</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">2</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">3</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">3</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">4</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">4</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">4</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">5</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">5</term>
+    <term prime-tag="comma" secondary-tags="punctuation">,</term>
+    <term prime-tag="digit" secondary-tags="numeric">5</term>
+  </expression>
+</math>

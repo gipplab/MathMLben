@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mi>x</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mi>r</mi>
+      <msub>
+        <mi>x</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msub>
+        <mi>x</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">x_{n+1}=rx_n(1-x_n)</annotation>
+  </semantics>
+</math>

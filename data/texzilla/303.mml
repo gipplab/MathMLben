@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>f</mi>
+      <mo>∘</mo>
+      <mi>g</mi>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mo>′</mo>
+      </msup>
+      <mo>=</mo>
+      <mo stretchy="false">(</mo>
+      <msup>
+        <mi>f</mi>
+        <mo>′</mo>
+      </msup>
+      <mo>∘</mo>
+      <mi>g</mi>
+      <mo stretchy="false">)</mo>
+      <mo>⋅</mo>
+      <msup>
+        <mi>g</mi>
+        <mo>′</mo>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">(f\circ g)'=(f'\circ g)\cdot g'</annotation>
+  </semantics>
+</math>

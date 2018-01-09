@@ -1,0 +1,51 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartBinomialOrMatrix n Choose k EndBinomialOrMatrix equals StartFraction n factorial Over k factorial left-parenthesis n minus k right-parenthesis factorial EndFraction">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="24" data-semantic-children="5,23" data-semantic-content="8">
+      <mrow class="MJX-TeXAtom-ORD">
+        <mrow data-semantic-type="vector" data-semantic-role="binomial" data-semantic-id="5" data-semantic-children="3,4" data-semantic-content="0,6" data-semantic-parent="24">
+          <mrow class="MJX-TeXAtom-OPEN">
+            <mo maxsize="2.047em" minsize="2.047em" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="5">(</mo>
+          </mrow>
+          <mfrac linethickness="0">
+            <mrow data-semantic-added="true" data-semantic-type="line" data-semantic-role="binomial" data-semantic-id="3" data-semantic-children="1" data-semantic-parent="5">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">n</mi>
+            </mrow>
+            <mrow data-semantic-added="true" data-semantic-type="line" data-semantic-role="binomial" data-semantic-id="4" data-semantic-children="2" data-semantic-parent="5">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">k</mi>
+            </mrow>
+          </mfrac>
+          <mrow class="MJX-TeXAtom-CLOSE">
+            <mo maxsize="2.047em" minsize="2.047em" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="6" data-semantic-parent="5">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="8" data-semantic-parent="24" data-semantic-operator="relseq,=">=</mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="23" data-semantic-children="11,22" data-semantic-parent="24">
+          <mrow data-semantic-type="punctuated" data-semantic-role="endpunct" data-semantic-id="11" data-semantic-children="9,10" data-semantic-content="10" data-semantic-parent="23">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="11">n</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="unknown" data-semantic-id="10" data-semantic-parent="11" data-semantic-operator="punctuated">!</mo>
+          </mrow>
+          <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="22" data-semantic-children="12,13,21,19" data-semantic-content="13,19" data-semantic-parent="23">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="12" data-semantic-parent="22">k</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="unknown" data-semantic-id="13" data-semantic-parent="22" data-semantic-operator="punctuated">!</mo>
+            <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="21" data-semantic-children="20" data-semantic-content="14,18" data-semantic-parent="22">
+              <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="14" data-semantic-parent="21" data-semantic-operator="fenced">(</mo>
+              <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="20" data-semantic-children="15,17" data-semantic-content="16" data-semantic-parent="21">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="20">n</mi>
+                <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="16" data-semantic-parent="20" data-semantic-operator="infixop,−">−
+                  <!-- − -->
+                </mo>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="17" data-semantic-parent="20">k</mi>
+              </mrow>
+              <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="18" data-semantic-parent="21" data-semantic-operator="fenced">)</mo>
+            </mrow>
+            <mo data-semantic-type="punctuation" data-semantic-role="unknown" data-semantic-id="19" data-semantic-parent="22" data-semantic-operator="punctuated">!</mo>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">{\binom {n}{k}}={\frac {n!}{k!(n-k)!}}</annotation>
+  </semantics>
+</math>

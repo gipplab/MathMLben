@@ -1,0 +1,69 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <msub>
+        <mrow/>
+        <mn>2</mn>
+      </msub>
+      <msub>
+        <mi>F</mi>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mo>;</mo>
+      <mi>c</mi>
+      <mo>;</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mn>∞</mn>
+      </munderover>
+      <mfrac>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <msub>
+            <mo stretchy="false">)</mo>
+            <mi>n</mi>
+          </msub>
+          <mo stretchy="false">(</mo>
+          <mi>b</mi>
+          <msub>
+            <mo stretchy="false">)</mo>
+            <mi>n</mi>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>c</mi>
+          <msub>
+            <mo stretchy="false">)</mo>
+            <mi>n</mi>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mfrac>
+        <msup>
+          <mi>z</mi>
+          <mi>n</mi>
+        </msup>
+        <mrow>
+          <mi>n</mi>
+          <mo>!</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">{}_2F_1(a,b;c;z) = \sum_{n=0}^\infty \frac{(a)_n (b)_n}{(c)_n} \frac{z^n}{n!}</annotation>
+  </semantics>
+</math>

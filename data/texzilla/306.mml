@@ -1,0 +1,34 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mfrac>
+        <mrow>
+          <mi>d</mi>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+        </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mi>r</mi>
+      <mi>P</mi>
+      <mo>⋅</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <mn>1</mn>
+          <mo>-</mo>
+          <mfrac>
+            <mi>P</mi>
+            <mi>K</mi>
+          </mfrac>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <annotation encoding="TeX">\frac{dP}{dt}=r P \cdot \left(1 - \frac{P}{K}\right)</annotation>
+  </semantics>
+</math>

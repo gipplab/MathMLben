@@ -1,0 +1,27 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mo>∇</mo>
+      <mo>×</mo>
+      <mstyle mathvariant="bold">
+        <mi>E</mi>
+      </mstyle>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂</mo>
+          <mstyle mathvariant="bold">
+            <mi>B</mi>
+          </mstyle>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi>t</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}} {\partial t}</annotation>
+  </semantics>
+</math>

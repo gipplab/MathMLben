@@ -1,0 +1,30 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="a x squared plus b x plus c equals 0">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="16" data-semantic-children="15,10" data-semantic-content="9">
+      <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="15" data-semantic-children="12,14,8" data-semantic-content="4,7" data-semantic-parent="16">
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="12" data-semantic-children="0,3" data-semantic-content="11" data-semantic-parent="15">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="12">a</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="11" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="12">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="3">2</mn>
+            </mrow>
+          </msup>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="4" data-semantic-parent="15" data-semantic-operator="infixop,+">+</mo>
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="14" data-semantic-children="5,6" data-semantic-content="13" data-semantic-parent="15">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="14">b</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="13" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="14">x</mi>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="7" data-semantic-parent="15" data-semantic-operator="infixop,+">+</mo>
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="15">c</mi>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="9" data-semantic-parent="16" data-semantic-operator="relseq,=">=</mo>
+      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="10" data-semantic-parent="16">0</mn>
+    </mrow>
+    <annotation encoding="application/x-tex">ax^{2}+bx+c=0</annotation>
+  </semantics>
+</math>

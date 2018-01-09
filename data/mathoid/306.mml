@@ -1,0 +1,49 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="StartFraction d upper P Over d t EndFraction equals r upper P dot left-parenthesis 1 minus StartFraction upper P Over upper K EndFraction right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="25" data-semantic-children="8,24" data-semantic-content="9">
+      <mrow class="MJX-TeXAtom-ORD">
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="8" data-semantic-children="3,7" data-semantic-parent="25">
+          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-parent="8">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="3">d</mi>
+            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="3">P</mi>
+          </mrow>
+          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="7" data-semantic-children="4,5" data-semantic-content="6" data-semantic-parent="8">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="7">d</mi>
+            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="6" data-semantic-parent="7" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="7">t</mi>
+          </mrow>
+        </mfrac>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="9" data-semantic-parent="25" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="multiplication" data-semantic-id="24" data-semantic-children="23,21" data-semantic-content="12" data-semantic-parent="25">
+        <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="23" data-semantic-children="10,11" data-semantic-content="22" data-semantic-parent="24">
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="23">r</mi>
+          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="22" data-semantic-parent="23" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="23">P</mi>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="12" data-semantic-parent="24" data-semantic-operator="infixop,⋅">⋅
+          <!-- ⋅ -->
+        </mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="21" data-semantic-children="19" data-semantic-content="13,20" data-semantic-parent="24">
+          <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="13" data-semantic-parent="21" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="19" data-semantic-children="14,18" data-semantic-content="15" data-semantic-parent="21">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="14" data-semantic-parent="19">1</mn>
+            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="15" data-semantic-parent="19" data-semantic-operator="infixop,−">−
+              <!-- − -->
+            </mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="18" data-semantic-children="16,17" data-semantic-parent="19">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="16" data-semantic-parent="18">P</mi>
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="17" data-semantic-parent="18">K</mi>
+              </mfrac>
+            </mrow>
+          </mrow>
+          <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="20" data-semantic-parent="21" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">{\frac {dP}{dt}}=rP\cdot \left(1-{\frac {P}{K}}\right)</annotation>
+  </semantics>
+</math>

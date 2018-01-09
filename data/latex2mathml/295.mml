@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mo>(</mo>
+      <mfrac linethickness="0">
+         <mrow>
+            <mi>n</mi>
+         </mrow>
+         <mrow>
+            <mi>k</mi>
+         </mrow>
+      </mfrac>
+      <mo>)</mo>
+      <mo>=</mo>
+      <mfrac>
+         <mrow>
+            <mi>n</mi>
+            <mi>!</mi>
+         </mrow>
+         <mrow>
+            <mi>k</mi>
+            <mi>!</mi>
+            <mrow>
+               <mo>(</mo>
+               <mi>n</mi>
+               <mo>−</mo>
+               <mi>k</mi>
+               <mo>)</mo>
+            </mrow>
+            <mi>!</mi>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

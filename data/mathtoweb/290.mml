@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>g</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>x</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
+         <mrow>
+            <mo form="prefix">(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mstyle mathvariant="normal">
+               <mi>e</mi>
+               <mi>x</mi>
+               <mi>p</mi>
+            </mstyle>
+            <mo form="prefix">(</mo>
+            <mo>-</mo>
+            <mi>x</mi>
+            <mo form="postfix">)</mo>
+            <mo form="postfix">)</mo>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

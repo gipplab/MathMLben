@@ -1,0 +1,36 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>Γ</mi>
+      <mo stretchy="false">(</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <msubsup>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mn>∞</mn>
+      </msubsup>
+      <msup>
+        <mi>x</mi>
+        <mrow>
+          <mi>z</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <msup>
+        <mi>e</mi>
+        <mrow>
+          <mo>-</mo>
+          <mi>x</mi>
+        </mrow>
+      </msup>
+      <mspace width="thinmathspace"/>
+      <mi>d</mi>
+      <mi>x</mi>
+    </mrow>
+    <annotation encoding="TeX">\Gamma(z) = \int_0^\infty x^{z-1} e^{-x}\,dx</annotation>
+  </semantics>
+</math>

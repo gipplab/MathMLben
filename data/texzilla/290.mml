@@ -1,0 +1,33 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>g</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mstyle mathvariant="normal">
+            <mrow>
+              <mi>e</mi>
+              <mi>x</mi>
+              <mi>p</mi>
+            </mrow>
+          </mstyle>
+          <mo stretchy="false">(</mo>
+          <mo>-</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">g(x) = \frac{1}{(1+\mathrm{exp}(-x))}</annotation>
+  </semantics>
+</math>

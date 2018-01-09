@@ -1,0 +1,80 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>φ</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>λ</mi>
+        <mn>1</mn>
+      </msub>
+      <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>+</mo>
+      <msub>
+        <mi>λ</mi>
+        <mn>2</mn>
+      </msub>
+      <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>+</mo>
+      <mo>⋯</mo>
+      <mo>+</mo>
+      <msub>
+        <mi>λ</mi>
+        <mi>n</mi>
+      </msub>
+      <msub>
+        <mi>x</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>≤</mo>
+      <msub>
+        <mi>λ</mi>
+        <mn>1</mn>
+      </msub>
+      <mspace width="thinmathspace"/>
+      <mi>φ</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>+</mo>
+      <msub>
+        <mi>λ</mi>
+        <mn>2</mn>
+      </msub>
+      <mspace width="thinmathspace"/>
+      <mi>φ</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>+</mo>
+      <mo>⋯</mo>
+      <mo>+</mo>
+      <msub>
+        <mi>λ</mi>
+        <mi>n</mi>
+      </msub>
+      <mspace width="thinmathspace"/>
+      <mi>φ</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>x</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">\varphi(\lambda_1 x_1+\lambda_2 x_2+\cdots+\lambda_n x_n)\leq \lambda_1\,\varphi(x_1)+\lambda_2\,\varphi(x_2)+\cdots+\lambda_n\,\varphi(x_n)</annotation>
+  </semantics>
+</math>
