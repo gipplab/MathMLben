@@ -19,5 +19,9 @@
   "constraints": [],
   "math_inputtex_semantic": "(\\w{Q49008}{p}-1)!^{\\w{Q12503}{n}}",
   "type": "general formula",
-  "comment": "I'm not really sure about this notation. Is it the nth fractorial like double fractorial or just a normal power"
+  "comment": "",
+  "check": {
+    "tree": true,
+    "qid": false
+  }
 }
