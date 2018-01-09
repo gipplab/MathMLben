@@ -57,34 +57,42 @@
     "title": "Comment"
   },
   {
-    "key": "check.tree",
-    "type": "radiobuttons",
-    "title": "Tree state",
-    "description": "If the MML tree is rendered correct.",
-    "titleMap": [
+    "type": "section",
+    "htmlClass": "row",
+    "items": [
       {
-        "value": true,
-        "name": "Looks good"
+        "key": "check.tree",
+        "type": "radios",
+        "title": "Tree State",
+        "description": "Whether the MML tree is correct or not.",
+        "htmlClass": "col-md-6",
+        "titleMap": [
+          {
+            "value": true,
+            "name": "Looks good!"
+          },
+          {
+            "value": false,
+            "name": "Needs improvements"
+          }
+        ]
       },
       {
-        "value": false,
-        "name": "Needs improvements"
-      }
-    ]
-  },
-  {
-    "key": "check.qid",
-    "type": "radiobuttons",
-    "title": "QID state",
-    "description": "If the QID's are correct.",
-    "titleMap": [
-      {
-        "value": true,
-        "name": "Looks good"
-      },
-      {
-        "value": false,
-        "name": "Needs improvements"
+        "key": "check.qid",
+        "type": "radios",
+        "title": "QID State",
+        "description": "Whether the QID's are correct or not.",
+        "htmlClass": "col-md-6",
+        "titleMap": [
+          {
+            "value": true,
+            "name": "Looks good!"
+          },
+          {
+            "value": false,
+            "name": "Needs improvements"
+          }
+        ]
       }
     ]
   },
