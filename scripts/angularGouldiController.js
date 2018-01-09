@@ -208,17 +208,20 @@ gouldi.controller(
 
         $scope.$watch('model.math_inputtex', function(){
             if ( !('model' in $scope) || !$scope.model.math_inputtex ){
-                //console.log("Undefined model!");
                 return;
             }
 
+            var container = document.getElementById('svg-renderer-container');
+            var parentContainer = container.parentNode;
+            container.innerHTML = "";
+
             gouldiHttpServices.renderMathRequest($scope.model.math_inputtex)
                 .then( function(res){
-                    var container = document.getElementById('svg-renderer-container');
-                    container.innerHTML = "";
                     container.innerHTML = res.data;
+                    parentContainer.setAttribute('class', "alert alert-success math-renderer");
                 }).catch( function(e){
                     console.log("ERROR: " + e.data);
+                    parentContainer.setAttribute('class', "alert alert-danger math-renderer");
                 });
         }, true);
 

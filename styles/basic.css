@@ -69,6 +69,7 @@ label {
 .math-renderer {
     width: 100%;
     padding: 5px;
+    min-height: 30pt;
     display: inline-block;
     text-align: center;
     white-space: normal;
