@@ -206,8 +206,8 @@ gouldi.controller(
             }
         });
 
-        $scope.$watch('model.math_inputtex', function(){
-            if ( !('model' in $scope) || !$scope.model.math_inputtex ){
+        $scope.$watch('model.correct_tex', function(){
+            if ( !('model' in $scope) || !$scope.model.correct_tex ){
                 return;
             }
 
@@ -215,7 +215,7 @@ gouldi.controller(
             var parentContainer = container.parentNode;
             container.innerHTML = "";
 
-            gouldiHttpServices.renderMathRequest($scope.model.math_inputtex)
+            gouldiHttpServices.renderMathRequest($scope.model.correct_tex)
                 .then( function(res){
                     container.innerHTML = res.data;
                     parentContainer.setAttribute('class', "alert alert-success math-renderer");
