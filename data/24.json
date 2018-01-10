@@ -26,6 +26,7 @@
   "math_inputtex_semantic": "\\w{Q46276}{E _\\text{k}} = E_t + \\w{Q2140940}{E_\\text{r}}",
   "type": "equation",
   "check": {
-    "tree": true
+    "tree": true,
+    "qid": false
   }
 }
