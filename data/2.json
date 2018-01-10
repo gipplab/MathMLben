@@ -21,7 +21,7 @@
   "comment": "",
   "math_inputtex_semantic": "\\measurableSpace{\\XSet}{\\SetFamily}",
   "check": {
-    "tree": true,
+    "tree": false,
     "qid": true
   }
 }
