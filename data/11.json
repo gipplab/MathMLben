@@ -21,5 +21,9 @@
     "c \\ne 1"
   ],
   "math_inputtex_semantic": "\\deriv{\\ln_{\\w{Q12916}{c}} \\w{Q12916}{x}}{\\w{Q12916}{x}} = {1 \\over \\w{Q12916}{x} \\ln \\w{Q12916}{c}}",
-  "type": "equation"
+  "type": "equation",
+  "check": {
+    "tree": true,
+    "qid": true
+  }
 }
