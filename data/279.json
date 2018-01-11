@@ -13,7 +13,7 @@
     ]
   },
   "notation": "",
-  "constraints": "",
+  "constraints": [],
   "title": "Commonly used loss function Context 2",
   "comment": "not sure about the measure",
   "math_inputtex": "\\nu_{\\Psi}",

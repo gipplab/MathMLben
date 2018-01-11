@@ -24,7 +24,7 @@
     ]
   },
   "notation": "Einstein notation",
-  "constraints": "",
+  "constraints": [],
   "title": "Relating the Maxwell system and the Dirac equations Context 2",
   "comment": "",
   "math_inputtex": "(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",

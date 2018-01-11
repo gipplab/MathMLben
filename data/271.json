@@ -15,7 +15,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [],
   "title": "Swap Context 2",
   "comment": "not sure about constant/variable distinction",
   "math_inputtex": "\\displaystyle 1-a\\,\\bar{\\partial}_{p}\\,,",

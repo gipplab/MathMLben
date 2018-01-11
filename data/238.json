@@ -35,7 +35,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [],
   "title": "Physics Context 1",
   "comment": "",
   "math_inputtex": "A_{N}(\\alpha,\\beta)=\\frac{1}{N}\\mathbb{E}\\ln\\sum_{\\sigma}\\exp(-\\beta H_{N}(%&#10;\\sigma))",

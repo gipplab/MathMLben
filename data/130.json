@@ -24,7 +24,7 @@
       }
     ]
   },
-  "constraints": {},
+  "constraints": [],
   "substitutions": {},
   "math_inputtex_semantic": "\\left( \\w{Q11567}{z} \\deriv{}{z}z\\right )^{\\w{Q28920052}{n}}\\left(\\expe^{-\\frac12 z}z^{\\kappa-1} \\wf{Q11348}{\\WhitM{\\w{Q11567}{\\kappa}}{\\w{Q11567}{\\mu}}@{z}\\right)= \\pochhammer{\\tfrac{1}{2}+\\mu+\\kappa}{n} \\expe^{-\\frac12 z}z^{\\kappa+n-1} \\*\\WhitM{\\kappa+n}{\\mu}@{z}",
   "correct_tex": "\\left(z\\frac{\\mathrm{d}}{\\mathrm{d}z}z\\right)^{n}\\left(e^{-\\frac{1}{2}z}z^{\\kappa-1}M_{\\kappa,\\mu}\\left(z\\right)\\right)={\\left(\\tfrac{1}{2}+\\mu+\\kappa\\right)_{n}}e^{-\\frac{1}{2}z}z^{\\kappa+n-1}\\*M_{\\kappa+n,\\mu}\\left(z\\right)",

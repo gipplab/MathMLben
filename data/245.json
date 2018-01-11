@@ -22,7 +22,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [],
   "title": "Binomial summation formula for Fibonacci Context 1",
   "comment": "",
   "math_inputtex": "F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",

@@ -26,7 +26,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [],
   "title": "Neural Network Context 2",
   "comment": "",
   "math_inputtex": "(a,b,(c,d,e))",

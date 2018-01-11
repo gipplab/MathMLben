@@ -18,7 +18,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [],
   "title": "Neural Network Context 1",
   "comment": "there is no QID for set of positive real numbers",
   "math_inputtex": "t\\in{\\bf R}_{+},",

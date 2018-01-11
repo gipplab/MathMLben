@@ -11,7 +11,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [""],
   "title": "Ratio Division Context 1",
   "comment": "",
   "math_inputtex": "U(1)",

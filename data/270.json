@@ -17,7 +17,7 @@
       }
     ]
   },
-  "constraints": "important: I do not know what Phi is. I do not understand this topic at all",
+  "constraints": ["important: I do not know what Phi is. I do not understand this topic at all"],
   "title": "Reversal Context 2",
   "comment": "",
   "math_inputtex": "\\Phi=\\Phi^{(r)}\\Phi^{(s)}",

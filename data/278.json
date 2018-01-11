@@ -18,7 +18,7 @@
     ]
   },
   "notation": "Van der Waerden notation",
-  "constraints": "",
+  "constraints": [],
   "title": "Use of Lagrange multipliers Context 2",
   "comment": "not sure if field strength is correct. maybe https://en.wikipedia.org/wiki/Field_strength_tensor ?\n\nPhil:  Electromagnetic tensor (Q1076013)",
   "math_inputtex": "F_{\\alpha\\beta},\\bar{F}_{{\\dot{\\alpha}}{\\dot{\\beta}}}",

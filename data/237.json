@@ -22,7 +22,7 @@
       }
     ]
   },
-  "constraints": "",
+  "constraints": [],
   "title": "Machine Learning Context 1",
   "comment": "",
   "math_inputtex": "h_{i}=\\sum_{j}\\hat{w}_{ij}s_{j}",
