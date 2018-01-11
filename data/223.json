@@ -1,22 +1,20 @@
 {
-  "definitions": {
-    "c": [
-      {
-        "Q2111": "speed of light"
-      }
-    ]
+  "definitions" : {
+    "c" : [ {
+      "Q2111" : "speed of light"
+    } ]
   },
-  "title": "Alcubierre drive and friends",
-  "math_inputtex_semantic": "\\w{Q2111}{c}",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"c\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">c</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q2111</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">c</annotation>\n  </semantics>\n</math>",
-  "correct_tex": "c",
-  "math_inputtex": "c",
-  "formula": "1_19.1",
-  "ntcir12-type": "23",
-  "ntcir12-relevance": "4",
-  "uri": "https://arxiv.org/abs/astro-ph/0201511",
-  "page": "6",
-  "comment": "Apply block in MML necessary?",
-  "constraints": [],
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "c",
+  "math_inputtex_semantic" : "\\w{Q2111}{c}",
+  "correct_tex" : "c",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"c\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">c</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q2111</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">c</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/astro-ph/0201511",
+  "title" : "Alcubierre drive and friends",
+  "comment" : "Apply block in MML necessary?",
+  "type" : "general formula",
+  "ntcir12-type" : "23",
+  "formula" : "1_19.1",
+  "page" : "6",
+  "ntcir12-relevance" : "4"
 }

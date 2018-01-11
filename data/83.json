@@ -1,18 +1,15 @@
 {
-  "definitions": {
-    "\\mathrm{seqs}": [
-      "Number of sequences",
-      {
-        "Q11053": "RNA (family of large biological molecules)"
-      }
-    ]
+  "definitions" : {
+    "\\mathrm{seqs}" : [ "Number of sequences", {
+      "Q11053" : "RNA (family of large biological molecules)"
+    } ]
   },
-  "math_inputtex": "2\\le seqs \\le6",
-  "title": "List_of_RNA_structure_prediction_software",
-  "correct_tex": "2\\le seqs \\le6",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=21545#math21545.2",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"2\\leq\\operatorname{seqs}\\leq 6\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n      <mn id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">2</mn>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">≤</mo>\n      <mi id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">seqs</mi>\n      <mo id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">≤</mo>\n      <mn id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">6</mn>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n        <and id=\"p1.1.m1.1.9a.cmml\" xref=\"p1.1.m1.1.9\"/>\n        <apply id=\"p1.1.m1.1.9b.cmml\" xref=\"p1.1.m1.1.9\">\n          <leq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">2</cn>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">Q11053</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.9c.cmml\" xref=\"p1.1.m1.1.9\">\n          <leq id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\"/>\n          <share href=\"#p1.1.m1.1.6.cmml\" id=\"p1.1.m1.1.9d.cmml\" xref=\"p1.1.m1.1.9\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">6</cn>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">2\\leq\\operatorname{seqs}\\leq 6</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "2 \\le \\w{Q11053}{\\operatorname{seqs}} \\le 6",
-  "type": "relation"
+  "constraints" : [ ],
+  "math_inputtex" : "2\\le seqs \\le6",
+  "math_inputtex_semantic" : "2 \\le \\w{Q11053}{\\operatorname{seqs}} \\le 6",
+  "correct_tex" : "2\\le seqs \\le6",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"2\\leq\\operatorname{seqs}\\leq 6\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n      <mn id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">2</mn>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">≤</mo>\n      <mi id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">seqs</mi>\n      <mo id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">≤</mo>\n      <mn id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">6</mn>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n        <and id=\"p1.1.m1.1.9a.cmml\" xref=\"p1.1.m1.1.9\"/>\n        <apply id=\"p1.1.m1.1.9b.cmml\" xref=\"p1.1.m1.1.9\">\n          <leq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">2</cn>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">Q11053</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.9c.cmml\" xref=\"p1.1.m1.1.9\">\n          <leq id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\"/>\n          <share href=\"#p1.1.m1.1.6.cmml\" id=\"p1.1.m1.1.9d.cmml\" xref=\"p1.1.m1.1.9\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">6</cn>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">2\\leq\\operatorname{seqs}\\leq 6</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=21545#math21545.2",
+  "title" : "List_of_RNA_structure_prediction_software",
+  "type" : "relation"
 }

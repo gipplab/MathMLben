@@ -1,27 +1,23 @@
 {
-  "definitions": {
-    "K": [
-      {
-        "Q381892": "compact space"
-      }
-    ],
-    "C(K)": [
-      {
-        "Q179899": "topological space"
-      }
-    ]
+  "definitions" : {
+    "K" : [ {
+      "Q381892" : "compact space"
+    } ],
+    "C(K)" : [ {
+      "Q179899" : "topological space"
+    } ]
   },
-  "title": "Examples of Aleph Null-categorical simple theories Context 1",
-  "comment": "not sure if K is necessarily a compact space, but the notation seems to be something like that. Or, could it be a k-space? Anyway, C(K) seems to have a certain meaning, and C might have to do with complex numbers, see https://en.wikipedia.org/wiki/C*-algebra",
-  "math_inputtex": "C(K)",
-  "correct_tex": "C(K)",
-  "uri": "https://arxiv.org/abs/1211.4830",
-  "page": "7",
-  "formula": "1_41.3",
-  "ntcir12-type": "28",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"C(K)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5.2\" xref=\"p1.1.m1.1.5.1.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">C</mi>\n      <mo id=\"p1.1.m1.1.5.2a\" xref=\"p1.1.m1.1.5.1.cmml\">⁡</mo>\n      <mrow id=\"p1.1.m1.1.5.2.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.5.1.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">K</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.5.1.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.2\">\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q179899</csymbol>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">Q381892</csymbol>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">C(K)</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\wf{Q179899}{C}(\\w{Q381892}{K})",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "C(K)",
+  "math_inputtex_semantic" : "\\wf{Q179899}{C}(\\w{Q381892}{K})",
+  "correct_tex" : "C(K)",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"C(K)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5.2\" xref=\"p1.1.m1.1.5.1.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">C</mi>\n      <mo id=\"p1.1.m1.1.5.2a\" xref=\"p1.1.m1.1.5.1.cmml\">⁡</mo>\n      <mrow id=\"p1.1.m1.1.5.2.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.5.1.cmml\">(</mo>\n        <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">K</mi>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.5.1.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.2\">\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q179899</csymbol>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">Q381892</csymbol>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">C(K)</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/1211.4830",
+  "title" : "Examples of Aleph Null-categorical simple theories Context 1",
+  "comment" : "not sure if K is necessarily a compact space, but the notation seems to be something like that. Or, could it be a k-space? Anyway, C(K) seems to have a certain meaning, and C might have to do with complex numbers, see https://en.wikipedia.org/wiki/C*-algebra",
+  "type" : "general formula",
+  "ntcir12-type" : "28",
+  "formula" : "1_41.3",
+  "page" : "7",
+  "ntcir12-relevance" : "4"
 }

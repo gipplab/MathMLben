@@ -1,21 +1,19 @@
 {
-  "definitions": {
-    "\\mathcal{M}": [
-      {
-        "Q486902": "mathematical model"
-      }
-    ]
+  "definitions" : {
+    "\\mathcal{M}" : [ {
+      "Q486902" : "mathematical model"
+    } ]
   },
-  "title": "A formulaic definition of the definable closure: Context 2",
-  "math_inputtex": "\\mathcal{M}",
-  "correct_tex": "\\mathcal{M}",
-  "uri": "https://arxiv.org/abs/1108.5641",
-  "page": "1",
-  "formula": "1_1.7",
-  "ntcir12-type": "29",
-  "ntcir12-relevance": "3",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\mathcal{M}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi class=\"ltx_font_mathcaligraphic\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">ℳ</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q486902</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\mathcal{M}</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\w{Q486902}{\\mathcal{M}}",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "\\mathcal{M}",
+  "math_inputtex_semantic" : "\\w{Q486902}{\\mathcal{M}}",
+  "correct_tex" : "\\mathcal{M}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\mathcal{M}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi class=\"ltx_font_mathcaligraphic\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">ℳ</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q486902</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\mathcal{M}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/1108.5641",
+  "title" : "A formulaic definition of the definable closure: Context 2",
+  "type" : "general formula",
+  "ntcir12-type" : "29",
+  "formula" : "1_1.7",
+  "page" : "1",
+  "ntcir12-relevance" : "3"
 }

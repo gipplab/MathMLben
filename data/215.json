@@ -1,28 +1,24 @@
 {
-  "definitions": {
-    "S": [
-      {
-        "Q11348": "function",
-        "Q382497": "Affine transformation"
-      }
-    ],
-    "x": [
-      {
-        "Q28920044": "positive integer"
-      }
-    ]
+  "definitions" : {
+    "S" : [ {
+      "Q11348" : "function",
+      "Q382497" : "Affine transformation"
+    } ],
+    "x" : [ {
+      "Q28920044" : "positive integer"
+    } ]
   },
-  "constraints": [],
-  "comment": "",
-  "title": "Collatz 3n+1 conjecture",
-  "math_inputtex": "S(x)=3x+1",
-  "correct_tex": "S(x)=3x+1",
-  "uri": "https://arxiv.org/abs/1311.4261",
-  "page": "9",
-  "formula": "1_32.7",
-  "ntcir12-type": "15",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S(x)=3x+1\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mrow id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n        <mo id=\"p1.1.m1.1.10.1.2a\" xref=\"p1.1.m1.1.10.1.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.10.1.2.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.10.1.1.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">x</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.10.1.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.10.2\" xref=\"p1.1.m1.1.10.2.cmml\">\n        <mrow id=\"p1.1.m1.1.10.2.1\" xref=\"p1.1.m1.1.10.2.1.cmml\">\n          <mn id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">3</mn>\n          <mo id=\"p1.1.m1.1.10.2.1.1\" xref=\"p1.1.m1.1.10.2.1.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">x</mi>\n        </mrow>\n        <mo id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">+</mo>\n        <mn id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">1</mn>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <eq id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\"/>\n        <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.2\">\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q382497</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">Q28920044</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.10.2.cmml\" xref=\"p1.1.m1.1.10.2\">\n          <plus id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\"/>\n          <apply id=\"p1.1.m1.1.10.2.1.cmml\" xref=\"p1.1.m1.1.10.2.1\">\n            <times id=\"p1.1.m1.1.10.2.1.1.cmml\" xref=\"p1.1.m1.1.10.2.1.1\"/>\n            <cn type=\"integer\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">3</cn>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q28920044</csymbol>\n          </apply>\n          <cn type=\"integer\" id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">1</cn>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S(x)=3x+1</annotation>\n  </semantics>\n</math>",
-  "math_inputtex_semantic": "\\wf{Q382497}{S}(\\w{Q28920044}{x}) = 3x+1",
-  "type": "equation"
+  "constraints" : [ ],
+  "math_inputtex" : "S(x)=3x+1",
+  "math_inputtex_semantic" : "\\wf{Q382497}{S}(\\w{Q28920044}{x}) = 3x+1",
+  "correct_tex" : "S(x)=3x+1",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S(x)=3x+1\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mrow id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n        <mo id=\"p1.1.m1.1.10.1.2a\" xref=\"p1.1.m1.1.10.1.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.10.1.2.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.10.1.1.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">x</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.10.1.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.10.2\" xref=\"p1.1.m1.1.10.2.cmml\">\n        <mrow id=\"p1.1.m1.1.10.2.1\" xref=\"p1.1.m1.1.10.2.1.cmml\">\n          <mn id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">3</mn>\n          <mo id=\"p1.1.m1.1.10.2.1.1\" xref=\"p1.1.m1.1.10.2.1.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">x</mi>\n        </mrow>\n        <mo id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">+</mo>\n        <mn id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">1</mn>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <eq id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\"/>\n        <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.2\">\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q382497</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">Q28920044</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.10.2.cmml\" xref=\"p1.1.m1.1.10.2\">\n          <plus id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\"/>\n          <apply id=\"p1.1.m1.1.10.2.1.cmml\" xref=\"p1.1.m1.1.10.2.1\">\n            <times id=\"p1.1.m1.1.10.2.1.1.cmml\" xref=\"p1.1.m1.1.10.2.1.1\"/>\n            <cn type=\"integer\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">3</cn>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q28920044</csymbol>\n          </apply>\n          <cn type=\"integer\" id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">1</cn>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S(x)=3x+1</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/1311.4261",
+  "title" : "Collatz 3n+1 conjecture",
+  "comment" : "",
+  "type" : "equation",
+  "ntcir12-type" : "15",
+  "formula" : "1_32.7",
+  "page" : "9",
+  "ntcir12-relevance" : "4"
 }

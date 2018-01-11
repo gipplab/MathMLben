@@ -1,22 +1,20 @@
 {
-  "definitions": {
-    "GF(2)": [
-      {
-        "Q5513324": "GF(2)"
-      }
-    ]
+  "definitions" : {
+    "GF(2)" : [ {
+      "Q5513324" : "GF(2)"
+    } ]
   },
-  "constraints": [],
-  "title": "Music Context 1",
-  "comment": "",
-  "math_inputtex": "GF(2)",
-  "correct_tex": "GF(2)",
-  "uri": "https://arxiv.org/abs/0903.4405",
-  "page": "3",
-  "formula": "1_8.5",
-  "ntcir12-type": "10",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\operatorname{GF}(2)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.1.cmml\">\n      <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">GF</mi>\n      <mo id=\"p1.1.m1.1.6.2a\" xref=\"p1.1.m1.1.6.1.cmml\">⁡</mo>\n      <mrow id=\"p1.1.m1.1.6.2.1\" xref=\"p1.1.m1.1.6.1.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.6.1.cmml\">(</mo>\n        <mn id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">2</mn>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.6.1.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.2\">\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">Q5513324</csymbol>\n        <cn type=\"integer\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">2</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\operatorname{GF}(2)</annotation>\n  </semantics>\n</math>",
-  "math_inputtex_semantic": "\\wf{Q5513324}{\\operatorname{GF}(2)}",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "GF(2)",
+  "math_inputtex_semantic" : "\\wf{Q5513324}{\\operatorname{GF}(2)}",
+  "correct_tex" : "GF(2)",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\operatorname{GF}(2)\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.1.cmml\">\n      <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">GF</mi>\n      <mo id=\"p1.1.m1.1.6.2a\" xref=\"p1.1.m1.1.6.1.cmml\">⁡</mo>\n      <mrow id=\"p1.1.m1.1.6.2.1\" xref=\"p1.1.m1.1.6.1.cmml\">\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.6.1.cmml\">(</mo>\n        <mn id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">2</mn>\n        <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.6.1.cmml\">)</mo>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.2\">\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">Q5513324</csymbol>\n        <cn type=\"integer\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">2</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\operatorname{GF}(2)</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/0903.4405",
+  "title" : "Music Context 1",
+  "comment" : "",
+  "type" : "general formula",
+  "ntcir12-type" : "10",
+  "formula" : "1_8.5",
+  "page" : "3",
+  "ntcir12-relevance" : "4"
 }

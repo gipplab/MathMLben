@@ -1,11 +1,11 @@
 {
-  "constraints": [],
-  "math_inputtex": "\\zeta",
-  "correct_tex": "\\zeta",
-  "type": "general formula",
-  "comment": "Topic 1 NTCIR 12 wiki\n\\\\wl{706725587}{\\\\textbf{Riemann zeta function}}",
-  "uri": "https://en.wikipedia.org/wiki/Main_Page?oldid=706725587",
-  "math_inputtex_semantic": "\\wf{Q187235}{\\RiemannZeta}",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\RiemannZeta\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.1.2\" xref=\"p1.1.m1.1.1.1.cmml\">ζ</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.2\">Riemann-zeta</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\RiemannZeta</annotation>\n  </semantics>\n</math>",
-  "title": "Riemann zeta function"
+  "constraints" : [ ],
+  "math_inputtex" : "\\zeta",
+  "math_inputtex_semantic" : "\\wf{Q187235}{\\RiemannZeta}",
+  "correct_tex" : "\\zeta",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\RiemannZeta\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.1.2\" xref=\"p1.1.m1.1.1.1.cmml\">ζ</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.2\">Riemann-zeta</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\RiemannZeta</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.wikipedia.org/wiki/Main_Page?oldid=706725587",
+  "title" : "Riemann zeta function",
+  "comment" : "Topic 1 NTCIR 12 wiki\n\\\\wl{706725587}{\\\\textbf{Riemann zeta function}}",
+  "type" : "general formula"
 }

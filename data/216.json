@@ -1,41 +1,31 @@
 {
-  "definitions": {
-    "F": [
-      {
-        "Q47577": "Fibonacci number"
-      }
-    ],
-    "n": [
-      {
-        "Q2303886": "index"
-      }
-    ],
-    "n+1": [
-      {
-        "Q2303886": "index"
-      }
-    ],
-    "k": [
-      {
-        "Q21199": "natural number (numbers used for counting and ordering)"
-      }
-    ],
-    "m": [
-      {
-        "Q21199": "natural number (numbers used for counting and ordering)"
-      }
-    ]
+  "definitions" : {
+    "F" : [ {
+      "Q47577" : "Fibonacci number"
+    } ],
+    "n" : [ {
+      "Q2303886" : "index"
+    } ],
+    "n+1" : [ {
+      "Q2303886" : "index"
+    } ],
+    "k" : [ {
+      "Q21199" : "natural number (numbers used for counting and ordering)"
+    } ],
+    "m" : [ {
+      "Q21199" : "natural number (numbers used for counting and ordering)"
+    } ]
   },
-  "constraints": [],
-  "title": "Binomial summation formula for Fibonacci",
-  "math_inputtex": "F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
-  "correct_tex": "F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
-  "uri": "https://arxiv.org/abs/1001.3466",
-  "page": "24",
-  "formula": "1_117.2",
-  "ntcir12-type": "16",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">\n      <msub id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">F</mi>\n        <mrow id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">\n          <mi id=\"p1.1.m1.1.2.1.1\" xref=\"p1.1.m1.1.2.1.1.cmml\">n</mi>\n          <mo id=\"p1.1.m1.1.2.1.2\" xref=\"p1.1.m1.1.2.1.2.cmml\">+</mo>\n          <mn id=\"p1.1.m1.1.2.1.3\" xref=\"p1.1.m1.1.2.1.3.cmml\">1</mn>\n        </mrow>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.7.2\" xref=\"p1.1.m1.1.7.2.cmml\">\n        <msub id=\"p1.1.m1.1.7.2.1\" xref=\"p1.1.m1.1.7.2.1.cmml\">\n          <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">∑</mo>\n          <mrow id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n            <mi id=\"p1.1.m1.1.5.1.1\" xref=\"p1.1.m1.1.5.1.1.cmml\">n</mi>\n            <mo id=\"p1.1.m1.1.5.1.2\" xref=\"p1.1.m1.1.5.1.2.cmml\">=</mo>\n            <mrow id=\"p1.1.m1.1.5.1.6\" xref=\"p1.1.m1.1.5.1.6.cmml\">\n              <mi id=\"p1.1.m1.1.5.1.3\" xref=\"p1.1.m1.1.5.1.3.cmml\">k</mi>\n              <mo id=\"p1.1.m1.1.5.1.4\" xref=\"p1.1.m1.1.5.1.4.cmml\">+</mo>\n              <mi id=\"p1.1.m1.1.5.1.5\" xref=\"p1.1.m1.1.5.1.5.cmml\">m</mi>\n            </mrow>\n          </mrow>\n        </msub>\n        <mrow id=\"p1.1.m1.1.6.5\" xref=\"p1.1.m1.1.6.1.cmml\">\n          <mo id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.1.1.cmml\">(</mo>\n          <mfrac linethickness=\"0pt\" id=\"p1.1.m1.1.6.3\" xref=\"p1.1.m1.1.6.1.cmml\">\n            <mi id=\"p1.1.m1.1.6.3.2\" xref=\"p1.1.m1.1.6.3.2.cmml\">k</mi>\n            <mi id=\"p1.1.m1.1.6.3.3\" xref=\"p1.1.m1.1.6.3.3.cmml\">m</mi>\n          </mfrac>\n          <mo id=\"p1.1.m1.1.6.4\" xref=\"p1.1.m1.1.6.1.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">\n        <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n        <apply id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.7.1.1.cmml\" xref=\"p1.1.m1.1.7.1\">subscript</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q47577</csymbol>\n          <apply id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">\n            <plus id=\"p1.1.m1.1.2.1.2.cmml\" xref=\"p1.1.m1.1.2.1.2\"/>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.1.1.cmml\" xref=\"p1.1.m1.1.2.1.1\">Q2303886</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.2.1.3.cmml\" xref=\"p1.1.m1.1.2.1.3\">1</cn>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.7.2.cmml\" xref=\"p1.1.m1.1.7.2\">\n          <apply id=\"p1.1.m1.1.7.2.1.cmml\" xref=\"p1.1.m1.1.7.2.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.7.2.1.1.cmml\" xref=\"p1.1.m1.1.7.2.1\">subscript</csymbol>\n            <sum id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\"/>\n            <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">\n              <eq id=\"p1.1.m1.1.5.1.2.cmml\" xref=\"p1.1.m1.1.5.1.2\"/>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.1.1.cmml\" xref=\"p1.1.m1.1.5.1.1\">Q2303886</csymbol>\n              <apply id=\"p1.1.m1.1.5.1.6.cmml\" xref=\"p1.1.m1.1.5.1.6\">\n                <plus id=\"p1.1.m1.1.5.1.4.cmml\" xref=\"p1.1.m1.1.5.1.4\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.1.3.cmml\" xref=\"p1.1.m1.1.5.1.3\">Q21199</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.1.5.cmml\" xref=\"p1.1.m1.1.5.1.5\">Q21199</csymbol>\n              </apply>\n            </apply>\n          </apply>\n          <apply id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.5\">\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.1.1.cmml\" xref=\"p1.1.m1.1.6.2\">binomial</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.3.2.cmml\" xref=\"p1.1.m1.1.6.3.2\">Q21199</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.3.3.cmml\" xref=\"p1.1.m1.1.6.3.3\">Q21199</csymbol>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}</annotation>\n  </semantics>\n</math>",
-  "math_inputtex_semantic": "\\w{Q47577}{F}_{\\w{Q2303886}{n}+1}=\\sum_{n=\\w{Q21199}{k}+\\w{Q21199}{m}}\\binom{k}{m}",
-  "type": "definition"
+  "constraints" : [ ],
+  "math_inputtex" : "F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
+  "math_inputtex_semantic" : "\\w{Q47577}{F}_{\\w{Q2303886}{n}+1}=\\sum_{n=\\w{Q21199}{k}+\\w{Q21199}{m}}\\binom{k}{m}",
+  "correct_tex" : "F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">\n      <msub id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">F</mi>\n        <mrow id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">\n          <mi id=\"p1.1.m1.1.2.1.1\" xref=\"p1.1.m1.1.2.1.1.cmml\">n</mi>\n          <mo id=\"p1.1.m1.1.2.1.2\" xref=\"p1.1.m1.1.2.1.2.cmml\">+</mo>\n          <mn id=\"p1.1.m1.1.2.1.3\" xref=\"p1.1.m1.1.2.1.3.cmml\">1</mn>\n        </mrow>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.7.2\" xref=\"p1.1.m1.1.7.2.cmml\">\n        <msub id=\"p1.1.m1.1.7.2.1\" xref=\"p1.1.m1.1.7.2.1.cmml\">\n          <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">∑</mo>\n          <mrow id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n            <mi id=\"p1.1.m1.1.5.1.1\" xref=\"p1.1.m1.1.5.1.1.cmml\">n</mi>\n            <mo id=\"p1.1.m1.1.5.1.2\" xref=\"p1.1.m1.1.5.1.2.cmml\">=</mo>\n            <mrow id=\"p1.1.m1.1.5.1.6\" xref=\"p1.1.m1.1.5.1.6.cmml\">\n              <mi id=\"p1.1.m1.1.5.1.3\" xref=\"p1.1.m1.1.5.1.3.cmml\">k</mi>\n              <mo id=\"p1.1.m1.1.5.1.4\" xref=\"p1.1.m1.1.5.1.4.cmml\">+</mo>\n              <mi id=\"p1.1.m1.1.5.1.5\" xref=\"p1.1.m1.1.5.1.5.cmml\">m</mi>\n            </mrow>\n          </mrow>\n        </msub>\n        <mrow id=\"p1.1.m1.1.6.5\" xref=\"p1.1.m1.1.6.1.cmml\">\n          <mo id=\"p1.1.m1.1.6.2\" xref=\"p1.1.m1.1.6.1.1.cmml\">(</mo>\n          <mfrac linethickness=\"0pt\" id=\"p1.1.m1.1.6.3\" xref=\"p1.1.m1.1.6.1.cmml\">\n            <mi id=\"p1.1.m1.1.6.3.2\" xref=\"p1.1.m1.1.6.3.2.cmml\">k</mi>\n            <mi id=\"p1.1.m1.1.6.3.3\" xref=\"p1.1.m1.1.6.3.3.cmml\">m</mi>\n          </mfrac>\n          <mo id=\"p1.1.m1.1.6.4\" xref=\"p1.1.m1.1.6.1.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">\n        <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n        <apply id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.7.1.1.cmml\" xref=\"p1.1.m1.1.7.1\">subscript</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q47577</csymbol>\n          <apply id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">\n            <plus id=\"p1.1.m1.1.2.1.2.cmml\" xref=\"p1.1.m1.1.2.1.2\"/>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.1.1.cmml\" xref=\"p1.1.m1.1.2.1.1\">Q2303886</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.2.1.3.cmml\" xref=\"p1.1.m1.1.2.1.3\">1</cn>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.7.2.cmml\" xref=\"p1.1.m1.1.7.2\">\n          <apply id=\"p1.1.m1.1.7.2.1.cmml\" xref=\"p1.1.m1.1.7.2.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.7.2.1.1.cmml\" xref=\"p1.1.m1.1.7.2.1\">subscript</csymbol>\n            <sum id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\"/>\n            <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">\n              <eq id=\"p1.1.m1.1.5.1.2.cmml\" xref=\"p1.1.m1.1.5.1.2\"/>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.1.1.cmml\" xref=\"p1.1.m1.1.5.1.1\">Q2303886</csymbol>\n              <apply id=\"p1.1.m1.1.5.1.6.cmml\" xref=\"p1.1.m1.1.5.1.6\">\n                <plus id=\"p1.1.m1.1.5.1.4.cmml\" xref=\"p1.1.m1.1.5.1.4\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.1.3.cmml\" xref=\"p1.1.m1.1.5.1.3\">Q21199</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.1.5.cmml\" xref=\"p1.1.m1.1.5.1.5\">Q21199</csymbol>\n              </apply>\n            </apply>\n          </apply>\n          <apply id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.5\">\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.1.1.cmml\" xref=\"p1.1.m1.1.6.2\">binomial</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.3.2.cmml\" xref=\"p1.1.m1.1.6.3.2\">Q21199</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.3.3.cmml\" xref=\"p1.1.m1.1.6.3.3\">Q21199</csymbol>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">F_{n+1}=\\sum_{n=k+m}\\binom{k}{m}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/1001.3466",
+  "title" : "Binomial summation formula for Fibonacci",
+  "type" : "definition",
+  "ntcir12-type" : "16",
+  "formula" : "1_117.2",
+  "page" : "24",
+  "ntcir12-relevance" : "4"
 }

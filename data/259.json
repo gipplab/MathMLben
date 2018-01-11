@@ -1,36 +1,25 @@
 {
-  "definitions": {
-    "f_{0}": [
-      {
-        "Q370502": "mapping"
-      }
-    ],
-    "\\f_{1}": [
-      {
-        "Q370502": "mapping"
-      }
-    ],
-    "\\f_{2}": [
-      {
-        "Q370502": "mapping"
-      }
-    ]
+  "definitions" : {
+    "f_{0}" : [ {
+      "Q370502" : "mapping"
+    } ],
+    "\\f_{1}" : [ {
+      "Q370502" : "mapping"
+    } ],
+    "\\f_{2}" : [ {
+      "Q370502" : "mapping"
+    } ]
   },
-  "constraints": [
-    "f_{0}=\\varphi(M_{0})",
-    "f_{0}=\\varphi(M_{1})",
-    "f_{0}=\\varphi(M_{2})",
-    "M_{1}*M_{2}=M_{0}*M_{0}"
-  ],
-  "title": "Arithmetic mean: Context 2",
-  "comment": "identifiers for M and varphi?",
-  "correct_tex": "f_{1}+f_{2}=2f_{0}",
-  "math_inputtex": "f_{1}+f_{2}=2f_{0}",
-  "uri": "https://arxiv.org/abs/1002.4757",
-  "formula": "1_3.9",
-  "ntcir12-type": "1",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"f_{1}+f_{2}=2f_{0}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mrow id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">\n        <msub id=\"p1.1.m1.1.10.1.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">f</mi>\n          <mn id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">1</mn>\n        </msub>\n        <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">+</mo>\n        <msub id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.2.cmml\">\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">f</mi>\n          <mn id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">2</mn>\n        </msub>\n      </mrow>\n      <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.10.2\" xref=\"p1.1.m1.1.10.2.cmml\">\n        <mn id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">2</mn>\n        <mo id=\"p1.1.m1.1.10.2.1\" xref=\"p1.1.m1.1.10.2.1.cmml\">⁢</mo>\n        <msub id=\"p1.1.m1.1.10.2.2\" xref=\"p1.1.m1.1.10.2.2.cmml\">\n          <mi id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">f</mi>\n          <mn id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">0</mn>\n        </msub>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <eq id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n        <apply id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">\n          <plus id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q370502</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">1</cn>\n          </apply>\n          <apply id=\"p1.1.m1.1.10.1.2.cmml\" xref=\"p1.1.m1.1.10.1.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.2.1.cmml\" xref=\"p1.1.m1.1.10.1.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q370502</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">2</cn>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.10.2.cmml\" xref=\"p1.1.m1.1.10.2\">\n          <times id=\"p1.1.m1.1.10.2.1.cmml\" xref=\"p1.1.m1.1.10.2.1\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">2</cn>\n          <apply id=\"p1.1.m1.1.10.2.2.cmml\" xref=\"p1.1.m1.1.10.2.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.2.2.1.cmml\" xref=\"p1.1.m1.1.10.2.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">Q370502</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">0</cn>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">f_{1}+f_{2}=2f_{0}</annotation>\n  </semantics>\n</math>",
-  "math_inputtex_semantic": "\\wf{Q370502}{f}_{1} + f_{2} = 2 f_{0}",
-  "type": "equation"
+  "constraints" : [ "f_{0}=\\varphi(M_{0})", "f_{0}=\\varphi(M_{1})", "f_{0}=\\varphi(M_{2})", "M_{1}*M_{2}=M_{0}*M_{0}" ],
+  "math_inputtex" : "f_{1}+f_{2}=2f_{0}",
+  "math_inputtex_semantic" : "\\wf{Q370502}{f}_{1} + f_{2} = 2 f_{0}",
+  "correct_tex" : "f_{1}+f_{2}=2f_{0}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"f_{1}+f_{2}=2f_{0}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mrow id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">\n        <msub id=\"p1.1.m1.1.10.1.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">f</mi>\n          <mn id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">1</mn>\n        </msub>\n        <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">+</mo>\n        <msub id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.2.cmml\">\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">f</mi>\n          <mn id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">2</mn>\n        </msub>\n      </mrow>\n      <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.10.2\" xref=\"p1.1.m1.1.10.2.cmml\">\n        <mn id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">2</mn>\n        <mo id=\"p1.1.m1.1.10.2.1\" xref=\"p1.1.m1.1.10.2.1.cmml\">⁢</mo>\n        <msub id=\"p1.1.m1.1.10.2.2\" xref=\"p1.1.m1.1.10.2.2.cmml\">\n          <mi id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">f</mi>\n          <mn id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">0</mn>\n        </msub>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <eq id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n        <apply id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">\n          <plus id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q370502</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">1</cn>\n          </apply>\n          <apply id=\"p1.1.m1.1.10.1.2.cmml\" xref=\"p1.1.m1.1.10.1.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.2.1.cmml\" xref=\"p1.1.m1.1.10.1.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q370502</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">2</cn>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.10.2.cmml\" xref=\"p1.1.m1.1.10.2\">\n          <times id=\"p1.1.m1.1.10.2.1.cmml\" xref=\"p1.1.m1.1.10.2.1\"/>\n          <cn type=\"integer\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">2</cn>\n          <apply id=\"p1.1.m1.1.10.2.2.cmml\" xref=\"p1.1.m1.1.10.2.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.2.2.1.cmml\" xref=\"p1.1.m1.1.10.2.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">Q370502</csymbol>\n            <cn type=\"integer\" id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">0</cn>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">f_{1}+f_{2}=2f_{0}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/1002.4757",
+  "title" : "Arithmetic mean: Context 2",
+  "comment" : "identifiers for M and varphi?",
+  "type" : "equation",
+  "ntcir12-type" : "1",
+  "formula" : "1_3.9",
+  "ntcir12-relevance" : "4"
 }

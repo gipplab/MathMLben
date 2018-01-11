@@ -1,37 +1,27 @@
 {
-  "definitions": {
-    "W": [
-      {
-        "Q900231": "work (term in thermodynamics)"
-      }
-    ],
-    "V_{1}": [
-      {
-        "Q39297": "volume (quantity of three-dimensional space)"
-      }
-    ],
-    "V_{2}": [
-      {
-        "Q39297": "volume (quantity of three-dimensional space)"
-      }
-    ],
-    "p": [
-      {
-        "Q39552": "pressure"
-      }
-    ],
-    "V": [
-      {
-        "Q39297": "volume (quantity of three-dimensional space)"
-      }
-    ]
+  "definitions" : {
+    "W" : [ {
+      "Q900231" : "work (term in thermodynamics)"
+    } ],
+    "V_{1}" : [ {
+      "Q39297" : "volume (quantity of three-dimensional space)"
+    } ],
+    "V_{2}" : [ {
+      "Q39297" : "volume (quantity of three-dimensional space)"
+    } ],
+    "p" : [ {
+      "Q39552" : "pressure"
+    } ],
+    "V" : [ {
+      "Q39297" : "volume (quantity of three-dimensional space)"
+    } ]
   },
-  "math_inputtex": " \\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V \\,\\!",
-  "title": "Table_of_thermodynamic_equations",
-  "correct_tex": "\\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=15872#math15872.32",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\operatorname{\\Delta W}=\\Int{V_{1}}{V_{2}}@{p}{\\operatorname{dV}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">\n      <mrow id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5a.cmml\">\n        <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">Δ</mi>\n        <mo id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">⁢</mo>\n        <mi mathvariant=\"normal\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">W</mi>\n      </mrow>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.4.8\" xref=\"p1.1.m1.1.4.1.cmml\">\n        <msubsup id=\"p1.1.m1.1.4.2.1.6\" xref=\"p1.1.m1.1.4.2.1.1.cmml\">\n          <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.4.2.1.2\" xref=\"p1.1.m1.1.4.2.1.1.1.cmml\">∫</mo>\n          <msub id=\"p1.1.m1.1.4.2.1.3.1\" xref=\"p1.1.m1.1.4.2.1.3.1.cmml\">\n            <mi id=\"p1.1.m1.1.4.2.1.3.1.1.1\" xref=\"p1.1.m1.1.4.2.1.3.1.1.1.cmml\">V</mi>\n            <mn id=\"p1.1.m1.1.4.2.1.3.1.1.2.1\" xref=\"p1.1.m1.1.4.2.1.3.1.1.2.1.cmml\">1</mn>\n          </msub>\n          <msub id=\"p1.1.m1.1.4.2.1.4.1\" xref=\"p1.1.m1.1.4.2.1.4.1.cmml\">\n            <mi id=\"p1.1.m1.1.4.2.1.4.1.1.1\" xref=\"p1.1.m1.1.4.2.1.4.1.1.1.cmml\">V</mi>\n            <mn id=\"p1.1.m1.1.4.2.1.4.1.1.2.1\" xref=\"p1.1.m1.1.4.2.1.4.1.1.2.1.cmml\">2</mn>\n          </msub>\n        </msubsup>\n        <mo id=\"p1.1.m1.1.4.8a\" xref=\"p1.1.m1.1.4.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.4.8.1\" xref=\"p1.1.m1.1.4.1.cmml\">\n          <mpadded width=\"+1.7pt\" id=\"p1.1.m1.1.4.4\" xref=\"p1.1.m1.1.4.4.cmml\">\n            <mi id=\"p1.1.m1.1.4.4a\" xref=\"p1.1.m1.1.4.4.cmml\">dV</mi>\n          </mpadded>\n          <mo id=\"p1.1.m1.1.4.8.1.1\" xref=\"p1.1.m1.1.4.1.cmml\">⁢</mo>\n          <mi mathvariant=\"normal\" id=\"p1.1.m1.1.4.6\" xref=\"p1.1.m1.1.4.1.cmml\">d</mi>\n          <mo id=\"p1.1.m1.1.4.8.1.1a\" xref=\"p1.1.m1.1.4.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.4.7\" xref=\"p1.1.m1.1.4.7.cmml\">p</mi>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">\n        <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n        <ci id=\"p1.1.m1.1.5a.cmml\" xref=\"p1.1.m1.1.5\">\n          <mrow id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Δ</mi>\n            <mo id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">⁢</mo>\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">W</mi>\n          </mrow>\n        </ci>\n        <apply id=\"p1.1.m1.1.4.1.cmml\" xref=\"p1.1.m1.1.4.8\">\n          <apply id=\"p1.1.m1.1.4.2.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.6\">\n            <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.4.2.1.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.2\">semantic-definite-integral</csymbol>\n            <apply id=\"p1.1.m1.1.4.2.1.3.1.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.4.2.1.3.1.1.3.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.2.1.3.1.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1.1.1\">Q39297</csymbol>\n              <cn type=\"integer\" id=\"p1.1.m1.1.4.2.1.3.1.1.2.1.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1.1.2.1\">1</cn>\n            </apply>\n            <apply id=\"p1.1.m1.1.4.2.1.4.1.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.4.2.1.4.1.1.3.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.2.1.4.1.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1.1.1\">Q39297</csymbol>\n              <cn type=\"integer\" id=\"p1.1.m1.1.4.2.1.4.1.1.2.1.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1.1.2.1\">2</cn>\n            </apply>\n          </apply>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.7.cmml\" xref=\"p1.1.m1.1.4.7\">Q39552</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.4.cmml\" xref=\"p1.1.m1.1.4.4\">Q2327764</csymbol>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\operatorname{\\Delta W}=\\Int{V_{1}}{V_{2}}@{p}{\\operatorname{dV}}</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\w{Q900231}{\\operatorname{\\Delta W}} = \\Int{\\w{Q39297}{V}_1}{V_2}@{\\w{Q39552}{p}}{\\w{Q2327764}{\\operatorname{dV}}}",
-  "type": "definition"
+  "constraints" : [ ],
+  "math_inputtex" : " \\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V \\,\\!",
+  "math_inputtex_semantic" : "\\w{Q900231}{\\operatorname{\\Delta W}} = \\Int{\\w{Q39297}{V}_1}{V_2}@{\\w{Q39552}{p}}{\\w{Q2327764}{\\operatorname{dV}}}",
+  "correct_tex" : "\\Delta W = \\int_{V_1}^{V_2} p \\mathrm{d}V",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\operatorname{\\Delta W}=\\Int{V_{1}}{V_{2}}@{p}{\\operatorname{dV}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">\n      <mrow id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5a.cmml\">\n        <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">Δ</mi>\n        <mo id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">⁢</mo>\n        <mi mathvariant=\"normal\" id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">W</mi>\n      </mrow>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.4.8\" xref=\"p1.1.m1.1.4.1.cmml\">\n        <msubsup id=\"p1.1.m1.1.4.2.1.6\" xref=\"p1.1.m1.1.4.2.1.1.cmml\">\n          <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.4.2.1.2\" xref=\"p1.1.m1.1.4.2.1.1.1.cmml\">∫</mo>\n          <msub id=\"p1.1.m1.1.4.2.1.3.1\" xref=\"p1.1.m1.1.4.2.1.3.1.cmml\">\n            <mi id=\"p1.1.m1.1.4.2.1.3.1.1.1\" xref=\"p1.1.m1.1.4.2.1.3.1.1.1.cmml\">V</mi>\n            <mn id=\"p1.1.m1.1.4.2.1.3.1.1.2.1\" xref=\"p1.1.m1.1.4.2.1.3.1.1.2.1.cmml\">1</mn>\n          </msub>\n          <msub id=\"p1.1.m1.1.4.2.1.4.1\" xref=\"p1.1.m1.1.4.2.1.4.1.cmml\">\n            <mi id=\"p1.1.m1.1.4.2.1.4.1.1.1\" xref=\"p1.1.m1.1.4.2.1.4.1.1.1.cmml\">V</mi>\n            <mn id=\"p1.1.m1.1.4.2.1.4.1.1.2.1\" xref=\"p1.1.m1.1.4.2.1.4.1.1.2.1.cmml\">2</mn>\n          </msub>\n        </msubsup>\n        <mo id=\"p1.1.m1.1.4.8a\" xref=\"p1.1.m1.1.4.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.4.8.1\" xref=\"p1.1.m1.1.4.1.cmml\">\n          <mpadded width=\"+1.7pt\" id=\"p1.1.m1.1.4.4\" xref=\"p1.1.m1.1.4.4.cmml\">\n            <mi id=\"p1.1.m1.1.4.4a\" xref=\"p1.1.m1.1.4.4.cmml\">dV</mi>\n          </mpadded>\n          <mo id=\"p1.1.m1.1.4.8.1.1\" xref=\"p1.1.m1.1.4.1.cmml\">⁢</mo>\n          <mi mathvariant=\"normal\" id=\"p1.1.m1.1.4.6\" xref=\"p1.1.m1.1.4.1.cmml\">d</mi>\n          <mo id=\"p1.1.m1.1.4.8.1.1a\" xref=\"p1.1.m1.1.4.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.4.7\" xref=\"p1.1.m1.1.4.7.cmml\">p</mi>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">\n        <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n        <ci id=\"p1.1.m1.1.5a.cmml\" xref=\"p1.1.m1.1.5\">\n          <mrow id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Δ</mi>\n            <mo id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">⁢</mo>\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">W</mi>\n          </mrow>\n        </ci>\n        <apply id=\"p1.1.m1.1.4.1.cmml\" xref=\"p1.1.m1.1.4.8\">\n          <apply id=\"p1.1.m1.1.4.2.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.6\">\n            <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.4.2.1.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.2\">semantic-definite-integral</csymbol>\n            <apply id=\"p1.1.m1.1.4.2.1.3.1.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.4.2.1.3.1.1.3.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.2.1.3.1.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1.1.1\">Q39297</csymbol>\n              <cn type=\"integer\" id=\"p1.1.m1.1.4.2.1.3.1.1.2.1.cmml\" xref=\"p1.1.m1.1.4.2.1.3.1.1.2.1\">1</cn>\n            </apply>\n            <apply id=\"p1.1.m1.1.4.2.1.4.1.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.4.2.1.4.1.1.3.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.2.1.4.1.1.1.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1.1.1\">Q39297</csymbol>\n              <cn type=\"integer\" id=\"p1.1.m1.1.4.2.1.4.1.1.2.1.cmml\" xref=\"p1.1.m1.1.4.2.1.4.1.1.2.1\">2</cn>\n            </apply>\n          </apply>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.7.cmml\" xref=\"p1.1.m1.1.4.7\">Q39552</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.4.cmml\" xref=\"p1.1.m1.1.4.4\">Q2327764</csymbol>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\operatorname{\\Delta W}=\\Int{V_{1}}{V_{2}}@{p}{\\operatorname{dV}}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=15872#math15872.32",
+  "title" : "Table_of_thermodynamic_equations",
+  "type" : "definition"
 }

@@ -1,53 +1,37 @@
 {
-  "definitions": {
-    "S_{\\rm BH}": [
-      {
-        "Q3055341": "Bekenstein-Hawking bound"
-      }
-    ],
-    "E_{\\rm BH}": [
-      {
-        "Q45404197": "Bekenstein-Hawking energy"
-      }
-    ],
-    "E": [
-      "total energy of matter filling in the universe",
-      {
-        "Q11379": "energy"
-      }
-    ],
-    "V": [
-      "volume of the universe",
-      {
-        "Q39297": "volume"
-      }
-    ],
-    "R": [
-      {
-        "Q173817": "Radius"
-      }
-    ],
-    "G_{n}": [
-      {
-        "Q18373": "Gravitational constant"
-      }
-    ],
-    "n": [
-      {
-        "Q929302": "dimension"
-      }
-    ]
+  "definitions" : {
+    "S_{\\rm BH}" : [ {
+      "Q3055341" : "Bekenstein-Hawking bound"
+    } ],
+    "E_{\\rm BH}" : [ {
+      "Q45404197" : "Bekenstein-Hawking energy"
+    } ],
+    "E" : [ "total energy of matter filling in the universe", {
+      "Q11379" : "energy"
+    } ],
+    "V" : [ "volume of the universe", {
+      "Q39297" : "volume"
+    } ],
+    "R" : [ {
+      "Q173817" : "Radius"
+    } ],
+    "G_{n}" : [ {
+      "Q18373" : "Gravitational constant"
+    } ],
+    "n" : [ {
+      "Q929302" : "dimension"
+    } ]
   },
-  "title": "Bekenstein-Hawking bound on entropy Context 1",
-  "math_inputtex": "S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n",
-  "correct_tex": "S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n",
-  "uri": "https://arxiv.org/abs/hep-th/0105070",
-  "page": "3",
-  "formula": "1_3.2",
-  "ntcir12-type": "25",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.23\" xref=\"p1.1.m1.1.23.cmml\">\n      <msub id=\"p1.1.m1.1.23.2\" xref=\"p1.1.m1.1.23.2.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n        <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">BH</mi>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.23.3\" xref=\"p1.1.m1.1.23.3.cmml\">\n        <mrow id=\"p1.1.m1.1.23.3.2\" xref=\"p1.1.m1.1.23.3.2.cmml\">\n          <mrow id=\"p1.1.m1.1.23.3.2.1\" xref=\"p1.1.m1.1.23.3.2.1.cmml\">\n            <mrow id=\"p1.1.m1.1.23.3.2.1.2\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">(</mo>\n              <mrow id=\"p1.1.m1.1.23.3.2.1.2.2\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">\n                <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">n</mi>\n                <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">-</mo>\n                <mn id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">1</mn>\n              </mrow>\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">)</mo>\n            </mrow>\n            <mo id=\"p1.1.m1.1.23.3.2.1.1\" xref=\"p1.1.m1.1.23.3.2.1.1.cmml\">⁢</mo>\n            <mi id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">V</mi>\n          </mrow>\n          <mo id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">/</mo>\n          <mn id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">4</mn>\n        </mrow>\n        <mo id=\"p1.1.m1.1.23.3.1\" xref=\"p1.1.m1.1.23.3.1.cmml\">⁢</mo>\n        <msub id=\"p1.1.m1.1.23.3.3\" xref=\"p1.1.m1.1.23.3.3.cmml\">\n          <mi id=\"p1.1.m1.1.12\" xref=\"p1.1.m1.1.12.cmml\">G</mi>\n          <mi id=\"p1.1.m1.1.13.1\" xref=\"p1.1.m1.1.13.1.cmml\">n</mi>\n        </msub>\n        <mo id=\"p1.1.m1.1.23.3.1a\" xref=\"p1.1.m1.1.23.3.1.cmml\">⁢</mo>\n        <mi id=\"p1.1.m1.1.14\" xref=\"p1.1.m1.1.14.cmml\">R</mi>\n      </mrow>\n      <mo id=\"p1.1.m1.1.15\" xref=\"p1.1.m1.1.15.cmml\">≡</mo>\n      <mrow id=\"p1.1.m1.1.23.4\" xref=\"p1.1.m1.1.23.4.cmml\">\n        <mrow id=\"p1.1.m1.1.23.4.1\" xref=\"p1.1.m1.1.23.4.1.cmml\">\n          <mn id=\"p1.1.m1.1.16\" xref=\"p1.1.m1.1.16.cmml\">2</mn>\n          <mo id=\"p1.1.m1.1.23.4.1.1\" xref=\"p1.1.m1.1.23.4.1.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.17\" xref=\"p1.1.m1.1.17.cmml\">π</mi>\n          <mo id=\"p1.1.m1.1.23.4.1.1a\" xref=\"p1.1.m1.1.23.4.1.1.cmml\">⁢</mo>\n          <msub id=\"p1.1.m1.1.23.4.1.2\" xref=\"p1.1.m1.1.23.4.1.2.cmml\">\n            <mi id=\"p1.1.m1.1.18\" xref=\"p1.1.m1.1.18.cmml\">E</mi>\n            <mi id=\"p1.1.m1.1.19.1\" xref=\"p1.1.m1.1.19.1.cmml\">BH</mi>\n          </msub>\n          <mo id=\"p1.1.m1.1.23.4.1.1b\" xref=\"p1.1.m1.1.23.4.1.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.20\" xref=\"p1.1.m1.1.20.cmml\">R</mi>\n        </mrow>\n        <mo id=\"p1.1.m1.1.21\" xref=\"p1.1.m1.1.21.cmml\">/</mo>\n        <mi id=\"p1.1.m1.1.22\" xref=\"p1.1.m1.1.22.cmml\">n</mi>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.23.cmml\" xref=\"p1.1.m1.1.23\">\n        <and id=\"p1.1.m1.1.23a.cmml\" xref=\"p1.1.m1.1.23\"/>\n        <apply id=\"p1.1.m1.1.23b.cmml\" xref=\"p1.1.m1.1.23\">\n          <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <apply id=\"p1.1.m1.1.23.2.cmml\" xref=\"p1.1.m1.1.23.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.23.2.1.cmml\" xref=\"p1.1.m1.1.23.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q3055341</csymbol>\n            <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">BH</ci>\n          </apply>\n          <apply id=\"p1.1.m1.1.23.3.cmml\" xref=\"p1.1.m1.1.23.3\">\n            <times id=\"p1.1.m1.1.23.3.1.cmml\" xref=\"p1.1.m1.1.23.3.1\"/>\n            <apply id=\"p1.1.m1.1.23.3.2.cmml\" xref=\"p1.1.m1.1.23.3.2\">\n              <divide id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\"/>\n              <apply id=\"p1.1.m1.1.23.3.2.1.cmml\" xref=\"p1.1.m1.1.23.3.2.1\">\n                <times id=\"p1.1.m1.1.23.3.2.1.1.cmml\" xref=\"p1.1.m1.1.23.3.2.1.1\"/>\n                <apply id=\"p1.1.m1.1.23.3.2.1.2.2.cmml\" xref=\"p1.1.m1.1.23.3.2.1.2\">\n                  <minus id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">Q929302</csymbol>\n                  <cn type=\"integer\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">1</cn>\n                </apply>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">Q39297</csymbol>\n              </apply>\n              <cn type=\"integer\" id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">4</cn>\n            </apply>\n            <apply id=\"p1.1.m1.1.23.3.3.cmml\" xref=\"p1.1.m1.1.23.3.3\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.23.3.3.1.cmml\" xref=\"p1.1.m1.1.23.3.3\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.12.cmml\" xref=\"p1.1.m1.1.12\">Q18373</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.13.1.cmml\" xref=\"p1.1.m1.1.13.1\">Q929302</csymbol>\n            </apply>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.14.cmml\" xref=\"p1.1.m1.1.14\">Q173817</csymbol>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.23c.cmml\" xref=\"p1.1.m1.1.23\">\n          <equivalent id=\"p1.1.m1.1.15.cmml\" xref=\"p1.1.m1.1.15\"/>\n          <share href=\"#p1.1.m1.1.23.3.cmml\" id=\"p1.1.m1.1.23d.cmml\" xref=\"p1.1.m1.1.23\"/>\n          <apply id=\"p1.1.m1.1.23.4.cmml\" xref=\"p1.1.m1.1.23.4\">\n            <divide id=\"p1.1.m1.1.21.cmml\" xref=\"p1.1.m1.1.21\"/>\n            <apply id=\"p1.1.m1.1.23.4.1.cmml\" xref=\"p1.1.m1.1.23.4.1\">\n              <times id=\"p1.1.m1.1.23.4.1.1.cmml\" xref=\"p1.1.m1.1.23.4.1.1\"/>\n              <cn type=\"integer\" id=\"p1.1.m1.1.16.cmml\" xref=\"p1.1.m1.1.16\">2</cn>\n              <ci id=\"p1.1.m1.1.17.cmml\" xref=\"p1.1.m1.1.17\">𝜋</ci>\n              <apply id=\"p1.1.m1.1.23.4.1.2.cmml\" xref=\"p1.1.m1.1.23.4.1.2\">\n                <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.23.4.1.2.1.cmml\" xref=\"p1.1.m1.1.23.4.1.2\">subscript</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.18.cmml\" xref=\"p1.1.m1.1.18\">Q45404197</csymbol>\n                <ci id=\"p1.1.m1.1.19.1.cmml\" xref=\"p1.1.m1.1.19.1\">BH</ci>\n              </apply>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.20.cmml\" xref=\"p1.1.m1.1.20\">Q173817</csymbol>\n            </apply>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.22.cmml\" xref=\"p1.1.m1.1.22\">Q929302</csymbol>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\w{Q3055341}{S}_{\\rm BH}=(\\w{Q929302}{n} - 1)\\w{Q39297}{V} / 4\\w{Q18373}{G}_{n} \\w{Q173817}{R} \\equiv 2\\pi \\w{Q45404197}{E}_{\\rm BH}R/n",
-  "type": "equation"
+  "constraints" : [ ],
+  "math_inputtex" : "S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n",
+  "math_inputtex_semantic" : "\\w{Q3055341}{S}_{\\rm BH}=(\\w{Q929302}{n} - 1)\\w{Q39297}{V} / 4\\w{Q18373}{G}_{n} \\w{Q173817}{R} \\equiv 2\\pi \\w{Q45404197}{E}_{\\rm BH}R/n",
+  "correct_tex" : "S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.23\" xref=\"p1.1.m1.1.23.cmml\">\n      <msub id=\"p1.1.m1.1.23.2\" xref=\"p1.1.m1.1.23.2.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n        <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">BH</mi>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.23.3\" xref=\"p1.1.m1.1.23.3.cmml\">\n        <mrow id=\"p1.1.m1.1.23.3.2\" xref=\"p1.1.m1.1.23.3.2.cmml\">\n          <mrow id=\"p1.1.m1.1.23.3.2.1\" xref=\"p1.1.m1.1.23.3.2.1.cmml\">\n            <mrow id=\"p1.1.m1.1.23.3.2.1.2\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">(</mo>\n              <mrow id=\"p1.1.m1.1.23.3.2.1.2.2\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">\n                <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">n</mi>\n                <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">-</mo>\n                <mn id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">1</mn>\n              </mrow>\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.23.3.2.1.2.2.cmml\">)</mo>\n            </mrow>\n            <mo id=\"p1.1.m1.1.23.3.2.1.1\" xref=\"p1.1.m1.1.23.3.2.1.1.cmml\">⁢</mo>\n            <mi id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">V</mi>\n          </mrow>\n          <mo id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">/</mo>\n          <mn id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">4</mn>\n        </mrow>\n        <mo id=\"p1.1.m1.1.23.3.1\" xref=\"p1.1.m1.1.23.3.1.cmml\">⁢</mo>\n        <msub id=\"p1.1.m1.1.23.3.3\" xref=\"p1.1.m1.1.23.3.3.cmml\">\n          <mi id=\"p1.1.m1.1.12\" xref=\"p1.1.m1.1.12.cmml\">G</mi>\n          <mi id=\"p1.1.m1.1.13.1\" xref=\"p1.1.m1.1.13.1.cmml\">n</mi>\n        </msub>\n        <mo id=\"p1.1.m1.1.23.3.1a\" xref=\"p1.1.m1.1.23.3.1.cmml\">⁢</mo>\n        <mi id=\"p1.1.m1.1.14\" xref=\"p1.1.m1.1.14.cmml\">R</mi>\n      </mrow>\n      <mo id=\"p1.1.m1.1.15\" xref=\"p1.1.m1.1.15.cmml\">≡</mo>\n      <mrow id=\"p1.1.m1.1.23.4\" xref=\"p1.1.m1.1.23.4.cmml\">\n        <mrow id=\"p1.1.m1.1.23.4.1\" xref=\"p1.1.m1.1.23.4.1.cmml\">\n          <mn id=\"p1.1.m1.1.16\" xref=\"p1.1.m1.1.16.cmml\">2</mn>\n          <mo id=\"p1.1.m1.1.23.4.1.1\" xref=\"p1.1.m1.1.23.4.1.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.17\" xref=\"p1.1.m1.1.17.cmml\">π</mi>\n          <mo id=\"p1.1.m1.1.23.4.1.1a\" xref=\"p1.1.m1.1.23.4.1.1.cmml\">⁢</mo>\n          <msub id=\"p1.1.m1.1.23.4.1.2\" xref=\"p1.1.m1.1.23.4.1.2.cmml\">\n            <mi id=\"p1.1.m1.1.18\" xref=\"p1.1.m1.1.18.cmml\">E</mi>\n            <mi id=\"p1.1.m1.1.19.1\" xref=\"p1.1.m1.1.19.1.cmml\">BH</mi>\n          </msub>\n          <mo id=\"p1.1.m1.1.23.4.1.1b\" xref=\"p1.1.m1.1.23.4.1.1.cmml\">⁢</mo>\n          <mi id=\"p1.1.m1.1.20\" xref=\"p1.1.m1.1.20.cmml\">R</mi>\n        </mrow>\n        <mo id=\"p1.1.m1.1.21\" xref=\"p1.1.m1.1.21.cmml\">/</mo>\n        <mi id=\"p1.1.m1.1.22\" xref=\"p1.1.m1.1.22.cmml\">n</mi>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.23.cmml\" xref=\"p1.1.m1.1.23\">\n        <and id=\"p1.1.m1.1.23a.cmml\" xref=\"p1.1.m1.1.23\"/>\n        <apply id=\"p1.1.m1.1.23b.cmml\" xref=\"p1.1.m1.1.23\">\n          <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <apply id=\"p1.1.m1.1.23.2.cmml\" xref=\"p1.1.m1.1.23.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.23.2.1.cmml\" xref=\"p1.1.m1.1.23.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q3055341</csymbol>\n            <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">BH</ci>\n          </apply>\n          <apply id=\"p1.1.m1.1.23.3.cmml\" xref=\"p1.1.m1.1.23.3\">\n            <times id=\"p1.1.m1.1.23.3.1.cmml\" xref=\"p1.1.m1.1.23.3.1\"/>\n            <apply id=\"p1.1.m1.1.23.3.2.cmml\" xref=\"p1.1.m1.1.23.3.2\">\n              <divide id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\"/>\n              <apply id=\"p1.1.m1.1.23.3.2.1.cmml\" xref=\"p1.1.m1.1.23.3.2.1\">\n                <times id=\"p1.1.m1.1.23.3.2.1.1.cmml\" xref=\"p1.1.m1.1.23.3.2.1.1\"/>\n                <apply id=\"p1.1.m1.1.23.3.2.1.2.2.cmml\" xref=\"p1.1.m1.1.23.3.2.1.2\">\n                  <minus id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">Q929302</csymbol>\n                  <cn type=\"integer\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">1</cn>\n                </apply>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">Q39297</csymbol>\n              </apply>\n              <cn type=\"integer\" id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">4</cn>\n            </apply>\n            <apply id=\"p1.1.m1.1.23.3.3.cmml\" xref=\"p1.1.m1.1.23.3.3\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.23.3.3.1.cmml\" xref=\"p1.1.m1.1.23.3.3\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.12.cmml\" xref=\"p1.1.m1.1.12\">Q18373</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.13.1.cmml\" xref=\"p1.1.m1.1.13.1\">Q929302</csymbol>\n            </apply>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.14.cmml\" xref=\"p1.1.m1.1.14\">Q173817</csymbol>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.23c.cmml\" xref=\"p1.1.m1.1.23\">\n          <equivalent id=\"p1.1.m1.1.15.cmml\" xref=\"p1.1.m1.1.15\"/>\n          <share href=\"#p1.1.m1.1.23.3.cmml\" id=\"p1.1.m1.1.23d.cmml\" xref=\"p1.1.m1.1.23\"/>\n          <apply id=\"p1.1.m1.1.23.4.cmml\" xref=\"p1.1.m1.1.23.4\">\n            <divide id=\"p1.1.m1.1.21.cmml\" xref=\"p1.1.m1.1.21\"/>\n            <apply id=\"p1.1.m1.1.23.4.1.cmml\" xref=\"p1.1.m1.1.23.4.1\">\n              <times id=\"p1.1.m1.1.23.4.1.1.cmml\" xref=\"p1.1.m1.1.23.4.1.1\"/>\n              <cn type=\"integer\" id=\"p1.1.m1.1.16.cmml\" xref=\"p1.1.m1.1.16\">2</cn>\n              <ci id=\"p1.1.m1.1.17.cmml\" xref=\"p1.1.m1.1.17\">𝜋</ci>\n              <apply id=\"p1.1.m1.1.23.4.1.2.cmml\" xref=\"p1.1.m1.1.23.4.1.2\">\n                <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.23.4.1.2.1.cmml\" xref=\"p1.1.m1.1.23.4.1.2\">subscript</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.18.cmml\" xref=\"p1.1.m1.1.18\">Q45404197</csymbol>\n                <ci id=\"p1.1.m1.1.19.1.cmml\" xref=\"p1.1.m1.1.19.1\">BH</ci>\n              </apply>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.20.cmml\" xref=\"p1.1.m1.1.20\">Q173817</csymbol>\n            </apply>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.22.cmml\" xref=\"p1.1.m1.1.22\">Q929302</csymbol>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S_{\\rm BH}=(n-1)V/4G_{n}R\\equiv 2\\pi E_{\\rm BH}R/n</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/hep-th/0105070",
+  "title" : "Bekenstein-Hawking bound on entropy Context 1",
+  "type" : "equation",
+  "ntcir12-type" : "25",
+  "formula" : "1_3.2",
+  "page" : "3",
+  "ntcir12-relevance" : "4"
 }

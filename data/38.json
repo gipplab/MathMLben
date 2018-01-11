@@ -1,17 +1,15 @@
 {
-  "definitions": {
-    "\\pi": [
-      {
-        "Q167": "pi (ratio of the circumference of a circle to its diameter)"
-      }
-    ]
+  "definitions" : {
+    "\\pi" : [ {
+      "Q167" : "pi (ratio of the circumference of a circle to its diameter)"
+    } ]
   },
-  "math_inputtex": "\\pi/4",
-  "title": "Phase-shift_keying",
-  "correct_tex": "\\pi/4",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=1320#math1320.31",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\pi/4\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">π</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">/</mo>\n      <mn id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">4</mn>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <divide id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q167</csymbol>\n        <cn type=\"integer\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">4</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\pi/4</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\w{Q167}{\\pi}/4",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "\\pi/4",
+  "math_inputtex_semantic" : "\\w{Q167}{\\pi}/4",
+  "correct_tex" : "\\pi/4",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\pi/4\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">π</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">/</mo>\n      <mn id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">4</mn>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <divide id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q167</csymbol>\n        <cn type=\"integer\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">4</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\pi/4</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=1320#math1320.31",
+  "title" : "Phase-shift_keying",
+  "type" : "general formula"
 }

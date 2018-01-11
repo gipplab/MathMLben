@@ -1,27 +1,21 @@
 {
-  "definitions": {
-    "X_{i}": [
-      {
-        "Q176623": "random variable (variable whose value is subject to variations due to chance)"
-      }
-    ],
-    "\\omega": [
-      {
-        "Q10290214": "event (in statistics, a set of outcomes to which a probability is assigned)"
-      }
-    ],
-    "\\omega_{i}": [
-      {
-        "Q10290214": "event (in statistics, a set of outcomes to which a probability is assigned)"
-      }
-    ]
+  "definitions" : {
+    "X_{i}" : [ {
+      "Q176623" : "random variable (variable whose value is subject to variations due to chance)"
+    } ],
+    "\\omega" : [ {
+      "Q10290214" : "event (in statistics, a set of outcomes to which a probability is assigned)"
+    } ],
+    "\\omega_{i}" : [ {
+      "Q10290214" : "event (in statistics, a set of outcomes to which a probability is assigned)"
+    } ]
   },
-  "math_inputtex": "X_i(\\omega)=\\omega_i",
-  "title": "Almost_surely",
-  "correct_tex": "X_i(\\omega)=\\omega_i",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=4212#math4212.21",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"X_{i}(\\omega)=\\omega_{i}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n      <mrow id=\"p1.1.m1.1.9.1.2\" xref=\"p1.1.m1.1.9.1.1.cmml\">\n        <msub id=\"p1.1.m1.1.9.1.2.1\" xref=\"p1.1.m1.1.9.1.2.1.cmml\">\n          <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">X</mi>\n          <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">i</mi>\n        </msub>\n        <mo id=\"p1.1.m1.1.9.1.2a\" xref=\"p1.1.m1.1.9.1.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.9.1.2.2\" xref=\"p1.1.m1.1.9.1.1.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.9.1.1.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">ω</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.9.1.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">=</mo>\n      <msub id=\"p1.1.m1.1.9.2\" xref=\"p1.1.m1.1.9.2.cmml\">\n        <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">ω</mi>\n        <mi id=\"p1.1.m1.1.8.1\" xref=\"p1.1.m1.1.8.1.cmml\">i</mi>\n      </msub>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n        <eq id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n        <apply id=\"p1.1.m1.1.9.1.1.cmml\" xref=\"p1.1.m1.1.9.1.2\">\n          <apply id=\"p1.1.m1.1.9.1.2.1.cmml\" xref=\"p1.1.m1.1.9.1.2.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.1.2.1.1.cmml\" xref=\"p1.1.m1.1.9.1.2.1\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q176623</csymbol>\n            <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">𝑖</ci>\n          </apply>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q10290214</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.9.2.cmml\" xref=\"p1.1.m1.1.9.2\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.2.1.cmml\" xref=\"p1.1.m1.1.9.2\">subscript</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q10290214</csymbol>\n          <ci id=\"p1.1.m1.1.8.1.cmml\" xref=\"p1.1.m1.1.8.1\">𝑖</ci>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">X_{i}(\\omega)=\\omega_{i}</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\wf{Q176623}{X_i} (\\w{Q10290214}{\\omega})=\\omega_i",
-  "type": "definition"
+  "constraints" : [ ],
+  "math_inputtex" : "X_i(\\omega)=\\omega_i",
+  "math_inputtex_semantic" : "\\wf{Q176623}{X_i} (\\w{Q10290214}{\\omega})=\\omega_i",
+  "correct_tex" : "X_i(\\omega)=\\omega_i",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"X_{i}(\\omega)=\\omega_{i}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n      <mrow id=\"p1.1.m1.1.9.1.2\" xref=\"p1.1.m1.1.9.1.1.cmml\">\n        <msub id=\"p1.1.m1.1.9.1.2.1\" xref=\"p1.1.m1.1.9.1.2.1.cmml\">\n          <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">X</mi>\n          <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">i</mi>\n        </msub>\n        <mo id=\"p1.1.m1.1.9.1.2a\" xref=\"p1.1.m1.1.9.1.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.9.1.2.2\" xref=\"p1.1.m1.1.9.1.1.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.9.1.1.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">ω</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.9.1.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">=</mo>\n      <msub id=\"p1.1.m1.1.9.2\" xref=\"p1.1.m1.1.9.2.cmml\">\n        <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">ω</mi>\n        <mi id=\"p1.1.m1.1.8.1\" xref=\"p1.1.m1.1.8.1.cmml\">i</mi>\n      </msub>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n        <eq id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n        <apply id=\"p1.1.m1.1.9.1.1.cmml\" xref=\"p1.1.m1.1.9.1.2\">\n          <apply id=\"p1.1.m1.1.9.1.2.1.cmml\" xref=\"p1.1.m1.1.9.1.2.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.1.2.1.1.cmml\" xref=\"p1.1.m1.1.9.1.2.1\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q176623</csymbol>\n            <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">𝑖</ci>\n          </apply>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q10290214</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.9.2.cmml\" xref=\"p1.1.m1.1.9.2\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.2.1.cmml\" xref=\"p1.1.m1.1.9.2\">subscript</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q10290214</csymbol>\n          <ci id=\"p1.1.m1.1.8.1.cmml\" xref=\"p1.1.m1.1.8.1\">𝑖</ci>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">X_{i}(\\omega)=\\omega_{i}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=4212#math4212.21",
+  "title" : "Almost_surely",
+  "type" : "definition"
 }

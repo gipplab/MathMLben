@@ -1,11 +1,11 @@
 {
-  "constraints": [],
-  "math_inputtex": "n = \\frac{c}{v},",
-  "correct_tex": "n = \\frac{c}{v}",
-  "math_inputtex_semantic": "\\w{Q174102}{n} = \\frac{\\w{Q2111}{c}}{\\w{Q11465}{v}}",
-  "uri": "https://en.wikipedia.org/w/index.php?title=Refractive_index&oldid=816572839",
-  "title": "Refractive index",
-  "type": "definition",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"n=\\frac{c}{v}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">n</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mfrac id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n        <mi id=\"p1.1.m1.1.3.2\" xref=\"p1.1.m1.1.3.2.cmml\">c</mi>\n        <mi id=\"p1.1.m1.1.3.3\" xref=\"p1.1.m1.1.3.3.cmml\">v</mi>\n      </mfrac>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q174102</csymbol>\n        <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n          <divide id=\"p1.1.m1.1.3.1.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.2.cmml\" xref=\"p1.1.m1.1.3.2\">Q2111</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.3.cmml\" xref=\"p1.1.m1.1.3.3\">Q11465</csymbol>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">n=\\frac{c}{v}</annotation>\n  </semantics>\n</math>",
-  "comment": "NTCIR 12 wiki topic 8"
+  "constraints" : [ ],
+  "math_inputtex" : "n = \\frac{c}{v},",
+  "math_inputtex_semantic" : "\\w{Q174102}{n} = \\frac{\\w{Q2111}{c}}{\\w{Q11465}{v}}",
+  "correct_tex" : "n = \\frac{c}{v}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"n=\\frac{c}{v}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">n</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mfrac id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n        <mi id=\"p1.1.m1.1.3.2\" xref=\"p1.1.m1.1.3.2.cmml\">c</mi>\n        <mi id=\"p1.1.m1.1.3.3\" xref=\"p1.1.m1.1.3.3.cmml\">v</mi>\n      </mfrac>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q174102</csymbol>\n        <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n          <divide id=\"p1.1.m1.1.3.1.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.2.cmml\" xref=\"p1.1.m1.1.3.2\">Q2111</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.3.cmml\" xref=\"p1.1.m1.1.3.3\">Q11465</csymbol>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">n=\\frac{c}{v}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.wikipedia.org/w/index.php?title=Refractive_index&oldid=816572839",
+  "title" : "Refractive index",
+  "comment" : "NTCIR 12 wiki topic 8",
+  "type" : "definition"
 }

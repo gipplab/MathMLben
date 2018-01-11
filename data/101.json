@@ -1,50 +1,33 @@
 {
-  "definitions": {
-    "a": [
-      {
-        "Q12916": "real number"
-      }
-    ],
-    "b": [
-      {
-        "Q12916": "real number"
-      }
-    ],
-    "\\alpha": [
-      {
-        "Q12916": "real number"
-      }
-    ],
-    "\\beta": [
-      {
-        "Q12916": "real number"
-      }
-    ],
-    "\\epsilon": [
-      {
-        "Q1347710": "",
-        "Q3176558": "positive real number"
-      }
-    ],
-    "\\delta": [
-      {
-        "Q1347710": "",
-        "Q3176558": "positive real number"
-      }
-    ]
+  "definitions" : {
+    "a" : [ {
+      "Q12916" : "real number"
+    } ],
+    "b" : [ {
+      "Q12916" : "real number"
+    } ],
+    "\\alpha" : [ {
+      "Q12916" : "real number"
+    } ],
+    "\\beta" : [ {
+      "Q12916" : "real number"
+    } ],
+    "\\epsilon" : [ {
+      "Q1347710" : "",
+      "Q3176558" : "positive real number"
+    } ],
+    "\\delta" : [ {
+      "Q1347710" : "",
+      "Q3176558" : "positive real number"
+    } ]
   },
-  "constraints": [
-    "\\epsilon > 0",
-    "\\delta > 0",
-    "\\abs{\\alpha} < \\delta",
-    "\\abs{\\beta} < \\delta"
-  ],
-  "math_inputtex_semantic": "\\abs{\\wf{Q11348}{f}(\\w{Q12916}{a}+\\w{Q12916}{\\alpha},\\w{Q12916}{b}+\\w{Q12916}{\\beta})-f(a,b)} < \\w{Q3176558}{\\epsilon}",
-  "type": "relation",
-  "correct_tex": "|f(a+\\alpha,b+\\beta) - f(a,b)| < \\epsilon",
-  "uri": "http://dlmf.nist.gov/1.5#E2",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\abs{f(a+\\alpha,b+\\beta)-f(a,b)}&lt;\\epsilon\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">\n      <mrow id=\"p1.1.m1.1.1.5\" xref=\"p1.1.m1.1.1.1.cmml\">\n        <mo id=\"p1.1.m1.1.1.2\" xref=\"p1.1.m1.1.1.1.1.cmml\">|</mo>\n        <mrow id=\"p1.1.m1.1.1.3\" xref=\"p1.1.m1.1.1.3.cmml\">\n          <mrow id=\"p1.1.m1.1.1.3.18.2\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">\n            <mi id=\"p1.1.m1.1.1.3.1\" xref=\"p1.1.m1.1.1.3.1.cmml\">f</mi>\n            <mo id=\"p1.1.m1.1.1.3.18.2a\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">⁡</mo>\n            <mrow id=\"p1.1.m1.1.1.3.18.2.3\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.2\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">(</mo>\n              <mrow id=\"p1.1.m1.1.1.3.18.2.1\" xref=\"p1.1.m1.1.1.3.18.2.1.cmml\">\n                <mi id=\"p1.1.m1.1.1.3.3\" xref=\"p1.1.m1.1.1.3.3.cmml\">a</mi>\n                <mo id=\"p1.1.m1.1.1.3.4\" xref=\"p1.1.m1.1.1.3.4.cmml\">+</mo>\n                <mi id=\"p1.1.m1.1.1.3.5\" xref=\"p1.1.m1.1.1.3.5.cmml\">α</mi>\n              </mrow>\n              <mo id=\"p1.1.m1.1.1.3.6\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">,</mo>\n              <mrow id=\"p1.1.m1.1.1.3.18.2.2\" xref=\"p1.1.m1.1.1.3.18.2.2.cmml\">\n                <mi id=\"p1.1.m1.1.1.3.7\" xref=\"p1.1.m1.1.1.3.7.cmml\">b</mi>\n                <mo id=\"p1.1.m1.1.1.3.8\" xref=\"p1.1.m1.1.1.3.8.cmml\">+</mo>\n                <mi id=\"p1.1.m1.1.1.3.9\" xref=\"p1.1.m1.1.1.3.9.cmml\">β</mi>\n              </mrow>\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.10\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">)</mo>\n            </mrow>\n          </mrow>\n          <mo id=\"p1.1.m1.1.1.3.11\" xref=\"p1.1.m1.1.1.3.11.cmml\">-</mo>\n          <mrow id=\"p1.1.m1.1.1.3.19.2\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">\n            <mi id=\"p1.1.m1.1.1.3.12\" xref=\"p1.1.m1.1.1.3.12.cmml\">f</mi>\n            <mo id=\"p1.1.m1.1.1.3.19.2a\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">⁡</mo>\n            <mrow id=\"p1.1.m1.1.1.3.19.2.1\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.13\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">(</mo>\n              <mi id=\"p1.1.m1.1.1.3.14\" xref=\"p1.1.m1.1.1.3.14.cmml\">a</mi>\n              <mo id=\"p1.1.m1.1.1.3.15\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">,</mo>\n              <mi id=\"p1.1.m1.1.1.3.16\" xref=\"p1.1.m1.1.1.3.16.cmml\">b</mi>\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.17\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">)</mo>\n            </mrow>\n          </mrow>\n        </mrow>\n        <mo id=\"p1.1.m1.1.1.4\" xref=\"p1.1.m1.1.1.1.1.cmml\">|</mo>\n      </mrow>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">&lt;</mo>\n      <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">ϵ</mi>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <lt id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <apply id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.5\">\n          <abs id=\"p1.1.m1.1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.2\"/>\n          <apply id=\"p1.1.m1.1.1.3.cmml\" xref=\"p1.1.m1.1.1.3\">\n            <minus id=\"p1.1.m1.1.1.3.11.cmml\" xref=\"p1.1.m1.1.1.3.11\"/>\n            <apply id=\"p1.1.m1.1.1.3.18.1.cmml\" xref=\"p1.1.m1.1.1.3.18.2\">\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.1.cmml\" xref=\"p1.1.m1.1.1.3.1\">Q11348</csymbol>\n              <apply id=\"p1.1.m1.1.1.3.18.2.1.cmml\" xref=\"p1.1.m1.1.1.3.18.2.1\">\n                <plus id=\"p1.1.m1.1.1.3.4.cmml\" xref=\"p1.1.m1.1.1.3.4\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.3.cmml\" xref=\"p1.1.m1.1.1.3.3\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.5.cmml\" xref=\"p1.1.m1.1.1.3.5\">Q12916</csymbol>\n              </apply>\n              <apply id=\"p1.1.m1.1.1.3.18.2.2.cmml\" xref=\"p1.1.m1.1.1.3.18.2.2\">\n                <plus id=\"p1.1.m1.1.1.3.8.cmml\" xref=\"p1.1.m1.1.1.3.8\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.7.cmml\" xref=\"p1.1.m1.1.1.3.7\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.9.cmml\" xref=\"p1.1.m1.1.1.3.9\">Q12916</csymbol>\n              </apply>\n            </apply>\n            <apply id=\"p1.1.m1.1.1.3.19.1.cmml\" xref=\"p1.1.m1.1.1.3.19.2\">\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.12.cmml\" xref=\"p1.1.m1.1.1.3.12\">Q11348</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.14.cmml\" xref=\"p1.1.m1.1.1.3.14\">Q12916</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.16.cmml\" xref=\"p1.1.m1.1.1.3.16\">Q12916</csymbol>\n            </apply>\n          </apply>\n        </apply>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">Q3176558</csymbol>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\abs{f(a+\\alpha,b+\\beta)-f(a,b)}&lt;\\epsilon</annotation>\n  </semantics>\n</math>",
-  "math_inputtex": "|f(a+\\alpha,b+\\beta) - f(a,b)| < \\epsilon",
-  "comment": "",
-  "title": "Partial Derivatives"
+  "constraints" : [ "\\epsilon > 0", "\\delta > 0", "\\abs{\\alpha} < \\delta", "\\abs{\\beta} < \\delta" ],
+  "math_inputtex" : "|f(a+\\alpha,b+\\beta) - f(a,b)| < \\epsilon",
+  "math_inputtex_semantic" : "\\abs{\\wf{Q11348}{f}(\\w{Q12916}{a}+\\w{Q12916}{\\alpha},\\w{Q12916}{b}+\\w{Q12916}{\\beta})-f(a,b)} < \\w{Q3176558}{\\epsilon}",
+  "correct_tex" : "|f(a+\\alpha,b+\\beta) - f(a,b)| < \\epsilon",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\abs{f(a+\\alpha,b+\\beta)-f(a,b)}&lt;\\epsilon\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">\n      <mrow id=\"p1.1.m1.1.1.5\" xref=\"p1.1.m1.1.1.1.cmml\">\n        <mo id=\"p1.1.m1.1.1.2\" xref=\"p1.1.m1.1.1.1.1.cmml\">|</mo>\n        <mrow id=\"p1.1.m1.1.1.3\" xref=\"p1.1.m1.1.1.3.cmml\">\n          <mrow id=\"p1.1.m1.1.1.3.18.2\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">\n            <mi id=\"p1.1.m1.1.1.3.1\" xref=\"p1.1.m1.1.1.3.1.cmml\">f</mi>\n            <mo id=\"p1.1.m1.1.1.3.18.2a\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">⁡</mo>\n            <mrow id=\"p1.1.m1.1.1.3.18.2.3\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.2\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">(</mo>\n              <mrow id=\"p1.1.m1.1.1.3.18.2.1\" xref=\"p1.1.m1.1.1.3.18.2.1.cmml\">\n                <mi id=\"p1.1.m1.1.1.3.3\" xref=\"p1.1.m1.1.1.3.3.cmml\">a</mi>\n                <mo id=\"p1.1.m1.1.1.3.4\" xref=\"p1.1.m1.1.1.3.4.cmml\">+</mo>\n                <mi id=\"p1.1.m1.1.1.3.5\" xref=\"p1.1.m1.1.1.3.5.cmml\">α</mi>\n              </mrow>\n              <mo id=\"p1.1.m1.1.1.3.6\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">,</mo>\n              <mrow id=\"p1.1.m1.1.1.3.18.2.2\" xref=\"p1.1.m1.1.1.3.18.2.2.cmml\">\n                <mi id=\"p1.1.m1.1.1.3.7\" xref=\"p1.1.m1.1.1.3.7.cmml\">b</mi>\n                <mo id=\"p1.1.m1.1.1.3.8\" xref=\"p1.1.m1.1.1.3.8.cmml\">+</mo>\n                <mi id=\"p1.1.m1.1.1.3.9\" xref=\"p1.1.m1.1.1.3.9.cmml\">β</mi>\n              </mrow>\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.10\" xref=\"p1.1.m1.1.1.3.18.1.cmml\">)</mo>\n            </mrow>\n          </mrow>\n          <mo id=\"p1.1.m1.1.1.3.11\" xref=\"p1.1.m1.1.1.3.11.cmml\">-</mo>\n          <mrow id=\"p1.1.m1.1.1.3.19.2\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">\n            <mi id=\"p1.1.m1.1.1.3.12\" xref=\"p1.1.m1.1.1.3.12.cmml\">f</mi>\n            <mo id=\"p1.1.m1.1.1.3.19.2a\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">⁡</mo>\n            <mrow id=\"p1.1.m1.1.1.3.19.2.1\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.13\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">(</mo>\n              <mi id=\"p1.1.m1.1.1.3.14\" xref=\"p1.1.m1.1.1.3.14.cmml\">a</mi>\n              <mo id=\"p1.1.m1.1.1.3.15\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">,</mo>\n              <mi id=\"p1.1.m1.1.1.3.16\" xref=\"p1.1.m1.1.1.3.16.cmml\">b</mi>\n              <mo stretchy=\"false\" id=\"p1.1.m1.1.1.3.17\" xref=\"p1.1.m1.1.1.3.19.1.cmml\">)</mo>\n            </mrow>\n          </mrow>\n        </mrow>\n        <mo id=\"p1.1.m1.1.1.4\" xref=\"p1.1.m1.1.1.1.1.cmml\">|</mo>\n      </mrow>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">&lt;</mo>\n      <mi id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">ϵ</mi>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\n        <lt id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <apply id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.5\">\n          <abs id=\"p1.1.m1.1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.2\"/>\n          <apply id=\"p1.1.m1.1.1.3.cmml\" xref=\"p1.1.m1.1.1.3\">\n            <minus id=\"p1.1.m1.1.1.3.11.cmml\" xref=\"p1.1.m1.1.1.3.11\"/>\n            <apply id=\"p1.1.m1.1.1.3.18.1.cmml\" xref=\"p1.1.m1.1.1.3.18.2\">\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.1.cmml\" xref=\"p1.1.m1.1.1.3.1\">Q11348</csymbol>\n              <apply id=\"p1.1.m1.1.1.3.18.2.1.cmml\" xref=\"p1.1.m1.1.1.3.18.2.1\">\n                <plus id=\"p1.1.m1.1.1.3.4.cmml\" xref=\"p1.1.m1.1.1.3.4\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.3.cmml\" xref=\"p1.1.m1.1.1.3.3\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.5.cmml\" xref=\"p1.1.m1.1.1.3.5\">Q12916</csymbol>\n              </apply>\n              <apply id=\"p1.1.m1.1.1.3.18.2.2.cmml\" xref=\"p1.1.m1.1.1.3.18.2.2\">\n                <plus id=\"p1.1.m1.1.1.3.8.cmml\" xref=\"p1.1.m1.1.1.3.8\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.7.cmml\" xref=\"p1.1.m1.1.1.3.7\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.9.cmml\" xref=\"p1.1.m1.1.1.3.9\">Q12916</csymbol>\n              </apply>\n            </apply>\n            <apply id=\"p1.1.m1.1.1.3.19.1.cmml\" xref=\"p1.1.m1.1.1.3.19.2\">\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.12.cmml\" xref=\"p1.1.m1.1.1.3.12\">Q11348</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.14.cmml\" xref=\"p1.1.m1.1.1.3.14\">Q12916</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.3.16.cmml\" xref=\"p1.1.m1.1.1.3.16\">Q12916</csymbol>\n            </apply>\n          </apply>\n        </apply>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">Q3176558</csymbol>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\abs{f(a+\\alpha,b+\\beta)-f(a,b)}&lt;\\epsilon</annotation>\n  </semantics>\n</math>",
+  "uri" : "http://dlmf.nist.gov/1.5#E2",
+  "title" : "Partial Derivatives",
+  "comment" : "",
+  "type" : "relation"
 }

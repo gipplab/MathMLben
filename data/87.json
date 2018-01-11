@@ -1,17 +1,15 @@
 {
-  "definitions": {
-    "x_{7}": [
-      {
-        "Q5227327": "Data point"
-      }
-    ]
+  "definitions" : {
+    "x_{7}" : [ {
+      "Q5227327" : "Data point"
+    } ]
   },
-  "math_inputtex": "x_7",
-  "title": "Near_sets",
-  "correct_tex": "x_7",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=24263#math24263.100",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"x_{7}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <msub id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">x</mi>\n      <mn id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">7</mn>\n    </msub>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n        <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.3.1.cmml\" xref=\"p1.1.m1.1.3\">subscript</csymbol>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q5227327</csymbol>\n        <cn type=\"integer\" id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">7</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">x_{7}</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\w{Q5227327}{x}_7",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "x_7",
+  "math_inputtex_semantic" : "\\w{Q5227327}{x}_7",
+  "correct_tex" : "x_7",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"x_{7}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <msub id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">x</mi>\n      <mn id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">7</mn>\n    </msub>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n        <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.3.1.cmml\" xref=\"p1.1.m1.1.3\">subscript</csymbol>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q5227327</csymbol>\n        <cn type=\"integer\" id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">7</cn>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">x_{7}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=24263#math24263.100",
+  "title" : "Near_sets",
+  "type" : "general formula"
 }

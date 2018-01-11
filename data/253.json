@@ -1,19 +1,17 @@
 {
-  "definitions": {
-    "k": [
-      "parity (reflection) operator"
-    ]
+  "definitions" : {
+    "k" : [ "parity (reflection) operator", { } ]
   },
-  "title": "Invariation of the point of interaction Context 1",
-  "math_inputtex": "\\mathcal{P}",
-  "correct_tex": "\\mathcal{P}",
-  "uri": "https://arxiv.org/abs/1107.1875",
-  "page": "7",
-  "formula": "1_22.1",
-  "ntcir12-type": "24",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\mathcal{P}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi class=\"ltx_font_mathcaligraphic\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">𝒫</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q141160</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\mathcal{P}</annotation>\n  </semantics>\n</math>",
-  "constraints": [],
-  "math_inputtex_semantic": "\\w{Q141160}{\\mathcal{P}}",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "\\mathcal{P}",
+  "math_inputtex_semantic" : "\\w{Q141160}{\\mathcal{P}}",
+  "correct_tex" : "\\mathcal{P}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\mathcal{P}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi class=\"ltx_font_mathcaligraphic\" id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">𝒫</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q141160</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\mathcal{P}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/1107.1875",
+  "title" : "Invariation of the point of interaction Context 1",
+  "type" : "general formula",
+  "ntcir12-type" : "24",
+  "formula" : "1_22.1",
+  "page" : "7",
+  "ntcir12-relevance" : "4"
 }

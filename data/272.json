@@ -1,22 +1,20 @@
 {
-  "definitions": {
-    "NP": [
-      {
-        "Q628036": "Computational complexity class of decision problems solvable by a non-deterministic Turing machine in polynomial time."
-      }
-    ]
+  "definitions" : {
+    "NP" : [ {
+      "Q628036" : "Computational complexity class of decision problems solvable by a non-deterministic Turing machine in polynomial time."
+    } ]
   },
-  "constraints": [],
-  "title": "P-NP-Problem Context 2",
-  "comment": "",
-  "math_inputtex": "NP",
-  "correct_tex": "NP",
-  "uri": "https://arxiv.org/abs/cs/0612134",
-  "page": "1",
-  "formula": "1_1.2",
-  "ntcir12-type": "14",
-  "ntcir12-relevance": "4",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\operatorname{NP}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">NP</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">Q628036</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\operatorname{NP}</annotation>\n  </semantics>\n</math>",
-  "math_inputtex_semantic": "\\w{Q628036}{\\operatorname{NP}}",
-  "type": "general formula"
+  "constraints" : [ ],
+  "math_inputtex" : "NP",
+  "math_inputtex_semantic" : "\\w{Q628036}{\\operatorname{NP}}",
+  "correct_tex" : "NP",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\operatorname{NP}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mi id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">NP</mi>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\">Q628036</csymbol>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\operatorname{NP}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://arxiv.org/abs/cs/0612134",
+  "title" : "P-NP-Problem Context 2",
+  "comment" : "",
+  "type" : "general formula",
+  "ntcir12-type" : "14",
+  "formula" : "1_1.2",
+  "page" : "1",
+  "ntcir12-relevance" : "4"
 }
