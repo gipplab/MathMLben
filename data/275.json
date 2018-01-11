@@ -18,7 +18,7 @@
   },
   "title": "Bekenstein-Hawking bound on entropy Context 2",
   "math_inputtex": "\\displaystyle S\\leq\\frac{A}{4G},",
-  "correct_tex": "\\displaystyle S\\leq\\frac{A}{4G},",
+  "correct_tex": "\\displaystyle S\\leq\\frac{A}{4G}",
   "uri": "https://arxiv.org/abs/hep-th/0308165",
   "page": "8",
   "formula": "1_15.2",
