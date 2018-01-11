@@ -22,7 +22,7 @@
   "title": "Neural Network Context 1",
   "comment": "there is no QID for set of positive real numbers",
   "math_inputtex": "t\\in{\\bf R}_{+},",
-  "correct_tex": "t\\in{\\bf R}_{+},",
+  "correct_tex": "t\\in{\\bf R}_{+}",
   "uri": "https://arxiv.org/abs/0901.0372",
   "page": "1",
   "formula": "1_1.3",
