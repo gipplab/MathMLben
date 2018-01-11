@@ -39,7 +39,7 @@
   "title": "Physics Context 1",
   "comment": "",
   "math_inputtex": "A_{N}(\\alpha,\\beta)=\\frac{1}{N}\\mathbb{E}\\ln\\sum_{\\sigma}\\exp(-\\beta H_{N}(%&#10;\\sigma))",
-  "correct_tex": "A_{N}(\\alpha,\\beta)=\\frac{1}{N}\\mathbb{E}\\ln\\sum_{\\sigma}\\exp(-\\beta H_{N}(%&#10;\\sigma))",
+  "correct_tex": "A_{N}(\\alpha,\\beta)=\\frac{1}{N}\\mathbb{E}\\ln\\sum_{\\sigma}\\exp(-\\beta H_{N}(\\sigma))",
   "uri": "https://arxiv.org/abs/0811.2071",
   "page": "3",
   "formula": "1_6.13",
