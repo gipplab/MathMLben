@@ -21,7 +21,7 @@
   ],
   "title": "Arithmetic mean",
   "comment": "",
-  "correct_tex": "x+y&gt;2n",
+  "correct_tex": "x+y > 2n",
   "math_inputtex": "x+y&gt;2n",
   "uri": "https://arxiv.org/abs/math/0611575",
   "page": "6",

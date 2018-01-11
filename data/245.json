@@ -26,7 +26,7 @@
   "title": "Binomial summation formula for Fibonacci Context 1",
   "comment": "",
   "math_inputtex": "F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",
-  "correct_tex": "F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0.",
+  "correct_tex": "F_{n+1}=\\sum_{k\\leq n}\\binom{n-k}{k},\\quad n\\geq 0",
   "uri": "https://arxiv.org/abs/math/0405591",
   "page": "1",
   "formula": "1_3.2",

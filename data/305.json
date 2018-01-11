@@ -2,7 +2,7 @@
   "constraints": [],
   "comment": "NTCIR 12 wiki topic 28",
   "math_inputtex": "\\varphi(\\lambda_1 x_1+\\lambda_2 x_2+\\cdots+\\lambda_n x_n)\\leq \\lambda_1\\,\\varphi(x_1)+\\lambda_2\\,\\varphi(x_2)+\\cdots+\\lambda_n\\,\\varphi(x_n),",
-  "correct_tex": "\\varphi(\\lambda_1 x_1+\\lambda_2 x_2+\\cdots+\\lambda_n x_n)\\leq \\lambda_1\\,\\varphi(x_1)+\\lambda_2\\,\\varphi(x_2)+\\cdots+\\lambda_n\\,\\varphi(x_n)",
+  "correct_tex": "\\varphi(\\lambda_1 x_1+\\lambda_2 x_2+\\cdots+\\lambda_n x_n)\\leq \\lambda_1 \\varphi(x_1)+\\lambda_2\\,\\varphi(x_2)+\\cdots+\\lambda_n \\varphi(x_n)",
   "math_inputtex_semantic": "\\wf{Q11348}{\\varphi}(\\w{Q1413083}{\\lambda}_1 \\w{Q50701}{x}_1+\\lambda_2 x_2+\\cdots+\\lambda_n x_n)\\leq \\lambda_1\\,\\varphi(x_1)+\\lambda_2\\,\\varphi(x_2)+\\cdots+\\lambda_n\\,\\varphi(x_n)",
   "title": "Jensen's inequality",
   "type": "relation",

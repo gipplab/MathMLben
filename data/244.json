@@ -15,7 +15,7 @@
   "title": "Collatz 3n+1 conjecture Context 1",
   "comment": "",
   "math_inputtex": "\\left\\{3k+4\\ \\right\\}\\subset\\mathfrak{C},",
-  "correct_tex": "\\left\\{3k+4\\ \\right\\}\\subset\\mathfrak{C},",
+  "correct_tex": "\\left\\{3k+4\\ \\right\\}\\subset\\mathfrak{C}",
   "uri": "https://arxiv.org/abs/0704.1057",
   "page": "4",
   "formula": "1_12.1",

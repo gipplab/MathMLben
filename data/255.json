@@ -43,7 +43,7 @@
   "title": "Brane Universe and Standard Cosmology Context 1",
   "comment": "not sure whether x should be identified as a vector\n\nPhil: it is a four-vector",
   "math_inputtex": "\\tilde{g}_{\\mu\\nu}=G_{AB}\\frac{\\partial X^{A}}{\\partial x^{\\mu}}\\frac{\\partial&#10;X%&#10;^{B}}{\\partial x^{\\nu}}",
-  "correct_tex": "\\tilde{g}_{\\mu\\nu}=G_{AB}\\frac{\\partial X^{A}}{\\partial x^{\\mu}}\\frac{\\partial&#10;X%&#10;^{B}}{\\partial x^{\\nu}}",
+  "correct_tex": "\\tilde{g}_{\\mu\\nu}=G_{AB}\\frac{\\partial X^{A}}{\\partial x^{\\mu}}\\frac{\\partial X^{B}}{\\partial x^{\\nu}}",
   "uri": "https://arxiv.org/abs/1203.5687",
   "page": "2",
   "formula": "1_6.5",

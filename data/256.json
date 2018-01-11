@@ -14,7 +14,7 @@
   "title": "Consistency proofs of ZFC extensions Context 1",
   "comment": "redrew",
   "math_inputtex": "ZFC+GCH,",
-  "correct_tex": "ZFC+GCH,",
+  "correct_tex": "ZFC+GCH",
   "uri": "https://arxiv.org/abs/math/9304202",
   "page": "17",
   "formula": "1_70.3",
