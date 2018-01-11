@@ -28,7 +28,7 @@
   "title": "Relating the Maxwell system and the Dirac equations Context 2",
   "comment": "",
   "math_inputtex": "(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",
-  "correct_tex": "(\\eta_{\\mu\\nu})=\\diag(-1,1,1,1)",
+  "correct_tex": "(\\eta_{\\mu\\nu}) = \\operatorname{diag}(-1,1,1,1)",
   "uri": "https://arxiv.org/abs/math/0303079",
   "formula": "1_1.20",
   "ntcir12-type": "18",
