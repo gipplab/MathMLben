@@ -35,6 +35,7 @@ gouldi.controller(
         };
 
         $scope.$on('$routeChangeStart', function(angularEvent, next, current) {
+            if ( next === undefined ) return;
             console.log("Register rerouting to qID: " + next.params.qid);
             reroutingID = parseInt(next.params.qid);
         });
