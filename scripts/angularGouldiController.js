@@ -2,25 +2,42 @@ var gouldi = angular.module('gouldiApp');
 
 gouldi.controller(
     'GouldiMainController',
-    ['$scope', '$routeParams', '$timeout', 'gouldiCookieService', 'gouldiHttpServices',
-        function ($scope, $routeParams, $timeout, gouldiCookieService, gouldiHttpServices) {
-        var pleaseWait = false;
-        $scope.commitMessage = " ";
+    ['$scope', '$routeParams', 'gouldiCookieService', 'gouldiHttpServices',
+        function ($scope, $routeParams, gouldiCookieService, gouldiHttpServices) {
+        var gouldiController = this;
+        var reroutingID = 1; // default loaded QID is 1
 
         var init = function(){
             gouldiHttpServices
                 .initScripts( $scope )
                 .then( function(){
                     console.log("Finished loading process. Init cookies and load actual model.");
-                    $scope.readModel();
+
+                    //console.log("Let us see what's going on here, on init: " + $routeParams.qid);
                     gouldiCookieService.initCookies( $scope.modelrepo );
                     $scope.max = $scope.schema.properties.qID.maximum;
                     $scope.min = $scope.schema.properties.qID.minimum;
-                    gouldi.pleaseWaitALittle = false;
-            });
+                    if (reroutingID >= $scope.min &&
+                        reroutingID <= $scope.max) {
+                        console.log("Load different qID: " + reroutingID);
+                        $scope.model.qID = reroutingID;
+                    } else {
+                        console.log("Load default qID 1.");
+                        $scope.model.qID = 1;
+                    }
+                    $scope.readModel();
+                });
         };
 
-        init();
+        gouldiController.$onInit = function(){
+            console.log("Calling initialization. Init model-schema-form.");
+            init();
+        };
+
+        $scope.$on('$routeChangeStart', function(angularEvent, next, current) {
+            console.log("Register rerouting to qID: " + next.params.qid);
+            reroutingID = parseInt(next.params.qid);
+        });
 
         $scope.onRequest = function (form){
             $scope.$broadcast('schemaFormValidate');
@@ -32,6 +49,8 @@ gouldi.controller(
         };
 
         $scope.updated = function () {
+            if ( !("correct_mml" in $scope.model) ) return;
+
             var scriptTag = document.createElement('script');
             scriptTag.setAttribute('src', 'widgets/formula-ast-widget.js');
             scriptTag.setAttribute('mathml', $scope.model.correct_mml);
@@ -182,23 +201,6 @@ gouldi.controller(
             panelDiv.style.backgroundColor = cssColorSettings[defaultIdx+2];
 
         };
-
-        $scope.$on('$routeChangeSuccess', function() {
-            console.log("Well, routing changed");
-            try {
-                var possibleNum = parseInt($routeParams.qid);
-                if (possibleNum >= $scope.min &&
-                    possibleNum <= $scope.max) {
-                    // TODO wow... timeout...
-                    $timeout( function(){
-                        $scope.model.qID = parseInt($routeParams.qid);
-                        $scope.readModel();
-                    }, 100 );
-                }
-            } catch ( err ) {
-                console.log("I don't care... " + err);
-            }
-        });
 
         $scope.$watch('modelrepo.token', function(){
             if ( 'modelrepo' in $scope ){
