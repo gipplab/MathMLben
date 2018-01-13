@@ -4,9 +4,9 @@
 	<xsl:import href="LaTeXML-common.xsl"/>
 	<xsl:import href="LaTeXML-math-xhtml.xsl"/>
 	<xsl:template match="m:csymbol[@cd='ambiguous' and text() = 'superscript']">
-		<power xmlns="http://www.w3.org/1998/Math/MathML">
+		<xsl:element name="power" namespace="{$mml_ns}">
 			<xsl:copy-of select="@id|@xref"/>
-		</power>
+		</xsl:element>
 	</xsl:template>
 	<xsl:template match="m:csymbol[@cd='ambiguous' and text() = 'subscript']">
 	<!-- interpret subscripts as parameters -->
