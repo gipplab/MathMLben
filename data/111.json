@@ -49,5 +49,8 @@
   "uri": "http://dlmf.nist.gov/2.5#E15",
   "title": "Mellin Transform",
   "type": "equation",
-  "substitutions": {}
+  "substitutions": {},
+  "check": {
+    "tree": true
+  }
 }
