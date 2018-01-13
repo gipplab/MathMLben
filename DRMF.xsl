@@ -5,7 +5,20 @@
 	<xsl:import href="LaTeXML-math-xhtml.xsl"/>
 	<xsl:template match="m:csymbol[@cd='ambiguous' and text() = 'superscript']">
 		<xsl:element name="power" namespace="{$mml_ns}">
-			<xsl:copy-of select="@id|@xref"/>
+			<xsl:attribute name="id">
+			  <xsl:value-of select="@xml:id"/>
+			</xsl:attribute>
+			<xsl:copy-of select="@xref"/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="m:apply//m:mtext">
+		<xsl:element name="ci" namespace="{$mml_ns}">
+			<xsl:attribute name="id">
+ 	      <xsl:value-of select="@xml:id"/>
+ 	   </xsl:attribute>
+ 			<xsl:copy-of select="@xref"/>
+			<!-- merges subsequent text elements -->
+			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>
 	<xsl:template match="m:csymbol[@cd='ambiguous' and text() = 'subscript']">
