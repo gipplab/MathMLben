@@ -15,6 +15,6 @@ DefMath('\mean{}', '\left\langle#1\right\rangle', omcd => 'wikidata', meaning =>
 DefMath('\DBcommutator{}{}', '\{#1,#2\}_\text{DB}', omcd => 'wikidata', meaning => 'Q2989763');
 
 # for Gold ID 208
-DefMath('\tensor{}{}{}, '#1^{#2}_{#3}, omcd => 'wikidata', meaning => 'Q188524');
+DefMath('\tensor{}{}{}', '#1^{#2}_{#3}, omcd => 'wikidata', meaning => 'Q188524');
 
 1;
