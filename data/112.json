@@ -1,62 +1,45 @@
 {
-  "definitions": {
-    "t": [
-      {
-        "Q12916": "real number",
-        "Q50701": "variable"
-      }
-    ],
-    "h(t)": [
-      {
-        "Q1318586": "Locally integrable function"
-      }
-    ],
-    "\\asympexp": [
-      "Poincaré asymptotic expansion",
-      {
-        "Q752726": "asymptotic expansion"
-      }
-    ],
-    "\\kappa": [
-      {
-        "Q12916": "real number"
-      }
-    ],
-    "p": [
-      {
-        "Q3176558": "positive real number"
-      }
-    ],
-    "s": [
-      {
-        "Q44917388": "index of summation",
-        "Q28920052": "non-negative integer",
-        "Q2303886": "index"
-      }
-    ],
-    "b_s": [
-      "right endpoint",
-      {
-        "Q12916": "real number"
-      }
-    ],
-    "\\beta_s": [
-      {
-        "Q11567": "complex number",
-        "Q1413083": "parameter"
-      }
-    ]
+  "definitions" : {
+    "t" : [ {
+      "Q12916" : "real number",
+      "Q50701" : "variable"
+    } ],
+    "h(t)" : [ {
+      "Q1318586" : "Locally integrable function"
+    } ],
+    "\\asympexp" : [ "Poincaré asymptotic expansion", {
+      "Q752726" : "asymptotic expansion"
+    } ],
+    "\\kappa" : [ {
+      "Q12916" : "real number"
+    } ],
+    "p" : [ {
+      "Q3176558" : "positive real number"
+    } ],
+    "s" : [ {
+      "Q44917388" : "index of summation",
+      "Q28920052" : "non-negative integer",
+      "Q2303886" : "index"
+    } ],
+    "b_s" : [ "right endpoint", {
+      "Q12916" : "real number"
+    } ],
+    "\\beta_s" : [ {
+      "Q11567" : "complex number",
+      "Q1413083" : "parameter"
+    } ]
   },
-  "constraints": [],
-  "math_inputtex": "\\[h(t)\\sim\\exp\\left(i\\kappa t^{p}\\right)\\sum_{s=0}^{\\infty}b_{s}t^{-\\beta_{s}},\\]",
-  "math_inputtex_semantic": "\\infix{\\w{Q752726}{\\asympexp}}{\\wf{Q1318586}{h}(\\w{Q12916}{t})}{\\exp@{\\iunit \\w{Q12916}{\\kappa} \\w{Q12916}{t}^{\\w{Q3176558}{p}}} \\Sum{\\w{Q28920052}{s}}{0}{\\infty}@{\\w{Q12916}{b}_s t^{-\\w{Q11567}{\\beta}_s}}}",
-  "correct_tex": "h(t) \\sim \\exp(i\\kappa t^{p}) \\sum_{s=0}^{\\infty}b_{s}t^{-\\beta_{s}}",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\infix{\\asympexp}{h(t)}{\\exp@{\\iunit\\kappa t^{p}}\\Sum{s}{0}{\\infty}@{b_{s}t^{-%&#10;\\beta_{s}}}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.1.6\" xref=\"p1.1.m1.1.1.1.cmml\">\n      <mrow id=\"p1.1.m1.1.1.2.6\" xref=\"p1.1.m1.1.1.2.5.cmml\">\n        <mi id=\"p1.1.m1.1.1.2.1\" xref=\"p1.1.m1.1.1.2.1.cmml\">h</mi>\n        <mo id=\"p1.1.m1.1.1.2.6a\" xref=\"p1.1.m1.1.1.2.5.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.1.2.6.1\" xref=\"p1.1.m1.1.1.2.5.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.1.2.2\" xref=\"p1.1.m1.1.1.2.5.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.1.2.3\" xref=\"p1.1.m1.1.1.2.3.cmml\">t</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.1.2.4\" xref=\"p1.1.m1.1.1.2.5.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.1.6.1\" xref=\"p1.1.m1.1.1.1.1.cmml\">⁢</mo>\n      <mo id=\"p1.1.m1.1.1.3.1.2\" xref=\"p1.1.m1.1.1.3.1.1.cmml\">∼</mo>\n      <mo id=\"p1.1.m1.1.1.6.1a\" xref=\"p1.1.m1.1.1.1.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.1.4\" xref=\"p1.1.m1.1.1.4.cmml\">\n        <mrow id=\"p1.1.m1.1.1.4.1.7.2\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">\n          <mi id=\"p1.1.m1.1.1.4.1.2.1.2\" xref=\"p1.1.m1.1.1.4.1.2.1.1.cmml\">exp</mi>\n          <mo id=\"p1.1.m1.1.1.4.1.7.2a\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">⁡</mo>\n          <mrow id=\"p1.1.m1.1.1.4.1.7.2.1\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">\n            <mo id=\"p1.1.m1.1.1.4.1.4\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">(</mo>\n            <mrow id=\"p1.1.m1.1.1.4.1.5\" xref=\"p1.1.m1.1.1.4.1.5.cmml\">\n              <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1.4.1.5.1.2\" xref=\"p1.1.m1.1.1.4.1.5.1.1.cmml\">i</mi>\n              <mo id=\"p1.1.m1.1.1.4.1.5.5\" xref=\"p1.1.m1.1.1.4.1.5.5.cmml\">⁢</mo>\n              <mi id=\"p1.1.m1.1.1.4.1.5.2\" xref=\"p1.1.m1.1.1.4.1.5.2.cmml\">κ</mi>\n              <mo id=\"p1.1.m1.1.1.4.1.5.5a\" xref=\"p1.1.m1.1.1.4.1.5.5.cmml\">⁢</mo>\n              <msup id=\"p1.1.m1.1.1.4.1.5.6\" xref=\"p1.1.m1.1.1.4.1.5.6.cmml\">\n                <mi id=\"p1.1.m1.1.1.4.1.5.3\" xref=\"p1.1.m1.1.1.4.1.5.3.cmml\">t</mi>\n                <mi id=\"p1.1.m1.1.1.4.1.5.4.1\" xref=\"p1.1.m1.1.1.4.1.5.4.1.cmml\">p</mi>\n              </msup>\n            </mrow>\n            <mo id=\"p1.1.m1.1.1.4.1.6\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">)</mo>\n          </mrow>\n        </mrow>\n        <mo id=\"p1.1.m1.1.1.4.3\" xref=\"p1.1.m1.1.1.4.3.cmml\">⁢</mo>\n        <mrow id=\"p1.1.m1.1.1.4.2.5\" xref=\"p1.1.m1.1.1.4.2.1.cmml\">\n          <msubsup id=\"p1.1.m1.1.1.4.2.2.1.6\" xref=\"p1.1.m1.1.1.4.2.2.1.1.cmml\">\n            <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.1.4.2.2.1.2\" xref=\"p1.1.m1.1.1.4.2.2.1.1.1.cmml\">∑</mo>\n            <mrow id=\"p1.1.m1.1.1.4.2.2.1.3.1\" xref=\"p1.1.m1.1.1.4.2.2.1.1.cmml\">\n              <mi id=\"p1.1.m1.1.1.4.2.2.1.3.1.1\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.1.cmml\">s</mi>\n              <mo id=\"p1.1.m1.1.1.4.2.2.1.3.1.2\" xref=\"p1.1.m1.1.1.4.2.2.1.1.1.cmml\">=</mo>\n              <mn id=\"p1.1.m1.1.1.4.2.2.1.3.1.3\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.3.cmml\">0</mn>\n            </mrow>\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1.4.2.2.1.4.1\" xref=\"p1.1.m1.1.1.4.2.2.1.4.1.cmml\">∞</mi>\n          </msubsup>\n          <mo id=\"p1.1.m1.1.1.4.2.5a\" xref=\"p1.1.m1.1.1.4.2.1.cmml\">⁡</mo>\n          <mrow id=\"p1.1.m1.1.1.4.2.4\" xref=\"p1.1.m1.1.1.4.2.4.cmml\">\n            <msub id=\"p1.1.m1.1.1.4.2.4.6\" xref=\"p1.1.m1.1.1.4.2.4.6.cmml\">\n              <mi id=\"p1.1.m1.1.1.4.2.4.1\" xref=\"p1.1.m1.1.1.4.2.4.1.cmml\">b</mi>\n              <mi id=\"p1.1.m1.1.1.4.2.4.2.1\" xref=\"p1.1.m1.1.1.4.2.4.2.1.cmml\">s</mi>\n            </msub>\n            <mo id=\"p1.1.m1.1.1.4.2.4.5\" xref=\"p1.1.m1.1.1.4.2.4.5.cmml\">⁢</mo>\n            <msup id=\"p1.1.m1.1.1.4.2.4.7\" xref=\"p1.1.m1.1.1.4.2.4.7.cmml\">\n              <mi id=\"p1.1.m1.1.1.4.2.4.3\" xref=\"p1.1.m1.1.1.4.2.4.3.cmml\">t</mi>\n              <mrow id=\"p1.1.m1.1.1.4.2.4.4.1\" xref=\"p1.1.m1.1.1.4.2.4.4.1.cmml\">\n                <mo id=\"p1.1.m1.1.1.4.2.4.4.1.1\" xref=\"p1.1.m1.1.1.4.2.4.4.1.1.cmml\">-</mo>\n                <msub id=\"p1.1.m1.1.1.4.2.4.4.1.4\" xref=\"p1.1.m1.1.1.4.2.4.4.1.4.cmml\">\n                  <mi id=\"p1.1.m1.1.1.4.2.4.4.1.2\" xref=\"p1.1.m1.1.1.4.2.4.4.1.2.cmml\">β</mi>\n                  <mi id=\"p1.1.m1.1.1.4.2.4.4.1.3.1\" xref=\"p1.1.m1.1.1.4.2.4.4.1.3.1.cmml\">s</mi>\n                </msub>\n              </mrow>\n            </msup>\n          </mrow>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.6\">\n        <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.3.1.1.cmml\" xref=\"p1.1.m1.1.1.3.1.2\">asymptotic-expansion</csymbol>\n        <apply id=\"p1.1.m1.1.1.2.5.cmml\" xref=\"p1.1.m1.1.1.2.6\">\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.2.1.cmml\" xref=\"p1.1.m1.1.1.2.1\">Q1318586</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.2.3.cmml\" xref=\"p1.1.m1.1.1.2.3\">Q12916</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.1.4.cmml\" xref=\"p1.1.m1.1.1.4\">\n          <times id=\"p1.1.m1.1.1.4.3.cmml\" xref=\"p1.1.m1.1.1.4.3\"/>\n          <apply id=\"p1.1.m1.1.1.4.1.1.cmml\" xref=\"p1.1.m1.1.1.4.1.7.2\">\n            <exp id=\"p1.1.m1.1.1.4.1.2.1.1.cmml\" xref=\"p1.1.m1.1.1.4.1.2.1.2\"/>\n            <apply id=\"p1.1.m1.1.1.4.1.5.cmml\" xref=\"p1.1.m1.1.1.4.1.5\">\n              <times id=\"p1.1.m1.1.1.4.1.5.5.cmml\" xref=\"p1.1.m1.1.1.4.1.5.5\"/>\n              <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.4.1.5.1.1.cmml\" xref=\"p1.1.m1.1.1.4.1.5.1.2\">imaginary-unit</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.1.5.2.cmml\" xref=\"p1.1.m1.1.1.4.1.5.2\">Q12916</csymbol>\n              <apply id=\"p1.1.m1.1.1.4.1.5.6.cmml\" xref=\"p1.1.m1.1.1.4.1.5.6\">\n                <power id=\"p1.1.m1.1.1.4.1.5.6.1.cmml\" xref=\"p1.1.m1.1.1.4.1.5.6\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.1.5.3.cmml\" xref=\"p1.1.m1.1.1.4.1.5.3\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.1.5.4.1.cmml\" xref=\"p1.1.m1.1.1.4.1.5.4.1\">Q3176558</csymbol>\n              </apply>\n            </apply>\n          </apply>\n          <apply id=\"p1.1.m1.1.1.4.2.1.cmml\" xref=\"p1.1.m1.1.1.4.2.5\">\n            <apply id=\"p1.1.m1.1.1.4.2.2.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.6\">\n              <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.4.2.2.1.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.2\">semantic-sum</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.2.1.3.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.1\">Q28920052</csymbol>\n              <cn type=\"integer\" id=\"p1.1.m1.1.1.4.2.2.1.3.1.3.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.3\">0</cn>\n              <infinity id=\"p1.1.m1.1.1.4.2.2.1.4.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.4.1\"/>\n            </apply>\n            <apply id=\"p1.1.m1.1.1.4.2.4.cmml\" xref=\"p1.1.m1.1.1.4.2.4\">\n              <times id=\"p1.1.m1.1.1.4.2.4.5.cmml\" xref=\"p1.1.m1.1.1.4.2.4.5\"/>\n              <apply id=\"p1.1.m1.1.1.4.2.4.6.cmml\" xref=\"p1.1.m1.1.1.4.2.4.6\">\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.1\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.2.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.2.1\">Q28920052</csymbol>\n              </apply>\n              <apply id=\"p1.1.m1.1.1.4.2.4.7.cmml\" xref=\"p1.1.m1.1.1.4.2.4.7\">\n                <power id=\"p1.1.m1.1.1.4.2.4.7.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.7\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.3.cmml\" xref=\"p1.1.m1.1.1.4.2.4.3\">Q12916</csymbol>\n                <apply id=\"p1.1.m1.1.1.4.2.4.4.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1\">\n                  <minus id=\"p1.1.m1.1.1.4.2.4.4.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.1\"/>\n                  <apply id=\"p1.1.m1.1.1.4.2.4.4.1.4.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.4\">\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.4.1.2.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.2\">Q11567</csymbol>\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.4.1.3.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.3.1\">Q28920052</csymbol>\n                  </apply>\n                </apply>\n              </apply>\n            </apply>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>",
-  "uri": "http://dlmf.nist.gov/2.5#E18",
-  "type": "equation",
-  "check": {
-    "tree": true,
-    "qid": true
+  "constraints" : [ ],
+  "math_inputtex" : "\\[h(t)\\sim\\exp\\left(i\\kappa t^{p}\\right)\\sum_{s=0}^{\\infty}b_{s}t^{-\\beta_{s}},\\]",
+  "math_inputtex_semantic" : "\\infix{\\w{Q752726}{\\asympexp}}{\\wf{Q1318586}{h}(\\w{Q12916}{t})}{\\exp@{\\iunit \\w{Q12916}{\\kappa} \\w{Q12916}{t}^{\\w{Q3176558}{p}}} \\Sum{\\w{Q28920052}{s}}{0}{\\infty}@{\\w{Q12916}{b}_s t^{-\\w{Q11567}{\\beta}_s}}}",
+  "correct_tex" : "h(t) \\sim \\exp(i\\kappa t^{p}) \\sum_{s=0}^{\\infty}b_{s}t^{-\\beta_{s}}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"\\infix{\\asympexp}{h(t)}{\\exp@{\\iunit\\kappa t^{p}}\\Sum{s}{0}{\\infty}@{b_{s}t^{-%&#10;\\beta_{s}}}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.1.6\" xref=\"p1.1.m1.1.1.1.cmml\">\n      <mrow id=\"p1.1.m1.1.1.2.6\" xref=\"p1.1.m1.1.1.2.5.cmml\">\n        <mi id=\"p1.1.m1.1.1.2.1\" xref=\"p1.1.m1.1.1.2.1.cmml\">h</mi>\n        <mo id=\"p1.1.m1.1.1.2.6a\" xref=\"p1.1.m1.1.1.2.5.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.1.2.6.1\" xref=\"p1.1.m1.1.1.2.5.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.1.2.2\" xref=\"p1.1.m1.1.1.2.5.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.1.2.3\" xref=\"p1.1.m1.1.1.2.3.cmml\">t</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.1.2.4\" xref=\"p1.1.m1.1.1.2.5.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.1.6.1\" xref=\"p1.1.m1.1.1.1.1.cmml\">⁢</mo>\n      <mo id=\"p1.1.m1.1.1.3.1.2\" xref=\"p1.1.m1.1.1.3.1.1.cmml\">∼</mo>\n      <mo id=\"p1.1.m1.1.1.6.1a\" xref=\"p1.1.m1.1.1.1.1.cmml\">⁢</mo>\n      <mrow id=\"p1.1.m1.1.1.4\" xref=\"p1.1.m1.1.1.4.cmml\">\n        <mrow id=\"p1.1.m1.1.1.4.1.7.2\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">\n          <mi id=\"p1.1.m1.1.1.4.1.2.1.2\" xref=\"p1.1.m1.1.1.4.1.2.1.1.cmml\">exp</mi>\n          <mo id=\"p1.1.m1.1.1.4.1.7.2a\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">⁡</mo>\n          <mrow id=\"p1.1.m1.1.1.4.1.7.2.1\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">\n            <mo id=\"p1.1.m1.1.1.4.1.4\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">(</mo>\n            <mrow id=\"p1.1.m1.1.1.4.1.5\" xref=\"p1.1.m1.1.1.4.1.5.cmml\">\n              <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1.4.1.5.1.2\" xref=\"p1.1.m1.1.1.4.1.5.1.1.cmml\">i</mi>\n              <mo id=\"p1.1.m1.1.1.4.1.5.5\" xref=\"p1.1.m1.1.1.4.1.5.5.cmml\">⁢</mo>\n              <mi id=\"p1.1.m1.1.1.4.1.5.2\" xref=\"p1.1.m1.1.1.4.1.5.2.cmml\">κ</mi>\n              <mo id=\"p1.1.m1.1.1.4.1.5.5a\" xref=\"p1.1.m1.1.1.4.1.5.5.cmml\">⁢</mo>\n              <msup id=\"p1.1.m1.1.1.4.1.5.6\" xref=\"p1.1.m1.1.1.4.1.5.6.cmml\">\n                <mi id=\"p1.1.m1.1.1.4.1.5.3\" xref=\"p1.1.m1.1.1.4.1.5.3.cmml\">t</mi>\n                <mi id=\"p1.1.m1.1.1.4.1.5.4.1\" xref=\"p1.1.m1.1.1.4.1.5.4.1.cmml\">p</mi>\n              </msup>\n            </mrow>\n            <mo id=\"p1.1.m1.1.1.4.1.6\" xref=\"p1.1.m1.1.1.4.1.1.cmml\">)</mo>\n          </mrow>\n        </mrow>\n        <mo id=\"p1.1.m1.1.1.4.3\" xref=\"p1.1.m1.1.1.4.3.cmml\">⁢</mo>\n        <mrow id=\"p1.1.m1.1.1.4.2.5\" xref=\"p1.1.m1.1.1.4.2.1.cmml\">\n          <msubsup id=\"p1.1.m1.1.1.4.2.2.1.6\" xref=\"p1.1.m1.1.1.4.2.2.1.1.cmml\">\n            <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.1.4.2.2.1.2\" xref=\"p1.1.m1.1.1.4.2.2.1.1.1.cmml\">∑</mo>\n            <mrow id=\"p1.1.m1.1.1.4.2.2.1.3.1\" xref=\"p1.1.m1.1.1.4.2.2.1.1.cmml\">\n              <mi id=\"p1.1.m1.1.1.4.2.2.1.3.1.1\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.1.cmml\">s</mi>\n              <mo id=\"p1.1.m1.1.1.4.2.2.1.3.1.2\" xref=\"p1.1.m1.1.1.4.2.2.1.1.1.cmml\">=</mo>\n              <mn id=\"p1.1.m1.1.1.4.2.2.1.3.1.3\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.3.cmml\">0</mn>\n            </mrow>\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.1.4.2.2.1.4.1\" xref=\"p1.1.m1.1.1.4.2.2.1.4.1.cmml\">∞</mi>\n          </msubsup>\n          <mo id=\"p1.1.m1.1.1.4.2.5a\" xref=\"p1.1.m1.1.1.4.2.1.cmml\">⁡</mo>\n          <mrow id=\"p1.1.m1.1.1.4.2.4\" xref=\"p1.1.m1.1.1.4.2.4.cmml\">\n            <msub id=\"p1.1.m1.1.1.4.2.4.6\" xref=\"p1.1.m1.1.1.4.2.4.6.cmml\">\n              <mi id=\"p1.1.m1.1.1.4.2.4.1\" xref=\"p1.1.m1.1.1.4.2.4.1.cmml\">b</mi>\n              <mi id=\"p1.1.m1.1.1.4.2.4.2.1\" xref=\"p1.1.m1.1.1.4.2.4.2.1.cmml\">s</mi>\n            </msub>\n            <mo id=\"p1.1.m1.1.1.4.2.4.5\" xref=\"p1.1.m1.1.1.4.2.4.5.cmml\">⁢</mo>\n            <msup id=\"p1.1.m1.1.1.4.2.4.7\" xref=\"p1.1.m1.1.1.4.2.4.7.cmml\">\n              <mi id=\"p1.1.m1.1.1.4.2.4.3\" xref=\"p1.1.m1.1.1.4.2.4.3.cmml\">t</mi>\n              <mrow id=\"p1.1.m1.1.1.4.2.4.4.1\" xref=\"p1.1.m1.1.1.4.2.4.4.1.cmml\">\n                <mo id=\"p1.1.m1.1.1.4.2.4.4.1.1\" xref=\"p1.1.m1.1.1.4.2.4.4.1.1.cmml\">-</mo>\n                <msub id=\"p1.1.m1.1.1.4.2.4.4.1.4\" xref=\"p1.1.m1.1.1.4.2.4.4.1.4.cmml\">\n                  <mi id=\"p1.1.m1.1.1.4.2.4.4.1.2\" xref=\"p1.1.m1.1.1.4.2.4.4.1.2.cmml\">β</mi>\n                  <mi id=\"p1.1.m1.1.1.4.2.4.4.1.3.1\" xref=\"p1.1.m1.1.1.4.2.4.4.1.3.1.cmml\">s</mi>\n                </msub>\n              </mrow>\n            </msup>\n          </mrow>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.6\">\n        <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.3.1.1.cmml\" xref=\"p1.1.m1.1.1.3.1.2\">asymptotic-expansion</csymbol>\n        <apply id=\"p1.1.m1.1.1.2.5.cmml\" xref=\"p1.1.m1.1.1.2.6\">\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.2.1.cmml\" xref=\"p1.1.m1.1.1.2.1\">Q1318586</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.2.3.cmml\" xref=\"p1.1.m1.1.1.2.3\">Q12916</csymbol>\n        </apply>\n        <apply id=\"p1.1.m1.1.1.4.cmml\" xref=\"p1.1.m1.1.1.4\">\n          <times id=\"p1.1.m1.1.1.4.3.cmml\" xref=\"p1.1.m1.1.1.4.3\"/>\n          <apply id=\"p1.1.m1.1.1.4.1.1.cmml\" xref=\"p1.1.m1.1.1.4.1.7.2\">\n            <exp id=\"p1.1.m1.1.1.4.1.2.1.1.cmml\" xref=\"p1.1.m1.1.1.4.1.2.1.2\"/>\n            <apply id=\"p1.1.m1.1.1.4.1.5.cmml\" xref=\"p1.1.m1.1.1.4.1.5\">\n              <times id=\"p1.1.m1.1.1.4.1.5.5.cmml\" xref=\"p1.1.m1.1.1.4.1.5.5\"/>\n              <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.4.1.5.1.1.cmml\" xref=\"p1.1.m1.1.1.4.1.5.1.2\">imaginary-unit</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.1.5.2.cmml\" xref=\"p1.1.m1.1.1.4.1.5.2\">Q12916</csymbol>\n              <apply id=\"p1.1.m1.1.1.4.1.5.6.cmml\" xref=\"p1.1.m1.1.1.4.1.5.6\">\n                <power id=\"p1.1.m1.1.1.4.1.5.6.1.cmml\" xref=\"p1.1.m1.1.1.4.1.5.6\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.1.5.3.cmml\" xref=\"p1.1.m1.1.1.4.1.5.3\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.1.5.4.1.cmml\" xref=\"p1.1.m1.1.1.4.1.5.4.1\">Q3176558</csymbol>\n              </apply>\n            </apply>\n          </apply>\n          <apply id=\"p1.1.m1.1.1.4.2.1.cmml\" xref=\"p1.1.m1.1.1.4.2.5\">\n            <apply id=\"p1.1.m1.1.1.4.2.2.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.6\">\n              <csymbol cd=\"dlmf\" id=\"p1.1.m1.1.1.4.2.2.1.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.2\">semantic-sum</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.2.1.3.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.1\">Q28920052</csymbol>\n              <cn type=\"integer\" id=\"p1.1.m1.1.1.4.2.2.1.3.1.3.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.3.1.3\">0</cn>\n              <infinity id=\"p1.1.m1.1.1.4.2.2.1.4.1.cmml\" xref=\"p1.1.m1.1.1.4.2.2.1.4.1\"/>\n            </apply>\n            <apply id=\"p1.1.m1.1.1.4.2.4.cmml\" xref=\"p1.1.m1.1.1.4.2.4\">\n              <times id=\"p1.1.m1.1.1.4.2.4.5.cmml\" xref=\"p1.1.m1.1.1.4.2.4.5\"/>\n              <apply id=\"p1.1.m1.1.1.4.2.4.6.cmml\" xref=\"p1.1.m1.1.1.4.2.4.6\">\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.1\">Q12916</csymbol>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.2.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.2.1\">Q28920052</csymbol>\n              </apply>\n              <apply id=\"p1.1.m1.1.1.4.2.4.7.cmml\" xref=\"p1.1.m1.1.1.4.2.4.7\">\n                <power id=\"p1.1.m1.1.1.4.2.4.7.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.7\"/>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.3.cmml\" xref=\"p1.1.m1.1.1.4.2.4.3\">Q12916</csymbol>\n                <apply id=\"p1.1.m1.1.1.4.2.4.4.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1\">\n                  <minus id=\"p1.1.m1.1.1.4.2.4.4.1.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.1\"/>\n                  <apply id=\"p1.1.m1.1.1.4.2.4.4.1.4.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.4\">\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.4.1.2.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.2\">Q11567</csymbol>\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.4.2.4.4.1.3.1.cmml\" xref=\"p1.1.m1.1.1.4.2.4.4.1.3.1\">Q28920052</csymbol>\n                  </apply>\n                </apply>\n              </apply>\n            </apply>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>",
+  "uri" : "http://dlmf.nist.gov/2.5#E18",
+  "title" : "DLMF:_2.5_Mellin_Transform_Methods",
+  "type" : "equation",
+  "check" : {
+    "tree" : true,
+    "qid" : true
   },
-  "substitutions": {}
+  "substitutions" : { }
 }

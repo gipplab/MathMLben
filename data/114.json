@@ -1,36 +1,28 @@
 {
-  "definitions": {
-    "z": [
-      {
-        "Q11567": "complex number"
-      }
-    ],
-    "w": [
-      "solution of differential equation",
-      {
-        "Q11348": "function"
-      }
-    ],
-    "f_0": [
-      {
-        "Q50700": "coefficient"
-      }
-    ],
-    "W": [
-      {}
-    ]
+  "definitions" : {
+    "z" : [ {
+      "Q11567" : "complex number"
+    } ],
+    "w" : [ "solution of differential equation", {
+      "Q11348" : "function"
+    } ],
+    "f_0" : [ {
+      "Q50700" : "coefficient"
+    } ],
+    "W" : [ { } ]
   },
-  "constraints": [],
-  "math_inputtex": "w=e^{-f_{0}z/2}W,",
-  "math_inputtex_semantic": "\\wf{Q11348}{w} = \\expe^{-\\w{Q50700}{f}_0 \\ifrac{\\w{Q11567}{z}}{2}} W",
-  "correct_tex": "w=e^{-f_{0}z/2}W",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"w=\\expe^{-f_{0}\\ifrac{z}{2}}W\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">w</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n        <msup id=\"p1.1.m1.1.3.4\" xref=\"p1.1.m1.1.3.1.cmml\">\n          <mi mathvariant=\"normal\" id=\"p1.1.m1.1.3.2.1.2\" xref=\"p1.1.m1.1.3.2.1.1.cmml\">e</mi>\n          <mrow id=\"p1.1.m1.1.3.3.1\" xref=\"p1.1.m1.1.3.3.1.cmml\">\n            <mo id=\"p1.1.m1.1.3.3.1.1.1\" xref=\"p1.1.m1.1.3.3.1.1.1.cmml\">-</mo>\n            <mrow id=\"p1.1.m1.1.3.3.1.1.5\" xref=\"p1.1.m1.1.3.3.1.1.5.cmml\">\n              <msub id=\"p1.1.m1.1.3.3.1.1.5.2\" xref=\"p1.1.m1.1.3.3.1.1.5.2.cmml\">\n                <mi id=\"p1.1.m1.1.3.3.1.1.2\" xref=\"p1.1.m1.1.3.3.1.1.2.cmml\">f</mi>\n                <mn id=\"p1.1.m1.1.3.3.1.1.3.1\" xref=\"p1.1.m1.1.3.3.1.1.3.1.cmml\">0</mn>\n              </msub>\n              <mo id=\"p1.1.m1.1.3.3.1.1.5.1\" xref=\"p1.1.m1.1.3.3.1.1.5.1.cmml\">⁢</mo>\n              <mrow id=\"p1.1.m1.1.3.3.1.1.4\" xref=\"p1.1.m1.1.3.3.1.1.4.cmml\">\n                <mi id=\"p1.1.m1.1.3.3.1.1.4.2\" xref=\"p1.1.m1.1.3.3.1.1.4.2.cmml\">z</mi>\n                <mo id=\"p1.1.m1.1.3.3.1.1.4.1\" xref=\"p1.1.m1.1.3.3.1.1.4.1.cmml\">/</mo>\n                <mn id=\"p1.1.m1.1.3.3.1.1.4.3\" xref=\"p1.1.m1.1.3.3.1.1.4.3.cmml\">2</mn>\n              </mrow>\n            </mrow>\n          </mrow>\n        </msup>\n        <mo id=\"p1.1.m1.1.5.1.1\" xref=\"p1.1.m1.1.5.1.1.cmml\">⁢</mo>\n        <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">W</mi>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q11348</csymbol>\n        <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">\n          <times id=\"p1.1.m1.1.5.1.1.cmml\" xref=\"p1.1.m1.1.5.1.1\"/>\n          <apply id=\"p1.1.m1.1.3.1.cmml\" xref=\"p1.1.m1.1.3.4\">\n            <power id=\"p1.1.m1.1.3.1.1.cmml\" xref=\"p1.1.m1.1.3.4\"/>\n            <exponentiale id=\"p1.1.m1.1.3.2.1.1.cmml\" xref=\"p1.1.m1.1.3.2.1.2\"/>\n            <apply id=\"p1.1.m1.1.3.3.1.cmml\" xref=\"p1.1.m1.1.3.3.1\">\n              <minus id=\"p1.1.m1.1.3.3.1.1.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.1\"/>\n              <apply id=\"p1.1.m1.1.3.3.1.1.5.cmml\" xref=\"p1.1.m1.1.3.3.1.1.5\">\n                <times id=\"p1.1.m1.1.3.3.1.1.5.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.5.1\"/>\n                <apply id=\"p1.1.m1.1.3.3.1.1.5.2.cmml\" xref=\"p1.1.m1.1.3.3.1.1.5.2\">\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.3.1.1.2.cmml\" xref=\"p1.1.m1.1.3.3.1.1.2\">Q50700</csymbol>\n                  <cn type=\"integer\" id=\"p1.1.m1.1.3.3.1.1.3.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.3.1\">0</cn>\n                </apply>\n                <apply id=\"p1.1.m1.1.3.3.1.1.4.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4\">\n                  <divide id=\"p1.1.m1.1.3.3.1.1.4.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4.1\"/>\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.3.1.1.4.2.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4.2\">Q11567</csymbol>\n                  <cn type=\"integer\" id=\"p1.1.m1.1.3.3.1.1.4.3.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4.3\">2</cn>\n                </apply>\n              </apply>\n            </apply>\n          </apply>\n          <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">𝑊</ci>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>",
-  "uri": "http://dlmf.nist.gov/2.7#E19",
-  "title": "Fabry's transformation",
-  "type": "equation",
-  "substitutions": {},
-  "check": {
-    "qid": false,
-    "tree": true
-  }
+  "constraints" : [ ],
+  "math_inputtex" : "w=e^{-f_{0}z/2}W,",
+  "math_inputtex_semantic" : "\\wf{Q11348}{w} = \\expe^{-\\w{Q50700}{f}_0 \\ifrac{\\w{Q11567}{z}}{2}} W",
+  "correct_tex" : "w=e^{-f_{0}z/2}W",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"w=\\expe^{-f_{0}\\ifrac{z}{2}}W\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">w</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">\n        <msup id=\"p1.1.m1.1.3.4\" xref=\"p1.1.m1.1.3.1.cmml\">\n          <mi mathvariant=\"normal\" id=\"p1.1.m1.1.3.2.1.2\" xref=\"p1.1.m1.1.3.2.1.1.cmml\">e</mi>\n          <mrow id=\"p1.1.m1.1.3.3.1\" xref=\"p1.1.m1.1.3.3.1.cmml\">\n            <mo id=\"p1.1.m1.1.3.3.1.1.1\" xref=\"p1.1.m1.1.3.3.1.1.1.cmml\">-</mo>\n            <mrow id=\"p1.1.m1.1.3.3.1.1.5\" xref=\"p1.1.m1.1.3.3.1.1.5.cmml\">\n              <msub id=\"p1.1.m1.1.3.3.1.1.5.2\" xref=\"p1.1.m1.1.3.3.1.1.5.2.cmml\">\n                <mi id=\"p1.1.m1.1.3.3.1.1.2\" xref=\"p1.1.m1.1.3.3.1.1.2.cmml\">f</mi>\n                <mn id=\"p1.1.m1.1.3.3.1.1.3.1\" xref=\"p1.1.m1.1.3.3.1.1.3.1.cmml\">0</mn>\n              </msub>\n              <mo id=\"p1.1.m1.1.3.3.1.1.5.1\" xref=\"p1.1.m1.1.3.3.1.1.5.1.cmml\">⁢</mo>\n              <mrow id=\"p1.1.m1.1.3.3.1.1.4\" xref=\"p1.1.m1.1.3.3.1.1.4.cmml\">\n                <mi id=\"p1.1.m1.1.3.3.1.1.4.2\" xref=\"p1.1.m1.1.3.3.1.1.4.2.cmml\">z</mi>\n                <mo id=\"p1.1.m1.1.3.3.1.1.4.1\" xref=\"p1.1.m1.1.3.3.1.1.4.1.cmml\">/</mo>\n                <mn id=\"p1.1.m1.1.3.3.1.1.4.3\" xref=\"p1.1.m1.1.3.3.1.1.4.3.cmml\">2</mn>\n              </mrow>\n            </mrow>\n          </mrow>\n        </msup>\n        <mo id=\"p1.1.m1.1.5.1.1\" xref=\"p1.1.m1.1.5.1.1.cmml\">⁢</mo>\n        <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">W</mi>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q11348</csymbol>\n        <apply id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">\n          <times id=\"p1.1.m1.1.5.1.1.cmml\" xref=\"p1.1.m1.1.5.1.1\"/>\n          <apply id=\"p1.1.m1.1.3.1.cmml\" xref=\"p1.1.m1.1.3.4\">\n            <power id=\"p1.1.m1.1.3.1.1.cmml\" xref=\"p1.1.m1.1.3.4\"/>\n            <exponentiale id=\"p1.1.m1.1.3.2.1.1.cmml\" xref=\"p1.1.m1.1.3.2.1.2\"/>\n            <apply id=\"p1.1.m1.1.3.3.1.cmml\" xref=\"p1.1.m1.1.3.3.1\">\n              <minus id=\"p1.1.m1.1.3.3.1.1.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.1\"/>\n              <apply id=\"p1.1.m1.1.3.3.1.1.5.cmml\" xref=\"p1.1.m1.1.3.3.1.1.5\">\n                <times id=\"p1.1.m1.1.3.3.1.1.5.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.5.1\"/>\n                <apply id=\"p1.1.m1.1.3.3.1.1.5.2.cmml\" xref=\"p1.1.m1.1.3.3.1.1.5.2\">\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.3.1.1.2.cmml\" xref=\"p1.1.m1.1.3.3.1.1.2\">Q50700</csymbol>\n                  <cn type=\"integer\" id=\"p1.1.m1.1.3.3.1.1.3.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.3.1\">0</cn>\n                </apply>\n                <apply id=\"p1.1.m1.1.3.3.1.1.4.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4\">\n                  <divide id=\"p1.1.m1.1.3.3.1.1.4.1.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4.1\"/>\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.3.3.1.1.4.2.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4.2\">Q11567</csymbol>\n                  <cn type=\"integer\" id=\"p1.1.m1.1.3.3.1.1.4.3.cmml\" xref=\"p1.1.m1.1.3.3.1.1.4.3\">2</cn>\n                </apply>\n              </apply>\n            </apply>\n          </apply>\n          <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">\uD835\uDC4A</ci>\n        </apply>\n      </apply>\n    </annotation-xml>\n  </semantics>\n</math>",
+  "uri" : "http://dlmf.nist.gov/2.7#E19",
+  "title" : "DLMF:_2.7_Differential_Equations",
+  "type" : "equation",
+  "check" : {
+    "tree" : true,
+    "qid" : false
+  },
+  "substitutions" : { },
+  "specific_title" : "Fabry's transformation"
 }
