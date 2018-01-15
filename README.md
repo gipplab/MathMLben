@@ -18,6 +18,12 @@ mkdir "${HOME}/.npm-packages"
 echo "prefix=${HOME}/.npm-packages" > ~/.npmrc
 vi .bashrc
 ```
+* Allow gouldi to restart apache
+
+use  `visudo` to add the following config
+```bash
+username ALL = NOPASSWD: /etc/init.d/apache2 
+```
 * type Gi to reach the end of the file and switch vi to insert mode and paste the following block
 ```bash
 NPM_PACKAGES="${HOME}/.npm-packages"
