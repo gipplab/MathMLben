@@ -1,0 +1,8 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{wikidata}[2017/12/19 Wikidata initial stuff]
+\newcommand{\wDef}[2]{\lxDeclare[role=ID,meaning=#1]{\ensuremath{#2}}}
+\newcommand{\wfDef}[2]{\lxDeclare[role=FUNCTION,meaning=#1]{\ensuremath{#2}}}
+\newcommand{\w}[2]{\lxDeclare[role=ID,meaning=#1]{\ensuremath{#2}}#2}
+\newcommand{\wf}[2]{\lxDeclare[role=FUNCTION,meaning=#1]{\ensuremath{#2}}#2}
+\defSpecFun{upindex}[2]{#1^{#2}}[meaning=apply-upper-index]{0}
+\defSpecFun{infix}[3]{#2{#1}#3}[meaning=apply-infix-operator]{0}
