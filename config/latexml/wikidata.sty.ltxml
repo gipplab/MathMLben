@@ -16,18 +16,4 @@ DefMath('\mean{}', '\left\langle#1\right\rangle', omcd => 'wikidata', meaning =>
 DefMath('\DBcommutator{}{}', '\{#1,#2\}', omcd => 'wikidata', meaning => 'Q2989763');
 # {}_{\text{DB}}
 
-# for Gold ID 208 226
-# tensor with upper and lower indexes
-DefMath('\tensor{}{}{}', '{#1}^{#2}_{#3}', omcd => 'wikidata', meaning => 'Q188524');
-
-# for Gold ID 224 and 277
-# adjunct matrix
-DefMath('\conjM{}', '{#1}^{\dagger}', omcd => 'wikidata', meaning => 'Q2051983');
-
-# for Gold ID 225
-# contraction to dimension
-DefMath('contract{}{}', '{#1}^{(#2)}', omcd => 'wikidata', meaning => 'Q5165685');
-
-
-
 1;
