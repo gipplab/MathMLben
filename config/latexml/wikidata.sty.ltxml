@@ -11,11 +11,10 @@ DefMath('\SetFamily', '\Sigma', role => 'ID', omcd => 'wikidata', meaning => 'Q7
 DefMath('\measurableSpace{}{}', '(#1,#2)', omcd => 'wikidata', meaning => 'Q3058218');
 DefMath('\mean{}', '\left\langle#1\right\rangle', omcd => 'wikidata', meaning => 'Q19033');
 
-# for Gold ID 91, Dirac Bracket commutator, }_{\text{DB}} to be implemented
+# for Gold ID 91 - Dirac Bracket commutator - {}_{\text{DB}} to be implemented
 DefMath('\commutator{}{}', '\{#1,#2\}', omcd => 'wikidata', meaning => 'Q2989763');
 
-# for Gold ID 208 226
-# tensor with upper and lower indexes
+# for Gold ID 208, 226 - tensor with upper and lower indexes
 DefMath('\tensor{}{}{}', '{#1}^{#2}_{#3}', omcd => 'wikidata', meaning => 'Q188524');
 
 1;
