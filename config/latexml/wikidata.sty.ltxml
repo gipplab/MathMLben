@@ -13,7 +13,8 @@ DefMath('\mean{}', '\left\langle#1\right\rangle', omcd => 'wikidata', meaning =>
 
 # for Gold ID 91
 # Dirac Bracket commutator
-DefMath('\DBcommutator{}{}', '{\{#1,#2\}}_{\text{DB}}', omcd => 'wikidata', meaning => 'Q2989763');
+DefMath('\DBcommutator{}{}', '\{#1,#2\}', omcd => 'wikidata', meaning => 'Q2989763');
+# {}_{\text{DB}}
 
 # for Gold ID 208 226
 # tensor with upper and lower indexes
