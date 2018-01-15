@@ -12,6 +12,6 @@ DefMath('\measurableSpace{}{}', '(#1,#2)', omcd => 'wikidata', meaning => 'Q3058
 DefMath('\mean{}', '\left\langle#1\right\rangle', omcd => 'wikidata', meaning => 'Q19033');
 
 # for Gold ID 91
-DefMath('\commutator{}{}', '\{#1,#2\}', omcd => 'wikidata', meaning => 'Q2989763');
+DefMath('\commutator{}{}{}', '\{#1,#2\}_{\text{#3}}', omcd => 'wikidata', meaning => 'Q2989763');
 
 1;
