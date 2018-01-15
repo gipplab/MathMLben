@@ -17,20 +17,26 @@ if (!fs.existsSync(zillaDir)) {
 fs.readdirAsync(goldDir).map(function (name) {
   var path = goldDir + '/' + name;
   if (fs.statSync(path).isFile()) {
+    var num = name.split('.')[0];
+    if ( num > 200 ){
+        console.log('Skip high numbers... ' + num);
+        return;
+    }
+
     return fs.readFileAsync(path, 'utf8')
       .then(function (content) {
         return parseAsync(content);
       })
       .then(function (json) {
-        var num = name.split('.')[0];
+        //var num = name.split('.')[0];
         console.log();
-        console.log('Parse ' + num + ':');
+        console.log('Parse ' + num + ': ' + json.title);
         json.formula={
-          qId:name.replace(/\.json/,'')|0,
-          math_inputtex:json.math_inputtex,
-          fid:json.fid|0,
-          title:json.title|'title',
-          oldId:json.oldId|0
+          qID : ''+name.replace(/\.json/,'') || '0',
+          math_inputtex : json.math_inputtex,
+          fid : ''+json.fid || '0',
+          title : json.title || 'unknown title',
+          oldId : ''+json.oldId || '0'
         };
         return json;
       });
