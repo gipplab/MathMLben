@@ -9,4 +9,5 @@ InputDefinitions('wikidata',type=>'sty',noltxml=>1,notex=>0);
 DefMath('\XSet',      'X',      role => 'ID', omcd => 'wikidata', meaning => 'Q36161');
 DefMath('\SetFamily', '\Sigma', role => 'ID', omcd => 'wikidata', meaning => 'Q739925');
 DefMath('\measurableSpace{}{}', '(#1,#2)', omcd => 'wikidata', meaning => 'Q3058218');
+DefMath('\mean{}', '\left\langle#1\right\rangle', omcd => 'wikidata', meaning => 'Q19033');
 1;
