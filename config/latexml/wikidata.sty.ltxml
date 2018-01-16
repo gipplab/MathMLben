@@ -27,6 +27,9 @@ DefMath('\contract{}{}', '{#1}^{(#2)}', omcd => 'wikidata', meaning => 'Q5165685
 DefMath('\degree{}', '{#1}^\circ', omcd => 'wikidata', meaning => 'Q28390');
 
 # for Gold ID 20 - transformation
-DefMath('\trafo{}', '{#1}^{'}', omcd => 'wikidata', meaning => 'Q12202238');
+DefMath('\trafo{}', '{#1}^{*}', omcd => 'wikidata', meaning => 'Q12202238');
+
+# for Gold ID 5 - allquantor with scope
+DefMath('\forallscope{}', '\forall #1', omcd => 'wikidata', meaning => 'Q14737094');
 
 1;
