@@ -1,37 +1,54 @@
 {
-  "definitions" : {
-    "k" : [ "number of annual payments", {
-      "Q28920044" : "positive integer",
-      "Q2303886" : "index number"
-    } ],
-    "p" : [ "payment", {
-      "Q3176558" : "positive real number"
-    } ],
-    "q" : [ "payment increase per period", {
-      "Q12916" : "real number"
-    } ],
-    "({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}" : [ "accumulated value of an annuity-due with payments varying in arithmetic progression", {
-      "Q18729403" : "non-negative real number"
-    } ],
-    "C_{k}" : [ "final value of an annuity-due with payments varying in arithmetic progression", {
-      "Q18729403" : "non-negative real number"
-    } ],
-    "E" : [ {
-      "Q200125" : "expected value",
-      "Q11348" : "function"
-    } ]
+  "definitions": {
+    "k": [
+      "number of annual payments",
+      {
+        "Q28920044": "positive integer",
+        "Q2303886": "index number"
+      }
+    ],
+    "p": [
+      "payment",
+      {
+        "Q3176558": "positive real number"
+      }
+    ],
+    "q": [
+      "payment increase per period",
+      {
+        "Q12916": "real number"
+      }
+    ],
+    "({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}": [
+      "accumulated value of an annuity-due with payments varying in arithmetic progression",
+      {
+        "Q18729403": "non-negative real number"
+      }
+    ],
+    "C_{k}": [
+      "final value of an annuity-due with payments varying in arithmetic progression",
+      {
+        "Q18729403": "non-negative real number"
+      }
+    ],
+    "E": [
+      {
+        "Q200125": "expected value",
+        "Q11348": "function"
+      }
+    ]
   },
-  "constraints" : [ ],
-  "math_inputtex" : "{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}.",
-  "math_inputtex_semantic" : "{\\mu}_{\\w{Q1738991}{k}} = \\wf{Q200125}{E}(\\w{Q18729403}{C}_{k})=({\\ddot{\\w{Q215579}{s}}}_{a})_{\\overline{k}|\\w{Q28920044}{j}}^{(\\w{Q3176558}{p},\\w{Q12916}{q})}",
-  "correct_tex" : "{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}",
-  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.16\" xref=\"p1.1.m1.1.16.cmml\">\n      <msub id=\"p1.1.m1.1.16.2\" xref=\"p1.1.m1.1.16.2.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">μ</mi>\n        <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">k</mi>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.16.3.2\" xref=\"p1.1.m1.1.16.3.1.cmml\">\n        <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">E</mi>\n        <mo id=\"p1.1.m1.1.16.3.2a\" xref=\"p1.1.m1.1.16.3.1.cmml\">⁡</mo>\n        <mrow id=\"p1.1.m1.1.16.3.2.2\" xref=\"p1.1.m1.1.16.3.1.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.16.3.1.cmml\">(</mo>\n          <msub id=\"p1.1.m1.1.16.3.2.1\" xref=\"p1.1.m1.1.16.3.2.1.cmml\">\n            <mi id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">C</mi>\n            <mi id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">k</mi>\n          </msub>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.16.3.1.cmml\">)</mo>\n        </mrow>\n      </mrow>\n      <mo id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">=</mo>\n      <msubsup id=\"p1.1.m1.1.16.4\" xref=\"p1.1.m1.1.16.4.cmml\">\n        <mrow id=\"p1.1.m1.1.16.4.2.2\" xref=\"p1.1.m1.1.16.4.2.2.2.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.16.4.2.2.2.cmml\">(</mo>\n          <msub id=\"p1.1.m1.1.16.4.2.2.2\" xref=\"p1.1.m1.1.16.4.2.2.2.cmml\">\n            <mover accent=\"true\" id=\"p1.1.m1.1.11\" xref=\"p1.1.m1.1.11.cmml\">\n              <mi id=\"p1.1.m1.1.11.2\" xref=\"p1.1.m1.1.11.2.cmml\">s</mi>\n              <mo id=\"p1.1.m1.1.11.1\" xref=\"p1.1.m1.1.11.1.cmml\">¨</mo>\n            </mover>\n            <mi id=\"p1.1.m1.1.12.1\" xref=\"p1.1.m1.1.12.1.cmml\">a</mi>\n          </msub>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.13\" xref=\"p1.1.m1.1.16.4.2.2.2.cmml\">)</mo>\n        </mrow>\n        <mrow id=\"p1.1.m1.1.14.1\" xref=\"p1.1.m1.1.14.1.cmml\">\n          <mover accent=\"true\" id=\"p1.1.m1.1.14.1.1\" xref=\"p1.1.m1.1.14.1.1.cmml\">\n            <mi id=\"p1.1.m1.1.14.1.1.2\" xref=\"p1.1.m1.1.14.1.1.2.cmml\">k</mi>\n            <mo id=\"p1.1.m1.1.14.1.1.1\" xref=\"p1.1.m1.1.14.1.1.1.cmml\">¯</mo>\n          </mover>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.14.1.2\" xref=\"p1.1.m1.1.14.1.2.cmml\">|</mo>\n          <mi id=\"p1.1.m1.1.14.1.3\" xref=\"p1.1.m1.1.14.1.3.cmml\">j</mi>\n        </mrow>\n        <mrow id=\"p1.1.m1.1.15.1\" xref=\"p1.1.m1.1.15.1.6.cmml\">\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.15.1.1\" xref=\"p1.1.m1.1.15.1.6.cmml\">(</mo>\n          <mi id=\"p1.1.m1.1.15.1.2\" xref=\"p1.1.m1.1.15.1.2.cmml\">p</mi>\n          <mo id=\"p1.1.m1.1.15.1.3\" xref=\"p1.1.m1.1.15.1.6.cmml\">,</mo>\n          <mi id=\"p1.1.m1.1.15.1.4\" xref=\"p1.1.m1.1.15.1.4.cmml\">q</mi>\n          <mo stretchy=\"false\" id=\"p1.1.m1.1.15.1.5\" xref=\"p1.1.m1.1.15.1.6.cmml\">)</mo>\n        </mrow>\n      </msubsup>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.16.cmml\" xref=\"p1.1.m1.1.16\">\n        <and id=\"p1.1.m1.1.16a.cmml\" xref=\"p1.1.m1.1.16\"/>\n        <apply id=\"p1.1.m1.1.16b.cmml\" xref=\"p1.1.m1.1.16\">\n          <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n          <apply id=\"p1.1.m1.1.16.2.cmml\" xref=\"p1.1.m1.1.16.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.16.2.1.cmml\" xref=\"p1.1.m1.1.16.2\">subscript</csymbol>\n            <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝜇</ci>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">Q1738991</csymbol>\n          </apply>\n          <apply id=\"p1.1.m1.1.16.3.1.cmml\" xref=\"p1.1.m1.1.16.3.2\">\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q200125</csymbol>\n            <apply id=\"p1.1.m1.1.16.3.2.1.cmml\" xref=\"p1.1.m1.1.16.3.2.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.16.3.2.1.1.cmml\" xref=\"p1.1.m1.1.16.3.2.1\">subscript</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">Q18729403</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\">Q1738991</csymbol>\n            </apply>\n          </apply>\n        </apply>\n        <apply id=\"p1.1.m1.1.16c.cmml\" xref=\"p1.1.m1.1.16\">\n          <eq id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\"/>\n          <share href=\"#p1.1.m1.1.16.3.cmml\" id=\"p1.1.m1.1.16d.cmml\" xref=\"p1.1.m1.1.16\"/>\n          <apply id=\"p1.1.m1.1.16.4.cmml\" xref=\"p1.1.m1.1.16.4\">\n            <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.16.4\"/>\n            <apply id=\"p1.1.m1.1.16.4.2.cmml\" xref=\"p1.1.m1.1.16.4\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.16.4.2.1.cmml\" xref=\"p1.1.m1.1.16.4\">subscript</csymbol>\n              <apply id=\"p1.1.m1.1.16.4.2.2.2.cmml\" xref=\"p1.1.m1.1.16.4.2.2\">\n                <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.16.4.2.2.2.1.cmml\" xref=\"p1.1.m1.1.16.4.2.2\">subscript</csymbol>\n                <apply id=\"p1.1.m1.1.11.cmml\" xref=\"p1.1.m1.1.11\">\n                  <ci id=\"p1.1.m1.1.11.1.cmml\" xref=\"p1.1.m1.1.11.1\">¨</ci>\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.11.2.cmml\" xref=\"p1.1.m1.1.11.2\">Q215579</csymbol>\n                </apply>\n                <ci id=\"p1.1.m1.1.12.1.cmml\" xref=\"p1.1.m1.1.12.1\">𝑎</ci>\n              </apply>\n              <cerror id=\"p1.1.m1.1.14.1.cmml\" xref=\"p1.1.m1.1.14.1\">\n                <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.14.1a.cmml\" xref=\"p1.1.m1.1.14.1\">fragments</csymbol>\n                <apply id=\"p1.1.m1.1.14.1.1.cmml\" xref=\"p1.1.m1.1.14.1.1\">\n                  <ci id=\"p1.1.m1.1.14.1.1.1.cmml\" xref=\"p1.1.m1.1.14.1.1.1\">¯</ci>\n                  <csymbol cd=\"latexml\" id=\"p1.1.m1.1.14.1.1.2.cmml\" xref=\"p1.1.m1.1.14.1.1.2\">Q1738991</csymbol>\n                </apply>\n                <ci id=\"p1.1.m1.1.14.1.2.cmml\" xref=\"p1.1.m1.1.14.1.2\">|</ci>\n                <csymbol cd=\"latexml\" id=\"p1.1.m1.1.14.1.3.cmml\" xref=\"p1.1.m1.1.14.1.3\">Q28920044</csymbol>\n              </cerror>\n            </apply>\n            <interval closure=\"open\" id=\"p1.1.m1.1.15.1.6.cmml\" xref=\"p1.1.m1.1.15.1\">\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.15.1.2.cmml\" xref=\"p1.1.m1.1.15.1.2\">Q3176558</csymbol>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.15.1.4.cmml\" xref=\"p1.1.m1.1.15.1.4\">Q12916</csymbol>\n            </interval>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}</annotation>\n  </semantics>\n</math>",
-  "uri" : "https://arxiv.org/abs/math/0112298",
-  "title" : "Arithmetic Progression Context 2",
-  "comment" : "disregarded first random formula here because it was simply i_k. {\\mu}_{k} is a variable?",
-  "type" : "equation",
-  "ntcir12-type" : "3",
-  "formula" : "1_36.8",
-  "page" : "6",
-  "ntcir12-relevance" : "4"
+  "constraints": [],
+  "math_inputtex": "{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}.",
+  "math_inputtex_semantic": "{\\mu}_{\\w{Q1738991}{k}} = \\wf{Q200125}{E}(\\w{Q18729403}{C}_{k})",
+  "correct_tex": "{\\mu}_{k}=E(C_{k})=({\\ddot{s}}_{a})_{\\overline{k}|j}^{(p,q)}",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      alttext=\"{\\mu}_{k}=E(C_{k})\"\n      class=\"ltx_Math\"\n      display=\"inline\"\n      id=\"p1.1.m1.1\">\n  <semantics id=\"p1.1.m1.1a\">\n      <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n         <msub id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">\n            <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">μ</mi>\n            <mi id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">k</mi>\n         </msub>\n         <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n         <mrow id=\"p1.1.m1.1.9.2.2\" xref=\"p1.1.m1.1.9.2.1.cmml\">\n            <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">E</mi>\n            <mo id=\"p1.1.m1.1.9.2.2a\" xref=\"p1.1.m1.1.9.2.1.cmml\">⁡</mo>\n            <mrow id=\"p1.1.m1.1.9.2.2.2\" xref=\"p1.1.m1.1.9.2.1.cmml\">\n               <mo id=\"p1.1.m1.1.5\" stretchy=\"false\" xref=\"p1.1.m1.1.9.2.1.cmml\">(</mo>\n               <msub id=\"p1.1.m1.1.9.2.2.1\" xref=\"p1.1.m1.1.9.2.2.1.cmml\">\n                  <mi id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">C</mi>\n                  <mi id=\"p1.1.m1.1.7.1\" xref=\"p1.1.m1.1.7.1.cmml\">k</mi>\n               </msub>\n               <mo id=\"p1.1.m1.1.8\" stretchy=\"false\" xref=\"p1.1.m1.1.9.2.1.cmml\">)</mo>\n            </mrow>\n         </mrow>\n      </mrow>\n      <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n         <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n            <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n            <apply id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">\n               <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝜇</ci>\n               <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">𝑘</ci>\n            </apply>\n            <apply id=\"p1.1.m1.1.9.2.1.cmml\" xref=\"p1.1.m1.1.9.2.2\">\n               <csymbol cd=\"wikidata\" id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">Q200125</csymbol>\n               <apply id=\"p1.1.m1.1.9.2.2.1.cmml\" xref=\"p1.1.m1.1.9.2.2.1\">\n                  <ci id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\">𝐶</ci>\n                  <ci id=\"p1.1.m1.1.7.1.cmml\" xref=\"p1.1.m1.1.7.1\">𝑘</ci>\n               </apply>\n            </apply>\n         </apply>\n      </annotation-xml>\n      <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">{\\mu}_{k}=E(C_{k})</annotation>\n  </semantics>\n</math>\n",
+  "uri": "https://arxiv.org/abs/math/0112298",
+  "title": "Arithmetic Progression Context 2",
+  "comment": "disregarded first random formula here because it was simply i_k. {\\mu}_{k} is a variable?",
+  "type": "equation",
+  "ntcir12-type": "3",
+  "formula": "1_36.8",
+  "page": "6",
+  "ntcir12-relevance": "4"
 }
