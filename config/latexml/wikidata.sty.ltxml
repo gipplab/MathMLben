@@ -21,6 +21,6 @@ DefMath('\tensor{}{}{}', '{#1}^{#2}_{#3}', omcd => 'wikidata', meaning => 'Q1885
 DefMath('\conjM{}', '{#1}^{\dagger}', omcd => 'wikidata', meaning => 'Q2051983');
 
 # for Gold ID 225 - contraction to dimension
-DefMath('contract{}{}', '{#1}^{(#2)}', omcd => 'wikidata', meaning => 'Q5165685');
+DefMath('\contract{}{}', '{#1}^{(#2)}', omcd => 'wikidata', meaning => 'Q5165685');
 
 1;
