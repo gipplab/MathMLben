@@ -23,4 +23,7 @@ DefMath('\conjM{}', '{#1}^{\dagger}', omcd => 'wikidata', meaning => 'Q2051983')
 # for Gold ID 225 - contraction to dimension
 DefMath('\contract{}{}', '{#1}^{(#2)}', omcd => 'wikidata', meaning => 'Q5165685');
 
+# for Gold ID 30 - degree unit
+DefMath('\degree{}', '{#1}^\circ', omcd => 'wikidata', meaning => 'Q28390');
+
 1;
