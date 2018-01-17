@@ -8,9 +8,6 @@ var pd = require('pretty-data').pd;
 var zillaDir = '../data/mathoid';
 
 
-const benchmark = require('benchmark');
-const suite = new benchmark.Suite();
-
 var failCounter = 0;
 //console.time("mathoidCreator");
 var mathoidCreator = function(){
