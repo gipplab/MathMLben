@@ -10,10 +10,7 @@
       </msub>
       <msub>
          <mo>}</mo>
-         <mrow>
-            <mi>D</mi>
-            <mi>B</mi>
-         </mrow>
+         <mtext>DB</mtext>
       </msub>
       <mo>=</mo>
       <mo form="prefix">{</mo>
@@ -25,10 +22,7 @@
       </msub>
       <msub>
          <mo>}</mo>
-         <mrow>
-            <mi>D</mi>
-            <mi>B</mi>
-         </mrow>
+         <mtext>DB</mtext>
       </msub>
       <mo>=</mo>
       <mfrac linethickness="1">

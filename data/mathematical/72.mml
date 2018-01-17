@@ -33,6 +33,6 @@
          <mo stretchy="false">)</mo>
          <mo stretchy="false">)</mo>
       </mrow>
-      <annotation encoding="application/x-tex">K^M_*(k) := T^*(k^\times)/(a\otimes (1-a))</annotation>
+      <annotation encoding="application/x-tex"> K^M_*(k) := T^*(k^\times)/(a\otimes (1-a)) </annotation>
    </semantics>
 </math>

@@ -32,7 +32,6 @@
          <mi>ν</mi>
       </msub>
       <mo>-</mo>
-      <mtext>sign</mtext>
       <mrow>
          <mo form="prefix">〈</mo>
          <msub>
@@ -44,7 +43,6 @@
             </mrow>
             <mi>ν</mi>
          </msub>
-         <mo>,</mo>
          <msub>
             <mi>θ</mi>
             <mi>ν</mi>

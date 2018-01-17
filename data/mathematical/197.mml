@@ -9,24 +9,24 @@
          <mi>τ</mi>
          <mo stretchy="false">)</mo>
          <mo>=</mo>
-         <mo lspace="0em" rspace="thinmathspace">ifrac</mo>
-         <mn>1</mn>
-         <mrow>
-            <msub>
-               <mi>θ</mi> 
-               <mn>4</mn>
-            </msub>
+         <mfrac>
+            <mn>1</mn>
             <mrow>
-               <mo>(</mo>
-               <mn>0</mn>
-               <mo lspace="0em" rspace="thinmathspace">middle</mo>
-               <mo stretchy="false">|</mo>
-               <mn>2</mn>
-               <mi>τ</mi>
-               <mo>)</mo>
+               <msub>
+                  <mi>θ</mi> 
+                  <mn>4</mn>
+               </msub>
+               <mrow>
+                  <mo>(</mo>
+                  <mn>0</mn>
+                  <mo stretchy="false">|</mo>
+                  <mn>2</mn>
+                  <mi>τ</mi>
+                  <mo>)</mo>
+               </mrow>
             </mrow>
-         </mrow>
+         </mfrac>
       </mrow>
-      <annotation encoding="application/x-tex">A\equiv A(\tau)=\ifrac{1}{\theta_{4}\left(0\middle|2\tau\right)}</annotation>
+      <annotation encoding="application/x-tex">A \equiv A(\tau) = \frac{1}{\theta_{4} \left(0 | 2\tau \right) }</annotation>
    </semantics>
 </math>

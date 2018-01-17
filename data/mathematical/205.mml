@@ -40,9 +40,7 @@
          <mo>−</mo>
          <mn>1</mn>
          <mo stretchy="false">)</mo>
-         <mspace width="2em"/>
-         <mspace width="0.0pt"/>
       </mrow>
-      <annotation encoding="application/x-tex">x,\;1/x,\;1-x,\;1/(1-x),\;(x-1)/x,\;x/(x-1)\qquad\hskip{0.0pt}</annotation>
+      <annotation encoding="application/x-tex">x,\;1/x,\;1-x,\;1/(1-x),\;(x-1)/x,\;x/(x-1)</annotation>
    </semantics>
 </math>

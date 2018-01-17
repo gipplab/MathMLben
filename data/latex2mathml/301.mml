@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mo>∇</mo>
+      <mi>×</mi>
+      <mi>mathbf</mi>
+      <mrow>
+         <mi>E</mi>
+      </mrow>
+      <mo>=</mo>
+      <mo>−</mo>
+      <mfrac>
+         <mrow>
+            <mo>∂</mo>
+            <mi>mathbf</mi>
+            <mrow>
+               <mi>B</mi>
+            </mrow>
+         </mrow>
+         <mrow>
+            <mo>∂</mo>
+            <mi>t</mi>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

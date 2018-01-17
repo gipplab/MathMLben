@@ -93,7 +93,7 @@
       </mrow>
    </mfrac>
    <mo>+</mo>
-   <mi>O</mi>
+   <mi mathvariant="script">O</mi>
    <mfenced close=")" open="(">
       <mfrac>
          <mn>1</mn>

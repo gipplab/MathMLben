@@ -2,6 +2,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
    <semantics xmlns="">
       <mrow>
+         <mtext> </mtext>
          <mo stretchy="false">[</mo>
          <mi>A</mi>
          <msub>
@@ -20,6 +21,6 @@
             <mn>0</mn>
          </msub>
       </mrow>
-      <annotation encoding="application/x-tex">[A]_t = -kt + [A]_0</annotation>
+      <annotation encoding="application/x-tex">\ [A]_t = -kt + [A]_0</annotation>
    </semantics>
 </math>

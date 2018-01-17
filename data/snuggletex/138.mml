@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <msup>
-         <mi>cos</mi>
-         <mn>2</mn>
-      </msup>
-   </mrow>
-   <mi>u</mi>
+   <msup>
+      <mi>cos</mi>
+      <mn>2</mn>
+   </msup>
+   <mfenced close=")" open="(">
+      <mi>u</mi>
+   </mfenced>
    <mo>-</mo>
-   <mrow>
-      <msup>
-         <mi>cos</mi>
-         <mn>2</mn>
-      </msup>
-   </mrow>
-   <mi>v</mi>
+   <msup>
+      <mi>cos</mi>
+      <mn>2</mn>
+   </msup>
+   <mfenced close=")" open="(">
+      <mi>v</mi>
+   </mfenced>
    <mo>=</mo>
    <mo>-</mo>
    <mi>sin</mi>

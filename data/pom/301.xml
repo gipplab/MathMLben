@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="operator">\nabla</term>
+    <term prime-tag="operation">\times</term>
+    <term prime-tag="letter" secondary-tags="Latin">E</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="minus">-</term>
+    <expression prime-tag="fraction">
+      <expression prime-tag="sequence" secondary-tags="numerator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">B</term>
+      </expression>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="operator">\partial</term>
+        <term prime-tag="letter" secondary-tags="Latin">t</term>
+      </expression>
+    </expression>
+  </expression>
+</math>

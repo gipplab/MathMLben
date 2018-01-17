@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="U_{m}(\xi)\sim D_{m}\left(\xi\right)-\frac{1}{2^{6}h}\left(D_{m+4}\left(\xi%&#10;\right)-4!\dbinom{m}{4}D_{m-4}\left(\xi\right)\right)+\frac{1}{2^{13}h^{2}}%&#10;\left(D_{m+8}\left(\xi\right)-2^{5}(m+2)D_{m+4}\left(\xi\right)+4!\,2^{5}(m-1)%&#10;\dbinom{m}{4}D_{m-4}\left(\xi\right)+8!\genfrac{(}{)}{0.0pt}{}{m}{8}D_{m-8}%&#10;\left(\xi\right)\right)+\cdots" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="U_{m}(\xi)\sim D_{m}\left(\xi\right)-\frac{1}{2^{6}h}\left(D_{m+4}\left(\xi%&#10;\right)-4!\dbinom{m}{4}D_{m-4}\left(\xi\right)\right)+\frac{1}{2^{13}h^{2}}%&#10;\left(D_{m+8}\left(\xi\right)-2^{5}(m+2)D_{m+4}\left(\xi\right)+4!\,2^{5}(m-1)%&#10;\dbinom{m}{4}D_{m-4}\left(\xi\right)+8!\frac{m}{8}D_{m-8}\left(\xi\right)%&#10;\right)+\cdots" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.80" xref="p1.1.m1.1.80.cmml">
       <mrow id="p1.1.m1.1.80.1" xref="p1.1.m1.1.80.1.cmml">
@@ -224,14 +224,10 @@
                   <mo lspace="0pt" rspace="3.5pt" id="p1.1.m1.1.70" xref="p1.1.m1.1.70.cmml">!</mo>
                 </mrow>
                 <mo id="p1.1.m1.1.80.2.2.2.2.3.1" xref="p1.1.m1.1.80.2.2.2.2.3.1.cmml">⁢</mo>
-                <mrow id="p1.1.m1.1.71.5" xref="p1.1.m1.1.71.1.cmml">
-                  <mo id="p1.1.m1.1.71.2" xref="p1.1.m1.1.71.1.cmml">(</mo>
-                  <mfrac linethickness="0.0pt" id="p1.1.m1.1.71.3" xref="p1.1.m1.1.71.1.cmml">
-                    <mi id="p1.1.m1.1.71.3.2" xref="p1.1.m1.1.71.3.2.cmml">m</mi>
-                    <mn id="p1.1.m1.1.71.3.3" xref="p1.1.m1.1.71.3.3.cmml">8</mn>
-                  </mfrac>
-                  <mo id="p1.1.m1.1.71.4" xref="p1.1.m1.1.71.1.cmml">)</mo>
-                </mrow>
+                <mfrac id="p1.1.m1.1.71" xref="p1.1.m1.1.71.cmml">
+                  <mi id="p1.1.m1.1.71.2" xref="p1.1.m1.1.71.2.cmml">m</mi>
+                  <mn id="p1.1.m1.1.71.3" xref="p1.1.m1.1.71.3.cmml">8</mn>
+                </mfrac>
                 <mo id="p1.1.m1.1.80.2.2.2.2.3.1a" xref="p1.1.m1.1.80.2.2.2.2.3.1.cmml">⁢</mo>
                 <msub id="p1.1.m1.1.80.2.2.2.2.3.3" xref="p1.1.m1.1.80.2.2.2.2.3.3.cmml">
                   <mi id="p1.1.m1.1.72" xref="p1.1.m1.1.72.cmml">D</mi>
@@ -434,10 +430,10 @@
                   <factorial id="p1.1.m1.1.70.cmml" xref="p1.1.m1.1.70"/>
                   <cn type="integer" id="p1.1.m1.1.69.cmml" xref="p1.1.m1.1.69">8</cn>
                 </apply>
-                <apply id="p1.1.m1.1.71.1.cmml" xref="p1.1.m1.1.71.5">
-                  <ci id="p1.1.m1.1.71.3.1.cmml" xref="p1.1.m1.1.71.5">FRACOP</ci>
-                  <ci id="p1.1.m1.1.71.3.2.cmml" xref="p1.1.m1.1.71.3.2">𝑚</ci>
-                  <cn type="integer" id="p1.1.m1.1.71.3.3.cmml" xref="p1.1.m1.1.71.3.3">8</cn>
+                <apply id="p1.1.m1.1.71.cmml" xref="p1.1.m1.1.71">
+                  <divide id="p1.1.m1.1.71.1.cmml" xref="p1.1.m1.1.71"/>
+                  <ci id="p1.1.m1.1.71.2.cmml" xref="p1.1.m1.1.71.2">𝑚</ci>
+                  <cn type="integer" id="p1.1.m1.1.71.3.cmml" xref="p1.1.m1.1.71.3">8</cn>
                 </apply>
                 <apply id="p1.1.m1.1.80.2.2.2.2.3.3.cmml" xref="p1.1.m1.1.80.2.2.2.2.3.3">
                   <csymbol cd="ambiguous" id="p1.1.m1.1.80.2.2.2.2.3.3.1.cmml" xref="p1.1.m1.1.80.2.2.2.2.3.3">subscript</csymbol>

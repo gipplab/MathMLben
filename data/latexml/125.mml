@@ -1,5 +1,119 @@
-<div xmlns="http://www.w3.org/1999/xhtml" class="ltx_document">
-<div id="p1" class="ltx_para">
-<p id="p1.1" class="ltx_p"><span id="p1.1.1" class="ltx_text ltx_font_script">C</span>_ν(u±v)=∑_k=-∞^∞<span id="p1.1.9" class="ltx_text ltx_font_script">C</span>_ν∓k(u)J_k(v)</p>
-</div>
-</div>
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="{\mathcal{C}_{\nu}\left(u\pm v\right)=\sum_{k=-\infty}^{\infty}\mathcal{C}_{%&#10;\nu\mp k}\left(u\right)J_{k}\left(v\right)}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mrow id="p1.1.m1.1.22" xref="p1.1.m1.1.22.cmml">
+      <mrow id="p1.1.m1.1.22.1" xref="p1.1.m1.1.22.1.cmml">
+        <msub id="p1.1.m1.1.22.1.2" xref="p1.1.m1.1.22.1.2.cmml">
+          <mi class="ltx_font_mathcaligraphic" id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">𝒞</mi>
+          <mi id="p1.1.m1.1.2.1" xref="p1.1.m1.1.2.1.cmml">ν</mi>
+        </msub>
+        <mo id="p1.1.m1.1.22.1.1" xref="p1.1.m1.1.22.1.1.cmml">⁢</mo>
+        <mrow id="p1.1.m1.1.22.1.3" xref="p1.1.m1.1.22.1.3.2.cmml">
+          <mo id="p1.1.m1.1.3" xref="p1.1.m1.1.22.1.3.2.cmml">(</mo>
+          <mrow id="p1.1.m1.1.22.1.3.2" xref="p1.1.m1.1.22.1.3.2.cmml">
+            <mi id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">u</mi>
+            <mo id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">±</mo>
+            <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">v</mi>
+          </mrow>
+          <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.22.1.3.2.cmml">)</mo>
+        </mrow>
+      </mrow>
+      <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">=</mo>
+      <mrow id="p1.1.m1.1.22.2" xref="p1.1.m1.1.22.2.cmml">
+        <msubsup id="p1.1.m1.1.22.2.1" xref="p1.1.m1.1.22.2.1.cmml">
+          <mo largeop="true" symmetric="true" id="p1.1.m1.1.9" xref="p1.1.m1.1.9.cmml">∑</mo>
+          <mrow id="p1.1.m1.1.10.1" xref="p1.1.m1.1.10.1.cmml">
+            <mi id="p1.1.m1.1.10.1.1" xref="p1.1.m1.1.10.1.1.cmml">k</mi>
+            <mo id="p1.1.m1.1.10.1.2" xref="p1.1.m1.1.10.1.2.cmml">=</mo>
+            <mrow id="p1.1.m1.1.10.1.5" xref="p1.1.m1.1.10.1.5.cmml">
+              <mo id="p1.1.m1.1.10.1.3" xref="p1.1.m1.1.10.1.3.cmml">-</mo>
+              <mi mathvariant="normal" id="p1.1.m1.1.10.1.4" xref="p1.1.m1.1.10.1.4.cmml">∞</mi>
+            </mrow>
+          </mrow>
+          <mi mathvariant="normal" id="p1.1.m1.1.11.1" xref="p1.1.m1.1.11.1.cmml">∞</mi>
+        </msubsup>
+        <mrow id="p1.1.m1.1.22.2.2" xref="p1.1.m1.1.22.2.2.cmml">
+          <msub id="p1.1.m1.1.22.2.2.2" xref="p1.1.m1.1.22.2.2.2.cmml">
+            <mi class="ltx_font_mathcaligraphic" id="p1.1.m1.1.12" xref="p1.1.m1.1.12.cmml">𝒞</mi>
+            <mrow id="p1.1.m1.1.13.1" xref="p1.1.m1.1.13.1.cmml">
+              <mi id="p1.1.m1.1.13.1.1" xref="p1.1.m1.1.13.1.1.cmml">ν</mi>
+              <mo id="p1.1.m1.1.13.1.2" xref="p1.1.m1.1.13.1.2.cmml">∓</mo>
+              <mi id="p1.1.m1.1.13.1.3" xref="p1.1.m1.1.13.1.3.cmml">k</mi>
+            </mrow>
+          </msub>
+          <mo id="p1.1.m1.1.22.2.2.1" xref="p1.1.m1.1.22.2.2.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.22.2.2.3" xref="p1.1.m1.1.22.2.2.cmml">
+            <mo id="p1.1.m1.1.14" xref="p1.1.m1.1.22.2.2.cmml">(</mo>
+            <mi id="p1.1.m1.1.15" xref="p1.1.m1.1.15.cmml">u</mi>
+            <mo id="p1.1.m1.1.16" xref="p1.1.m1.1.22.2.2.cmml">)</mo>
+          </mrow>
+          <mo id="p1.1.m1.1.22.2.2.1a" xref="p1.1.m1.1.22.2.2.1.cmml">⁢</mo>
+          <msub id="p1.1.m1.1.22.2.2.4" xref="p1.1.m1.1.22.2.2.4.cmml">
+            <mi id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">J</mi>
+            <mi id="p1.1.m1.1.18.1" xref="p1.1.m1.1.18.1.cmml">k</mi>
+          </msub>
+          <mo id="p1.1.m1.1.22.2.2.1b" xref="p1.1.m1.1.22.2.2.1.cmml">⁢</mo>
+          <mrow id="p1.1.m1.1.22.2.2.5" xref="p1.1.m1.1.22.2.2.cmml">
+            <mo id="p1.1.m1.1.19" xref="p1.1.m1.1.22.2.2.cmml">(</mo>
+            <mi id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">v</mi>
+            <mo id="p1.1.m1.1.21" xref="p1.1.m1.1.22.2.2.cmml">)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <apply id="p1.1.m1.1.22.cmml" xref="p1.1.m1.1.22">
+        <eq id="p1.1.m1.1.8.cmml" xref="p1.1.m1.1.8"/>
+        <apply id="p1.1.m1.1.22.1.cmml" xref="p1.1.m1.1.22.1">
+          <times id="p1.1.m1.1.22.1.1.cmml" xref="p1.1.m1.1.22.1.1"/>
+          <apply id="p1.1.m1.1.22.1.2.cmml" xref="p1.1.m1.1.22.1.2">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.22.1.2.1.cmml" xref="p1.1.m1.1.22.1.2">subscript</csymbol>
+            <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝒞</ci>
+            <ci id="p1.1.m1.1.2.1.cmml" xref="p1.1.m1.1.2.1">𝜈</ci>
+          </apply>
+          <apply id="p1.1.m1.1.22.1.3.2.cmml" xref="p1.1.m1.1.22.1.3">
+            <csymbol cd="latexml" id="p1.1.m1.1.5.cmml" xref="p1.1.m1.1.5">plus-or-minus</csymbol>
+            <ci id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">𝑢</ci>
+            <ci id="p1.1.m1.1.6.cmml" xref="p1.1.m1.1.6">𝑣</ci>
+          </apply>
+        </apply>
+        <apply id="p1.1.m1.1.22.2.cmml" xref="p1.1.m1.1.22.2">
+          <apply id="p1.1.m1.1.22.2.1.cmml" xref="p1.1.m1.1.22.2.1">
+            <csymbol cd="ambiguous" id="p1.1.m1.1.22.2.1.1.cmml" xref="p1.1.m1.1.22.2.1">superscript</csymbol>
+            <apply id="p1.1.m1.1.22.2.1.2.cmml" xref="p1.1.m1.1.22.2.1">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.22.2.1.2.1.cmml" xref="p1.1.m1.1.22.2.1">subscript</csymbol>
+              <sum id="p1.1.m1.1.9.cmml" xref="p1.1.m1.1.9"/>
+              <apply id="p1.1.m1.1.10.1.cmml" xref="p1.1.m1.1.10.1">
+                <eq id="p1.1.m1.1.10.1.2.cmml" xref="p1.1.m1.1.10.1.2"/>
+                <ci id="p1.1.m1.1.10.1.1.cmml" xref="p1.1.m1.1.10.1.1">𝑘</ci>
+                <apply id="p1.1.m1.1.10.1.5.cmml" xref="p1.1.m1.1.10.1.5">
+                  <minus id="p1.1.m1.1.10.1.3.cmml" xref="p1.1.m1.1.10.1.3"/>
+                  <infinity id="p1.1.m1.1.10.1.4.cmml" xref="p1.1.m1.1.10.1.4"/>
+                </apply>
+              </apply>
+            </apply>
+            <infinity id="p1.1.m1.1.11.1.cmml" xref="p1.1.m1.1.11.1"/>
+          </apply>
+          <apply id="p1.1.m1.1.22.2.2.cmml" xref="p1.1.m1.1.22.2.2">
+            <times id="p1.1.m1.1.22.2.2.1.cmml" xref="p1.1.m1.1.22.2.2.1"/>
+            <apply id="p1.1.m1.1.22.2.2.2.cmml" xref="p1.1.m1.1.22.2.2.2">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.22.2.2.2.1.cmml" xref="p1.1.m1.1.22.2.2.2">subscript</csymbol>
+              <ci id="p1.1.m1.1.12.cmml" xref="p1.1.m1.1.12">𝒞</ci>
+              <apply id="p1.1.m1.1.13.1.cmml" xref="p1.1.m1.1.13.1">
+                <csymbol cd="latexml" id="p1.1.m1.1.13.1.2.cmml" xref="p1.1.m1.1.13.1.2">minus-or-plus</csymbol>
+                <ci id="p1.1.m1.1.13.1.1.cmml" xref="p1.1.m1.1.13.1.1">𝜈</ci>
+                <ci id="p1.1.m1.1.13.1.3.cmml" xref="p1.1.m1.1.13.1.3">𝑘</ci>
+              </apply>
+            </apply>
+            <ci id="p1.1.m1.1.15.cmml" xref="p1.1.m1.1.15">𝑢</ci>
+            <apply id="p1.1.m1.1.22.2.2.4.cmml" xref="p1.1.m1.1.22.2.2.4">
+              <csymbol cd="ambiguous" id="p1.1.m1.1.22.2.2.4.1.cmml" xref="p1.1.m1.1.22.2.2.4">subscript</csymbol>
+              <ci id="p1.1.m1.1.17.cmml" xref="p1.1.m1.1.17">𝐽</ci>
+              <ci id="p1.1.m1.1.18.1.cmml" xref="p1.1.m1.1.18.1">𝑘</ci>
+            </apply>
+            <ci id="p1.1.m1.1.20.cmml" xref="p1.1.m1.1.20">𝑣</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

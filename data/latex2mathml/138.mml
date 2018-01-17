@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math>
    <mrow>
+      <msup>
+         <mi>cos</mi>
+         <mn>2</mn>
+      </msup>
       <mrow>
-         <msup>
-            <mi>cos</mi>
-            <mrow>
-               <mn>2</mn>
-            </mrow>
-         </msup>
+         <mo>(</mo>
+         <mi>u</mi>
+         <mo>)</mo>
       </mrow>
-      <mi>u</mi>
       <mo>−</mo>
+      <msup>
+         <mi>cos</mi>
+         <mn>2</mn>
+      </msup>
       <mrow>
-         <msup>
-            <mi>cos</mi>
-            <mrow>
-               <mn>2</mn>
-            </mrow>
-         </msup>
+         <mo>(</mo>
+         <mi>v</mi>
+         <mo>)</mo>
       </mrow>
-      <mi>v</mi>
       <mo>=</mo>
       <mo>−</mo>
       <mi>sin</mi>
-      <mo fence="true" form="prefix" stretchy="true">(</mo>
-      <mi>u</mi>
-      <mo>+</mo>
-      <mi>v</mi>
-      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>u</mi>
+         <mo>+</mo>
+         <mi>v</mi>
+         <mo>)</mo>
+      </mrow>
       <mi>sin</mi>
-      <mo fence="true" form="prefix" stretchy="true">(</mo>
-      <mi>u</mi>
-      <mo>−</mo>
-      <mi>v</mi>
-      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>u</mi>
+         <mo>−</mo>
+         <mi>v</mi>
+         <mo>)</mo>
+      </mrow>
    </mrow>
 </math>

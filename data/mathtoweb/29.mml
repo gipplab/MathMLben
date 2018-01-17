@@ -4,7 +4,10 @@
       <msub>
          <mi>R</mi>
          <mrow>
-            <mi>s</mi>\normal</mrow>
+            <mi>s</mi>
+            <mo>,</mo>
+            <mtext>normal</mtext>
+         </mrow>
       </msub>
       <mo>=</mo>
       <msqrt>

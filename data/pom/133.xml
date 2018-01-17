@@ -12,29 +12,17 @@
       <term prime-tag="digit" secondary-tags="numeric">1</term>
       <term prime-tag="letter" secondary-tags="Latin">n</term>
     </expression>
-    <term prime-tag="latex-command">\genfrac</term>
-    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-    <expression prime-tag="sequence">
-      <term prime-tag="numeric">0.0</term>
-      <term prime-tag="alphanumeric">pt</term>
-    </expression>
-    <expression/>
-    <term prime-tag="letter" secondary-tags="Latin">n</term>
-    <term prime-tag="letter" secondary-tags="Latin">k</term>
-    <term prime-tag="latex-command">\genfrac</term>
-    <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-    <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-    <expression prime-tag="sequence">
-      <term prime-tag="numeric">0.0</term>
-      <term prime-tag="alphanumeric">pt</term>
-    </expression>
-    <expression/>
-    <term prime-tag="letter" secondary-tags="Latin">n</term>
-    <expression prime-tag="sequence">
+    <expression prime-tag="fraction">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
       <term prime-tag="letter" secondary-tags="Latin">k</term>
-      <term prime-tag="minus">-</term>
-      <term prime-tag="digit" secondary-tags="numeric">1</term>
+    </expression>
+    <expression prime-tag="fraction">
+      <term prime-tag="letter" secondary-tags="Latin">n</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">k</term>
+        <term prime-tag="minus">-</term>
+        <term prime-tag="digit" secondary-tags="numeric">1</term>
+      </expression>
     </expression>
   </expression>
 </math>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mo>{</mo>
+   <mfenced close="}" open="{">
       <msup>
          <mover accent="true">
             <mi>ξ</mi>
@@ -9,10 +8,9 @@
          </mover>
          <mi>μ</mi>
       </msup>
-      <mo>,</mo>
       <msup>
          <mi>τ</mi>
          <mi>μ</mi>
       </msup>
-   </mrow>
+   </mfenced>
 </math>

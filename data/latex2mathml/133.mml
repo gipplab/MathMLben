@@ -18,49 +18,23 @@
             <mi>n</mi>
          </mrow>
       </mfrac>
-      <mi>genfrac</mi>
-      <mrow>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mi>k</mi>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mi>k</mi>
-      </mrow>
-      <mi>genfrac</mi>
-      <mrow>
+      </mfrac>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mi>k</mi>
+            <mo>−</mo>
+            <mn>1</mn>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mi>k</mi>
-         <mo>−</mo>
-         <mn>1</mn>
-      </mrow>
+      </mfrac>
    </mrow>
 </math>

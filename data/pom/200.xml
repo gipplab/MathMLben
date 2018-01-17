@@ -39,7 +39,6 @@
         </expression>
       </expression>
     </expression>
-    <term prime-tag="escaped symbol" secondary-tags="ignored">\*</term>
     <expression prime-tag="balanced-expression">
       <term prime-tag="left-delimiter">\left(</term>
       <expression prime-tag="sequence">

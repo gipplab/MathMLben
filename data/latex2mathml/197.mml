@@ -10,24 +10,24 @@
          <mo>)</mo>
       </mrow>
       <mo>=</mo>
-      <mi>ifrac</mi>
-      <mrow>
-         <mn>1</mn>
-      </mrow>
-      <mrow>
-         <msub>
-            <mi>θ</mi>
-            <mrow>
-               <mn>4</mn>
-            </mrow>
-         </msub>
-         <mo fence="true" form="prefix" stretchy="true">(</mo>
-         <mn>0</mn>
-         <mi>middle</mi>
-         <mi>|</mi>
-         <mn>2</mn>
-         <mi>τ</mi>
-         <mo fence="true" form="postfix" stretchy="true">)</mo>
-      </mrow>
+      <mfrac>
+         <mrow>
+            <mn>1</mn>
+         </mrow>
+         <mrow>
+            <msub>
+               <mi>θ</mi>
+               <mrow>
+                  <mn>4</mn>
+               </mrow>
+            </msub>
+            <mo fence="true" form="prefix" stretchy="true">(</mo>
+            <mn>0</mn>
+            <mi>|</mi>
+            <mn>2</mn>
+            <mi>τ</mi>
+            <mo fence="true" form="postfix" stretchy="true">)</mo>
+         </mrow>
+      </mfrac>
    </mrow>
 </math>

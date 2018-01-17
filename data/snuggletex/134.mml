@@ -10,27 +10,19 @@
    <mo>=</mo>
    <msub>
       <mo>∑</mo>
-      <mtable>
-         <mtr>
-            <mtd columnalign="center">
-               <mn>1</mn>
-               <mo>&lt;</mo>
-               <mi>h</mi>
-               <mo>≤</mo>
-               <mi>k</mi>
-            </mtd>
-         </mtr>
-         <mtr>
-            <mtd columnalign="center">
-               <mfenced close=")" open="(">
-                  <mi>h</mi>
-                  <mi>k</mi>
-               </mfenced>
-               <mo>=</mo>
-               <mn>1</mn>
-            </mtd>
-         </mtr>
-      </mtable>
+      <mrow>
+         <mn>1</mn>
+         <mo>&lt;</mo>
+         <mi>h</mi>
+         <mo>≤</mo>
+         <mi>k</mi>
+         <mfenced close=")" open="(">
+            <mi>h</mi>
+            <mi>k</mi>
+         </mfenced>
+         <mo>=</mo>
+         <mn>1</mn>
+      </mrow>
    </msub>
    <mrow>
       <mstyle mathvariant="normal">

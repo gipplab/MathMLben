@@ -8,16 +8,14 @@
          <mo stretchy="false">)</mo>
          <mo>∼</mo>
          <mi>exp</mi>
-         <mrow>
-            <mo>(</mo>
-            <mi>i</mi>
-            <mi>κ</mi>
-            <msup>
-               <mi>t</mi> 
-               <mi>p</mi>
-            </msup>
-            <mo>)</mo>
-         </mrow>
+         <mo stretchy="false">(</mo>
+         <mi>i</mi>
+         <mi>κ</mi>
+         <msup>
+            <mi>t</mi> 
+            <mi>p</mi>
+         </msup>
+         <mo stretchy="false">)</mo>
          <munderover>
             <mo>∑</mo> 
             <mrow>
@@ -42,6 +40,6 @@
             </mrow>
          </msup>
       </mrow>
-      <annotation encoding="application/x-tex">h(t)\sim\exp\left(i\kappa t^{p}\right)\sum_{s=0}^{\infty}b_{s}t^{-\beta_{s}}</annotation>
+      <annotation encoding="application/x-tex">h(t) \sim \exp(i\kappa t^{p}) \sum_{s=0}^{\infty}b_{s}t^{-\beta_{s}}</annotation>
    </semantics>
 </math>

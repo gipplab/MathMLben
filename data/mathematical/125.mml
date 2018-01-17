@@ -4,7 +4,7 @@
       <mrow>
          <msub>
             <mrow>
-               <mi mathvariant="script">C</mi>
+               <mi>𝒞</mi>
             </mrow> 
             <mi>ν</mi>
          </msub>
@@ -28,7 +28,7 @@
          </munderover>
          <msub>
             <mrow>
-               <mi mathvariant="script">C</mi>
+               <mi>𝒞</mi>
             </mrow> 
             <mrow>
                <mi>ν</mi>
@@ -51,6 +51,6 @@
             <mo>)</mo>
          </mrow>
       </mrow>
-      <annotation encoding="application/x-tex">\mathscr{C}_{\nu}\left(u\pm v\right)=\sum_{k=-\infty}^{\infty}\mathscr{C}_{\nu\mp k}\left(u\right)J_{k}\left(v\right)</annotation>
+      <annotation encoding="application/x-tex">\mathcal{C}_{\nu}\left(u\pm v\right)=\sum_{k=-\infty}^{\infty}\mathcal{C}_{\nu\mp k}\left(u\right)J_{k}\left(v\right)</annotation>
    </semantics>
 </math>

@@ -54,22 +54,10 @@
             <mrow>
                <mi>ℒ</mi>
             </mrow> 
-            <mrow>
-               <mrow>
-                  <mi mathvariant="normal">
-</mi>
-               </mrow>
-               <mi>m</mi>
-               <mi>a</mi>
-               <mi>t</mi>
-               <mi>t</mi>
-               <mi>e</mi>
-               <mi>r</mi>
-            </mrow>
+            <mtext>matter</mtext>
          </msub>
          <mo stretchy="false">)</mo>
       </mrow>
-      <annotation encoding="application/x-tex">S_{EH}=\frac{1}{G_{3}}\int d^{3}x\,\sqrt{-g^{(3)}}\,(R^{(3)}+{\cal L}_{\rm
-matter})</annotation>
+      <annotation encoding="application/x-tex">S_{EH}=\frac{1}{G_{3}}\int d^{3}x\,\sqrt{-g^{(3)}}\,(R^{(3)}+{\cal L}_\text{matter})</annotation>
    </semantics>
 </math>

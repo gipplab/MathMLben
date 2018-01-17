@@ -81,15 +81,7 @@
               </expression>
             </expression>
             <expression prime-tag="caret" secondary-tags="superscript_operation">
-              <expression prime-tag="sequence" secondary-tags="superscript">
-                <term prime-tag="latex-command">\mspace</term>
-                <expression prime-tag="sequence">
-                  <term prime-tag="minus">-</term>
-                  <term prime-tag="numeric">16.0</term>
-                  <term prime-tag="alphanumeric">mu</term>
-                </expression>
-                <term prime-tag="digit" secondary-tags="numeric">2</term>
-              </expression>
+              <term prime-tag="digit" secondary-tags="numeric">2</term>
             </expression>
           </expression>
         </expression>

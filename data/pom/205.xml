@@ -39,11 +39,5 @@
     <term prime-tag="minus">-</term>
     <term prime-tag="digit" secondary-tags="numeric">1</term>
     <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-    <term prime-tag="controlled space">\qquad</term>
-    <term prime-tag="latex-command">\hskip</term>
-    <expression prime-tag="sequence">
-      <term prime-tag="numeric">0.0</term>
-      <term prime-tag="alphanumeric">pt</term>
-    </expression>
   </expression>
 </math>

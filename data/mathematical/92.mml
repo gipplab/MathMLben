@@ -33,6 +33,6 @@
             </mrow>
          </msup>
       </mrow>
-      <annotation encoding="application/x-tex">G_{k, \sigma} (y)= 1-(1+ky/\sigma)^{-1/k}</annotation>
+      <annotation encoding="application/x-tex">G_{k, \sigma} (y)= 1-(1+ky/\sigma)^{-1/k} </annotation>
    </semantics>
 </math>

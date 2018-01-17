@@ -12,36 +12,20 @@
          <mo>=</mo>
          <munder>
             <mo>∑</mo> 
-            <mtable columnalign="center"
-                    columnlines="none"
-                    displaystyle="false"
-                    rowlines="none"
-                    rowspacing="0.5ex">
-               <mtr>
-                  <mtd>
-                     <mn>1</mn>
-                     <merror>
-                        <mtext>Unknown character</mtext>
-                     </merror>
-                     <mi>h</mi>
-                     <mo>≤</mo>
-                     <mi>k</mi>
-                  </mtd>
-               </mtr> 
-               <mtr>
-                  <mtd>
-                     <mrow>
-                        <mo>(</mo>
-                        <mi>h</mi>
-                        <mo>,</mo>
-                        <mi>k</mi>
-                        <mo>)</mo>
-                     </mrow>
-                     <mo>=</mo>
-                     <mn>1</mn>
-                  </mtd>
-               </mtr>
-            </mtable>
+            <mrow>
+               <mn>1</mn>
+               <mo>&lt;</mo>
+               <mi>h</mi>
+               <mo>≤</mo>
+               <mi>k</mi>
+               <mo stretchy="false">(</mo>
+               <mi>h</mi>
+               <mo>,</mo>
+               <mi>k</mi>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mrow>
          </munder>
          <mrow>
             <msup>
@@ -75,7 +59,6 @@
             </msup>
          </mrow>
       </mrow>
-      <annotation encoding="application/x-tex">A_{k}(n)=\sum_{\begin{array}{c}1&lt;h\leq k\\
-\left(h,k\right)=1\end{array}}{\mathrm{e}^{\pi\mathrm{i}f(h,k)-(2\pi\mathrm{i}nh/k)}}</annotation>
+      <annotation encoding="application/x-tex">A_{k}(n) = \sum_{1 &lt; h \leq k(h,k) = 1} {\mathrm{e}^{\pi\mathrm{i}f(h,k)-(2\pi\mathrm{i}nh/k)}}</annotation>
    </semantics>
 </math>

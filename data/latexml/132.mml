@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="h\left(\epsilon,\ell;r\right)=\left(\frac{2}{\pi\tau}\frac{A(\epsilon,\ell)}{1%&#10;-e^{-2\pi/\tau}}\right)^{\ifrac{1}{2}}G_{\ell}\left(-1/\tau,\tau r\right)" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="h\left(\epsilon,\ell;r\right)=\left(\frac{2}{\pi\tau}\frac{A(\epsilon,\ell)}{1%&#10;-e^{-2\pi/\tau}}\right)^{\frac{1}{2}}G_{\ell}\left(-1/\tau,\tau r\right)" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.26" xref="p1.1.m1.1.26.cmml">
       <mrow id="p1.1.m1.1.26.1" xref="p1.1.m1.1.26.1.cmml">
@@ -64,11 +64,10 @@
             </mrow>
             <mo id="p1.1.m1.1.13" xref="p1.1.m1.1.26.2.2.2.2.cmml">)</mo>
           </mrow>
-          <mrow id="p1.1.m1.1.14.1" xref="p1.1.m1.1.14.1.cmml">
+          <mfrac id="p1.1.m1.1.14.1" xref="p1.1.m1.1.14.1.cmml">
             <mn id="p1.1.m1.1.14.1.1.2" xref="p1.1.m1.1.14.1.1.2.cmml">1</mn>
-            <mo id="p1.1.m1.1.14.1.1.1" xref="p1.1.m1.1.14.1.1.1.cmml">/</mo>
             <mn id="p1.1.m1.1.14.1.1.3" xref="p1.1.m1.1.14.1.1.3.cmml">2</mn>
-          </mrow>
+          </mfrac>
         </msup>
         <mo id="p1.1.m1.1.26.2.1" xref="p1.1.m1.1.26.2.1.cmml">⁢</mo>
         <msub id="p1.1.m1.1.26.2.3" xref="p1.1.m1.1.26.2.3.cmml">
@@ -156,7 +155,7 @@
               </apply>
             </apply>
             <apply id="p1.1.m1.1.14.1.cmml" xref="p1.1.m1.1.14.1">
-              <divide id="p1.1.m1.1.14.1.1.1.cmml" xref="p1.1.m1.1.14.1.1.1"/>
+              <divide id="p1.1.m1.1.14.1.1.1.cmml" xref="p1.1.m1.1.14.1"/>
               <cn type="integer" id="p1.1.m1.1.14.1.1.2.cmml" xref="p1.1.m1.1.14.1.1.2">1</cn>
               <cn type="integer" id="p1.1.m1.1.14.1.1.3.cmml" xref="p1.1.m1.1.14.1.1.3">2</cn>
             </apply>

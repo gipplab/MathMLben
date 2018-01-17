@@ -10,6 +10,12 @@
       </msub>
    </mfenced>
    <mo>=</mo>
+   <mrow>
+      <mi>d</mi>
+      <mi>i</mi>
+      <mi>a</mi>
+      <mi>g</mi>
+   </mrow>
    <mfenced close=")" open="(">
       <mn>-1</mn>
       <mn>1</mn>

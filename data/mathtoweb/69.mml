@@ -4,24 +4,8 @@
       <mi>η</mi>
       <mo>=</mo>
       <mfrac linethickness="1">
-         <mrow>
-            <mi>w</mi>
-            <mi>o</mi>
-            <mi>r</mi>
-            <mi>k</mi>\done</mrow>
-         <mrow>
-            <mi>h</mi>
-            <mi>e</mi>
-            <mi>a</mi>
-            <mi>t</mi>
-            <mo>|</mo>
-            <mi>o</mi>
-            <mo>|</mo>
-            <mi>r</mi>
-            <mi>b</mi>
-            <mi>e</mi>
-            <mi>d</mi>
-         </mrow>
+         <mtext>work done</mtext>
+         <mtext>heat absorbed</mtext>
       </mfrac>
       <mo>=</mo>
       <mfrac linethickness="1">

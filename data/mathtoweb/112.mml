@@ -10,22 +10,14 @@
       <mo>∼</mo>
       <mi>exp</mi>
       <mrow>
-         <mo fence="true"
-             form="prefix"
-             lspace="0em"
-             rspace="0.3em"
-             stretchy="true">(</mo>
+         <mo form="prefix">(</mo>
          <mi>i</mi>
          <mi>κ</mi>
          <msup>
             <mi>t</mi>
             <mi>p</mi>
          </msup>
-         <mo fence="true"
-             form="postfix"
-             lspace="0.3em"
-             rspace="0em"
-             stretchy="true">)</mo>
+         <mo form="postfix">)</mo>
       </mrow>
       <mstyle displaystyle="true">
          <munderover>

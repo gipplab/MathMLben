@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\{x,p_{x}\}_{DB}=\{y,p_{y}\}_{DB}=\frac{1}{2}" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\{x,p_{x}\}_{\text{DB}}=\{y,p_{y}\}_{\text{DB}}=\frac{1}{2}" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.18" xref="p1.1.m1.1.18.cmml">
       <msub id="p1.1.m1.1.18.2" xref="p1.1.m1.1.18.2.cmml">
@@ -12,11 +12,7 @@
           </msub>
           <mo stretchy="false" id="p1.1.m1.1.6" xref="p1.1.m1.1.18.2.2.1.cmml">}</mo>
         </mrow>
-        <mrow id="p1.1.m1.1.7.1" xref="p1.1.m1.1.7.1.cmml">
-          <mi id="p1.1.m1.1.7.1.1" xref="p1.1.m1.1.7.1.1.cmml">D</mi>
-          <mo id="p1.1.m1.1.7.1.3" xref="p1.1.m1.1.7.1.3.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.7.1.2" xref="p1.1.m1.1.7.1.2.cmml">B</mi>
-        </mrow>
+        <mtext id="p1.1.m1.1.7.1" xref="p1.1.m1.1.7.1.cmml">DB</mtext>
       </msub>
       <mo id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">=</mo>
       <msub id="p1.1.m1.1.18.3" xref="p1.1.m1.1.18.3.cmml">
@@ -30,11 +26,7 @@
           </msub>
           <mo stretchy="false" id="p1.1.m1.1.14" xref="p1.1.m1.1.18.3.2.1.cmml">}</mo>
         </mrow>
-        <mrow id="p1.1.m1.1.15.1" xref="p1.1.m1.1.15.1.cmml">
-          <mi id="p1.1.m1.1.15.1.1" xref="p1.1.m1.1.15.1.1.cmml">D</mi>
-          <mo id="p1.1.m1.1.15.1.3" xref="p1.1.m1.1.15.1.3.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.15.1.2" xref="p1.1.m1.1.15.1.2.cmml">B</mi>
-        </mrow>
+        <mtext id="p1.1.m1.1.15.1" xref="p1.1.m1.1.15.1.cmml">DB</mtext>
       </msub>
       <mo id="p1.1.m1.1.16" xref="p1.1.m1.1.16.cmml">=</mo>
       <mfrac id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">
@@ -57,11 +49,9 @@
                 <ci id="p1.1.m1.1.5.1.cmml" xref="p1.1.m1.1.5.1">𝑥</ci>
               </apply>
             </set>
-            <apply id="p1.1.m1.1.7.1.cmml" xref="p1.1.m1.1.7.1">
-              <times id="p1.1.m1.1.7.1.3.cmml" xref="p1.1.m1.1.7.1.3"/>
-              <ci id="p1.1.m1.1.7.1.1.cmml" xref="p1.1.m1.1.7.1.1">𝐷</ci>
-              <ci id="p1.1.m1.1.7.1.2.cmml" xref="p1.1.m1.1.7.1.2">𝐵</ci>
-            </apply>
+            <mtext id="p1.1.m1.1.7.1.cmml" xref="p1.1.m1.1.7.1">
+              <span xmlns="http://www.w3.org/1999/xhtml" class="ltx_text" style="font-size:70%;">DB</span>
+            </mtext>
           </apply>
           <apply id="p1.1.m1.1.18.3.cmml" xref="p1.1.m1.1.18.3">
             <csymbol cd="ambiguous" id="p1.1.m1.1.18.3.1.cmml" xref="p1.1.m1.1.18.3">subscript</csymbol>
@@ -73,11 +63,9 @@
                 <ci id="p1.1.m1.1.13.1.cmml" xref="p1.1.m1.1.13.1">𝑦</ci>
               </apply>
             </set>
-            <apply id="p1.1.m1.1.15.1.cmml" xref="p1.1.m1.1.15.1">
-              <times id="p1.1.m1.1.15.1.3.cmml" xref="p1.1.m1.1.15.1.3"/>
-              <ci id="p1.1.m1.1.15.1.1.cmml" xref="p1.1.m1.1.15.1.1">𝐷</ci>
-              <ci id="p1.1.m1.1.15.1.2.cmml" xref="p1.1.m1.1.15.1.2">𝐵</ci>
-            </apply>
+            <mtext id="p1.1.m1.1.15.1.cmml" xref="p1.1.m1.1.15.1">
+              <span xmlns="http://www.w3.org/1999/xhtml" class="ltx_text" style="font-size:70%;">DB</span>
+            </mtext>
           </apply>
         </apply>
         <apply id="p1.1.m1.1.18c.cmml" xref="p1.1.m1.1.18">

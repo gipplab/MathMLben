@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>L</mi>
+         <mo stretchy="false">(</mo>
+         <mstyle mathvariant="bold">
+            <mi mathvariant="bold">x</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mstyle mathvariant="bold">
+            <mi mathvariant="bold">y</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mstyle mathvariant="bold">
+            <mi mathvariant="bold">p</mi>
+         </mstyle>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <munder>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>i</mi>
+               <mo>∈</mo>
+               <mrow>
+                  <mi>𝒩</mi>
+               </mrow>
+            </mrow>
+         </munder>
+         <munder>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>v</mi>
+               <merror>
+                  <mtext>Unknown character</mtext>
+               </merror>
+               <mi>w</mi>
+               <mo>:</mo>
+               <mo stretchy="false">(</mo>
+               <mi>v</mi>
+               <mo>,</mo>
+               <mi>i</mi>
+               <mo>,</mo>
+               <mi>w</mi>
+               <mo stretchy="false">)</mo>
+               <mo>∈</mo>
+               <msub>
+                  <mi>Γ</mi> 
+                  <mrow>
+                     <msup>
+                        <mi>G</mi> 
+                        <mstyle scriptlevel="0">
+                           <mo>′</mo>
+                        </mstyle>
+                     </msup>
+                  </mrow>
+               </msub>
+            </mrow>
+         </munder>
+         <mo stretchy="false">[</mo>
+         <msub>
+            <mi>c</mi> 
+            <mi>i</mi>
+         </msub>
+         <msubsup>
+            <mi>y</mi> 
+            <mrow>
+               <mi>v</mi>
+               <mi>w</mi>
+            </mrow> 
+            <mi>i</mi>
+         </msubsup>
+         <mo>+</mo>
+         <mi>p</mi>
+         <mo stretchy="false">(</mo>
+         <mi>v</mi>
+         <mo>,</mo>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>w</mi>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">(</mo>
+         <munder>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>t</mi>
+               <mo>∈</mo>
+               <mi>T</mi>
+            </mrow>
+         </munder>
+         <msup>
+            <mi>x</mi> 
+            <mi>t</mi>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <mi>v</mi>
+         <mo>,</mo>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>w</mi>
+         <mo stretchy="false">)</mo>
+         <mo>−</mo>
+         <msubsup>
+            <mi>y</mi> 
+            <mrow>
+               <mi>v</mi>
+               <mi>w</mi>
+            </mrow> 
+            <mi>i</mi>
+         </msubsup>
+         <mo stretchy="false">)</mo>
+         <mo>+</mo>
+         <mi>p</mi>
+         <mo stretchy="false">(</mo>
+         <mi>w</mi>
+         <mo>,</mo>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>v</mi>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">(</mo>
+         <munder>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>t</mi>
+               <mo>∈</mo>
+               <mi>T</mi>
+            </mrow>
+         </munder>
+         <msup>
+            <mi>x</mi> 
+            <mi>t</mi>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <mi>w</mi>
+         <mo>,</mo>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>v</mi>
+         <mo stretchy="false">)</mo>
+         <mo>−</mo>
+         <msubsup>
+            <mi>y</mi> 
+            <mrow>
+               <mi>w</mi>
+               <mi>v</mi>
+            </mrow> 
+            <mi>i</mi>
+         </msubsup>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">]</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">L(\boldsymbol{x},\boldsymbol{y},\boldsymbol{p}) = \sum_{i \in \mathcal{N}} \sum_{v&lt;w:(v,i,w)\in\Gamma_{G^{\prime}}} [c_{i}y^{i}_{vw}+p(v,i,w) (\sum_{t \in T}x^{t}(v,i,w)-y^{i}_{vw}) + p(w,i,v) (\sum_{t\in T}x^{t}(w,i,v)-y^{i}_{wv})]</annotation>
+   </semantics>
+</math>

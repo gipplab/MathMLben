@@ -1,5 +1,8 @@
-<div xmlns="http://www.w3.org/1999/xhtml" class="ltx_document">
-<div id="p1" class="ltx_para">
-<p id="p1.1" class="ltx_p"><span id="p1.1.1" class="ltx_text ltx_font_caligraphic">M</span></p>
-</div>
-</div>
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="{\mathcal{M}}" display="inline">
+  <semantics id="p1.1.m1.1a">
+    <mi class="ltx_font_mathcaligraphic" id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">ℳ</mi>
+    <annotation-xml encoding="MathML-Content" id="p1.1.m1.1b">
+      <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">ℳ</ci>
+    </annotation-xml>
+  </semantics>
+</math>

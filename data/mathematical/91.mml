@@ -11,10 +11,7 @@
          </msub>
          <msub>
             <mo stretchy="false">}</mo> 
-            <mrow>
-               <mi>D</mi>
-               <mi>B</mi>
-            </mrow>
+            <mtext>DB</mtext>
          </msub>
          <mo>=</mo>
          <mo stretchy="false">{</mo>
@@ -26,10 +23,7 @@
          </msub>
          <msub>
             <mo stretchy="false">}</mo> 
-            <mrow>
-               <mi>D</mi>
-               <mi>B</mi>
-            </mrow>
+            <mtext>DB</mtext>
          </msub>
          <mo>=</mo>
          <mfrac>
@@ -37,6 +31,6 @@
             <mn>2</mn>
          </mfrac>
       </mrow>
-      <annotation encoding="application/x-tex">\{x, p_x\}_{DB} = \{y, p_y\}_{DB} = \frac{1}{2}</annotation>
+      <annotation encoding="application/x-tex">\{x, p_x\}_{\text{DB}} = \{y, p_y\}_{\text{DB}} = \frac{1}{2}</annotation>
    </semantics>
 </math>

@@ -10,7 +10,6 @@
       <mo fence="true" form="prefix" stretchy="true">(</mo>
       <mi>π</mi>
       <mi>z</mi>
-      <mi>middle</mi>
       <mi>|</mi>
       <mi>τ</mi>
       <mo fence="true" form="postfix" stretchy="true">)</mo>
@@ -23,7 +22,6 @@
       </msub>
       <mo fence="true" form="prefix" stretchy="true">(</mo>
       <mn>0</mn>
-      <mi>middle</mi>
       <mi>|</mi>
       <mi>τ</mi>
       <mo fence="true" form="postfix" stretchy="true">)</mo>

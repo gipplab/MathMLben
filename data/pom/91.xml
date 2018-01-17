@@ -10,7 +10,7 @@
     </expression>
     <term prime-tag="right-brace" secondary-tags="closing delimiter">\}</term>
     <expression prime-tag="underscore" secondary-tags="subscript_operation">
-      <term prime-tag="alphanumeric">DB</term>
+      <term prime-tag="text">DB</term>
     </expression>
     <term prime-tag="equals">=</term>
     <term prime-tag="left-brace" secondary-tags="opening delimiter">\{</term>
@@ -22,7 +22,7 @@
     </expression>
     <term prime-tag="right-brace" secondary-tags="closing delimiter">\}</term>
     <expression prime-tag="underscore" secondary-tags="subscript_operation">
-      <term prime-tag="alphanumeric">DB</term>
+      <term prime-tag="text">DB</term>
     </expression>
     <term prime-tag="equals">=</term>
     <expression prime-tag="fraction">

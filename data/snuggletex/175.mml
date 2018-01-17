@@ -146,28 +146,10 @@
          <mo>+</mo>
          <mn>8</mn>
          <mo>!</mo>
-         <mrow>
-            <mrow>
-               <mo>(</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mrow>
-               <mo>)</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mn>0.0</mn>
-            <mi>p</mi>
-            <mi>t</mi>
-         </mrow>
-         <mrow/>
-         <mrow>
+         <mfrac>
             <mi>m</mi>
-         </mrow>
-         <mrow>
             <mn>8</mn>
-         </mrow>
+         </mfrac>
          <msub>
             <mi>D</mi>
             <mrow>

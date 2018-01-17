@@ -117,7 +117,10 @@
          </mrow>
       </mfrac>
       <mo>+</mo>
-      <mi>O</mi>
+      <mi>mathcal</mi>
+      <mrow>
+         <mi>O</mi>
+      </mrow>
       <mo fence="true" form="prefix" stretchy="true">(</mo>
       <mfrac>
          <mrow>

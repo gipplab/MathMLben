@@ -9,14 +9,15 @@
          <mo>=</mo>
          <msub>
             <mi>E</mi> 
-            <mi>t</mi>
+            <mtext>t</mtext>
          </msub>
          <mo>+</mo>
          <msub>
             <mi>E</mi> 
             <mtext>r</mtext>
          </msub>
+         <mspace width="thinmathspace"/>
       </mrow>
-      <annotation encoding="application/x-tex">E_{\text{k}} = E_t + E_{\text{r}} </annotation>
+      <annotation encoding="application/x-tex">E_\text{k} = E_\text{t} + E_\text{r} \,</annotation>
    </semantics>
 </math>

@@ -17,6 +17,6 @@
          <mi>x</mi>
          <mo stretchy="false">}</mo>
       </mrow>
-      <annotation encoding="application/x-tex">P_x = P - \{ a\mid a \geq x\}</annotation>
+      <annotation encoding="application/x-tex"> P_x = P - \{ a\mid a \geq x\} </annotation>
    </semantics>
 </math>

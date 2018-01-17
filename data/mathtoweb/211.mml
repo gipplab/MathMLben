@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
    <mrow xmlns="">
-      <mi>a</mi>
-      <mi>p</mi>
-      <mi>p</mi>
-      <mo>:</mo>
       <mrow>
          <mo form="prefix">(</mo>
-         <mi>A</mi>
-         <mi>​</mi>
-         <mo>:</mo>
-         <mi>​</mi>
-         <mo>⋆</mo>
+         <mi>f</mi>
+         <mo>*</mo>
+         <mi>g</mi>
          <mo form="postfix">)</mo>
       </mrow>
-      <mi>l</mi>
-      <mi>i</mi>
-      <mi>s</mi>
-      <mi>t</mi>
       <mrow>
          <mo form="prefix">(</mo>
-         <mi>A</mi>
+         <mi>t</mi>
          <mo form="postfix">)</mo>
-      </mrow>
-      <mo>→</mo>
-      <mi>l</mi>
-      <mi>i</mi>
-      <mi>s</mi>
-      <mi>t</mi>
+      </mrow>\stackrel{<mstyle mathvariant="normal">
+         <mo>ⅆ</mo>
+         <mi>e</mi>
+         <mi>f</mi>
+      </mstyle>}<mo>=</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∫</mo>
+            <mrow>
+               <mo>-</mo>
+               <mo>∞</mo>
+            </mrow>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <mi>f</mi>
       <mrow>
          <mo form="prefix">(</mo>
-         <mi>A</mi>
+         <mi>τ</mi>
          <mo form="postfix">)</mo>
       </mrow>
-      <mo>→</mo>
-      <mi>l</mi>
-      <mi>i</mi>
-      <mi>s</mi>
-      <mi>t</mi>
+      <mi>g</mi>
       <mrow>
          <mo form="prefix">(</mo>
-         <mi>A</mi>
+         <mi>t</mi>
+         <mo>-</mo>
+         <mi>τ</mi>
          <mo form="postfix">)</mo>
       </mrow>
+      <mo>ⅆ</mo>
+      <mi>τ</mi>
    </mrow>
 </math>

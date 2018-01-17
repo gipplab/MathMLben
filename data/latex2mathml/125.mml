@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math>
    <mrow>
-      <mi>mathscr</mi>
+      <mi>mathcal</mi>
       <msub>
          <mrow>
             <mi>C</mi>
@@ -28,7 +28,7 @@
             <mo>∞</mo>
          </mrow>
       </msubsup>
-      <mi>mathscr</mi>
+      <mi>mathcal</mi>
       <msub>
          <mrow>
             <mi>C</mi>

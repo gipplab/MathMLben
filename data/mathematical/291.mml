@@ -2,17 +2,11 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
    <semantics xmlns="">
       <mrow>
-         <mo>‴</mo>
          <mi>F</mi>
-         <mo>‴</mo>
          <mo>=</mo>
-         <mo>″</mo>
          <mi>m</mi>
-         <mo>⁗</mo>
-         <mo>′</mo>
          <mi>a</mi>
-         <mo>‴</mo>
       </mrow>
-      <annotation encoding="application/x-tex">'''F''' {{=}} ''m'''''a'''</annotation>
+      <annotation encoding="application/x-tex">F = m a</annotation>
    </semantics>
 </math>

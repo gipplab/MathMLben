@@ -13,7 +13,13 @@
          <mo>)</mo>
       </mrow>
       <mo>=</mo>
-      <mi>diag</mi>
+      <mi>operatorname</mi>
+      <mrow>
+         <mi>d</mi>
+         <mi>i</mi>
+         <mi>a</mi>
+         <mi>g</mi>
+      </mrow>
       <mrow>
          <mo>(</mo>
          <mo>−</mo>

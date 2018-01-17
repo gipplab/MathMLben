@@ -13,8 +13,11 @@
             <mspace width="0.167em"/>
          </mrow>
          <mrow>
-            <mi>D</mi>
-            <mi>B</mi>
+            <mi>text</mi>
+            <mrow>
+               <mi>D</mi>
+               <mi>B</mi>
+            </mrow>
          </mrow>
       </msub>
       <mo>=</mo>
@@ -30,8 +33,11 @@
             <mspace width="0.167em"/>
          </mrow>
          <mrow>
-            <mi>D</mi>
-            <mi>B</mi>
+            <mi>text</mi>
+            <mrow>
+               <mi>D</mi>
+               <mi>B</mi>
+            </mrow>
          </mrow>
       </msub>
       <mo>=</mo>

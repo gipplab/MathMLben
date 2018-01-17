@@ -1,49 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math>
    <mrow>
-      <mi>a</mi>
-      <mi>p</mi>
-      <mi>p</mi>
-      <mi>:</mi>
       <mrow>
          <mo>(</mo>
-         <mi>A</mi>
-         <mspace width="0.167em"/>
-         <mi>!</mi>
-         <mi>:</mi>
-         <mspace width="0.167em"/>
-         <mi>!</mi>
-         <mo>⋆</mo>
+         <mi>f</mi>
+         <mo>*</mo>
+         <mi>g</mi>
          <mo>)</mo>
       </mrow>
-      <mi>l</mi>
-      <mi>i</mi>
-      <mi>s</mi>
-      <mi>t</mi>
       <mrow>
          <mo>(</mo>
-         <mi>A</mi>
+         <mi>t</mi>
          <mo>)</mo>
       </mrow>
-      <mo>→</mo>
-      <mi>l</mi>
-      <mi>i</mi>
-      <mi>s</mi>
-      <mi>t</mi>
+      <mi>stackrel</mi>
+      <mrow>
+         <mi>mathrm</mi>
+         <mrow>
+            <mi>d</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+         </mrow>
+      </mrow>
+      <mrow>
+         <mo>=</mo>
+      </mrow>
+      <msubsup>
+         <mo>∫</mo>
+         <mrow>
+            <mo>−</mo>
+            <mo>∞</mo>
+         </mrow>
+         <mo>∞</mo>
+      </msubsup>
+      <mi>f</mi>
       <mrow>
          <mo>(</mo>
-         <mi>A</mi>
+         <mi>τ</mi>
          <mo>)</mo>
       </mrow>
-      <mo>→</mo>
-      <mi>l</mi>
-      <mi>i</mi>
-      <mi>s</mi>
-      <mi>t</mi>
+      <mi>g</mi>
       <mrow>
          <mo>(</mo>
-         <mi>A</mi>
+         <mi>t</mi>
+         <mo>−</mo>
+         <mi>τ</mi>
          <mo>)</mo>
       </mrow>
+      <mi>d</mi>
+      <mi>τ</mi>
    </mrow>
 </math>

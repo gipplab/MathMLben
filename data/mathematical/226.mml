@@ -72,6 +72,6 @@
          <mo stretchy="false">)</mo>
          <mo maxsize="1.8em" minsize="1.8em">]</mo>
       </mrow>
-      <annotation encoding="application/x-tex">S=-T\int d^{p+1}\sigma\,\sqrt{-\zeta}\Bigl[e^{-\beta U}\frac{1}{2}\zeta^{ab}\left(G_{ba}-{\mathcal{F}}_{ba}\right)-(p-1)\Bigr]</annotation>
+      <annotation encoding="application/x-tex">S=-T\int d^{p+1}\sigma\,\sqrt{-\zeta}\Bigl[e^{-\beta U}\frac{1}{2}\zeta^{ab} \left(G_{ba}-{\mathcal{F}}_{ba}\right)-(p-1)\Bigr]</annotation>
    </semantics>
 </math>

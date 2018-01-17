@@ -9,31 +9,31 @@
          <mi>τ</mi>
          <mo form="postfix">)</mo>
       </mrow>
-      <mo>=</mo>\ifrac{1}<mrow>
-         <msub>
-            <mi>θ</mi>
-            <mn>4</mn>
-         </msub>
+      <mo>=</mo>
+      <mfrac linethickness="1">
+         <mn>1</mn>
          <mrow>
-            <mo fence="true"
-                form="prefix"
-                lspace="0em"
-                rspace="0.3em"
-                stretchy="true">(</mo>
-            <mn>0</mn>
-            <mo>∣</mo>
-            <mo>ⅆ</mo>
-            <mi>l</mi>
-            <mi>e</mi>
-            <mo>|</mo>
-            <mn>2</mn>
-            <mi>τ</mi>
-            <mo fence="true"
-                form="postfix"
-                lspace="0.3em"
-                rspace="0em"
-                stretchy="true">)</mo>
+            <msub>
+               <mi>θ</mi>
+               <mn>4</mn>
+            </msub>
+            <mrow>
+               <mo fence="true"
+                   form="prefix"
+                   lspace="0em"
+                   rspace="0.3em"
+                   stretchy="true">(</mo>
+               <mn>0</mn>
+               <mo>|</mo>
+               <mn>2</mn>
+               <mi>τ</mi>
+               <mo fence="true"
+                   form="postfix"
+                   lspace="0.3em"
+                   rspace="0em"
+                   stretchy="true">)</mo>
+            </mrow>
          </mrow>
-      </mrow>
+      </mfrac>
    </mrow>
 </math>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mn>1</mn>
+         <mo>+</mo>
+         <mi>x</mi>
+         <mo>+</mo>
+         <msup>
+            <mi>x</mi> 
+            <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <mi>…</mi>
+         <mo>+</mo>
+         <msup>
+            <mi>x</mi> 
+            <mrow>
+               <mi>n</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+            </mrow>
+         </msup>
+         <mo>+</mo>
+         <msup>
+            <mi>x</mi> 
+            <mi>n</mi>
+         </msup>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <msup>
+                  <mi>x</mi> 
+                  <mrow>
+                     <mi>n</mi>
+                     <mo>+</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msup>
+               <mo>−</mo>
+               <mn>1</mn>
+            </mrow>
+            <mrow>
+               <mi>x</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+            </mrow>
+         </mfrac>
+         <mtext> </mtext>
+         <mtext>assuming</mtext>
+         <mtext> </mtext>
+         <mi>x</mi>
+         <mo>≠</mo>
+         <mn>1</mn>
+      </mrow>
+      <annotation encoding="application/x-tex">1+x+x^{2}+\ldots+x^{n-1}+x^{n}=\frac{x^{n+1}-1}{x-1} \ \text{assuming} \ x \neq 1</annotation>
+   </semantics>
+</math>

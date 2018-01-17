@@ -12,7 +12,9 @@
          </msub>
          <mo form="postfix">)</mo>
       </mrow>
-      <mo>=</mo>\diag<mrow>
+      <mo>=</mo>
+      <mi>diag</mi>
+      <mrow>
          <mo form="prefix">(</mo>
          <mo>-</mo>
          <mn>1,1</mn>

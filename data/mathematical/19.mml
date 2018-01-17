@@ -27,6 +27,6 @@
             </mrow>
          </msup>
       </mrow>
-      <annotation encoding="application/x-tex">Z = \sum_{j} g_j \cdot \mathrm{e}^{- \beta E_j}</annotation>
+      <annotation encoding="application/x-tex"> Z = \sum_{j} g_j \cdot \mathrm{e}^{- \beta E_j}</annotation>
    </semantics>
 </math>

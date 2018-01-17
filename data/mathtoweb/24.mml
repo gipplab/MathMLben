@@ -8,12 +8,13 @@
       <mo>=</mo>
       <msub>
          <mi>E</mi>
-         <mi>t</mi>
+         <mtext>t</mtext>
       </msub>
       <mo>+</mo>
       <msub>
          <mi>E</mi>
          <mtext>r</mtext>
       </msub>
+      <mspace width="0.167em"/>
    </mrow>
 </math>

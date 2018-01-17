@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mo>∇</mo>
+      <mo>×</mo>
+      <mi mathvariant="bold">E</mi>
+      <mo>=</mo>
+      <mo>-</mo>
+      <mfrac linethickness="1">
+         <mrow>
+            <mo>∂</mo>
+            <mi mathvariant="bold">B</mi>
+         </mrow>
+         <mrow>
+            <mo>∂</mo>
+            <mi>t</mi>
+         </mrow>
+      </mfrac>
+   </mrow>
+</math>

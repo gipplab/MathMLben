@@ -2,40 +2,36 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
    <semantics xmlns="">
       <mrow>
-         <mrow>
-            <msup>
-               <mi>cos</mi> 
-               <mn>2</mn>
-            </msup>
-         </mrow>
+         <msup>
+            <mi>cos</mi> 
+            <mn>2</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
          <mi>u</mi>
+         <mo stretchy="false">)</mo>
          <mo>−</mo>
-         <mrow>
-            <msup>
-               <mi>cos</mi> 
-               <mn>2</mn>
-            </msup>
-         </mrow>
+         <msup>
+            <mi>cos</mi> 
+            <mn>2</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
          <mi>v</mi>
+         <mo stretchy="false">)</mo>
          <mo>=</mo>
          <mo>−</mo>
          <mi>sin</mi>
-         <mrow>
-            <mo>(</mo>
-            <mi>u</mi>
-            <mo>+</mo>
-            <mi>v</mi>
-            <mo>)</mo>
-         </mrow>
+         <mo stretchy="false">(</mo>
+         <mi>u</mi>
+         <mo>+</mo>
+         <mi>v</mi>
+         <mo stretchy="false">)</mo>
          <mi>sin</mi>
-         <mrow>
-            <mo>(</mo>
-            <mi>u</mi>
-            <mo>−</mo>
-            <mi>v</mi>
-            <mo>)</mo>
-         </mrow>
+         <mo stretchy="false">(</mo>
+         <mi>u</mi>
+         <mo>−</mo>
+         <mi>v</mi>
+         <mo stretchy="false">)</mo>
       </mrow>
-      <annotation encoding="application/x-tex">{\cos^{2}}u-{\cos^{2}}v=-\sin\left(u+v\right)\sin\left(u-v\right)</annotation>
+      <annotation encoding="application/x-tex">\cos^2(u) - \cos^2(v) = -\sin(u+v) \sin(u-v)</annotation>
    </semantics>
 </math>

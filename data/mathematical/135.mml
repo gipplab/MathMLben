@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <mi>S</mi>
+         <mrow>
+            <mo>(</mo>
+            <mi>n</mi>
+            <mo>,</mo>
+            <mi>m</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mfrac>
+            <mn>1</mn>
+            <mrow>
+               <mi>m</mi>
+               <mo>!</mo>
+            </mrow>
+         </mfrac>
+         <munderover>
+            <mo>∑</mo> 
+            <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mn>0</mn>
+            </mrow> 
+            <mrow>
+               <mi>n</mi>
+               <mo>−</mo>
+               <mn>1</mn>
+            </mrow>
+         </munderover>
+         <mo stretchy="false">⟨</mo>
+         <mfrac>
+            <mi>n</mi>
+            <mi>k</mi>
+         </mfrac>
+         <mo stretchy="false">⟩</mo>
+         <mfrac>
+            <mi>k</mi>
+            <mrow>
+               <mi>n</mi>
+               <mo>−</mo>
+               <mi>m</mi>
+            </mrow>
+         </mfrac>
+      </mrow>
+      <annotation encoding="application/x-tex">S\left(n,m\right)=\frac{1}{m!}\sum_{k=0}^{n-1} \langle \frac{n}{k} \rangle \frac{k}{n-m}</annotation>
+   </semantics>
+</math>

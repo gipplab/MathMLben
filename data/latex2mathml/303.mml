@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math>
+   <mrow>
+      <mrow>
+         <mo>(</mo>
+         <mi>f</mi>
+         <mo>∘</mo>
+         <mi>g</mi>
+         <mo>)</mo>
+      </mrow>
+      <mi>'</mi>
+      <mo>=</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>f</mi>
+         <mi>'</mi>
+         <mo>∘</mo>
+         <mi>g</mi>
+         <mo>)</mo>
+      </mrow>
+      <mo>⋅</mo>
+      <mi>g</mi>
+      <mi>'</mi>
+   </mrow>
+</math>

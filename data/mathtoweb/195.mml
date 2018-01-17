@@ -13,10 +13,6 @@
              stretchy="true">(</mo>
          <mi>π</mi>
          <mi>z</mi>
-         <mo>∣</mo>
-         <mo>ⅆ</mo>
-         <mi>l</mi>
-         <mi>e</mi>
          <mo>|</mo>
          <mi>τ</mi>
          <mo fence="true"
@@ -37,10 +33,6 @@
              rspace="0.3em"
              stretchy="true">(</mo>
          <mn>0</mn>
-         <mo>∣</mo>
-         <mo>ⅆ</mo>
-         <mi>l</mi>
-         <mi>e</mi>
          <mo>|</mo>
          <mi>τ</mi>
          <mo fence="true"

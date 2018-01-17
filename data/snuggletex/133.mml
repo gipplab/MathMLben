@@ -10,50 +10,16 @@
       <mn>1</mn>
       <mi>n</mi>
    </mfrac>
-   <mrow>
-      <mrow>
-         <mo>(</mo>
-      </mrow>
-   </mrow>
-   <mrow>
-      <mrow>
-         <mo>)</mo>
-      </mrow>
-   </mrow>
-   <mrow>
-      <mn>0.0</mn>
-      <mi>p</mi>
-      <mi>t</mi>
-   </mrow>
-   <mrow/>
-   <mrow>
+   <mfrac>
       <mi>n</mi>
-   </mrow>
-   <mrow>
       <mi>k</mi>
-   </mrow>
-   <mrow>
-      <mrow>
-         <mo>(</mo>
-      </mrow>
-   </mrow>
-   <mrow>
-      <mrow>
-         <mo>)</mo>
-      </mrow>
-   </mrow>
-   <mrow>
-      <mn>0.0</mn>
-      <mi>p</mi>
-      <mi>t</mi>
-   </mrow>
-   <mrow/>
-   <mrow>
+   </mfrac>
+   <mfrac>
       <mi>n</mi>
-   </mrow>
-   <mrow>
-      <mi>k</mi>
-      <mo>-</mo>
-      <mn>1</mn>
-   </mrow>
+      <mrow>
+         <mi>k</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+      </mrow>
+   </mfrac>
 </math>

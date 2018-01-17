@@ -14,16 +14,14 @@
           <term prime-tag="letter" secondary-tags="Latin">n</term>
         </expression>
         <term prime-tag="minus">-</term>
-        <term prime-tag="latex-command">\genfrac</term>
-        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-        <expression prime-tag="sequence">
-          <term prime-tag="numeric">0.0</term>
-          <term prime-tag="alphanumeric">pt</term>
+        <expression prime-tag="balanced-expression">
+          <term prime-tag="left-delimiter">\left(</term>
+          <expression prime-tag="fraction">
+            <term prime-tag="letter" secondary-tags="Latin">n</term>
+            <term prime-tag="digit" secondary-tags="numeric">2</term>
+          </expression>
+          <term prime-tag="right-delimiter">\right)</term>
         </expression>
-        <expression/>
-        <term prime-tag="letter" secondary-tags="Latin">n</term>
-        <term prime-tag="digit" secondary-tags="numeric">2</term>
         <term prime-tag="letter" secondary-tags="Latin">x</term>
         <expression prime-tag="caret" secondary-tags="superscript_operation">
           <expression prime-tag="sequence" secondary-tags="superscript">
@@ -37,16 +35,14 @@
           <term prime-tag="digit" secondary-tags="numeric">2</term>
         </expression>
         <term prime-tag="plus">+</term>
-        <term prime-tag="latex-command">\genfrac</term>
-        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-        <expression prime-tag="sequence">
-          <term prime-tag="numeric">0.0</term>
-          <term prime-tag="alphanumeric">pt</term>
+        <expression prime-tag="balanced-expression">
+          <term prime-tag="left-delimiter">\left(</term>
+          <expression prime-tag="fraction">
+            <term prime-tag="letter" secondary-tags="Latin">n</term>
+            <term prime-tag="digit" secondary-tags="numeric">4</term>
+          </expression>
+          <term prime-tag="right-delimiter">\right)</term>
         </expression>
-        <expression/>
-        <term prime-tag="letter" secondary-tags="Latin">n</term>
-        <term prime-tag="digit" secondary-tags="numeric">4</term>
         <term prime-tag="letter" secondary-tags="Latin">x</term>
         <expression prime-tag="caret" secondary-tags="superscript_operation">
           <expression prime-tag="sequence" secondary-tags="superscript">
@@ -69,16 +65,14 @@
     <expression prime-tag="balanced-expression">
       <term prime-tag="left-delimiter">\left(</term>
       <expression prime-tag="sequence">
-        <term prime-tag="latex-command">\genfrac</term>
-        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-        <expression prime-tag="sequence">
-          <term prime-tag="numeric">0.0</term>
-          <term prime-tag="alphanumeric">pt</term>
+        <expression prime-tag="balanced-expression">
+          <term prime-tag="left-delimiter">\left(</term>
+          <expression prime-tag="fraction">
+            <term prime-tag="letter" secondary-tags="Latin">n</term>
+            <term prime-tag="digit" secondary-tags="numeric">1</term>
+          </expression>
+          <term prime-tag="right-delimiter">\right)</term>
         </expression>
-        <expression/>
-        <term prime-tag="letter" secondary-tags="Latin">n</term>
-        <term prime-tag="digit" secondary-tags="numeric">1</term>
         <term prime-tag="letter" secondary-tags="Latin">x</term>
         <expression prime-tag="caret" secondary-tags="superscript_operation">
           <expression prime-tag="sequence" secondary-tags="superscript">
@@ -89,16 +83,14 @@
         </expression>
         <term prime-tag="letter" secondary-tags="Latin">y</term>
         <term prime-tag="minus">-</term>
-        <term prime-tag="latex-command">\genfrac</term>
-        <term prime-tag="left parenthesis" secondary-tags="opening delimiter">(</term>
-        <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-        <expression prime-tag="sequence">
-          <term prime-tag="numeric">0.0</term>
-          <term prime-tag="alphanumeric">pt</term>
+        <expression prime-tag="balanced-expression">
+          <term prime-tag="left-delimiter">\left(</term>
+          <expression prime-tag="fraction">
+            <term prime-tag="letter" secondary-tags="Latin">n</term>
+            <term prime-tag="digit" secondary-tags="numeric">3</term>
+          </expression>
+          <term prime-tag="right-delimiter">\right)</term>
         </expression>
-        <expression/>
-        <term prime-tag="letter" secondary-tags="Latin">n</term>
-        <term prime-tag="digit" secondary-tags="numeric">3</term>
         <term prime-tag="letter" secondary-tags="Latin">x</term>
         <expression prime-tag="caret" secondary-tags="superscript_operation">
           <expression prime-tag="sequence" secondary-tags="superscript">

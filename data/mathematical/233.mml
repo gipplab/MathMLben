@@ -30,9 +30,7 @@
                <mo>∥</mo>
             </mrow>
          </mfrac>
-         <mo>,</mo>
          <mi>…</mi>
-         <mo>,</mo>
          <msub>
             <mi>α</mi> 
             <mrow>
@@ -47,7 +45,7 @@
                <mi>X</mi>
                <mo stretchy="false">(</mo>
                <msub>
-                  <mi>τ</mi> 
+                  <mi>α</mi> 
                   <mrow>
                      <mi>j</mi>
                      <mo>+</mo>
@@ -115,6 +113,6 @@
             </mrow>
          </mfrac>
       </mrow>
-      <annotation encoding="application/x-tex">\alpha_{1}=\frac{X(\tau_{1})y}{\parallel X(\tau_{1})\parallel},\dots,\alpha_{j+1}=\frac{X(\tau_{j+1})y}{\parallel X(\tau_{j+1})\parallel},\alpha_{j+2}=\frac{X(\tau_{j+2})y}{\parallel X(\tau_{j+2})\parallel}</annotation>
+      <annotation encoding="application/x-tex">\alpha_{1}=\frac{X(\tau_{1})y}{\parallel X(\tau_{1})\parallel} \dots \alpha_{j+1} = \frac{X(\alpha_{j+1})y}{\parallel X(\tau_{j+1})\parallel},\alpha_{j+2}=\frac{X(\tau_{j+2})y}{\parallel X(\tau_{j+2})\parallel}</annotation>
    </semantics>
 </math>

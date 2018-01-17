@@ -1,54 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
    <mrow xmlns="">
+      <msup>
+         <mi>cos</mi>
+         <mn>2</mn>
+      </msup>
       <mrow>
-         <msup>
-            <mi>cos</mi>
-            <mn>2</mn>
-         </msup>
+         <mo form="prefix">(</mo>
+         <mi>u</mi>
+         <mo form="postfix">)</mo>
       </mrow>
-      <mi>u</mi>
       <mo>-</mo>
+      <msup>
+         <mi>cos</mi>
+         <mn>2</mn>
+      </msup>
       <mrow>
-         <msup>
-            <mi>cos</mi>
-            <mn>2</mn>
-         </msup>
+         <mo form="prefix">(</mo>
+         <mi>v</mi>
+         <mo form="postfix">)</mo>
       </mrow>
-      <mi>v</mi>
       <mo>=</mo>
       <mo>-</mo>
       <mi>sin</mi>
       <mrow>
-         <mo fence="true"
-             form="prefix"
-             lspace="0em"
-             rspace="0.3em"
-             stretchy="true">(</mo>
+         <mo form="prefix">(</mo>
          <mi>u</mi>
          <mo>+</mo>
          <mi>v</mi>
-         <mo fence="true"
-             form="postfix"
-             lspace="0.3em"
-             rspace="0em"
-             stretchy="true">)</mo>
+         <mo form="postfix">)</mo>
       </mrow>
       <mi>sin</mi>
       <mrow>
-         <mo fence="true"
-             form="prefix"
-             lspace="0em"
-             rspace="0.3em"
-             stretchy="true">(</mo>
+         <mo form="prefix">(</mo>
          <mi>u</mi>
          <mo>-</mo>
          <mi>v</mi>
-         <mo fence="true"
-             form="postfix"
-             lspace="0.3em"
-             rspace="0em"
-             stretchy="true">)</mo>
+         <mo form="postfix">)</mo>
       </mrow>
    </mrow>
 </math>

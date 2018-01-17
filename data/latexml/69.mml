@@ -1,55 +1,11 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\eta=\frac{work\ done}{heat\ absorbed}=\frac{Q1-Q2}{Q1}" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="\eta=\frac{\text{work done}}{\text{heat absorbed}}=\frac{Q1-Q2}{Q1}" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">
       <mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">η</mi>
       <mo id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">=</mo>
       <mfrac id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">
-        <mrow id="p1.1.m1.1.3.2" xref="p1.1.m1.1.3.2.cmml">
-          <mi id="p1.1.m1.1.3.2.1" xref="p1.1.m1.1.3.2.1.cmml">w</mi>
-          <mo id="p1.1.m1.1.3.2.10" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.2.2" xref="p1.1.m1.1.3.2.2.cmml">o</mi>
-          <mo id="p1.1.m1.1.3.2.10a" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.2.3" xref="p1.1.m1.1.3.2.3.cmml">r</mi>
-          <mo id="p1.1.m1.1.3.2.10b" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mpadded width="+5pt" id="p1.1.m1.1.3.2.4" xref="p1.1.m1.1.3.2.4.cmml">
-            <mi id="p1.1.m1.1.3.2.4a" xref="p1.1.m1.1.3.2.4.cmml">k</mi>
-          </mpadded>
-          <mo id="p1.1.m1.1.3.2.10c" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.2.6" xref="p1.1.m1.1.3.2.6.cmml">d</mi>
-          <mo id="p1.1.m1.1.3.2.10d" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.2.7" xref="p1.1.m1.1.3.2.7.cmml">o</mi>
-          <mo id="p1.1.m1.1.3.2.10e" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.2.8" xref="p1.1.m1.1.3.2.8.cmml">n</mi>
-          <mo id="p1.1.m1.1.3.2.10f" xref="p1.1.m1.1.3.2.10.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.2.9" xref="p1.1.m1.1.3.2.9.cmml">e</mi>
-        </mrow>
-        <mrow id="p1.1.m1.1.3.3" xref="p1.1.m1.1.3.3.cmml">
-          <mi id="p1.1.m1.1.3.3.1" xref="p1.1.m1.1.3.3.1.cmml">h</mi>
-          <mo id="p1.1.m1.1.3.3.14" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.2" xref="p1.1.m1.1.3.3.2.cmml">e</mi>
-          <mo id="p1.1.m1.1.3.3.14a" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.3" xref="p1.1.m1.1.3.3.3.cmml">a</mi>
-          <mo id="p1.1.m1.1.3.3.14b" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mpadded width="+5pt" id="p1.1.m1.1.3.3.4" xref="p1.1.m1.1.3.3.4.cmml">
-            <mi id="p1.1.m1.1.3.3.4a" xref="p1.1.m1.1.3.3.4.cmml">t</mi>
-          </mpadded>
-          <mo id="p1.1.m1.1.3.3.14c" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.6" xref="p1.1.m1.1.3.3.6.cmml">a</mi>
-          <mo id="p1.1.m1.1.3.3.14d" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.7" xref="p1.1.m1.1.3.3.7.cmml">b</mi>
-          <mo id="p1.1.m1.1.3.3.14e" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.8" xref="p1.1.m1.1.3.3.8.cmml">s</mi>
-          <mo id="p1.1.m1.1.3.3.14f" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.9" xref="p1.1.m1.1.3.3.9.cmml">o</mi>
-          <mo id="p1.1.m1.1.3.3.14g" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.10" xref="p1.1.m1.1.3.3.10.cmml">r</mi>
-          <mo id="p1.1.m1.1.3.3.14h" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.11" xref="p1.1.m1.1.3.3.11.cmml">b</mi>
-          <mo id="p1.1.m1.1.3.3.14i" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.12" xref="p1.1.m1.1.3.3.12.cmml">e</mi>
-          <mo id="p1.1.m1.1.3.3.14j" xref="p1.1.m1.1.3.3.14.cmml">⁢</mo>
-          <mi id="p1.1.m1.1.3.3.13" xref="p1.1.m1.1.3.3.13.cmml">d</mi>
-        </mrow>
+        <mtext id="p1.1.m1.1.3.2" xref="p1.1.m1.1.3.2.cmml">work done</mtext>
+        <mtext id="p1.1.m1.1.3.3" xref="p1.1.m1.1.3.3.cmml">heat absorbed</mtext>
       </mfrac>
       <mo id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">=</mo>
       <mfrac id="p1.1.m1.1.5" xref="p1.1.m1.1.5.cmml">
@@ -81,32 +37,12 @@
           <ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝜂</ci>
           <apply id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3">
             <divide id="p1.1.m1.1.3.1.cmml" xref="p1.1.m1.1.3"/>
-            <apply id="p1.1.m1.1.3.2.cmml" xref="p1.1.m1.1.3.2">
-              <times id="p1.1.m1.1.3.2.10.cmml" xref="p1.1.m1.1.3.2.10"/>
-              <ci id="p1.1.m1.1.3.2.1.cmml" xref="p1.1.m1.1.3.2.1">𝑤</ci>
-              <ci id="p1.1.m1.1.3.2.2.cmml" xref="p1.1.m1.1.3.2.2">𝑜</ci>
-              <ci id="p1.1.m1.1.3.2.3.cmml" xref="p1.1.m1.1.3.2.3">𝑟</ci>
-              <ci id="p1.1.m1.1.3.2.4.cmml" xref="p1.1.m1.1.3.2.4">𝑘</ci>
-              <ci id="p1.1.m1.1.3.2.6.cmml" xref="p1.1.m1.1.3.2.6">𝑑</ci>
-              <ci id="p1.1.m1.1.3.2.7.cmml" xref="p1.1.m1.1.3.2.7">𝑜</ci>
-              <ci id="p1.1.m1.1.3.2.8.cmml" xref="p1.1.m1.1.3.2.8">𝑛</ci>
-              <ci id="p1.1.m1.1.3.2.9.cmml" xref="p1.1.m1.1.3.2.9">𝑒</ci>
-            </apply>
-            <apply id="p1.1.m1.1.3.3.cmml" xref="p1.1.m1.1.3.3">
-              <times id="p1.1.m1.1.3.3.14.cmml" xref="p1.1.m1.1.3.3.14"/>
-              <ci id="p1.1.m1.1.3.3.1.cmml" xref="p1.1.m1.1.3.3.1">ℎ</ci>
-              <ci id="p1.1.m1.1.3.3.2.cmml" xref="p1.1.m1.1.3.3.2">𝑒</ci>
-              <ci id="p1.1.m1.1.3.3.3.cmml" xref="p1.1.m1.1.3.3.3">𝑎</ci>
-              <ci id="p1.1.m1.1.3.3.4.cmml" xref="p1.1.m1.1.3.3.4">𝑡</ci>
-              <ci id="p1.1.m1.1.3.3.6.cmml" xref="p1.1.m1.1.3.3.6">𝑎</ci>
-              <ci id="p1.1.m1.1.3.3.7.cmml" xref="p1.1.m1.1.3.3.7">𝑏</ci>
-              <ci id="p1.1.m1.1.3.3.8.cmml" xref="p1.1.m1.1.3.3.8">𝑠</ci>
-              <ci id="p1.1.m1.1.3.3.9.cmml" xref="p1.1.m1.1.3.3.9">𝑜</ci>
-              <ci id="p1.1.m1.1.3.3.10.cmml" xref="p1.1.m1.1.3.3.10">𝑟</ci>
-              <ci id="p1.1.m1.1.3.3.11.cmml" xref="p1.1.m1.1.3.3.11">𝑏</ci>
-              <ci id="p1.1.m1.1.3.3.12.cmml" xref="p1.1.m1.1.3.3.12">𝑒</ci>
-              <ci id="p1.1.m1.1.3.3.13.cmml" xref="p1.1.m1.1.3.3.13">𝑑</ci>
-            </apply>
+            <mtext id="p1.1.m1.1.3.2.cmml" xref="p1.1.m1.1.3.2">
+              <span xmlns="http://www.w3.org/1999/xhtml" class="ltx_text" style="font-size:70%;">work done</span>
+            </mtext>
+            <mtext id="p1.1.m1.1.3.3.cmml" xref="p1.1.m1.1.3.3">
+              <span xmlns="http://www.w3.org/1999/xhtml" class="ltx_text" style="font-size:70%;">heat absorbed</span>
+            </mtext>
           </apply>
         </apply>
         <apply id="p1.1.m1.1.6c.cmml" xref="p1.1.m1.1.6">

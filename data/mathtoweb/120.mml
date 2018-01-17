@@ -72,44 +72,43 @@
             <mo>∞</mo>
          </munderover>
       </mstyle>
-      <mo fence="true"
-          form="prefix"
-          lspace="0em"
-          rspace="0.3em"
-          stretchy="true">(</mo>
-      <mn>1</mn>
-      <mo>-</mo>
-      <mfrac linethickness="1">
-         <mrow>
-            <msup>
-               <mi>z</mi>
-               <mn>2</mn>
-            </msup>
-         </mrow>
-         <mrow>
-            <msup>
-               <mrow>
-                  <msubsup>
-                     <mi>j</mi>
-                     <mrow>
-                        <mi>ν</mi>
-                        <mo>,</mo>
-                        <mi>k</mi>
-                     </mrow>
-                     <mo>′</mo>
-                  </msubsup>
-               </mrow>
-               <mrow>
-                  <mspace width="-16.0em"/>
+      <mrow>
+         <mo fence="true"
+             form="prefix"
+             lspace="0em"
+             rspace="0.3em"
+             stretchy="true">(</mo>
+         <mn>1</mn>
+         <mo>-</mo>
+         <mfrac linethickness="1">
+            <mrow>
+               <msup>
+                  <mi>z</mi>
                   <mn>2</mn>
-               </mrow>
-            </msup>
-         </mrow>
-      </mfrac>
-      <mo fence="true"
-          form="postfix"
-          lspace="0.3em"
-          rspace="0em"
-          stretchy="true">)</mo>
+               </msup>
+            </mrow>
+            <mrow>
+               <msup>
+                  <mrow>
+                     <msubsup>
+                        <mi>j</mi>
+                        <mrow>
+                           <mi>ν</mi>
+                           <mo>,</mo>
+                           <mi>k</mi>
+                        </mrow>
+                        <mo>′</mo>
+                     </msubsup>
+                  </mrow>
+                  <mn>2</mn>
+               </msup>
+            </mrow>
+         </mfrac>
+         <mo fence="true"
+             form="postfix"
+             lspace="0.3em"
+             rspace="0em"
+             stretchy="true">)</mo>
+      </mrow>
    </mrow>
 </math>

@@ -30,47 +30,25 @@
             <mn>1</mn>
          </mrow>
       </msubsup>
-      <mi>genfrac</mi>
-      <mrow>
-         <mi>&lt;</mi>
-      </mrow>
-      <mrow>
-         <mi>&gt;</mi>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mi>k</mi>
-      </mrow>
-      <mi>genfrac</mi>
-      <mrow>
+      <mi>⟨</mi>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mi>k</mi>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>k</mi>
-      </mrow>
-      <mrow>
-         <mi>n</mi>
-         <mo>−</mo>
-         <mi>m</mi>
-      </mrow>
+      </mfrac>
+      <mi>⟩</mi>
+      <mfrac>
+         <mrow>
+            <mi>k</mi>
+         </mrow>
+         <mrow>
+            <mi>n</mi>
+            <mo>−</mo>
+            <mi>m</mi>
+         </mrow>
+      </mfrac>
    </mrow>
 </math>

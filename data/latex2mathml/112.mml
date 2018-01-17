@@ -9,16 +9,18 @@
       </mrow>
       <mo>∼</mo>
       <mi>exp</mi>
-      <mo fence="true" form="prefix" stretchy="true">(</mo>
-      <mi>i</mi>
-      <mi>κ</mi>
-      <msup>
-         <mi>t</mi>
-         <mrow>
-            <mi>p</mi>
-         </mrow>
-      </msup>
-      <mo fence="true" form="postfix" stretchy="true">)</mo>
+      <mrow>
+         <mo>(</mo>
+         <mi>i</mi>
+         <mi>κ</mi>
+         <msup>
+            <mi>t</mi>
+            <mrow>
+               <mi>p</mi>
+            </mrow>
+         </msup>
+         <mo>)</mo>
+      </mrow>
       <msubsup>
          <mo>∑</mo>
          <mrow>

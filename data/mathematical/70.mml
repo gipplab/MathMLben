@@ -35,6 +35,6 @@
          <mi>d</mi>
          <mi>y</mi>
       </mrow>
-      <annotation encoding="application/x-tex">df = {\partial f \over \partial x}dx + {\partial f \over \partial y}dy = pdx + vdy</annotation>
+      <annotation encoding="application/x-tex">df = {\partial f \over \partial x}dx + {\partial f \over \partial y}dy = p dx + v dy</annotation>
    </semantics>
 </math>

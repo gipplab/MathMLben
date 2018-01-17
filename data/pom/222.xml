@@ -12,15 +12,7 @@
       <term prime-tag="digit" secondary-tags="numeric">2</term>
     </expression>
     <term prime-tag="relation">\geq</term>
-    <expression prime-tag="sequence">
-      <term prime-tag="latex-command">\mathchar</term>
-      <term prime-tag="numeric">22</term>
-      <term prime-tag="latex-command">\mkern</term>
-      <term prime-tag="minus">-</term>
-      <term prime-tag="numeric">9.0</term>
-      <term prime-tag="alphanumeric">mu</term>
-      <term prime-tag="latex-command">\lambda</term>
-    </expression>
+    <term prime-tag="latex-command">\lambda</term>
     <expression prime-tag="caret" secondary-tags="superscript_operation">
       <term prime-tag="digit" secondary-tags="numeric">2</term>
     </expression>

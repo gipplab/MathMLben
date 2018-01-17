@@ -37,6 +37,6 @@
          <mo>≠</mo>
          <mn>1</mn>
       </mrow>
-      <annotation encoding="application/x-tex">\frac{d}{dx}\left( \log_c x\right) = {1 \over x \ln c} , \qquad c &gt; 0, c \ne 1</annotation>
+      <annotation encoding="application/x-tex"> \frac{d}{dx}\left( \log_c x\right) = {1 \over x \ln c} , \qquad c &gt; 0, c \ne 1</annotation>
    </semantics>
 </math>

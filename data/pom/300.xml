@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">E</term>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="alphanumeric">mc</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+  </expression>
+</math>

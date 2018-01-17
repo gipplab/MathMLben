@@ -50,8 +50,6 @@
             <mi>!</mi>
          </mrow>
       </mfrac>
-      <mspace width="0.167em"/>
-      <mo>*</mo>
       <msubsup>
          <mo>∑</mo>
          <mrow>
@@ -83,8 +81,6 @@
             <mi>!</mi>
          </mrow>
       </mfrac>
-      <mspace width="0.167em"/>
-      <mo>*</mo>
       <mfrac>
          <mrow>
             <mrow>
@@ -141,8 +137,6 @@
             </mrow>
          </mrow>
       </mfrac>
-      <mspace width="0.167em"/>
-      <mo>*</mo>
       <mi>cos</mi>
       <mo fence="true" form="prefix" stretchy="true">(</mo>
       <mrow>

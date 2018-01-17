@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mi>l</mi>
-   <mi>o</mi>
-   <mi>g</mi>
-   <mo>&lt;</mo>
-   <mi>s</mi>
-   <mi>u</mi>
-   <mi>b</mi>
-   <mo>&gt;</mo>
-   <mn>10</mn>
-   <mo>&lt;</mo>
-   <mo>/</mo>
-   <mi>s</mi>
-   <mi>u</mi>
-   <mi>b</mi>
-   <mo>&gt;</mo>
+   <msub>
+      <mi>log</mi>
+      <mn>10</mn>
+   </msub>
    <mfenced close=")" open="(">
-      <mrow>
-         <msup>
-            <mi>'</mi>
-            <mi>'</mi>
-         </msup>
-         <msup>
-            <mi>x</mi>
-            <mi>'</mi>
-         </msup>
-         <mi>'</mi>
-      </mrow>
+      <mi>x</mi>
    </mfenced>
 </math>

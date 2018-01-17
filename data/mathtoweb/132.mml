@@ -64,8 +64,12 @@
                 rspace="0em"
                 stretchy="true">)</mo>
          </mrow>
-         <mi>\ifrac{1}<mn>2</mn>
-         </mi>
+         <mrow>
+            <mfrac linethickness="1">
+               <mn>1</mn>
+               <mn>2</mn>
+            </mfrac>
+         </mrow>
       </msup>
       <msub>
          <mi>G</mi>

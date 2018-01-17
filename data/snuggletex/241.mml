@@ -16,14 +16,16 @@
    <mo>×</mo>
    <mi mathvariant="script">L</mi>
    <mfenced close=")" open="(">
-      <msub>
-         <mi mathvariant="script">S</mi>
-         <mi>n</mi>
-      </msub>
-      <msub>
-         <mi mathvariant="script">S</mi>
-         <mi>m</mi>
-      </msub>
+      <mrow>
+         <msub>
+            <mi mathvariant="script">S</mi>
+            <mi>n</mi>
+         </msub>
+         <msub>
+            <mi mathvariant="script">S</mi>
+            <mi>m</mi>
+         </msub>
+      </mrow>
    </mfenced>
    <mo>→</mo>
    <mi mathvariant="script">L</mi>

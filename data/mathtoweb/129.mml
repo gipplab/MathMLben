@@ -108,7 +108,7 @@
          </mrow>
       </mfrac>
       <mo>+</mo>
-      <mi>O</mi>
+      <mi>𝒪</mi>
       <mrow>
          <mo fence="true"
              form="prefix"

@@ -37,6 +37,6 @@
          <mo>=</mo>
          <mn>0</mn>
       </mrow>
-      <annotation encoding="application/x-tex">\frac{D_g u_g}{Dt} - f_{0}v_a - \beta y v_g = 0</annotation>
+      <annotation encoding="application/x-tex"> \frac{D_g u_g}{Dt} - f_{0}v_a - \beta y v_g = 0 </annotation>
    </semantics>
 </math>

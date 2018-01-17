@@ -14,7 +14,6 @@
     <expression prime-tag="caret" secondary-tags="superscript_operation">
       <expression prime-tag="sequence" secondary-tags="superscript">
         <term prime-tag="letter" secondary-tags="Latin">i</term>
-        <term prime-tag="controlled space">\!</term>
         <term prime-tag="latex-command">\phi</term>
         <expression prime-tag="underscore" secondary-tags="subscript_operation">
           <term prime-tag="latex-command">\nu</term>

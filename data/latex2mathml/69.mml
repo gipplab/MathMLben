@@ -5,30 +5,34 @@
       <mo>=</mo>
       <mfrac>
          <mrow>
-            <mi>w</mi>
-            <mi>o</mi>
-            <mi>r</mi>
-            <mi>k</mi>
-            <mspace width="0.167em"/>
-            <mi>d</mi>
-            <mi>o</mi>
-            <mi>n</mi>
-            <mi>e</mi>
+            <mi>text</mi>
+            <mrow>
+               <mi>w</mi>
+               <mi>o</mi>
+               <mi>r</mi>
+               <mi>k</mi>
+               <mi>d</mi>
+               <mi>o</mi>
+               <mi>n</mi>
+               <mi>e</mi>
+            </mrow>
          </mrow>
          <mrow>
-            <mi>h</mi>
-            <mi>e</mi>
-            <mi>a</mi>
-            <mi>t</mi>
-            <mspace width="0.167em"/>
-            <mi>a</mi>
-            <mi>b</mi>
-            <mi>s</mi>
-            <mi>o</mi>
-            <mi>r</mi>
-            <mi>b</mi>
-            <mi>e</mi>
-            <mi>d</mi>
+            <mi>text</mi>
+            <mrow>
+               <mi>h</mi>
+               <mi>e</mi>
+               <mi>a</mi>
+               <mi>t</mi>
+               <mi>a</mi>
+               <mi>b</mi>
+               <mi>s</mi>
+               <mi>o</mi>
+               <mi>r</mi>
+               <mi>b</mi>
+               <mi>e</mi>
+               <mi>d</mi>
+            </mrow>
          </mrow>
       </mfrac>
       <mo>=</mo>

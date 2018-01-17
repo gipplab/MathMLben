@@ -5,12 +5,10 @@
          <mi>x</mi>
          <mo>+</mo>
          <mi>y</mi>
-         <merror>
-            <mtext>Unknown character</mtext>
-         </merror>
+         <mo>&gt;</mo>
          <mn>2</mn>
          <mi>n</mi>
       </mrow>
-      <annotation encoding="application/x-tex">x+y&gt;2n</annotation>
+      <annotation encoding="application/x-tex">x+y &gt; 2n</annotation>
    </semantics>
 </math>

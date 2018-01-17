@@ -26,46 +26,18 @@
          <mn>1</mn>
       </mrow>
    </msubsup>
-   <mrow>
-      <mo>&lt;</mo>
-   </mrow>
-   <mrow>
-      <mo>&gt;</mo>
-   </mrow>
-   <mrow>
-      <mn>0.0</mn>
-      <mi>p</mi>
-      <mi>t</mi>
-   </mrow>
-   <mrow/>
-   <mrow>
-      <mi>n</mi>
-   </mrow>
-   <mrow>
+   <mfenced close="⟩" open="⟨">
+      <mfrac>
+         <mi>n</mi>
+         <mi>k</mi>
+      </mfrac>
+   </mfenced>
+   <mfrac>
       <mi>k</mi>
-   </mrow>
-   <mrow>
       <mrow>
-         <mo>(</mo>
+         <mi>n</mi>
+         <mo>-</mo>
+         <mi>m</mi>
       </mrow>
-   </mrow>
-   <mrow>
-      <mrow>
-         <mo>)</mo>
-      </mrow>
-   </mrow>
-   <mrow>
-      <mn>0.0</mn>
-      <mi>p</mi>
-      <mi>t</mi>
-   </mrow>
-   <mrow/>
-   <mrow>
-      <mi>k</mi>
-   </mrow>
-   <mrow>
-      <mi>n</mi>
-      <mo>-</mo>
-      <mi>m</mi>
-   </mrow>
+   </mfrac>
 </math>

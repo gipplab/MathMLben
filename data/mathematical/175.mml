@@ -164,40 +164,28 @@
             <mo>+</mo>
             <mn>8</mn>
             <mo>!</mo>
+            <mfrac>
+               <mi>m</mi>
+               <mn>8</mn>
+            </mfrac>
+            <msub>
+               <mi>D</mi> 
+               <mrow>
+                  <mi>m</mi>
+                  <mo>−</mo>
+                  <mn>8</mn>
+               </mrow>
+            </msub>
             <mrow>
-               <mstyle displaystyle="true" scriptlevel="0">
-                  <mrow>
-                     <mrow>
-                        <mo maxsize="2.047em" minsize="2.047em">(</mo>
-                     </mrow>
-                     <mfrac linethickness="0.0pt">
-                        <mi>m</mi>
-                        <mn>8</mn>
-                        <msub>
-                           <mi>D</mi> 
-                           <mrow>
-                              <mi>m</mi>
-                              <mo>−</mo>
-                              <mn>8</mn>
-                           </mrow>
-                        </msub>
-                        <mrow>
-                           <mo>(</mo>
-                           <mi>ξ</mi>
-                           <mo>)</mo>
-                        </mrow>
-                     </mfrac>
-                     <mrow>
-                        <mo maxsize="2.047em" minsize="2.047em">)</mo>
-                     </mrow>
-                  </mrow>
-               </mstyle>
+               <mo>(</mo>
+               <mi>ξ</mi>
+               <mo>)</mo>
             </mrow>
             <mo>)</mo>
          </mrow>
          <mo>+</mo>
          <mi>⋯</mi>
       </mrow>
-      <annotation encoding="application/x-tex">U_{m}(\xi)\sim D_{m}\left(\xi\right)-\frac{1}{2^{6}h}\left(D_{m+4}\left(\xi\right)-4!\dbinom{m}{4}D_{m-4}\left(\xi\right)\right)+\frac{1}{2^{13}h^{2}}\left(D_{m+8}\left(\xi\right)-2^{5}(m+2)D_{m+4}\left(\xi\right)+4!\,2^{5}(m-1)\dbinom{m}{4}D_{m-4}\left(\xi\right)+8!\genfrac{(}{)}{0.0pt}{}{m}{8}D_{m-8}\left(\xi\right)\right)+\cdots</annotation>
+      <annotation encoding="application/x-tex">U_{m}(\xi)\sim D_{m}\left(\xi\right)-\frac{1}{2^{6}h}\left(D_{m+4}\left(\xi\right)-4!\dbinom{m}{4}D_{m-4}\left(\xi\right)\right)+\frac{1}{2^{13}h^{2}}\left(D_{m+8}\left(\xi\right)-2^{5}(m+2)D_{m+4}\left(\xi\right)+4!\,2^{5}(m-1)\dbinom{m}{4}D_{m-4}\left(\xi\right)+8! \frac{m}{8} D_{m-8}\left(\xi\right)\right) + \cdots</annotation>
    </semantics>
 </math>

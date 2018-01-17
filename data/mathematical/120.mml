@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+   <semantics xmlns="">
+      <mrow>
+         <msub>
+            <mi>J</mi> 
+            <mi>ν</mi>
+         </msub>
+         <mo>′</mo>
+         <mrow>
+            <mo>(</mo>
+            <mi>z</mi>
+            <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mfrac>
+            <mrow>
+               <mo stretchy="false">(</mo>
+               <mstyle displaystyle="false">
+                  <mfrac>
+                     <mn>1</mn>
+                     <mn>2</mn>
+                  </mfrac>
+               </mstyle>
+               <mi>z</mi>
+               <msup>
+                  <mo stretchy="false">)</mo> 
+                  <mrow>
+                     <mi>ν</mi>
+                     <mo>−</mo>
+                     <mn>1</mn>
+                  </mrow>
+               </msup>
+            </mrow>
+            <mrow>
+               <mn>2</mn>
+               <mi>Γ</mi>
+               <mrow>
+                  <mo>(</mo>
+                  <mi>ν</mi>
+                  <mo>)</mo>
+               </mrow>
+            </mrow>
+         </mfrac>
+         <munderover>
+            <mo>∏</mo> 
+            <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+            </mrow> 
+            <mn>∞</mn>
+         </munderover>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mfrac>
+               <mrow>
+                  <msup>
+                     <mi>z</mi> 
+                     <mn>2</mn>
+                  </msup>
+               </mrow>
+               <mrow>
+                  <msup>
+                     <mrow>
+                        <msubsup>
+                           <mi>j</mi> 
+                           <mrow>
+                              <mi>ν</mi>
+                              <mo>,</mo>
+                              <mi>k</mi>
+                           </mrow> 
+                           <mstyle scriptlevel="0">
+                              <mo>′</mo>
+                           </mstyle>
+                        </msubsup>
+                     </mrow> 
+                     <mn>2</mn>
+                  </msup>
+               </mrow>
+            </mfrac>
+            <mo>)</mo>
+         </mrow>
+      </mrow>
+      <annotation encoding="application/x-tex">J_{\nu}'\left(z\right)=\frac{(\tfrac{1}{2}z)^{\nu-1}}{2\Gamma\left(\nu\right)}\prod_{k=1}^{\infty}\left(1-\frac{z^{2}}{{{j^{\prime}_{\nu,k}}^{2}}}\right)</annotation>
+   </semantics>
+</math>

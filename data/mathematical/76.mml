@@ -25,6 +25,6 @@
             <mi>t</mi>
          </msub>
       </mrow>
-      <annotation encoding="application/x-tex">z_{t} = \lambda_{1}z_{t-1} + \varepsilon_{t}</annotation>
+      <annotation encoding="application/x-tex"> z_{t} = \lambda_{1}z_{t-1} + \varepsilon_{t} </annotation>
    </semantics>
 </math>

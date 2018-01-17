@@ -54,7 +54,7 @@
             </mrow>
             <mo>!</mo>
          </mrow>
-      </mfrac>\<mo>*</mo>
+      </mfrac>
       <mstyle displaystyle="true">
          <munderover>
             <mo>∑</mo>
@@ -85,7 +85,7 @@
             <mi>k</mi>
             <mo>!</mo>
          </mrow>
-      </mfrac>\<mo>*</mo>
+      </mfrac>
       <mfrac linethickness="1">
          <mrow>
             <mrow>
@@ -141,7 +141,7 @@
                <mo form="postfix">)</mo>
             </mrow>
          </mrow>
-      </mfrac>\<mo>*</mo>
+      </mfrac>
       <mi>cos</mi>
       <mrow>
          <mo fence="true"

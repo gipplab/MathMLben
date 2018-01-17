@@ -113,6 +113,6 @@
             </mrow>
          </mfrac>
       </mrow>
-      <annotation encoding="application/x-tex">a_0 + \cfrac{b_1}{a_1 + \cfrac{b_2}{a_2 + \cfrac{b_3}{a_3 + {_{\ddots}}}}}</annotation>
+      <annotation encoding="application/x-tex">a_0 + \cfrac{b_1}{a_1 + \cfrac{b_2}{a_2 + \cfrac{b_3}{a_3 + {_\ddots}}}}</annotation>
    </semantics>
 </math>

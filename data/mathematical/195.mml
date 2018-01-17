@@ -10,7 +10,6 @@
             <mo>(</mo>
             <mi>π</mi>
             <mi>z</mi>
-            <mo lspace="0em" rspace="thinmathspace">middle</mo>
             <mo stretchy="false">|</mo>
             <mi>τ</mi>
             <mo>)</mo>
@@ -23,7 +22,6 @@
          <mrow>
             <mo>(</mo>
             <mn>0</mn>
-            <mo lspace="0em" rspace="thinmathspace">middle</mo>
             <mo stretchy="false">|</mo>
             <mi>τ</mi>
             <mo>)</mo>
@@ -68,6 +66,6 @@
             <mo>)</mo>
          </mrow>
       </mrow>
-      <annotation encoding="application/x-tex">\theta_{3}\left(\pi z\middle|\tau\right)=\theta_{3}\left(0\middle|\tau\right)\exp\left(-\sum_{j=1}^{\infty}\frac{1}{2j}\beta_{2j}(\tau)z^{2j}\right)</annotation>
+      <annotation encoding="application/x-tex">\theta_{3}\left(\pi z | \tau\right)=\theta_{3}\left(0 | \tau\right)\exp\left(-\sum_{j=1}^{\infty}\frac{1}{2j}\beta_{2j}(\tau)z^{2j}\right)</annotation>
    </semantics>
 </math>

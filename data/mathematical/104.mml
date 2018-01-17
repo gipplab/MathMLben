@@ -15,64 +15,48 @@
             </msup>
             <mo>−</mo>
             <mrow>
-               <mstyle displaystyle="true" scriptlevel="0">
-                  <mrow>
-                     <mrow>
-                        <mo maxsize="2.047em" minsize="2.047em">(</mo>
-                     </mrow>
-                     <mfrac linethickness="0.0pt">
-                        <mi>n</mi>
-                        <mn>2</mn>
-                        <msup>
-                           <mi>x</mi> 
-                           <mrow>
-                              <mi>n</mi>
-                              <mo>−</mo>
-                              <mn>2</mn>
-                           </mrow>
-                        </msup>
-                        <msup>
-                           <mi>y</mi> 
-                           <mn>2</mn>
-                        </msup>
-                        <mo>+</mo>
-                        <mrow>
-                           <mstyle displaystyle="true" scriptlevel="0">
-                              <mrow>
-                                 <mrow>
-                                    <mo maxsize="2.047em" minsize="2.047em">(</mo>
-                                 </mrow>
-                                 <mfrac linethickness="0.0pt">
-                                    <mi>n</mi>
-                                    <mn>4</mn>
-                                    <msup>
-                                       <mi>x</mi> 
-                                       <mrow>
-                                          <mi>n</mi>
-                                          <mo>−</mo>
-                                          <mn>4</mn>
-                                       </mrow>
-                                    </msup>
-                                    <msup>
-                                       <mi>y</mi> 
-                                       <mn>4</mn>
-                                    </msup>
-                                    <mo>−</mo>
-                                    <mi>⋯</mi>
-                                 </mfrac>
-                                 <mrow>
-                                    <mo maxsize="2.047em" minsize="2.047em">)</mo>
-                                 </mrow>
-                              </mrow>
-                           </mstyle>
-                        </mrow>
-                     </mfrac>
-                     <mrow>
-                        <mo maxsize="2.047em" minsize="2.047em">)</mo>
-                     </mrow>
-                  </mrow>
-               </mstyle>
+               <mo>(</mo>
+               <mfrac>
+                  <mi>n</mi>
+                  <mn>2</mn>
+               </mfrac>
+               <mo>)</mo>
             </mrow>
+            <msup>
+               <mi>x</mi> 
+               <mrow>
+                  <mi>n</mi>
+                  <mo>−</mo>
+                  <mn>2</mn>
+               </mrow>
+            </msup>
+            <msup>
+               <mi>y</mi> 
+               <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <mrow>
+               <mo>(</mo>
+               <mfrac>
+                  <mi>n</mi>
+                  <mn>4</mn>
+               </mfrac>
+               <mo>)</mo>
+            </mrow>
+            <msup>
+               <mi>x</mi> 
+               <mrow>
+                  <mi>n</mi>
+                  <mo>−</mo>
+                  <mn>4</mn>
+               </mrow>
+            </msup>
+            <msup>
+               <mi>y</mi> 
+               <mn>4</mn>
+            </msup>
+            <mo>−</mo>
+            <mi>⋯</mi>
             <mo>)</mo>
          </mrow>
          <mo>+</mo>
@@ -80,64 +64,48 @@
          <mrow>
             <mo>(</mo>
             <mrow>
-               <mstyle displaystyle="true" scriptlevel="0">
-                  <mrow>
-                     <mrow>
-                        <mo maxsize="2.047em" minsize="2.047em">(</mo>
-                     </mrow>
-                     <mfrac linethickness="0.0pt">
-                        <mi>n</mi>
-                        <mn>1</mn>
-                        <msup>
-                           <mi>x</mi> 
-                           <mrow>
-                              <mi>n</mi>
-                              <mo>−</mo>
-                              <mn>1</mn>
-                           </mrow>
-                        </msup>
-                        <mi>y</mi>
-                        <mo>−</mo>
-                        <mrow>
-                           <mstyle displaystyle="true" scriptlevel="0">
-                              <mrow>
-                                 <mrow>
-                                    <mo maxsize="2.047em" minsize="2.047em">(</mo>
-                                 </mrow>
-                                 <mfrac linethickness="0.0pt">
-                                    <mi>n</mi>
-                                    <mn>3</mn>
-                                    <msup>
-                                       <mi>x</mi> 
-                                       <mrow>
-                                          <mi>n</mi>
-                                          <mo>−</mo>
-                                          <mn>3</mn>
-                                       </mrow>
-                                    </msup>
-                                    <msup>
-                                       <mi>y</mi> 
-                                       <mn>3</mn>
-                                    </msup>
-                                    <mo>+</mo>
-                                    <mi>⋯</mi>
-                                 </mfrac>
-                                 <mrow>
-                                    <mo maxsize="2.047em" minsize="2.047em">)</mo>
-                                 </mrow>
-                              </mrow>
-                           </mstyle>
-                        </mrow>
-                     </mfrac>
-                     <mrow>
-                        <mo maxsize="2.047em" minsize="2.047em">)</mo>
-                     </mrow>
-                  </mrow>
-               </mstyle>
+               <mo>(</mo>
+               <mfrac>
+                  <mi>n</mi>
+                  <mn>1</mn>
+               </mfrac>
+               <mo>)</mo>
             </mrow>
+            <msup>
+               <mi>x</mi> 
+               <mrow>
+                  <mi>n</mi>
+                  <mo>−</mo>
+                  <mn>1</mn>
+               </mrow>
+            </msup>
+            <mi>y</mi>
+            <mo>−</mo>
+            <mrow>
+               <mo>(</mo>
+               <mfrac>
+                  <mi>n</mi>
+                  <mn>3</mn>
+               </mfrac>
+               <mo>)</mo>
+            </mrow>
+            <msup>
+               <mi>x</mi> 
+               <mrow>
+                  <mi>n</mi>
+                  <mo>−</mo>
+                  <mn>3</mn>
+               </mrow>
+            </msup>
+            <msup>
+               <mi>y</mi> 
+               <mn>3</mn>
+            </msup>
+            <mo>+</mo>
+            <mi>⋯</mi>
             <mo>)</mo>
          </mrow>
       </mrow>
-      <annotation encoding="application/x-tex">z^{n}=\left(x^{n}-\genfrac{(}{)}{0.0pt}{}{n}{2}x^{n-2}y^{2}+\genfrac{(}{)}{0.0pt}{}{n}{4}x^{n-4}y^{4}-\cdots\right)+i\left(\genfrac{(}{)}{0.0pt}{}{n}{1}x^{n-1}y-\genfrac{(}{)}{0.0pt}{}{n}{3}x^{n-3}y^{3}+\cdots\right)</annotation>
+      <annotation encoding="application/x-tex">z^{n}=\left(x^{n}-\left(\frac{n}{2}\right)x^{n-2}y^{2}+\left(\frac{n}{4}\right)x^{n-4}y^{4}-\cdots\right)+i\left(\left(\frac{n}{1}\right)x^{n-1}y-\left(\frac{n}{3}\right)x^{n-3}y^{3}+\cdots\right)</annotation>
    </semantics>
 </math>

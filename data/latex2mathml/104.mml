@@ -16,27 +16,16 @@
          </mrow>
       </msup>
       <mo>−</mo>
-      <mi>genfrac</mi>
-      <mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mn>2</mn>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mn>2</mn>
-      </mrow>
+      </mfrac>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
       <msup>
          <mi>x</mi>
          <mrow>
@@ -52,27 +41,16 @@
          </mrow>
       </msup>
       <mo>+</mo>
-      <mi>genfrac</mi>
-      <mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mn>4</mn>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mn>4</mn>
-      </mrow>
+      </mfrac>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
       <msup>
          <mi>x</mi>
          <mrow>
@@ -93,27 +71,16 @@
       <mo>+</mo>
       <mi>i</mi>
       <mo fence="true" form="prefix" stretchy="true">(</mo>
-      <mi>genfrac</mi>
-      <mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mn>1</mn>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mn>1</mn>
-      </mrow>
+      </mfrac>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
       <msup>
          <mi>x</mi>
          <mrow>
@@ -124,27 +91,16 @@
       </msup>
       <mi>y</mi>
       <mo>−</mo>
-      <mi>genfrac</mi>
-      <mrow>
+      <mo fence="true" form="prefix" stretchy="true">(</mo>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>n</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mn>3</mn>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>n</mi>
-      </mrow>
-      <mrow>
-         <mn>3</mn>
-      </mrow>
+      </mfrac>
+      <mo fence="true" form="postfix" stretchy="true">)</mo>
       <msup>
          <mi>x</mi>
          <mrow>

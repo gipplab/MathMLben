@@ -39,9 +39,7 @@
             <mo>∥</mo>
          </mrow>
       </mfrac>
-      <mi>,</mi>
       <mi>dots</mi>
-      <mi>,</mi>
       <msub>
          <mi>α</mi>
          <mrow>
@@ -57,7 +55,7 @@
             <mrow>
                <mo>(</mo>
                <msub>
-                  <mi>τ</mi>
+                  <mi>α</mi>
                   <mrow>
                      <mi>j</mi>
                      <mo>+</mo>

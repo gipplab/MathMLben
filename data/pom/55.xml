@@ -15,6 +15,5 @@
     <term prime-tag="comma" secondary-tags="punctuation">,</term>
     <term prime-tag="letter" secondary-tags="Latin">y</term>
     <term prime-tag="right parenthesis" secondary-tags="closing delimiter">)</term>
-    <term prime-tag="controlled space">\,</term>
   </expression>
 </math>

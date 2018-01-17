@@ -2,13 +2,31 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
    <semantics xmlns="">
       <mrow>
-         <mi>t</mi>
+         <mfrac>
+            <mrow>
+               <mi>d</mi>
+               <mi>P</mi>
+            </mrow>
+            <mrow>
+               <mi>d</mi>
+               <mi>t</mi>
+            </mrow>
+         </mfrac>
+         <mo>=</mo>
          <mi>r</mi>
-         <mi>e</mi>
-         <mi>e</mi>
-         <mo>:</mo>
-         <mo>⋆</mo>
+         <mi>P</mi>
+         <mo>⋅</mo>
+         <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <mfrac>
+               <mi>P</mi>
+               <mi>K</mi>
+            </mfrac>
+            <mo>)</mo>
+         </mrow>
       </mrow>
-      <annotation encoding="application/x-tex">tree:\star</annotation>
+      <annotation encoding="application/x-tex">\frac{dP}{dt}=r P \cdot \left(1 - \frac{P}{K}\right)</annotation>
    </semantics>
 </math>

@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <math type="pom-exported">
   <expression prime-tag="sequence">
-    <term prime-tag="letter" secondary-tags="Latin">w</term>
-    <term prime-tag="equals">=</term>
     <term prime-tag="latex-command">\operatorname</term>
     <term prime-tag="alphanumeric">Arcsinh</term>
     <term prime-tag="letter" secondary-tags="Latin">z</term>

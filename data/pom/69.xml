@@ -4,16 +4,8 @@
     <term prime-tag="latex-command">\eta</term>
     <term prime-tag="equals">=</term>
     <expression prime-tag="fraction">
-      <expression prime-tag="sequence" secondary-tags="numerator">
-        <term prime-tag="alphanumeric">work</term>
-        <term prime-tag="controlled space">\ </term>
-        <term prime-tag="alphanumeric">done</term>
-      </expression>
-      <expression prime-tag="sequence" secondary-tags="denominator">
-        <term prime-tag="alphanumeric">heat</term>
-        <term prime-tag="controlled space">\ </term>
-        <term prime-tag="alphanumeric">absorbed</term>
-      </expression>
+      <term prime-tag="text">work done</term>
+      <term prime-tag="text">heat absorbed</term>
     </expression>
     <term prime-tag="equals">=</term>
     <expression prime-tag="fraction">

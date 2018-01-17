@@ -16,8 +16,7 @@
          <mo>,</mo>
          <mi>y</mi>
          <mo stretchy="false">)</mo>
-         <mspace width="thinmathspace"/>
       </mrow>
-      <annotation encoding="application/x-tex">\sum_x \sum_y I(x,y) \,</annotation>
+      <annotation encoding="application/x-tex">\sum_x \sum_y I(x,y)</annotation>
    </semantics>
 </math>

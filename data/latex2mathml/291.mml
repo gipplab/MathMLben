@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <math>
    <mrow>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mi>'</mi>
       <mi>F</mi>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mrow>
-         <mrow>
-            <mo>=</mo>
-         </mrow>
-      </mrow>
-      <mi>'</mi>
-      <mi>'</mi>
+      <mo>=</mo>
       <mi>m</mi>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mi>'</mi>
       <mi>a</mi>
-      <mi>'</mi>
-      <mi>'</mi>
-      <mi>'</mi>
    </mrow>
 </math>

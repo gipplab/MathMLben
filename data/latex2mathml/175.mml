@@ -166,27 +166,14 @@
       <mo>+</mo>
       <mn>8</mn>
       <mi>!</mi>
-      <mi>genfrac</mi>
-      <mrow>
+      <mfrac>
          <mrow>
-            <mo>(</mo>
+            <mi>m</mi>
          </mrow>
          <mrow>
-            <mo>)</mo>
+            <mn>8</mn>
          </mrow>
-      </mrow>
-      <mrow>
-         <mn>0.0</mn>
-         <mi>p</mi>
-         <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mrow>
-         <mi>m</mi>
-      </mrow>
-      <mrow>
-         <mn>8</mn>
-      </mrow>
+      </mfrac>
       <msub>
          <mi>D</mi>
          <mrow>

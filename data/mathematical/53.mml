@@ -28,6 +28,6 @@
             <mn>2</mn>
          </msup>
       </mrow>
-      <annotation encoding="application/x-tex">E \left[ \hat{\sigma}^2\right]= \frac{n-1}{n} \sigma^2</annotation>
+      <annotation encoding="application/x-tex">E \left[ \hat{\sigma}^2\right] = \frac{n-1}{n} \sigma^2</annotation>
    </semantics>
 </math>

@@ -27,14 +27,6 @@
             <mi>ν</mi>
          </msub>
          <mo>−</mo>
-         <mtext>
-            <mrow>
-               <mi>s</mi>
-               <mi>i</mi>
-               <mi>g</mi>
-               <mi>n</mi>
-            </mrow>
-         </mtext>
          <mo stretchy="false">⟨</mo>
          <msub>
             <mover>
@@ -43,7 +35,6 @@
             </mover> 
             <mi>ν</mi>
          </msub>
-         <mo>,</mo>
          <msub>
             <mi>θ</mi> 
             <mi>ν</mi>
@@ -58,6 +49,6 @@
             <mn>2</mn>
          </msup>
       </mrow>
-      <annotation encoding="application/x-tex">L(\widehat{\theta}_{\nu},\theta_{\nu})=\parallel\widehat{\theta}_{\nu}-\mbox{sign}\langle\widehat{\theta}_{\nu},\theta_{\nu}\rangle\theta_{\nu}\parallel^{2}</annotation>
+      <annotation encoding="application/x-tex">L(\widehat{\theta}_{\nu},\theta_{\nu})=\parallel\widehat{\theta}_{\nu}-\langle\widehat{\theta}_{\nu} \theta_{\nu}\rangle\theta_{\nu}\parallel^{2}</annotation>
    </semantics>
 </math>

@@ -98,7 +98,6 @@
         <term prime-tag="digit" secondary-tags="numeric">1</term>
       </expression>
     </expression>
-    <term prime-tag="escaped symbol" secondary-tags="ignored">\*</term>
     <term prime-tag="letter" secondary-tags="Latin">M</term>
     <expression prime-tag="underscore" secondary-tags="subscript_operation">
       <expression prime-tag="sequence" secondary-tags="subscript">

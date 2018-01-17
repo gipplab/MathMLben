@@ -2,7 +2,7 @@
 <math type="pom-exported">
   <expression prime-tag="sequence">
     <term prime-tag="letter" secondary-tags="Latin">p</term>
-    <term prime-tag="relation">\Leftrightarrow</term>
+    <term prime-tag="relation">\iff</term>
     <term prime-tag="letter" secondary-tags="Latin">q</term>
   </expression>
 </math>

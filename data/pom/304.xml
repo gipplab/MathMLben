@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<math type="pom-exported">
+  <expression prime-tag="sequence">
+    <term prime-tag="letter" secondary-tags="Latin">a</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="plus">+</term>
+    <term prime-tag="letter" secondary-tags="Latin">b</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+    <term prime-tag="equals">=</term>
+    <term prime-tag="letter" secondary-tags="Latin">c</term>
+    <expression prime-tag="caret" secondary-tags="superscript_operation">
+      <term prime-tag="digit" secondary-tags="numeric">2</term>
+    </expression>
+  </expression>
+</math>

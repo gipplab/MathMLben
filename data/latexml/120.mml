@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="J_{\nu}^{\prime}\left(z\right)=\frac{(\tfrac{1}{2}z)^{\nu-1}}{2\Gamma\left(\nu%&#10;\right)}\prod_{k=1}^{\infty}\left(1-\frac{z^{2}}{{{j^{\prime}_{\nu,k}}^{%&#10;\mspace{-16.0mu }2}}}\right)" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="J_{\nu}^{\prime}\left(z\right)=\frac{(\tfrac{1}{2}z)^{\nu-1}}{2\Gamma\left(\nu%&#10;\right)}\prod_{k=1}^{\infty}\left(1-\frac{z^{2}}{{{j^{\prime}_{\nu,k}}^{2}}}\right)" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.17" xref="p1.1.m1.1.17.cmml">
       <mrow id="p1.1.m1.1.17.1" xref="p1.1.m1.1.17.1.cmml">
@@ -80,9 +80,7 @@
                   </mrow>
                   <mo id="p1.1.m1.1.15.3.2.1" xref="p1.1.m1.1.15.3.2.1.cmml">′</mo>
                   <none id="p1.1.m1.1.15.3a" xref="p1.1.m1.1.15.3.cmml"/>
-                  <mpadded lspace="-8.9pt" width="-8.9pt" id="p1.1.m1.1.15.3.4.1" xref="p1.1.m1.1.15.3.4.1.cmml">
-                    <mn id="p1.1.m1.1.15.3.4.1a" xref="p1.1.m1.1.15.3.4.1.cmml">2</mn>
-                  </mpadded>
+                  <mn id="p1.1.m1.1.15.3.4.1" xref="p1.1.m1.1.15.3.4.1.cmml">2</mn>
                 </mmultiscripts>
               </mfrac>
             </mrow>

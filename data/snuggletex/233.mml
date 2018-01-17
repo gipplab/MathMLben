@@ -28,8 +28,6 @@
          <mo>∥</mo>
       </mrow>
    </mfrac>
-   <mo>,</mo>
-   <mo>,</mo>
    <msub>
       <mi>α</mi>
       <mrow>
@@ -44,7 +42,7 @@
          <mi>X</mi>
          <mfenced close=")" open="(">
             <msub>
-               <mi>τ</mi>
+               <mi>α</mi>
                <mrow>
                   <mi>j</mi>
                   <mo>+</mo>

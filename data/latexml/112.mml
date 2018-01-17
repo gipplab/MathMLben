@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="h(t)\sim\exp\left(i\kappa t^{p}\right)\sum_{s=0}^{\infty}b_{s}t^{-\beta_{s}}" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="h(t)\sim\exp(i\kappa t^{p})\sum_{s=0}^{\infty}b_{s}t^{-\beta_{s}}" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.20" xref="p1.1.m1.1.20.cmml">
       <mrow id="p1.1.m1.1.20.1" xref="p1.1.m1.1.20.1.cmml">
@@ -16,7 +16,7 @@
           <mi id="p1.1.m1.1.6" xref="p1.1.m1.1.6.cmml">exp</mi>
           <mo id="p1.1.m1.1.20.2.2.2a" xref="p1.1.m1.1.20.2.2.1.cmml">⁡</mo>
           <mrow id="p1.1.m1.1.20.2.2.2.2" xref="p1.1.m1.1.20.2.2.1.cmml">
-            <mo id="p1.1.m1.1.7" xref="p1.1.m1.1.20.2.2.1.cmml">(</mo>
+            <mo stretchy="false" id="p1.1.m1.1.7" xref="p1.1.m1.1.20.2.2.1.cmml">(</mo>
             <mrow id="p1.1.m1.1.20.2.2.2.1" xref="p1.1.m1.1.20.2.2.2.1.cmml">
               <mi id="p1.1.m1.1.8" xref="p1.1.m1.1.8.cmml">i</mi>
               <mo id="p1.1.m1.1.20.2.2.2.1.1" xref="p1.1.m1.1.20.2.2.2.1.1.cmml">⁢</mo>
@@ -27,7 +27,7 @@
                 <mi id="p1.1.m1.1.11.1" xref="p1.1.m1.1.11.1.cmml">p</mi>
               </msup>
             </mrow>
-            <mo id="p1.1.m1.1.12" xref="p1.1.m1.1.20.2.2.1.cmml">)</mo>
+            <mo stretchy="false" id="p1.1.m1.1.12" xref="p1.1.m1.1.20.2.2.1.cmml">)</mo>
           </mrow>
         </mrow>
         <mo id="p1.1.m1.1.20.2.1" xref="p1.1.m1.1.20.2.1.cmml">⁢</mo>

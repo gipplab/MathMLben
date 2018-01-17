@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="L(\boldsymbol{x},\boldsymbol{y},\boldsymbol{p})=\sum_{i\in\mathcal{N}}\sum_{v&lt;%&#10;w:(v,i,w)\in\Gamma_{G^{\prime}}}\bigg{[}c_{i}y^{i}_{vw}+p(v,i,w)\Big{(}\sum_{t%&#10;\in T}x^{t}(v,i,w)-y^{i}_{vw}\Big{)}+p(w,i,v)\Big{(}\sum_{t\in T}x^{t}(w,i,v)-%&#10;y^{i}_{wv}\Big{)}\bigg{]}" display="inline">
+<math xmlns="http://www.w3.org/1998/Math/MathML" id="p1.1.m1.1" class="ltx_Math" alttext="L(\boldsymbol{x},\boldsymbol{y},\boldsymbol{p})=\sum_{i\in\mathcal{N}}\sum_{v&lt;%&#10;w:(v,i,w)\in\Gamma_{G^{\prime}}}[c_{i}y^{i}_{vw}+p(v,i,w)(\sum_{t\in T}x^{t}(v%&#10;,i,w)-y^{i}_{vw})+p(w,i,v)(\sum_{t\in T}x^{t}(w,i,v)-y^{i}_{wv})]" display="inline">
   <semantics id="p1.1.m1.1a">
     <mrow id="p1.1.m1.1.73" xref="p1.1.m1.1.73.cmml">
       <mrow id="p1.1.m1.1.73.1" xref="p1.1.m1.1.73.1.cmml">
@@ -56,7 +56,7 @@
             </mrow>
           </msub>
           <mrow id="p1.1.m1.1.73.2.2.2" xref="p1.1.m1.1.73.2.2.2.1.cmml">
-            <mo maxsize="210%" minsize="210%" id="p1.1.m1.1.14" xref="p1.1.m1.1.73.2.2.2.1.1.cmml">[</mo>
+            <mo stretchy="false" id="p1.1.m1.1.14" xref="p1.1.m1.1.73.2.2.2.1.1.cmml">[</mo>
             <mrow id="p1.1.m1.1.73.2.2.2.2" xref="p1.1.m1.1.73.2.2.2.2.cmml">
               <mrow id="p1.1.m1.1.73.2.2.2.2.1" xref="p1.1.m1.1.73.2.2.2.2.1.cmml">
                 <msub id="p1.1.m1.1.73.2.2.2.2.1.2" xref="p1.1.m1.1.73.2.2.2.2.1.2.cmml">
@@ -89,7 +89,7 @@
                 </mrow>
                 <mo id="p1.1.m1.1.73.2.2.2.2.2.1a" xref="p1.1.m1.1.73.2.2.2.2.2.1.cmml">⁢</mo>
                 <mrow id="p1.1.m1.1.73.2.2.2.2.2.3" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.cmml">
-                  <mo maxsize="160%" minsize="160%" id="p1.1.m1.1.29" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.cmml">(</mo>
+                  <mo stretchy="false" id="p1.1.m1.1.29" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.cmml">(</mo>
                   <mrow id="p1.1.m1.1.73.2.2.2.2.2.3.2" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.cmml">
                     <mrow id="p1.1.m1.1.73.2.2.2.2.2.3.2.1" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.1.cmml">
                       <msub id="p1.1.m1.1.73.2.2.2.2.2.3.2.1.1" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.1.1.cmml">
@@ -128,7 +128,7 @@
                       <mi id="p1.1.m1.1.43.1" xref="p1.1.m1.1.43.1.cmml">i</mi>
                     </msubsup>
                   </mrow>
-                  <mo maxsize="160%" minsize="160%" id="p1.1.m1.1.45" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.cmml">)</mo>
+                  <mo stretchy="false" id="p1.1.m1.1.45" xref="p1.1.m1.1.73.2.2.2.2.2.3.2.cmml">)</mo>
                 </mrow>
               </mrow>
               <mo id="p1.1.m1.1.20a" xref="p1.1.m1.1.20.cmml">+</mo>
@@ -146,7 +146,7 @@
                 </mrow>
                 <mo id="p1.1.m1.1.73.2.2.2.2.3.1a" xref="p1.1.m1.1.73.2.2.2.2.3.1.cmml">⁢</mo>
                 <mrow id="p1.1.m1.1.73.2.2.2.2.3.3" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.cmml">
-                  <mo maxsize="160%" minsize="160%" id="p1.1.m1.1.55" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.cmml">(</mo>
+                  <mo stretchy="false" id="p1.1.m1.1.55" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.cmml">(</mo>
                   <mrow id="p1.1.m1.1.73.2.2.2.2.3.3.2" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.cmml">
                     <mrow id="p1.1.m1.1.73.2.2.2.2.3.3.2.1" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.1.cmml">
                       <msub id="p1.1.m1.1.73.2.2.2.2.3.3.2.1.1" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.1.1.cmml">
@@ -185,11 +185,11 @@
                       <mi id="p1.1.m1.1.69.1" xref="p1.1.m1.1.69.1.cmml">i</mi>
                     </msubsup>
                   </mrow>
-                  <mo maxsize="160%" minsize="160%" id="p1.1.m1.1.71" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.cmml">)</mo>
+                  <mo stretchy="false" id="p1.1.m1.1.71" xref="p1.1.m1.1.73.2.2.2.2.3.3.2.cmml">)</mo>
                 </mrow>
               </mrow>
             </mrow>
-            <mo maxsize="210%" minsize="210%" id="p1.1.m1.1.72" xref="p1.1.m1.1.73.2.2.2.1.1.cmml">]</mo>
+            <mo stretchy="false" id="p1.1.m1.1.72" xref="p1.1.m1.1.73.2.2.2.1.1.cmml">]</mo>
           </mrow>
         </mrow>
       </mrow>

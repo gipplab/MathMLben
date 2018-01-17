@@ -12,28 +12,12 @@
             <mi>n</mi>
          </msup>
          <mo>-</mo>
-         <mrow>
-            <mrow>
-               <mo>(</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mrow>
-               <mo>)</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mn>0.0</mn>
-            <mi>p</mi>
-            <mi>t</mi>
-         </mrow>
-         <mrow/>
-         <mrow>
-            <mi>n</mi>
-         </mrow>
-         <mrow>
-            <mn>2</mn>
-         </mrow>
+         <mfenced close=")" open="(">
+            <mfrac>
+               <mi>n</mi>
+               <mn>2</mn>
+            </mfrac>
+         </mfenced>
          <msup>
             <mi>x</mi>
             <mrow>
@@ -47,28 +31,12 @@
             <mn>2</mn>
          </msup>
          <mo>+</mo>
-         <mrow>
-            <mrow>
-               <mo>(</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mrow>
-               <mo>)</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mn>0.0</mn>
-            <mi>p</mi>
-            <mi>t</mi>
-         </mrow>
-         <mrow/>
-         <mrow>
-            <mi>n</mi>
-         </mrow>
-         <mrow>
-            <mn>4</mn>
-         </mrow>
+         <mfenced close=")" open="(">
+            <mfrac>
+               <mi>n</mi>
+               <mn>4</mn>
+            </mfrac>
+         </mfenced>
          <msup>
             <mi>x</mi>
             <mrow>
@@ -89,28 +57,12 @@
    <mi>i</mi>
    <mfenced close=")" open="(">
       <mrow>
-         <mrow>
-            <mrow>
-               <mo>(</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mrow>
-               <mo>)</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mn>0.0</mn>
-            <mi>p</mi>
-            <mi>t</mi>
-         </mrow>
-         <mrow/>
-         <mrow>
-            <mi>n</mi>
-         </mrow>
-         <mrow>
-            <mn>1</mn>
-         </mrow>
+         <mfenced close=")" open="(">
+            <mfrac>
+               <mi>n</mi>
+               <mn>1</mn>
+            </mfrac>
+         </mfenced>
          <msup>
             <mi>x</mi>
             <mrow>
@@ -121,28 +73,12 @@
          </msup>
          <mi>y</mi>
          <mo>-</mo>
-         <mrow>
-            <mrow>
-               <mo>(</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mrow>
-               <mo>)</mo>
-            </mrow>
-         </mrow>
-         <mrow>
-            <mn>0.0</mn>
-            <mi>p</mi>
-            <mi>t</mi>
-         </mrow>
-         <mrow/>
-         <mrow>
-            <mi>n</mi>
-         </mrow>
-         <mrow>
-            <mn>3</mn>
-         </mrow>
+         <mfenced close=")" open="(">
+            <mfrac>
+               <mi>n</mi>
+               <mn>3</mn>
+            </mfrac>
+         </mfenced>
          <msup>
             <mi>x</mi>
             <mrow>

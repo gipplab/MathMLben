@@ -21,8 +21,10 @@
     </expression>
     <term prime-tag="alphanumeric">dy</term>
     <term prime-tag="equals">=</term>
-    <term prime-tag="alphanumeric">pdx</term>
+    <term prime-tag="letter" secondary-tags="Latin">p</term>
+    <term prime-tag="alphanumeric">dx</term>
     <term prime-tag="plus">+</term>
-    <term prime-tag="alphanumeric">vdy</term>
+    <term prime-tag="letter" secondary-tags="Latin">v</term>
+    <term prime-tag="alphanumeric">dy</term>
   </expression>
 </math>

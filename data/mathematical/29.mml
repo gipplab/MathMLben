@@ -6,13 +6,8 @@
             <mi>R</mi> 
             <mrow>
                <mi>s</mi>
-               <mtext> </mtext>
-               <mi>n</mi>
-               <mi>o</mi>
-               <mi>r</mi>
-               <mi>m</mi>
-               <mi>a</mi>
-               <mi>l</mi>
+               <mo>,</mo>
+               <mtext>normal</mtext>
             </mrow>
          </msub>
          <mo>=</mo>
@@ -32,6 +27,6 @@
             </mfrac>
          </msqrt>
       </mrow>
-      <annotation encoding="application/x-tex">R_{s\ normal} = \sqrt{ \frac{\omega \mu_0} {2 \sigma} }</annotation>
+      <annotation encoding="application/x-tex">R_{s,\text{normal}} = \sqrt{ \frac{\omega \mu_0} {2 \sigma} }</annotation>
    </semantics>
 </math>

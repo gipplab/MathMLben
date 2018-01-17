@@ -2,9 +2,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
    <mrow xmlns="">
       <msub>
-         <mrow>
-            <mi mathvariant="script">C</mi>
-         </mrow>
+         <mi>𝒞</mi>
          <mi>ν</mi>
       </msub>
       <mrow>
@@ -36,9 +34,7 @@
          </munderover>
       </mstyle>
       <msub>
-         <mrow>
-            <mi mathvariant="script">C</mi>
-         </mrow>
+         <mi>𝒞</mi>
          <mrow>
             <mi>ν</mi>
             <mo>∓</mo>

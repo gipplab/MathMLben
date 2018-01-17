@@ -11,5 +11,6 @@
     <expression prime-tag="caret" secondary-tags="superscript_operation">
       <term prime-tag="latex-command">\mu</term>
     </expression>
+    <term prime-tag="right-brace" secondary-tags="closing delimiter">\}</term>
   </expression>
 </math>

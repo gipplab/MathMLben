@@ -15,6 +15,8 @@ if (!fs.existsSync(zillaDir)){
     fs.mkdirSync(zillaDir);
 }
 
+console.time("texzillaCreator");
+var failCounter = 0;
 fs.readdirAsync(goldDir).map( function(name){
     var path = goldDir + "/" + name;
     if ( fs.statSync(path).isFile() ){
@@ -39,10 +41,14 @@ fs.readdirAsync(goldDir).map( function(name){
                     console.log("Successfully prettify MML.");
                     return fs.writeFileAsync( zillaDir + "/" + num + ".mml", prettyMML );
                 } catch ( err ){
+                    failCounter++;
                     console.log("Skip " + num + ": " + err.message);
                 }
             });
     } else {
         console.log("Skip directory " + name);
     }
+}).then(function(){
+    console.timeEnd("texzillaCreator");
+    console.log(failCounter);
 });

@@ -25,8 +25,7 @@
             <mi mathvariant="normal">d</mi>
          </mrow>
          <mi>V</mi>
-         <mspace width="thinmathspace"/>
       </mrow>
-      <annotation encoding="application/x-tex">\Delta W = \int_{V_1}^{V_2} p \mathrm{d}V \,</annotation>
+      <annotation encoding="application/x-tex">\Delta W = \int_{V_1}^{V_2} p \mathrm{d}V</annotation>
    </semantics>
 </math>

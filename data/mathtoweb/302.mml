@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+   <mrow xmlns="">
+      <mi>Γ</mi>
+      <mrow>
+         <mo form="prefix">(</mo>
+         <mi>z</mi>
+         <mo form="postfix">)</mo>
+      </mrow>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+         <munderover>
+            <mo>∫</mo>
+            <mn>0</mn>
+            <mo>∞</mo>
+         </munderover>
+      </mstyle>
+      <msup>
+         <mi>x</mi>
+         <mrow>
+            <mi>z</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+         </mrow>
+      </msup>
+      <msup>
+         <mi>e</mi>
+         <mrow>
+            <mo>-</mo>
+            <mi>x</mi>
+         </mrow>
+      </msup>
+      <mo>ⅆ</mo>
+      <mi>x</mi>
+   </mrow>
+</math>

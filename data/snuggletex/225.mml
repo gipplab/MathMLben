@@ -45,15 +45,16 @@
          <mo>+</mo>
          <msub>
             <mi>L</mi>
-            <mstyle mathvariant="normal">
-               <mi>m</mi>
-               <mi>a</mi>
-               <mi>t</mi>
-               <mi>t</mi>
-               <mi>e</mi>
-               <mi>r</mi>
-            </mstyle>
+            <mrow/>
          </msub>
+         <mrow>
+            <mi>m</mi>
+            <mi>a</mi>
+            <mi>t</mi>
+            <mi>t</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+         </mrow>
       </mrow>
    </mfenced>
 </math>
