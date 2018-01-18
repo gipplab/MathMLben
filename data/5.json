@@ -27,7 +27,7 @@
   "title": "First-order_logic",
   "type": "relation",
   "check": {
-    "tree": true,
+    "tree": false,
     "qid": true
   }
 }
