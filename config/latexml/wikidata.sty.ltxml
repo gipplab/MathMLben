@@ -44,4 +44,7 @@ DefMath('\range{}{}', '{#1} ... {#2}', omcd => 'wikidata', meaning => 'Q40548497
 # for Gold ID 18 - relative property of two particles
 DefMath('\partprop{}{}{}', '{#1}_{#2 #3}', omcd => 'wikidata', meaning => 'Q1621273');
 
+# for Gold ID 49 - render case distinction as branches
+DefMath('\case{}{}', '{#1} if {#2}', omcd => 'wikidata', meaning => 'Q47458875');
+
 1;
