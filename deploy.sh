@@ -9,5 +9,5 @@ export PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 git pull
-sudo /etc/init.d/apache2 restart
 pm2 deploy production update
+sudo /etc/init.d/apache2 graceful
