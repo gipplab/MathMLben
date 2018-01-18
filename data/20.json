@@ -1,17 +1,20 @@
 {
-  "definitions" : {
-    "S'" : [ "tristimulus values", { } ]
+  "definitions": {
+    "S'": [
+      "tristimulus values",
+      {}
+    ]
   },
-  "constraints" : [ ],
-  "math_inputtex" : "S'",
-  "math_inputtex_semantic" : "S\\wf{Q12202238}{'}",
-  "correct_tex" : "S'",
-  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S^{\\prime}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <msup id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n      <mo id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">′</mo>\n    </msup>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n        <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.3\"/>\n        <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑆</ci>\n        <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">′</ci>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S^{\\prime}</annotation>\n  </semantics>\n</math>",
-  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=8808#math8808.39",
-  "title" : "Color_balance",
-  "type" : "general formula",
-  "check" : {
-    "tree" : false,
-    "qid" : false
+  "constraints": [],
+  "math_inputtex": "S'",
+  "math_inputtex_semantic": "\\trafo{S}",
+  "correct_tex": "S'",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      alttext=\"\\trafo{S}\"\n      class=\"ltx_Math\"\n      display=\"inline\"\n      id=\"p1.1.m1.1\">\n  <semantics id=\"p1.1.m1.1a\">\n      <msup id=\"p1.1.m1.1.1.4\" xref=\"p1.1.m1.1.1.1.cmml\">\n         <mi id=\"p1.1.m1.1.1.2\" xref=\"p1.1.m1.1.1.2.cmml\">S</mi>\n         <msup id=\"p1.1.m1.1.1.3.1\" xref=\"p1.1.m1.1.1.1.cmml\">\n            <mi id=\"p1.1.m1.1.1.3.1a\" xref=\"p1.1.m1.1.1.1.1.cmml\"/>\n            <mo id=\"p1.1.m1.1.1.3.1.1.1\" xref=\"p1.1.m1.1.1.1.1.cmml\">′</mo>\n         </msup>\n      </msup>\n      <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n         <apply id=\"p1.1.m1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.4\">\n            <csymbol cd=\"wikidata\" id=\"p1.1.m1.1.1.1.1.cmml\" xref=\"p1.1.m1.1.1.3.1a\">Q12202238</csymbol>\n            <ci id=\"p1.1.m1.1.1.2.cmml\" xref=\"p1.1.m1.1.1.2\">𝑆</ci>\n         </apply>\n      </annotation-xml>\n      <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">\\trafo{S}</annotation>\n  </semantics>\n</math>\n",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=8808#math8808.39",
+  "title": "Color_balance",
+  "type": "general formula",
+  "check": {
+    "tree": false,
+    "qid": false
   }
 }
