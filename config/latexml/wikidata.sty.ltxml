@@ -38,4 +38,7 @@ DefMath('\friction', '\boldsymbol{F}_\text{r}', omcd => 'wikidata', meaning => '
 # for Gold ID 30 - range
 DefMath('\range{}{}', '{#1} ... {#2}', omcd => 'wikidata', meaning => 'Q40548497');
 
+# for Gold ID 18 - relative property of two particles
+DefMath('\partprop{}{}{}', '{#1}_{#2 #3}', omcd => 'wikidata', meaning => 'Q1621273');
+
 1;
