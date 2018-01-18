@@ -46,8 +46,6 @@
           <mo>!</mo>
         </mrow>
       </mfrac>
-      <mtext>\</mtext>
-      <mo>*</mo>
       <munderover>
         <mo>∑</mo>
         <mrow>
@@ -75,8 +73,6 @@
           <mo>!</mo>
         </mrow>
       </mfrac>
-      <mtext>\</mtext>
-      <mo>*</mo>
       <mfrac>
         <mrow>
           <mo stretchy="false">(</mo>
@@ -121,8 +117,6 @@
           <mo stretchy="false">)</mo>
         </mrow>
       </mfrac>
-      <mtext>\</mtext>
-      <mo>*</mo>
       <mo lspace="0em" rspace="0em">cos</mo>
       <mrow>
         <mo>(</mo>
@@ -140,6 +134,6 @@
         <mo>)</mo>
       </mrow>
     </mrow>
-    <annotation encoding="TeX">\mathsf{Q}_{n}\left(\cos\theta\right)=\frac{2^{2n+1}(n!)^{2}}{(2n+1)!}\*\sum_{k=0}^{\infty}\frac{1\cdot 3\cdots(2k-1)}{k!}\*\frac{(n+1)(n+2)\cdots(n+k)}{(2n+3)(2n+5)\cdots(2n+2k+1)}\*\cos\left((n+2k+1)\theta\right)</annotation>
+    <annotation encoding="TeX">\mathsf{Q}_{n}\left(\cos\theta\right)=\frac{2^{2n+1}(n!)^{2}}{(2n+1)!} \sum_{k=0}^{\infty}\frac{1\cdot 3\cdots(2k-1)}{k!} \frac{(n+1)(n+2)\cdots(n+k)}{(2n+3)(2n+5)\cdots(2n+2k+1)} \cos\left((n+2k+1)\theta\right)</annotation>
   </semantics>
 </math>

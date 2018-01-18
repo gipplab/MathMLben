@@ -9,7 +9,7 @@ var zillaDir = '../data/mathoid';
 
 
 var failCounter = 0;
-//console.time("mathoidCreator");
+console.time("mathoidCreator");
 var mathoidCreator = function(){
     fs.readdirAsync(directory)
         .filter(function (name) {
@@ -24,8 +24,8 @@ var mathoidCreator = function(){
                     return parseAsync(content);
                 })
                 .then(function (json) {
-                    if (json.math_inputtex) {
-                        var tex = json.math_inputtex.replace(/%(?:\r\n|\r|\n)/g, '');
+                    if (json.correct_tex) {
+                        var tex = json.correct_tex.replace(/%(?:\r\n|\r|\n)/g, '');
                         tex = tex.replace(/^(\\\[)?(\\[.,;!]+)*|[.,;!]*(\\[.,;!]+)*(\\])?$/g, '');
 
                         var options = {
@@ -57,3 +57,5 @@ var mathoidCreator = function(){
         console.log(failCounter);
     });
 };
+
+mathoidCreator();

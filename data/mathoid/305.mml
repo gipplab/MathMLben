@@ -84,7 +84,6 @@
               <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="27" data-semantic-parent="28">1</mn>
             </mrow>
           </msub>
-          <mspace width="thinmathspace"/>
           <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="76" data-semantic-parent="77" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
           <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="73" data-semantic-children="29,65" data-semantic-content="72,29" data-semantic-parent="77">
             <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="29" data-semantic-parent="73" data-semantic-operator="appl">φ
@@ -146,7 +145,6 @@
               <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="49" data-semantic-parent="50">n</mi>
             </mrow>
           </msub>
-          <mspace width="thinmathspace"/>
           <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="81" data-semantic-parent="82" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
           <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="69" data-semantic-children="51,67" data-semantic-content="68,51" data-semantic-parent="82">
             <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="51" data-semantic-parent="69" data-semantic-operator="appl">φ
@@ -167,6 +165,6 @@
         </mrow>
       </mrow>
     </mrow>
-    <annotation encoding="application/x-tex">\varphi (\lambda _{1}x_{1}+\lambda _{2}x_{2}+\cdots +\lambda _{n}x_{n})\leq \lambda _{1}\,\varphi (x_{1})+\lambda _{2}\,\varphi (x_{2})+\cdots +\lambda _{n}\,\varphi (x_{n})</annotation>
+    <annotation encoding="application/x-tex">\varphi (\lambda _{1}x_{1}+\lambda _{2}x_{2}+\cdots +\lambda _{n}x_{n})\leq \lambda _{1}\varphi (x_{1})+\lambda _{2}\,\varphi (x_{2})+\cdots +\lambda _{n}\varphi (x_{n})</annotation>
   </semantics>
 </math>

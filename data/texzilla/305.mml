@@ -38,7 +38,6 @@
         <mi>λ</mi>
         <mn>1</mn>
       </msub>
-      <mspace width="thinmathspace"/>
       <mi>φ</mi>
       <mo stretchy="false">(</mo>
       <msub>
@@ -66,7 +65,6 @@
         <mi>λ</mi>
         <mi>n</mi>
       </msub>
-      <mspace width="thinmathspace"/>
       <mi>φ</mi>
       <mo stretchy="false">(</mo>
       <msub>
@@ -75,6 +73,6 @@
       </msub>
       <mo stretchy="false">)</mo>
     </mrow>
-    <annotation encoding="TeX">\varphi(\lambda_1 x_1+\lambda_2 x_2+\cdots+\lambda_n x_n)\leq \lambda_1\,\varphi(x_1)+\lambda_2\,\varphi(x_2)+\cdots+\lambda_n\,\varphi(x_n)</annotation>
+    <annotation encoding="TeX">\varphi(\lambda_1 x_1+\lambda_2 x_2+\cdots+\lambda_n x_n)\leq \lambda_1 \varphi(x_1)+\lambda_2\,\varphi(x_2)+\cdots+\lambda_n \varphi(x_n)</annotation>
   </semantics>
 </math>

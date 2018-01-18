@@ -1,0 +1,57 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper A identical-to upper A left-parenthesis tau right-parenthesis equals StartFraction 1 Over theta 4 left-parenthesis 0 vertical-bar 2 tau right-parenthesis EndFraction">
+  <semantics>
+    <mrow data-semantic-type="multirel" data-semantic-role="equality" data-semantic-id="27" data-semantic-children="0,26,23" data-semantic-content="1,6">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="27">A</mi>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="27" data-semantic-operator="multirel">≡
+        <!-- ≡ -->
+      </mo>
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="26" data-semantic-children="2,24" data-semantic-content="25,2" data-semantic-parent="27">
+        <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="26" data-semantic-operator="appl">A</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="25" data-semantic-parent="26" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="24" data-semantic-children="4" data-semantic-content="3,5" data-semantic-parent="26">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="24" data-semantic-operator="fenced">(</mo>
+          <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="24">τ
+            <!-- τ -->
+          </mi>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="24" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="27" data-semantic-operator="multirel">=</mo>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="23" data-semantic-children="7,22" data-semantic-parent="27">
+          <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="23">1</mn>
+          <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="22" data-semantic-children="10,20" data-semantic-content="21,8" data-semantic-parent="23">
+            <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="10" data-semantic-children="8,9" data-semantic-parent="22">
+              <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="10" data-semantic-operator="appl">θ
+                <!-- θ -->
+              </mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="9" data-semantic-parent="10">4</mn>
+              </mrow>
+            </msub>
+            <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="21" data-semantic-parent="22" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+            <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="20" data-semantic-children="18" data-semantic-content="11,19" data-semantic-parent="22">
+              <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="11" data-semantic-parent="20" data-semantic-operator="fenced">(</mo>
+              <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="18" data-semantic-children="12,13,17" data-semantic-content="13" data-semantic-parent="20">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="12" data-semantic-parent="18">0</mn>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mo stretchy="false" data-semantic-type="punctuation" data-semantic-role="vbar" data-semantic-id="13" data-semantic-parent="18" data-semantic-operator="punctuated">|</mo>
+                </mrow>
+                <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="17" data-semantic-children="14,15" data-semantic-content="16" data-semantic-parent="18">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="14" data-semantic-parent="17">2</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="16" data-semantic-parent="17" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                  <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="15" data-semantic-parent="17">τ
+                    <!-- τ -->
+                  </mi>
+                </mrow>
+              </mrow>
+              <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="19" data-semantic-parent="20" data-semantic-operator="fenced">)</mo>
+            </mrow>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">A\equiv A(\tau )={\frac {1}{\theta _{4}\left(0|2\tau \right)}}</annotation>
+  </semantics>
+</math>

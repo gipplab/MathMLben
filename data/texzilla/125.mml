@@ -53,6 +53,6 @@
         <mo>)</mo>
       </mrow>
     </mrow>
-    <annotation encoding="TeX">\mathscr{C}_{\nu}\left(u\pm v\right)=\sum_{k=-\infty}^{\infty}\mathscr{C}_{\nu\mp k}\left(u\right)J_{k}\left(v\right)</annotation>
+    <annotation encoding="TeX">\mathcal{C}_{\nu}\left(u\pm v\right)=\sum_{k=-\infty}^{\infty}\mathcal{C}_{\nu\mp k}\left(u\right)J_{k}\left(v\right)</annotation>
   </semantics>
 </math>

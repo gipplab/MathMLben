@@ -1,12 +1,14 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-\(x+y&amp;gt;2n\)
------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">x+y&amp;gt;2n</annotation>
+    <mrow>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>y</mi>
+      <mo>&gt;</mo>
+      <mn>2</mn>
+      <mi>n</mi>
+    </mrow>
+    <annotation encoding="TeX">x+y &gt; 2n</annotation>
   </semantics>
 </math>

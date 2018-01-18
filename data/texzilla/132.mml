@@ -53,16 +53,10 @@
           </mrow>
           <mo>)</mo>
         </mrow>
-        <mrow>
-          <mtext>\</mtext>
-          <mi>i</mi>
-          <mi>f</mi>
-          <mi>r</mi>
-          <mi>a</mi>
-          <mi>c</mi>
+        <mfrac>
           <mn>1</mn>
           <mn>2</mn>
-        </mrow>
+        </mfrac>
       </msup>
       <msub>
         <mi>G</mi>
@@ -82,6 +76,6 @@
         <mo>)</mo>
       </mrow>
     </mrow>
-    <annotation encoding="TeX">h\left(\epsilon,\ell;r\right)=\left(\frac{2}{\pi\tau}\frac{A(\epsilon,\ell)}{1-e^{-2\pi/\tau}}\right)^{\ifrac{1}{2}}G_{\ell}\left(-1/\tau,\tau r\right)</annotation>
+    <annotation encoding="TeX">h\left(\epsilon,\ell;r\right)=\left(\frac{2}{\pi\tau}\frac{A(\epsilon,\ell)}{1-e^{-2\pi/\tau}}\right)^{\frac{1}{2}}G_{\ell}\left(-1/\tau,\tau r\right)</annotation>
   </semantics>
 </math>

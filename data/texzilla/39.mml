@@ -70,9 +70,7 @@
           <mi>k</mi>
         </mrow>
       </msup>
-      <mo>.</mo>
     </mrow>
-    <annotation encoding="TeX">(x+y)^n = \sum_{k=0}^n {n \choose k}x^{n-k}y^k = \sum_{k=0}^n {n \choose k}x^{k}y^{n-k}.
-</annotation>
+    <annotation encoding="TeX">(x+y)^n = \sum_{k=0}^n {n \choose k}x^{n-k}y^k = \sum_{k=0}^n {n \choose k}x^{k}y^{n-k}</annotation>
   </semantics>
 </math>

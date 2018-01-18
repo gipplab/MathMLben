@@ -1,0 +1,185 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper F left-parenthesis x comma s right-parenthesis equals StartFraction normal upper Gamma left-parenthesis 1 minus s right-parenthesis Over left-parenthesis 2 pi right-parenthesis Superscript 1 minus s Baseline EndFraction left-parenthesis e Superscript pi i left-parenthesis 1 minus s right-parenthesis slash 2 Baseline zeta left-parenthesis 1 minus s comma x right-parenthesis plus e Superscript pi i left-parenthesis s minus 1 right-parenthesis slash 2 Baseline zeta left-parenthesis 1 minus s comma 1 minus x right-parenthesis right-parenthesis">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="108" data-semantic-children="105,107" data-semantic-content="8">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="105" data-semantic-children="0,7" data-semantic-content="104,0" data-semantic-parent="108">
+        <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="105" data-semantic-operator="appl">F</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="104" data-semantic-parent="105" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="7" data-semantic-children="5" data-semantic-content="1,6" data-semantic-parent="105">
+          <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="1" data-semantic-parent="7" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="5" data-semantic-children="2,3,4" data-semantic-content="3" data-semantic-parent="7">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="5">x</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="3" data-semantic-parent="5" data-semantic-operator="punctuated">,</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="5">s</mi>
+          </mrow>
+          <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="6" data-semantic-parent="7" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="8" data-semantic-parent="108" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="107" data-semantic-children="31,103" data-semantic-content="106" data-semantic-parent="108">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="31" data-semantic-children="18,27" data-semantic-parent="107">
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="18" data-semantic-children="9,16" data-semantic-content="17" data-semantic-parent="31">
+              <mi mathvariant="normal" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="normal" data-semantic-id="9" data-semantic-parent="18">Γ
+                <!-- Γ -->
+              </mi>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="17" data-semantic-parent="18" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="16" data-semantic-children="14" data-semantic-content="10,15" data-semantic-parent="18">
+                <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="10" data-semantic-parent="16" data-semantic-operator="fenced">(</mo>
+                <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="14" data-semantic-children="11,13" data-semantic-content="12" data-semantic-parent="16">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="11" data-semantic-parent="14">1</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="12" data-semantic-parent="14" data-semantic-operator="infixop,−">−
+                    <!-- − -->
+                  </mo>
+                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="14">s</mi>
+                </mrow>
+                <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="15" data-semantic-parent="16" data-semantic-operator="fenced">)</mo>
+              </mrow>
+            </mrow>
+            <mrow>
+              <msup data-semantic-type="superscript" data-semantic-role="leftright" data-semantic-id="27" data-semantic-children="30,26" data-semantic-parent="31" data-semantic-fencepointer="22">
+                <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="30" data-semantic-children="29" data-semantic-content="19,22" data-semantic-parent="27">
+                  <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="19" data-semantic-parent="30">(</mo>
+                  <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="29" data-semantic-children="20,21" data-semantic-content="28" data-semantic-parent="30">
+                    <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="20" data-semantic-parent="29">2</mn>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="28" data-semantic-parent="29" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="21" data-semantic-parent="29">π
+                      <!-- π -->
+                    </mi>
+                  </mrow>
+                  <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="22" data-semantic-parent="30">)</mo>
+                </mrow>
+                <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="26" data-semantic-children="23,25" data-semantic-content="24" data-semantic-parent="27">
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="23" data-semantic-parent="26">1</mn>
+                  <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="24" data-semantic-parent="26" data-semantic-operator="infixop,−">−
+                    <!-- − -->
+                  </mo>
+                  <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="25" data-semantic-parent="26">s</mi>
+                </mrow>
+              </msup>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="106" data-semantic-parent="107" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="103" data-semantic-children="101" data-semantic-content="32,102" data-semantic-parent="107">
+          <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="32" data-semantic-parent="103" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="infixop" data-semantic-role="addition" data-semantic-id="101" data-semantic-children="98,100" data-semantic-content="61" data-semantic-parent="103">
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="98" data-semantic-children="49,96" data-semantic-content="97" data-semantic-parent="101">
+              <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="49" data-semantic-children="33,48" data-semantic-parent="98">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="33" data-semantic-parent="49">e</mi>
+                <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="division" data-semantic-id="48" data-semantic-children="47,42" data-semantic-content="41" data-semantic-parent="49">
+                  <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="47" data-semantic-children="34,35,44" data-semantic-content="45,46" data-semantic-parent="48">
+                    <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="34" data-semantic-parent="47">π
+                      <!-- π -->
+                    </mi>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="45" data-semantic-parent="47" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="35" data-semantic-parent="47">i</mi>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="46" data-semantic-parent="47" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="44" data-semantic-children="43" data-semantic-content="36,40" data-semantic-parent="47">
+                      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="36" data-semantic-parent="44" data-semantic-operator="fenced">(</mo>
+                      <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="43" data-semantic-children="37,39" data-semantic-content="38" data-semantic-parent="44">
+                        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="37" data-semantic-parent="43">1</mn>
+                        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="38" data-semantic-parent="43" data-semantic-operator="infixop,−">−
+                          <!-- − -->
+                        </mo>
+                        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="39" data-semantic-parent="43">s</mi>
+                      </mrow>
+                      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="40" data-semantic-parent="44" data-semantic-operator="fenced">)</mo>
+                    </mrow>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mo data-semantic-type="operator" data-semantic-role="division" data-semantic-id="41" data-semantic-parent="48" data-semantic-operator="infixop,/">/</mo>
+                  </mrow>
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="42" data-semantic-parent="48">2</mn>
+                </mrow>
+              </msup>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="97" data-semantic-parent="98" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="96" data-semantic-children="50,60" data-semantic-content="95,50" data-semantic-parent="98">
+                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="50" data-semantic-parent="96" data-semantic-operator="appl">ζ
+                  <!-- ζ -->
+                </mi>
+                <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="95" data-semantic-parent="96" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="60" data-semantic-children="58" data-semantic-content="51,59" data-semantic-parent="96">
+                  <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="51" data-semantic-parent="60" data-semantic-operator="fenced">(</mo>
+                  <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="58" data-semantic-children="57,55,56" data-semantic-content="55" data-semantic-parent="60">
+                    <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="57" data-semantic-children="52,54" data-semantic-content="53" data-semantic-parent="58">
+                      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="52" data-semantic-parent="57">1</mn>
+                      <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="53" data-semantic-parent="57" data-semantic-operator="infixop,−">−
+                        <!-- − -->
+                      </mo>
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="54" data-semantic-parent="57">s</mi>
+                    </mrow>
+                    <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="55" data-semantic-parent="58" data-semantic-operator="punctuated">,</mo>
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="56" data-semantic-parent="58">x</mi>
+                  </mrow>
+                  <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="59" data-semantic-parent="60" data-semantic-operator="fenced">)</mo>
+                </mrow>
+              </mrow>
+            </mrow>
+            <mo data-semantic-type="operator" data-semantic-role="addition" data-semantic-id="61" data-semantic-parent="101" data-semantic-operator="infixop,+">+</mo>
+            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="100" data-semantic-children="78,94" data-semantic-content="99" data-semantic-parent="101">
+              <msup data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="78" data-semantic-children="62,77" data-semantic-parent="100">
+                <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="62" data-semantic-parent="78">e</mi>
+                <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="division" data-semantic-id="77" data-semantic-children="76,71" data-semantic-content="70" data-semantic-parent="78">
+                  <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="76" data-semantic-children="63,64,73" data-semantic-content="74,75" data-semantic-parent="77">
+                    <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="63" data-semantic-parent="76">π
+                      <!-- π -->
+                    </mi>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="74" data-semantic-parent="76" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="64" data-semantic-parent="76">i</mi>
+                    <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="75" data-semantic-parent="76" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+                    <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="73" data-semantic-children="72" data-semantic-content="65,69" data-semantic-parent="76">
+                      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="65" data-semantic-parent="73" data-semantic-operator="fenced">(</mo>
+                      <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="72" data-semantic-children="66,68" data-semantic-content="67" data-semantic-parent="73">
+                        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="66" data-semantic-parent="72">s</mi>
+                        <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="67" data-semantic-parent="72" data-semantic-operator="infixop,−">−
+                          <!-- − -->
+                        </mo>
+                        <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="68" data-semantic-parent="72">1</mn>
+                      </mrow>
+                      <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="69" data-semantic-parent="73" data-semantic-operator="fenced">)</mo>
+                    </mrow>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mo data-semantic-type="operator" data-semantic-role="division" data-semantic-id="70" data-semantic-parent="77" data-semantic-operator="infixop,/">/</mo>
+                  </mrow>
+                  <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="71" data-semantic-parent="77">2</mn>
+                </mrow>
+              </msup>
+              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="99" data-semantic-parent="100" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+              <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="94" data-semantic-children="79,92" data-semantic-content="93,79" data-semantic-parent="100">
+                <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="79" data-semantic-parent="94" data-semantic-operator="appl">ζ
+                  <!-- ζ -->
+                </mi>
+                <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="93" data-semantic-parent="94" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+                <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="92" data-semantic-children="90" data-semantic-content="80,91" data-semantic-parent="94">
+                  <mo data-semantic-type="fence" data-semantic-role="open" data-semantic-id="80" data-semantic-parent="92" data-semantic-operator="fenced">(</mo>
+                  <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="90" data-semantic-children="88,84,89" data-semantic-content="84" data-semantic-parent="92">
+                    <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="88" data-semantic-children="81,83" data-semantic-content="82" data-semantic-parent="90">
+                      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="81" data-semantic-parent="88">1</mn>
+                      <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="82" data-semantic-parent="88" data-semantic-operator="infixop,−">−
+                        <!-- − -->
+                      </mo>
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="83" data-semantic-parent="88">s</mi>
+                    </mrow>
+                    <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="84" data-semantic-parent="90" data-semantic-operator="punctuated">,</mo>
+                    <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="89" data-semantic-children="85,87" data-semantic-content="86" data-semantic-parent="90">
+                      <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="85" data-semantic-parent="89">1</mn>
+                      <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="86" data-semantic-parent="89" data-semantic-operator="infixop,−">−
+                        <!-- − -->
+                      </mo>
+                      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="87" data-semantic-parent="89">x</mi>
+                    </mrow>
+                  </mrow>
+                  <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="91" data-semantic-parent="92" data-semantic-operator="fenced">)</mo>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mrow>
+          <mo data-semantic-type="fence" data-semantic-role="close" data-semantic-id="102" data-semantic-parent="103" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">F\left(x,s\right)={\frac {\Gamma \left(1-s\right)}{(2\pi )^{1-s}}}\left(e^{\pi i(1-s)/2}\zeta \left(1-s,x\right)+e^{\pi i(s-1)/2}\zeta \left(1-s,1-x\right)\right)</annotation>
+  </semantics>
+</math>

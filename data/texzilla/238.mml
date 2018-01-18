@@ -1,12 +1,42 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-...}\exp(-\beta H_{N}(%&amp;#10;\sigma))\)
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">A_{N}(\alpha,\beta)=\frac{1}{N}\mathbb{E}\ln\sum_{\sigma}\exp(-\beta H_{N}(%&amp;#10;\sigma))</annotation>
+    <mrow>
+      <msub>
+        <mi>A</mi>
+        <mi>N</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>α</mi>
+      <mo>,</mo>
+      <mi>β</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mi>N</mi>
+      </mfrac>
+      <mstyle mathvariant="double-struck">
+        <mi>E</mi>
+      </mstyle>
+      <mo lspace="0em" rspace="0em">ln</mo>
+      <munder>
+        <mo>∑</mo>
+        <mi>σ</mi>
+      </munder>
+      <mo lspace="0em" rspace="0em">exp</mo>
+      <mo stretchy="false">(</mo>
+      <mo>-</mo>
+      <mi>β</mi>
+      <msub>
+        <mi>H</mi>
+        <mi>N</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>σ</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">A_{N}(\alpha,\beta)=\frac{1}{N}\mathbb{E}\ln\sum_{\sigma}\exp(-\beta H_{N}(\sigma))</annotation>
   </semantics>
 </math>

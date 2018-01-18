@@ -1,12 +1,58 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-...-1}{x-1}\ {\rm\left(\right.}{\rm&amp;#10;ass
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">1+x+x^{2}+\ldots+x^{n-1}+x^{n}=\frac{x^{n+1}-1}{x-1}\ {\rm\left(\right.}{\rm&amp;#10;assuming%&amp;#10;}\ x\neq 1\ {\rm\left.\right)}</annotation>
+    <mrow>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mi>x</mi>
+      <mo>+</mo>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <msup>
+        <mi>x</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mo>+</mo>
+      <msup>
+        <mi>x</mi>
+        <mi>n</mi>
+      </msup>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msup>
+            <mi>x</mi>
+            <mrow>
+              <mi>n</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </msup>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+        <mrow>
+          <mi>x</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+      <mtext>\</mtext>
+      <mtext>assuming</mtext>
+      <mtext>\</mtext>
+      <mi>x</mi>
+      <mo>≠</mo>
+      <mn>1</mn>
+    </mrow>
+    <annotation encoding="TeX">1+x+x^{2}+\ldots+x^{n-1}+x^{n}=\frac{x^{n+1}-1}{x-1} \ \text{assuming} \ x \neq 1</annotation>
   </semantics>
 </math>

@@ -1,0 +1,50 @@
+<math 
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="upper N left-parenthesis n comma k right-parenthesis equals StartFraction 1 Over n EndFraction StartFraction n Over k EndFraction StartFraction n Over k minus 1 EndFraction">
+  <semantics>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="26" data-semantic-children="22,25" data-semantic-content="6">
+      <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="22" data-semantic-children="0,20" data-semantic-content="21,0" data-semantic-parent="26">
+        <mi data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="22" data-semantic-operator="appl">N</mi>
+        <mo data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="21" data-semantic-parent="22" data-semantic-added="true" data-semantic-operator="appl">⁡</mo>
+        <mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="20" data-semantic-children="19" data-semantic-content="1,5" data-semantic-parent="22">
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="1" data-semantic-parent="20" data-semantic-operator="fenced">(</mo>
+          <mrow data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="19" data-semantic-children="2,3,4" data-semantic-content="3" data-semantic-parent="20">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="19">n</mi>
+            <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="3" data-semantic-parent="19" data-semantic-operator="punctuated">,</mo>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="19">k</mi>
+          </mrow>
+          <mo stretchy="false" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="20" data-semantic-operator="fenced">)</mo>
+        </mrow>
+      </mrow>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="6" data-semantic-parent="26" data-semantic-operator="relseq,=">=</mo>
+      <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="25" data-semantic-children="9,12,18" data-semantic-content="23,24" data-semantic-parent="26">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="9" data-semantic-children="7,8" data-semantic-parent="25">
+            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="9">1</mn>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="9">n</mi>
+          </mfrac>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="23" data-semantic-parent="25" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="12" data-semantic-children="10,11" data-semantic-parent="25">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="12">n</mi>
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="11" data-semantic-parent="12">k</mi>
+          </mfrac>
+        </mrow>
+        <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="24" data-semantic-parent="25" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="18" data-semantic-children="13,17" data-semantic-parent="25">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="13" data-semantic-parent="18">n</mi>
+            <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="17" data-semantic-children="14,16" data-semantic-content="15" data-semantic-parent="18">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="14" data-semantic-parent="17">k</mi>
+              <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="15" data-semantic-parent="17" data-semantic-operator="infixop,−">−
+                <!-- − -->
+              </mo>
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="16" data-semantic-parent="17">1</mn>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mrow>
+    </mrow>
+    <annotation encoding="application/x-tex">N(n,k)={\frac {1}{n}}{\frac {n}{k}}{\frac {n}{k-1}}</annotation>
+  </semantics>
+</math>

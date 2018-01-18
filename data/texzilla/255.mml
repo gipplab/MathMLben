@@ -1,12 +1,58 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-...{\mu}}\frac{\partial&amp;#10;X%&amp;#10;^{B}}{\p
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">\tilde{g}_{\mu\nu}=G_{AB}\frac{\partial X^{A}}{\partial x^{\mu}}\frac{\partial&amp;#10;X%&amp;#10;^{B}}{\partial x^{\nu}}</annotation>
+    <mrow>
+      <msub>
+        <mover>
+          <mi>g</mi>
+          <mo stretchy="false">˜</mo>
+        </mover>
+        <mrow>
+          <mi>μ</mi>
+          <mi>ν</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <msub>
+        <mi>G</mi>
+        <mrow>
+          <mi>A</mi>
+          <mi>B</mi>
+        </mrow>
+      </msub>
+      <mfrac>
+        <mrow>
+          <mo>∂</mo>
+          <msup>
+            <mi>X</mi>
+            <mi>A</mi>
+          </msup>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <msup>
+            <mi>x</mi>
+            <mi>μ</mi>
+          </msup>
+        </mrow>
+      </mfrac>
+      <mfrac>
+        <mrow>
+          <mo>∂</mo>
+          <msup>
+            <mi>X</mi>
+            <mi>B</mi>
+          </msup>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <msup>
+            <mi>x</mi>
+            <mi>ν</mi>
+          </msup>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="TeX">\tilde{g}_{\mu\nu}=G_{AB}\frac{\partial X^{A}}{\partial x^{\mu}}\frac{\partial X^{B}}{\partial x^{\nu}}</annotation>
   </semantics>
 </math>

@@ -1,26 +1,18 @@
 <math 
-  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="r p m Subscript m o t o r">
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="r p m Subscript motor">
   <semantics>
-    <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="16" data-semantic-children="0,1,13" data-semantic-content="14,15">
-      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="16">r</mi>
-      <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="14" data-semantic-parent="16" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="16">p</mi>
-      <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="15" data-semantic-parent="16" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="13" data-semantic-children="2,12" data-semantic-parent="16">
-        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="13">m</mi>
-        <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="12" data-semantic-children="3,4,5,6,7" data-semantic-content="8,9,10,11" data-semantic-parent="13">
-          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="3" data-semantic-parent="12">m</mi>
-          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="8" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="4" data-semantic-parent="12">o</mi>
-          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="9" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="5" data-semantic-parent="12">t</mi>
-          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="10" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="12">o</mi>
-          <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="11" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-          <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="12">r</mi>
+    <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="7" data-semantic-children="0,1,4" data-semantic-content="5,6">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="7">r</mi>
+      <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="5" data-semantic-parent="7" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="1" data-semantic-parent="7">p</mi>
+      <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="6" data-semantic-parent="7" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
+      <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="4" data-semantic-children="2,3" data-semantic-parent="7">
+        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">m</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="3" data-semantic-parent="4">motor</mtext>
         </mrow>
       </msub>
     </mrow>
-    <annotation encoding="application/x-tex">rpm_{motor}</annotation>
+    <annotation encoding="application/x-tex">rpm_{\text{motor}}</annotation>
   </semantics>
 </math>

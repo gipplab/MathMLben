@@ -1,12 +1,65 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-...^{(3)}+{\cal L}_{\rm&amp;#10;matter%&amp;#10;})\
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">S_{EH}=\frac{1}{G_{3}}\int d^{3}x\,\sqrt{-g^{(3)}}\,(R^{(3)}+{\cal L}_{\rm&amp;#10;matter%&amp;#10;})</annotation>
+    <mrow>
+      <msub>
+        <mi>S</mi>
+        <mrow>
+          <mi>E</mi>
+          <mi>H</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <msub>
+          <mi>G</mi>
+          <mn>3</mn>
+        </msub>
+      </mfrac>
+      <mo>∫</mo>
+      <msup>
+        <mi>d</mi>
+        <mn>3</mn>
+      </msup>
+      <mi>x</mi>
+      <mspace width="thinmathspace"/>
+      <msqrt>
+        <mrow>
+          <mo>-</mo>
+          <msup>
+            <mi>g</mi>
+            <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>3</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </msup>
+        </mrow>
+      </msqrt>
+      <mspace width="thinmathspace"/>
+      <mo stretchy="false">(</mo>
+      <msup>
+        <mi>R</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mn>3</mn>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msup>
+      <mo>+</mo>
+      <msub>
+        <mrow>
+          <mtext>\</mtext>
+          <mi>c</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>L</mi>
+        </mrow>
+        <mtext>matter</mtext>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">S_{EH}=\frac{1}{G_{3}}\int d^{3}x\,\sqrt{-g^{(3)}}\,(R^{(3)}+{\cal L}_\text{matter})</annotation>
   </semantics>
 </math>
