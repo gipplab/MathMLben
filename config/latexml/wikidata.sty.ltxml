@@ -32,8 +32,10 @@ DefMath('\trafo{}', '{#1}^{\'}', omcd => 'wikidata', meaning => 'Q12202238');
 # for Gold ID 5 - allquantor with scope
 DefMath('\forallscope{}', '\forall #1', omcd => 'wikidata', meaning => 'Q14737094');
 
-# for Gold ID 56 - allquantor with scope
+# for Gold ID 56 - friction symbol
 DefMath('\friction', '\boldsymbol{F}_\text{r}', omcd => 'wikidata', meaning => 'Q82580');
 
+# for Gold ID 30 - range
+DefMath('\range{}{}', '{#1} ... {#2}', omcd => 'wikidata', meaning => 'Q40548497');
 
 1;
