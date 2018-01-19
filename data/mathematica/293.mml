@@ -1,9 +1,43 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mrow>
+        <mrow>
+          <mi>a</mi>
+          <mo>&#8290;</mo>
+          <msup>
+            <mi>x</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <mo>+</mo>
+        <mi>bx</mi>
+        <mo>+</mo>
+        <mi>c</mi>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mn>0</mn>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <ci>a</ci>
+            <apply>
+              <power />
+              <ci>x</ci>
+              <cn type='integer'>2</cn>
+            </apply>
+          </apply>
+          <ci>bx</ci>
+          <ci>c</ci>
+        </apply>
+        <cn type='integer'>0</cn>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

@@ -1,9 +1,145 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mrow>
+        <munder>
+          <mi>lim</mi>
+          <mrow>
+            <mi>x</mi>
+            <semantics>
+              <mo>&#8594;</mo>
+              <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+            </semantics>
+            <mi>c</mi>
+          </mrow>
+        </munder>
+        <mtext>&#8201;</mtext>
+        <mfrac>
+          <mrow>
+            <mi>f</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+          </mrow>
+          <mrow>
+            <mi>g</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+          </mrow>
+        </mfrac>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munder>
+          <mi>lim</mi>
+          <mrow>
+            <mi>x</mi>
+            <semantics>
+              <mo>&#8594;</mo>
+              <annotation encoding='Mathematica'>&quot;\[Rule]&quot;</annotation>
+            </semantics>
+            <mi>c</mi>
+          </mrow>
+        </munder>
+        <mtext>&#8201;</mtext>
+        <mfrac>
+          <mrow>
+            <msup>
+              <mi>f</mi>
+              <mo>&#8242;</mo>
+            </msup>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+          </mrow>
+          <mrow>
+            <msup>
+              <mi>g</mi>
+              <mo>&#8242;</mo>
+            </msup>
+            <mo>(</mo>
+            <mi>x</mi>
+            <mo>)</mo>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <apply>
+          <limit />
+          <bvar>
+            <ci>x</ci>
+          </bvar>
+          <condition>
+            <apply>
+              <tendsto />
+              <ci>x</ci>
+              <ci>c</ci>
+            </apply>
+          </condition>
+          <apply>
+            <times />
+            <apply>
+              <ci>f</ci>
+              <ci>x</ci>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <ci>g</ci>
+                <ci>x</ci>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <limit />
+          <bvar>
+            <ci>x</ci>
+          </bvar>
+          <condition>
+            <apply>
+              <tendsto />
+              <ci>x</ci>
+              <ci>c</ci>
+            </apply>
+          </condition>
+          <apply>
+            <times />
+            <apply>
+              <partialdiff />
+              <bvar>
+                <ci>x</ci>
+              </bvar>
+              <apply>
+                <ci>f</ci>
+                <ci>x</ci>
+              </apply>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <partialdiff />
+                <bvar>
+                  <ci>x</ci>
+                </bvar>
+                <apply>
+                  <ci>g</ci>
+                  <ci>x</ci>
+                </apply>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

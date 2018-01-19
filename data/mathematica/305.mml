@@ -1,0 +1,213 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <mrow>
+        <mi>&#966;</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mrow>
+          <mrow>
+            <msub>
+              <mi>&#955;</mi>
+              <mi>n</mi>
+            </msub>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>x</mi>
+              <mi>n</mi>
+            </msub>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <msub>
+              <mi>&#955;</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>x</mi>
+              <mn>1</mn>
+            </msub>
+          </mrow>
+          <mo>+</mo>
+          <mrow>
+            <msub>
+              <mi>&#955;</mi>
+              <mn>2</mn>
+            </msub>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msub>
+          </mrow>
+          <mo>+</mo>
+          <mo>&#8943;</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#8804;</mo>
+      <mrow>
+        <mrow>
+          <msub>
+            <mi>&#955;</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>&#966;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <msub>
+              <mi>x</mi>
+              <mi>n</mi>
+            </msub>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msub>
+            <mi>&#955;</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>&#966;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <msub>
+              <mi>x</mi>
+              <mn>1</mn>
+            </msub>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow>
+          <msub>
+            <mi>&#955;</mi>
+            <mn>2</mn>
+          </msub>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mi>&#966;</mi>
+            <mo>&#8289;</mo>
+            <mo>(</mo>
+            <msub>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msub>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mo>&#8943;</mo>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <leq />
+        <apply>
+          <ci>&#966;</ci>
+          <apply>
+            <plus />
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#955;</ci>
+                <ci>n</ci>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>x</ci>
+                <ci>n</ci>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#955;</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>x</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>&#955;</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>x</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+            </apply>
+            <ci>&#8943;</ci>
+          </apply>
+        </apply>
+        <apply>
+          <plus />
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#955;</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <ci>&#966;</ci>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>x</ci>
+                <ci>n</ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#955;</ci>
+              <cn type='integer'>1</cn>
+            </apply>
+            <apply>
+              <ci>&#966;</ci>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>x</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <times />
+            <apply>
+              <ci>Subscript</ci>
+              <ci>&#955;</ci>
+              <cn type='integer'>2</cn>
+            </apply>
+            <apply>
+              <ci>&#966;</ci>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>x</ci>
+                <cn type='integer'>2</cn>
+              </apply>
+            </apply>
+          </apply>
+          <ci>&#8943;</ci>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

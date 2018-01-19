@@ -1,9 +1,156 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mrow>
+        <msub>
+          <mo>&#8202;</mo>
+          <mn>2</mn>
+        </msub>
+        <mo>&#8290;</mo>
+        <mrow>
+          <msub>
+            <mi>F</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>(</mo>
+          <mrow>
+            <mi>a</mi>
+            <mo>,</mo>
+            <mrow>
+              <mi>b</mi>
+              <mo>;</mo>
+              <mi>c</mi>
+              <mo>;</mo>
+              <mi>z</mi>
+            </mrow>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mrow>
+        <munderover>
+          <mo>&#8721;</mo>
+          <mrow>
+            <mi>n</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+          </mrow>
+          <mi>&#8734;</mi>
+        </munderover>
+        <mfrac>
+          <mrow>
+            <msup>
+              <mi>z</mi>
+              <mi>n</mi>
+            </msup>
+            <mo>&#8290;</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <msub>
+                  <mi>a</mi>
+                  <mi>n</mi>
+                </msub>
+                <mo>&#8290;</mo>
+                <msub>
+                  <mi>b</mi>
+                  <mi>n</mi>
+                </msub>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+          <mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>!</mo>
+            </mrow>
+            <mo>&#8290;</mo>
+            <msub>
+              <mi>c</mi>
+              <mi>n</mi>
+            </msub>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <apply>
+          <times />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>&#62368;</ci>
+            <cn type='integer'>2</cn>
+          </apply>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>F</ci>
+              <cn type='integer'>1</cn>
+            </apply>
+            <ci>a</ci>
+            <apply>
+              <ci>CompoundExpression</ci>
+              <ci>b</ci>
+              <ci>c</ci>
+              <ci>z</ci>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <sum />
+          <bvar>
+            <ci>n</ci>
+          </bvar>
+          <lowlimit>
+            <cn type='integer'>0</cn>
+          </lowlimit>
+          <uplimit>
+            <infinity />
+          </uplimit>
+          <apply>
+            <times />
+            <apply>
+              <power />
+              <ci>z</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <times />
+              <apply>
+                <ci>Subscript</ci>
+                <ci>a</ci>
+                <ci>n</ci>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>b</ci>
+                <ci>n</ci>
+              </apply>
+            </apply>
+            <apply>
+              <power />
+              <apply>
+                <times />
+                <apply>
+                  <factorial />
+                  <ci>n</ci>
+                </apply>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>c</ci>
+                  <ci>n</ci>
+                </apply>
+              </apply>
+              <cn type='integer'>-1</cn>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

@@ -1,9 +1,130 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mfrac>
+        <msub>
+          <mi>b</mi>
+          <mn>1</mn>
+        </msub>
+        <mrow>
+          <mfrac>
+            <msub>
+              <mi>b</mi>
+              <mn>2</mn>
+            </msub>
+            <mrow>
+              <mfrac>
+                <msub>
+                  <mi>b</mi>
+                  <mn>3</mn>
+                </msub>
+                <mrow>
+                  <msub>
+                    <mi>a</mi>
+                    <mn>3</mn>
+                  </msub>
+                  <mo>+</mo>
+                  <msub>
+                    <mo>&#8202;</mo>
+                    <mo>&#8945;</mo>
+                  </msub>
+                </mrow>
+              </mfrac>
+              <mo>+</mo>
+              <msub>
+                <mi>a</mi>
+                <mn>2</mn>
+              </msub>
+            </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <msub>
+            <mi>a</mi>
+            <mn>1</mn>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <msub>
+        <mi>a</mi>
+        <mn>0</mn>
+      </msub>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <plus />
+        <apply>
+          <times />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>b</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <plus />
+              <apply>
+                <times />
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>b</ci>
+                  <cn type='integer'>2</cn>
+                </apply>
+                <apply>
+                  <power />
+                  <apply>
+                    <plus />
+                    <apply>
+                      <times />
+                      <apply>
+                        <ci>Subscript</ci>
+                        <ci>b</ci>
+                        <cn type='integer'>3</cn>
+                      </apply>
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <apply>
+                            <ci>Subscript</ci>
+                            <ci>a</ci>
+                            <cn type='integer'>3</cn>
+                          </apply>
+                          <apply>
+                            <ci>Subscript</ci>
+                            <ci>&#62368;</ci>
+                            <ci>&#8945;</ci>
+                          </apply>
+                        </apply>
+                        <cn type='integer'>-1</cn>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <ci>Subscript</ci>
+                      <ci>a</ci>
+                      <cn type='integer'>2</cn>
+                    </apply>
+                  </apply>
+                  <cn type='integer'>-1</cn>
+                </apply>
+              </apply>
+              <apply>
+                <ci>Subscript</ci>
+                <ci>a</ci>
+                <cn type='integer'>1</cn>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <ci>Subscript</ci>
+          <ci>a</ci>
+          <cn type='integer'>0</cn>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

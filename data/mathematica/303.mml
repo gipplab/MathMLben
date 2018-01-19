@@ -1,0 +1,73 @@
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mrow>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>f</mi>
+            <mo>&#8290;</mo>
+            <mi>g</mi>
+            <mo>&#8290;</mo>
+            <mi>&#9702;</mi>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#8242;</mo>
+      </msup>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mi>g</mi>
+            <mo>&#8290;</mo>
+            <mi>&#9702;</mi>
+            <mo>&#8290;</mo>
+            <msup>
+              <mi>f</mi>
+              <mo>&#8242;</mo>
+            </msup>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+        <mo>&#183;</mo>
+        <msup>
+          <mi>g</mi>
+          <mo>&#8242;</mo>
+        </msup>
+      </mrow>
+    </mrow>
+    <annotation-xml encoding='MathML-Content'>
+      <apply>
+        <eq />
+        <apply>
+          <partialdiff />
+          <apply>
+            <times />
+            <ci>f</ci>
+            <ci>g</ci>
+            <ci>&#9702;</ci>
+          </apply>
+        </apply>
+        <apply>
+          <ci>CenterDot</ci>
+          <apply>
+            <times />
+            <ci>g</ci>
+            <ci>&#9702;</ci>
+            <apply>
+              <partialdiff />
+              <ci>f</ci>
+            </apply>
+          </apply>
+          <apply>
+            <partialdiff />
+            <ci>g</ci>
+          </apply>
+        </apply>
+      </apply>
+    </annotation-xml>
+  </semantics>
+</math>

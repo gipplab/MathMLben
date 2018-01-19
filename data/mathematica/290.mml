@@ -1,9 +1,59 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mrow>
+        <mi>g</mi>
+        <mo>&#8289;</mo>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <msup>
+            <mi>&#8519;</mi>
+            <mrow>
+              <mo>-</mo>
+              <mi>x</mi>
+            </mrow>
+          </msup>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <apply>
+          <ci>g</ci>
+          <ci>x</ci>
+        </apply>
+        <apply>
+          <times />
+          <cn type='integer'>1</cn>
+          <apply>
+            <power />
+            <apply>
+              <plus />
+              <apply>
+                <power />
+                <exponentiale />
+                <apply>
+                  <times />
+                  <cn type='integer'>-1</cn>
+                  <ci>x</ci>
+                </apply>
+              </apply>
+              <cn type='integer'>1</cn>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

@@ -1,9 +1,24 @@
-<math 
-  xmlns='http://www.w3.org/1998/Math/MathML'>
-  <semantics>
-    <mi>undefined</mi>
-    <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
-    </annotation-xml>
-  </semantics>
-</math>
+Syntax::tsntxi: 
+   "RowBox[{|, A, |, RowBox[{, 
+         TemplateBox[{RowBox[{Cell[BoxData[FormBox[GridBox[{{Cell[
+                    TextData[{ , Cell[<
+<2>>],  }]], <
+  <1>>}, {<
+    <2>>}}], 
+                Tra<
+      <9>>orm]]]}]}, Abs], , ad - bc}]}]" is incomplete; more
+     input is needed.
+
+ToExpression::esntx: 
+   Could not parse |A| = \begin{vmatrix} a & b\\c & d \end{vmatrix}=ad - bc
+     as input.
+
+        <math 
+          xmlns='http://www.w3.org/1998/Math/MathML'>
+          <semantics>
+            <mi>$Failed</mi>
+            <annotation-xml encoding='MathML-Content'>
+              <ci>$Failed</ci>
+            </annotation-xml>
+          </semantics>
+        </math>

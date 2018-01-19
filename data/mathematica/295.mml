@@ -1,9 +1,92 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <semantics>
+        <mrow>
+          <mo>(</mo>
+          <mtable>
+            <mtr>
+              <mtd>
+                <mi>n</mi>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mi>k</mi>
+              </mtd>
+            </mtr>
+          </mtable>
+          <mo>)</mo>
+        </mrow>
+        <annotation encoding='Mathematica'>TemplateBox[List[&quot;n&quot;, &quot;k&quot;], &quot;Binomial&quot;]</annotation>
+      </semantics>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mrow>
+          <mi>n</mi>
+          <mo>!</mo>
+        </mrow>
+        <mrow>
+          <mrow>
+            <mi>k</mi>
+            <mo>!</mo>
+          </mrow>
+          <mo>&#8290;</mo>
+          <mrow>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mi>n</mi>
+                <mo>-</mo>
+                <mi>k</mi>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <mo>!</mo>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Binomial</ci>
+          <ci>n</ci>
+          <ci>k</ci>
+        </apply>
+        <apply>
+          <times />
+          <apply>
+            <factorial />
+            <ci>n</ci>
+          </apply>
+          <apply>
+            <power />
+            <apply>
+              <times />
+              <apply>
+                <factorial />
+                <ci>k</ci>
+              </apply>
+              <apply>
+                <factorial />
+                <apply>
+                  <plus />
+                  <ci>n</ci>
+                  <apply>
+                    <times />
+                    <cn type='integer'>-1</cn>
+                    <ci>k</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

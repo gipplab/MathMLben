@@ -1,9 +1,74 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <msub>
+        <mi>x</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo>&#63449;</mo>
+      <mrow>
+        <mi>r</mi>
+        <mo>&#8290;</mo>
+        <mrow>
+          <msub>
+            <mi>x</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>(</mo>
+          <mrow>
+            <mn>1</mn>
+            <mo>-</mo>
+            <msub>
+              <mi>x</mi>
+              <mi>n</mi>
+            </msub>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <apply>
+          <ci>Subscript</ci>
+          <ci>x</ci>
+          <apply>
+            <plus />
+            <ci>n</ci>
+            <cn type='integer'>1</cn>
+          </apply>
+        </apply>
+        <apply>
+          <times />
+          <ci>r</ci>
+          <apply>
+            <apply>
+              <ci>Subscript</ci>
+              <ci>x</ci>
+              <ci>n</ci>
+            </apply>
+            <apply>
+              <plus />
+              <cn type='integer'>1</cn>
+              <apply>
+                <times />
+                <cn type='integer'>-1</cn>
+                <apply>
+                  <ci>Subscript</ci>
+                  <ci>x</ci>
+                  <ci>n</ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>
