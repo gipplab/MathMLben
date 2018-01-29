@@ -1,9 +1,50 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mi>x</mi>
+      <mo>&#63449;</mo>
+      <mrow>
+        <msub>
+          <mi>log</mi>
+          <mn>2</mn>
+        </msub>
+        <mo>&#8290;</mo>
+        <mrow>
+          <mi>n</mi>
+          <mo>&#10234;</mo>
+          <msup>
+            <mn>2</mn>
+            <mi>x</mi>
+          </msup>
+        </mrow>
+      </mrow>
+      <mo>&#63449;</mo>
+      <mi>n</mi>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <ci>x</ci>
+        <apply>
+          <times />
+          <apply>
+            <ci>Subscript</ci>
+            <ci>log</ci>
+            <cn type='integer'>2</cn>
+          </apply>
+          <apply>
+            <ci>DoubleLongLeftRightArrow</ci>
+            <ci>n</ci>
+            <apply>
+              <power />
+              <cn type='integer'>2</cn>
+              <ci>x</ci>
+            </apply>
+          </apply>
+        </apply>
+        <ci>n</ci>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

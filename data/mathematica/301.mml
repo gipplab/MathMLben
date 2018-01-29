@@ -1,0 +1,17 @@
+General::prebin: 
+   RawBoxes[RowBox[{∇, ×, E}]] cannot be interpreted. The prefix operator 
+    RawBoxes[∇] cannot be combined with the binary operator ×.
+
+ToExpression::esntx: 
+   Could not parse \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}
+     {\partial t} as input.
+
+<math 
+  xmlns='http://www.w3.org/1998/Math/MathML'>
+  <semantics>
+    <mi>$Failed</mi>
+    <annotation-xml encoding='MathML-Content'>
+      <ci>$Failed</ci>
+    </annotation-xml>
+  </semantics>
+</math>

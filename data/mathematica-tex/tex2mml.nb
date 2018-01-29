@@ -1,0 +1,187 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7332,        177]
+NotebookOptionsPosition[      6733,        151]
+NotebookOutlinePosition[      7072,        166]
+CellTagsIndexPosition[      7029,        163]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"\"\<*\>\"", ",", " ", 
+   RowBox[{"NotebookDirectory", "[", "]"}]}], "]"}]], "Code",
+ CellChangeTimes->{{3.7253267038753347`*^9, 3.7253268468678503`*^9}, {
+  3.7253269332555857`*^9, 3.725326953241588*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/builder.\
+sh\"\>", ",", \
+"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/create200.js\"\>", 
+   ",", "\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/\
+fixupDLMFspaces.js\"\>", 
+   ",", "\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/gold.json\"\
+\>", ",", \
+"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/mathematica.js\"\>\
+", ",", "\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/mergeFile.\
+js\"\>", ",", \
+"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/render-mathoid.js\"\
+\>", ",", \
+"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/splitfile.js\"\>", 
+   ",", "\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/test.log\"\
+\>", ",", \
+"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/tex2mml.wl\"\>", 
+   ",", "\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/texzilla.\
+js\"\>", ",", \
+"\<\"/media/physikerwelt/Windows/git/ag-gipp/gouldi/helper/transform.js\"\>"}]\
+, "}"}]], "Output",
+ CellChangeTimes->{
+  3.725326838046114*^9, {3.725326949897695*^9, 3.725326953903174*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "\"\<*\>\"", "]"}]], "Code",
+ CellChangeTimes->{{3.7253268494115*^9, 3.72532692036477*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","cdir",
+   "\"Cannot set current directory to \
+\\!\\(\\*RowBox[{\\\"\\\\\\\".dbus\\\\\\\"\\\"}]\\).\"",2,7,5,
+   25729530298559777939,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.7253268206870527`*^9, 3.7253268256403227`*^9}, {
+  3.725326901929617*^9, 3.7253269211488*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"18JcdlMmt\"\>", ",", "\<\"a05.zip\"\>", ",", "\<\"adb\"\>", 
+   ",", "\<\".android\"\>", ",", "\<\"assignment05.pdf\"\>", 
+   ",", "\<\".basex\"\>", ",", "\<\".bash_aliases\"\>", 
+   ",", "\<\".bash_history\"\>", ",", "\<\".bash_logout\"\>", 
+   ",", "\<\".bashrc\"\>", ",", "\<\"bin\"\>", ",", "\<\".cache\"\>", 
+   ",", "\<\"check.yaml\"\>", ",", "\<\".compiz\"\>", ",", "\<\".config\"\>", 
+   ",", "\<\"configure-trackpoint-0.7\"\>", ",", "\<\"core\"\>", 
+   ",", "\<\"coverage-error.log\"\>", ",", "\<\".dbus\"\>", 
+   ",", "\<\"Desktop\"\>", ",", "\<\"dlmf-sample.xml\"\>", 
+   ",", "\<\".dmrc\"\>", ",", "\<\"Documents\"\>", ",", "\<\"Downloads\"\>", 
+   ",", "\<\"eval_dataset.xml\"\>", ",", "\<\"examples.desktop\"\>", 
+   ",", "\<\"ff51\"\>", ",", "\<\"firefox\"\>", ",", "\<\".fonts\"\>", 
+   ",", "\<\"formulae.tgz\"\>", ",", "\<\"formulae.yaml\"\>", 
+   ",", "\<\".gconf\"\>", ",", "\<\"git\"\>", ",", "\<\".gitconfig\"\>", 
+   ",", "\<\"gitCopy\"\>", ",", "\<\"github-recovery-codes.txt\"\>", 
+   ",", "\<\"git_move.sh\"\>", ",", "\<\".gnome\"\>", ",", "\<\".gnome2\"\>", 
+   ",", "\<\".gnome2_private\"\>", ",", "\<\".gnupg\"\>", 
+   ",", "\<\".ICEauthority\"\>", ",", "\<\".IntelliJIdea2017.2\"\>", 
+   ",", "\<\".java\"\>", ",", "\<\"java_error_in_IDEA.hprof\"\>", 
+   ",", "\<\"jetbrains-toolbox\"\>", ",", "\<\".latexmkrc\"\>", 
+   ",", "\<\"lib\"\>", ",", "\<\".local\"\>", ",", "\<\".logs\"\>", 
+   ",", "\<\".m2\"\>", ",", "\<\".Mathematica\"\>", ",", "\<\"mathml3\"\>", 
+   ",", "\<\"media\"\>", ",", "\<\"mnt\"\>", ",", "\<\"mouse\"\>", 
+   ",", "\<\".mozilla\"\>", ",", "\<\"mozilla.pdf\"\>", ",", "\<\"Music\"\>", 
+   ",", "\<\".nano\"\>", ",", "\<\"New database.kdbx\"\>", 
+   ",", "\<\".node-gyp\"\>", ",", "\<\".npm\"\>", ",", "\<\".npmrc\"\>", 
+   ",", "\<\".oracle_jre_usage\"\>", ",", "\<\".org.jabref.JabRefMain\"\>", 
+   ",", "\<\"osresult.hmtl\"\>", ",", "\<\".pam_environment\"\>", 
+   ",", "\<\"paper\"\>", ",", "\<\".PhpStorm2017.2\"\>", 
+   ",", "\<\"PhpstormProjects\"\>", ",", "\<\"Pictures\"\>", 
+   ",", "\<\".pki\"\>", ",", "\<\".pm2\"\>", ",", "\<\".profile\"\>", 
+   ",", "\<\"Public\"\>", ",", "\<\".purple\"\>", 
+   ",", "\<\".PyCharm2017.2\"\>", ",", "\<\".PyCharmEdu4.0\"\>", 
+   ",", "\<\"PycharmProjects\"\>", ",", "\<\".python_history\"\>", 
+   ",", "\<\".QtWebEngineProcess\"\>", ",", "\<\".recently-used\"\>", 
+   ",", "\<\".restx\"\>", ",", "\<\"SourceCodePro_FontsOnly-1.010\"\>", 
+   ",", "\<\"SourceCodePro_FontsOnly-1.010.zip\"\>", ",", "\<\".ssh\"\>", 
+   ",", "\<\".ssh-win\"\>", ",", "\<\".sudo_as_admin_successful\"\>", 
+   ",", "\<\"Telegram\"\>", ",", "\<\"Templates\"\>", 
+   ",", "\<\".texlive2017\"\>", ",", "\<\"texmf\"\>", 
+   ",", "\<\".thunderbird\"\>", ",", "\<\".Toolbox\"\>", 
+   ",", "\<\".travis\"\>", ",", "\<\"tsetup.1.1.23.tar\"\>", 
+   ",", "\<\"tsetup.1.1.23.tar-1\"\>", ",", "\<\"typescript\"\>", 
+   ",", "\<\"username.txt\"\>", ",", "\<\"Videos\"\>", 
+   ",", "\<\".viminfo\"\>", 
+   ",", "\<\"Webhook - \
+http:_api.originstamp.org_api_service_githook_files\"\>", 
+   ",", "\<\".WebStorm2017.2\"\>", ",", "\<\".wget-hsts\"\>", 
+   ",", "\<\"wikiMath17\"\>", ",", "\<\".Wolfram\"\>", 
+   ",", "\<\".wpa_cli_history\"\>", ",", "\<\".Xauthority\"\>", 
+   ",", "\<\".xdvirc\"\>", ",", "\<\".xinputrc\"\>", 
+   ",", "\<\".xsession-errors\"\>", ",", "\<\".xsession-errors.old\"\>", 
+   ",", "\<\".yarn\"\>", ",", "\<\".yarnrc\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.7253268206883783`*^9, 3.725326825647319*^9}, {
+  3.725326901937063*^9, 3.7253269211593943`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Code"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.7253267626190233`*^9}]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{"texString", "=", 
+  RowBox[{"$ScriptCommandLine", "[", 
+   RowBox[{"[", "2", "]"}], "]"}]}], "\n", 
+ RowBox[{"tex", "=", 
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"texString", ",", "TeXForm", ",", "Defer"}], "]"}]}], "\n", 
+ RowBox[{"Print", "@", 
+  RowBox[{"ExportString", "[", 
+   RowBox[{"tex", ",", "\"\<MathML\>\"", ",", 
+    RowBox[{"\"\<Content\>\"", "->", "True"}]}], "]"}]}]}], "Code"]
+},
+WindowSize->{2493, 1385},
+WindowMargins->{{773, -216}, {-424, Automatic}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 258, 5, 39, "Code"],
+Cell[841, 29, 1187, 23, 73, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2065, 57, 132, 2, 37, "Code"],
+Cell[2200, 61, 343, 8, 23, "Message"],
+Cell[2546, 71, 3593, 56, 142, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6176, 132, 25, 0, 37, "Code"],
+Cell[6204, 134, 89, 2, 25, "Output"]
+}, Open  ]],
+Cell[6308, 139, 421, 10, 84, "Code"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

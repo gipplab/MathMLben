@@ -16,13 +16,13 @@ if (!fs.existsSync(zillaDir)) {
 
 fs.readdirAsync(goldDir).map(function (name) {
   var path = goldDir + '/' + name;
+  var num = name.split('.')[0];
   if (fs.statSync(path).isFile()) {
     return fs.readFileAsync(path, 'utf8')
       .then(function (content) {
         return parseAsync(content);
       })
       .then(function (json) {
-        var num = name.split('.')[0];
         console.log();
         console.log('Parse ' + num + ':');
         try {
@@ -36,10 +36,10 @@ fs.readdirAsync(goldDir).map(function (name) {
         }
         return tex;
       }).then(tex => {
-          return spawn('wolframscript', ['-file', 'tex2mml.wl', tex], { capture: [ 'stdout', 'stderr' ]}).then(result => {
+        fs.writeFileAsync( zillaDir + "/" + num + ".tex", tex );
+        return spawn('wolframscript', ['-file', 'tex2mml.wl', tex], { capture: [ 'stdout', 'stderr' ]}).then(result => {
             const stdOut = result.stdout.toString();
             if (stdOut){
-              var num = name.split('.')[0];
               console.log("Successfully parsed " + num);
               var prettyMML = pd.xml(stdOut);
               console.log("Successfully prettify MML.");

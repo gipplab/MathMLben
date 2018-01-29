@@ -1,9 +1,14 @@
+Syntax::sntxb: Expression cannot begin with "/sub".
+
+ToExpression::esntx: Could not parse log
+<sub>10</sub>(''x'') as input.
+
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mi>$Failed</mi>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <ci>$Failed</ci>
     </annotation-xml>
   </semantics>
 </math>

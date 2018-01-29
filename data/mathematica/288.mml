@@ -1,9 +1,28 @@
 <math 
   xmlns='http://www.w3.org/1998/Math/MathML'>
   <semantics>
-    <mi>undefined</mi>
+    <mrow>
+      <mi>n</mi>
+      <mo>&#63449;</mo>
+      <mfrac>
+        <mi>c</mi>
+        <mi>v</mi>
+      </mfrac>
+    </mrow>
     <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
+      <apply>
+        <eq />
+        <ci>n</ci>
+        <apply>
+          <times />
+          <ci>c</ci>
+          <apply>
+            <power />
+            <ci>v</ci>
+            <cn type='integer'>-1</cn>
+          </apply>
+        </apply>
+      </apply>
     </annotation-xml>
   </semantics>
 </math>

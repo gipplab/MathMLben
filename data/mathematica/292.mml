@@ -1,9 +1,29 @@
-<math 
-  xmlns='http://www.w3.org/1998/Math/MathML'>
-  <semantics>
-    <mi>undefined</mi>
-    <annotation-xml encoding='MathML-Content'>
-      <ci>undefined</ci>
-    </annotation-xml>
-  </semantics>
-</math>
+Syntax::bktmcp: 
+   Expression "RowBox[{{, Cell[BoxData[FormBox[GridBox[{{Cell[TextData[
+               { , Cell[1, InlineFormula],  }]], 
+             Cell[TextData[{ , Cell[BoxData[ if a is a<
+<6>><
+  <15>> ,], 
+
+                 In<
+    <10>>a],  }]]}, <
+      <2>>}], Tr<
+        <12>>m]]]}]" has no closing 
+    "}".
+
+ToExpression::esntx: 
+   Could not parse \left(\frac{a}{p}\right) =  \begin{cases}  1 & \text{ if }
+      a \text{ is a quadratic residue modulo } p \text{ and } a \not\<
+          <78
+       >>o } p, \\  0 & \text{ if } a \equiv 0 \pmod{p}.   \end{cases} as
+     input.
+
+            <math 
+              xmlns='http://www.w3.org/1998/Math/MathML'>
+              <semantics>
+                <mi>$Failed</mi>
+                <annotation-xml encoding='MathML-Content'>
+                  <ci>$Failed</ci>
+                </annotation-xml>
+              </semantics>
+            </math>
