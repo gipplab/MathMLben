@@ -9,7 +9,7 @@ NIST Digital Library of Mathematical Functions (DLMF), 201-305 from the NTCIR ar
 Task).
 
 GUI to makes changes to the data available: https://gouldi.wmflabs.org
-with input fields for formula name and type (definition, equation, relation or general formula), original and corrected TeX, hyperlink to the original formula (source) and most importantly a semantic Tex field for annotations.
+with input fields for formula name and type (definition, equation, relation or general formula), original and corrected TeX, hyperlink to the original formula (source) and most importantly a semantic Tex field for annotations (DLMF macros, Wikidata QIDs).
 The expression tree preview visualization is provided by VMEXT (https://github.com/ag-gipp/vmext).
 
 ### notes on deployment
