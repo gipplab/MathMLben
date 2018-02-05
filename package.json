@@ -37,6 +37,7 @@
     "github-base": "^0.5.4",
     "github-change-remote-file": "^4.2.0",
     "github-content": "^1.0.1",
+    "marked": "^0.3.12",
     "mathoid": "^0.7.1",
     "popper.js": "^1.13.0",
     "preq": "^0.5.2",

@@ -9,6 +9,21 @@ var preq = require('preq');
 var fs = BBPromise.promisifyAll(require('fs'));
 var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
+
+var marked = require('marked'); // markdown parser
+marked.setOptions({
+    renderer: new marked.Renderer(),
+    gfm: true,
+    tables: true,
+    breaks: true,
+    pedantic: false,
+    sanitize: false,
+    smartLists: true,
+    smartypants: false
+});
+
+var aboutPage = marked(fs.readFileSync('views/README.md').toString());
+
 require('app-module-path').addPath(path.join(__dirname + '/node_modules/vmext'));
 var bodyParser = require('body-parser');
 
@@ -32,15 +47,17 @@ app.use(function (req, res, next) {
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
-app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
-app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
-app.use('/styles', express.static(path.join(__dirname + '/styles')));
+app.use('/gold/node_modules', express.static(path.join(__dirname + '/node_modules'))); //<
+app.use('/gold/scripts', express.static(path.join(__dirname + '/scripts'))); //<
+app.use('/gold/styles', express.static(path.join(__dirname + '/styles'))); //<
+app.use('/gold/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
-app.use('/', express.static(path.join(__dirname + '/node_modules/vmext/public/favicon.ico')));
+app.use('/gold/', express.static(path.join(__dirname + '/node_modules/vmext/public/favicon.ico'))); //<
 app.use('/assets', express.static(path.join(__dirname + '/assets')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
-app.use('/', require('./node_modules/vmext/routes/routes'));
+app.use('/gold/', require('./node_modules/vmext/routes/routes'));
+
 app.post('/get-model', function (req, res) {
     var body = req.body;
     var gc = new GithubContent(body);
@@ -100,11 +117,19 @@ app.post('/latexml', function(req, res){
     });
 });
 
+app.get('/about', function(req, res){
+    res.send(aboutPage);
+});
 
-app.all('/*', function(req, res, next) {
+app.use('/gold/*', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
     res.sendFile('views/index.html', { root: __dirname });
 });
+
+app.use('/', function(req, res){
+    res.redirect('about');
+});
+
 
 var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
 app.listen( port, function () {
