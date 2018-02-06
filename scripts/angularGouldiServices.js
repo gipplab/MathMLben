@@ -2,7 +2,20 @@ var gouldi = angular.module('gouldiApp');
 
 gouldi.service(
     'gouldiHttpServices',
-    ['$http', '$q', function($http, $q){
+    ['$http', '$q', 'marked', function($http, $q, marked){
+        this.initAboutPage = function( $scope ){
+            return $http
+                .get("/readme")
+                .then( function(res){
+                    $scope.aboutPage = marked(res.data);
+                    console.log("Loaded: about page.");
+                    })
+                .catch( function(e){
+                    console.log("Error during loading the about page. " + e);
+                    $scope.aboutPage = "ERROR";
+                });
+        };
+
         this.scriptLoader = function( name, $scope ){
             return $http
                 .get("scripts/" + name + ".json")

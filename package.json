@@ -25,6 +25,7 @@
   "dependencies": {
     "angular-cookies": "^1.6.8",
     "angular-highlightjs": "^0.7.1",
+    "angular-marked": "^1.2.2",
     "angular-route": "^1.6.8",
     "angular-schema-form": "^0.8.13",
     "angular-schema-form-bootstrap": "^0.2.0",

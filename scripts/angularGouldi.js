@@ -1,1 +1,1 @@
-angular.module('gouldiApp', ['schemaForm','ui.bootstrap','ngCookies','ngRoute','hljs']);
+angular.module('gouldiApp', ['schemaForm','ui.bootstrap','ngCookies','ngRoute','hljs','hc.marked']);

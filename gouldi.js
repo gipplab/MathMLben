@@ -9,21 +9,7 @@ var preq = require('preq');
 var fs = BBPromise.promisifyAll(require('fs'));
 var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
-
-var marked = require('marked'); // markdown parser
-marked.setOptions({
-    renderer: new marked.Renderer(),
-    gfm: true,          // flavoured markdown (used in GitHub)
-    tables: true,       // requires gfm
-    breaks: true,       // requires gfm
-    pedantic: false,    // do not try to fix bugs in original markdown
-    sanitize: false,    // ignores html in markdown file
-    smartLists: true,   // use smarter lists behavior (maybe no effect)
-    smartypants: true,  // smart typographic punctuation
-    xhtml: true         // use xthml
-});
-
-var aboutPage = marked(fs.readFileSync('views/README.md').toString());
+//var readme = fs.readFileSync('views/README.md').toString();
 
 require('app-module-path').addPath(path.join(__dirname + '/node_modules/vmext'));
 var bodyParser = require('body-parser');
@@ -37,15 +23,10 @@ var githubChangeRemoteFile = require('github-change-remote-file');
 
 // add middleware to:
 // 1) Allow CORS
-// 2) Redirect subpath /gold -> /gold/
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
-
-    if ( req !== undefined && req.url.endsWith('gold') ){
-        res.redirect( 301, '/gold/' );
-        console.log("REDIRECTED TO GOLD/ hahahaha");
-    } else next();
+    next();
 });
 
 // need to specify a view because of
@@ -55,18 +36,15 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 // needed subpath gold because it is the new subpath of the GUI
-app.use('/gold/node_modules', express.static(path.join(__dirname + '/node_modules')));
-app.use('/gold/scripts', express.static(path.join(__dirname + '/scripts')));
-app.use('/gold/styles', express.static(path.join(__dirname + '/styles')));
-app.use('/gold/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
-// set the routing options to the new subpath gold
-app.use('/gold/', require('./node_modules/vmext/routes/routes'));
-
-// needed not to be in the subpath, because vmext don't know the current subpath (widgets needs to be available in both paths)
+app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
+app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
+app.use('/styles', express.static(path.join(__dirname + '/styles')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
 app.use('/assets', express.static(path.join(__dirname + '/assets')));
+app.use('/readme', express.static(path.join(__dirname + '/views/README.md')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
+app.use('/', require('./node_modules/vmext/routes/routes'));
 
 app.post('/get-model', function (req, res) {
     var body = req.body;
@@ -127,11 +105,7 @@ app.post('/latexml', function(req, res){
     });
 });
 
-app.get('/about', function(req, res){
-    res.send(aboutPage);
-});
-
-app.use('/gold/*', function(req, res, next) {
+app.all('/*', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
     res.sendFile('views/index.html', { root: __dirname });
 });

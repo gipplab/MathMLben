@@ -11,6 +11,8 @@
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/schema-form.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <script type="text/javascript" src="node_modules/marked/lib/marked.js"></script>
+    <script type="text/javascript" src="node_modules/angular-marked/dist/angular-marked.js"></script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-highlightjs/build/angular-highlightjs.min.js"></script>
@@ -63,7 +65,11 @@
                         </div>
                     </uib-accordion>
                 </uib-tab>
-                <uib-tab ng-attr-active="tabs[1].active" heading="GitHub Access Definitions">
+                <uib-tab ng-attr-active="tabs[1].active" heading="About">
+                    <div class="bs-callout bs-callout-primary" id="about-container-div"></div>
+                    <a href="https://www.isg.uni-konstanz.de/">Impressum</a>
+                </uib-tab>
+                <uib-tab ng-attr-active="tabs[2].active" heading="GitHub Access Definitions">
                     <form name="repo"
                           data-sf-schema="schemarepo"
                           data-sf-form="formrepo"
@@ -72,7 +78,7 @@
                     <p>Note that the <a href="https://github.com/settings/tokens">API token</a> will be sent to our server.<br/>
                 We recommend to delete the token after usage.</p>
                 </uib-tab>
-                <uib-tab ng-attr-active="tabs[2].active" heading="Model">
+                <uib-tab ng-attr-active="tabs[3].active" heading="Model">
                     <div class="alert alert-info" id="model-info-helper"></div>
                 </uib-tab>
             </uib-tabset>
