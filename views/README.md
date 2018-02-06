@@ -7,7 +7,7 @@ The Gold Standard comprises 305 mathematical formulae (1-100 extracted from the 
 NIST Digital Library of Mathematical Functions (DLMF), 201-305 from the NTCIR arXiv and NTCIR-12 Wikipedia datasets
 Task).
 
-A GUI to make changes to the data is available at https://gouldi.wmflabs.org/gold/ with input fields for formula name and type (definition, equation, relation or general formula), original and corrected TeX, hyperlink to the original formula (source) and most importantly a semantic Tex field for annotations (DLMF macros, Wikidata QIDs).
+A GUI to make changes to the data is available at https://mathmlben.wmflabs.org/gold/ with input fields for formula name and type (definition, equation, relation or general formula), original and corrected TeX, hyperlink to the original formula (source) and most importantly a semantic Tex field for annotations (DLMF macros, Wikidata QIDs).
 The expression tree preview visualization is provided by VMEXT (https://github.com/ag-gipp/vmext).
 
 Anotations of Wikidata items (QIDs) can be made via the macro `\w{Q...}` for a general mathematical expression, `\wf{Q...}` for a function or `\wdef{Q...}` at the beginning of the formula. Multiple annotation of the same token is dispensable. DLMF LaTeX macros (see the CICM lecture notes of Watt et al., DOI 10.1007/978-3-319-08434-3), e.g. `\EulerGamma@{z}` for the gamma function or `\JacobiP{\alpha}{\beta}{n}@{x}` for the Jacobi polynomial, are interpreted. Furthermore you can create new macros at https://github.com/ag-gipp/GoUldI/blob/master/config/latexml/wikidata.sty.ltxml. Be careful that the quotation marks '' are balanced and survey the travis build status on https://travis-ci.org/ag-gipp/GoUldI/branches.
