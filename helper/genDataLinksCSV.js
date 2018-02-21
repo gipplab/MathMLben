@@ -26,7 +26,7 @@ fs.readdirAsync(goldDir)
                 if (num <= 200) {
                     dataArr[num] = [num, json.uri, ''];
                 } else {
-                    dataArr[num] = [num, json.uri, "Page: " + json.page + " - Formula: " + json.formula];
+                    dataArr[num] = [num, json.uri, "Page: " + json.page + "; Formula: " + json.formula];
                 }
             });
     })

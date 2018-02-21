@@ -43,6 +43,7 @@ app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/pu
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
 app.use('/assets', express.static(path.join(__dirname + '/assets')));
 app.use('/readme', express.static(path.join(__dirname + '/views/README.md')));
+app.use('/datasetSources', express.static(path.join(__dirname + '/views/dataSources.csv')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
 app.use('/', require('./node_modules/vmext/routes/routes'));
 
@@ -103,6 +104,10 @@ app.post('/latexml', function(req, res){
     }).catch( function(e){
         res.status(400).send('Error while request LaTeXML: ' + e.message);
     });
+});
+
+app.get('/dataset', function(req, res){
+    res.sendFile( "views/dataSourcesTemplate.html", { root: __dirname } );
 });
 
 app.all('/*', function(req, res, next) {
