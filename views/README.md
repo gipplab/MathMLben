@@ -1,6 +1,6 @@
 # MathMLben
 
-[![Build Status](https://travis-ci.org/ag-gipp/GoUldI.svg?branch=master)](https://travis-ci.org/ag-gipp/GoUldI) [![Maintainability](https://api.codeclimate.com/v1/badges/1a369c013f69caa8b3ac/maintainability)](https://codeclimate.com/github/ag-gipp/GoUldI/maintainability)
+[![Build Status](https://travis-ci.org/ag-gipp/MathMLben.svg?branch=master)](https://travis-ci.org/ag-gipp/MathMLben) [![Maintainability](https://api.codeclimate.com/v1/badges/1a369c013f69caa8b3ac/maintainability)](https://codeclimate.com/github/ag-gipp/MathMLben/maintainability)
 
 MathMLben is a benchmark to the evaluate tools for mathematical format conversion (LaTeX <-> MathML <-> CAS).
 The Gold Standard comprises 305 mathematical formulae:
@@ -8,6 +8,7 @@ The Gold Standard comprises 305 mathematical formulae:
 * 101-200 from the NIST Digital Library of Mathematical Functions (DLMF)
 * 201-305 from the NTCIR arXiv and NTCIR-12 Wikipedia datasets
 
+An overview of the sources can be found at [dataset table](https://mathmlben.wmflabs.org/dataset).
 
 A GUI to make changes to the data is available at [wmflabs](https://mathmlben.wmflabs.org) with the following input fields:
 * formula name
