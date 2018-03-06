@@ -141,7 +141,9 @@ p {
 .bs-callout-primary {
     border-left-color: #428bca;
 }
-.bs-callout-primary h1 {
+.bs-callout-primary h1, h2 {
+    border-bottom: 1px solid #acbce1;
+    padding-bottom: 0.2em;
     color: #428bca;
 }
 .bs-callout-success {
@@ -167,4 +169,23 @@ p {
 }
 .bs-callout-info h1 {
     color: #5bc0de;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+table thead tr {
+    color: #428bca;
+    background-color: #f6f8fa;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f6f8fa;
 }

@@ -21,6 +21,8 @@ require('mathoid/server.js');
 
 var githubChangeRemoteFile = require('github-change-remote-file');
 
+var mergeHelper = require('helper/merge.js');
+
 // add middleware to:
 // 1) Allow CORS
 app.use(function (req, res, next) {
@@ -110,6 +112,29 @@ app.get('/dataset', function(req, res){
     res.sendFile( "views/dataSourcesTemplate.html", { root: __dirname } );
 });
 
+app.get('/rawdata/:qid', function(req, res){
+    var qid = req.params.qid;
+    if ( /^([0-9]\d*)$/g.test(qid) ){
+        var num = parseInt(qid);
+        if ( num < 1 || 307 < num ){
+            res.status(400).send( 'Invalid QID request: ' + qid + ' is out of range. Must be between 1 and 307.' );
+        } else {
+            console.log("Requesting single raw file of QID: " + num);
+            res.sendFile( "data/"+qid+".json", { root: __dirname } );
+        }
+    } else if ( qid.match(/^all$/g) ){
+        console.log("Requesting complete dataset!");
+        console.dir(req.headers); // provide request information
+        mergeHelper.mergeAllGoldFiles()
+           .then(() => {
+               console.log("Done, send entire gold standard.");
+               res.send(mergeHelper.merged);
+           });
+    } else {
+        res.status(400).send('Invalid QID request: ' + qid + ' is not a number! For the entire gold standard call "rawdata/all-gen"');
+    }
+});
+
 app.all('/*', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
     res.sendFile('views/index.html', { root: __dirname });
@@ -118,7 +143,6 @@ app.all('/*', function(req, res, next) {
 app.use('/', function(req, res){
     res.redirect('about');
 });
-
 
 var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
 app.listen( port, function () {
