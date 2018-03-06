@@ -1,25 +1,20 @@
 var BB = require('bluebird');
 var fs = BB.promisifyAll(require('fs'));
-var parseAsync = BB.method(JSON.parse);
 
 var goldDir = '../data';
 var dataArr = [['QID', 'URI', 'Location']];
 
+var helpers = require('./helperMethods');
+
 fs.readdirAsync(goldDir)
     .filter( function (name) {
-        var path = goldDir + '/' + name;
-        var isFile = fs.statSync(path).isFile();
-        if (!isFile) console.log("Skip directories.");
-        return fs.statSync(path).isFile()
+        return helpers.fileCheck(goldDir, name);
     })
     .map( function (name) {
         var path = goldDir + '/' + name;
         var num = name.split('.')[0];
 
-        return fs.readFileAsync(path, 'utf8')
-            .then(function (content) {
-                return parseAsync(content);
-            })
+        return helpers.parseJSON(path)
             .then(function (json) {
                 console.log('Parse ' + num + ': ' + json.title);
 

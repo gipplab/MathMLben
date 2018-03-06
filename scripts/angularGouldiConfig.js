@@ -37,7 +37,7 @@ gouldi.config([
 var checkRouting = function($route, $location){
     var qid = $route.current.params.qid;
     if (
-        !/^([1-9]\d*)$/.test(qid)
+        !/^([0-9]\d*)$/g.test(qid)
     ) {
         console.log("Invalid qID, redirect to main page.");
         $location.path("/");
