@@ -1,6 +1,6 @@
 # MathMLben
 
-[![Build Status](https://travis-ci.org/ag-gipp/MathMLben.svg?branch=master)](https://travis-ci.org/ag-gipp/MathMLben) [![Maintainability](https://api.codeclimate.com/v1/badges/1a369c013f69caa8b3ac/maintainability)](https://codeclimate.com/github/ag-gipp/MathMLben/maintainability)
+[![Build Status](https://travis-ci.org/ag-gipp/MathMLben.svg?branch=master)](https://travis-ci.org/ag-gipp/MathMLben) [![Maintainability](https://api.codeclimate.com/v1/badges/d9f3590d68a5a6f9ab7d/maintainability)](https://codeclimate.com/github/ag-gipp/MathMLben/maintainability)
 
 MathMLben is a benchmark to the evaluate tools for mathematical format conversion (LaTeX <-> MathML <-> CAS).
 The Gold Standard comprises 305 mathematical formulae:
