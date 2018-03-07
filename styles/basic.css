@@ -31,7 +31,7 @@ body {
     margin-right: 80px;
 }
 
-.btn {
+.btn-arrow-left, .btn-arrow-right {
     line-height: 1.3;
 }
 
@@ -262,8 +262,12 @@ a.danger-link:hover {
 }
 
 .panel-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
+}
+
+.panel-title > a {
+    color: #09424b;
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
