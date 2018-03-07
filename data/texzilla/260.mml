@@ -1,12 +1,152 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-..._{i}!\right)\prod_{i&amp;lt;j}\frac{n_{i}+n_
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">H^{*}_{\lambda}=\left(\prod_{i=1}^{k}n_{i}!\right)\prod_{i&amp;lt;j}\frac{n_{i}+n_{j}%&amp;#10;}{n_{i}-n_{j}}=2^{-\frac{k}{2}}\sqrt{H_{\tilde{\lambda}}},\quad\frac{1}{\sqrt{%&amp;#10;H_{\tilde{\lambda}}}}=\sqrt{s_{\tilde{\lambda}}({\bf t}_{\infty})}=2^{-\frac{k%&amp;#10;}{2}}Q_{\lambda}(\frac{{\bf t}_{\infty}}{2})</annotation>
+    <mrow>
+      <msubsup>
+        <mi>H</mi>
+        <mi>λ</mi>
+        <mo>*</mo>
+      </msubsup>
+      <mo>=</mo>
+      <mrow>
+        <mo>(</mo>
+        <mrow>
+          <munderover>
+            <mo>∏</mo>
+            <mrow>
+              <mi>i</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mi>k</mi>
+          </munderover>
+          <msub>
+            <mi>n</mi>
+            <mi>i</mi>
+          </msub>
+          <mo>!</mo>
+        </mrow>
+        <mo>)</mo>
+      </mrow>
+      <munder>
+        <mo>∏</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>&lt;</mo>
+          <mi>j</mi>
+        </mrow>
+      </munder>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mi>n</mi>
+            <mi>i</mi>
+          </msub>
+          <mo>+</mo>
+          <msub>
+            <mi>n</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mi>n</mi>
+            <mi>i</mi>
+          </msub>
+          <mo>-</mo>
+          <msub>
+            <mi>n</mi>
+            <mi>j</mi>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <msup>
+        <mn>2</mn>
+        <mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mi>k</mi>
+            <mn>2</mn>
+          </mfrac>
+        </mrow>
+      </msup>
+      <msqrt>
+        <msub>
+          <mi>H</mi>
+          <mover>
+            <mi>λ</mi>
+            <mo stretchy="false">˜</mo>
+          </mover>
+        </msub>
+      </msqrt>
+      <mo>,</mo>
+      <mspace width="1em"/>
+      <mfrac>
+        <mn>1</mn>
+        <msqrt>
+          <msub>
+            <mi>H</mi>
+            <mover>
+              <mi>λ</mi>
+              <mo stretchy="false">˜</mo>
+            </mover>
+          </msub>
+        </msqrt>
+      </mfrac>
+      <mo>=</mo>
+      <msqrt>
+        <mrow>
+          <msub>
+            <mi>s</mi>
+            <mover>
+              <mi>λ</mi>
+              <mo stretchy="false">˜</mo>
+            </mover>
+          </msub>
+          <mo stretchy="false">(</mo>
+          <msub>
+            <mrow>
+              <mtext>\</mtext>
+              <mi>b</mi>
+              <mi>f</mi>
+              <mi>t</mi>
+            </mrow>
+            <mn>∞</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </msqrt>
+      <mo>=</mo>
+      <msup>
+        <mn>2</mn>
+        <mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mi>k</mi>
+            <mn>2</mn>
+          </mfrac>
+        </mrow>
+      </msup>
+      <msub>
+        <mi>Q</mi>
+        <mi>λ</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mfrac>
+        <msub>
+          <mrow>
+            <mtext>\</mtext>
+            <mi>b</mi>
+            <mi>f</mi>
+            <mi>t</mi>
+          </mrow>
+          <mn>∞</mn>
+        </msub>
+        <mn>2</mn>
+      </mfrac>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <annotation encoding="TeX">H^{*}_{\lambda}=\left(\prod_{i=1}^{k}n_{i}!\right)\prod_{i&lt;j}\frac{n_{i}+n_{j}}{n_{i}-n_{j}}=2^{-\frac{k}{2}}\sqrt{H_{\tilde{\lambda}}},\quad\frac{1}{\sqrt{H_{\tilde{\lambda}}}}=\sqrt{s_{\tilde{\lambda}}({\bf t}_{\infty})}=2^{-\frac{k}{2}}Q_{\lambda}(\frac{{\bf t}_{\infty}}{2})</annotation>
   </semantics>
 </math>

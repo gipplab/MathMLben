@@ -1,12 +1,54 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-...theta}_{\nu}-\mbox{%&amp;#10;sign}\langle\wi
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">L(\widehat{\theta}_{\nu},\theta_{\nu})=\parallel\widehat{\theta}_{\nu}-\mbox{%&amp;#10;sign}\langle\widehat{\theta}_{\nu},\theta_{\nu}\rangle\theta_{\nu}\parallel^{2}</annotation>
+    <mrow>
+      <mi>L</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mover>
+          <mi>θ</mi>
+          <mo>^</mo>
+        </mover>
+        <mi>ν</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mi>θ</mi>
+        <mi>ν</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mo>∥</mo>
+      <msub>
+        <mover>
+          <mi>θ</mi>
+          <mo>^</mo>
+        </mover>
+        <mi>ν</mi>
+      </msub>
+      <mo>-</mo>
+      <mo stretchy="false">⟨</mo>
+      <msub>
+        <mover>
+          <mi>θ</mi>
+          <mo>^</mo>
+        </mover>
+        <mi>ν</mi>
+      </msub>
+      <msub>
+        <mi>θ</mi>
+        <mi>ν</mi>
+      </msub>
+      <mo stretchy="false">⟩</mo>
+      <msub>
+        <mi>θ</mi>
+        <mi>ν</mi>
+      </msub>
+      <msup>
+        <mo>∥</mo>
+        <mn>2</mn>
+      </msup>
+    </mrow>
+    <annotation encoding="TeX">L(\widehat{\theta}_{\nu},\theta_{\nu})=\parallel\widehat{\theta}_{\nu}-\langle\widehat{\theta}_{\nu} \theta_{\nu}\rangle\theta_{\nu}\parallel^{2}</annotation>
   </semantics>
 </math>

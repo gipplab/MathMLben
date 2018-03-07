@@ -1,5 +1,5 @@
 {
-  "name": "gouldi",
+  "name": "mathmlben",
   "version": "1.0.0",
   "description": "Visualization for goldstandard",
   "main": "gouldi.js",
@@ -23,9 +23,10 @@
   },
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
-    "angular-cookies": "^1.6.8",
+    "angular-cookies": "^1.6.9",
     "angular-highlightjs": "^0.7.1",
-    "angular-route": "^1.6.8",
+    "angular-marked": "^1.2.2",
+    "angular-route": "^1.6.9",
     "angular-schema-form": "^0.8.13",
     "angular-schema-form-bootstrap": "^0.2.0",
     "angular-ui-bootstrap": "^2.5.6",
@@ -37,6 +38,7 @@
     "github-base": "^0.5.4",
     "github-change-remote-file": "^4.2.0",
     "github-content": "^1.0.1",
+    "marked": "^0.3.12",
     "mathoid": "^0.7.1",
     "popper.js": "^1.13.0",
     "preq": "^0.5.2",
@@ -44,7 +46,7 @@
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "texzilla": "^0.9.9",
-    "vmext": "^1.0.8",
+    "vmext": "^1.0.10",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {

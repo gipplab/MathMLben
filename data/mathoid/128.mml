@@ -24,7 +24,6 @@
           <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="7" data-semantic-parent="20">e</mi>
           <mrow class="MJX-TeXAtom-ORD" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="19" data-semantic-children="8,17" data-semantic-content="18" data-semantic-parent="20">
             <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="8" data-semantic-parent="19">i</mi>
-            <mspace width="negativethinmathspace"/>
             <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
             <mrow data-semantic-type="appl" data-semantic-role="simple function" data-semantic-id="17" data-semantic-children="11,15" data-semantic-content="16,9" data-semantic-parent="19">
               <msub data-semantic-type="subscript" data-semantic-role="simple function" data-semantic-id="11" data-semantic-children="9,10" data-semantic-parent="17">
@@ -80,6 +79,6 @@
         </mrow>
       </mrow>
     </mrow>
-    <annotation encoding="application/x-tex">N_{\nu }\left(x\right)e^{i\!\phi _{\nu }\left(x\right)}=\operatorname {ker} _{\nu }x+i\operatorname {kei} _{\nu }x</annotation>
+    <annotation encoding="application/x-tex">N_{\nu }\left(x\right)e^{i\phi _{\nu }\left(x\right)}=\operatorname {ker} _{\nu }x+i\operatorname {kei} _{\nu }x</annotation>
   </semantics>
 </math>

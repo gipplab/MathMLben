@@ -29,7 +29,7 @@ fs.readdirAsync(goldDir).map( function(name){
                 console.log();
                 console.log("Parse " + num + ":");
                 try {
-                    var tex = json.math_inputtex;
+                    var tex = json.correct_tex;
                     console.log( "Actual: " + tex );
                     tex = tex.replace( /%(?:\r\n|\r|\n)/g, "" );
                     tex = tex.replace( /^(\\\[)?(\\[.,;!]+)*|[.,;!]*(\\[.,;!]+)*(\\])?$/g, "" );

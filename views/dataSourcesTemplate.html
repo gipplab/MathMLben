@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/basic.css">
+</head>
+<body>
+<div class="bs-callout bs-callout-primary" id="about-container-div">
+    <h1>Dataset Sources</h1>
+    <p>This table give you a quick overview about the dataset we were using.<br>
+        In addition, if the source is a PDF document (such as for QIDs 201-281) the <i>Location</i> column provides more information about the position.</p>
+</div>
+<div class="bs-callout bs-callout-success" id="tableContainer"></div>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var tabulate = function (data,columns) {
+        var table = d3.select('body').select('#tableContainer').append('table');
+        var thead = table.append('thead');
+        var tbody = table.append('tbody');
+
+        table.attr("class", "table");
+
+        thead.append('tr')
+            .selectAll('th')
+            .data(columns)
+            .enter()
+            .append('th')
+            .text(function (d) { return d })
+            .attr("scope", "col");
+
+        var rows = tbody.selectAll('tr')
+            .data(data)
+            .enter()
+            .append('tr');
+
+        var dataCells = rows.selectAll('td')
+            .data(function(row) {
+                return columns.map(function (column) {
+                    return { column: column, value: row[column] }
+                })
+            })
+            .enter()
+            .append('td')
+            .each(function(d){
+                var node = d3.select(this);
+                if ( d.column === "QID" ){
+                    node.append('a')
+                        .text(d.value)
+                        .attr('href', '/' + d.value);
+                } else if ( d.column === "URI" ){
+                    node.append('a')
+                        .text(d.value)
+                        .attr('href', d.value);
+                } else {
+                    node.text(function (d) {
+                           return d.value
+                        });
+                }
+            });
+
+        return table;
+    }
+
+    d3.csv('datasetSources',function (data) {
+        var columns = ['QID','URI','Location'];
+        tabulate(data,columns)
+    })
+</script>
+</body>
+</html>

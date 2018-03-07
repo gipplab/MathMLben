@@ -9,6 +9,8 @@ var preq = require('preq');
 var fs = BBPromise.promisifyAll(require('fs'));
 var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
+//var readme = fs.readFileSync('views/README.md').toString();
+
 require('app-module-path').addPath(path.join(__dirname + '/node_modules/vmext'));
 var bodyParser = require('body-parser');
 
@@ -19,7 +21,10 @@ require('mathoid/server.js');
 
 var githubChangeRemoteFile = require('github-change-remote-file');
 
-// Allow CORS
+var mergeHelper = require('helper/merge.js');
+
+// add middleware to:
+// 1) Allow CORS
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
@@ -32,15 +37,18 @@ app.use(function (req, res, next) {
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
+// needed subpath gold because it is the new subpath of the GUI
 app.use('/node_modules', express.static(path.join(__dirname + '/node_modules')));
 app.use('/scripts', express.static(path.join(__dirname + '/scripts')));
 app.use('/styles', express.static(path.join(__dirname + '/styles')));
 app.use('/widgets', express.static(path.join(__dirname + '/node_modules/vmext/public/widgets')));
 app.use('/vendor', express.static(path.join(__dirname + '/node_modules/vmext/public/vendor')));
-app.use('/', express.static(path.join(__dirname + '/node_modules/vmext/public/favicon.ico')));
 app.use('/assets', express.static(path.join(__dirname + '/assets')));
+app.use('/readme', express.static(path.join(__dirname + '/views/README.md')));
+app.use('/datasetSources', express.static(path.join(__dirname + '/views/dataSources.csv')));
 app.use('/api', require("./node_modules/vmext/api/versions.js"));
 app.use('/', require('./node_modules/vmext/routes/routes'));
+
 app.post('/get-model', function (req, res) {
     var body = req.body;
     var gc = new GithubContent(body);
@@ -100,10 +108,40 @@ app.post('/latexml', function(req, res){
     });
 });
 
+app.get('/dataset', function(req, res){
+    res.sendFile( "views/dataSourcesTemplate.html", { root: __dirname } );
+});
+
+app.get('/rawdata/:qid', function(req, res){
+    var qid = req.params.qid;
+    if ( /^([0-9]\d*)$/g.test(qid) ){
+        var num = parseInt(qid);
+        if ( num < 1 || 307 < num ){
+            res.status(400).send( 'Invalid QID request: ' + qid + ' is out of range. Must be between 1 and 307.' );
+        } else {
+            console.log("Requesting single raw file of QID: " + num);
+            res.sendFile( "data/"+qid+".json", { root: __dirname } );
+        }
+    } else if ( qid.match(/^all$/g) ){
+        console.log("Requesting complete dataset!");
+        console.dir(req.headers); // provide request information
+        mergeHelper.mergeAllGoldFiles()
+           .then(() => {
+               console.log("Done, send entire gold standard.");
+               res.send(mergeHelper.merged);
+           });
+    } else {
+        res.status(400).send('Invalid QID request: ' + qid + ' is not a number! For the entire gold standard call "rawdata/all-gen"');
+    }
+});
 
 app.all('/*', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
     res.sendFile('views/index.html', { root: __dirname });
+});
+
+app.use('/', function(req, res){
+    res.redirect('about');
 });
 
 var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;

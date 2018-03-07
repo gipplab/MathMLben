@@ -2,8 +2,6 @@
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
     <mrow>
-      <mi>w</mi>
-      <mo>=</mo>
       <mo lspace="0em" rspace="thinmathspace">Arcsinh</mo>
       <mi>z</mi>
       <mo>=</mo>
@@ -21,6 +19,6 @@
       <mi>π</mi>
       <mi>i</mi>
     </mrow>
-    <annotation encoding="TeX">w=\operatorname{Arcsinh}z=(-1)^{k}\operatorname{arcsinh}z+k\pi i</annotation>
+    <annotation encoding="TeX">\operatorname{Arcsinh}z=(-1)^{k}\operatorname{arcsinh}z+k\pi i</annotation>
   </semantics>
 </math>

@@ -15,7 +15,6 @@
         <mi>e</mi>
         <mrow>
           <mi>i</mi>
-          <mspace width="negativethinmathspace"/>
           <msub>
             <mi>ϕ</mi>
             <mi>ν</mi>
@@ -41,6 +40,6 @@
       </msub>
       <mi>x</mi>
     </mrow>
-    <annotation encoding="TeX">N_{\nu}\left(x\right)e^{i\!\phi_{\nu}\left(x\right)}=\operatorname{ker}_{\nu}x+i\operatorname{kei}_{\nu}x</annotation>
+    <annotation encoding="TeX">N_{\nu}\left(x\right)e^{i \phi_{\nu}\left(x\right)}=\operatorname{ker}_{\nu}x+i\operatorname{kei}_{\nu}x</annotation>
   </semantics>
 </math>

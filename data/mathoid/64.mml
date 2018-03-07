@@ -1,15 +1,11 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="x equals b">
   <semantics>
-    <mrow data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="6" data-semantic-children="4,3" data-semantic-content="5">
-      <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="4" data-semantic-children="0,2" data-semantic-content="1" data-semantic-parent="6">
-        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="4">x</mi>
-        <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="4" data-semantic-operator="relseq,=">=</mo>
-        <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">b</mi>
-      </mrow>
-      <mo data-semantic-type="punctuation" data-semantic-role="dummy" data-semantic-id="5" data-semantic-parent="6" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
-      <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-id="3" data-semantic-parent="6"/>
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="3" data-semantic-children="0,2" data-semantic-content="1">
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="3">x</mi>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="3" data-semantic-operator="relseq,=">=</mo>
+      <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="3">b</mi>
     </mrow>
-    <annotation encoding="application/x-tex">x=b\</annotation>
+    <annotation encoding="application/x-tex">x=b</annotation>
   </semantics>
 </math>

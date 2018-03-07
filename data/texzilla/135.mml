@@ -33,43 +33,21 @@
           <mn>1</mn>
         </mrow>
       </munderover>
-      <mo>≥</mo>
-      <mi>n</mi>
-      <mi>f</mi>
-      <mi>r</mi>
-      <mi>a</mi>
-      <mi>c</mi>
-      <mo>&lt;</mo>
-      <mo>&gt;</mo>
-      <mrow>
-        <mn>0.0</mn>
-        <mi>p</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mi>n</mi>
-      <mi>k</mi>
-      <mo>≥</mo>
-      <mi>n</mi>
-      <mi>f</mi>
-      <mi>r</mi>
-      <mi>a</mi>
-      <mi>c</mi>
-      <mo stretchy="false">(</mo>
-      <mo stretchy="false">)</mo>
-      <mrow>
-        <mn>0.0</mn>
-        <mi>p</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow/>
-      <mi>k</mi>
-      <mrow>
+      <mo stretchy="false">⟨</mo>
+      <mfrac>
         <mi>n</mi>
-        <mo>-</mo>
-        <mi>m</mi>
-      </mrow>
+        <mi>k</mi>
+      </mfrac>
+      <mo stretchy="false">⟩</mo>
+      <mfrac>
+        <mi>k</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mi>m</mi>
+        </mrow>
+      </mfrac>
     </mrow>
-    <annotation encoding="TeX">S\left(n,m\right)=\frac{1}{m!}\sum_{k=0}^{n-1}\genfrac{&lt;}{&gt;}{0.0pt}{}{n}{k}\genfrac{(}{)}{0.0pt}{}{k}{n-m}</annotation>
+    <annotation encoding="TeX">S\left(n,m\right)=\frac{1}{m!}\sum_{k=0}^{n-1} \langle \frac{n}{k} \rangle \frac{k}{n-m}</annotation>
   </semantics>
 </math>

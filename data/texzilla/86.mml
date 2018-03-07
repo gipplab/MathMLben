@@ -43,9 +43,7 @@
           </mover>
         </mrow>
       </mfrac>
-      <mo>.</mo>
     </mrow>
-    <annotation encoding="TeX">{\partial{L}\over \partial q_i} = {\mathrm{d} \over \mathrm{d}t}{\partial{L}\over \partial{\dot{q_i}}}.
-</annotation>
+    <annotation encoding="TeX">{\partial{L}\over \partial q_i} = {\mathrm{d} \over \mathrm{d}t}{\partial{L}\over \partial{\dot{q_i}}}</annotation>
   </semantics>
 </math>

@@ -43,14 +43,11 @@
               <mn>0</mn>
               <mo>∉</mo>
               <mi>A</mi>
-              <mo>.</mo>
             </mtd>
           </mtr>
         </mtable>
       </mrow>
     </mrow>
-    <annotation encoding="TeX"> \mu (A)= \begin{cases} 1 &amp; \mbox{ if } 0 \in A \ 
-                               0 &amp; \mbox{ if } 0 \notin A.
-\end{cases}</annotation>
+    <annotation encoding="TeX">\mu (A) = \begin{cases} 1 &amp; \mbox{ if } 0 \in A \ 0 &amp; \mbox{ if } 0 \notin A \end{cases}</annotation>
   </semantics>
 </math>

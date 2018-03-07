@@ -2,8 +2,8 @@ var gouldi = angular.module('gouldiApp');
 
 gouldi.controller(
     'GouldiMainController',
-    ['$scope', '$routeParams', 'gouldiCookieService', 'gouldiHttpServices',
-        function ($scope, $routeParams, gouldiCookieService, gouldiHttpServices) {
+    ['$scope', '$routeParams', 'marked', 'gouldiCookieService', 'gouldiHttpServices',
+        function ($scope, $routeParams, marked, gouldiCookieService, gouldiHttpServices) {
         var gouldiController = this;
         var reroutingID = 1; // default loaded QID is 1
 
@@ -27,6 +27,13 @@ gouldi.controller(
                     }
                     $scope.readModel();
                 });
+
+            gouldiHttpServices
+                .initAboutPage( $scope )
+                .then( function() {
+                    var aboutContainer = document.getElementById('about-container-div');
+                    aboutContainer.innerHTML = $scope.aboutPage;
+            });
         };
 
         gouldiController.$onInit = function(){

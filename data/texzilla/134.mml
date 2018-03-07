@@ -13,54 +13,18 @@
       <munder>
         <mo>∑</mo>
         <mrow>
-          <mtext>\</mtext>
-          <mi>b</mi>
-          <mi>e</mi>
-          <mi>g</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mrow>
-            <mi>s</mi>
-            <mi>u</mi>
-            <mi>b</mi>
-            <mi>a</mi>
-            <mi>r</mi>
-            <mi>r</mi>
-            <mi>a</mi>
-            <mi>y</mi>
-          </mrow>
-          <mi>c</mi>
           <mn>1</mn>
           <mo>&lt;</mo>
           <mi>h</mi>
           <mo>≤</mo>
           <mi>k</mi>
-          <mtext>\</mtext>
-          <mrow>
-            <mo>(</mo>
-            <mrow>
-              <mi>h</mi>
-              <mo>,</mo>
-              <mi>k</mi>
-            </mrow>
-            <mo>)</mo>
-          </mrow>
+          <mo stretchy="false">(</mo>
+          <mi>h</mi>
+          <mo>,</mo>
+          <mi>k</mi>
+          <mo stretchy="false">)</mo>
           <mo>=</mo>
           <mn>1</mn>
-          <mtext>\</mtext>
-          <mi>e</mi>
-          <mi>n</mi>
-          <mi>d</mi>
-          <mrow>
-            <mi>s</mi>
-            <mi>u</mi>
-            <mi>b</mi>
-            <mi>a</mi>
-            <mi>r</mi>
-            <mi>r</mi>
-            <mi>a</mi>
-            <mi>y</mi>
-          </mrow>
         </mrow>
       </munder>
       <msup>
@@ -93,7 +57,6 @@
         </mrow>
       </msup>
     </mrow>
-    <annotation encoding="TeX">A_{k}(n)=\sum_{\begin{subarray}{c}1&lt;h\leq k\
-\left(h,k\right)=1\end{subarray}}{\mathrm{e}^{\pi\mathrm{i}f(h,k)-(2\pi\mathrm{i}nh/k)}}</annotation>
+    <annotation encoding="TeX">A_{k}(n) = \sum_{1 &lt; h \leq k(h,k) = 1} {\mathrm{e}^{\pi\mathrm{i}f(h,k)-(2\pi\mathrm{i}nh/k)}}</annotation>
   </semantics>
 </math>

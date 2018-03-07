@@ -50,7 +50,6 @@
             </mrow>
           </msup>
         </mrow>
-        <mspace width="thinmathspace"/>
         <mrow data-semantic-type="punctuated" data-semantic-role="integral" data-semantic-id="24" data-semantic-children="20,23,21" data-semantic-content="23" data-semantic-parent="27">
           <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="20" data-semantic-parent="24">d</mi>
           <mo data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="23" data-semantic-parent="24" data-semantic-added="true" data-semantic-operator="punctuated">⁣</mo>
@@ -58,6 +57,6 @@
         </mrow>
       </mrow>
     </mrow>
-    <annotation encoding="application/x-tex">\Gamma (z)=\int _{0}^{\infty }x^{z-1}e^{-x}\,dx</annotation>
+    <annotation encoding="application/x-tex">\Gamma (z)=\int _{0}^{\infty }x^{z-1}e^{-x}dx</annotation>
   </semantics>
 </math>

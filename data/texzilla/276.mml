@@ -12,11 +12,7 @@
       </msub>
       <mo stretchy="false">)</mo>
       <mo>=</mo>
-      <mtext>\</mtext>
-      <mi>d</mi>
-      <mi>i</mi>
-      <mi>a</mi>
-      <mi>g</mi>
+      <mo lspace="0em" rspace="thinmathspace">diag</mo>
       <mo stretchy="false">(</mo>
       <mo>-</mo>
       <mn>1</mn>
@@ -28,6 +24,6 @@
       <mn>1</mn>
       <mo stretchy="false">)</mo>
     </mrow>
-    <annotation encoding="TeX">(\eta_{\mu\nu})=\diag(-1,1,1,1)</annotation>
+    <annotation encoding="TeX">(\eta_{\mu\nu}) = \operatorname{diag}(-1,1,1,1)</annotation>
   </semantics>
 </math>

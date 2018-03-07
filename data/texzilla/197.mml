@@ -9,34 +9,26 @@
       <mi>τ</mi>
       <mo stretchy="false">)</mo>
       <mo>=</mo>
-      <mtext>\</mtext>
-      <mi>i</mi>
-      <mi>f</mi>
-      <mi>r</mi>
-      <mi>a</mi>
-      <mi>c</mi>
-      <mn>1</mn>
-      <mrow>
-        <msub>
-          <mi>θ</mi>
-          <mn>4</mn>
-        </msub>
+      <mfrac>
+        <mn>1</mn>
         <mrow>
-          <mo>(</mo>
+          <msub>
+            <mi>θ</mi>
+            <mn>4</mn>
+          </msub>
           <mrow>
-            <mn>0</mn>
-            <mo>∣</mo>
-            <mi>d</mi>
-            <mi>l</mi>
-            <mi>e</mi>
-            <mo stretchy="false">|</mo>
-            <mn>2</mn>
-            <mi>τ</mi>
+            <mo>(</mo>
+            <mrow>
+              <mn>0</mn>
+              <mo stretchy="false">|</mo>
+              <mn>2</mn>
+              <mi>τ</mi>
+            </mrow>
+            <mo>)</mo>
           </mrow>
-          <mo>)</mo>
         </mrow>
-      </mrow>
+      </mfrac>
     </mrow>
-    <annotation encoding="TeX">A\equiv A(\tau)=\ifrac{1}{\theta_{4}\left(0\middle|2\tau\right)}</annotation>
+    <annotation encoding="TeX">A \equiv A(\tau) = \frac{1}{\theta_{4} \left(0 | 2\tau \right) }</annotation>
   </semantics>
 </math>

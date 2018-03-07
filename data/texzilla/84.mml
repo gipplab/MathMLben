@@ -36,6 +36,6 @@
       <mi>y</mi>
       <mo stretchy="false">}</mo>
     </mrow>
-    <annotation encoding="TeX"> F = \{ (x,y) : x \in \mathcal{R}^b,\, y \in \mathcal{R}^n,\; x=y \}</annotation>
+    <annotation encoding="TeX">F = \{ (x,y) : x \in \mathcal{R}^b,\, y \in \mathcal{R}^n,\; x=y \}</annotation>
   </semantics>
 </math>

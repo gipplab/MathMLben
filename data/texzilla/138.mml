@@ -6,36 +6,32 @@
         <mo lspace="0em" rspace="0em">cos</mo>
         <mn>2</mn>
       </msup>
+      <mo stretchy="false">(</mo>
       <mi>u</mi>
+      <mo stretchy="false">)</mo>
       <mo>-</mo>
       <msup>
         <mo lspace="0em" rspace="0em">cos</mo>
         <mn>2</mn>
       </msup>
+      <mo stretchy="false">(</mo>
       <mi>v</mi>
+      <mo stretchy="false">)</mo>
       <mo>=</mo>
       <mo>-</mo>
       <mo lspace="0em" rspace="0em">sin</mo>
-      <mrow>
-        <mo>(</mo>
-        <mrow>
-          <mi>u</mi>
-          <mo>+</mo>
-          <mi>v</mi>
-        </mrow>
-        <mo>)</mo>
-      </mrow>
+      <mo stretchy="false">(</mo>
+      <mi>u</mi>
+      <mo>+</mo>
+      <mi>v</mi>
+      <mo stretchy="false">)</mo>
       <mo lspace="0em" rspace="0em">sin</mo>
-      <mrow>
-        <mo>(</mo>
-        <mrow>
-          <mi>u</mi>
-          <mo>-</mo>
-          <mi>v</mi>
-        </mrow>
-        <mo>)</mo>
-      </mrow>
+      <mo stretchy="false">(</mo>
+      <mi>u</mi>
+      <mo>-</mo>
+      <mi>v</mi>
+      <mo stretchy="false">)</mo>
     </mrow>
-    <annotation encoding="TeX">{\cos^{2}}u-{\cos^{2}}v=-\sin\left(u+v\right)\sin\left(u-v\right)</annotation>
+    <annotation encoding="TeX">\cos^2(u) - \cos^2(v) = -\sin(u+v) \sin(u-v)</annotation>
   </semantics>
 </math>

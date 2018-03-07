@@ -5,32 +5,8 @@
       <mi>η</mi>
       <mo>=</mo>
       <mfrac>
-        <mrow>
-          <mi>w</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>k</mi>
-          <mtext>\</mtext>
-          <mi>d</mi>
-          <mi>o</mi>
-          <mi>n</mi>
-          <mi>e</mi>
-        </mrow>
-        <mrow>
-          <mi>h</mi>
-          <mi>e</mi>
-          <mi>a</mi>
-          <mi>t</mi>
-          <mtext>\</mtext>
-          <mi>a</mi>
-          <mi>b</mi>
-          <mi>s</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>b</mi>
-          <mi>e</mi>
-          <mi>d</mi>
-        </mrow>
+        <mtext>work done</mtext>
+        <mtext>heat absorbed</mtext>
       </mfrac>
       <mo>=</mo>
       <mfrac>
@@ -47,6 +23,6 @@
         </mrow>
       </mfrac>
     </mrow>
-    <annotation encoding="TeX">\eta = \frac{ work\ done } {heat\ absorbed}  = \frac{ Q1-Q2 }{ Q1}</annotation>
+    <annotation encoding="TeX">\eta = \frac{\text{work done}}{\text{heat absorbed}} = \frac{Q1-Q2}{Q1}</annotation>
   </semantics>
 </math>

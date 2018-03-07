@@ -1,12 +1,71 @@
 <math 
   xmlns="http://www.w3.org/1998/Math/MathML">
   <semantics>
-    <merror>
-      <mtext>Parse error on line 1:
-...L}(\mathcal{S}_{n},%&amp;#10;\mathcal{S}_{m}
------------------------^
-</mtext>
-    </merror>
-    <annotation encoding="TeX">\Phi:\mathcal{O}_{M}^{(m\mathbb{)}}\mathbb{\times}\mathcal{L}(\mathcal{S}_{n},%&amp;#10;\mathcal{S}_{m})\rightarrow\mathcal{L}(\mathcal{S}_{n},\mathcal{S}_{m}):(f,A)%&amp;#10;\mapsto fA</annotation>
+    <mrow>
+      <mi>Φ</mi>
+      <mo>:</mo>
+      <msubsup>
+        <mstyle mathvariant="script">
+          <mi>O</mi>
+        </mstyle>
+        <mi>M</mi>
+        <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>m</mi>
+          <mstyle mathvariant="double-struck">
+            <mo stretchy="false">)</mo>
+          </mstyle>
+        </mrow>
+      </msubsup>
+      <mstyle mathvariant="double-struck">
+        <mo>×</mo>
+      </mstyle>
+      <mstyle mathvariant="script">
+        <mi>L</mi>
+      </mstyle>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mstyle mathvariant="script">
+          <mi>S</mi>
+        </mstyle>
+        <mi>n</mi>
+      </msub>
+      <msub>
+        <mstyle mathvariant="script">
+          <mi>S</mi>
+        </mstyle>
+        <mi>m</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">→</mo>
+      <mstyle mathvariant="script">
+        <mi>L</mi>
+      </mstyle>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mstyle mathvariant="script">
+          <mi>S</mi>
+        </mstyle>
+        <mi>n</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+        <mstyle mathvariant="script">
+          <mi>S</mi>
+        </mstyle>
+        <mi>m</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mo>:</mo>
+      <mo stretchy="false">(</mo>
+      <mi>f</mi>
+      <mo>,</mo>
+      <mi>A</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">↦</mo>
+      <mi>f</mi>
+      <mi>A</mi>
+    </mrow>
+    <annotation encoding="TeX">\Phi:\mathcal{O}_{M}^{(m\mathbb{)}}\mathbb{\times}\mathcal{L}(\mathcal{S}_{n}\mathcal{S}_{m})\rightarrow\mathcal{L}(\mathcal{S}_{n},\mathcal{S}_{m}):(f,A)\mapsto fA</annotation>
   </semantics>
 </math>

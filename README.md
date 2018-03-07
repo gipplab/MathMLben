@@ -1,9 +1,9 @@
 # GoUldI
 
-[![Build Status](https://travis-ci.org/ag-gipp/GoUldI.svg?branch=master)](https://travis-ci.org/ag-gipp/GoUldI)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1a369c013f69caa8b3ac/maintainability)](https://codeclimate.com/github/ag-gipp/GoUldI/maintainability)
+[![Build Status](https://travis-ci.org/ag-gipp/MathMLben.svg?branch=master)](https://travis-ci.org/ag-gipp/MathMLben)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d9f3590d68a5a6f9ab7d/maintainability)](https://codeclimate.com/github/ag-gipp/MathMLben/maintainability)
 
-Please use the website https://gouldi.wmflabs.org to make changes to the data.
+Please use the website https://mathmlben.wmflabs.org to make changes to the data.
 
 ### notes on deployment
 

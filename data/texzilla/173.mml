@@ -63,8 +63,6 @@
           </mrow>
         </mrow>
       </mfrac>
-      <mtext>\</mtext>
-      <mo>*</mo>
       <msup>
         <mrow>
           <mo>(</mo>
@@ -107,6 +105,6 @@
         <mo>)</mo>
       </mrow>
     </mrow>
-    <annotation encoding="TeX">P^{m}_{n-\frac{1}{2}}\left(\cosh\xi\right)=\frac{\Gamma\left(n+m+\tfrac{1}{2}\right)}{\Gamma\left(n-m+\tfrac{1}{2}\right)}\*\left(\frac{2}{\pi\sinh\xi}\right)^{1/2}\boldsymbol{Q}^{n}_{m-\frac{1}{2}}\left(\coth\xi\right)</annotation>
+    <annotation encoding="TeX">P^{m}_{n-\frac{1}{2}}\left(\cosh\xi\right)=\frac{\Gamma\left(n+m+\tfrac{1}{2}\right)}{\Gamma\left(n-m+\tfrac{1}{2}\right)} \left(\frac{2}{\pi\sinh\xi}\right)^{1/2}\boldsymbol{Q}^{n}_{m-\frac{1}{2}}\left(\coth\xi\right)</annotation>
   </semantics>
 </math>

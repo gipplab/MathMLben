@@ -27,10 +27,9 @@
           <mi>x</mi>
         </mrow>
       </msup>
-      <mspace width="thinmathspace"/>
       <mi>d</mi>
       <mi>x</mi>
     </mrow>
-    <annotation encoding="TeX">\Gamma(z) = \int_0^\infty x^{z-1} e^{-x}\,dx</annotation>
+    <annotation encoding="TeX">\Gamma(z) = \int_0^\infty x^{z-1} e^{-x} dx</annotation>
   </semantics>
 </math>
