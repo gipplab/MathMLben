@@ -2,6 +2,39 @@ body {
     margin: 5px
 }
 
+.row > sf-decorator {
+    width: 50%;
+}
+
+.btn-row > sf-decorator {
+    width: 33%;
+    align-content: center;
+    align-items: center;
+}
+
+.btn-center {
+    justify-content: center;
+    display: flex;
+}
+
+.fill-row > sf-decorator {
+    width: 100%;
+}
+
+.bottom-element{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.filling-input{
+    margin-right: 80px;
+}
+
+.btn {
+    line-height: 1.3;
+}
+
 .wrapper{
     position: relative;
     margin: 10px;
@@ -22,19 +55,6 @@ body {
 
 label {
     margin-bottom: 0;
-}
-
-.btn-row{
-    position: relative;
-    margin: auto;
-    width: 95%;
-}
-
-.btn-center{
-    position: relative;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .alert{
@@ -89,16 +109,6 @@ iframe{
     position: relative;
     margin-right: 0;
     margin-left: 0;
-}
-
-.bottom-element{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.filling-input{
-    margin-right: 80px;
 }
 
 .scrollable {
@@ -196,4 +206,96 @@ a.danger-link {
 
 a.danger-link:hover {
     color: #c42e18;
+}
+
+.panel {
+
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+
+.panel-default {
+
+    border-color: #ddd;
+
+}
+
+.panel-default > .panel-heading {
+
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+
+}
+
+.panel-group {
+
+    margin-bottom: 20px;
+
+}
+
+.panel-heading {
+
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.panel-group .panel {
+
+    margin-bottom: 4px;
+    border-radius: 4px;
+
+}
+
+.panel-group .panel-heading {
+
+    border-bottom: 0;
+
+}
+
+.panel-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+
+    border-top-color: #ddd;
+
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+
+    border-top: 1px solid #ddd;
+
+}
+
+.panel-body {
+
+    padding: 15px;
+
+}
+
+pre {
+
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
 }

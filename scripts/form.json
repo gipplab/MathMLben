@@ -5,14 +5,14 @@
     "items": [
       {
         "type": "section",
-        "htmlClass": "col-md-6",
+        "htmlClass": "col",
         "items": [
           "title"
         ]
       },
       {
         "type": "section",
-        "htmlClass": "col-md-6",
+        "htmlClass": "col",
         "items": [
           "type"
         ]
@@ -24,7 +24,7 @@
   "uri",
   {
     "type": "section",
-    "htmlClass": "row bottom-alignment",
+    "htmlClass": "row fill-row bottom-alignment",
     "items": [
       {
         "type": "section",
@@ -65,7 +65,7 @@
         "type": "radios",
         "title": "Tree State",
         "description": "Whether the MML tree is correct or not.",
-        "htmlClass": "col-md-6",
+        "htmlClass": "col",
         "titleMap": [
           {
             "value": true,
@@ -82,7 +82,7 @@
         "type": "radios",
         "title": "QID State",
         "description": "Whether the QID's are correct or not.",
-        "htmlClass": "col-md-6",
+        "htmlClass": "col",
         "titleMap": [
           {
             "value": true,
@@ -102,7 +102,7 @@
     "items": [
       {
         "type": "section",
-        "htmlClass": "col-md-4 btn-center",
+        "htmlClass": "col btn-center",
         "items": [
           {
             "type": "button",
@@ -114,7 +114,7 @@
       },
       {
         "type": "section",
-        "htmlClass": "col-md-4 btn-center",
+        "htmlClass": "col btn-center",
         "items": [
           {
             "type": "submit",
@@ -125,7 +125,7 @@
       },
       {
         "type": "section",
-        "htmlClass": "col-md-4 btn-center",
+        "htmlClass": "col btn-center",
         "items": [
           {
             "type": "button",

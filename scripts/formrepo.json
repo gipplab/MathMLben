@@ -5,21 +5,21 @@
     "items": [
       {
         "type": "section",
-        "htmlClass": "col-md-4 btn-center",
+        "htmlClass": "col btn-center",
         "items": [
           "owner"
         ]
       },
       {
         "type": "section",
-        "htmlClass": "col-md-4 btn-center",
+        "htmlClass": "col btn-center",
         "items": [
           "repo"
         ]
       },
       {
         "type": "section",
-        "htmlClass": "col-md-4 btn-center",
+        "htmlClass": "col btn-center",
         "items": [
           "foldername"
         ]
