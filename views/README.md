@@ -43,6 +43,6 @@ You can also access the raw `json`-data of the gold standard entries without usi
 
 | Example URL | Description |
 | :--- | :--- | 
-| [mathmlben.wmflabs.org/3](https://mathmlben.wmflabs.org/3) | Directs to GUI entry 3 |
-| [mathmlben.wmflabs.org/rawdata/15](https://mathmlben.wmflabs.org/rawdata/15) | Returns RAW `json`-file of gold standard entry 15 |
-| [mathmlben.wmflabs.org/rawdata/all](https://mathmlben.wmflabs.org/rawdata/all) | Returns RAW `json`-array of the entire gold standard |
+| <a href="/3" target="_self">mathmlben.wmflabs.org/3</a> | Directs to GUI entry 3 |
+| <a href="/rawdata/3" target="_self">mathmlben.wmflabs.org/rawdata/3</a> | Returns RAW `json`-file of gold standard entry 15 |
+| <cite title="Caution! You will download the entire raw gold standard!"><a href="/rawdata/all" target="_self" class="danger-link tooltipcontainer">mathmlben.wmflabs.org/rawdata/all</a></cite> | Returns RAW `json`-array of the entire gold standard (approx. 2.5MB) |

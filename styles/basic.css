@@ -189,3 +189,11 @@ table thead tr {
 table tr:nth-child(2n) {
     background-color: #f6f8fa;
 }
+
+a.danger-link {
+    color: #ff0e11;
+}
+
+a.danger-link:hover {
+    color: #c42e18;
+}
