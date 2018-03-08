@@ -25,7 +25,9 @@
     <script src="scripts/angularGouldi.js"></script>
     <script src="scripts/angularGouldiServices.js"></script>
     <script src="scripts/angularGouldiConfig.js"></script>
+    <script src="scripts/angularGouldiFactory.js"></script>
     <script src="scripts/angularGouldiController.js"></script>
+    <script src="scripts/angularGouldiInfoController.js"></script>
 
     <!-- Some nice styles for the UI -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -34,8 +36,8 @@
     <link rel="stylesheet" href="styles/basic.css">
 </head>
 <body>
-<div class="wrapper">
-    <div class="info-panel">
+<div class="row main-wrapper">
+    <div class="col-4 left-col">
         <div data-ng-controller="GouldiMainController">
             <uib-tabset active="activeForm">
                 <uib-tab ng-attr-active="tabs[0].active" heading="Gold Standard">
@@ -45,29 +47,6 @@
                           data-sf-model="model"
                           data-ng-submit="onSave(repo)">
                     </form>
-                    <hr>
-                    <uib-accordion close-others="oneAtATime">
-                        <div uib-accordion-group class="panel-default" heading="Commit Message / Create an Issue" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
-                            <label>Overwrite commit message</label>
-                            <input type="text" data-ng-model="commitMessage" class="ng-scope ng-pristine ng-valid form-control">
-                            <div class="help-block">Use the comments field for persistent notes</div>
-                            <hr>
-                            <a target="_blank" href="https://github.com/ag-gipp/gouldi/issues/new?title=Issue with {{model.qID}} {{model.title}}
-&body=%0A{{commitMessage}}%0A[Link to {{model.title}}, qID {{model.qID}}](https://gouldi.wmflabs.org/{{model.qID}})">
-                                Create issue about this item on github</a>
-                        </div>
-                        <div uib-accordion-group class="panel-default" heading="Action Messages" id="logger-info-panel">
-                            <div class="alert alert-info" id="logger-info-helper"></div>
-                        </div>
-                        <div uib-accordion-group class="panel-default" heading="MathML Field">
-                            <label class="searchLabel">Search for strings in the MathML below:
-                                <input type="text" name="input" ng-model="code_search_text">
-                            </label>
-                            <div class="scrollable-code">
-                                <hljs-search code="model.correct_mml" language="code_language" searchtext="code_search_text" linenumber="code_line_numbering"></hljs-search>
-                            </div>
-                        </div>
-                    </uib-accordion>
                 </uib-tab>
                 <uib-tab ng-attr-active="tabs[1].active" heading="About">
                     <div class="bs-callout bs-callout-primary" id="about-container-div"></div>
@@ -88,14 +67,41 @@
             </uib-tabset>
         </div>
     </div>
-    <div class="tree-panel">
+    <div class="col-8 right-col">
         <div class="alert alert-info math-renderer">
             <div id="svg-renderer-container"></div>
         </div>
-        <div id="ast" style="height:700px; width:auto;"></div>
+        <div><div id="ast" style="height:700px; width:auto;"></div></div>
         <a href="https://www.isg.uni-konstanz.de/">Impressum</a>
     </div>
 </div>
- <a href="https://github.com/ag-gipp/gouldi"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<hr>
+<div class="bottom-container">
+    <div data-ng-controller="GouldiInfoController">
+        <uib-accordion close-others="oneAtATime">
+            <div uib-accordion-group class="panel-default" heading="Commit Message / Create an Issue" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+                <label>Overwrite commit message</label><br>
+                <input type="text" name="input" ng-model="commit_message" ng-change="updateCommit(commit_message)">
+                <div class="help-block">Use the comments field for persistent notes</div>
+                <hr>
+                <a target="_blank" href="https://github.com/ag-gipp/gouldi/issues/new?title=Issue with {{model.qID}} {{model.title}}
+        &body=%0A{{commitMessage}}%0A[Link to {{model.title}}, qID {{model.qID}}](https://gouldi.wmflabs.org/{{model.qID}})">
+                    Create issue about this item on github</a>
+            </div>
+            <div uib-accordion-group class="panel-default" heading="Action Messages" id="logger-info-panel">
+                <div class="alert alert-info" id="logger-info-helper"></div>
+            </div>
+            <div uib-accordion-group class="panel-default" heading="MathML Field">
+                <label class="searchLabel">Search for strings in the MathML below:
+                    <input type="text" name="input" ng-model="code_search_text">
+                </label>
+                <div class="scrollable-code">
+                    <hljs-search code="code_mml" language="code_language" searchtext="code_search_text" linenumber="code_line_numbering"></hljs-search>
+                </div>
+            </div>
+        </uib-accordion>
+    </div>
+</div>
+<a href="https://github.com/ag-gipp/gouldi"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 </body>
 </html>

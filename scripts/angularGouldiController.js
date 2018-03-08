@@ -2,8 +2,8 @@ var gouldi = angular.module('gouldiApp');
 
 gouldi.controller(
     'GouldiMainController',
-    ['$scope', '$routeParams', 'marked', 'gouldiCookieService', 'gouldiHttpServices',
-        function ($scope, $routeParams, marked, gouldiCookieService, gouldiHttpServices) {
+    ['$scope', '$routeParams', 'marked', 'gouldiCookieService', 'gouldiHttpServices', 'gouldiSharingFactory',
+        function ($scope, $routeParams, marked, gouldiCookieService, gouldiHttpServices, gouldiSharingFactory) {
         var gouldiController = this;
         var reroutingID = 1; // default loaded QID is 1
 
@@ -37,7 +37,6 @@ gouldi.controller(
 
             // setup code highlighting block
             $scope.code_language = 'html';
-            //$scope.code_search_text = '';
             $scope.code_line_numbering = 'true';
         };
 
@@ -244,6 +243,13 @@ gouldi.controller(
             var model_help = document.getElementById("model-info-helper");
             if ( model_help !== null )
                 model_help.innerHTML = JSON.stringify($scope.model, null, 2);
+            gouldiSharingFactory.model = $scope.model;
+        }, true);
+
+        $scope.$watch(function(){ return gouldiSharingFactory.commitMessage }, function(newVal, oldVal){
+            if ( 'model' in $scope ){
+                $scope.model.commitMsg = newVal;
+            }
         }, true);
 
         console.log("Finish instantiation of controller!");
