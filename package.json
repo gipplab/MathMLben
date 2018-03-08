@@ -24,7 +24,6 @@
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
     "angular-cookies": "^1.6.9",
-    "angular-highlightjs": "^0.7.1",
     "angular-highlightjs-searchtext": "0.0.4",
     "angular-marked": "^1.2.2",
     "angular-route": "^1.6.9",

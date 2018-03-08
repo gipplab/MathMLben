@@ -27,7 +27,6 @@ gouldi.service(
 
         this.initScripts = function( $scope ){
             var load = [
-                'hljs',
                 'schemarepo',
                 'formrepo',
                 'modelrepo',
