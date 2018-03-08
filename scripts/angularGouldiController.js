@@ -2,8 +2,8 @@ var gouldi = angular.module('gouldiApp');
 
 gouldi.controller(
     'GouldiMainController',
-    ['$scope', '$routeParams', 'marked', 'gouldiCookieService', 'gouldiHttpServices',
-        function ($scope, $routeParams, marked, gouldiCookieService, gouldiHttpServices) {
+    ['$scope', '$routeParams', 'marked', 'gouldiCookieService', 'gouldiHttpServices', 'gouldiSharingFactory',
+        function ($scope, $routeParams, marked, gouldiCookieService, gouldiHttpServices, gouldiSharingFactory) {
         var gouldiController = this;
         var reroutingID = 1; // default loaded QID is 1
 
@@ -34,6 +34,10 @@ gouldi.controller(
                     var aboutContainer = document.getElementById('about-container-div');
                     aboutContainer.innerHTML = $scope.aboutPage;
             });
+
+            // setup code highlighting block
+            $scope.code_language = 'html';
+            $scope.code_line_numbering = 'true';
         };
 
         gouldiController.$onInit = function(){
@@ -176,18 +180,18 @@ gouldi.controller(
         };
 
         const cssColorSettings = [
-            '#3c763d', // success text color
-            '#d6e9c6', // success border color
-            '#dff0d8', // success background color
-            '#31708f', // info text color IDX=3
-            '#bce8f1', // info border color
-            '#d9edf7', // info background color
-            '#8a6d3b', // warning text color IDX=6
-            '#faebcc', // warning border color
-            '#fcf8e3', // warning background color
-            '#a94442', // danger text color IDX=9
-            '#ebccd1', // danger border color
-            '#f2dede', // danger background color
+            '#155724', // success text color
+            '#c3e6cb', // success border color
+            '#d4edda', // success background color
+            '#0c5460', // info text color IDX=3
+            '#bee5eb', // info border color
+            '#d1ecf1', // info background color
+            '#856404', // warning text color IDX=6
+            '#ffeeba', // warning border color
+            '#fff3cd', // warning background color
+            '#721c24', // danger text color IDX=9
+            '#f5c6cb', // danger border color
+            '#f8d7da', // danger background color
         ];
 
         $scope.logger = function( msg, alert ){
@@ -239,6 +243,13 @@ gouldi.controller(
             var model_help = document.getElementById("model-info-helper");
             if ( model_help !== null )
                 model_help.innerHTML = JSON.stringify($scope.model, null, 2);
+            gouldiSharingFactory.model = $scope.model;
+        }, true);
+
+        $scope.$watch(function(){ return gouldiSharingFactory.commitMessage }, function(newVal, oldVal){
+            if ( 'model' in $scope ){
+                $scope.model.commitMsg = newVal;
+            }
         }, true);
 
         console.log("Finish instantiation of controller!");
