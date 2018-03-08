@@ -34,6 +34,11 @@ gouldi.controller(
                     var aboutContainer = document.getElementById('about-container-div');
                     aboutContainer.innerHTML = $scope.aboutPage;
             });
+
+            // setup code highlighting block
+            $scope.code_language = 'html';
+            //$scope.code_search_text = '';
+            $scope.code_line_numbering = 'true';
         };
 
         gouldiController.$onInit = function(){

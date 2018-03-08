@@ -282,25 +282,34 @@ a.danger-link:hover {
 
 }
 
-.scrollable-code {
+.hljs {
     display: flex;
     height: 300px;
 
-    padding: 1rem;
     margin: 0;
 
     border: 1px solid #ccc;
     border-radius: 4px;
+
+    padding: 0;
 }
 
 pre {
+    display: block;
 
-    display: contents;
     font-size: 13px;
     line-height: 1.42857143;
 
     margin: 0;
+    background-color: rgb(250, 250, 250);
 
+    padding-right: 1rem; /* has to be the same as .line-number margin-right */
+}
+
+.line-number {
+    margin-right: 1rem;
+    background-color: rgb(250, 250, 250);
+    border-right: 1px dotted #ccc;
 }
 
 .has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
