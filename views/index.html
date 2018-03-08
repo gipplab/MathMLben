@@ -61,6 +61,9 @@
                             <div class="alert alert-info" id="logger-info-helper"></div>
                         </div>
                         <div uib-accordion-group class="panel-default" heading="MathML Field">
+                            <label class="searchLabel">Search for strings in the MathML below:
+                                <input type="text" name="input" ng-model="code_search_text">
+                            </label>
                             <div class="scrollable-code">
                                 <hljs-search code="model.correct_mml" language="code_language" searchtext="code_search_text" linenumber="code_line_numbering"></hljs-search>
                             </div>
