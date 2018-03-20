@@ -7,12 +7,12 @@ gouldi.config([
     // setup rerouting for QIDs
     $routeProvider
         .when('/:qid', {
-                templateUrl: 'views/index.html',
-                controller: 'GouldiMainController',
-                resolve: {
-                    factory: checkRouting
-                }
-            });
+            templateUrl: 'views/index.html',
+            controller: 'GouldiMainController',
+            resolve: {
+                factory: checkRouting
+            }
+        });
 
     // config to allow HTML
     $locationProvider.html5Mode({
@@ -36,6 +36,7 @@ gouldi.config([
 
 var checkRouting = function($route, $location){
     var qid = $route.current.params.qid;
+    console.log("Na geht doch!");
     if (
         !/^([0-9]\d*)$/g.test(qid)
     ) {

@@ -112,6 +112,10 @@ app.get('/dataset', function(req, res){
     res.sendFile( "views/dataSourcesTemplate.html", { root: __dirname } );
 });
 
+app.get('/about', function(req, res, next) {
+    res.sendFile( "views/aboutPage.html", { root: __dirname } );
+});
+
 app.get('/rawdata/:qid', function(req, res){
     var qid = req.params.qid;
     if ( /^([0-9]\d*)$/g.test(qid) ){

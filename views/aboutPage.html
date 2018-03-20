@@ -1,0 +1,55 @@
+<!doctype html>
+<html data-ng-app="gouldiReadme">
+<head>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/marked/lib/marked.js"></script>
+    <script type="text/javascript" src="node_modules/angular-marked/dist/angular-marked.js"></script>
+
+    <!-- Some nice styles for the UI -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-arrow-buttons/dist/css/bootstrap-arrow-buttons.css">
+    <link rel="stylesheet" href="node_modules/angular1-ui-bootstrap4/dist/ui-bootstrap-csp.css">
+    <link rel="stylesheet" href="styles/basic.css">
+
+    <script type="text/javascript">
+        var app = angular.module('gouldiReadme', ['hc.marked']);
+
+        app.config( ['markedProvider', function(markedProvider){
+            markedProvider.setOptions({
+                renderer: new marked.Renderer(),
+                gfm: true,          // flavoured markdown (used in GitHub)
+                tables: true,       // requires gfm
+                breaks: true,       // requires gfm
+                pedantic: false,    // do not try to fix bugs in original markdown
+                sanitize: false,    // ignores html in markdown file
+                smartLists: true,   // use smarter lists behavior (maybe no effect)
+                smartypants: true,  // smart typographic punctuation
+                xhtml: true         // use xthml
+            });
+        }]);
+
+        app.controller('GouldiReadmeController',
+            ['$scope', '$http', 'marked', function ($scope, $http, marked){
+                console.log("Yeap!");
+
+                $http.get("/readme")
+                    .then( function(res){
+                        $scope.aboutPage = marked(res.data);
+                        console.log("Loaded: about page.");
+                        var aboutContainer = document.getElementById('about-container-div');
+                        aboutContainer.innerHTML = $scope.aboutPage;
+                    })
+                    .catch( function(e){
+                        console.log("Error during loading the about page. " + e);
+                        $scope.aboutPage = "ERROR";
+                    });
+            }]);
+    </script>
+</head>
+<body>
+<div data-ng-controller="GouldiReadmeController">
+    <div class="bs-callout bs-callout-primary" id="about-container-div"></div>
+    <a href="https://www.isg.uni-konstanz.de/">Impressum</a>
+</div>
+</body>
+</html>
