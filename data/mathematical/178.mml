@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>Λ</mi>
-         <mrow>
-            <mo>(</mo>
-            <mi>n</mi>
-            <mo>)</mo>
-         </mrow>
-         <mo>=</mo>
-         <mi>ln</mi>
-         <mi>p</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">\Lambda\left(n\right)=\ln p</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>Λ</mi><mrow><mo>(</mo><mi>n</mi><mo>)</mo></mrow><mo>=</mo><mi>ln</mi><mi>p</mi></mrow><annotation encoding='application/x-tex'>\Lambda\left(n\right)=\ln p</annotation></semantics></math>

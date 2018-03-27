@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>mathbf</mi>
-      <mrow>
-         <msup>
-            <mi>J</mi>
-            <mi>T</mi>
-         </msup>
-         <mi>W</mi>
-         <mspace width="0.167em"/>
-         <mi>Δ</mi>
-         <mi>y</mi>
-      </mrow>
-   </mrow>
-</math>
+<math><mrow><mi>mathbf</mi><mrow><msup><mi>J</mi><mi>T</mi></msup><mi>W</mi><mspace width="0.167em" /><mi>&#x00394;</mi><mi>y</mi></mrow></mrow></math>

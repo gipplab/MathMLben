@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mn>1</mn>
-         <mo>≤</mo>
-         <mi>k</mi>
-         <mo>≤</mo>
-         <mi>n</mi>
-         <mo lspace="verythinmathspace" rspace="0em">−</mo>
-         <mn>1</mn>
-      </mrow>
-      <annotation encoding="application/x-tex">1\leq k\leq n-1</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mn>1</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>n</mi><mo lspace="verythinmathspace" rspace="0em">−</mo><mn>1</mn></mrow><annotation encoding='application/x-tex'>1\leq k\leq n-1</annotation></semantics></math>

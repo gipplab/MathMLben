@@ -1,43 +1,39 @@
 <math 
-  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="eta equals StartFraction work done Over heat absorbed EndFraction equals StartFraction upper Q Baseline 1 minus upper Q Baseline 2 Over upper Q Baseline 1 EndFraction">
+  xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="eta equals StartFraction upper Q 1 minus upper Q 2 Over upper Q 1 EndFraction">
   <semantics>
-    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="21" data-semantic-children="0,4,20" data-semantic-content="1,5">
-      <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="21">η
+    <mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="14" data-semantic-children="0,13" data-semantic-content="1">
+      <mi data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-parent="14">η
         <!-- η -->
       </mi>
-      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="21" data-semantic-operator="relseq,=">=</mo>
+      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="14" data-semantic-operator="relseq,=">=</mo>
       <mrow class="MJX-TeXAtom-ORD">
-        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="4" data-semantic-children="2,3" data-semantic-parent="21">
-          <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="2" data-semantic-parent="4">work done</mtext>
-          <mtext data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="3" data-semantic-parent="4">heat absorbed</mtext>
-        </mfrac>
-      </mrow>
-      <mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="5" data-semantic-parent="21" data-semantic-operator="relseq,=">=</mo>
-      <mrow class="MJX-TeXAtom-ORD">
-        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="20" data-semantic-children="15,19" data-semantic-parent="21">
-          <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="15" data-semantic-children="12,14" data-semantic-content="8" data-semantic-parent="20">
-            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="12" data-semantic-children="6,7" data-semantic-content="11" data-semantic-parent="15">
-              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="12">Q</mi>
-              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="11" data-semantic-parent="12" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="12">1</mn>
-            </mrow>
-            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="8" data-semantic-parent="15" data-semantic-operator="infixop,−">−
+        <mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-id="13" data-semantic-children="9,12" data-semantic-parent="14">
+          <mrow data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="9" data-semantic-children="4,8" data-semantic-content="5" data-semantic-parent="13">
+            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="4" data-semantic-children="2,3" data-semantic-parent="9">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="2" data-semantic-parent="4">Q</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="3" data-semantic-parent="4">1</mn>
+              </mrow>
+            </msub>
+            <mo data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="5" data-semantic-parent="9" data-semantic-operator="infixop,−">−
               <!-- − -->
             </mo>
-            <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="14" data-semantic-children="9,10" data-semantic-content="13" data-semantic-parent="15">
-              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="9" data-semantic-parent="14">Q</mi>
-              <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="13" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="10" data-semantic-parent="14">2</mn>
+            <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="8" data-semantic-children="6,7" data-semantic-parent="9">
+              <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="6" data-semantic-parent="8">Q</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="7" data-semantic-parent="8">2</mn>
+              </mrow>
+            </msub>
+          </mrow>
+          <msub data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="12" data-semantic-children="10,11" data-semantic-parent="13">
+            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="10" data-semantic-parent="12">Q</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="11" data-semantic-parent="12">1</mn>
             </mrow>
-          </mrow>
-          <mrow data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-id="19" data-semantic-children="16,17" data-semantic-content="18" data-semantic-parent="20">
-            <mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="16" data-semantic-parent="19">Q</mi>
-            <mo data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="18" data-semantic-parent="19" data-semantic-added="true" data-semantic-operator="infixop,⁢">⁢</mo>
-            <mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="17" data-semantic-parent="19">1</mn>
-          </mrow>
+          </msub>
         </mfrac>
       </mrow>
     </mrow>
-    <annotation encoding="application/x-tex">\eta ={\frac {\text{work done}}{\text{heat absorbed}}}={\frac {Q1-Q2}{Q1}}</annotation>
+    <annotation encoding="application/x-tex">\eta ={\frac {Q_{1}-Q_{2}}{Q_{1}}}</annotation>
   </semantics>
 </math>

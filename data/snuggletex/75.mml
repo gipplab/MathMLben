@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mi>D</mi>
-   <mfenced close=")" open="(">
-      <mrow>
-         <mi>ρ</mi>
-         <msub>
-            <mi>u</mi>
-            <mi>i</mi>
-         </msub>
-      </mrow>
-   </mfenced>
-   <mo>/</mo>
-   <mi>D</mi>
-   <mi>t</mi>
-   <mo>≈</mo>
-   <mn>0</mn>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi><mfenced close=")" open="("><mrow><mi>ρ</mi><msub><mi>u</mi><mi>i</mi></msub></mrow></mfenced><mo>/</mo><mi>D</mi><mi>t</mi><mo>≈</mo><mn>0</mn></math>

@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow>
-      <mi>p</mi>
-      <mi>h</mi>
-   </mrow>
-   <mi>z</mi>
-   <mo>=</mo>
-   <mi>θ</mi>
-   <mo>+</mo>
-   <mn>2</mn>
-   <mi>n</mi>
-   <mi>π</mi>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>p</mi><mi>h</mi></mrow><mi>z</mi><mo>=</mo><mi>θ</mi><mo>+</mo><mn>2</mn><mi>n</mi><mi>π</mi></math>

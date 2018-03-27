@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mi>Θ</mi>
-   <mo>∧</mo>
-   <msup>
-      <mfenced close=")" open="(">
-         <mrow>
-            <mi>d</mi>
-            <mi>Θ</mi>
-         </mrow>
-      </mfenced>
-      <mi>n</mi>
-   </msup>
-   <mo>≠</mo>
-   <mn>0</mn>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Θ</mi><mo>∧</mo><msup><mfenced close=")" open="("><mrow><mi>d</mi><mi>Θ</mi></mrow></mfenced><mi>n</mi></msup><mo>≠</mo><mn>0</mn></math>

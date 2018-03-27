@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <msup>
-         <mi>σ</mi>
-         <mn>2</mn>
-      </msup>
-      <mo>=</mo>
-      <msup>
-         <mi>X</mi>
-         <mi>T</mi>
-      </msup>
-      <mi>V</mi>
-      <mi>X</mi>
-   </mrow>
-</math>
+<math><mrow><msup><mi>&#x003C3;</mi><mn>2</mn></msup><mo>&#x0003D;</mo><msup><mi>X</mi><mi>T</mi></msup><mi>V</mi><mi>X</mi></mrow></math>

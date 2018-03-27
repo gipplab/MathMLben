@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>displaystyle</mi>
-      <mi>S</mi>
-      <mo>≤</mo>
-      <mfrac>
-         <mrow>
-            <mi>A</mi>
-         </mrow>
-         <mrow>
-            <mn>4</mn>
-            <mi>G</mi>
-         </mrow>
-      </mfrac>
-   </mrow>
-</math>
+<math><mrow><mi>displaystyle</mi><mi>S</mi><mo>&#x02264;</mo><mfrac><mrow><mi>A</mi></mrow><mrow><mn>4</mn><mi>G</mi></mrow></mfrac></mrow></math>

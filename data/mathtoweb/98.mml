@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mover accent="true">
-         <mi>V</mi>
-         <mo>¯</mo>
-      </mover>
-      <msup>
-         <mi/>
-         <mo>*</mo>
-      </msup>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mover accent="true"><mi>V</mi><mo>&#x000AF;</mo></mover><msup><mi></mi><mo>*</mo></msup></mrow></math>

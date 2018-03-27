@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mrow>
-         <mo form="prefix">(</mo>
-         <mi>x</mi>
-         <mo>+</mo>
-         <mi>y</mi>
-         <mo form="postfix">)</mo>
-      </mrow>
-      <mo>/</mo>
-      <mn>2</mn>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mrow><mo form="prefix">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo form="postfix">)</mo></mrow><mo>&#x0002F;</mo><mn>2</mn></mrow></math>

@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>b</mi>
-         <mi>x</mi>
-         <mo>−</mo>
-         <msup>
-            <mi>x</mi> 
-            <mn>2</mn>
-         </msup>
-      </mrow>
-      <annotation encoding="application/x-tex">bx-x^2</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>b</mi><mi>x</mi><mo>−</mo><msup><mi>x</mi> <mn>2</mn></msup></mrow><annotation encoding='application/x-tex'>bx-x^2</annotation></semantics></math>

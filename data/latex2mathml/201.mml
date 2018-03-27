@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>x</mi>
-      <mo>+</mo>
-      <mi>y</mi>
-      <mi>&gt;</mi>
-      <mn>2</mn>
-      <mi>n</mi>
-   </mrow>
-</math>
+<math><mrow><mi>x</mi><mo>&#x0002B;</mo><mi>y</mi><mi>&gt;</mi><mn>2</mn><mi>n</mi></mrow></math>

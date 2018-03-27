@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <msub>
-         <mi>s</mi>
-         <mi>V</mi>
-      </msub>
-      <mrow>
-         <mo>(</mo>
-         <mi>mathcal</mi>
-         <mrow>
-            <mi>R</mi>
-         </mrow>
-         <mo>)</mo>
-      </mrow>
-   </mrow>
-</math>
+<math><mrow><msub><mi>s</mi><mi>V</mi></msub><mrow><mo>&#x00028;</mo><mi>mathcal</mi><mrow><mi>R</mi></mrow><mo>&#x00029;</mo></mrow></mrow></math>

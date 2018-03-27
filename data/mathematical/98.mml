@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <msup>
-            <mover>
-               <mi>V</mi>
-               <mo stretchy="false">¯</mo>
-            </mover> 
-            <mo>*</mo>
-         </msup>
-      </mrow>
-      <annotation encoding="application/x-tex">\bar V^*</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><msup><mover><mi>V</mi><mo stretchy="false">¯</mo></mover> <mo>*</mo></msup></mrow><annotation encoding='application/x-tex'>\bar V^*</annotation></semantics></math>

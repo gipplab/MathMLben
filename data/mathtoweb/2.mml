@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mo form="prefix">(</mo>
-      <mi>X</mi>
-      <mo>,</mo>
-      <mi>Σ</mi>
-      <mo form="postfix">)</mo>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo form="prefix">(</mo><mi>X</mi><mo>,</mo><mi>&#x003A3;</mi><mo form="postfix">)</mo></mrow></math>

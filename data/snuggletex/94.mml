@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <msub>
-      <mi>π</mi>
-      <mi>i</mi>
-   </msub>
-   <mo>=</mo>
-   <msup>
-      <mn>2</mn>
-      <mrow>
-         <mo>-</mo>
-         <mi>N</mi>
-      </mrow>
-   </msup>
-   <mi>N</mi>
-   <mi>i</mi>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>π</mi><mi>i</mi></msub><mo>=</mo><msup><mn>2</mn><mrow><mo>-</mo><mi>N</mi></mrow></msup><mi>N</mi><mi>i</mi></math>

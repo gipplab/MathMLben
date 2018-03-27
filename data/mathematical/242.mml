@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>A</mi>
-         <mi>P</mi>
-         <mo>=</mo>
-         <mo stretchy="false">(</mo>
-         <mi>P</mi>
-         <mo>+</mo>
-         <mi>a</mi>
-         <mo stretchy="false">)</mo>
-         <mi>A</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">AP=(P+a)A</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>A</mi><mi>P</mi><mo>=</mo><mo stretchy="false">(</mo><mi>P</mi><mo>+</mo><mi>a</mi><mo stretchy="false">)</mo><mi>A</mi></mrow><annotation encoding='application/x-tex'>AP=(P+a)A</annotation></semantics></math>

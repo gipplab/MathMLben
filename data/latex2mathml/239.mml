@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>G</mi>
-      <mi>F</mi>
-      <mrow>
-         <mo>(</mo>
-         <mn>2</mn>
-         <mo>)</mo>
-      </mrow>
-   </mrow>
-</math>
+<math><mrow><mi>G</mi><mi>F</mi><mrow><mo>&#x00028;</mo><mn>2</mn><mo>&#x00029;</mo></mrow></mrow></math>

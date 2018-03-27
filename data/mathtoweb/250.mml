@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mi>θ</mi>
-      <mo>=</mo>
-      <mfrac linethickness="1">
-         <mn>1</mn>
-         <mi>σ</mi>
-      </mfrac>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x003B8;</mi><mo>=</mo><mfrac linethickness="1"><mn>1</mn><mi>&#x003C3;</mi></mfrac></mrow></math>

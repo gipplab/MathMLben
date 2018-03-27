@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mrow>
-         <mo>(</mo>
-         <mi>x</mi>
-         <mo>+</mo>
-         <mi>y</mi>
-         <mo>)</mo>
-      </mrow>
-      <mo>/</mo>
-      <mn>2</mn>
-   </mrow>
-</math>
+<math><mrow><mrow><mo>&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mi>y</mi><mo>&#x00029;</mo></mrow><mo>&#x0002F;</mo><mn>2</mn></mrow></math>

@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>d</mi>
-         <mi>c</mi>
-         <mi>l</mi>
-         <mo stretchy="false">(</mo>
-         <mi>A</mi>
-         <mo stretchy="false">)</mo>
-      </mrow>
-      <annotation encoding="application/x-tex">dcl(A)</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>d</mi><mi>c</mi><mi>l</mi><mo stretchy="false">(</mo><mi>A</mi><mo stretchy="false">)</mo></mrow><annotation encoding='application/x-tex'>dcl(A)</annotation></semantics></math>

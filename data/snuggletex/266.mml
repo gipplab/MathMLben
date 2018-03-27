@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mfenced close="}" open="{">
-      <msup>
-         <mover accent="true">
-            <mi>ξ</mi>
-            <mo>→</mo>
-         </mover>
-         <mi>μ</mi>
-      </msup>
-      <msup>
-         <mi>τ</mi>
-         <mi>μ</mi>
-      </msup>
-   </mfenced>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced close="}" open="{"><msup><mover accent="true"><mi>ξ</mi><mo>→</mo></mover><mi>μ</mi></msup><msup><mi>τ</mi><mi>μ</mi></msup></mfenced></math>

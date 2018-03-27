@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>C</mi>
-      <mrow>
-         <mo>(</mo>
-         <mi>K</mi>
-         <mo>)</mo>
-      </mrow>
-   </mrow>
-</math>
+<math><mrow><mi>C</mi><mrow><mo>&#x00028;</mo><mi>K</mi><mo>&#x00029;</mo></mrow></mrow></math>

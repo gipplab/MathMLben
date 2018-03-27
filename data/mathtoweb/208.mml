@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <msubsup>
-         <mi>ξ</mi>
-         <mi>i</mi>
-         <mi>μ</mi>
-      </msubsup>
-      <mo>=</mo>
-      <mo>±</mo>
-      <mn>1</mn>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msubsup><mi>&#x003BE;</mi><mi>i</mi><mi>&#x003BC;</mi></msubsup><mo>=</mo><mo>&#x000B1;</mo><mn>1</mn></mrow></math>

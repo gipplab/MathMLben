@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <msubsup>
-         <mi>U</mi>
-         <mo>±</mo>
-         <mo>†</mo>
-      </msubsup>
-      <mo>=</mo>
-      <msub>
-         <mi>U</mi>
-         <mo>±</mo>
-      </msub>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msubsup><mi>U</mi><mo>&#x000B1;</mo><mo>&#x02020;</mo></msubsup><mo>=</mo><msub><mi>U</mi><mo>&#x000B1;</mo></msub></mrow></math>

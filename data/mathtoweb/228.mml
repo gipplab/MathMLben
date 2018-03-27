@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <msub>
-         <mo>ℵ</mo>
-         <mn>0</mn>
-      </msub>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mo>&#x02135;</mo><mn>0</mn></msub></mrow></math>

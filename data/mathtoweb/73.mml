@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mo form="prefix">{</mo>
-      <mi>C</mi>
-      <mo>:</mo>
-      <msub>
-         <mi>K</mi>
-         <mi>X</mi>
-      </msub>
-      <mo>⋅</mo>
-      <mi>C</mi>
-      <mo>=</mo>
-      <mn>0</mn>
-      <mo form="postfix">}</mo>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo form="prefix">{</mo><mi>C</mi><mo>:</mo><msub><mi>K</mi><mi>X</mi></msub><mo>&#x022C5;</mo><mi>C</mi><mo>=</mo><mn>0</mn><mo form="postfix">}</mo></mrow></math>

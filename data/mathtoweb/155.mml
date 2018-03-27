@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <msub>
-         <mi>a</mi>
-         <mn>0</mn>
-      </msub>
-      <mo>=</mo>
-      <mstyle displaystyle="false" scriptlevel="0">
-         <mrow>
-            <mfrac linethickness="1">
-               <mn>1</mn>
-               <mn>12</mn>
-            </mfrac>
-         </mrow>
-      </mstyle>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>=</mo><mstyle scriptlevel="0" displaystyle="false"><mrow><mfrac linethickness="1"><mn>1</mn><mn>12</mn></mfrac></mrow></mstyle></mrow></math>

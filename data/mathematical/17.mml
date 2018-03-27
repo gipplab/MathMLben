@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <msub>
-            <mstyle mathvariant="bold">
-               <mi mathvariant="bold">m</mi>
-            </mstyle> 
-            <mn>1</mn>
-         </msub>
-      </mrow>
-      <annotation encoding="application/x-tex">\mathbf{m}_1</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><msub><mstyle mathvariant="bold"><mi mathvariant="bold">m</mi></mstyle> <mn>1</mn></msub></mrow><annotation encoding='application/x-tex'>\mathbf{m}_1</annotation></semantics></math>

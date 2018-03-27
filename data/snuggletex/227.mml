@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mi>C</mi>
-   <mi>o</mi>
-   <mi>n</mi>
-   <mfenced close=")" open="(">
-      <mrow>
-         <mi>Z</mi>
-         <mi>F</mi>
-         <mo>+</mo>
-         <mo>¬</mo>
-         <mi>A</mi>
-         <mi>C</mi>
-      </mrow>
-   </mfenced>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mi>o</mi><mi>n</mi><mfenced close=")" open="("><mrow><mi>Z</mi><mi>F</mi><mo>+</mo><mo>¬</mo><mi>A</mi><mi>C</mi></mrow></mfenced></math>

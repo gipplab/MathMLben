@@ -5,24 +5,23 @@
       <mi>η</mi>
       <mo>=</mo>
       <mfrac>
-        <mtext>work done</mtext>
-        <mtext>heat absorbed</mtext>
-      </mfrac>
-      <mo>=</mo>
-      <mfrac>
         <mrow>
-          <mi>Q</mi>
-          <mn>1</mn>
+          <msub>
+            <mi>Q</mi>
+            <mn>1</mn>
+          </msub>
           <mo>-</mo>
-          <mi>Q</mi>
-          <mn>2</mn>
+          <msub>
+            <mi>Q</mi>
+            <mn>2</mn>
+          </msub>
         </mrow>
-        <mrow>
+        <msub>
           <mi>Q</mi>
           <mn>1</mn>
-        </mrow>
+        </msub>
       </mfrac>
     </mrow>
-    <annotation encoding="TeX">\eta = \frac{\text{work done}}{\text{heat absorbed}} = \frac{Q1-Q2}{Q1}</annotation>
+    <annotation encoding="TeX">\eta = \frac{Q_1-Q_2}{Q_1}</annotation>
   </semantics>
 </math>

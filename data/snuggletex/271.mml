@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mn>1</mn>
-   <mo>-</mo>
-   <mi>a</mi>
-   <mspace width="0.167em"/>
-   <msub>
-      <mover accent="true">
-         <mi>∂</mi>
-         <mo>̄</mo>
-      </mover>
-      <mi>p</mi>
-   </msub>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>-</mo><mi>a</mi><mspace width="0.167em"/><msub><mover accent="true"><mi>∂</mi><mo>̄</mo></mover><mi>p</mi></msub></math>

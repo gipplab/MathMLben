@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mn>1</mn>
-   <mo>≤</mo>
-   <mi>k</mi>
-   <mo>≤</mo>
-   <mi>n</mi>
-   <mo>-</mo>
-   <mn>1</mn>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>n</mi><mo>-</mo><mn>1</mn></math>

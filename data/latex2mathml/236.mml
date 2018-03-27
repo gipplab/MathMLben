@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>t</mi>
-      <mo>∈</mo>
-      <msub>
-         <mrow>
-            <mi>bf</mi>
-            <mi>R</mi>
-         </mrow>
-         <mrow>
-            <mo>+</mo>
-         </mrow>
-      </msub>
-   </mrow>
-</math>
+<math><mrow><mi>t</mi><mo>&#x02208;</mo><msub><mrow><mi>bf</mi><mi>R</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msub></mrow></math>

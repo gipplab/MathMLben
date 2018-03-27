@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>E</mi>
-      <mo>=</mo>
-      <mi>m</mi>
-      <msup>
-         <mi>c</mi>
-         <mn>2</mn>
-      </msup>
-   </mrow>
-</math>
+<math><mrow><mi>E</mi><mo>&#x0003D;</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>

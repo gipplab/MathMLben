@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>F</mi>
-         <mo>=</mo>
-         <mi>m</mi>
-         <mi>a</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">F = m a</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></mrow><annotation encoding='application/x-tex'>F = m a</annotation></semantics></math>

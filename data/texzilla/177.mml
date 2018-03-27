@@ -68,13 +68,7 @@
         <mn>2</mn>
       </msub>
       <mo stretchy="false">|</mo>
-      <mrow>
-        <mo lspace="mediummathspace">(</mo>
-        <mo rspace="thinmathspace">mod</mo>
-        <mn>2</mn>
-        <mo rspace="mediummathspace">)</mo>
-      </mrow>
     </mrow>
-    <annotation encoding="TeX">4(\boldsymbol{{\eta}}^{1}(T_{1})\cdot\boldsymbol{{\eta}}^{2}(T_{2})-\boldsymbol{{\eta}}^{2}(T_{1})\cdot\boldsymbol{{\eta}}^{1}(T_{2}))=|T_{1}\cap T_{2}|\pmod{2}</annotation>
+    <annotation encoding="TeX">4(\boldsymbol{{\eta}}^{1}(T_{1})\cdot\boldsymbol{{\eta}}^{2}(T_{2})-\boldsymbol{{\eta}}^{2}(T_{1})\cdot\boldsymbol{{\eta}}^{1}(T_{2}))=|T_{1}\cap T_{2}|</annotation>
   </semantics>
 </math>

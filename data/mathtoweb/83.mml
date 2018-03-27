@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mn>2</mn>
-      <mo>≤</mo>
-      <mi>s</mi>
-      <mi>e</mi>
-      <mi>q</mi>
-      <mi>s</mi>
-      <mo>≤</mo>
-      <mn>6</mn>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>2</mn><mo>&#x02264;</mo><mi>s</mi><mi>e</mi><mi>q</mi><mi>s</mi><mo>&#x02264;</mo><mn>6</mn></mrow></math>

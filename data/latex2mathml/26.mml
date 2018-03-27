@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>L</mi>
-      <mo fence="true" form="prefix" stretchy="true">(</mo>
-      <mi>C</mi>
-      <mo fence="true" form="postfix" stretchy="true">)</mo>
-      <mo>≤</mo>
-      <mi>L</mi>
-      <mo fence="true" form="prefix" stretchy="true">(</mo>
-      <mi>T</mi>
-      <mo fence="true" form="postfix" stretchy="true">)</mo>
-   </mrow>
-</math>
+<math><mrow><mi>L</mi><mo fence="true" form="prefix" stretchy="true">&#x00028;</mo><mi>C</mi><mo fence="true" form="postfix" stretchy="true">&#x00029;</mo><mo>&#x02264;</mo><mi>L</mi><mo fence="true" form="prefix" stretchy="true">&#x00028;</mo><mi>T</mi><mo fence="true" form="postfix" stretchy="true">&#x00029;</mo></mrow></math>

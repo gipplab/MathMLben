@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>x</mi>
-         <mo>+</mo>
-         <mi>y</mi>
-         <mo>&gt;</mo>
-         <mn>2</mn>
-         <mi>n</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">x+y &gt; 2n</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>&gt;</mo><mn>2</mn><mi>n</mi></mrow><annotation encoding='application/x-tex'>x+y &gt; 2n</annotation></semantics></math>

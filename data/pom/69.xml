@@ -4,17 +4,23 @@
     <term prime-tag="latex-command">\eta</term>
     <term prime-tag="equals">=</term>
     <expression prime-tag="fraction">
-      <term prime-tag="text">work done</term>
-      <term prime-tag="text">heat absorbed</term>
-    </expression>
-    <term prime-tag="equals">=</term>
-    <expression prime-tag="fraction">
       <expression prime-tag="sequence" secondary-tags="numerator">
-        <term prime-tag="alphanumeric">Q1</term>
+        <term prime-tag="letter" secondary-tags="Latin">Q</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+        </expression>
         <term prime-tag="minus">-</term>
-        <term prime-tag="alphanumeric">Q2</term>
+        <term prime-tag="letter" secondary-tags="Latin">Q</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">2</term>
+        </expression>
       </expression>
-      <term prime-tag="alphanumeric">Q1</term>
+      <expression prime-tag="sequence" secondary-tags="denominator">
+        <term prime-tag="letter" secondary-tags="Latin">Q</term>
+        <expression prime-tag="underscore" secondary-tags="subscript_operation">
+          <term prime-tag="digit" secondary-tags="numeric">1</term>
+        </expression>
+      </expression>
     </expression>
   </expression>
 </math>

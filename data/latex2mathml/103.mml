@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>operatorname</mi>
-      <mrow>
-         <mi>p</mi>
-         <mi>h</mi>
-      </mrow>
-      <mi>z</mi>
-      <mo>=</mo>
-      <mi>θ</mi>
-      <mo>+</mo>
-      <mn>2</mn>
-      <mi>n</mi>
-      <mi>π</mi>
-   </mrow>
-</math>
+<math><mrow><mi>operatorname</mi><mrow><mi>p</mi><mi>h</mi></mrow><mi>z</mi><mo>&#x0003D;</mo><mi>&#x003B8;</mi><mo>&#x0002B;</mo><mn>2</mn><mi>n</mi><mi>&#x003C0;</mi></mrow></math>

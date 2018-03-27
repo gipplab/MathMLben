@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>r</mi>
-         <mi>p</mi>
-         <msub>
-            <mi>m</mi> 
-            <mtext>motor</mtext>
-         </msub>
-      </mrow>
-      <annotation encoding="application/x-tex">rpm_\text{motor}</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>r</mi><mi>p</mi><msub><mi>m</mi> <mtext>motor</mtext></msub></mrow><annotation encoding='application/x-tex'>rpm_\text{motor}</annotation></semantics></math>

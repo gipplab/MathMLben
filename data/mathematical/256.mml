@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>Z</mi>
-         <mi>F</mi>
-         <mi>C</mi>
-         <mo>+</mo>
-         <mi>G</mi>
-         <mi>C</mi>
-         <mi>H</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">ZFC+GCH</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>Z</mi><mi>F</mi><mi>C</mi><mo>+</mo><mi>G</mi><mi>C</mi><mi>H</mi></mrow><annotation encoding='application/x-tex'>ZFC+GCH</annotation></semantics></math>

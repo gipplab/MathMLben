@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <msup>
-         <mi>q</mi>
-         <mrow>
-            <mn>42</mn>
-         </mrow>
-      </msup>
-   </mrow>
-</math>
+<math><mrow><msup><mi>q</mi><mrow><mn>42</mn></mrow></msup></mrow></math>

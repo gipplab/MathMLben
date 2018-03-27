@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <msup>
-         <mi>σ</mi>
-         <mn>2</mn>
-      </msup>
-      <mo>=</mo>
-      <msup>
-         <mi>X</mi>
-         <mi>T</mi>
-      </msup>
-      <mi>V</mi>
-      <mi>X</mi>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>&#x003C3;</mi><mn>2</mn></msup><mo>=</mo><msup><mi>X</mi><mi>T</mi></msup><mi>V</mi><mi>X</mi></mrow></math>

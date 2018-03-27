@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <msub>
-      <mi>f</mi>
-      <mi>c</mi>
-   </msub>
-   <mfenced close=")" open="(">
-      <mi>z</mi>
-   </mfenced>
-   <mo>=</mo>
-   <msup>
-      <mi>z</mi>
-      <mn>2</mn>
-   </msup>
-   <mo>+</mo>
-   <mi>c</mi>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>f</mi><mi>c</mi></msub><mfenced close=")" open="("><mi>z</mi></mfenced><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi></math>

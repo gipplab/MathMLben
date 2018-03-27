@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>P</mi>
-         <mi>A</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">PA</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>P</mi><mi>A</mi></mrow><annotation encoding='application/x-tex'>PA</annotation></semantics></math>

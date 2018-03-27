@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mi>A</mi>
-      <mi>P</mi>
-      <mo>=</mo>
-      <mrow>
-         <mo form="prefix">(</mo>
-         <mi>P</mi>
-         <mo>+</mo>
-         <mi>a</mi>
-         <mo form="postfix">)</mo>
-      </mrow>
-      <mi>A</mi>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>A</mi><mi>P</mi><mo>=</mo><mrow><mo form="prefix">(</mo><mi>P</mi><mo>+</mo><mi>a</mi><mo form="postfix">)</mo></mrow><mi>A</mi></mrow></math>

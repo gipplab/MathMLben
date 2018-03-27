@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mrow>
-         <mo>(</mo>
-         <mi>p</mi>
-         <mo>−</mo>
-         <mn>1</mn>
-         <mo>)</mo>
-      </mrow>
-      <msup>
-         <mi>!</mi>
-         <mi>n</mi>
-      </msup>
-   </mrow>
-</math>
+<math><mrow><mrow><mo>&#x00028;</mo><mi>p</mi><mo>&#x02212;</mo><mn>1</mn><mo>&#x00029;</mo></mrow><msup><mi>!</mi><mi>n</mi></msup></mrow></math>

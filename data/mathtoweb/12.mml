@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-   <mrow xmlns="">
-      <mi>θ</mi>
-      <mo>=</mo>
-      <mi>n</mi>
-      <mo>×</mo>
-      <mn>137.50</mn>
-      <msup>
-         <mn>8</mn>
-         <mo>∘</mo>
-      </msup>
-   </mrow>
-</math>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x003B8;</mi><mo>=</mo><mi>n</mi><mo>&#x000D7;</mo><mn>137.50</mn><msup><mn>8</mn><mo>&#x02218;</mo></msup></mrow></math>

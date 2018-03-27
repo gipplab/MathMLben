@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <msub>
-            <mi>log</mi> 
-            <mn>10</mn>
-         </msub>
-         <mo stretchy="false">(</mo>
-         <mi>x</mi>
-         <mo stretchy="false">)</mo>
-      </mrow>
-      <annotation encoding="application/x-tex">\log_{10} (x)</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><msub><mi>log</mi> <mn>10</mn></msub><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding='application/x-tex'>\log_{10} (x)</annotation></semantics></math>

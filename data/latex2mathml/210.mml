@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <msub>
-         <mi>a</mi>
-         <mrow>
-            <mi>i</mi>
-            <mi>j</mi>
-         </mrow>
-      </msub>
-      <mo>=</mo>
-      <mn>1</mn>
-   </mrow>
-</math>
+<math><mrow><msub><mi>a</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><mn>1</mn></mrow></math>

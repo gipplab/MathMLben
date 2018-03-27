@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mn>2</mn>
-         <mo>≤</mo>
-         <mi>s</mi>
-         <mi>e</mi>
-         <mi>q</mi>
-         <mi>s</mi>
-         <mo>≤</mo>
-         <mn>6</mn>
-      </mrow>
-      <annotation encoding="application/x-tex">2\le seqs \le6</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mn>2</mn><mo>≤</mo><mi>s</mi><mi>e</mi><mi>q</mi><mi>s</mi><mo>≤</mo><mn>6</mn></mrow><annotation encoding='application/x-tex'>2\le seqs \le6</annotation></semantics></math>

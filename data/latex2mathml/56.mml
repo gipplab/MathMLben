@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math>
-   <mrow>
-      <mi>boldsymbol</mi>
-      <msub>
-         <mrow>
-            <mi>F</mi>
-         </mrow>
-         <mi>r</mi>
-      </msub>
-   </mrow>
-</math>
+<math><mrow><mi>boldsymbol</mi><msub><mrow><mi>F</mi></mrow><mi>r</mi></msub></mrow></math>

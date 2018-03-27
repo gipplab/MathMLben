@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-   <semantics xmlns="">
-      <mrow>
-         <mi>N</mi>
-         <mi>P</mi>
-      </mrow>
-      <annotation encoding="application/x-tex">NP</annotation>
-   </semantics>
-</math>
+<math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><semantics><mrow><mi>N</mi><mi>P</mi></mrow><annotation encoding='application/x-tex'>NP</annotation></semantics></math>
