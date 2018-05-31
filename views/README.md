@@ -26,7 +26,7 @@ Anotations of Wikidata items (QIDs) can be made via
 * `\wdef{Q...}` at the beginning of the formula. 
 
 Multiple annotation of the same token is dispensable.
-DLMF LaTeX macros (see the CICM lecture notes of Watt et al., [DOI 10.1007/978-3-319-08434-3](http://dx.doi.org/10.1007/978-3-319-08434-3)), e.g. `\EulerGamma@{z}` for the gamma function or `\JacobiP{\alpha}{\beta}{n}@{x}` for the Jacobi polynomial, are interpreted.
+DLMF LaTeX macros (see _Digital Repository of Mathematical Formulae_ by H. S. Cohl et al., [DOI 10.1007/978-3-319-08434-3_30](http://dx.doi.org/10.1007/978-3-319-08434-3_30)), e.g. `\EulerGamma@{z}` for the gamma function or `\JacobiP{\alpha}{\beta}{n}@{x}` for the Jacobi polynomial, are interpreted.
 
 Furthermore you can create new macros at in the [latexml style file](https://github.com/ag-gipp/MathMLben/blob/master/config/latexml/wikidata.sty.ltxml). Be careful that the quotation marks `''` are balanced and survey the travis build status on [travis-ci.org](https://travis-ci.org/ag-gipp/MathMLben/branches).
 
