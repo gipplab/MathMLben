@@ -5,7 +5,9 @@
   "main": "gouldi.js",
   "scripts": {
     "start": "node gouldi.js",
-    "test": ""
+    "test": "",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -47,10 +49,12 @@
     "request-promise": "^4.2.2",
     "texzilla": "^0.9.9",
     "vmext": "^1.0.10",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "child-process-promise": "^2.2.1",
     "promised-spawn": "0.0.1"
-  }
+  },
+  "snyk": true
 }
