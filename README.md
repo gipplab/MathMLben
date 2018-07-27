@@ -1,7 +1,7 @@
 # GoUldI
 
 [![Build Status](https://travis-ci.org/ag-gipp/MathMLben.svg?branch=master)](https://travis-ci.org/ag-gipp/MathMLben)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d9f3590d68a5a6f9ab7d/maintainability)](https://codeclimate.com/github/ag-gipp/MathMLben/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d9f3590d68a5a6f9ab7d/maintainability)](https://codeclimate.com/github/ag-gipp/MathMLben/maintainability) [![Greenkeeper badge](https://badges.greenkeeper.io/ag-gipp/MathMLben.svg)](https://greenkeeper.io/)
 
 Please use the website https://mathmlben.wmflabs.org to make changes to the data.
 
