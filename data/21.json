@@ -1,24 +1,19 @@
 {
-  "definitions": {
-    "S'": [
-      "plane",
-      "geometric surface",
-      "area",
-      "2-dimensional manifold",
-      {
-        "Q17285": "plane (flat, two-dimensional surface)"
-      }
-    ]
+  "definitions" : {
+    "S'" : [ "plane", "geometric surface", "area", "2-dimensional manifold", {
+      "Q17285" : "plane (flat, two-dimensional surface)"
+    } ]
   },
-  "constraints": [],
-  "math_inputtex": "S'",
-  "math_inputtex_semantic": "\\w{Q484298}{S}'",
-  "correct_tex": "S'",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S^{\\prime}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <msup id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n      <mo id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">′</mo>\n    </msup>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n        <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.3\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q484298</csymbol>\n        <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">′</ci>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S^{\\prime}</annotation>\n  </semantics>\n</math>",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=17336#math17336.30",
-  "title": "Hilbert's_theorem_(differential_geometry)",
-  "type": "general formula",
-  "check": {
-    "qid": false
+  "constraints" : [ ],
+  "math_inputtex" : "S'",
+  "math_inputtex_semantic" : "\\w{Q484298}{S}'",
+  "correct_tex" : "S'",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"S^{\\prime}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <msup id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">S</mi>\n      <mo id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">′</mo>\n    </msup>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\">\n        <power  xref=\"p1.1.m1.1.3\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q484298</csymbol>\n        <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">′</ci>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">S^{\\prime}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=17336#math17336.30",
+  "title" : "Hilbert's_theorem_(differential_geometry)",
+  "type" : "general formula",
+  "check" : {
+    "tree" : null,
+    "qid" : false
   }
 }

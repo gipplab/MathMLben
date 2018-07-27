@@ -1,46 +1,30 @@
 {
-  "definitions": {
-    "Z": [
-      "canonical partition function",
-      {
-        "Q230963": "Partition function (statistical mechanics) "
-      }
-    ],
-    "j": [
-      {
-        "Q2303886": "index (the numbering of various objects within the mathematical notation )"
-      }
-    ],
-    "g_{j}": [
-      "degeneracy factor",
-      {}
-    ],
-    "\\mathrm{e}": [
-      {
-        "Q168698": "exponential function (unique function which is its own derivative and equals one at zero)"
-      }
-    ],
-    "\\beta": [
-      "inverse temperature",
-      {
-        "Q917476": "Thermodynamic beta"
-      }
-    ],
-    "E_{j}": [
-      "energy level",
-      {}
-    ]
+  "definitions" : {
+    "Z" : [ "canonical partition function", {
+      "Q230963" : "Partition function (statistical mechanics) "
+    } ],
+    "j" : [ {
+      "Q2303886" : "index (the numbering of various objects within the mathematical notation )"
+    } ],
+    "g_{j}" : [ "degeneracy factor", { } ],
+    "\\mathrm{e}" : [ {
+      "Q168698" : "exponential function (unique function which is its own derivative and equals one at zero)"
+    } ],
+    "\\beta" : [ "inverse temperature", {
+      "Q917476" : "Thermodynamic beta"
+    } ],
+    "E_{j}" : [ "energy level", { } ]
   },
-  "constraints": [],
-  "math_inputtex": " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
-  "math_inputtex_semantic": "\\wf{Q230963}{Z} = \\sum_{\\w{Q2303886}{j}} g_j \\cdot \\mathrm{e}^{-{\\w{Q917476}{\\beta} \\w{Q669532}{E}_j}}",
-  "correct_tex": " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
-  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"Z=\\sum_{j}g_{j}\\cdot\\mathrm{e}^{-{\\beta E_{j}}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">Z</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">\n        <msub id=\"p1.1.m1.1.10.1.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">∑</mo>\n          <mi id=\"p1.1.m1.1.4.1\" xref=\"p1.1.m1.1.4.1.cmml\">j</mi>\n        </msub>\n        <mrow id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.2.cmml\">\n          <msub id=\"p1.1.m1.1.10.1.2.1\" xref=\"p1.1.m1.1.10.1.2.1.cmml\">\n            <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">g</mi>\n            <mi id=\"p1.1.m1.1.6.1\" xref=\"p1.1.m1.1.6.1.cmml\">j</mi>\n          </msub>\n          <mo id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">⋅</mo>\n          <msup id=\"p1.1.m1.1.10.1.2.2\" xref=\"p1.1.m1.1.10.1.2.2.cmml\">\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">e</mi>\n            <mrow id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">\n              <mo id=\"p1.1.m1.1.9.1.1\" xref=\"p1.1.m1.1.9.1.1.cmml\">-</mo>\n              <mrow id=\"p1.1.m1.1.9.1.5\" xref=\"p1.1.m1.1.9.1.5.cmml\">\n                <mi id=\"p1.1.m1.1.9.1.2\" xref=\"p1.1.m1.1.9.1.2.cmml\">β</mi>\n                <mo id=\"p1.1.m1.1.9.1.5.1\" xref=\"p1.1.m1.1.9.1.5.1.cmml\">⁢</mo>\n                <msub id=\"p1.1.m1.1.9.1.5.2\" xref=\"p1.1.m1.1.9.1.5.2.cmml\">\n                  <mi id=\"p1.1.m1.1.9.1.3\" xref=\"p1.1.m1.1.9.1.3.cmml\">E</mi>\n                  <mi id=\"p1.1.m1.1.9.1.4.1\" xref=\"p1.1.m1.1.9.1.4.1.cmml\">j</mi>\n                </msub>\n              </mrow>\n            </mrow>\n          </msup>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q230963</csymbol>\n        <apply id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">\n          <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">subscript</csymbol>\n            <sum id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.1.cmml\" xref=\"p1.1.m1.1.4.1\">Q2303886</csymbol>\n          </apply>\n          <apply id=\"p1.1.m1.1.10.1.2.cmml\" xref=\"p1.1.m1.1.10.1.2\">\n            <ci id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">⋅</ci>\n            <apply id=\"p1.1.m1.1.10.1.2.1.cmml\" xref=\"p1.1.m1.1.10.1.2.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.2.1.1.cmml\" xref=\"p1.1.m1.1.10.1.2.1\">subscript</csymbol>\n              <ci id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">𝑔</ci>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.1\">Q2303886</csymbol>\n            </apply>\n            <apply id=\"p1.1.m1.1.10.1.2.2.cmml\" xref=\"p1.1.m1.1.10.1.2.2\">\n              <power xmlns:m=\"http://www.w3.org/1998/Math/MathML\" xref=\"p1.1.m1.1.10.1.2.2\"/>\n              <ci id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">e</ci>\n              <apply id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">\n                <minus id=\"p1.1.m1.1.9.1.1.cmml\" xref=\"p1.1.m1.1.9.1.1\"/>\n                <apply id=\"p1.1.m1.1.9.1.5.cmml\" xref=\"p1.1.m1.1.9.1.5\">\n                  <times id=\"p1.1.m1.1.9.1.5.1.cmml\" xref=\"p1.1.m1.1.9.1.5.1\"/>\n                  <ci id=\"p1.1.m1.1.9.1.2.cmml\" xref=\"p1.1.m1.1.9.1.2\">𝛽</ci>\n                  <apply id=\"p1.1.m1.1.9.1.5.2.cmml\" xref=\"p1.1.m1.1.9.1.5.2\">\n                    <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.1.5.2.1.cmml\" xref=\"p1.1.m1.1.9.1.5.2\">subscript</csymbol>\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.1.3.cmml\" xref=\"p1.1.m1.1.9.1.3\">Q669532</csymbol>\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.1.4.1.cmml\" xref=\"p1.1.m1.1.9.1.4.1\">Q2303886</csymbol>\n                  </apply>\n                </apply>\n              </apply>\n            </apply>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">Z=\\sum_{j}g_{j}\\cdot\\mathrm{e}^{-{\\beta E_{j}}}</annotation>\n  </semantics>\n</math>",
-  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=3897#math3897.2",
-  "title": "Partition_function_(statistical_mechanics)",
-  "type": "equation",
-  "check": {
-    "tree": true,
-    "qid": true
+  "constraints" : [ ],
+  "math_inputtex" : " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
+  "math_inputtex_semantic" : "\\wf{Q230963}{Z} = \\sum_{\\w{Q2303886}{j}} g_j \\cdot \\mathrm{e}^{-{\\w{Q917476}{\\beta} \\w{Q669532}{E}_j}}",
+  "correct_tex" : " Z = \\sum_{j} g_j \\cdot \\mathrm{e}^{- \\beta E_j}",
+  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"Z=\\sum_{j}g_{j}\\cdot\\mathrm{e}^{-{\\beta E_{j}}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.10\" xref=\"p1.1.m1.1.10.cmml\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">Z</mi>\n      <mo id=\"p1.1.m1.1.2\" xref=\"p1.1.m1.1.2.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.10.1\" xref=\"p1.1.m1.1.10.1.cmml\">\n        <msub id=\"p1.1.m1.1.10.1.1\" xref=\"p1.1.m1.1.10.1.1.cmml\">\n          <mo largeop=\"true\" symmetric=\"true\" id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">∑</mo>\n          <mi id=\"p1.1.m1.1.4.1\" xref=\"p1.1.m1.1.4.1.cmml\">j</mi>\n        </msub>\n        <mrow id=\"p1.1.m1.1.10.1.2\" xref=\"p1.1.m1.1.10.1.2.cmml\">\n          <msub id=\"p1.1.m1.1.10.1.2.1\" xref=\"p1.1.m1.1.10.1.2.1.cmml\">\n            <mi id=\"p1.1.m1.1.5\" xref=\"p1.1.m1.1.5.cmml\">g</mi>\n            <mi id=\"p1.1.m1.1.6.1\" xref=\"p1.1.m1.1.6.1.cmml\">j</mi>\n          </msub>\n          <mo id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">⋅</mo>\n          <msup id=\"p1.1.m1.1.10.1.2.2\" xref=\"p1.1.m1.1.10.1.2.2.cmml\">\n            <mi mathvariant=\"normal\" id=\"p1.1.m1.1.8\" xref=\"p1.1.m1.1.8.cmml\">e</mi>\n            <mrow id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">\n              <mo id=\"p1.1.m1.1.9.1.1\" xref=\"p1.1.m1.1.9.1.1.cmml\">-</mo>\n              <mrow id=\"p1.1.m1.1.9.1.5\" xref=\"p1.1.m1.1.9.1.5.cmml\">\n                <mi id=\"p1.1.m1.1.9.1.2\" xref=\"p1.1.m1.1.9.1.2.cmml\">β</mi>\n                <mo id=\"p1.1.m1.1.9.1.5.1\" xref=\"p1.1.m1.1.9.1.5.1.cmml\">⁢</mo>\n                <msub id=\"p1.1.m1.1.9.1.5.2\" xref=\"p1.1.m1.1.9.1.5.2.cmml\">\n                  <mi id=\"p1.1.m1.1.9.1.3\" xref=\"p1.1.m1.1.9.1.3.cmml\">E</mi>\n                  <mi id=\"p1.1.m1.1.9.1.4.1\" xref=\"p1.1.m1.1.9.1.4.1.cmml\">j</mi>\n                </msub>\n              </mrow>\n            </mrow>\n          </msup>\n        </mrow>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.10.cmml\" xref=\"p1.1.m1.1.10\">\n        <eq id=\"p1.1.m1.1.2.cmml\" xref=\"p1.1.m1.1.2\"/>\n        <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q230963</csymbol>\n        <apply id=\"p1.1.m1.1.10.1.cmml\" xref=\"p1.1.m1.1.10.1\">\n          <apply id=\"p1.1.m1.1.10.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.1.1.cmml\" xref=\"p1.1.m1.1.10.1.1\">subscript</csymbol>\n            <sum id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.4.1.cmml\" xref=\"p1.1.m1.1.4.1\">Q2303886</csymbol>\n          </apply>\n          <apply id=\"p1.1.m1.1.10.1.2.cmml\" xref=\"p1.1.m1.1.10.1.2\">\n            <ci id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">⋅</ci>\n            <apply id=\"p1.1.m1.1.10.1.2.1.cmml\" xref=\"p1.1.m1.1.10.1.2.1\">\n              <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.10.1.2.1.1.cmml\" xref=\"p1.1.m1.1.10.1.2.1\">subscript</csymbol>\n              <ci id=\"p1.1.m1.1.5.cmml\" xref=\"p1.1.m1.1.5\">𝑔</ci>\n              <csymbol cd=\"latexml\" id=\"p1.1.m1.1.6.1.cmml\" xref=\"p1.1.m1.1.6.1\">Q2303886</csymbol>\n            </apply>\n            <apply id=\"p1.1.m1.1.10.1.2.2.cmml\" xref=\"p1.1.m1.1.10.1.2.2\">\n              <power  xref=\"p1.1.m1.1.10.1.2.2\"/>\n              <ci id=\"p1.1.m1.1.8.cmml\" xref=\"p1.1.m1.1.8\">e</ci>\n              <apply id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">\n                <minus id=\"p1.1.m1.1.9.1.1.cmml\" xref=\"p1.1.m1.1.9.1.1\"/>\n                <apply id=\"p1.1.m1.1.9.1.5.cmml\" xref=\"p1.1.m1.1.9.1.5\">\n                  <times id=\"p1.1.m1.1.9.1.5.1.cmml\" xref=\"p1.1.m1.1.9.1.5.1\"/>\n                  <ci id=\"p1.1.m1.1.9.1.2.cmml\" xref=\"p1.1.m1.1.9.1.2\">𝛽</ci>\n                  <apply id=\"p1.1.m1.1.9.1.5.2.cmml\" xref=\"p1.1.m1.1.9.1.5.2\">\n                    <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.1.5.2.1.cmml\" xref=\"p1.1.m1.1.9.1.5.2\">subscript</csymbol>\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.1.3.cmml\" xref=\"p1.1.m1.1.9.1.3\">Q669532</csymbol>\n                    <csymbol cd=\"latexml\" id=\"p1.1.m1.1.9.1.4.1.cmml\" xref=\"p1.1.m1.1.9.1.4.1\">Q2303886</csymbol>\n                  </apply>\n                </apply>\n              </apply>\n            </apply>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">Z=\\sum_{j}g_{j}\\cdot\\mathrm{e}^{-{\\beta E_{j}}}</annotation>\n  </semantics>\n</math>",
+  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=3897#math3897.2",
+  "title" : "Partition_function_(statistical_mechanics)",
+  "type" : "equation",
+  "check" : {
+    "tree" : true,
+    "qid" : true
   }
 }
