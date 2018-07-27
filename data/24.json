@@ -1,23 +1,34 @@
 {
-  "definitions" : {
-    "E_{\\mathrm{k}}" : [ "total kinetic energy", {
-      "Q46276" : "kinetic energy"
-    } ],
-    "E_{\\mathrm{r}}" : [ "rotational energy", "angular kinetic energy", {
-      "Q2140940" : "Rotational energy"
-    } ],
-    "E_{\\mathrm{t}}" : [ "translational kinetic energy", { } ]
+  "definitions": {
+    "E_{\\mathrm{k}}": [
+      "total kinetic energy",
+      {
+        "Q46276": "kinetic energy"
+      }
+    ],
+    "E_{\\mathrm{r}}": [
+      "rotational energy",
+      "angular kinetic energy",
+      {
+        "Q2140940": "Rotational energy"
+      }
+    ],
+    "E_{\\mathrm{t}}": [
+      "translational kinetic energy",
+      {}
+    ]
   },
-  "constraints" : [ ],
-  "math_inputtex" : " E_\\text{k} = E_t + E_\\text{r} \\, ",
-  "math_inputtex_semantic" : "\\w{Q46276}{E _\\text{k}} = E_t + \\w{Q2140940}{E_\\text{r}}",
-  "correct_tex" : "E_\\text{k} = E_\\text{t} + E_\\text{r} \\,",
-  "correct_mml" : "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" id=\"p1.1.m1.1\" class=\"ltx_Math\" alttext=\"E_{\\text{k}}=E_{t}+E_{\\text{r}}\" display=\"inline\">\n  <semantics id=\"p1.1.m1.1a\">\n    <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n      <msub id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">\n        <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">E</mi>\n        <mtext id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">k</mtext>\n      </msub>\n      <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n      <mrow id=\"p1.1.m1.1.9.2\" xref=\"p1.1.m1.1.9.2.cmml\">\n        <msub id=\"p1.1.m1.1.9.2.1\" xref=\"p1.1.m1.1.9.2.1.cmml\">\n          <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">E</mi>\n          <mi id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">t</mi>\n        </msub>\n        <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">+</mo>\n        <msub id=\"p1.1.m1.1.9.2.2\" xref=\"p1.1.m1.1.9.2.2.cmml\">\n          <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">E</mi>\n          <mtext id=\"p1.1.m1.1.8.1\" xref=\"p1.1.m1.1.8.1.cmml\">r</mtext>\n        </msub>\n      </mrow>\n    </mrow>\n    <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n      <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n        <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n        <apply id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">\n          <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.1.1.cmml\" xref=\"p1.1.m1.1.9.1\">subscript</csymbol>\n          <csymbol cd=\"latexml\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q46276</csymbol>\n          <mtext id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">k</mtext>\n        </apply>\n        <apply id=\"p1.1.m1.1.9.2.cmml\" xref=\"p1.1.m1.1.9.2\">\n          <plus id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n          <apply id=\"p1.1.m1.1.9.2.1.cmml\" xref=\"p1.1.m1.1.9.2.1\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.2.1.1.cmml\" xref=\"p1.1.m1.1.9.2.1\">subscript</csymbol>\n            <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">𝐸</ci>\n            <ci id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">𝑡</ci>\n          </apply>\n          <apply id=\"p1.1.m1.1.9.2.2.cmml\" xref=\"p1.1.m1.1.9.2.2\">\n            <csymbol cd=\"ambiguous\" id=\"p1.1.m1.1.9.2.2.1.cmml\" xref=\"p1.1.m1.1.9.2.2\">subscript</csymbol>\n            <csymbol cd=\"latexml\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q2140940</csymbol>\n            <mtext id=\"p1.1.m1.1.8.1.cmml\" xref=\"p1.1.m1.1.8.1\">r</mtext>\n          </apply>\n        </apply>\n      </apply>\n    </annotation-xml>\n    <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">E_{\\text{k}}=E_{t}+E_{\\text{r}}</annotation>\n  </semantics>\n</math>",
-  "uri" : "https://en.formulasearchengine.com/w/index.php?oldid=566#math566.28",
-  "title" : "Kinetic_energy",
-  "type" : "equation",
-  "check" : {
-    "tree" : true,
-    "qid" : false
-  }
+  "constraints": [],
+  "math_inputtex": " E_\\text{k} = E_t + E_\\text{r} \\, ",
+  "math_inputtex_semantic": "\\w{Q46276}{E _\\text{k}} = E_t + \\w{Q2140940}{E_\\text{r}}",
+  "correct_tex": "E_\\text{k} = E_\\text{t} + E_\\text{r} \\,",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      alttext=\"E_{\\text{k}}=E_{t}+E_{\\text{r}}\"\n      class=\"ltx_Math\"\n      display=\"inline\"\n      id=\"p1.1.m1.1\">\n  <semantics id=\"p1.1.m1.1a\">\n      <mrow id=\"p1.1.m1.1.9\" xref=\"p1.1.m1.1.9.cmml\">\n         <msub id=\"p1.1.m1.1.9.1\" xref=\"p1.1.m1.1.9.1.cmml\">\n            <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">E</mi>\n            <mtext id=\"p1.1.m1.1.2.1\" xref=\"p1.1.m1.1.2.1.cmml\">k</mtext>\n         </msub>\n         <mo id=\"p1.1.m1.1.3\" xref=\"p1.1.m1.1.3.cmml\">=</mo>\n         <mrow id=\"p1.1.m1.1.9.2\" xref=\"p1.1.m1.1.9.2.cmml\">\n            <msub id=\"p1.1.m1.1.9.2.1\" xref=\"p1.1.m1.1.9.2.1.cmml\">\n               <mi id=\"p1.1.m1.1.4\" xref=\"p1.1.m1.1.4.cmml\">E</mi>\n               <mi id=\"p1.1.m1.1.5.1\" xref=\"p1.1.m1.1.5.1.cmml\">t</mi>\n            </msub>\n            <mo id=\"p1.1.m1.1.6\" xref=\"p1.1.m1.1.6.cmml\">+</mo>\n            <msub id=\"p1.1.m1.1.9.2.2\" xref=\"p1.1.m1.1.9.2.2.cmml\">\n               <mi id=\"p1.1.m1.1.7\" xref=\"p1.1.m1.1.7.cmml\">E</mi>\n               <mtext id=\"p1.1.m1.1.8.1\" xref=\"p1.1.m1.1.8.1.cmml\">r</mtext>\n            </msub>\n         </mrow>\n      </mrow>\n      <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n         <apply id=\"p1.1.m1.1.9.cmml\" xref=\"p1.1.m1.1.9\">\n            <eq id=\"p1.1.m1.1.3.cmml\" xref=\"p1.1.m1.1.3\"/>\n            <apply id=\"p1.1.m1.1.9.1.cmml\" xref=\"p1.1.m1.1.9.1\">\n               <csymbol cd=\"wikidata\" id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">Q46276</csymbol>\n               <ci id=\"p1.1.m1.1.2.1.cmml\" xref=\"p1.1.m1.1.2.1\">k</ci>\n            </apply>\n            <apply id=\"p1.1.m1.1.9.2.cmml\" xref=\"p1.1.m1.1.9.2\">\n               <plus id=\"p1.1.m1.1.6.cmml\" xref=\"p1.1.m1.1.6\"/>\n               <apply id=\"p1.1.m1.1.9.2.1.cmml\" xref=\"p1.1.m1.1.9.2.1\">\n                  <ci id=\"p1.1.m1.1.4.cmml\" xref=\"p1.1.m1.1.4\">𝐸</ci>\n                  <ci id=\"p1.1.m1.1.5.1.cmml\" xref=\"p1.1.m1.1.5.1\">𝑡</ci>\n               </apply>\n               <apply id=\"p1.1.m1.1.9.2.2.cmml\" xref=\"p1.1.m1.1.9.2.2\">\n                  <csymbol cd=\"wikidata\" id=\"p1.1.m1.1.7.cmml\" xref=\"p1.1.m1.1.7\">Q2140940</csymbol>\n                  <ci id=\"p1.1.m1.1.8.1.cmml\" xref=\"p1.1.m1.1.8.1\">r</ci>\n               </apply>\n            </apply>\n         </apply>\n      </annotation-xml>\n      <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">E_{\\text{k}}=E_{t}+E_{\\text{r}}</annotation>\n  </semantics>\n</math>\n",
+  "uri": "https://en.formulasearchengine.com/w/index.php?oldid=566#math566.28",
+  "title": "Kinetic_energy",
+  "type": "equation",
+  "check": {
+    "tree": false,
+    "qid": false
+  },
+  "comment": "this is not ok. I think\nQid for E_t is missing and E_XX should be only one element."
 }
