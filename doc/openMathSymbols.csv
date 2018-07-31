@@ -39,7 +39,7 @@
  transc1:arccos,1
  transc1:arctan,1
  transc1:cos,7
- transc1:cosh
+ transc1:cosh,1
  transc1:exp,4
  transc1:ln,18
  transc1:log,2
