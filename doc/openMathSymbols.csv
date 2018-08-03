@@ -1,6 +1,6 @@
- arith1:abs,13,Q
- arith1:divide,251,Q
- arith1:gcd,1,Q
+ arith1:abs,13,Q120812
+ arith1:divide,251,Q1226939
+ arith1:gcd,1,Q131752
  arith1:minus,188,Q
  arith1:plus,187,Q
  arith1:power,355,Q
@@ -39,7 +39,7 @@
  transc1:arccos,1,Q
  transc1:arctan,1,Q
  transc1:cos,7,Q
- transc1:cosh,1,Q
+ transc1:cosh,1,Q1253682
  transc1:exp,4,Q
  transc1:ln,18,Q
  transc1:log,2,Q
