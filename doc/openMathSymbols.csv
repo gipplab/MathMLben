@@ -26,24 +26,24 @@
  nums1:i,15,Q193796
  nums1:infinity,34,Q205
  nums1:pi,34,Q167
- relation1:approx,2,Q
- relation1:eq,207,Q
- relation1:geq,5,Q
- relation1:gt,5,Q
+ relation1:approx,2,Q27058
+ relation1:eq,207,Q842346
+ relation1:geq,5,Q3490717
+ relation1:gt,5,Q47035128
  relation1:leq,13,Q
- relation1:lt,7,Q
- relation1:neq,3,Q
- set1:in,9,Q
- set1:intersect,1,Q
- set1:set,4,Q
- transc1:arccos,1,Q
- transc1:arctan,1,Q
- transc1:cos,7,Q
+ relation1:lt,7,Q3490724
+ relation1:neq,3,Q21778965
+ set1:in,9,Q177646
+ set1:intersect,1,Q185837
+ set1:set,4,Q36161
+ transc1:arccos,1,Q674533
+ transc1:arctan,1,Q2257242
+ transc1:cos,7,Q1256164
  transc1:cosh,1,Q1253682
- transc1:exp,4,Q
- transc1:ln,18,Q
- transc1:log,2,Q
- transc1:sin,14,Q
- transc1:sinh,1,Q
- transc1:tan,2,Q
- transc1:tanh,2,Q
+ transc1:exp,4,Q47306354
+ transc1:ln,18,Q204037
+ transc1:log,2,Q11197
+ transc1:sin,14,Q152415
+ transc1:sinh,1,Q1292101
+ transc1:tan,2,Q1129196
+ transc1:tanh,2,Q1274703
