@@ -8,24 +8,24 @@
  arith1:sum,24,Q218005
  arith1:times,494,Q40276
  arith1:unary_minus,82,Q715358
- calculus1:diff,11,Q
- fns1:lambda,3,Q
- fns1:left_compose,2,Q
- integer1:factorial,14,Q
- interval1:interval_oo,4,Q
- limit1:limit,3,Q
- limit1:null,3,Q
- linalg1:determinant,1,Q
- linalg2:matrix,2,Q
- linalg2:matrixrow,3,Q
- linalg2:vector,10,Q
- list1:list,17,Q
- logic1:and,17,Q
- logic1:equivalent,3,Q
- nums1:e,21,Q
- nums1:i,15,Q
- nums1:infinity,34,Q
- nums1:pi,34,Q
+ calculus1:diff,11,Q29175
+ fns1:lambda,3,Q6481163
+ fns1:left_compose,2,Q244761
+ integer1:factorial,14,Q120976
+ interval1:interval_oo,4,Q40548497
+ limit1:limit,3,Q177239
+ limit1:null,3,Q204
+ linalg1:determinant,1,Q178546
+ linalg2:matrix,2,Q44337
+ linalg2:matrixrow,3,Q2916003
+ linalg2:vector,10,Q13471665
+ list1:list,17,Q12139612
+ logic1:and,17,Q191081
+ logic1:equivalent,3,Q130998
+ nums1:e,21,Q82435
+ nums1:i,15,Q193796
+ nums1:infinity,34,Q205
+ nums1:pi,34,Q167
  relation1:approx,2,Q
  relation1:eq,207,Q
  relation1:geq,5,Q
