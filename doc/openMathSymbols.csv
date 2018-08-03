@@ -28,10 +28,10 @@
  nums1:pi,34,Q167
  relation1:approx,2,Q27058
  relation1:eq,207,Q842346
- relation1:geq,5,Q3490717
+ relation1:geq,5,Q55935291
  relation1:gt,5,Q47035128
- relation1:leq,13,Q
- relation1:lt,7,Q3490724
+ relation1:leq,13,Q55935272
+ relation1:lt,7,Q52834024
  relation1:neq,3,Q21778965
  set1:in,9,Q177646
  set1:intersect,1,Q185837
