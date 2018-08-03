@@ -1,13 +1,13 @@
  arith1:abs,13,Q120812
  arith1:divide,251,Q1226939
  arith1:gcd,1,Q131752
- arith1:minus,188,Q
- arith1:plus,187,Q
- arith1:power,355,Q
- arith1:root,23,Q
- arith1:sum,24,Q
- arith1:times,494,Q
- arith1:unary_minus,82,Q
+ arith1:minus,188,Q40754
+ arith1:plus,187,Q32043
+ arith1:power,355,Q33456
+ arith1:root,23,Q601053
+ arith1:sum,24,Q218005
+ arith1:times,494,Q40276
+ arith1:unary_minus,82,Q715358
  calculus1:diff,11,Q
  fns1:lambda,3,Q
  fns1:left_compose,2,Q
