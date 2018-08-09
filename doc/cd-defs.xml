@@ -1,0 +1,3351 @@
+<CD xmlns="http://www.openmath.org/OpenMathCD">
+    <CDComment>
+
+        This document is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+        The copyright holder grants you permission to redistribute this
+        document freely as a verbatim copy. Furthermore, the copyright
+        holder permits you to develop any derived work from this document
+        provided that the following conditions are met.
+        a) The derived work acknowledges the fact that it is derived from
+        this document, and maintains a prominent reference in the
+        work to the original source.
+        b) The fact that the derived work is not the original OpenMath
+        document is stated prominently in the derived work. Moreover if
+        both this document and the derived work are Content Dictionaries
+        then the derived work must include a different CDName element,
+        chosen so that it cannot be confused with any works adopted by
+        the OpenMath Society. In particular, if there is a Content
+        Dictionary Group whose name is, for example, `math' containing
+        Content Dictionaries named `math1', `math2' etc., then you should
+        not name a derived Content Dictionary `mathN' where N is an integer.
+        However you are free to name it `private_mathN' or some such. This
+        is because the names `mathN' may be used by the OpenMath Society
+        for future extensions.
+        c) The derived work is distributed under terms that allow the
+        compilation of derived works, but keep paragraphs a) and b)
+        intact. The simplest way to do this is to distribute the derived
+        work under the OpenMath license, but this is not a requirement.
+        If you have questions about this license please contact the OpenMath
+        society at http://www.openmath.org.
+    </CDComment>
+
+    <CDName>wikidata</CDName>
+    <CDBase>https://cd.formulasearchengine.com/v0.0/</CDBase>
+    <CDURL>https://cd.formulasearchengine.com/v0.0/wikidata.ocd</CDURL>
+    <CDReviewDate>2019-08-10</CDReviewDate>
+    <CDStatus>experimental</CDStatus>
+    <CDDate>2018-08-09</CDDate>
+    <CDVersion>0</CDVersion>
+    <CDRevision>0</CDRevision>
+
+    <Description>
+        This CD defines symbols used in the MathMLBen project. https://mathmlben.wmflabs.org
+    </Description>
+    <CDDefinition>
+        <Name>Q204</Name>
+        <Role>application</Role>
+        <Description>
+            0
+            integer number
+            https://en.wikipedia.org/w/index.php?title=0
+            See also limit1:null
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722617941
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q12813935</Name>
+        <Role>application</Role>
+        <Description>
+            Compact
+            Romanian band
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=680719495
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q210857</Name>
+        <Role>application</Role>
+        <Description>
+            Convolution
+            https://en.wikipedia.org/w/index.php?title=Convolution
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=675473531
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2283172</Name>
+        <Role>application</Role>
+        <Description>
+            Four-acceleration
+            https://en.wikipedia.org/w/index.php?title=Four-acceleration
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=486954414
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q45315798</Name>
+        <Role>application</Role>
+        <Description>
+            Lapse Function
+            Measures the proper time increment between three-dimensional slices of space-time
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=607652272
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5513324</Name>
+        <Role>application</Role>
+        <Description>
+            GF(2)
+            Galois field of two elements
+            https://en.wikipedia.org/w/index.php?title=GF%282%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=596253593
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5597315</Name>
+        <Role>application</Role>
+        <Description>
+            Graphlets
+            https://en.wikipedia.org/w/index.php?title=Graphlets
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=324628318
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q12218459</Name>
+        <Role>application</Role>
+        <Description>
+            Intensity
+            https://en.wikipedia.org/w/index.php?title=Intensity+%28heat+transfer%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=173429828
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q505735</Name>
+        <Role>application</Role>
+        <Description>
+            Lagrangian
+            https://en.wikipedia.org/w/index.php?title=Lagrangian+%28field+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623630189
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q628036</Name>
+        <Role>application</Role>
+        <Description>
+            NP
+            Computational complexity class of decision problems solvable by a non-deterministic Turing machine in
+            polynomial
+            time.
+            https://en.wikipedia.org/w/index.php?title=NP+%28complexity%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712053333
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q846354</Name>
+        <Role>application</Role>
+        <Description>
+            P
+            Computational complexity class of problems solvable by a deterministic Turing Machine in polynomial time.
+            https://en.wikipedia.org/w/index.php?title=P+%28complexity%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715762707
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q7315501</Name>
+        <Role>application</Role>
+        <Description>
+            Residual
+            https://en.wikipedia.org/w/index.php?title=Residual+%28entertainment+industry%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=12281280
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q135035</Name>
+        <Role>application</Role>
+        <Description>
+            Data Encryption Standard
+            block cipher / encryption algorithm
+            https://en.wikipedia.org/w/index.php?title=Data+Encryption+Standard
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=708870545
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2383161</Name>
+        <Role>application</Role>
+        <Description>
+            T-norm
+            https://en.wikipedia.org/w/index.php?title=T-norm
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=445729598
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q45412642</Name>
+        <Role>application</Role>
+        <Description>
+            ZF
+            Zermelo–Fraenkel set theory without the axiom of choice
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=608392823
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11376</Name>
+        <Role>application</Role>
+        <Description>
+            acceleration
+            rate at which the velocity of a body changes with time, and the direction in which that change is acting
+            https://en.wikipedia.org/w/index.php?title=Acceleration
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718448338
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q30006</Name>
+        <Role>application</Role>
+        <Description>
+            gravitational acceleration
+            acceleration on an object caused by gravity
+            https://en.wikipedia.org/w/index.php?title=Gravitational+acceleration
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=698309950
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q239224</Name>
+        <Role>application</Role>
+        <Description>
+            Einstein–Hilbert action
+            https://en.wikipedia.org/w/index.php?title=Einstein%E2%80%93Hilbert+action
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=544857411
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q846785</Name>
+        <Role>application</Role>
+        <Description>
+            action
+            attribute of a dynamic physical system
+            https://en.wikipedia.org/w/index.php?title=Action+%28physics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715773312
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q32043</Name>
+        <Role>application</Role>
+        <Description>
+            addition
+            arithmetic operation of adding (augend+addend=summand+summand=sum, total). (Add, Sum, Plus, Increase, Total)
+            https://en.wikipedia.org/w/index.php?title=Addition
+            See also arith1:plus
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720254931
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q190200</Name>
+        <Role>application</Role>
+        <Description>
+            altitude
+            height in relation to a certain reference point; (general) distance measurement, usually in the vertical or
+            "up"
+            direction, between a reference datum and a point or object. The reference datum also often varies according
+            to the
+            context
+            https://en.wikipedia.org/w/index.php?title=Altitude
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=717870669
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11352</Name>
+        <Role>application</Role>
+        <Description>
+            angle
+            figure formed by two rays; coordinate system in one-dimensional space or The amount of turn between two
+            straight
+            lines that have a common end point (the vertex).
+            https://en.wikipedia.org/w/index.php?title=Angle
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721968841
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2296486</Name>
+        <Role>application</Role>
+        <Description>
+            golden angle
+            https://en.wikipedia.org/w/index.php?title=Golden+angle
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=675767182
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q415829</Name>
+        <Role>application</Role>
+        <Description>
+            Phase angle
+            https://en.wikipedia.org/w/index.php?title=Phase+angle
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=614822496
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q27058</Name>
+        <Role>application</Role>
+        <Description>
+            approximation
+            anything that is similar but not exactly equal to something else; approached, inaccurate expression of any
+            data
+            https://en.wikipedia.org/w/index.php?title=Approximation
+            See also relation1:approx
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=696081197
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2257242</Name>
+        <Role>application</Role>
+        <Description>
+            arctangent
+            inverse of the tangent function
+            See also transc1:arctan
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623341085
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11500</Name>
+        <Role>application</Role>
+        <Description>
+            area
+            quantity that expresses the extent of a two-dimensional surface or shape, or planar lamina, in the plane
+            https://en.wikipedia.org/w/index.php?title=Area
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715631815
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q782566</Name>
+        <Role>application</Role>
+        <Description>
+            automorphism
+            isomorphism from a mathematical object to itself
+            https://en.wikipedia.org/w/index.php?title=Automorphism
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714357147
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q842755</Name>
+        <Role>application</Role>
+        <Description>
+            Peano axioms
+            axiomatic system
+            https://en.wikipedia.org/w/index.php?title=Peano+axioms
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=713800316
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q838611</Name>
+        <Role>application</Role>
+        <Description>
+            ball
+            in mathematics, space inside a sphere
+            https://en.wikipedia.org/w/index.php?title=Ball+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=707383755
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q189569</Name>
+        <Role>application</Role>
+        <Description>
+            basis
+            subset of a vector space, such that every vector is uniquely expressible as a linear combination over this
+            set of
+            vectors
+            https://en.wikipedia.org/w/index.php?title=Basis+%28linear+algebra%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722584799
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q6901742</Name>
+        <Role>application</Role>
+        <Description>
+            monomial basis
+            https://en.wikipedia.org/w/index.php?title=Monomial+basis
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=547135922
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q815018</Name>
+        <Role>application</Role>
+        <Description>
+            Bekenstein bound
+            Upper limit on Entropy in Physics
+            https://en.wikipedia.org/w/index.php?title=Bekenstein+bound
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714890183
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q844128</Name>
+        <Role>application</Role>
+        <Description>
+            canonical bundle
+            https://en.wikipedia.org/w/index.php?title=Canonical+bundle
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=649240619
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q866283</Name>
+        <Role>application</Role>
+        <Description>
+            carrying capacity
+            https://en.wikipedia.org/w/index.php?title=Carrying+capacity
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=702377163
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q16858953</Name>
+        <Role>application</Role>
+        <Description>
+            channel
+            broadcasting term; range of frequencies (or, equivalently, wavelengths)
+            https://en.wikipedia.org/w/index.php?title=Channel+%28broadcasting%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=707351798
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1111</Name>
+        <Role>application</Role>
+        <Description>
+            electric charge
+            physical property that quantifies an object's interaction with electric fields
+            https://en.wikipedia.org/w/index.php?title=Electric+charge
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721769442
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q179692</Name>
+        <Role>application</Role>
+        <Description>
+            axiom of choice
+            statement that the product of a collection of non-empty sets is non-empty
+            https://en.wikipedia.org/w/index.php?title=Axiom+of+choice
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718887818
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1096149</Name>
+        <Role>application</Role>
+        <Description>
+            classifier
+            https://en.wikipedia.org/w/index.php?title=Classifier+%28UML%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=580779250
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q188889</Name>
+        <Role>application</Role>
+        <Description>
+            code
+            system of rules to convert information (codification)
+            https://en.wikipedia.org/w/index.php?title=Code
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719155931
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1045966</Name>
+        <Role>application</Role>
+        <Description>
+            Central binomial coefficient
+            https://en.wikipedia.org/w/index.php?title=Central+binomial+coefficient
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=471887633
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q50700</Name>
+        <Role>application</Role>
+        <Description>
+            coefficient
+            number just before a variable
+            https://en.wikipedia.org/w/index.php?title=Coefficient
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722427080
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q27628</Name>
+        <Role>application</Role>
+        <Description>
+            linear combination
+            expression constructed from a set of terms by multiplying each term by a constant and adding the results
+            (e.g. a
+            linear combination of x and y would be any expression of the form ax + by, where a and b are constants)
+            https://en.wikipedia.org/w/index.php?title=Linear+combination
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=696493852
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2989763</Name>
+        <Role>application</Role>
+        <Description>
+            commutator
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=704783355
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1310239</Name>
+        <Role>application</Role>
+        <Description>
+            component
+            smaller, self-contained part of a component entity (entity consisting of components)
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722050606
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q244761</Name>
+        <Role>application</Role>
+        <Description>
+            function composition
+            binary operation in mathematics
+            https://en.wikipedia.org/w/index.php?title=Function+composition
+            See also fns1:left_compose
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722620896
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3686031</Name>
+        <Role>application</Role>
+        <Description>
+            concentration
+            type of physical property; the abundance of a constituent divided by the total volume of a mixture
+            https://en.wikipedia.org/w/index.php?title=Concentration
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720581284
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q191081</Name>
+        <Role>application</Role>
+        <Description>
+            logical conjunction
+            https://en.wikipedia.org/w/index.php?title=Logical+conjunction
+            See also logic1:and
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722146514
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1319773</Name>
+        <Role>application</Role>
+        <Description>
+            consistency
+            https://en.wikipedia.org/w/index.php?title=Consistency
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=695509016
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q18373</Name>
+        <Role>application</Role>
+        <Description>
+            gravitational constant
+            empirical physical constant
+            https://en.wikipedia.org/w/index.php?title=Gravitational+constant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=717291299
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q186509</Name>
+        <Role>application</Role>
+        <Description>
+            mathematical constant
+            special, usually real number, that is interesting or significant in some way
+            https://en.wikipedia.org/w/index.php?title=Mathematical+constant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=683346201
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q188248</Name>
+        <Role>application</Role>
+        <Description>
+            constant
+            https://en.wikipedia.org/w/index.php?title=Constant+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=691714181
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2095069</Name>
+        <Role>application</Role>
+        <Description>
+            normalizing constant
+            https://en.wikipedia.org/w/index.php?title=Normalizing+constant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=692832478
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q273023</Name>
+        <Role>application</Role>
+        <Description>
+            Euler–Mascheroni constant
+            limiting difference between the harmonic series and the natural logarithm
+            https://en.wikipedia.org/w/index.php?title=Euler%E2%80%93Mascheroni+constant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=696275512
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q625641</Name>
+        <Role>application</Role>
+        <Description>
+            lattice constant
+            https://en.wikipedia.org/w/index.php?title=Lattice+constant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718907175
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q658700</Name>
+        <Role>application</Role>
+        <Description>
+            reaction rate constant
+            quantifies the rate of a chemical reaction
+            https://en.wikipedia.org/w/index.php?title=Reaction+rate+constant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718502649
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5645295</Name>
+        <Role>application</Role>
+        <Description>
+            Hamiltonian constraint
+            https://en.wikipedia.org/w/index.php?title=Hamiltonian+constraint
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=8433806
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1151112</Name>
+        <Role>application</Role>
+        <Description>
+            Axiom of constructibility
+            https://en.wikipedia.org/w/index.php?title=Axiom+of+constructibility
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=583029473
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q22952648</Name>
+        <Role>application</Role>
+        <Description>
+            cardinality of the continuum
+            https://en.wikipedia.org/w/index.php?title=Cardinality+of+the+continuum
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=668095126
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5165685</Name>
+        <Role>application</Role>
+        <Description>
+            contraction
+            operator theory
+            https://en.wikipedia.org/w/index.php?title=Contraction+%28operator+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=341961885
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q186290</Name>
+        <Role>application</Role>
+        <Description>
+            correlation
+            concept
+            https://en.wikipedia.org/w/index.php?title=Correlation+and+dependence
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=705364848
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1253682</Name>
+        <Role>application</Role>
+        <Description>
+            hyperbolic cosine
+            hyperbolic function
+            See also transc1:cosh
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=622522949
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1256164</Name>
+        <Role>application</Role>
+        <Description>
+            cosine
+            trigonometric function; ratio between the lengths of the adjacent side and the hypotenuse in a right
+            triangle
+            See also transc1:cos
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=679497220
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q245595</Name>
+        <Role>application</Role>
+        <Description>
+            cycle
+            in graph theory, path of edges and vertices wherein a vertex is reachable from itself
+            https://en.wikipedia.org/w/index.php?title=Cycle+%28graph+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=701312891
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q28390</Name>
+        <Role>application</Role>
+        <Description>
+            degree
+            angle unit
+            https://en.wikipedia.org/w/index.php?title=Degree+%28angle%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719402212
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q29539</Name>
+        <Role>application</Role>
+        <Description>
+            density
+            mass per unit volume
+            https://en.wikipedia.org/w/index.php?title=Density
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=703476998
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q29175</Name>
+        <Role>application</Role>
+        <Description>
+            derivative
+            operation in calculus
+            https://en.wikipedia.org/w/index.php?title=Derivative
+            See also calculus1:diff
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=697872700
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q178546</Name>
+        <Role>application</Role>
+        <Description>
+            determinant
+            for a n-sized square matrix A in a field K, omitting the sign, it is the sum of all possible products of n
+            elements
+            located in both different rows and columns
+            https://en.wikipedia.org/w/index.php?title=Determinant
+            See also linalg1:determinant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722589736
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q159375</Name>
+        <Role>application</Role>
+        <Description>
+            standard deviation
+            dispersion of the values ​​of a random variable around its expected value
+            https://en.wikipedia.org/w/index.php?title=Standard+deviation
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720218133
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2656762</Name>
+        <Role>application</Role>
+        <Description>
+            difference
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=695793203
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q4440864</Name>
+        <Role>application</Role>
+        <Description>
+            dimension
+            minimum number of independent coordinates needed to specify any point within a mathematical space
+            https://en.wikipedia.org/w/index.php?title=Dimension
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719956599
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q929302</Name>
+        <Role>application</Role>
+        <Description>
+            dimension
+            number of vectors in a basis of the vector space; dimension of a vector space V is the cardinality (i.e. the
+            number
+            of vectors) of a basis of V over its base field
+            https://en.wikipedia.org/w/index.php?title=Dimension+%28vector+space%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722579345
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2151613</Name>
+        <Role>application</Role>
+        <Description>
+            direction
+            information contained in the relative position of one point with respect to another point without the
+            distance
+            information
+            https://en.wikipedia.org/w/index.php?title=Direction+%28geometry%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=674865424
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q126017</Name>
+        <Role>application</Role>
+        <Description>
+            distance
+            straight line that connects two points
+            https://en.wikipedia.org/w/index.php?title=Distance
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720559085
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q200726</Name>
+        <Role>application</Role>
+        <Description>
+            probability distribution
+            mathematical function that describes the probability of occurrence of different possible outcomes in an
+            experiment
+            https://en.wikipedia.org/w/index.php?title=Probability+distribution
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711328495
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5384487</Name>
+        <Role>application</Role>
+        <Description>
+            Equilibrium mode distribution
+            https://en.wikipedia.org/w/index.php?title=Equilibrium+mode+distribution
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=7792609
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1226939</Name>
+        <Role>application</Role>
+        <Description>
+            division
+            arithmetic operation; one of the four basic operations of arithmetic (others being addition, subtraction,
+            multiplication).The division of two natural numbers is the process of calculating the number of times one
+            number is
+            contained within one another
+            https://en.wikipedia.org/w/index.php?title=Division+%28mathematics%29
+            See also arith1:divide
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718131147
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q131752</Name>
+        <Role>application</Role>
+        <Description>
+            greatest common divisor
+            https://en.wikipedia.org/w/index.php?title=Greatest+common+divisor
+            See also arith1:gcd
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=698253132
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q82435</Name>
+        <Role>application</Role>
+        <Description>
+            e
+            mathematical constant
+            https://en.wikipedia.org/w/index.php?title=E+%28mathematical+constant%29
+            See also nums1:e
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718560972
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q192704</Name>
+        <Role>application</Role>
+        <Description>
+            energy efficiency
+            ratio between the useful output of an energy conversion machine and the input
+            https://en.wikipedia.org/w/index.php?title=Energy+conversion+efficiency
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=683785109
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q21406831</Name>
+        <Role>application</Role>
+        <Description>
+            eigenvalue
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=688308641
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q40231</Name>
+        <Role>application</Role>
+        <Description>
+            election
+            process by which a population chooses an individual to hold public office
+            https://en.wikipedia.org/w/index.php?title=Election
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712634001
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2327764</Name>
+        <Role>application</Role>
+        <Description>
+            Volume element
+            https://en.wikipedia.org/w/index.php?title=Volume+element
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=457021776
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q25203552</Name>
+        <Role>application</Role>
+        <Description>
+            Matrix element
+            https://en.wikipedia.org/w/index.php?title=Matrix+element+%28physics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=698223422
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q379825</Name>
+        <Role>application</Role>
+        <Description>
+            element
+            any one of the distinct objects that make up a set in set theory
+            https://en.wikipedia.org/w/index.php?title=Element+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720369667
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11379</Name>
+        <Role>application</Role>
+        <Description>
+            energy
+            quantitative physical property transferred to objects to perform heating or work on them
+            https://en.wikipedia.org/w/index.php?title=Energy
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719881489
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q155640</Name>
+        <Role>application</Role>
+        <Description>
+            potential energy
+            form of energy
+            https://en.wikipedia.org/w/index.php?title=Potential+energy
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=698215217
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2140940</Name>
+        <Role>application</Role>
+        <Description>
+            Rotational energy
+            https://en.wikipedia.org/w/index.php?title=Rotational+energy
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=694241251
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q45404197</Name>
+        <Role>application</Role>
+        <Description>
+            Bekenstein-Hawking energy
+            the energy required to form a black hole with the size of the entire universe
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722900725
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q46276</Name>
+        <Role>application</Role>
+        <Description>
+            kinetic energy
+            energy possessed by an object by virtue of its motion
+            https://en.wikipedia.org/w/index.php?title=Kinetic+energy
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=706927431
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3055341</Name>
+        <Role>application</Role>
+        <Description>
+            Bekenstein-Hawking entropy
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=642359229
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q842346</Name>
+        <Role>application</Role>
+        <Description>
+            equality
+            mathematical relationship asserting that two quantities have the same value
+            https://en.wikipedia.org/w/index.php?title=Equality+%28mathematics%29
+            See also relation1:eq
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720290486
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q10290214</Name>
+        <Role>application</Role>
+        <Description>
+            event
+            in statistics, set of outcomes to which a probability is assigned
+            https://en.wikipedia.org/w/index.php?title=Event+%28probability+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=701820146
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q752726</Name>
+        <Role>application</Role>
+        <Description>
+            asymptotic expansion
+            https://en.wikipedia.org/w/index.php?title=Asymptotic+expansion
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=693203466
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q33456</Name>
+        <Role>application</Role>
+        <Description>
+            exponentiation
+            mathematical operation
+            https://en.wikipedia.org/w/index.php?title=Exponentiation
+            See also arith1:power
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722886958
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q6481163</Name>
+        <Role>application</Role>
+        <Description>
+            Lambda expression
+            Wikipedia disambiguation page
+            https://en.wikipedia.org/w/index.php?title=Lambda+expression
+            See also fns1:lambda
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=597581480
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q120976</Name>
+        <Role>application</Role>
+        <Description>
+            factorial
+            product of all integers between 1 and the integral input of the function
+            https://en.wikipedia.org/w/index.php?title=Factorial
+            See also integer1:factorial
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712050982
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11408</Name>
+        <Role>application</Role>
+        <Description>
+            magnetic field
+            spatial distribution of vectors allowing the calculation of the magnetic force on a test particle
+            https://en.wikipedia.org/w/index.php?title=Magnetic+field
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721823269
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1758924</Name>
+        <Role>application</Role>
+        <Description>
+            tensor field
+            https://en.wikipedia.org/w/index.php?title=Tensor+field
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=669026759
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q190109</Name>
+        <Role>application</Role>
+        <Description>
+            field
+            algebraic structure
+            https://en.wikipedia.org/w/index.php?title=Field+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722593966
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q46221</Name>
+        <Role>application</Role>
+        <Description>
+            electric field
+            spatial distribution of vectors representing the force applied to a charged test particle
+            https://en.wikipedia.org/w/index.php?title=Electric+field
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=706907762
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q603880</Name>
+        <Role>application</Role>
+        <Description>
+            finite field
+            field that contains a finite number of elements.
+            https://en.wikipedia.org/w/index.php?title=Finite+field
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720792369
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11402</Name>
+        <Role>application</Role>
+        <Description>
+            force
+            influence that causes an object to change motion
+            https://en.wikipedia.org/w/index.php?title=Force
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=710257764
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1759756</Name>
+        <Role>application</Role>
+        <Description>
+            body force
+            force that acts throughout the volume of a body
+            https://en.wikipedia.org/w/index.php?title=Body+force
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=704169703
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q844610</Name>
+        <Role>application</Role>
+        <Description>
+            four-vector
+            https://en.wikipedia.org/w/index.php?title=Four-vector
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714585848
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q274502</Name>
+        <Role>application</Role>
+        <Description>
+            degree of freedom
+            independent physical parameter in the formal description of the state of a physical system
+            https://en.wikipedia.org/w/index.php?title=Degrees+of+freedom+%28physics+and+chemistry%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=660699038
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11652</Name>
+        <Role>application</Role>
+        <Description>
+            frequency
+            number of occurrences per unit time
+            https://en.wikipedia.org/w/index.php?title=Frequency
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=717106301
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2568075</Name>
+        <Role>application</Role>
+        <Description>
+            Coriolis frequency
+            equal to twice the rotation rate Ω of the Earth multiplied by the sine of the latitude φ
+            https://en.wikipedia.org/w/index.php?title=Coriolis+frequency
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=411883721
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q946764</Name>
+        <Role>application</Role>
+        <Description>
+            Natural frequency
+            https://en.wikipedia.org/w/index.php?title=Natural+frequency
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=707342457
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q82580</Name>
+        <Role>application</Role>
+        <Description>
+            friction
+            force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against
+            each other
+            https://en.wikipedia.org/w/index.php?title=Friction
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721771330
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1052379</Name>
+        <Role>application</Role>
+        <Description>
+            logistic function
+            https://en.wikipedia.org/w/index.php?title=Logistic+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=648452086
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11348</Name>
+        <Role>application</Role>
+        <Description>
+            function
+            mathematical binary relation, which is left-total and right-unique
+            https://en.wikipedia.org/w/index.php?title=Function+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=709322583
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1318586</Name>
+        <Role>application</Role>
+        <Description>
+            locally integrable function
+            https://en.wikipedia.org/w/index.php?title=Locally+integrable+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623544716
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q190573</Name>
+        <Role>application</Role>
+        <Description>
+            gamma function
+            extension of the factorial function, with its argument shifted down by 1, to real and complex numbers
+            https://en.wikipedia.org/w/index.php?title=Gamma+function
+            See also hypergeo0:gamma
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=713254799
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q207522</Name>
+        <Role>application</Role>
+        <Description>
+            probability density function
+            https://en.wikipedia.org/w/index.php?title=Probability+density+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=687653283
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q21028472</Name>
+        <Role>application</Role>
+        <Description>
+            hypergeometric function
+            https://en.wikipedia.org/w/index.php?title=Hypergeometric+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=687788006
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2362761</Name>
+        <Role>application</Role>
+        <Description>
+            wave function
+            mathematical description of the quantum state of a system; complex-valued probability amplitude, and the
+            probabilities for the possible results of measurements made on the system can be derived from it
+            https://en.wikipedia.org/w/index.php?title=Wave+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=702440496
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q236813</Name>
+        <Role>application</Role>
+        <Description>
+            sign function
+            mathematical function that extracts the sign of a real number
+            https://en.wikipedia.org/w/index.php?title=Sign+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=616744391
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2472662</Name>
+        <Role>application</Role>
+        <Description>
+            distribution function
+            function of seven variables which gives the number of particles per unit volume in single-particle phase
+            space
+            https://en.wikipedia.org/w/index.php?title=Distribution+function+%28physics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=710292494
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3127537</Name>
+        <Role>application</Role>
+        <Description>
+            Lamé function
+            https://en.wikipedia.org/w/index.php?title=Lam%C3%A9+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=670429494
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q319913</Name>
+        <Role>application</Role>
+        <Description>
+            convex function
+            https://en.wikipedia.org/w/index.php?title=Convex+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=699707146
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q334269</Name>
+        <Role>application</Role>
+        <Description>
+            transfer function
+            function specifying the behavior of a component in an electronic or control system
+            https://en.wikipedia.org/w/index.php?title=Transfer+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=701314049
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q47306354</Name>
+        <Role>application</Role>
+        <Description>
+            natural exponential function
+            unique function which is its own derivative and equals one at zero
+            See also transc1:exp
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=694958500
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5156533</Name>
+        <Role>application</Role>
+        <Description>
+            Completely multiplicative function
+            https://en.wikipedia.org/w/index.php?title=Completely+multiplicative+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=649369432
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q674533</Name>
+        <Role>application</Role>
+        <Description>
+            inverse trigonometric function
+            inverse function of the trigonometric function
+            https://en.wikipedia.org/w/index.php?title=Inverse+trigonometric+functions
+            See also transc1:arccos
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720653540
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q783507</Name>
+        <Role>application</Role>
+        <Description>
+            differentiable function
+            function whose derivative exists at each point in its domain
+            https://en.wikipedia.org/w/index.php?title=Differentiable+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714371851
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q905326</Name>
+        <Role>application</Role>
+        <Description>
+            digamma function
+            https://en.wikipedia.org/w/index.php?title=Digamma+function
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=668271314
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q215193</Name>
+        <Role>application</Role>
+        <Description>
+            floor and ceiling functions
+            functions of a real returning respectively the largest smaller and the smallest larger integer
+            https://en.wikipedia.org/w/index.php?title=Floor+and+ceiling+functions
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721940316
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1074380</Name>
+        <Role>application</Role>
+        <Description>
+            stochastic game
+            https://en.wikipedia.org/w/index.php?title=Stochastic+game
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=515435419
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1500617</Name>
+        <Role>application</Role>
+        <Description>
+            unitary group
+            https://en.wikipedia.org/w/index.php?title=Unitary+group
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=615087734
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q16874656</Name>
+        <Role>application</Role>
+        <Description>
+            Projective group
+            Wikimedia disambiguation page
+            https://en.wikipedia.org/w/index.php?title=Projective+group+%28disambiguation%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=603393978
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q83478</Name>
+        <Role>application</Role>
+        <Description>
+            group
+            set with an invertible, associative internal operation admitting a neutral element
+            https://en.wikipedia.org/w/index.php?title=Group+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722526764
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3258885</Name>
+        <Role>application</Role>
+        <Description>
+            Upper half-plane
+            https://en.wikipedia.org/w/index.php?title=Upper+half-plane
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=554175960
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q44432</Name>
+        <Role>application</Role>
+        <Description>
+            heat
+            energy transfer process, or its amount (and direction), that is associated with a temperature difference
+            https://en.wikipedia.org/w/index.php?title=Heat
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=703275368
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1194002</Name>
+        <Role>application</Role>
+        <Description>
+            hypercharge
+            https://en.wikipedia.org/w/index.php?title=Hypercharge
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=644192980
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q45412229</Name>
+        <Role>application</Role>
+        <Description>
+            Generalized continuum hypothesis
+            Generalization of the continuum hypothesis
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=608387990
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q44649</Name>
+        <Role>application</Role>
+        <Description>
+            ideal
+            additive subgroup of a ring closed under multiplcation by arbitrary ring element
+            https://en.wikipedia.org/w/index.php?title=Ideal+%28ring+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722539442
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3150667</Name>
+        <Role>application</Role>
+        <Description>
+            indeterminate
+            variable that is not known or solvable
+            https://en.wikipedia.org/w/index.php?title=Indeterminate+%28variable%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=685490735
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q174102</Name>
+        <Role>application</Role>
+        <Description>
+            refractive index
+            optical characteristic of a material
+            https://en.wikipedia.org/w/index.php?title=Refractive+index
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=709211227
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2303886</Name>
+        <Role>application</Role>
+        <Description>
+            index
+            the numbering of various objects within the mathematical notation
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=624586619
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q205</Name>
+        <Role>application</Role>
+        <Description>
+            infinity
+            mathematical concept of something without any limit
+            https://en.wikipedia.org/w/index.php?title=Infinity
+            See also nums1:infinity
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721995123
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q12503</Name>
+        <Role>application</Role>
+        <Description>
+            integer
+            number that can be written without a fractional or decimal component
+            https://en.wikipedia.org/w/index.php?title=Integer
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718664348
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q28920044</Name>
+        <Role>application</Role>
+        <Description>
+            positive integer
+            integer greater than zero; natural number explicitly excluding zero
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721560636
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q28920052</Name>
+        <Role>application</Role>
+        <Description>
+            non-negative integer
+            integer greater than or equal to zero; natural number explicitly including zero
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721560412
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q853831</Name>
+        <Role>application</Role>
+        <Description>
+            Lebesgue integration
+            https://en.wikipedia.org/w/index.php?title=Lebesgue+integration
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=693985994
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q185837</Name>
+        <Role>application</Role>
+        <Description>
+            intersection
+            concept in mathematics specific to the field of set theory
+            https://en.wikipedia.org/w/index.php?title=Intersection+%28set+theory%29
+            See also set1:intersect
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=683298482
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2914509</Name>
+        <Role>application</Role>
+        <Description>
+            kernel
+            term of linear algebra
+            https://en.wikipedia.org/w/index.php?title=Kernel+%28linear+algebra%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=697858347
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q34027</Name>
+        <Role>application</Role>
+        <Description>
+            latitude
+            the angle between zenith and a plane parallel to the equator
+            https://en.wikipedia.org/w/index.php?title=Latitude
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=701629405
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1096885</Name>
+        <Role>application</Role>
+        <Description>
+            lattice
+            subgroup of a real vector space or a Lie group
+            https://en.wikipedia.org/w/index.php?title=Lattice+%28group%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=704223535
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q207387</Name>
+        <Role>application</Role>
+        <Description>
+            Planck length
+            very small scale unit of length
+            https://en.wikipedia.org/w/index.php?title=Planck+length
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721798922
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q36253</Name>
+        <Role>application</Role>
+        <Description>
+            length
+            measured dimension of an object
+            https://en.wikipedia.org/w/index.php?title=Length
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712430305
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q669532</Name>
+        <Role>application</Role>
+        <Description>
+            energy level
+            https://en.wikipedia.org/w/index.php?title=Energy+level
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712558193
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2111</Name>
+        <Role>application</Role>
+        <Description>
+            speed of light
+            speed at which all massless particles and associated fields travel in vacuum
+            https://en.wikipedia.org/w/index.php?title=Speed+of+light
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=717106390
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q177239</Name>
+        <Role>application</Role>
+        <Description>
+            limit
+            value that a function or sequence "approaches" as the input or index approaches some value
+            https://en.wikipedia.org/w/index.php?title=Limit+%28mathematics%29
+            See also limit1:limit
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=690569201
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q12139612</Name>
+        <Role>application</Role>
+        <Description>
+            list
+            ordered listing of all items in a collection
+            See also list1:list
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=717289043
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q27948</Name>
+        <Role>application</Role>
+        <Description>
+            list
+            abstract data type used in computer science
+            https://en.wikipedia.org/w/index.php?title=List+%28abstract+data+type%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715639077
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q17334923</Name>
+        <Role>application</Role>
+        <Description>
+            location
+            location of physical or non-physical object in space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=680484434
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11197</Name>
+        <Role>application</Role>
+        <Description>
+            logarithm
+            family of functions for which the image of a product is the sum of the images
+            https://en.wikipedia.org/w/index.php?title=Logarithm
+            See also transc1:log
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=703678855
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q204037</Name>
+        <Role>application</Role>
+        <Description>
+            natural logarithm
+            mathematical function
+            https://en.wikipedia.org/w/index.php?title=Natural+logarithm
+            See also transc1:ln
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722987495
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q966582</Name>
+        <Role>application</Role>
+        <Description>
+            common logarithm
+            mathematical function
+            https://en.wikipedia.org/w/index.php?title=Common+logarithm
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=690017379
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1086961</Name>
+        <Role>application</Role>
+        <Description>
+            bilinear map
+            https://en.wikipedia.org/w/index.php?title=Bilinear+map
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623797237
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1663694</Name>
+        <Role>application</Role>
+        <Description>
+            inclusion map
+            https://en.wikipedia.org/w/index.php?title=Inclusion+map
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=701819950
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1952404</Name>
+        <Role>application</Role>
+        <Description>
+            multilinear map
+            https://en.wikipedia.org/w/index.php?title=Multilinear+map
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=683907884
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2858846</Name>
+        <Role>application</Role>
+        <Description>
+            Transpose of a linear map
+            https://en.wikipedia.org/w/index.php?title=Transpose+of+a+linear+map
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=442539299
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q370502</Name>
+        <Role>application</Role>
+        <Description>
+            map
+            different related mathematical concepts
+            https://en.wikipedia.org/w/index.php?title=Map+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=703127869
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11423</Name>
+        <Role>application</Role>
+        <Description>
+            mass
+            measure of the resistance of a physical body to acceleration; also determines the strength of its
+            gravitational
+            attraction
+            https://en.wikipedia.org/w/index.php?title=Mass
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=708508571
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1008943</Name>
+        <Role>application</Role>
+        <Description>
+            Gell-Mann matrices
+            https://en.wikipedia.org/w/index.php?title=Gell-Mann+matrices
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=701322013
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1151645</Name>
+        <Role>application</Role>
+        <Description>
+            Gamma matrices
+            matrix representation of a Clifford algebra
+            https://en.wikipedia.org/w/index.php?title=Gamma+matrices
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=594914294
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1134404</Name>
+        <Role>application</Role>
+        <Description>
+            covariance matrix
+            https://en.wikipedia.org/w/index.php?title=Covariance+matrix
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=692840776
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q332791</Name>
+        <Role>application</Role>
+        <Description>
+            diagonal matrix
+            https://en.wikipedia.org/w/index.php?title=Diagonal+matrix
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722590953
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q44337</Name>
+        <Role>application</Role>
+        <Description>
+            matrix
+            rectangular array of numbers, symbols, or expressions, arranged in rows and columns
+            https://en.wikipedia.org/w/index.php?title=Matrix+%28mathematics%29
+            See also linalg2:matrix
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722701869
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q506041</Name>
+        <Role>application</Role>
+        <Description>
+            Jacobian matrix
+            the matrix of all first-order partial derivatives of a vector-valued function
+            https://en.wikipedia.org/w/index.php?title=Jacobian+matrix+and+determinant
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=710027460
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q19033</Name>
+        <Role>application</Role>
+        <Description>
+            arithmetic mean
+            sum of a collection of numbers divided by the number of numbers in the collection
+            https://en.wikipedia.org/w/index.php?title=Arithmetic+mean
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712024523
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2796622</Name>
+        <Role>application</Role>
+        <Description>
+            mean
+            general term for the several definitions of mean value,the sum divided by the count
+            https://en.wikipedia.org/w/index.php?title=Mean
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715408588
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q476167</Name>
+        <Role>application</Role>
+        <Description>
+            Arithmetic–geometric mean
+            https://en.wikipedia.org/w/index.php?title=Arithmetic%E2%80%93geometric+mean
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=665324316
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q729113</Name>
+        <Role>application</Role>
+        <Description>
+            weighted mean
+            https://en.wikipedia.org/w/index.php?title=Weighted+arithmetic+mean
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711355412
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1591095</Name>
+        <Role>application</Role>
+        <Description>
+            Hausdorff measure
+            https://en.wikipedia.org/w/index.php?title=Hausdorff+measure
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=639074928
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q192276</Name>
+        <Role>application</Role>
+        <Description>
+            measure
+            mathematical concept in measure theory
+            https://en.wikipedia.org/w/index.php?title=Measure+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720119160
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q230963</Name>
+        <Role>application</Role>
+        <Description>
+            Partition function (statistical mechanics)
+            https://en.wikipedia.org/w/index.php?title=Partition+function+%28statistical+mechanics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=641573370
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q486902</Name>
+        <Role>application</Role>
+        <Description>
+            mathematical model
+            description of a system using mathematical concepts and language
+            https://en.wikipedia.org/w/index.php?title=Mathematical+model
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=677705672
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q18848</Name>
+        <Role>application</Role>
+        <Description>
+            module
+            abelian group acted upon linearly by a ring
+            https://en.wikipedia.org/w/index.php?title=Module+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=682367111
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q41273</Name>
+        <Role>application</Role>
+        <Description>
+            momentum
+            conserved physical quantity related to the motion of a body
+            https://en.wikipedia.org/w/index.php?title=Momentum
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=708847138
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1948412</Name>
+        <Role>application</Role>
+        <Description>
+            morphism
+            morphism refers to a structure-preserving map from one mathematical structure to another
+            https://en.wikipedia.org/w/index.php?title=Morphism
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721580292
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q40276</Name>
+        <Role>application</Role>
+        <Description>
+            multiplication
+            mathematical operation and Multiply, Product, By, Times, Lots Of
+            https://en.wikipedia.org/w/index.php?title=Multiplication
+            See also arith1:times
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715276545
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2377336</Name>
+        <Role>application</Role>
+        <Description>
+            multivector
+            https://en.wikipedia.org/w/index.php?title=Multivector
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720433786
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q190558</Name>
+        <Role>application</Role>
+        <Description>
+            logical negation
+            operation that takes a proposition p to another proposition "not p", written ¬p, which is interpreted
+            intuitively as
+            being true when p is false, and false when p is true; unary (single-argument) logical connective
+            https://en.wikipedia.org/w/index.php?title=Negation
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711033243
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1445491</Name>
+        <Role>application</Role>
+        <Description>
+            aleph null
+            cardinality of the set of all natural numbers
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719909912
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11563</Name>
+        <Role>application</Role>
+        <Description>
+            number
+            mathematical object used to count, label, and measure
+            https://en.wikipedia.org/w/index.php?title=Number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718997543
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11567</Name>
+        <Role>application</Role>
+        <Description>
+            complex number
+            number that can be put in the form a + bi, where a and b are real numbers and i is called the imaginary unit
+            https://en.wikipedia.org/w/index.php?title=Complex+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719931728
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1244890</Name>
+        <Role>application</Role>
+        <Description>
+            rational number
+            number that can be expressed as the quotient of two integers
+            https://en.wikipedia.org/w/index.php?title=Rational+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722594188
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q12916</Name>
+        <Role>application</Role>
+        <Description>
+            real number
+            quantity along a continuous line
+            https://en.wikipedia.org/w/index.php?title=Real+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722594611
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q13896108</Name>
+        <Role>application</Role>
+        <Description>
+            non-negative real number
+            real number greater than or equal to zero
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721559917
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1738991</Name>
+        <Role>application</Role>
+        <Description>
+            index number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=685519514
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q21199</Name>
+        <Role>application</Role>
+        <Description>
+            natural number
+            number in the set of natural numbers (to clarify whether zero is included or not, use Q28920044 or
+            Q28920052)
+            https://en.wikipedia.org/w/index.php?title=Natural+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720366992
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3176558</Name>
+        <Role>application</Role>
+        <Description>
+            positive real number
+            real number strictly greater than zero
+            https://en.wikipedia.org/w/index.php?title=Positive+real+numbers
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721559527
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3913</Name>
+        <Role>application</Role>
+        <Description>
+            binary number
+            system that represents numeric values using two symbols; 0 and 1
+            https://en.wikipedia.org/w/index.php?title=Binary+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722733668
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q47577</Name>
+        <Role>application</Role>
+        <Description>
+            Fibonacci number
+            integer in the infinite Fibonacci sequence
+            https://en.wikipedia.org/w/index.php?title=Fibonacci+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711545139
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q49008</Name>
+        <Role>application</Role>
+        <Description>
+            prime number
+            natural number greater than 1 that has no positive integer divisors other than 1 and itself
+            https://en.wikipedia.org/w/index.php?title=Prime+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721748348
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q6965520</Name>
+        <Role>application</Role>
+        <Description>
+            Narayana number
+            https://en.wikipedia.org/w/index.php?title=Narayana+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712843244
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q715358</Name>
+        <Role>application</Role>
+        <Description>
+            opposite number
+            https://en.wikipedia.org/w/index.php?title=Additive+inverse
+            See also arith1:unary_minus
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712509395
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q7913892</Name>
+        <Role>application</Role>
+        <Description>
+            Van der Waerden number
+            https://en.wikipedia.org/w/index.php?title=Van+der+Waerden+number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714489564
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q26851380</Name>
+        <Role>application</Role>
+        <Description>
+            set of real numbers
+            set of the real numbers
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721585881
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q28777634</Name>
+        <Role>application</Role>
+        <Description>
+            set of natural numbers
+            set of the numbers used for counting and ordering (to clarify whether zero is included or not, use Q47339953
+            or
+            Q47007719)
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=709203241
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q41792217</Name>
+        <Role>application</Role>
+        <Description>
+            number of objects
+            number
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715794295
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q845789</Name>
+        <Role>application</Role>
+        <Description>
+            observable
+            In physics, a dynamic variable that can be measured
+            https://en.wikipedia.org/w/index.php?title=Observable
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712529131
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2608202</Name>
+        <Role>application</Role>
+        <Description>
+            one-form
+            differential form of degree one; section of cotangent bundle
+            https://en.wikipedia.org/w/index.php?title=One-form
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=624585472
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q10564851</Name>
+        <Role>application</Role>
+        <Description>
+            closure operator
+            https://en.wikipedia.org/w/index.php?title=Closure+operator
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=679601707
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1091024</Name>
+        <Role>application</Role>
+        <Description>
+            continuous linear operator
+            https://en.wikipedia.org/w/index.php?title=Continuous+linear+operator
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623352407
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q131030</Name>
+        <Role>application</Role>
+        <Description>
+            operator
+            mapping from one vector space or module to another in mathematics
+            https://en.wikipedia.org/w/index.php?title=Operator+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712180026
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1972470</Name>
+        <Role>application</Role>
+        <Description>
+            unitary operator
+            surjective bounded operator on a Hilbert space preserving the inner product
+            https://en.wikipedia.org/w/index.php?title=Unitary+operator
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623783930
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q660488</Name>
+        <Role>application</Role>
+        <Description>
+            Hamiltonian operator
+            quantum operator for the energy
+            https://en.wikipedia.org/w/index.php?title=Hamiltonian+%28quantum+mechanics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712350641
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q4848398</Name>
+        <Role>application</Role>
+        <Description>
+            Bailey pair
+            https://en.wikipedia.org/w/index.php?title=Bailey+pair
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=6856624
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1413083</Name>
+        <Role>application</Role>
+        <Description>
+            parameter
+            measurable characteristic
+            https://en.wikipedia.org/w/index.php?title=Parameter
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715944191
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q141160</Name>
+        <Role>application</Role>
+        <Description>
+            parity
+            flip in the sign of one spatial coordinate
+            https://en.wikipedia.org/w/index.php?title=Parity+%28physics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=694102438
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1341545</Name>
+        <Role>application</Role>
+        <Description>
+            Imaginary part
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=622525546
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1082910</Name>
+        <Role>application</Role>
+        <Description>
+            partition
+            multiset of integers whose sum is a given integer
+            https://en.wikipedia.org/w/index.php?title=Partition+%28number+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720373347
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q30337841</Name>
+        <Role>application</Role>
+        <Description>
+            length of path
+            physical quantity
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=503369350
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2083958</Name>
+        <Role>application</Role>
+        <Description>
+            pattern
+            discernible regularity in the world or in a manmade design
+            https://en.wikipedia.org/w/index.php?title=Pattern
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=707667132
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q167</Name>
+        <Role>application</Role>
+        <Description>
+            pi
+            ratio of the circumference of a circle to its diameter
+            https://en.wikipedia.org/w/index.php?title=Pi
+            See also nums1:pi
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721967882
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q111059</Name>
+        <Role>application</Role>
+        <Description>
+            critical point
+            critical point where phase boundaries disappear
+            https://en.wikipedia.org/w/index.php?title=Critical+point+%28thermodynamics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=719843418
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q44946</Name>
+        <Role>application</Role>
+        <Description>
+            point
+            fundamental object of Euclidean geometry
+            https://en.wikipedia.org/w/index.php?title=Point+%28geometry%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=706415584
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5227327</Name>
+        <Role>application</Role>
+        <Description>
+            Data point
+            https://en.wikipedia.org/w/index.php?title=Data+point
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=7540111
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q43260</Name>
+        <Role>application</Role>
+        <Description>
+            polynomial
+            mathematical expression consisting of variables and coefficients
+            https://en.wikipedia.org/w/index.php?title=Polynomial
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=704782958
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q5156597</Name>
+        <Role>application</Role>
+        <Description>
+            complex quadratic polynomial
+            https://en.wikipedia.org/w/index.php?title=Complex+quadratic+polynomial
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623344294
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1667469</Name>
+        <Role>application</Role>
+        <Description>
+            prime power
+            https://en.wikipedia.org/w/index.php?title=Prime+power
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=685765602
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1144319</Name>
+        <Role>application</Role>
+        <Description>
+            predicate
+            https://en.wikipedia.org/w/index.php?title=Predicate+%28mathematical+logic%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712748745
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q39552</Name>
+        <Role>application</Role>
+        <Description>
+            pressure
+            ratio of force applied over an area
+            https://en.wikipedia.org/w/index.php?title=Pressure
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=704218992
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q9492</Name>
+        <Role>application</Role>
+        <Description>
+            probability
+            measure of the expectation that an event will occur or a statement is true
+            https://en.wikipedia.org/w/index.php?title=Probability
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=717052098
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q176737</Name>
+        <Role>application</Role>
+        <Description>
+            stochastic process
+            mathematical object usually defined as a collection of random variables
+            https://en.wikipedia.org/w/index.php?title=Stochastic+process
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718402196
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q173817</Name>
+        <Role>application</Role>
+        <Description>
+            radius
+            segment in a circle or sphere (from its center to its perimeter or surface) and its length
+            https://en.wikipedia.org/w/index.php?title=Radius
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718338106
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q40548497</Name>
+        <Role>application</Role>
+        <Description>
+            range
+            part of an object that has numeric values
+            See also interval1:interval_oo
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=677827715
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q526719</Name>
+        <Role>application</Role>
+        <Description>
+            ranking
+            relationship between items in a set
+            https://en.wikipedia.org/w/index.php?title=Ranking
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722008387
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1128317</Name>
+        <Role>application</Role>
+        <Description>
+            tax rate
+            ratio (usually expressed as a percentage) at which a business or person is taxed
+            https://en.wikipedia.org/w/index.php?title=Tax+rate
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=645658872
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q4139973</Name>
+        <Role>application</Role>
+        <Description>
+            Growth rate
+            https://en.wikipedia.org/w/index.php?title=Growth+rate+%28group+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=372138951
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q130998</Name>
+        <Role>application</Role>
+        <Description>
+            equivalence relation
+            reflexive, symmetric and transitive relation
+            https://en.wikipedia.org/w/index.php?title=Equivalence+relation
+            See also logic1:equivalent
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722572725
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1139726</Name>
+        <Role>application</Role>
+        <Description>
+            Impulse response
+            https://en.wikipedia.org/w/index.php?title=Impulse+response
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=697993035
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q601053</Name>
+        <Role>application</Role>
+        <Description>
+            nth root
+            function
+            https://en.wikipedia.org/w/index.php?title=Nth+root
+            See also arith1:root
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711714521
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q47015456</Name>
+        <Role>application</Role>
+        <Description>
+            Kemeny–Young score
+            score calculated with Kemeny–Young method
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=616030140
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11703678</Name>
+        <Role>application</Role>
+        <Description>
+            section
+            right inverse of a fiber bundle map
+            https://en.wikipedia.org/w/index.php?title=Section+%28fiber+bundle%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=624584931
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q133250</Name>
+        <Role>application</Role>
+        <Description>
+            sequence
+            ordered list of elements; function with natural numbers as domain
+            https://en.wikipedia.org/w/index.php?title=Sequence
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721584001
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q36161</Name>
+        <Role>application</Role>
+        <Description>
+            set
+            fundamental mathematical concept related to the notions of belonging or inclusion
+            https://en.wikipedia.org/w/index.php?title=Set+%28mathematics%29
+            See also set1:set
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=688048323
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q474715</Name>
+        <Role>application</Role>
+        <Description>
+            partially ordered set
+            set ordered by a transitive, antisymmetric, and reflexive binary relation
+            https://en.wikipedia.org/w/index.php?title=Partially+ordered+set
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=708650673
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q739925</Name>
+        <Role>application</Role>
+        <Description>
+            family of sets
+            collection of some of the subsets of a set; collection of any sets whatsoever
+            https://en.wikipedia.org/w/index.php?title=Family+of+sets
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718802510
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q21778965</Name>
+        <Role>application</Role>
+        <Description>
+            not equals to sign
+            mathematical symbol
+            See also relation1:neq
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721574853
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1292101</Name>
+        <Role>application</Role>
+        <Description>
+            hyperbolic sine
+            hyperbolic function
+            See also transc1:sinh
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=627216619
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q152415</Name>
+        <Role>application</Role>
+        <Description>
+            sine
+            ratio between the lengths of the opposite side and the hypotenuse in a right triangle
+            https://en.wikipedia.org/w/index.php?title=Sine
+            See also transc1:sin
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711664504
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q27961522</Name>
+        <Role>application</Role>
+        <Description>
+            Population size
+            https://en.wikipedia.org/w/index.php?title=Population+size
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=704647101
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1369621</Name>
+        <Role>application</Role>
+        <Description>
+            Schwartz space
+            https://en.wikipedia.org/w/index.php?title=Schwartz+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=616395283
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q179899</Name>
+        <Role>application</Role>
+        <Description>
+            topological space
+            set of points and set of neighborhoods that satisfy axioms relating those points to those neighborhoods
+            https://en.wikipedia.org/w/index.php?title=Topological+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=682728638
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q190056</Name>
+        <Role>application</Role>
+        <Description>
+            Hilbert space
+            https://en.wikipedia.org/w/index.php?title=Hilbert+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722598342
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3058218</Name>
+        <Role>application</Role>
+        <Description>
+            measurable space
+            set equipped with a sigma-algebra
+            https://en.wikipedia.org/w/index.php?title=Measurable+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623834511
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q381892</Name>
+        <Role>application</Role>
+        <Description>
+            compact space
+            topological space in which from every open cover of the space, a finite cover can be extracted
+            https://en.wikipedia.org/w/index.php?title=Compact+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722510152
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q42796958</Name>
+        <Role>application</Role>
+        <Description>
+            continuous functions vector space
+            vector space consisting of continuous function between given topologies
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=614816502
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q7097841</Name>
+        <Role>application</Role>
+        <Description>
+            Operator space
+            https://en.wikipedia.org/w/index.php?title=Operator+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=11721989
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q934367</Name>
+        <Role>application</Role>
+        <Description>
+            function space
+            set of functions of a given kind from a set X to a set Y; it is called a space because in many applications
+            it is a
+            topological space (including metric spaces), a vector space, or both
+            https://en.wikipedia.org/w/index.php?title=Function+space
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=712125441
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1256787</Name>
+        <Role>application</Role>
+        <Description>
+            rotational speed
+            physical quantity
+            https://en.wikipedia.org/w/index.php?title=Rotational+speed
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=614938065
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q230883</Name>
+        <Role>application</Role>
+        <Description>
+            quantum state
+            state of an isolated quantum system, represented as an element of a projective Hilbert space
+            https://en.wikipedia.org/w/index.php?title=Quantum+state
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=693171101
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3505845</Name>
+        <Role>application</Role>
+        <Description>
+            state
+            abstract term that denotes the presence of stable values of a set of variables of an object
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714938745
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2684591</Name>
+        <Role>application</Role>
+        <Description>
+            statement
+            meaningful declarative sentence that is either true or false, or that which a true or false declarative
+            sentence
+            asserts
+            https://en.wikipedia.org/w/index.php?title=Statement+%28logic%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718185839
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q177646</Name>
+        <Role>application</Role>
+        <Description>
+            subset
+            set A is a subset of a set B, or equivalently B is a superset of A, if A is "contained" inside B, that is,
+            all
+            elements of A are also elements of B. A and B may coincide
+            https://en.wikipedia.org/w/index.php?title=Subset
+            See also set1:in
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714520877
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q40754</Name>
+        <Role>application</Role>
+        <Description>
+            subtraction
+            process of subtracting a number from another (minuend−subtrahend=difference); mathematical operation that
+            represents
+            the operation of removing objects from a collection
+            https://en.wikipedia.org/w/index.php?title=Subtraction
+            See also arith1:minus
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715276076
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1142861</Name>
+        <Role>application</Role>
+        <Description>
+            direct sum
+            operation in abstract algebra
+            https://en.wikipedia.org/w/index.php?title=Direct+sum+of+modules
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=623333040
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q218005</Name>
+        <Role>application</Role>
+        <Description>
+            sum
+            addition of a sequence of numbers
+            https://en.wikipedia.org/w/index.php?title=Summation
+            See also arith1:sum
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=721744712
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q484298</Name>
+        <Role>application</Role>
+        <Description>
+            surface
+            two-dimensional manifold, and, as such, may be an "abstract surface" not embedded in any Euclidean space
+            https://en.wikipedia.org/w/index.php?title=Surface+%28topology%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=690631811
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11210</Name>
+        <Role>application</Role>
+        <Description>
+            coordinate system
+            system used to uniquely determine the position of a point or other geometric element
+            https://en.wikipedia.org/w/index.php?title=Coordinate+system
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714642716
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1129196</Name>
+        <Role>application</Role>
+        <Description>
+            tangent
+            ratio of lengths of opposite side and the adjacent side of a right angled triangle; a trigonometric function
+            See also transc1:tan
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=684394495
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1274703</Name>
+        <Role>application</Role>
+        <Description>
+            hyperbolic tangent
+            hyperbolic function
+            See also transc1:tanh
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=686256296
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q908584</Name>
+        <Role>application</Role>
+        <Description>
+            tension
+            pulling force transmitted axially by means of a string, cable, chain, or similar 1D continuous object, or by
+            each
+            end of a rod, truss member, or 3D object; action-reaction pair of forces acting at each end of said
+            elements;
+            opposite of compression
+            https://en.wikipedia.org/w/index.php?title=Tension+%28physics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722276754
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q13409892</Name>
+        <Role>application</Role>
+        <Description>
+            Cauchy stress tensor
+            tensor that describes the state of stress at a point inside a material
+            https://en.wikipedia.org/w/index.php?title=Cauchy+stress+tensor
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=695018292
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q188524</Name>
+        <Role>application</Role>
+        <Description>
+            tensor
+            mathematics and physics
+            https://en.wikipedia.org/w/index.php?title=Tensor
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711526725
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2045231</Name>
+        <Role>application</Role>
+        <Description>
+            Metric tensor
+            https://en.wikipedia.org/w/index.php?title=Metric+tensor+%28general+relativity%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=392016017
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q757269</Name>
+        <Role>application</Role>
+        <Description>
+            metric tensor
+            https://en.wikipedia.org/w/index.php?title=Metric+tensor
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=710200662
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q234460</Name>
+        <Role>application</Role>
+        <Description>
+            text
+            object that can be "read" by reader; result of writing
+            https://en.wikipedia.org/w/index.php?title=Text+%28literary+theory%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714648141
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q47035128</Name>
+        <Role>application</Role>
+        <Description>
+            greater than
+            having a greater numerical value than another item
+            See also relation1:gt
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718145759
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q52834024</Name>
+        <Role>application</Role>
+        <Description>
+            less than
+            having a lesser numerical value than another item
+            See also relation1:lt
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718145699
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q191849</Name>
+        <Role>application</Role>
+        <Description>
+            Zermelo–Fraenkel set theory
+            standard form of axiomatic set theory
+            https://en.wikipedia.org/w/index.php?title=Zermelo%E2%80%93Fraenkel+set+theory
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=690018035
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11471</Name>
+        <Role>application</Role>
+        <Description>
+            time
+            dimension in which events can be ordered from the past through the present into the future
+            https://en.wikipedia.org/w/index.php?title=Time
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715212264
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q55935272</Name>
+        <Role>application</Role>
+        <Description>
+            less or equal to
+            has a smaller value or the same value
+            See also relation1:leq
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720371263
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q55935291</Name>
+        <Role>application</Role>
+        <Description>
+            greater or equal to
+            has a greater value or the same value
+            See also relation1:geq
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720371915
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q6520159</Name>
+        <Role>application</Role>
+        <Description>
+            Fourier transform
+            mathematical transform that expresses a mathematical function of time as a function of frequency
+            https://en.wikipedia.org/w/index.php?title=Fourier+transform
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=720218111
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q12202238</Name>
+        <Role>application</Role>
+        <Description>
+            transformation
+            function mapping a set to itself
+            https://en.wikipedia.org/w/index.php?title=Transformation+%28function%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=680100758
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q382497</Name>
+        <Role>application</Role>
+        <Description>
+            affine transformation
+            coordinates transformation
+            https://en.wikipedia.org/w/index.php?title=Affine+transformation
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=698216124
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2051983</Name>
+        <Role>application</Role>
+        <Description>
+            conjugate transpose
+            complex matrix A* obtained from a matrix A by transposing it and conjugating each entry
+            https://en.wikipedia.org/w/index.php?title=Conjugate+transpose
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=597663938
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q47004757</Name>
+        <Role>application</Role>
+        <Description>
+            uncertainty
+            extent to which a certain property cannot be reliably known
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=620560010
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q193796</Name>
+        <Role>application</Role>
+        <Description>
+            imaginary unit
+            square root of negative one, used to define complex numbers
+            https://en.wikipedia.org/w/index.php?title=Imaginary+unit
+            See also nums1:i
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=683828795
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q120812</Name>
+        <Role>application</Role>
+        <Description>
+            absolute value
+            magnitude of the number on the real number line; (of a real number x) non-negative value of x without regard
+            to its
+            sign
+            https://en.wikipedia.org/w/index.php?title=Absolute+value
+            See also arith1:abs
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=722596542
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q200125</Name>
+        <Role>application</Role>
+        <Description>
+            expected value
+            long-run average value of a random variable
+            https://en.wikipedia.org/w/index.php?title=Expected+value
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=692849538
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2918589</Name>
+        <Role>application</Role>
+        <Description>
+            Expectation value
+            https://en.wikipedia.org/w/index.php?title=Expectation+value+%28quantum+mechanics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=587824969
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q176623</Name>
+        <Role>application</Role>
+        <Description>
+            random variable
+            variable whose possible values are numerical outcomes of a random phenomenon
+            https://en.wikipedia.org/w/index.php?title=Random+variable
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=710744798
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q50701</Name>
+        <Role>application</Role>
+        <Description>
+            variable
+            value that can change, usually with a context of an equation or operation
+            https://en.wikipedia.org/w/index.php?title=Variable+%28mathematics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=715944225
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2627460</Name>
+        <Role>application</Role>
+        <Description>
+            Conjugate variables
+            https://en.wikipedia.org/w/index.php?title=Conjugate+variables+%28thermodynamics%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=695628464
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q1440227</Name>
+        <Role>application</Role>
+        <Description>
+            Allan variance
+            https://en.wikipedia.org/w/index.php?title=Allan+variance
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=597535378
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q3554818</Name>
+        <Role>application</Role>
+        <Description>
+            projective variety
+            algebraic variety defined within a projective space
+            https://en.wikipedia.org/w/index.php?title=Projective+variety
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=608653346
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q13471665</Name>
+        <Role>application</Role>
+        <Description>
+            vector
+            element of a vector space
+            https://en.wikipedia.org/w/index.php?title=Vector+%28mathematics+and+physics%29
+            See also linalg2:vector
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=707047813
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2916003</Name>
+        <Role>application</Role>
+        <Description>
+            row vector
+            https://en.wikipedia.org/w/index.php?title=Row+vector
+            See also linalg2:matrixrow
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=680805499
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q36255</Name>
+        <Role>application</Role>
+        <Description>
+            unit vector
+            vector of length one
+            https://en.wikipedia.org/w/index.php?title=Unit+vector
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=702734767
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q44528</Name>
+        <Role>application</Role>
+        <Description>
+            Euclidean vector
+            geometric object that has magnitude (or length) and direction
+            https://en.wikipedia.org/w/index.php?title=Euclidean+vector
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718448448
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q11465</Name>
+        <Role>application</Role>
+        <Description>
+            velocity
+            rate of change of the position of an object as a function of time, and the direction of that change
+            https://en.wikipedia.org/w/index.php?title=Velocity
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=709957431
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q13824</Name>
+        <Role>application</Role>
+        <Description>
+            phase velocity
+            rate at which the phase of the wave propagates in space
+            https://en.wikipedia.org/w/index.php?title=Phase+velocity
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=718314089
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q2518235</Name>
+        <Role>application</Role>
+        <Description>
+            versor
+            quaternion of norm one (a unit quaternion)
+            https://en.wikipedia.org/w/index.php?title=Versor
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=567746320
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q756115</Name>
+        <Role>application</Role>
+        <Description>
+            volatility
+            degree of variation of a trading price series over time
+            https://en.wikipedia.org/w/index.php?title=Volatility+%28finance%29
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=702583707
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q39297</Name>
+        <Role>application</Role>
+        <Description>
+            volume
+            quantity of three-dimensional space
+            https://en.wikipedia.org/w/index.php?title=Volume
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=714662939
+        </Description>
+    </CDDefinition>
+    <CDDefinition>
+        <Name>Q929043</Name>
+        <Role>application</Role>
+        <Description>
+            geostrophic wind
+            https://en.wikipedia.org/w/index.php?title=Geostrophic+wind
+
+            This description was generated from http://www.wikidata.org/w/index.php?oldid=711828465
+        </Description>
+    </CDDefinition>
+</CD>

@@ -47,3 +47,5 @@ transc1:sin,14,Q152415
 transc1:sinh,1,Q1292101
 transc1:tan,2,Q1129196
 transc1:tanh,2,Q1274703
+hypergeo0:gamma,1,wikidata:Q190573
+
