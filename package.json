@@ -40,7 +40,7 @@
     "github-content": "^1.0.1",
     "marked": "^0.4.0",
     "mathoid": "^0.7.1",
-    "popper.js": "^1.13.0",
+    "popper.js": "^1.14.5",
     "preq": "^0.5.2",
     "pretty-data": "^0.40.0",
     "request": "^2.83.0",
