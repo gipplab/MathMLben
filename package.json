@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "child-process-promise": "^2.2.1",
-    "promised-spawn": "1.0.0"
+    "promised-spawn": "1.0.0",
+    "texvcjs": "^0.3.1"
   }
 }

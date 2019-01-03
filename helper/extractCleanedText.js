@@ -16,16 +16,14 @@ fs.readdirAsync(goldDir)
             .then(function (json) {
                 console.log();
                 console.log('Parse ' + num + ': ' + json.title);
-                const tex = (json.correct_tex||"")
-                    .replace(/%(?:\r\n|\r|\n)/g, '')
-                    .replace(/^(\\\[)?(\\[.,;!]+)*|[.,;!]*(\\[.,;!]+)*(\\])?$/g, '')
+                const tex = (json.correct_mml||"")
                     .replace(/\n/g,' ');
                 return {tex, id: parseInt(num)};
             });
     })
     .call("sort", (a, b) => a.id - b.id)
-    .reduce((s, j) => s += `${j.tex} % https://mathmlben.wmflabs.org/${j.id}\n`, "")
+    .reduce((s, j) => s += `${j.tex} <!-- https://mathmlben.wmflabs.org/${j.id}-->\n`, "")
     .then(s => {
-            return fs.writeFileAsync('ps.tex', s);
+            return fs.writeFileAsync('ps.mml.xml', s);
         }
     );
