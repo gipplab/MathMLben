@@ -25,7 +25,9 @@ fs.readdirAsync(goldDir)
             });
     })
     .call("sort", (a, b) => a.id - b.id)
-    .reduce((s, j) => s += `\n\n<!-- https://mathmlben.wmflabs.org/${j.id}-->\n${j.mml}`, "<html><body>\n\n")
+    .reduce((s, j) => s += `\n\n<a href="https://mathmlben.wmflabs.org/${j.id}">${j.id}:</a>\n<br/>${j.mml}<br/>`, "<html> <head>\n" +
+        "  <meta charset=\"UTF-8\">\n" +
+        "</head> <body>\n\n")
     .then(s => {
             return fs.writeFileAsync('ps.html', s+"\n</body></html>");
         }
