@@ -1,5 +1,6 @@
 const BB = require('bluebird');
 const fs = BB.promisifyAll(require('fs'));
+const mathml = require('mathml');
 
 const goldDir = '../data';
 
@@ -16,14 +17,16 @@ fs.readdirAsync(goldDir)
             .then(function (json) {
                 console.log();
                 console.log('Parse ' + num + ': ' + json.title);
-                const tex = (json.correct_mml||"")
-                    .replace(/\n/g,' ');
-                return {tex, id: parseInt(num)};
+                if (json.correct_mml){
+                    return {mml:mathml(json.correct_mml).simplifyIds().prefixName(`q${num}.`), id: parseInt(num)};
+                } else {
+                    return {mml:"",id:parseInt(num)};
+                }
             });
     })
     .call("sort", (a, b) => a.id - b.id)
-    .reduce((s, j) => s += `${j.tex} <!-- https://mathmlben.wmflabs.org/${j.id}-->\n`, "")
+    .reduce((s, j) => s += `\n\n<!-- https://mathmlben.wmflabs.org/${j.id}-->\n${j.mml}`, "<html><body>\n\n")
     .then(s => {
-            return fs.writeFileAsync('ps.mml.xml', s);
+            return fs.writeFileAsync('ps.html', s+"\n</body></html>");
         }
     );
