@@ -120,7 +120,8 @@ app.get('/rawdata/:qid', function(req, res){
     var qid = req.params.qid;
     if ( /^([0-9]\d*)$/g.test(qid) ){
         var num = parseInt(qid);
-        if ( num < 1 || 307 < num ){
+        let maxID = 320;
+        if ( num < 1 || maxID < num ){
             res.status(400).send( 'Invalid QID request: ' + qid + ' is out of range. Must be between 1 and 307.' );
         } else {
             console.log("Requesting single raw file of QID: " + num);
