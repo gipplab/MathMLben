@@ -21,16 +21,21 @@ fs.readdirAsync(goldDir)
                 console.log('Parse ' + num + ': ' + json.title);
                 let mml = json.correct_mml;
                 if (mml) {
-                    return zlib.deflateAsync(mml)
-                        .then(comp => {
+                    const mmlShort = mathml(mml).toMinimalPmml().toString();
+                    return BB.join(
+                        zlib.deflateAsync(mml),
+                        zlib.deflateAsync(mmlShort),
+                        (comp, shortComp) => {
                             return {
                                 string: mml.length,
+                                short: mmlShort.length,
                                 uri: encodeURIComponent(mml).length,
                                 base64: new Buffer(mml).toString('base64').length,
                                 comp: comp.toString('base64').length,
-                                compUri: encodeURIComponent(comp.toString('base64')).length
+                                compUri: encodeURIComponent(comp.toString('base64')).length,
+                                compShort: shortComp.toString('base64').length
                             }
-                        })
+                        });
                 } else {
                     return false;
                 }
@@ -64,7 +69,7 @@ fs.readdirAsync(goldDir)
             ([k, v]) => {
                 t.push([k, v.min, Math.round(v.sum / v.cnt), v.max, v.cnt]);
             });
-        return fs.writeFileAsync('res.md', table(t, {
+        return fs.writeFileAsync('CompressionResults.md', table(t, {
             align: ['l', 'r', 'r', 'r', 'r']
         }));
     });
