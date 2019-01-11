@@ -27,13 +27,13 @@ fs.readdirAsync(goldDir)
                         zlib.deflateAsync(mmlShort),
                         (comp, shortComp) => {
                             return {
-                                string: mml.length,
-                                short: mmlShort.length,
-                                uri: encodeURIComponent(mml).length,
-                                base64: new Buffer(mml).toString('base64').length,
-                                comp: comp.toString('base64').length,
-                                compUri: encodeURIComponent(comp.toString('base64')).length,
-                                compShort: shortComp.toString('base64').length
+                                MathMLString: mml.length,
+                                OptimizedMathMLString: mmlShort.length,
+                                MathMLStringURIEncoded: encodeURIComponent(mml).length,
+                                MathMLStringBase64Encoded: new Buffer(mml).toString('base64').length,
+                                zlibCompressedMathMLStringBase64urlEncoded: comp.toString('base64').length,
+                                zlibCompressedMathMLStringBase64Encoded: encodeURIComponent(comp.toString('base64')).length,
+                                zlibCompressedOptimizedMathMLStringBase64urlEncoded: shortComp.toString('base64').length
                             }
                         });
                 } else {
