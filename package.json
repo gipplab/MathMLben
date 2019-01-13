@@ -28,7 +28,7 @@
     "angular-highlightjs-searchtext": "0.0.4",
     "angular-marked": "^1.2.2",
     "angular-route": "^1.7.5",
-    "angular-schema-form": "git@github.com:json-schema-form/angular-schema-form#v0.8.14",
+    "angular-schema-form": "git+https://git@github.com/json-schema-form/angular-schema-form#v0.8.14",
     "angular-schema-form-bootstrap": "^0.2.0",
     "angular1-ui-bootstrap4": "^2.4.22",
     "body-parser": "^1.18.2",
