@@ -1,27 +1,27 @@
 require('app-module-path').addPath(__dirname);
 
-var express = require('express');
-var app = express();
-var path = require("path");
-var yaml = require('js-yaml');
-var BBPromise = require('bluebird');
-var preq = require('preq');
-var fs = BBPromise.promisifyAll(require('fs'));
-var mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
+const express = require('express');
+const app = express();
+const path = require("path");
+const yaml = require('js-yaml');
+const BBPromise = require('bluebird');
+const preq = require('preq');
+const fs = BBPromise.promisifyAll(require('fs'));
+const mathoidcfg = yaml.safeLoad(fs.readFileSync('config.yaml'));
 
 //var readme = fs.readFileSync('views/README.md').toString();
 
 require('app-module-path').addPath(path.join(__dirname + '/node_modules/vmext'));
-var bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 
 app.use(bodyParser.json({limit: "50mb"}));
 app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
-var GithubContent = require('github-content');
+const GithubContent = require('github-content');
 require('mathoid/server.js');
 
-var githubChangeRemoteFile = require('github-change-remote-file');
+const githubChangeRemoteFile = require('github-change-remote-file');
 
-var mergeHelper = require('helper/merge.js');
+const mergeHelper = require('helper/merge.js');
 
 // add middleware to:
 // 1) Allow CORS
@@ -50,11 +50,11 @@ app.use('/api', require("./node_modules/vmext/api/versions.js"));
 app.use('/', require('./node_modules/vmext/routes/routes'));
 
 app.post('/get-model', function (req, res) {
-    var body = req.body;
-    var gc = new GithubContent(body);
+    const body = req.body;
+    const gc = new GithubContent(body);
     gc.file(body.filename, function (err, file) {
         try {
-            var json = JSON.parse(file.contents.toString());
+            const json = JSON.parse(file.contents.toString());
             res.send(json);
         } catch (e) {
             res.status(400).send('Invalid JSON string');
@@ -63,7 +63,7 @@ app.post('/get-model', function (req, res) {
 });
 
 app.post('/write-model', function (req, res) {
-    var body = req.body;
+    const body = req.body;
     body.transform = function (x) {
         body.message = body.data.commitMsg || `Update item ${body.data.qID} \n\n[ci skip]`;
         delete body.data.commitMsg;
@@ -117,9 +117,9 @@ app.get('/about', function(req, res, next) {
 });
 
 app.get('/rawdata/:qid', function(req, res){
-    var qid = req.params.qid;
+    const qid = req.params.qid;
     if ( /^([0-9]\d*)$/g.test(qid) ){
-        var num = parseInt(qid);
+        const num = parseInt(qid);
         let maxID = 320;
         if ( num < 1 || maxID < num ){
             res.status(400).send( 'Invalid QID request: ' + qid + ' is out of range. Must be between 1 and 307.' );
@@ -149,7 +149,7 @@ app.use('/', function(req, res){
     res.redirect('about');
 });
 
-var port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
+const port = 34512; //process.env.GOULDI_PORT  | mathoidcfg.gouldi.port;
 app.listen( port, function () {
     console.log('Started GoUldI on ' + port);
 });
