@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
-    "acorn": "^6.0.5",
+    "acorn": "^7.1.1",
     "angular-cookies": "^1.6.9",
     "angular-highlightjs-searchtext": "0.0.4",
     "angular-marked": "^1.2.2",
@@ -48,7 +48,7 @@
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "texzilla": "^0.9.9",
-    "vmext": "1.0.10",
+    "vmext": "1.0.11",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
