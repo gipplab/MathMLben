@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -25,3 +25,32 @@ patch:
         patched: '2019-01-13T23:30:05.699Z'
     - npm-check-updates > npmi > npm > request > tunnel-agent:
         patched: '2019-01-13T23:30:05.699Z'
+  SNYK-JS-LODASH-567746:
+    - github-change-remote-file > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - npm-check-updates > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - vmext > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - mathoid > mock-express-request > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - preq > requestretry > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - npm-check-updates > node-alias > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - vmext > cytosnap > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - mathoid > mock-express-response > mock-express-request > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - mathoid > preq > requestretry > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - mathoid > service-runner > limitation > kad > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - vmext > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - vmext > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
+    - vmext > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T01:15:48.402Z'
