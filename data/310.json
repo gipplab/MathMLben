@@ -4,7 +4,7 @@
   "type": "definition",
   "math_inputtex": "\\mathbf{a} = \\frac{\\mathrm{d} \\mathbf{v}}{\\mathrm{d} t}",
   "correct_tex": "\\mathbf{a} = \\frac{\\mathrm{d} \\mathbf{v}}{\\mathrm{d} t}",
-  "math_inputtex_semantic": "\\mathbf{a} = \\frac{\\mathrm{d} \\w{Q11465}{\\mathbf{v}}}{\\mathrm{d} \\w{Q2199864}{t}}",
+  "math_inputtex_semantic": "\\w{Q11376}{\\mathbf{a}} = \\frac{\\mathrm{d} \\w{Q11465}{\\mathbf{v}}}{\\mathrm{d} \\w{Q2199864}{t}}",
   "check": {
     "tree": true,
     "qid": false
