@@ -1,6 +1,6 @@
 {
   "constraints": [],
-  "title": "Acceleration",
+  "title": "acceleration",
   "type": "definition",
   "math_inputtex": "\\mathbf{a} = \\frac{\\mathrm{d} \\mathbf{v}}{\\mathrm{d} t}",
   "correct_tex": "\\mathbf{a} = \\frac{\\mathrm{d} \\mathbf{v}}{\\mathrm{d} t}",
