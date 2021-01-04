@@ -47,8 +47,7 @@
     "qID": {
       "title": "Gold ID",
       "type": "integer",
-      "minimum": 1,
-      "maximum": 320
+      "minimum": 1
     },
     "check":{
       "qid": {

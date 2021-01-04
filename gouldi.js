@@ -17,11 +17,13 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json({limit: "50mb"}));
 app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
 const GithubContent = require('github-content');
+const Github = require('github-base');
 require('mathoid/server.js');
 
 const githubChangeRemoteFile = require('github-change-remote-file');
 
 const mergeHelper = require('helper/merge.js');
+const dataHelper = require('helper/dataHelper.js')
 
 // add middleware to:
 // 1) Allow CORS
@@ -116,14 +118,33 @@ app.get('/about', function(req, res, next) {
     res.sendFile( "views/aboutPage.html", { root: __dirname } );
 });
 
+app.post('/numberOfItems', function(req, res){
+    const github = new Github(req.body);
+    github.get('/repos/ag-gipp/mathmlben/contents/data', {})
+        .then(innerRes => {
+            const number = innerRes.body.filter(entry => entry.type === 'file').length;
+            console.log("Number of files remote: " + number)
+            res.send({numberOfEntries: number});
+        })
+        .catch(err => {
+            console.log("Unable to retrieve number of entries from GitHub. Load local savings instead.");
+            res.send( {numberOfEntries: dataHelper.numberOfEntries()} );
+        })
+});
+
+app.get('/getDefaultEntry', function(req, res){
+    res.sendFile( 'data/default/default.json', {root: __dirname} );
+});
+
 app.get('/rawdata/:qid', function(req, res){
     const qid = req.params.qid;
+    const maxNum = dataHelper.numberOfEntries();
     if ( /^([0-9]\d*)$/g.test(qid) ){
         const num = parseInt(qid);
-        let maxID = 320;
-        if ( num < 1 || maxID < num ){
-            res.status(400).send( 'Invalid QID request: ' + qid + ' is out of range. Must be between 1 and 307.' );
-        } else {
+        if ( num < 1 || maxNum <= num ){
+            res.status(400).send( 'Invalid QID request: ' + qid + ' is out of range. Must be between 1 and ' + maxNum + '.' );
+        }
+        else {
             console.log("Requesting single raw file of QID: " + num);
             res.sendFile( "data/"+qid+".json", { root: __dirname } );
         }

@@ -14,18 +14,21 @@ gouldi.controller(
                     console.log("Finished loading process. Init cookies and load actual model.");
 
                     //console.log("Let us see what's going on here, on init: " + $routeParams.qid);
+                    // gouldiHttpServices.getNumberOfEntries();
                     gouldiCookieService.initCookies( $scope.modelrepo );
-                    $scope.max = $scope.schema.properties.qID.maximum;
+                    // $scope.max = $scope.schema.properties.qID.maximum;
                     $scope.min = $scope.schema.properties.qID.minimum;
-                    if (reroutingID >= $scope.min &&
-                        reroutingID <= $scope.max) {
-                        console.log("Load different qID: " + reroutingID);
-                        $scope.model.qID = reroutingID;
-                    } else {
-                        console.log("Load default qID 1.");
-                        $scope.model.qID = 1;
-                    }
-                    $scope.readModel();
+                    gouldiHttpServices.getNumberOfEntries($scope.modelrepo).then((res) => {
+                        $scope.max = res.data.numberOfEntries;
+                        if (reroutingID >= $scope.min && reroutingID <= $scope.max) {
+                            console.log("Load different qID: " + reroutingID);
+                            $scope.model.qID = reroutingID;
+                        } else {
+                            console.log("Load default qID 1.");
+                            $scope.model.qID = 1;
+                        }
+                        $scope.readModel();
+                    });
                 });
 
             gouldiHttpServices
@@ -77,9 +80,15 @@ gouldi.controller(
         };
 
         $scope.changeID = function( newID ){
-            if ( newID < $scope.min || $scope.max < newID ) return;
-            $scope.model.qID = newID;
-            $scope.readModel();
+            gouldiHttpServices.getNumberOfEntries($scope.modelrepo).then((res) => {
+                $scope.max = res.data.numberOfEntries;
+                if ( newID < $scope.min || $scope.max + 1 < newID ) {
+                    return;
+                }
+                $scope.model.qID = newID;
+                $scope.readModel();
+            });
+
         }
 
         $scope.previousID = function( model ){
@@ -94,20 +103,30 @@ gouldi.controller(
             var id = $scope.model.qID;
             var githubReq = $scope.modelrepo;
 
-            gouldiHttpServices.modelRequest( id, githubReq )
-                .then( function (res) {
-                    $scope.model = res.data;
-                    $scope.model.qID = id;
+            if ( id <= $scope.max ) {
+                gouldiHttpServices.modelRequest( id, githubReq )
+                    .then( function (res) {
+                        $scope.model = res.data;
+                        $scope.model.qID = id;
 
-                    if ( !('constraints' in $scope.model) )
-                        $scope.model.constraints = [];
+                        if ( !('constraints' in $scope.model) )
+                            $scope.model.constraints = [];
 
-                    $scope.updated();
-                }).then( function(){
+                        $scope.updated();
+                    }).then( function(){
                     $scope.logger("Loaded ID: " + id, 'alert-info');
                 }).catch( function(err) {
                     $scope.logger(err, 'alert-danger');
-            });
+                });
+            } else {
+                gouldiHttpServices.getDefaultEntry()
+                    .then( function (res) {
+                        console.log(res);
+                        $scope.model = res.data;
+                        $scope.model.qID = id;
+                        $scope.updated();
+                    });
+            }
         };
 
         $scope.disableTokenError = function(){

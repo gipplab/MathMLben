@@ -70,6 +70,17 @@ gouldi.service(
             return $http.post('/render-math', {
                 input: latex
             });
+        };
+
+        this.getNumberOfEntries = function(jsonInfo) {
+            var githubReq = jsonInfo;
+            githubReq.path = jsonInfo.foldername;
+            // return $http.post('/get-model', githubReq);
+            return $http.post('/numberOfItems', githubReq);
+        }
+
+        this.getDefaultEntry = function() {
+            return $http.get('/getDefaultEntry');
         }
     }]
 );
