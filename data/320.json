@@ -1,6 +1,6 @@
 {
   "constraints": [],
-  "comment": "Imported from AnnoMathTeX seeding",
+  "comment": "Imported from AnnoMathTeX seeding.",
   "title": "conservation of momentum",
   "math_inputtex_semantic": "\\w{Q41273}{p}_{tot,1} = \\w{Q41273}{p}_{tot,2}",
   "math_inputtex": "p_{tot,1} = p_{tot,2}",
