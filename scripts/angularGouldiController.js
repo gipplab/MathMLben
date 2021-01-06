@@ -112,18 +112,21 @@ gouldi.controller(
                         if ( !('constraints' in $scope.model) )
                             $scope.model.constraints = [];
 
+                        $scope.isNewEntry = false;
                         $scope.updated();
-                    }).then( function(){
-                    $scope.logger("Loaded ID: " + id, 'alert-info');
-                }).catch( function(err) {
-                    $scope.logger(err, 'alert-danger');
-                });
+                    })
+                    .then( function(){
+                        $scope.logger("Loaded ID: " + id, 'alert-info');
+                    })
+                    .catch( function(err) {
+                        $scope.logger(err, 'alert-danger');
+                    });
             } else {
                 gouldiHttpServices.getDefaultEntry()
                     .then( function (res) {
-                        console.log(res);
                         $scope.model = res.data;
                         $scope.model.qID = id;
+                        $scope.isNewEntry = true;
                         $scope.updated();
                     });
             }
@@ -187,7 +190,7 @@ gouldi.controller(
 
             // Then we check if the form is valid
             if (form.$valid) {
-                gouldiHttpServices.writeModelRequest($scope.modelrepo, $scope.model)
+                gouldiHttpServices.writeModelRequest($scope.modelrepo, $scope.model, $scope.isNewEntry)
                     .then(function (res) {
                         $scope.logger(res, 'alert-success');
                     }).catch(function (jsonError) {

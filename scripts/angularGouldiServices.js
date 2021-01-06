@@ -50,14 +50,24 @@ gouldi.service(
             return $http.post('/get-model', githubReq);
         };
 
-        this.writeModelRequest = function( repo, data ){
-            return $http.post('/write-model', {
-                user:       repo.owner,
-                repo:       repo.repo,
-                filename:   repo.foldername + "/" + data.qID + ".json",
-                token:      repo.token,
-                data:       data
-            });
+        this.writeModelRequest = function( repo, data, create ){
+            if ( create === false ) {
+                return $http.post('/write-model', {
+                    user:       repo.owner,
+                    repo:       repo.repo,
+                    filename:   repo.foldername + "/" + data.qID + ".json",
+                    token:      repo.token,
+                    data:       data
+                });
+            } else {
+                return $http.post('/write-model-create', {
+                    owner:      repo.owner,
+                    repo:       repo.repo,
+                    path:       repo.foldername + "/" + data.qID + ".json",
+                    token:      repo.token,
+                    content:    data
+                });
+            }
         };
 
         this.latexmlRequest = function( semantic_latex ){

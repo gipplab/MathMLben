@@ -66,6 +66,8 @@ app.post('/get-model', function (req, res) {
 
 app.post('/write-model', function (req, res) {
     const body = req.body;
+    console.log("Update file on GitHub: " + body.filename);
+    console.log(body);
     body.transform = function (x) {
         body.message = body.data.commitMsg || `Update item ${body.data.qID} \n\n[ci skip]`;
         delete body.data.commitMsg;
@@ -75,6 +77,25 @@ app.post('/write-model', function (req, res) {
     githubChangeRemoteFile(body)
         .then(function (inner_res) {
             res.send( inner_res );
+        })
+        .catch(function (err) {
+            throw err;
+        });
+});
+
+app.post('/write-model-create', function(req, res) {
+    const body = req.body;
+    const path = '/repos/'+body.owner+'/'+body.repo+'/contents/'+body.path;
+    const github = new Github({token: body.token});
+    console.log("Push new file to github: " + body.path);
+
+    body.message = body.content.commitMsg || `Create new item ${body.content.qID} \n\n[ci skip]`;
+    delete body.token;
+    body.content = Buffer.from(JSON.stringify(body.content, null, 2)).toString('base64');
+
+    github.put(path, body)
+        .then(innerRes => {
+            res.send(innerRes.body);
         })
         .catch(function (err) {
             throw err;
