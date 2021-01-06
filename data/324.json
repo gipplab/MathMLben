@@ -1,0 +1,17 @@
+{
+  "definitions": {},
+  "constraints": [],
+  "math_inputtex": "",
+  "math_inputtex_semantic": "",
+  "correct_tex": "",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      alttext=\"x\"\n      class=\"ltx_Math\"\n      display=\"inline\"\n      id=\"p1.1.m1.1\">\n   <semantics id=\"p1.1.m1.1a\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">x</mi>\n      <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n         <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑥</ci>\n      </annotation-xml>\n      <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">x</annotation>\n   </semantics>\n</math>",
+  "uri": "",
+  "title": "Default-Entry",
+  "comment": "This is the default entry. You can change it and commit to create a new gold standard entry.",
+  "type": "general formula",
+  "check": {
+    "tree": false,
+    "qid": false
+  },
+  "qID": 324
+}
