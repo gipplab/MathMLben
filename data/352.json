@@ -10,8 +10,7 @@
   "comment": "Imported from AnnoMathTeX seeding.",
   "type": "definition",
   "check": {
-    "tree": false,
-    "qid": false
-  },
-  "qID": 352
+    "tree": true,
+    "qid": true
+  }
 }
