@@ -1,0 +1,17 @@
+{
+  "definitions": {},
+  "constraints": [],
+  "math_inputtex": "\\mathbf{v} = \\frac{\\mathrm{d} \\mathbf{r}}{\\mathrm{d} t}",
+  "math_inputtex_semantic": "\\w{Q11465}{\\boldsymbol{v}} = \\deriv{\\w{Q192388}{\\boldsymbol{r}}}{\\w{Q2199864}{t}}",
+  "correct_tex": "\\mathbf{v} = \\frac{\\mathrm{d} \\mathbf{r}}{\\mathrm{d} t}",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      alttext=\"x\"\n      class=\"ltx_Math\"\n      display=\"inline\"\n      id=\"p1.1.m1.1\">\n   <semantics id=\"p1.1.m1.1a\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">x</mi>\n      <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n         <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑥</ci>\n      </annotation-xml>\n      <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">x</annotation>\n   </semantics>\n</math>",
+  "uri": "https://www.wikidata.org/wiki/Q11465",
+  "title": "velocity",
+  "comment": "",
+  "type": "definition",
+  "check": {
+    "tree": true,
+    "qid": true
+  },
+  "qID": 373
+}
