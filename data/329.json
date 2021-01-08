@@ -1,0 +1,17 @@
+{
+  "definitions": {},
+  "constraints": [],
+  "math_inputtex": "\\frac{\\mathrm{d}}{\\mathrm{d} t}\\left(\\frac{\\partial L}{\\partial \\dot{q}_{j}}\\right)=\\frac{\\partial L}{\\partial q_{j}}",
+  "math_inputtex_semantic": "\\deriv{d}{\\w{Q2199864}{t}}\\left(\\frac{\\w{Q2920327}{\\partial} \\w{Q505735}{L}}{\\w{Q2920327}{\\partial} \\w{Q11465}{\\dot{q}_{j}}}\\right)=\\frac{\\w{}{\\partial} \\w{Q505735}{L}}{\\w{}{\\partial} \\w{Q1057607}{q_{j}}}",
+  "correct_tex": "\\frac{\\mathrm{d}}{\\mathrm{d} t}\\left(\\frac{\\partial L}{\\partial \\dot{q}_{j}}\\right)=\\frac{\\partial L}{\\partial q_{j}}",
+  "correct_mml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"\n      xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n      alttext=\"x\"\n      class=\"ltx_Math\"\n      display=\"inline\"\n      id=\"p1.1.m1.1\">\n   <semantics id=\"p1.1.m1.1a\">\n      <mi id=\"p1.1.m1.1.1\" xref=\"p1.1.m1.1.1.cmml\">x</mi>\n      <annotation-xml encoding=\"MathML-Content\" id=\"p1.1.m1.1b\">\n         <ci id=\"p1.1.m1.1.1.cmml\" xref=\"p1.1.m1.1.1\">𝑥</ci>\n      </annotation-xml>\n      <annotation encoding=\"application/x-tex\" id=\"p1.1.m1.1c\">x</annotation>\n   </semantics>\n</math>",
+  "uri": "https://www.wikidata.org/wiki/Q875744",
+  "title": "euler-lagrange equation",
+  "comment": "Imported from AnnoMathTeX seeding.",
+  "type": "definition",
+  "check": {
+    "tree": true,
+    "qid": true
+  },
+  "qID": 329
+}
