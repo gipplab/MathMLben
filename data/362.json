@@ -11,6 +11,6 @@
   "type": "definition",
   "check": {
     "tree": true,
-    "qid": true
+    "qid": false
   }
 }
