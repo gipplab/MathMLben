@@ -7,6 +7,8 @@ The Gold Standard comprises 305 mathematical formulae:
 * 1-100 extracted from the NTCIR 11 Math Wikipedia
 * 101-200 from the NIST Digital Library of Mathematical Functions (DLMF)
 * 201-305 from the NTCIR arXiv and NTCIR-12 Wikipedia datasets
+* 306-309 physics differential equation Formula Concepts (Scharpf et al., 2019) from Wikipedia
+* 310-375 from 25 physics Wikipedia articles annotated using the AnnoMathTeX formula and identifier name recommender system (https://annomathtex.wmflabs.org).
 
 An overview of the sources can be found at [dataset table](https://mathmlben.wmflabs.org/dataset).
 
