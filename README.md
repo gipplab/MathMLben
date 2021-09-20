@@ -5,6 +5,26 @@
 
 Please use the website https://mathmlben.wmflabs.org to make changes to the data.
 
+# Cite this Work
+
+Please cite our work if you use MathMLben:
+```bibtex
+@inproceedings{SchubotzGSMCG18,
+  author = {Schubotz, Moritz and Greiner-Petter, Andr\'{e} and Scharpf, Philipp and Meuschke, Norman and Cohl, Howard S. and Gipp, Bela},
+	address = {Fort Worth, Texas, USA},
+	title = {Improving the {Representation} and {Conversion} of {Mathematical} {Formulae} by {Considering} their {Textual} {Context}},
+	isbn = {978-1-4503-5178-2},
+	url = {https://arxiv.org/abs/1804.04956},
+	doi = {10.1145/3197026.3197058},
+	booktitle = {Proceedings of the 18th {ACM}/{IEEE} on {Joint} {Conference} on {Digital} {Libraries} ({JCDL})},
+	publisher = {ACM},
+	month = may,
+	year = {2018},
+	keywords = {mathml, mathmlben, survey, translation},
+	pages = {233--242},
+}
+```
+
 ### notes on deployment
 
 * log in to the server (e.g., drmf-beta)
