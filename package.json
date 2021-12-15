@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ag-gipp/GoUldI#readme",
   "dependencies": {
-    "acorn": "^6.0.5",
+    "acorn": "^7.0.0",
     "angular-cookies": "^1.6.9",
     "angular-highlightjs-searchtext": "0.0.4",
     "angular-marked": "^1.2.2",
