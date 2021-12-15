@@ -41,7 +41,7 @@
     "github-content": "^1.0.1",
     "marked": "^0.6.0",
     "mathoid": "^0.7.1",
-    "npm-check-updates": "^2.15.0",
+    "npm-check-updates": "^4.0.2",
     "popper.js": "^1.13.0",
     "preq": "^0.5.2",
     "pretty-data": "^0.40.0",
