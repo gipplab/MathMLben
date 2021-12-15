@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "child-process-promise": "^2.2.1",
-    "markdown-table": "^1.1.2",
+    "markdown-table": "^2.0.0",
     "mathml": "^1.1.4",
     "promised-spawn": "1.0.0",
     "texvcjs": "^0.3.1"
